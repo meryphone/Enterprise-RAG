@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"Instrucciones_de_trabajo/03. INSTRUCCIONES DE TRABAJO/03. INSTRUCCIONES DE TRABAJO \\(TU\\)\" -maxdepth 1 -type f)",
+      "Bash(find \"Instrucciones_de_trabajo/03. INSTRUCCIONES DE TRABAJO/3.0 INSTRUCCIONES DE TRABAJO \\(SISTEMA INTEGRADO DE EJECUCIÓN\\)\" -maxdepth 1 -type f)",
+      "Bash(find \"Instrucciones_de_trabajo/03. INSTRUCCIONES DE TRABAJO/3.0 INSTRUCCIONES DE TRABAJO \\(OFICINAS LOCALES\\)\" -maxdepth 1 -type f)",
+      "Bash(find /home/maria/Escritorio/Enterprise-RAG/docs/ -path */PROYECTOS/* -type f)",
+      "Bash(python3 -c \":*)",
+      "Bash(find intecsa:*)",
+      "Bash(mv proyecto_13187 proyecto_13187_repsol)",
+      "Bash(mv proyecto_13189 proyecto_13189_dow)",
+      "Bash(mv proyecto_14090 proyecto_14090_interquisa)",
+      "Bash(mv proyecto_14093 proyecto_14093_petresa)",
+      "Bash(mv proyecto_14112 proyecto_14112_cepsa_fcc)",
+      "Bash(mkdir -p proyectos_clientes)",
+      "Bash(mv proyecto_13187_repsol proyectos_clientes/13187_repsol)",
+      "Bash(mv proyecto_13189_dow proyectos_clientes/13189_dow)",
+      "Bash(mv proyecto_14090_interquisa proyectos_clientes/14090_interquisa)",
+      "Bash(mv proyecto_14093_petresa proyectos_clientes/14093_petresa)",
+      "Bash(pip3 show:*)"
+    ],
+    "additionalDirectories": [
+      "/home/maria/Escritorio/Enterprise-RAG/docs"
+    ]
+  }
+}
