@@ -1,0 +1,906 @@
+{
+  "doc_id": "f009b3cf10c843508eb1675c07faa4dd",
+  "nombre_fichero": "LIBRERÍA DE CÉLULAS - DIAGRAMAS DE INGENIERÍA.pdf",
+  "metadatos_admin": {
+    "empresa": "intecsa",
+    "proyecto_id": null,
+    "tipo_doc": "procedimiento",
+    "idioma": "es"
+  },
+  "metadatos_portada": {
+    "codigo_documento": null,
+    "edicion": "2",
+    "fecha_edicion": null,
+    "titulo_documento": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA"
+  },
+  "fecha_ingesta": "2026-04-15T12:08:06+00:00",
+  "paginas_total": 32,
+  "chunks": [
+    {
+      "chunk_id": "03c53f99-d626-48dd-950c-d3d813ed2678",
+      "texto": "Este procedimiento tiene por objeto fijar los detalles de las celulas a utilizar Instrumentos).\n\nDesviaciones a este procedimiento solo se empleardn en elcaso de que sea necesario ·adaptarse a un contrato o a un cliente determinado.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "86aae4c2-aa29-40cb-9bff-4ecacb58d2c1",
+      "texto": "La nomenclatura de la libreria de celulas para Diagramas de Ingenieria es la siguiente: TUBE101.CEL",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. NOMENCLATURA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5a8aa7be-8cef-40fc-a060-f50314083cfe",
+      "texto": "Las celulas se obtienen segun la representacion que figura en estas hojas. Para distintas orientaciones, utilizar el comando del angulo activo requerido.\n\nExcepto cuando se indica, las celulas estan representadas a su escala de utilizacion.Solamente para las ceiulas denominadas variables (ver descripcion) se utilizará el comando de escala vertical y/o horizontal, con objeto de",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "3. NOTASGENERALES",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8dfa8077-fda9-47ca-9f8f-20917d5e3e87",
+      "texto": "TUBE101.CEL",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "LIBRERIADECELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c931ef67-c4be-48ea-9833-d40d4977635d",
+      "texto": "Se definen a continuacion los distintos tipos y espesores de lineas a utilizar en los Diagramas de Ingenieria.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "4. LINEAS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c78c3e2d33c14c1e8e850663ff608395",
+      "texto": "| TIPO DE LINEA               | ESPESOR   | LC   |   WT | UTILIZACION                                                                                                                                                      |\n|-----------------------------|-----------|------|------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Linea gruesa continua       | 0,6       |      |    5 | Lineas de proceso                                                                                                                                                |\n| Lineamediacontinua          | 0,3       | O    |    2 | Lineas de servicios                                                                                                                                              |\n| Linea fina continua         | 0,2       |      |      | Linea base, contor- nos de equipos, va- rios con esa repre- sentacion. Lineas de instru- mentos (excepto senal electrica) afectadas de celulas correspondientes. |\n| Linea fina de trazos cortos | 0,2       | 2    |      | Lineas de senal electrica de ins- trumentos,acom- panamiento de vapor en tuberias.                                                                               |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "4. LINEAS",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4459d36a-70d5-4fa2-b454-2055603b24f4",
+      "texto": "NOTAS: - Las tuberias y equipos futuros se representardn con LC=3 (Linea fina de trazos largos) manteniendo el WT correspondiente (indicar en el plano \"FUTURO\").\n\nLas tuberias y equipos existentes se representarán con LC-2 (Linea fina de trazos cortos) manteniendo el wT correspondiente (indicar en el plano \"EXISTENTE\").",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "4. LINEAS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "99d5631e-e242-4325-860f-8159a591e069",
+      "texto": "TUBE101.CEL\n\nHOJA 3DE",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "LIBRERIADECELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7897c2eb-9191-4343-b689-c419f54adf36",
+      "texto": "Se definen a continuacion los atributos de textos a utilizar en los Diagramas de Ingenieria.\n\n2,5",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "5. TEXTOS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b5495e78683f4ad983d91367fa710476",
+      "texto": "| TEXTO                                                                                                 | ESPESOR   |   WT |   IX |\n|-------------------------------------------------------------------------------------------------------|-----------|------|------|\n| Numeracion deequipos                                                                                  | 0,4       |    3 |      |\n| Descripcion de equipos                                                                                | 0,3       |    2 |    3 |\n| Rotulacion minima para casos especiales o en elinterior de circulos para descripcion de instrumentos. | 0,2       |      |    2 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "5. TEXTOS",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a4b5b485-c441-4868-9fbb-791d3e4ad4c0",
+      "texto": "TUBE101.CEL\n\nHOJA4DE\n\nTC101005.DGN\n\nTUBE101.CEL",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 5,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d294a0cdbee54efb86c93506abd1831c",
+      "texto": "|         |             |          | EDICION HOJA5DE                        |\n|---------|-------------|----------|----------------------------------------|\n| CELULA  | CODIGO ALIN | AS- 1,00 | DESCRIPCION AIRE ALIMENTACION INSTRUM. |\n|         | MOIN        | 1,00     | AIRE MODULADO INSTRUM.                 |\n| X       | CAPI        | 1,00     | TUBO CAPILAR INSTRUM.                  |\n| L       | SHID        | 1,00     | SENAL HIDRAULICA                       |\n|         | NOSS        | 1,00     | SENAL SONICA O RADIOACTIVA             |\n| NOTAS : |             |          |                                        |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "7d7cb29d-e7db-47ba-9cc3-c2885ce627ed",
+      "texto": "TC101006.DGN\n\nTUBE101.CEL",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ea0573c1b0d242e19bd7686d19b2f3a1",
+      "texto": "| CELULA                                                             | CODIGO                                                             | AS=                                                                | DESCRIPCION                                                                         |\n|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------|\n|                                                                    | AISL                                                               | 1,00                                                               | AISLAMIENTO EN LINEA REPRESENTACION NOINDISPENSABLE NOINTERRUMPIR LA LINEA AFECTADA |\n|                                                                    | ELEC                                                               | 1,00                                                               | ACOMPANAMIENTO ELECTRICO NO INTERRUMPIR LA LINEA AFECTADA                           |\n|                                                                    | ENCA                                                               | 1,00                                                               | ENCAMISADO NOI INTERRUMPIRLALINEA AFECTADA                                          |\n| PEND.                                                              | PEDE                                                               | 1,00                                                               | LINEA AUTODRENANTE (DCHA.) SITUAR ORIGEN SOBRE LINEA AFECTADA                       |\n| PEND.                                                              | PEIZ                                                               | 1,00                                                               | LINEA AUTODRENANTE (IZDA.) SITUAR ORIGEN SOBRE LINEA AFECTADA                       |\n|                                                                    | FLEC                                                               | 1,00                                                               | DIRECCION DE FLUJO                                                                  |\n| 1                                                                  | CODE                                                               | 1,00                                                               | INDICADOR DE CONT.(DCHA,) CELULAPRESENTADAAESCALA1:2 VERNOTA1                       |\n| 13                                                                 | COIZ                                                               | 1,00                                                               | INDICADOR DE CONT.(IZDA.) CELULAPRESENTADAAESCALA1:2 VER NOTA 1                     |\n|                                                                    | CAMBI                                                              | 1,00                                                               | INDICADOR DE UN CAMBIO                                                              |\n| NOTAS : 1.- (1).- TEXTO EN UNA LINEA (2）Y (3).-TEXTO EN DOS LINEAS | NOTAS : 1.- (1).- TEXTO EN UNA LINEA (2）Y (3).-TEXTO EN DOS LINEAS | NOTAS : 1.- (1).- TEXTO EN UNA LINEA (2）Y (3).-TEXTO EN DOS LINEAS | NOTAS : 1.- (1).- TEXTO EN UNA LINEA (2）Y (3).-TEXTO EN DOS LINEAS                  |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "c014b338-8cad-4cb4-a651-8967ea94bec1",
+      "texto": "DGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "573bdc19aead48a7857fadec9627866c",
+      "texto": "| INTECSA UHDE   | INTECSA UHDE   | LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA   | LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA   | TUBE101.CEL EDICION HOJA7DE   |\n|----------------|----------------|-----------------------------------------------|-----------------------------------------------|-------------------------------|\n| CELULA         | CODIGO         | CODIGO                                        | AS- DESCRIPCION                               | AS- DESCRIPCION               |\n|                | RED            | RED                                           | 1,00                                          | REDUCTOR                      |\n|                | TAPAR          | TAPAR                                         | 1,00                                          | TAPA ROSCADA O S.W.           |\n| D              | TAPAB          | TAPAB                                         | 1,00                                          | TAPA SOLDADA A TOPE           |\n|                | BRID           | BRID                                          | 1,00                                          | BRIDAS                        |\n| To 山           | DISC           | DISC                                          | 1,00                                          | DISCO CIEGO                   |\n| 山              | FIG8           | FIG8                                          | 1,00                                          | JUNTADEGAFAS                  |\n|                | FITE           | FITE                                          | 1,00                                          | FILTRO TEMPORAL               |\n| H              | FILT           | FILT                                          | 1,00                                          | FILTRO \"T\"                    |\n|                | FILY           | FILY                                          | 1,00                                          | FILTRO \"Y\"                    |\n| NOTAS :        |                |                                               |                                               |                               |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "c5b0405f-6c2e-4182-afb6-a4109fe02beb",
+      "texto": "TC101007.0\n\nTC101008.DGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 8,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9d2fe70b0e144f2d801f8700590478c9",
+      "texto": "| NTECSA UHDE   | NTECSA UHDE   | LIBRERIA DE CELULAS   | LIBRERIA DE CELULAS   | DIAGRAMAS DE INGENIERIA   | TUBE101.CEL EDICION HOJA8DE   |\n|---------------|---------------|-----------------------|-----------------------|---------------------------|-------------------------------|\n| CELULA        | CODIGO        | CODIGO                | AS=                   | DESCRIPCION               | DESCRIPCION                   |\n| C             | ACMAN         | ACMAN                 | 1,00                  | ACCESORIO PARA MANGUERA   | ACCESORIO PARA MANGUERA       |\n|               | PURG          | PURG                  | 1,00                  | PURGADOR AUTOMATICO       | PURGADOR AUTOMATICO           |\n| TC}=          |               |                       | 1,00                  |                           |                               |\n|               | FLEX          | FLEX                  |                       | TUBERIA FLEXIBLE          | TUBERIA FLEXIBLE              |\n|               | JEXP          | JEXP                  | 1,00                  | JUNTA DE EXPANSION        | JUNTA DE EXPANSION            |\n| NOTAS :       |               |                       |                       |                           |                               |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "8e1e75bd-49f2-402e-bb81-3338bd997f33",
+      "texto": "TUBE101.CEL",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f8473dd656c94b2eba7a8950dde66ede",
+      "texto": "| CELULA                                                                                | CODIGO                                                                                | AS=                                                                                   | DESCRIPCION                                                                           |\n|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|\n| X                                                                                     | VCOM                                                                                  | 1,00                                                                                  | VALVULA DE COMPUERTA                                                                  |\n|                                                                                       | VASI                                                                                  | 1,00                                                                                  | VALVULA DE ASIENTO                                                                    |\n|                                                                                       | VBOL                                                                                  | 1,00                                                                                  | VALVULA DE BOLA                                                                       |\n|                                                                                       | VMAC                                                                                  | 1,00                                                                                  | VALVULA DE MACHO                                                                      |\n|                                                                                       | VDIA                                                                                  | 1,00                                                                                  | VALVULA DE DIAFRAGMA                                                                  |\n|                                                                                       | VAGU                                                                                  | 1,00                                                                                  | VALVULA DE AGUJA                                                                      |\n|                                                                                       | VINC                                                                                  | 1,00                                                                                  | VALV. DEASIENTOINCLINADO                                                              |\n| 日 Z                                                                                   | VPI                                                                                   | 1,00                                                                                  | VALVULA DE PISTON                                                                     |\n| A                                                                                     | VPIR                                                                                  | 1,00                                                                                  | VALV.DE PISTON REGULADORA                                                             |\n|                                                                                       | VFLO                                                                                  | 1,00                                                                                  | VALVULA DE FLOTADOR                                                                   |\n| 7                                                                                     | VRET                                                                                  | 1,00                                                                                  | VALVULA DE RETENCION                                                                  |\n|                                                                                       | VMAR                                                                                  | 1,00                                                                                  | VALVULA DE MARIPOSA                                                                   |\n| NOTAS : 1.- EL ORIGEN DE ESTAS CELULAS SE SITUA EN EL CENTRO DEL CUERPO DE LAVALVULA. | NOTAS : 1.- EL ORIGEN DE ESTAS CELULAS SE SITUA EN EL CENTRO DEL CUERPO DE LAVALVULA. | NOTAS : 1.- EL ORIGEN DE ESTAS CELULAS SE SITUA EN EL CENTRO DEL CUERPO DE LAVALVULA. | NOTAS : 1.- EL ORIGEN DE ESTAS CELULAS SE SITUA EN EL CENTRO DEL CUERPO DE LAVALVULA. |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "231021fb-dce2-4e6d-9a0f-30b23dcc69ae",
+      "texto": "TUBE101.CEL\n\nHOJA10DE",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3d997a6fe698456388faec31b819bcc0",
+      "texto": "| CELULA   | CODIGO   | AS=   | DESCRIPCION                                                                     |\n|----------|----------|-------|---------------------------------------------------------------------------------|\n| 工        | VMAN     | 1,00  | VALVULA DE MANGUITO                                                             |\n|          | VCIZ     | 1,00  | VALVULA DE CIZALLA                                                              |\n|          | VANG     | 1,00  | VALVULADE ANGULO                                                                |\n|          | VFON     | 1,00  | VALVULA DE FONDO                                                                |\n|          | V3VI     | 1,00  | VALVULADE3VIAS                                                                  |\n|          | V4VI     | 1,00  | VALVULADE4VIAS                                                                  |\n|          | VCER     | 1,00  | VALVULANORMALMENTECERRADA APLICARESTACELULAJUNTOCONLADEL TIPODEVALVULAREQUERIDO |\n| M        | AMOT     | 1,00  | ACCIONAMIENTOMOTORELECT. (VALVULAS)                                             |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDE INGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "a630cc6a-0b6b-4d02-a996-70fd3f18186a",
+      "texto": "1.EL ORIGEN DE ESTAS CELULAS SE SITUA EN EL CENTRO DEL CUERPO DE LA VALVULA.\n\nTC101011.DGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 11,
+      "seccion": "NOTAS :",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4bd102e6-e184-4200-be2d-c3ff39feb055",
+      "texto": "TUBE101.CEL",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "836d3b804e6c45bd8ef48bed992e12d5",
+      "texto": "| CELULA   | CODIGO     | AS= DESCRIPCION   | AS= DESCRIPCION            |         |\n|----------|------------|-------------------|----------------------------|---------|\n|          | ORIF       | ORIF              | PLACA DE ORIFICIO 1,00     |         |\n|          | CONT 1,00  | CONT 1,00         | CONTADOR DE CAUDAL         |         |\n| 8        | TURME 1,00 | TURME 1,00        | TURBINA MEDIDORA DE CAUDAL |         |\n| M        | DRUP 1,00  | DRUP 1,00         | DISCO DE RUPTURA           |         |\n| V        | ROMP 1,00  | ROMP 1,00         | ROMPEDOR DE VACIO          |         |\n| O        | MIRI 1,00  | MIRI 1,00         | MIRILLA DE CAUDAL          |         |\n|          | TUPI 1,00  | TUPI 1,00         | TUBO DE PITOT              |         |\n|          | VENTU 1,00 | VENTU 1,00        | VENTURI                    |         |\n| NOTAS :  | NOTAS :    | NOTAS :           | NOTAS :                    | NOTAS : |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "c7dc475a-658a-4ad6-bc0f-341e01d44311",
+      "texto": ".DGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2802313e47984c159b3ed1db76b730b4",
+      "texto": "| INTECSA UHDE   | INTECSA UHDE   | LIBRERIA DE CELULAS DIAGRAMASDE INGENIERIA   | LIBRERIA DE CELULAS DIAGRAMASDE INGENIERIA   |             |\n|----------------|----------------|----------------------------------------------|----------------------------------------------|-------------|\n| CELULA         | CODIGO         | AS=                                          | DESCRIPCION                                  | DESCRIPCION |\n| 一              | ROTAL          | 1,00                                         | ROTAMETRO EN LINEA                           |             |\n|                | ROTAN          | 1,00                                         | ROTAMETRO EN ANGULO                          |             |\n| NOTAS :        | NOTAS :        | NOTAS :                                      | NOTAS :                                      | NOTAS :     |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "a1c853f3-063f-448d-a0d2-3938cf594723",
+      "texto": "TC101012.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "93c6dc4f33fc4ab0b265615e78213a0d",
+      "texto": "| INTECSA UHDE   | INTECSA UHDE   | LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA   | LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA                 |                                                             |\n|----------------|----------------|-----------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|\n| CELULA         | CODIGO         | AS=                                           |                                                             |                                                             |\n| X              | VCON           | 1,00                                          | V. CONTROL NEUMATICO                                        | V. CONTROL NEUMATICO                                        |\n|                | VC03           | 1,00                                          | V.CONTROL DE 3 VIAS                                         | V.CONTROL DE 3 VIAS                                         |\n| X              | VCOMA          | 1,00                                          | V.CONTROLNEUMAT./MANUAL                                     | V.CONTROLNEUMAT./MANUAL                                     |\n|                | VMOT           | 1,00                                          | V. CONTROL MOTORIZADA                                       | V. CONTROL MOTORIZADA                                       |\n| R              | VMANE          | 1,00                                          | V. MARIPOSA NEUMATICA                                       | V. MARIPOSA NEUMATICA                                       |\n| M              | VMAMO          | 1,00                                          | V. MARIPOSA MOTORIZADA                                      | V. MARIPOSA MOTORIZADA                                      |\n|                | VCMA           | 1,00                                          | V.CONTROL DE MANDO MANUAL                                   | V.CONTROL DE MANDO MANUAL                                   |\n| K              | VAUP           | 1,00                                          | V.AUTORREGULADORAPRESION                                    | V.AUTORREGULADORAPRESION                                    |\n|                | VSEG           | 1,00                                          | VALVULADE SEGURIDAD                                         | VALVULADE SEGURIDAD                                         |\n| X              | VSOL2          | 1,00                                          |                                                             |                                                             |\n|                | VSOL3          | 1,00                                          | VALVULA SOLENOIDE 3 VIAS                                    | VALVULA SOLENOIDE 3 VIAS                                    |\n| S              | VSOL4          | 1,00                                          | VALVULA SOLENOIDE 4 VIAS                                    | VALVULA SOLENOIDE 4 VIAS                                    |\n|                |                |                                               | EL ORIGEN DE ESTAS CELULAS SE SITUA EN EL CENTRO DEL CUERPO | EL ORIGEN DE ESTAS CELULAS SE SITUA EN EL CENTRO DEL CUERPO |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 13,
+      "pagina_fin": 13,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "b448ae80-5c19-47ea-aba3-5f1ea0d75b67",
+      "texto": "TC101013.DGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 13,
+      "pagina_fin": 13,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1b58b55ed4a240e69535491b14317770",
+      "texto": "| INTECSA UHDE   | INTECSA UHDE   | LIBRERIA DE CELULAS   | LIBRERIA DE CELULAS   | DIAGRAMASDEINGENIERIA        | TUBE101.CEL EDICION HOJA14DE   |\n|----------------|----------------|-----------------------|-----------------------|------------------------------|--------------------------------|\n| CELULA         | CODIGO         | CODIGO                | AS=                   | DESCRIPCION                  | DESCRIPCION                    |\n|                | ILOC           | ILOC                  | 1,00                  | INSTRUMENTO LOCAL            | INSTRUMENTO LOCAL              |\n| 2              | IP AN          | IP AN                 | 1,00                  | INSTRUMENTO EN PANEL CENTRAL | INSTRUMENTO EN PANEL CENTRAL   |\n|                | IPAL           | IPAL                  | 1,00                  | INSTRUMENTO EN PANEL LOCAL   | INSTRUMENTO EN PANEL LOCAL     |\n| +              | ITRA           | ITRA                  | 1,00                  | INST. EN TRASERA PANEL/RACK  | INST. EN TRASERA PANEL/RACK    |\n|                | ENCL           | ENCL                  | 1,00                  | ENCLAVAMIENTO                | ENCLAVAMIENTO                  |\n| NOTAS :        |                |                       |                       |                              |                                |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 14,
+      "pagina_fin": 14,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "dc1f2fac-c63d-4afc-9679-2bbde2c588d7",
+      "texto": "TC101014.DGN\n\nTC101015.DGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 14,
+      "pagina_fin": 15,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "17a0b1b5970846e2910f2114e2c76e38",
+      "texto": "| INTECSA UHDE   | INTECSA UHDE   | LIBRERIA DE CELULAS DIAGRAMASDE INGENIERIA   | LIBRERIA DE CELULAS DIAGRAMASDE INGENIERIA   | TUBE101.CEL                 |\n|----------------|----------------|----------------------------------------------|----------------------------------------------|-----------------------------|\n| CELULA         | CODIGO         | CODIGO                                       | AS= DESCRIPCION                              | AS= DESCRIPCION             |\n|                | BOCE           | BOCE                                         | 1,00                                         | BOMBA CENTRIFUGA HORIZONTAL |\n|                | BORO           | BORO                                         | 1,00                                         | BOMBAROTATIVA               |\n|                | BOVA           | BOVA                                         | 1,00                                         | BOMBADEVACIO                |\n|                | SOPL           | SOPL                                         | 1,00                                         | SOPLANTE                    |\n| M              | BOLI           | BOLI                                         | 1,00                                         | BOMBA CENTRIFUGA EN LINEA   |\n| NOTAS :        | NOTAS :        | NOTAS :                                      | NOTAS :                                      | NOTAS :                     |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 15,
+      "pagina_fin": 15,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "0e48cb71c0dc4f4cbe8f1c8c9256b485",
+      "texto": "| INTECSA UHDE   |           | LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA   | LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA      | TUBE101.CEL HOJA16DE                             |\n|----------------|-----------|-----------------------------------------------|--------------------------------------------------|--------------------------------------------------|\n| CELULA         | CODIGO    | CODIGO                                        | DESCRIPCION                                      | DESCRIPCION                                      |\n|                | BOAL      | BOAL                                          | BOMBA ALTERNATIVA 1,00                           | BOMBA ALTERNATIVA 1,00                           |\n|                | BODO      | BODO                                          | BOMBADOSIFICADORA                                | BOMBADOSIFICADORA                                |\n|                | BOVE      | BOVE                                          | CELULA REPRESENTADA A ESCALA 1:2 BOMBA SUMERGIDA | CELULA REPRESENTADA A ESCALA 1:2 BOMBA SUMERGIDA |\n|                | BOSU 1,00 | BOSU 1,00                                     | CELULA REPRESENTADA A ESCALA 1:2                 | CELULA REPRESENTADA A ESCALA 1:2                 |\n| NOTAS :        |           |                                               |                                                  |                                                  |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 16,
+      "pagina_fin": 16,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "283c9379-6ad4-4434-9dc3-38215a771a8a",
+      "texto": "TC101016.DGN\n\nDGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 16,
+      "pagina_fin": 17,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "03d19c75959f40f2b8db965ea2abbb17",
+      "texto": "| INTECSA UHDE   | INTECSA UHDE   | LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA   | LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA   | TUBE101.CEL EDICION HOJA17DE   |\n|----------------|----------------|-----------------------------------------------|-----------------------------------------------|--------------------------------|\n| CELULA         | CODIGO         | CODIGO                                        | AS= DESCRIPCION                               | AS= DESCRIPCION                |\n|                | MOTE           | MOTE                                          | 1,00                                          | ACCIONAMIENTO MOTOR ELECT.     |\n| MOTOR DIESEL   | MOTD           | MOTD                                          | 1,00                                          | ACCIONAMIENTO MOTOR DIESEL     |\n| T              | TURB           | TURB                                          | 1,00                                          | ACCIONAMIENTO POR TURBINA      |\n|                | EYEC 1,00      | EYEC 1,00                                     | EYECTOR                                       | EYECTOR                        |\n| NOTAS :        | NOTAS :        | NOTAS :                                       | NOTAS :                                       | NOTAS :                        |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "ae354241-74f3-46eb-b585-1dd04be3e149",
+      "texto": "TC101017.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a2eab4ea4ef34a3fbdb451a46ae1e8a7",
+      "texto": "| INTECSA UHDE   | INTECSA UHDE   | LIBRERIA DE CELULAS   | LIBRERIA DE CELULAS   | TUBE101.CEL DIAGRAMAS DE INGENIERIA EDICION 1 HOJA18DE                                    |\n|----------------|----------------|-----------------------|-----------------------|-------------------------------------------------------------------------------------------|\n| CELULA         | CODIGO         | CODIGO                | AS= DESCRIPCION       | AS= DESCRIPCION                                                                           |\n|                | INTZ           | INTZ                  | 1,00                  | INTERCAMBIADOR DE CALOR I                                                                 |\n|                | INTM           | INTM                  | 1,00                  | INTERCAMBIADOR DE CALOR II                                                                |\n|                | AERO           | AERO                  | 1,00                  | AEROREFRIGERANTE CELULA REPRESENTADA A ESCALA 1:2 EMPLEARSOLAMENTE ENESQUEMAS DE PROCESO. |\n| NOTAS :        | NOTAS :        | NOTAS :               | NOTAS :               | NOTAS :                                                                                   |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 18,
+      "pagina_fin": 18,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "56ca6996-caf4-4233-91f0-f48303f8b6b8",
+      "texto": "TC101018.DGN\n\nTUBE101.CEL\n\nHOJA19DE",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 18,
+      "pagina_fin": 19,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4304f5d00e414393ba3f31391b9ab9b5",
+      "texto": "| CELULA   | CODIGO   | AS-   | DESCRIPCION                                   |\n|----------|----------|-------|-----------------------------------------------|\n|          | COLU     | 1,00  | COLUMNA/DEPOSITO CELULAREPRESENTADAAESCALA1:2 |\n|          | FOND     | 1,00  | FONDOCOLUMNA/ DEPOSITO                        |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 19,
+      "pagina_fin": 19,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "9d3e3034-1449-4451-91ff-ea9d08436c60",
+      "texto": "NOTAS :\n\n1.- ESCALAR ESTAS CELULAS PARA OBTENER UNA REPRESENTACION PROPORCIONALAL TAMANOREALDELEQUIPO\n\nTC101020.DGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 19,
+      "pagina_fin": 20,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0637136e-1489-436f-a93f-92eba88dd44e",
+      "texto": "TUBE101.CEL",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 20,
+      "pagina_fin": 20,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e2fc3eb6a2aa4fdaa5ac74e81bad37f0",
+      "texto": "| CELULA   | CODIGO   | AS=   | DESCRIPCION             |\n|----------|----------|-------|-------------------------|\n|          | TABI     | 1,00  | TANQUE ABIERTO          |\n|          | TCON     | 1,00  | TANQUEDETECHOCONICO     |\n|          | TFLO     | 1,00  | TANQUE DE TECHOFLOTANTE |\n|          | GASO     | 1,00  | GASOMETRO               |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 20,
+      "pagina_fin": 20,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "0921bb0e7cd64952af4ce8539b567929",
+      "texto": "| INTECSA UHDE   | INTECSA UHDE   | LIBRERIA DE CELULAS DIAGRAMAS SDE INGENIERIA   | LIBRERIA DE CELULAS DIAGRAMAS SDE INGENIERIA   | TUBE101.CEL           |\n|----------------|----------------|------------------------------------------------|------------------------------------------------|-----------------------|\n| CELULA         | CODIGO         | CODIGO                                         | AS= DESCRIPCION                                | AS= DESCRIPCION       |\n|                | BOCA           | BOCA                                           | 1,00                                           | BOCA DE EQUIPO        |\n|                | BINS           | BINS                                           | 1,00                                           | BOCA DE INSPECCION    |\n|                | AHOM           | AHOM                                           | 1,00                                           | ACCESO DE HOMBRE 1    |\n| AH             | AH             | AH                                             | 1,00                                           | ACCESO DE HOMBRE 2    |\n|                | AISE           | AISE                                           | 1,00                                           | AISLAMIENTO DE EQUIPO |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 21,
+      "pagina_fin": 21,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "f24addb1-bd92-48d7-8559-b8b1e90a644e",
+      "texto": "TC101021.DGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 21,
+      "pagina_fin": 21,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "86efb42c2c5d4af39d1403794d6b580a",
+      "texto": "| INTECSA UHDE   | INTECSA UHDE   | LIBRERIA DE CELULAS   | LIBRERIA DE CELULAS   | DIAGRAMAS DE INGENIERIA   | TUBE101.CEL EDICION HOJA22DE   |\n|----------------|----------------|-----------------------|-----------------------|---------------------------|--------------------------------|\n| CELULA         | CODIGO         | CODIGO                | AS=                   | DESCRIPCION               | DESCRIPCION                    |\n| 1              | DABI           | DABI                  | 1,00                  | DRENAJE ABIERTO           | DRENAJE ABIERTO                |\n|                | DCER           | DCER                  | 1,00                  | DRENAJE CERRADO           | DRENAJE CERRADO                |\n| NOO TC101022.  | NOTAS :        | NOTAS :               | NOTAS :               | NOTAS :                   | NOTAS :                        |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 22,
+      "pagina_fin": 22,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "8f196f72d20e4ff89c70af95b70c218b",
+      "texto": "| CELULA   | CODIGO   | AS=     | DESCRIPCION                 |\n|----------|----------|---------|-----------------------------|\n|          | AMES     | 1,00    | AMORTIGUADOR DE ESCAPE      |\n|          | SILE     | 1,00    | SILENCIADOR                 |\n|          | FIA      | 1,00    | FILTRODE AIRE (ASPIRACION)  |\n|          | AMPU     | 1,00    | AMORTIGUADOR DE PULSACIONES |\n| NOTAS :  | NOTAS :  | NOTAS : | NOTAS :                     |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 23,
+      "pagina_fin": 23,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "9da6d9b4-6f3d-4af7-a351-96ca1e27322e",
+      "texto": "TUBE101.CEL\n\nHOJA 23DE\n\nTC101024.DGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 23,
+      "pagina_fin": 24,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "64a5ce077b1d4136bd9684001b9f0a3b",
+      "texto": "| INTECSA UHDE   | INTECSA UHDE   | LIBRERIA DE CELULAS DIAGRAMASDE INGENIERIA   | LIBRERIA DE CELULAS DIAGRAMASDE INGENIERIA   | TUBE101.CEL                         |\n|----------------|----------------|----------------------------------------------|----------------------------------------------|-------------------------------------|\n| CELULA         | CODIGO         | AS=                                          | DESCRIPCION                                  | DESCRIPCION                         |\n|                | HIDR           | 1,00                                         | HIDRANTE                                     | HIDRANTE                            |\n|                | MONI           | 1,00                                         | MONITOR                                      | MONITOR                             |\n|                | BOGAS          | 1,00                                         | BOTELLA DE GAS INDUSTRIAL                    | BOTELLA DE GAS INDUSTRIAL           |\n|                | DUCH           | 1,00                                         | FUENTE LAVAOJOSY DUCHA DE SEGURIDAD          | FUENTE LAVAOJOSY DUCHA DE SEGURIDAD |\n| NOTAS :        | NOTAS :        | NOTAS :                                      | NOTAS :                                      | NOTAS :                             |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 24,
+      "pagina_fin": 24,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "9b5d8fa3-cae1-46b9-a7b7-aa634a102f91",
+      "texto": "TC101025.DGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 25,
+      "pagina_fin": 25,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3799ea5b-297b-4126-9b8f-e03fa089dcb7",
+      "texto": "TUBE101.CEL",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 25,
+      "pagina_fin": 25,
+      "seccion": "LIBRERIADECELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9fa2ac70ba184ea0932ef999573a173d",
+      "texto": "| UHDE    | UHDE   | DIAGRAMASDEINGENIERIA   | DIAGRAMASDEINGENIERIA                           |             |\n|---------|--------|-------------------------|-------------------------------------------------|-------------|\n| CELULA  | CODIGO | AS=                     | DESCRIPCION                                     | DESCRIPCION |\n|         | BRACA  | 1,00                    | BRAZO DE CARGA CELULA REPRESENTADA A ESCALA 1:2 |             |\n| NOTAS : |        |                         |                                                 |             |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 25,
+      "pagina_fin": 25,
+      "seccion": "LIBRERIADECELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "85588b3315e84738be0fad0338c76736",
+      "texto": "| INTECSA UHDE   | INTECSA UHDE   | LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA   | LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA   | TUBE101.CEL EDICION HOJA26DE   |\n|----------------|----------------|-----------------------------------------------|-----------------------------------------------|--------------------------------|\n| CELULA         | CODIGO         | CODIGO                                        | AS= DESCRIPCION                               | AS= DESCRIPCION                |\n| IX             | COVA 1,00      | COVA 1,00                                     |                                               | CONEXION CON VALVULA           |\n| UIXI           | COMAN          | COMAN                                         | 1,00                                          | CONEXION PARA MANGUERA         |\n| TM             | TM             | TM                                            | 1,00                                          | TOMA DE MUESTRAS               |\n|                | DESC           | DESC                                          | 1,00                                          | DESCARGA ALA ATMOSFERA         |\n|                | CVF8           | CVF8                                          | 1,00                                          | CONJUNTO VALVULA / FIGURA 8    |\n|                | CVDC           | CVDC                                          | 1,00                                          | CONJUNTO VALV./ DISCO CIEGO    |\n| n址VI           | CVFT           | CVFT                                          | 1,00                                          | CONJUNTO VALV./ FILT. TEMP.    |\n| NOTAS :        | NOTAS :        | NOTAS :                                       | NOTAS :                                       | NOTAS :                        |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 26,
+      "pagina_fin": 26,
+      "seccion": "LIBRERIADECELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "e4f911c6-8b99-4ad7-8634-dcb3d9f6bff4",
+      "texto": "TC101026.DGN\n\nTC101027.DGN",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 26,
+      "pagina_fin": 27,
+      "seccion": "LIBRERIADECELULAS DIAGRAMASDEINGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "437973c9-2f78-4b01-847f-2a6ef44c33ed",
+      "texto": "TUBE101.CEL",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 27,
+      "pagina_fin": 27,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0a8efa94fea4420392a9da4a3802006d",
+      "texto": "| UHDE    | UHDE   | EDICION   | EDICION                                                  | HOJA27DE                                                 |\n|---------|--------|-----------|----------------------------------------------------------|----------------------------------------------------------|\n| CELULA  | CODIGO | AS-       | DESCRIPCION                                              | DESCRIPCION                                              |\n|         | ECON   | 1,00      |                                                          |                                                          |\n|         | TMRE   | 1,00      | TOMA DE MUESTRAS CON REFRI. CELULAREPRESENTADAAESCALA1:2 | TOMA DE MUESTRAS CON REFRI. CELULAREPRESENTADAAESCALA1:2 |\n| NOTAS : |        |           |                                                          |                                                          |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 27,
+      "pagina_fin": 27,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "dcc58b5e-f626-4f14-afaa-1c65fc5fdff7",
+      "texto": "CODIGO\n\nSTADE\n\nAS= 1,00\n\nDESCRIPCION:\n\nNIVEL EN STAND-PIPE DCHA.\n\nCODIGO\n\nSTAIZ\n\nAS= 1,00\n\nDESCRIPCION  :\n\nNIVEL EN STAND-PIPE IZDA.\n\nNOTAS :\n\nTUBE101.CEL\n\nHOJA29DE\n\nTC101030.DGN\n\nHOJA3ODE\n\nCODIGO\n\nCOBO1\n\nAS= 1,00\n\nDESCRIPCION:\n\nCONJUNTO BOMBA CENTRIFUGA\n\nCODIGO\n\nCOB02\n\nAS= 1,00\n\nDESCRIPCION :\n\nCONJUNTO2 BOMBAS\n\nTC101031.DGN\n\nCODIGO\n\nCOAER\n\nAS= 1,00\n\nDESCRIPCION :\n\nCONJUNTO AEROREFRIGERANTE",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 29,
+      "pagina_fin": 31,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a45c88bc-bad7-4cc0-be73-fb7cb70a448f",
+      "texto": "CODIGO\n\nSTADE\n\nAS= 1,00\n\nDESCRIPCION:\n\nNIVEL EN STAND-PIPE DCHA.\n\nCODIGO\n\nSTAIZ\n\nAS= 1,00\n\nDESCRIPCION  :\n\nNIVEL EN STAND-PIPE IZDA.",
+      "nivel": "child",
+      "parent_id": "dcc58b5e-f626-4f14-afaa-1c65fc5fdff7",
+      "pagina_inicio": 29,
+      "pagina_fin": 31,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9c914285-df68-4a0e-9f06-84e755b4ba8b",
+      "texto": "NOTAS :\n\nTUBE101.CEL\n\nHOJA29DE\n\nTC101030.DGN\n\nHOJA3ODE\n\nCODIGO\n\nCOBO1\n\nAS= 1,00\n\nDESCRIPCION:\n\nCONJUNTO BOMBA CENTRIFUGA\n\nCODIGO\n\nCOB02\n\nAS= 1,00\n\nDESCRIPCION :\n\nCONJUNTO2 BOMBAS\n\nTC101031.DGN\n\nCODIGO\n\nCOAER\n\nAS= 1,00\n\nDESCRIPCION :\n\nCONJUNTO AEROREFRIGERANTE",
+      "nivel": "child",
+      "parent_id": "dcc58b5e-f626-4f14-afaa-1c65fc5fdff7",
+      "pagina_inicio": 29,
+      "pagina_fin": 31,
+      "seccion": "LIBRERIA DE CELULAS DIAGRAMAS DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    }
+  ]
+}

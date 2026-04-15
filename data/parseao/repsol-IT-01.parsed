@@ -1,0 +1,259 @@
+Páginas totales: 16
+
+  #  1  pág   1  lv1  PictureItem             [imagen] annotations=0
+  #  2  pág   1  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  #  3  pág   1  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187 - REPSOL YPF LA PAMPILLA
+  #  4  pág   1  lv1  SectionHeaderItem       ÍNDICE.
+  #  5  pág   1  lv2  ListItem                  OBJETO Y ALCANCE
+  #  6  pág   1  lv2  ListItem                  INTRODUCCIÓN
+  #  7  pág   1  lv2  ListItem                  ESTRUCTURA DE ACCESO A LOS DOCUMENTOS
+  #  8  pág   1  lv2  ListItem                  DOCUMENTACIÓN QUE DEBEN INCLUIR LA INTRANET
+  #  9  pág   1  lv2  ListItem                  USUARIOS DEL PROYECTO Y PERMISOS
+  # 10  pág   1  lv1  TextItem                ANEXO 1: ESTRUCTURA DEL ARCHIVO ELECTRÓNICO DEL PROYECTO 13187 REPSOL YPF La Pampilla EN EL PORTAL DE IUI
+  # 11  pág   1  lv1  TableItem               | RLLP   | CPA/JJDP   | 02      | 08/10/2002   | REVISIÓN GENERAL          |↵ |--------|------------|---------|---------…
+  # 12  pág   2  lv1  PictureItem             [imagen] annotations=0
+  # 13  pág   2  lv1  SectionHeaderItem       1. OBJETO Y ALCANCE
+  # 14  pág   2  lv1  TextItem                Este documento tiene por objeto describir el procedimiento de aportación y acceso de documentos de proyecto al portal de…
+  # 15  pág   2  lv1  SectionHeaderItem       2. INTRODUCCIÓN
+  # 16  pág   2  lv1  TextItem                Intecsa-Uhde dispone de un Portal de Intranet en el que se aporten contenidos para su uso en toda la organización permit…
+  # 17  pág   2  lv1  TextItem                Se ha creado una Intranet del proyecto donde se compartirán todos los documentos e información del proyecto. En esta Int…
+  # 18  pág   2  lv1  TextItem                .
+  # 19  pág   2  lv1  SectionHeaderItem        Quien puede aportar documentos a la Intranet del Proyecto 13187- REPSOL YPF LA PAMPILLA.
+  # 20  pág   2  lv1  TextItem                Para poder incluir documentos al portal, el usuario debe tener los permisos adecuados gestionados   por Gestión del   Co…
+  # 21  pág   2  lv1  SectionHeaderItem        Quien puede acceder a los contenidos
+  # 22  pág   2  lv1  TextItem                La idea básica de un portal está centrada en compartir conocimiento con toda la organización y por tanto, el acceso debe…
+  # 23  pág   2  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  # 24  pág   2  lv1  TextItem                EDICION
+  # 25  pág   2  lv1  TextItem                13187-IT-01
+  # 26  pág   2  lv1  TextItem                2
+  # 27  pág   2  lv1  TextItem                HOJA
+  # 28  pág   2  lv1  TextItem                2
+  # 29  pág   2  lv1  TextItem                DE
+  # 30  pág   2  lv1  TextItem                16
+  # 31  pág   3  lv1  PictureItem             [imagen] annotations=0
+  # 32  pág   3  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  # 33  pág   3  lv1  TextItem                2
+  # 34  pág   3  lv1  TextItem                HOJA
+  # 35  pág   3  lv1  TextItem                3
+  # 36  pág   3  lv1  TextItem                DE
+  # 37  pág   3  lv1  SectionHeaderItem       3. ESTRUCTURA DE ACCESO A LOS DOCUMENTOS DEL PROYECTO 13187 REPSOL YPF LA PAMPILLA
+  # 38  pág   3  lv1  TextItem                Como vimos anteriormente la inclusión de documentos del Proyecto se hace a través del Portal de IUI al cual tendrá acces…
+  # 39  pág   3  lv1  TextItem                Sin embargo para el acceso a esta información tenemos una estructura más amplia en función de las necesidades del proyec…
+  # 40  pág   3  lv2  ListItem                   Acceso vía Intranet : además de aportar contenidos a la base documental la estructura de permisos permite tener un acc…
+  # 41  pág   3  lv2  ListItem                   Acceso vía Internet : la organización de Intecsa Uhde para el comercio electrónico define dos accesos diferenciados:
+  # 42  pág   3  lv2  ListItem                  o Centro de Negocios. Es un acceso para que los proveedores autorizados accedan a las peticiones de oferta generadas o b…
+  # 43  pág   3  lv2  ListItem                  o Proyecto en Colaboración. Se pone a disposición a través de Internet la información que sea necesaria con una estructu…
+  # 44  pág   3  lv1  PictureItem             [imagen] annotations=0
+  # 45  pág   3  lv1  TextItem                16
+  # 46  pág   4  lv1  PictureItem             [imagen] annotations=0
+  # 47  pág   4  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  # 48  pág   4  lv1  TextItem                EDICION
+  # 49  pág   4  lv1  TextItem                13187-IT-01
+  # 50  pág   4  lv1  TextItem                2
+  # 51  pág   4  lv1  TextItem                HOJA
+  # 52  pág   4  lv1  TextItem                4
+  # 53  pág   4  lv1  TextItem                DE
+  # 54  pág   4  lv1  SectionHeaderItem       4. DOCUMENTACIÓN QUE DEBEN INCLUIR LA INTRANET DE 13187-REPSOL YPF LA PAMPILLA.
+  # 55  pág   4  lv1  TextItem                Toda la documentación de proyecto deberá formar parte del Portal sin excepciones.
+  # 56  pág   4  lv1  TextItem                Está incluirá, pero no se limitará, a: Especificaciones, Estándares, RM's, Hojas de datos, Planos, etc.
+  # 57  pág   4  lv1  TextItem                Las instrucciones para importar documentos las podemos encontrar en el manual editado por Gestión del Conocimiento: INCO…
+  # 58  pág   4  lv1  TextItem                NOTA: Para acceder directamente al documento a través de este enlace deberá estar previamente trabajando en el portal (H…
+  # 59  pág   4  lv1  TextItem                Un documento de proyecto que se edite (en papel) deberá ser firmado de acuerdo al plan de calidad del proyecto. Previame…
+  # 60  pág   4  lv1  SectionHeaderItem       5. USUARIOS DEL PROYECTO Y PERMISOS
+  # 61  pág   4  lv1  TextItem                En Documentum ,   los   usuarios   están   organizados   según   grupos   de   manera   que   los permisos (ACL'S) consi…
+  # 62  pág   4  lv1  TextItem                En cuanto a la actualización de los usuarios participantes en el proyecto será la dirección del mismo quien comunique a …
+  # 63  pág   4  lv1  TextItem                Asimismo la dirección de proyecto se pondrá en contacto con Gestión del Conocimiento ante necesidades de nuevos permisos…
+  # 64  pág   4  lv1  TextItem                16
+  # 65  pág   5  lv1  PictureItem             [imagen] annotations=0
+  # 66  pág   5  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  # 67  pág   5  lv1  SectionHeaderItem       PERMISOS DISPONIBLES PARA EL PROYECTO
+  # 68  pág   5  lv2  ListItem                   proy_pampilla_civil, aplicable   a   documentos   generados   por   el   departamento   de arquitectura y civil.
+  # 69  pág   5  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de arquitectura y…
+  # 70  pág   5  lv2  ListItem                   proy_pampilla_compras, aplicable a documentos generados en compras de carácter no restringido.
+  # 71  pág   5  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de compras.
+  # 72  pág   5  lv2  ListItem                   proy_pampilla_compras_priv, aplicable a documento generados en el departamento de compras de carácter privado, es deci…
+  # 73  pág   5  lv2  ListItem                  Desde la intranet permite  LEER  a la dirección de proyecto, los jefes de departamento y al responsable de costes y MODI…
+  # 74  pág   5  lv2  ListItem                   proy_pampilla_compras_rest, aplicable a los documentos generados en compras de carácter restringido, es decir, los rel…
+  # 75  pág   5  lv2  ListItem                  Desde la intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta y MODI…
+  # 76  pág   5  lv2  ListItem                   proy_pampilla_construc, aplicable   a   documentos   generados   en   construcción   de carácter no restringido.
+  # 77  pág   5  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de construcción.
+  # 78  pág   5  lv2  ListItem                   proy_pampilla_construc_priv, aplicable a documento generados en el departamento de construcción de carácter privado, e…
+  # 79  pág   5  lv2  ListItem                  Desde la intranet permite  LEER  a la dirección de proyecto, los jefes de departamento y al responsable de costes y MODI…
+  # 80  pág   5  lv2  ListItem                   proy_pampilla_construc_rest, aplicable a los documentos generados en construcción de carácter restringido, es decir, l…
+  # 81  pág   5  lv2  ListItem                  Desde la intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta y MODI…
+  # 82  pág   5  lv2  TextItem                  EDICION
+  # 83  pág   5  lv2  TextItem                  2
+  # 84  pág   5  lv2  TextItem                  HOJA
+  # 85  pág   5  lv2  TextItem                  5
+  # 86  pág   5  lv2  TextItem                  DE
+  # 87  pág   5  lv2  TextItem                  16
+  # 88  pág   6  lv1  PictureItem             [imagen] annotations=0
+  # 89  pág   6  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  # 90  pág   6  lv2  TextItem                  13187-IT-01
+  # 91  pág   6  lv2  TextItem                  EDICION
+  # 92  pág   6  lv2  TextItem                  HOJA
+  # 93  pág   6  lv2  TextItem                  6
+  # 94  pág   6  lv2  TextItem                  DE
+  # 95  pág   6  lv2  TextItem                  16
+  # 96  pág   6  lv2  ListItem                   proy_pampilla_dinamicos, aplicable a documentos generados en el departamento de equipos dinámicos.
+  # 97  pág   6  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de equipos dinámi…
+  # 98  pág   6  lv2  ListItem                   proy_pampilla_elecinstr, aplicable a documentos generados en los departamentos de electricidad e instrumentación
+  # 99  pág   6  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de los departamen…
+  #100  pág   6  lv2  ListItem                   proy_pampilla_estaticos, aplicable a documentos generados en el departamento de equipos estáticos.
+  #101  pág   6  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de equipos estáti…
+  #102  pág   6  lv2  ListItem                   proy_pampilla_hornos, aplicable a documentos generados en el equipo de hornos.
+  #103  pág   6  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del equipo de hor…
+  #104  pág   6  lv2  ListItem                   proy_pampilla_interno_iui, aplicable   a   documentos   generados   en   el   proyecto   que solamente son accesibles …
+  #105  pág   6  lv2  ListItem                  Desde la Intranet permite LEER al grupo de proyecto de IUI y MODIFICAR únicamente al propietario del documento.
+  #106  pág   6  lv2  ListItem                   proy_pampilla_interno_jv, aplicable a documentos generados en el proyecto que son accesibles a todo el grupo de la Joi…
+  #107  pág   6  lv2  ListItem                  Desde la Intranet permite LEER a todo el grupo de la Joint Venture y MODIFICAR únicamente al propietario del documento.
+  #108  pág   6  lv2  ListItem                   proy_pampilla_lectura, aplicable a documentos accesibles para todos los usuarios del proyecto que sólo modifica el pro…
+  #109  pág   6  lv2  ListItem                  Desde la Intranet permite LEER a toda IUI y MODIFICAR únicamente al propietario del documento.
+  #110  pág   6  lv2  ListItem                   proy_pampilla_materiales, aplicable a documentos generados en el departamento de materiales.
+  #111  pág   6  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de materiales.
+  #112  pág   7  lv1  PictureItem             [imagen] annotations=0
+  #113  pág   7  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  #114  pág   7  lv2  TextItem                  13187-IT-01
+  #115  pág   7  lv2  TextItem                  EDICION
+  #116  pág   7  lv2  TextItem                  2
+  #117  pág   7  lv2  TextItem                  HOJA
+  #118  pág   7  lv2  TextItem                  7
+  #119  pág   7  lv2  TextItem                  DE
+  #120  pág   7  lv2  TextItem                  16
+  #121  pág   7  lv2  ListItem                   proy_pampilla_operaciones, aplicable   a   documentos   incorporados   por   operaciones (p.e. la Ingeniería Básica, e…
+  #122  pág   7  lv2  ListItem                  Desde la Intranet permite LEER a toda IUI y MODIFICAR únicamente al grupo de operaciones.
+  #123  pág   7  lv2  ListItem                   proy_pampilla_privado, aplicable a documentos relativos a costes.
+  #124  pág   7  lv2  ListItem                  Desde la Intranet permite LEER a la dirección de proyecto, los jefes de departamento y el responsable de costes.
+  #125  pág   7  lv2  ListItem                   proy_pampilla_procesos, aplicable a documentos generados en el departamento de procesos.
+  #126  pág   7  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de procesos.
+  #127  pág   7  lv2  ListItem                   proy_pampilla_restringido, aplicable a documentos relativos a pedidos o informes de progreso.
+  #128  pág   7  lv2  ListItem                  Desde la Intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta.
+  #129  pág   7  lv2  ListItem                   proy_pampilla_sci, aplicable a documentos generados en el equipo de Sistemas Contra Incendios
+  #130  pág   7  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del grupo de Sist…
+  #131  pág   7  lv2  ListItem                   proy_pampilla_soportes, aplicable a documentos generados en el grupo de Esfuerzos y Soportes
+  #132  pág   7  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del grupo de Esfu…
+  #133  pág   7  lv2  ListItem                   proy_pampilla_tuberías, aplicable a documentos generados en el departamento de tuberías.
+  #134  pág   7  lv2  ListItem                  Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de tuberías.
+  #135  pág   7  lv1  TextItem                La   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyec…
+  #136  pág   8  lv1  PictureItem             [imagen] annotations=0
+  #137  pág   8  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  #138  pág   8  lv1  SectionHeaderItem       Permisos a través de Internet.
+  #139  pág   8  lv1  TextItem                Debido a la estructura organizativa del proyecto se han creado diferentes tipos de acceso a través de Internet como expl…
+  #140  pág   8  lv1  TextItem                Vimos el siguiente esquema:
+  #141  pág   8  lv1  PictureItem             [imagen] annotations=0
+  #142  pág   8  lv1  TextItem                Entonces   para   el   acceso   vía   Internet   desde Proyecto en colaboración tenemos los siguientes usuarios:
+  #143  pág   8  lv2  ListItem                   Usuario del cliente que accede desde la refinería. (Repsol YPF La Pampilla.)
+  #144  pág   8  lv2  ListItem                   Usuario del cliente a usar por los residentes y por la central de ingeniería (Repsol YPF)
+  #145  pág   8  lv2  ListItem                   Usuario de Tipiel , socio colombiano de IUI en el proyecto
+  #146  pág   8  lv2  ListItem                   Usuario de Technip , socio francés del proyecto
+  #147  pág   8  lv2  ListItem                   Usuario empleado por Dyctel , empresa encargada de la reprografía para la refinería.
+  #148  pág   8  lv1  TextItem                2
+  #149  pág   8  lv1  TextItem                HOJA
+  #150  pág   8  lv1  TextItem                8
+  #151  pág   8  lv1  TextItem                DE
+  #152  pág   8  lv1  TextItem                16
+  #153  pág   9  lv1  PictureItem             [imagen] annotations=0
+  #154  pág   9  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  #155  pág   9  lv1  SectionHeaderItem       ANEXO 1:
+  #156  pág   9  lv1  SectionHeaderItem       ESTRUCTURA DEL ARCHIVO ELECTRÓNICO DEL PROYECTO 13187 - REPSOL YPF La Pampilla EN EL PORTAL DE IUI
+  #157  pág   9  lv1  TextItem                A  continuación   se   recoge   el   directorio   de   carpetas   en   el   que   será   estructurada   la documentación…
+  #158  pág   9  lv2  ListItem                  usr: usuario con acceso a vía internet a la documentación una vez aprobada.
+  #159  pág   9  lv3  ListItem                    dp: dirección de proyecto de IUI.
+  #160  pág   9  lv3  ListItem                    cost : responsable de control de costes del proyecto.
+  #161  pág   9  lv3  ListItem                    rc: conjunto de responsables de cuenta del proyecto
+  #162  pág   9  lv3  ListItem                    5)
+  #163  pág   9  lv3  ListItem                    jdpto: conjunto de jefes de departamento de IUI
+  #164  pág   9  lv3  ListItem                    iui: conjunto de todo el personal de IUI
+  #165  pág   9  lv1  TextItem                Así por ejemplo, dp + cost + jdpto indica que a los contenidos de la carpeta referida tienen acceso la dirección del pro…
+  #166  pág   9  lv1  SectionHeaderItem       Otras aclaraciones:
+  #167  pág   9  lv3  ListItem                    Se refiere a carpetas generales.
+  #168  pág   9  lv3  ListItem                    Se refiere a carpetas de RM.
+  #169  pág   9  lv1  TextItem                13187-IT-01
+  #170  pág   9  lv1  TextItem                2
+  #171  pág   9  lv1  TextItem                HOJA
+  #172  pág   9  lv1  TextItem                9
+  #173  pág   9  lv1  TextItem                DE
+  #174  pág   9  lv1  TextItem                16
+  #175  pág  10  lv1  PictureItem             [imagen] annotations=0
+  #176  pág  10  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  #177  pág  10  lv1  TextItem                El Proyecto está dividido en varias áreas:
+  #178  pág  10  lv2  ListItem                   Área 00: OFFSITES E INTERCONEXIONES
+  #179  pág  10  lv2  ListItem                   Área 02: UDP-II
+  #180  pág  10  lv2  ListItem                   Área 04: V-II. Unidad de vacío II
+  #181  pág  10  lv2  ListItem                   Área 19: MEROX unidad de merox
+  #182  pág  10  lv2  ListItem                   Área 24: V-B . Unidad de visbreaking
+  #183  pág  10  lv2  ListItem                   Área 47: SISTEMA ELÉCTRICO. Unidad de sistema de recepción y distribución eléctrica
+  #184  pág  10  lv2  ListItem                   Área 51: STRIPPER. Stripper de aguas ácidas
+  #185  pág  10  lv1  TextItem                En la estructura que aparece a continuación solamente está desarrollada el área 04. V-II (Unidad de Vacío) por ser la má…
+  #186  pág  10  lv1  TextItem                También en esta área (04. V-II) se almacenan los documentos que serían comunes para varias áreas
+  #187  pág  10  lv1  TextItem                EDICION
+  #188  pág  10  lv1  TextItem                13187-IT-01
+  #189  pág  10  lv1  TextItem                2
+  #190  pág  10  lv1  TextItem                HOJA
+  #191  pág  10  lv1  TextItem                10
+  #192  pág  10  lv1  TextItem                DE
+  #193  pág  10  lv1  TextItem                16
+  #194  pág  11  lv1  PictureItem             [imagen] annotations=0
+  #195  pág  11  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  #196  pág  11  lv2  TextItem                  13187-IT-01
+  #197  pág  11  lv2  TextItem                  2
+  #198  pág  11  lv2  TextItem                  HOJA
+  #199  pág  11  lv2  TextItem                  11
+  #200  pág  11  lv2  TextItem                  DE
+  #201  pág  11  lv2  TextItem                  16
+  #202  pág  11  lv1  TableItem               | ESTRUCTURA DE CARPETAS DEL PROYECTO             | PERMISOS DE ACCESO    |↵ |------------------------------------------…
+  #203  pág  12  lv1  PictureItem             [imagen] annotations=0
+  #204  pág  12  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  #205  pág  12  lv2  TextItem                  13187-IT-01
+  #206  pág  12  lv2  TextItem                  EDICION
+  #207  pág  12  lv2  TextItem                  2
+  #208  pág  12  lv2  TextItem                  HOJA
+  #209  pág  12  lv2  TextItem                  12
+  #210  pág  12  lv2  TextItem                  DE
+  #211  pág  12  lv2  TextItem                  16
+  #212  pág  12  lv1  TableItem               | ESTRUCTURA DE CARPETAS DEL PROYECTO                            | PERMISOS DE ACCESO   |↵ |----------------------------…
+  #213  pág  13  lv1  PictureItem             [imagen] annotations=0
+  #214  pág  13  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  #215  pág  13  lv2  TextItem                  EDICION
+  #216  pág  13  lv2  TextItem                  2
+  #217  pág  13  lv2  TextItem                  HOJA
+  #218  pág  13  lv2  TextItem                  13
+  #219  pág  13  lv2  TextItem                  DE
+  #220  pág  13  lv2  TextItem                  16
+  #221  pág  13  lv1  TableItem               | ESTRUCTURA DE CARPETAS DEL PROYECTO                   | PERMISOS DE ACCESO   |↵ |-------------------------------------…
+  #222  pág  14  lv1  PictureItem             [imagen] annotations=0
+  #223  pág  14  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  #224  pág  14  lv2  TextItem                  13187-IT-01
+  #225  pág  14  lv2  TextItem                  EDICION
+  #226  pág  14  lv2  TextItem                  2
+  #227  pág  14  lv2  TextItem                  HOJA
+  #228  pág  14  lv2  TextItem                  14
+  #229  pág  14  lv2  TextItem                  DE
+  #230  pág  14  lv2  TextItem                  16
+  #231  pág  14  lv1  TableItem               | ESTRUCTURA DE CARPETAS DEL PROYECTO                      | PERMISOS DE ACCESO   |↵ |----------------------------------…
+  #232  pág  15  lv1  PictureItem             [imagen] annotations=0
+  #233  pág  15  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  #234  pág  15  lv2  TextItem                  EDICION
+  #235  pág  15  lv2  TextItem                  2
+  #236  pág  15  lv2  TextItem                  HOJA
+  #237  pág  15  lv2  TextItem                  15
+  #238  pág  15  lv2  TextItem                  DE
+  #239  pág  15  lv2  TextItem                  16
+  #240  pág  15  lv1  TableItem               | ESTRUCTURA DE CARPETAS DEL PROYECTO        | PERMISOS DE ACCESO   |↵ |--------------------------------------------|---…
+  #241  pág  16  lv1  PictureItem             [imagen] annotations=0
+  #242  pág  16  lv1  SectionHeaderItem       INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA
+  #243  pág  16  lv2  TextItem                  13187-IT-01
+  #244  pág  16  lv2  TextItem                  EDICION
+  #245  pág  16  lv2  TextItem                  2
+  #246  pág  16  lv2  TextItem                  HOJA
+  #247  pág  16  lv2  TextItem                  16
+  #248  pág  16  lv2  TextItem                  DE
+  #249  pág  16  lv2  TextItem                  16
+  #250  pág  16  lv1  TableItem               | ESTRUCTURA DE CARPETAS DEL PROYECTO                 | PERMISOS DE ACCESO   |↵ |---------------------------------------…
+
+  Resumen de tipos:
+    TextItem                   121
+    ListItem                    74
+    SectionHeaderItem           30
+    PictureItem                 18
+
