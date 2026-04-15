@@ -1,0 +1,397 @@
+{
+  "doc_id": "050ecf2e231d4d39a9f0072aca54164d",
+  "nombre_fichero": "PR-18.pdf",
+  "metadatos_admin": {
+    "empresa": "intecsa",
+    "proyecto_id": null,
+    "tipo_doc": "procedimiento",
+    "idioma": "es"
+  },
+  "metadatos_portada": {
+    "codigo_documento": null,
+    "edicion": "5",
+    "fecha_edicion": null,
+    "titulo_documento": "PROCEDIMIENTO DEL LIBRO RESUMEN DEL PROYECTO"
+  },
+  "fecha_ingesta": "2026-04-15T15:49:00+00:00",
+  "paginas_total": 9,
+  "chunks": [
+    {
+      "chunk_id": "7c6e665265eb4fc8b6618dfadbd46e5f",
+      "texto": "| RLLP   | OMP   | JMQG   |   5 | Abr. 16   | Revisado en lo marcado *             |\n|--------|-------|--------|-----|-----------|--------------------------------------|\n| RLLP   | APL   | APL    |   4 | Jun. 07   | Revisado por cambio de razón social  |\n| A.K.   | E.L.  | E.L.   |   3 | Dic. 95   | Reordenación del contenido del libro |\n| A.K.   | E.L.  | E.L.   |   2 | Abr. 94   | Cambiada la identificación           |\n| A.K.   | E.L.  | E.L.   |   1 | Ago. 92   | Emisión como PR-200                  |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 1,
+      "pagina_fin": 1,
+      "seccion": "PROCEDIMIENTO DEL LIBRO RESUMEN DEL PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "64494d9dd87f41d29ff621e7150f0900",
+      "texto": "| APROB.   | VERIF.   | PREP.   | EDICIÓN   | FECHA   | DESCRIPCIÓN   |\n|----------|----------|---------|-----------|---------|---------------|",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "PROCEDIMIENTO DEL LIBRO RESUMEN DEL PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f3983aba-1267-4632-8c95-235a0a234a87",
+      "texto": "Este Procedimiento tiene por objeto marcar las directrices que han de seguirse para la preparación del Libro Resumen que, para uso interno, debe prepararse y emitirse según la tabla siguiente:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4fb70e3ff037421b9096fa33c7f040f4",
+      "texto": "| Tamaño Proyecto (A juicio del Director de Operaciones)   | Preparación   | Emisión                    |\n|----------------------------------------------------------|---------------|----------------------------|\n| Proyecto Menor                                           | Trimestral    | Trimestral + Edición Final |\n| Proyecto Mayor                                           | Trimestral    | Semestral + Edición Final  |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1ae5a30c-85da-4073-bed6-9cd3c3c39962",
+      "texto": "Este procedimiento forma parte del Sistema de Calidad de Intecsa Industrial y se ha elaborado teniendo presente la norma ISO 9001.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1d679297-24db-42dd-bfd7-68aa4704ba0a",
+      "texto": "La preparación del Libro Resumen será responsabilidad del Jefe de cada Proyecto y para su  realización   recabará   la   ayuda   necesaria   de   los   Departamentos   o   Servicios   que colaborarán suministrando los documentos, datos específicos, costes, etc., solicitados por el Jefe del Proyecto.\n\nEl Jefe de Proyecto seguirá las Instrucciones de Trabajo de su División, complementarias de este Procedimiento, tanto para la confección del libro como para el tratamiento de su coste.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "2. RESPONSABILIDADES",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6f2ae782-adcc-4272-bda9-d7fe7bdd2cd5",
+      "texto": "El contenido del Libro debe abarcar los datos esenciales, con vistas a su utilización como información para la estimación, contratación y realización de nuevos encargos.\n\nEl índice del Libro que figura a continuación corresponde a un proyecto típico realizado por Intecsa Industrial en todas sus fases (ingeniería de detalle, dirección de proyecto, aprovisionamiento, construcción, pre/comisionado y puesta en marcha); de  este índice general   se   utilizarán   solamente   los   apartados   que   convengan   en   cada   caso,   y   se *",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "3. CONTENIDO DEL LIBRO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6b6485d5-1afa-4a1f-9591-72aae03d1216",
+      "texto": "añadirán los que sean precisos en casos especiales (unión temporal de empresas, suministro de equipos, etc.). INDICE:\n\n DATOS DEL PROYECTO\n\n RELACIONES CON EL CLIENTE\n\n RELACIONES CON SOCIOS\n\n INGENIERÍA DE PROYECTO\n\n INGENIERÍA Y DISEÑO\n\n APROVISIONAMIENTOS\n\n CONSTRUCCION Y MONTAJE\n\n INDIRECTOS DE CONSTRUCCIÓN\n\n DATOS PARA BAREMOS\n\nA continuación se relacionan una serie de puntos que sirvan de pauta para cada capítulo:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "PROCEDIMIENTO DEL LIBRO RESUMEN DEL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b99a1513-cd40-4ac2-ae19-a872fa8684e9",
+      "texto": "-Intecsa Industrial (Número y nombre del Proyecto, Jefe de Proyecto, etc.).\n\n-Cliente (Datos principales).\n\n-Otros (Ingenierías Asociadas, etc.).\n\n-Datos de la oferta (nº y nombre de propuesta, fecha).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "3.1 Datos del Proyecto",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ece882e4-152b-4f40-af3d-325fd329f1a5",
+      "texto": "-Comentarios al Contrato (indefiniciones u otras dificultades o ventajas).\n\n-Alcance general de los trabajos.\n\n-Cualquier otro comentario relevante.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "PROCEDIMIENTO DEL LIBRO RESUMEN DEL PROYECTO",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "394c75c6-91f7-474f-8502-903a22086974",
+      "texto": "-Participación del Cliente en los trabajos (residentes, coordinación, condicionantes impuestos, envío de información, aprobaciones, etc.) en todo lo relativo a ingeniería, diseño, compras y construcción.\n\n-Comentarios (relaciones, colaboración, etc.).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "3.2 Relaciones con el Cliente",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f81eb298-cc44-408c-b866-1ed079f02080",
+      "texto": "-Participación   en   los   trabajos   (alcance   de   sus   trabajos,   residentes,   coordinación, envíos de información, cambios, etc.).\n\n-Comentarios (relaciones, colaboración, etc.).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "3.3 Relaciones con los Socios",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8395018e-d4ba-4924-9407-e4cbb84a9e49",
+      "texto": "-Datos principales de la planta (producción, extensión, etc.):\n\n Unidades de Proceso y Capacidades.\n\n Utilities & Offsites.\n\n-Descripción breve de la planta, y comentario de las soluciones elegidas.\n\n-Copia reducida   (con   escala   gráfica,   si   procede)   de   aquellos   planos   principales (diagramas, esquemas, implantación, u otros), que se juzguen convenientes para dar una idea general de la planta.\n\n-Composición del Grupo de Proyecto.\n\n-Informe del SCSI (proyecto-especialidades).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "3.4 Información Básica del Proyecto *",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "12fd06af-2270-42a1-8bd8-b65eb9449c70",
+      "texto": "-Descripción breve del proceso.\n\n-Forma de recibir los datos.\n\n-Trabajo realizado por Intecsa Industrial.\n\n-Diagramas de proceso.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "3.5 Proceso",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0e2d8417-cafc-495e-88ec-ea52aeb9ec74",
+      "texto": "-Programas inicial, real y final esperado del Proyecto.\n\n-Comentarios de los principales retrasos surgidos y su repercusión sobre el programa.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "3.6 Planificación",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c98eafb1-5a95-4757-8bd9-d70f73042cd2",
+      "texto": "-Si se lleva por Intecsa Industrial el Control de Costes, indicar su tipo y alcance, adjuntando el último informe.\n\n-Si no se llevó, incluir un resumen de los datos que se conozcan.\n\n-Comentarios sobre desviaciones y resultados.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "3.7 Control de Costes",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d7bb3107-bef2-420b-b0c1-1fa1ddc58e33",
+      "texto": "-Informes del SCSI (especialidad-actividad).\n\n-Lista completa de planos en su última edición.\n\n-Lista de RM editadas.\n\n-Key Quantities por disciplina (según MI-1 Libro resumen de proyecto).\n\n-Principales incidencias surgidas en el trabajo de cada especialidad.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "3.8 Ingeniería y Diseño",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d1de03c0-e1d8-402c-b8fe-6a3386c96253",
+      "texto": "-Informe del SCSI (especialidad-actividad).\n\n-Número y tipo de pedidos y contratos (previstos en la oferta y realizados).\n\n-Lista de proveedores (y comentarios sobre ellos, si procede).\n\n-Transporte / Logística / Aduanas.\n\n-Comentarios generales, si procede.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "3.9 Aprovisionamientos",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "cc722d50-7a79-4956-82f4-4c709e8abe7f",
+      "texto": "-Informe del SCSI (especialidad - actividad).\n\n-Programas de realización de obra (inicial, real y final esperado).\n\n-Plan de constructibilidad.\n\n-Número y tipo de pedidos y contratos (previstos en la oferta y realizados).\n\n-Lista de subcontratistas (y comentarios sobre ellos, si procede).\n\n-Key Quantities por disciplina (según Excel).\n\n-Principales incidencias surgidas en el trabajo y soluciones.\n\n-Comentarios sobre el Proyecto.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "3.10 Construcción y Montaje",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "49b2d322-3d33-49ef-a47e-fe2598636638",
+      "texto": "-Temporary Faciliities.\n\n-Organigrama / Staffing Plan.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "3.11 Indirectos de Construcción",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b680cc1d-ed18-45c1-b91d-a57806960607",
+      "texto": "-Duración prevista y real.\n\n-Parámetros previstos y alcanzados.\n\n-Incidencias y soluciones.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "3.12 Puesta en marcha",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1ce0d5cb-426c-42bc-90f0-d70b3d56b38b",
+      "texto": "-Estadísticas de Seguridad, Salud y Medio Ambiente.\n\n-Informe de No Conformidades.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "3.13 QA/QC & HSE",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ad142b5d-8238-42d3-899a-ee26ad72715d",
+      "texto": "-Resumen de horas previstas en la oferta (con su coste) para ingeniería, diseño, aprovisionamientos y construcción.\n\n-Horas realmente gastadas y sus costes.\n\n-Gastos específicos ofertados, contratados y gastados.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "3.14 Resultado",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "40bf7384-8abb-4b78-8653-24fa6b61a61f",
+      "texto": "-Cambios solicitados y aprobados.\n\n-Coste total del proyecto (incluir las últimas salidas de disponibles).\n\n-Facturación y cobro: Comentarios, dificultades habidas.\n\n-Beneficio o pérdida: comentarios.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "PROCEDIMIENTO DEL LIBRO RESUMEN DEL PROYECTO",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "83404249-59d3-4529-8c98-7d7e3bb00a98",
+      "texto": "A fecha de edición de este Procedimiento se está editando, a la vez, el sistema de Códigos de Coste de INTECSA, por tanto, los datos para baremos se acomodarán a los Códigos de Coste y se incorporarán a este Procedimiento en la Próxima Revisión. 4. EDICIÓN El Libro se preparará, si se imprime, utilizando los formatos normalizados en tamaño A4 o A3 plegado, con encuadernación sencilla, siguiendo las Instrucciones de la División. Para facilitar el manejo cuando resulte muy voluminoso puede adoptarse la solución de editar dos tomos, el segundo de anejos, con las copias de las listas de planos, listas de equipos, R.M. SCSI, etc. 5. DISTRIBUCIÓN El libro se distribuirá en cada una de sus ediciones (trimestral o semestral, según el caso) y en su edición final a: -Director de Operaciones.\n\n-Jefe del Departamento de Estimaciones.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "3.15 Datos para baremos",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    }
+  ]
+}

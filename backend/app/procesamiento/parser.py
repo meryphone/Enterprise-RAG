@@ -29,7 +29,6 @@ from docling.datamodel.pipeline_options import (
 # Cacheamos un único converter para reutilizarlo entre documentos.
 _CONVERTER: DocumentConverter | None = None
 
-# OPENAI_API_KEY = load_dotent()
 
 def get_converter() -> DocumentConverter:
     global _CONVERTER
@@ -37,11 +36,27 @@ def get_converter() -> DocumentConverter:
         _CONVERTER = _build_converter()
     return _CONVERTER
 
+# Configuración de  GPT-4o 
+picture_desc_options = PictureDescriptionApiOptions(
+    url="https://api.openai.com/v1/chat/completions",
+    params=dict(
+        model="gpt-4o",
+        max_tokens=512,
+    ),
+    headers={
+        "Authorization": f"Bearer {os.environ['OPENAI_API_KEY']}",
+    },
+    prompt="Describe detalladamente el contenido de esta imagen.", # DEFINIR PROMPTAZO
+    timeout=60,
+)
+
 
 def _build_converter() -> DocumentConverter:
     pipeline_options = PdfPipelineOptions()
     pipeline_options.generate_picture_images = True
-    pipeline_options.do_picture_description = False # Usar GPT-4o vision para describir las imágenes.
+    pipeline_options.do_picture_description = True
+    pipeline_options.enable_remote_services = True  
+    pipeline_options.picture_description_options = picture_desc_options
     pipeline_options.images_scale = 2.0
     pipeline_options.do_ocr = True
     pipeline_options.do_table_structure = True

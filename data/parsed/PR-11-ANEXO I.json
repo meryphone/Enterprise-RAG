@@ -1,0 +1,200 @@
+{
+  "doc_id": "8f638001db674ebbb5749dee0e1789e7",
+  "nombre_fichero": "PR-11-ANEXO I.pdf",
+  "metadatos_admin": {
+    "empresa": "intecsa",
+    "proyecto_id": null,
+    "tipo_doc": "procedimiento",
+    "idioma": "es"
+  },
+  "metadatos_portada": {
+    "codigo_documento": null,
+    "edicion": "3",
+    "fecha_edicion": null,
+    "titulo_documento": "GUIA PARA EL PLAN DE CALIDAD Y MEDIO AMBIENTE DE UN PROYECTO"
+  },
+  "fecha_ingesta": "2026-04-15T15:14:08+00:00",
+  "paginas_total": 3,
+  "chunks": [
+    {
+      "chunk_id": "02b7b01c-9d56-41c1-aaa2-6c3ca06f2a55",
+      "texto": "Este Plan tiene por objeto marcar las líneas a seguir por Intecsa Industrial en el Proyecto de referencia con el fin de asegurar la debida coordinación y el cumplimiento, en   lo   que   es   aplicable,   de   su   Sistema   Integrado   de   Gestión   de   la   Calidad   y Medioambiental.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ae5bbca8-e170-4302-a7d6-fa673238f4ef",
+      "texto": "(Descripción somera)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2.1. Descripción del Proyecto",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0513182f-fb31-4553-a9f1-55e63c2d85be",
+      "texto": "Nombre del Cliente: Jefe de Proyecto de Intecsa Industrial: Información recibida del Cliente:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2.2. Información General",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0c8aef23-12eb-494d-bd5f-2a4c05d0d374",
+      "texto": "(Descripción somera)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2.3. Servicios a suministrar",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6ce1d83f-a4fb-4dab-8b08-fbcbf99c99b0",
+      "texto": "Todas las comunicaciones se mantendrán a través del Jefe del Proyecto.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "3.1. Comunicaciones con el Cliente",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "97eaabea-504b-4302-8c05-8b4707fc0fde",
+      "texto": "La identificación de documentos se hará según el Procedimiento de Intecsa Industrial . El sello de los planos es el que se acompaña como Anexo.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "3.2. Identificación de documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6f846b60-841e-46d5-804a-d113b7ef8c9f",
+      "texto": "Todos los documentos serán verificados según el Procedimiento y las Instrucciones de Trabajo de los Departamentos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "3.3. Verificación de documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6d3cddfd-d5e5-420e-9c8e-18fd520570c4",
+      "texto": "Para la gestión de los Cambios se seguirá el correspondiente Procedimiento de Intecsa Industrial .",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "3.4. Ordenes de Cambio",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b34b8d1d-dfb8-4100-a33d-abbd76b45ec2",
+      "texto": "Están previstas las siguientes fechas para las entregas de lo que se indica: (Documentos y fechas)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "4. PLANIFICACION",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6eff4320-9194-4723-b590-12853e361fe7",
+      "texto": "En general se utilizarán todos los demás Procedimientos e Instrucciones de Trabajo aplicables de Intecsa Industrial .",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "5. PROCEDIMIENTOS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f202b17d-d96a-4d16-afd4-ba2bd9ad895d",
+      "texto": "ANEXO. Sellos de los planos",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3c6515b8-f9f2-4c61-bfb4-4d2cc5f8dad4",
+      "texto": "(Sólo si se precisa)\n\n(En ocasiones convendrá fijar un índice de la documentación a producir, formatos, instrucciones de mecanografía y dibujo, niveles de desarrollo, etc)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "SUPLEMENTO INTERNO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    }
+  ]
+}

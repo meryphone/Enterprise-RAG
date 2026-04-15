@@ -46,6 +46,10 @@ _PALABRAS_EJEMPLO = (
     "for instance",
 )
 
+# Longitud mínima en caracteres para que un fragmento de texto se considere
+# contenido útil y no ruido de maquetación.
+_MIN_LEN_TEXTO = 20
+
 # Número máximo de ítems a escanear buscando metadatos de cabecera
 _MAX_ITEMS_CABECERA = 35
 
@@ -242,6 +246,9 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
             # Ignorar títulos que son pies/cabeceras de página repetidos
             if texto_seccion and PATRON_PIE_PAGINA.match(texto_seccion):
                 continue
+            # Ignorar el titulo de la cabecera que rompe la seccion actual
+            if texto_seccion.contains(_titulo_norm):
+                continue
             # Docling a veces concatena número y título: "3.NOTAS" → "3. NOTAS"
             texto_seccion = re.sub(r"^(\d+\.)\s*([A-ZÁÉÍÓÚÑ])", r"\1 \2", texto_seccion)
             seccion_actual = texto_seccion or seccion_actual
@@ -267,6 +274,9 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
                 continue
             # Filtrar repeticiones del título del documento
             if _titulo_norm and re.sub(r"\s+", " ", texto).upper() == _titulo_norm:
+                continue
+            # Filtrar textos demasiado cortos para ser contenido útil solo si no es un ListItem
+            if len(texto) < _MIN_LEN_TEXTO and not isinstance(item, ListItem):
                 continue
             tipo = "ListItem" if isinstance(item, ListItem) else "NarrativeText"
             resultado.append(

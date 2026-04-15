@@ -1,0 +1,2062 @@
+{
+  "doc_id": "137df2c30e944eb6b9d591efcc8081e6",
+  "nombre_fichero": "PR-11-ANEXO III.pdf",
+  "metadatos_admin": {
+    "empresa": "intecsa",
+    "proyecto_id": null,
+    "tipo_doc": "procedimiento",
+    "idioma": "es"
+  },
+  "metadatos_portada": {
+    "codigo_documento": null,
+    "edicion": "3",
+    "fecha_edicion": null,
+    "titulo_documento": "GUIA PARA EL PLAN DE CALIDAD Y MEDIO AMBIENTE DE UN PROYECTO"
+  },
+  "fecha_ingesta": "2026-04-15T15:21:02+00:00",
+  "paginas_total": 41,
+  "chunks": [
+    {
+      "chunk_id": "3e77a453-61fd-4bd5-84b0-15199c975343",
+      "texto": "1.1. Sistema integrado de Gestión de la Calidad y Medioambiental\n\n1.2. Objeto y alcance del Plan\n\n1.4. Responsabilidad\n\n2.1. Descripción del Proyecto\n\n2.2. Información general\n\n2.3. Confidencialidad\n\n2.4. Bases de diseño\n\n2.5. Requisitos medioambientales\n\n2.6. Otros requisitos legales\n\n2.7. Códigos y normas aplicables\n\n2.8. Procedimientos de (Cliente)\n\n2.9. Procedimientos de Intecsa Industrial\n\n2.10. Servicios a suministrar\n\n2.11. Prevención de riesgos laborales\n\n3.1. Organización del Proyecto\n\n3.2. Comunicaciones con ( Cliente)\n\n3.3. Identificación de documentos\n\n3.4. Distribución de documentos\n\n3.5. Documentos de proveedores\n\n3.6. Verificación de documentos\n\n3.7. Aprobación de documentos\n\n3.8. Archivo de documentos\n\n3.9. Ordenes de Cambio\n\n3.11. Documentación final\n\nPLANIFICACION Y CONTROL\n\n4.2. Control de Costes\n\n4.3. Control de documentos\n\n4.4. Informes de Progreso\n\n5.1. Procedimiento de identificación de documentos, equipos y materiales\n\n5.3. Procedimiento de Verificación\n\n5.4. Estimación de Progreso\n\n5.5. Procedimiento de Compras\n\n5.6. Procedimiento de Subcontratación\n\n5.7. Procedimiento de Construcción",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "ANEXO III Plan de Calidad y Medio Ambiente completo",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ef08db4f-9a36-4162-ba2b-5bec79263ac6",
+      "texto": "1.1. Sistema integrado de Gestión de la Calidad y Medioambiental\n\n1.2. Objeto y alcance del Plan\n\n1.4. Responsabilidad\n\n2.1. Descripción del Proyecto\n\n2.2. Información general\n\n2.3. Confidencialidad\n\n2.4. Bases de diseño\n\n2.5. Requisitos medioambientales\n\n2.6. Otros requisitos legales\n\n2.7. Códigos y normas aplicables\n\n2.8. Procedimientos de (Cliente)\n\n2.9. Procedimientos de Intecsa Industrial\n\n2.10. Servicios a suministrar\n\n2.11. Prevención de riesgos laborales\n\n3.1. Organización del Proyecto\n\n3.2. Comunicaciones con ( Cliente)\n\n3.3. Identificación de documentos\n\n3.4. Distribución de documentos\n\n3.5. Documentos de proveedores\n\n3.6. Verificación de documentos\n\n3.7. Aprobación de documentos\n\n3.8.",
+      "nivel": "child",
+      "parent_id": "3e77a453-61fd-4bd5-84b0-15199c975343",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "ANEXO III Plan de Calidad y Medio Ambiente completo",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e2b5a184-5abf-4577-9207-312abf4db05a",
+      "texto": "Aprobación de documentos\n\n3.8. Archivo de documentos\n\n3.9. Ordenes de Cambio\n\n3.11. Documentación final\n\nPLANIFICACION Y CONTROL\n\n4.2. Control de Costes\n\n4.3. Control de documentos\n\n4.4. Informes de Progreso\n\n5.1. Procedimiento de identificación de documentos, equipos y materiales\n\n5.3. Procedimiento de Verificación\n\n5.4. Estimación de Progreso\n\n5.5. Procedimiento de Compras\n\n5.6. Procedimiento de Subcontratación\n\n5.7. Procedimiento de Construcción",
+      "nivel": "child",
+      "parent_id": "3e77a453-61fd-4bd5-84b0-15199c975343",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "ANEXO III Plan de Calidad y Medio Ambiente completo",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4d956a28-cd49-4390-b95b-6f3877b2baf6",
+      "texto": "Cuadros de distribución\n\nEjemplos de Informes de Compras\n\nEjemplos de informes de Subcontratación",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "ANEXOS",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a1e71ade-331c-496e-a818-c139f1e901c0",
+      "texto": "Intecsa Industrial tiene   implementado   un   SIG   de   la   Calidad   y   Medioambiental siguiendo las directrices de las normas ISO 9001 y 14001.\n\nEste Sistema cubre todas las actividades y servicios, asegurando que se realizan según pautas documentadas que se recogen en:\n\n-Manual de Calidad y Medio Ambiente\n\n-Procedimientos Generales\n\n-Instrucciones de Trabajo de los Departamentos\n\n-Programas informáticos de cálculo, gestión y diseño\n\n-Otros documentos de trabajo\n\nPara cada Proyecto, se prepara un Plan de Calidad y Medio Ambiente, que recoge todo lo que se aparta o se añade al Sistema.\n\nAdemás Intecsa Industrial tiene establecido un programa de Auditorías internas para comprobar la efectiva aplicación del Sistema a los Proyectos y corregir las desviaciones que eventualmente puedan presentarse.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "1.1. Sistema integrado de Gestión de la Calidad y Medioambiental",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f7270f27-d157-4c0f-8567-d2f8977faed0",
+      "texto": "Este Plan tiene por objeto establecer las pautas por las que se guiará el desarrollo del   Proyecto   ( Nombre del  Proyecto) que  ( Cliente) ha  encomendado  a Intecsa Industrial de forma que se asegure el pleno cumplimiento de los compromisos contractuales, a plena satisfacción de ( Cliente).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "1.2. Objeto y alcance del Plan",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e87e4ac8-8f23-4f25-8866-d260624bba88",
+      "texto": "Este Plan tiene las siguientes partes:\n\n-Información   básica   contractual,   incluso   alcance   de   los   trabajos,   bases   de ingeniería y diseño, requisitos legales y códigos aplicables (v. Capítulo 2).\n\n-Actividades   del   Proyecto   en   relación   con   la   documentación   y   con   la coordinación de Intecsa Industrial con (Cliente) (v. Capítulo 3).\n\n-Control del Proyecto (v. Capítulo 4).\n\n-Procedimientos y su aplicación (v. Capítulo 5)\n\n-Anexos con información adicional.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "1.3. Contenido",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e15b882f-67ca-4f18-8f34-f41bc417c19d",
+      "texto": "La   preparación   y   distribución   del   Plan   de   Calidad   y   Medio   Ambiente es responsabilidad del Jefe del Proyecto de Intecsa Industrial .\n\nLa verificación de que el Plan de Calidad y Medio Ambiente responde a los requisitos del SIG de la Calidad y Medioambiental   la realiza el Jefe de Calidad y Medio Ambiente de Intecsa Industrial .",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "1.4. Responsabilidad",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "789d37ee-6eef-4929-82a0-f5466fa66249",
+      "texto": "(Descripción que deje bien establecidos los \"límites de batería\").",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "2.1. Descripción del Proyecto",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ad7e38de-3ec6-419b-aa0c-879339d455d2",
+      "texto": "Nombre del Cliente: Título Oficial del Proyecto: Nº de Contrato de ( Cliente): Nombre abreviado del Proyecto: Identificación de ( Plantas, Areas, Unidades) Nombre del Jefe del Proyecto de ( Cliente): Nombre del Jefe del Proyecto de contratista: Información recibida de ( Cliente):\n\n(Relacionar documentos y sus ediciones)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "2.2. Información general",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6092e034-01ba-41f8-b6c8-7d952eb8adcd",
+      "texto": "Toda la información aportada por ( Cliente) será considerada confidencial por Intecsa Industrial , que instruirá en este sentido a todos los que participen en el Proyecto o tengan acceso al mismo.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "2.3. Confidencialidad",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ea09946f-8a97-4905-916b-a8341368896b",
+      "texto": "Las bases de diseño son las recogidas en el Documento ( nombrar).\n\nSe utilizará el Sistema Internacional de unidades excepto en ( concretar: tuberías , quizá diagramas de proceso, etc).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "2.4. Bases de diseño",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "51a3fdb1-36c0-4672-9751-b8718453eb31",
+      "texto": "Se recogen en el documento (nombrar) para las actividades de ingeniería y diseño, y en el Procedimiento de construcción (apartado 5.7.) para las actividades relativas a ésta.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "2.5.1. Identificación, evaluación y registro de aspectos medioambientales",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8b9f9df4-3d58-4e22-bdfd-61d75ee7ea5e",
+      "texto": "El   control   de   las   operaciones   de   ingeniería   y   diseño   asociadas   a   los   aspectos medioambientales significativos e importantes se recoge en el Documento ( nombrar ), que también contiene la identificación de los documentos de trabajo de los distintos departamentos de ingeniería y/o documentos de fabricante o proveedor, donde se desarrolla la solución adoptada.\n\nEl control de las operaciones de construcción (y puesta en marcha en el caso de estar incluida   en   el   alcance   del   Contrato   de Intecsa   Industrial) ,   se   recoge   en   el Procedimiento de construcción (apartado 5.7.) que también contiene específicamente el plan de gestión de residuos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "2.5.2.Control y seguimiento de operaciones",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d847f8ba-eb38-4096-b67a-6044eeccfbbb",
+      "texto": "El plan de emergencia medioambiental (aplicable a la fase de construcción y puesta en marcha en su caso) se recoge en el Procedimiento de construcción (apartado 5.7.).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "09ea8b45-339f-4194-91cb-71d05fb6064b",
+      "texto": "Los distintos registros de obra se recopilarán y custodiarán por el responsable de medio ambiente en obra, según se recoge en el Procedimiento de construcción (apartado 5.7.)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "2.5.4. Registros en construcción",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7c591700-adf2-4376-8cc0-4c84598f530a",
+      "texto": "Este apartado incluirá listado de disposiciones legales aplicables relacionadas no sólo con la ubicación del proyecto, sino con las actividades particulares de éste.\n\nCuando un determinado proyecto se lleve a cabo fuera de España, se recogerán bajo la denominación genérica \"Requisitos Legales\", todos los requisitos que se deriven de la legislación del país concreto del que se trate. Por el contrario, si el proyecto se desarrolla en España, los listados se agruparán, cuando proceda, bajo las siguientes denominaciones:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "2.5.5. Requisitos legales aplicables",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "76faf8c2-3bdf-4a62-9b2e-397aea52be88",
+      "texto": "(Listar, indicando la denominación de la disposición)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "Legislación Internacional, Europea, Nacional y Autonómica",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fd48741c-e6a7-4da8-a657-348059fcbff4",
+      "texto": "(Listar, indicando la denominación de la disposición)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "Legislación local y de otros organismos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "eb3ee2e6-5a47-409c-a347-0664e3150c33",
+      "texto": "Los   requisitos   se   recogen   en   el   documento   ( nombrar )   para   las   actividades   de ingeniería y diseño, y en el Procedimiento de construcción (apartado 5.7.) para las actividades relativas a ésta.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "Requisitos derivados del Estudio de Impacto Medioambiental o Similar",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c2376af8-9eb6-4943-a3d6-f46718de9762",
+      "texto": "(Indicar en qué documento se incluyen, para las actividades de ingeniería y diseño, si procede, y en su caso si se recogen en un Apéndice al Plan, ó en el Procedimiento de construcción, apartado 5.7, para las relativas a obra, si procede)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "2.5.6. Otros requisitos aplicables",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f1e41bcf-6ac1-4109-bd25-f8482b32aa8d",
+      "texto": "Serán   de   aplicación   las   siguientes   disposiciones   legales (listar   en   cada   caso, suprimiendo o añadiendo especialidades según proceda):\n\nGeneral Procesos Estructuras, obra civil y edificación Tuberías Recipientes Equipos rotativos Electricidad Instrumentación Aislamiento",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "2.6. Otros requisitos legales",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "88ab1004-7a82-4c74-8577-be36064ed6f3",
+      "texto": "Pintura y revestimientos",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "963970ac-f338-4b36-a4ca-1360ee137853",
+      "texto": "Serán de aplicación los siguientes códigos y normas, además de lo indicado en 2.11:\n\nEstructuras, obras civiles y edificación: ( Listar) Instalaciones en edificios: ( Listar) Instalaciones de gases combustibles: ( Listar) Instalaciones eléctricas: ( Listar) Instrumentación: ( Listar) Instalaciones contra incendios: ( Listar) Tuberías: ( Listar) Recipientes a presión: ( Listar) Efluentes: ( Listar) Equipos de elevación: ( Listar)\n\n(Suprimir o completar con los que proceda)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "2.7. Códigos y normas aplicables",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "befc554e-5fc0-4170-9c57-1e0773e64218",
+      "texto": "Serán de aplicación los siguientes Procedimientos:\n\n(listar, identificándolos, cuando existan).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "2.8. Procedimientos de (Cliente)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8817b2a5-0659-4f48-942d-471ae05fe19c",
+      "texto": "La actuación de Intecsa Industrial se ajustará a los Procedimientos relacionados en 2.8 .   y   a   sus   Procedimientos e Instrucciones de Trabajo, en todo lo que no esté explícitamente modificado por este Plan de Calidad y Medio Ambiente.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "2.9. Procedimientos de Intecsa Industrial",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2a9330ba-a250-45e9-b472-d66779958722",
+      "texto": "Intecsa Industrial suministrará los siguientes servicios:\n\n(concretar todo lo que haga falta; si es preciso, aclarar si se hacen o no isométricas, que los planos de estructuras no incluyen planos de detalles, etc. Se tendrá en cuenta lo que aplique para contratos \"llave en mano\", y también aquello que sea mejor indicar en el Suplemento interno)\n\nDirección de Proyecto Planificación Control de Costes Ingeniería de proceso Ingeniería y diseño mecánico Diseño de tuberías Ingeniería civil y Arquitectura Ingeniería y diseño de estructuras Ingeniería y diseño de electricidad Ingeniería y diseño de instalaciones termomecánicas Ingeniería y diseño de instrumentación y control Compras Subcontratos Supervisión de Construcción Documentación para tramitación de Licencias y permisos (si procede)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "2.10. Servicios a suministrar",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0de43bea-5d19-477a-ae24-9eba93ee0942",
+      "texto": "( Cliente) suministrará lo siguiente (dejar también muy claro)\n\nGeotécnia Tramitación de Licencias y permisos",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "015c33a5-f2a0-48e8-a4b5-b5e666bfe069",
+      "texto": "En lo relativo a Prevención de riesgos laborales, se estará a lo indicado en el Sistema de gestión de la Prevención.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "2.11. Prevención de Riesgos Laborales",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "610defa6-c474-4451-80c0-5e1ccfba9c8e",
+      "texto": "La organización de Intecsa Industrial para el proyecto es la siguiente: (en cada caso lo que proceda)\n\n-Ingeniero de Proyecto:\n\n-Calidad y Medio Ambiente ( si procede )\n\n-Prevención de riesgos laborales ( si procede ):\n\n-Administración de Documentos:\n\nEspecialista resp. de Proceso: Especialista resp. de Mecánica: Especialista resp. de Tuberías: Especialista resp. de Eléctricidad: Especialista resp. de Instrumentación: Especialista resp. de Civil/Estructuras: Especialista resp. de Instalaciones:\n\nCoordinador de Compras: Coordinador de Subcontratación\n\nSupervisor de obra civil: Supervisor mecánico: Supervisor eléctrico: Supervisor instrumentación:\n\n(en ciertos Proyecto es conveniente adjuntar un organigrama además, sobre todo cuando hay varias áreas con distintos ingenieros de proyecto)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "3.1. Organización del Proyecto",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1d4d2dc7-746d-4be8-ba87-2632eea57530",
+      "texto": "Toda la correspondencia entre ( Cliente) e Intecsa Industrial relacionada con el contrato   tendrá   lugar   entre   los   respectivos   Jefes   del   Proyecto   excepto   la correspondencia con la obra que se recoge en el Procedimiento de construcción (apartado 5.7.). Todos los envíos de documentos irán acompañados por un listado que los relacione.\n\nToda la correspondencia se escribirá en español ( o lo que proceda)\n\nLas   conversaciones   telefónicas   y   los   faxes   o   mensajes   electrónicos   serán confirmados por carta siempre que afecten al contrato, bases de diseño, decisiones de compra o programa de trabajos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "3.2. Comunicaciones con (Cliente )",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "add18bbe-45cb-4b32-9e2a-705f5d1d5571",
+      "texto": "Cartas. Todas las cartas llevarán en su cabecera los números de referencia de (Cliente) (N º de Cliente) y de Intecsa Industrial (O.T. n º ) .\n\nLas cartas de cada originario se numerarán correlativamente, y a la numeración precederán dos códigos de letras identificando remitente y destinatario (precisamente por este orden) separados por una barra. Los códigos serán ( Código) para (Cliente) e Intecsa para Intecsa Industrial . Así: (Código Cliente)/ Intecsa-035 será la carta nº 35 de las que envía ( Cliente) a Intecsa Industrial . (Se tendrá en cuenta la codificación para la correspondencia originada en obra, si procede).\n\nCorreos   electrónicos  Todos   los   correos   electrónicos   incluirán   en   el   asunto   los números de referencia del Cliente y de Intecsa-Industrial (OT nº), separados por una barra, y el objeto del escrito. En el texto se incluirá siempre un encabezamiento y una firma, que Proyecto puede preparar en una plantilla y distribuir entre el personal que tenga que usarla.\n\nEn el encabezamiento se incluirá siempre el nombre y la empresa del destinatario, el nombre del proyecto o contrato, y si se dirige al Cliente un número (semejante al usado para las cartas) que se usará correlativamente. La firma incluirá el nombre del remitente (eventualmente su cargo en el proyecto), el nombre de Intecsa Industrial, la dirección, el teléfono directo del remitente y nuestra dirección en Internet.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "3.3. Identificación de los documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e50f18a7-d3db-415a-b40f-45f179771276",
+      "texto": "Cartas. Todas las cartas llevarán en su cabecera los números de referencia de (Cliente) (N º de Cliente) y de Intecsa Industrial (O.T. n º ) .\n\nLas cartas de cada originario se numerarán correlativamente, y a la numeración precederán dos códigos de letras identificando remitente y destinatario (precisamente por este orden) separados por una barra. Los códigos serán ( Código) para (Cliente) e Intecsa para Intecsa Industrial . Así: (Código Cliente)/ Intecsa-035 será la carta nº 35 de las que envía ( Cliente) a Intecsa Industrial . (Se tendrá en cuenta la codificación para la correspondencia originada en obra, si procede).\n\nCorreos   electrónicos  Todos   los   correos   electrónicos   incluirán   en   el   asunto   los números de referencia del Cliente y de Intecsa-Industrial (OT nº), separados por una barra, y el objeto del escrito.",
+      "nivel": "child",
+      "parent_id": "add18bbe-45cb-4b32-9e2a-705f5d1d5571",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "3.3. Identificación de los documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6f73e2d1-4760-4136-81da-b32ae9ba9df1",
+      "texto": "En el texto se incluirá siempre un encabezamiento y una firma, que Proyecto puede preparar en una plantilla y distribuir entre el personal que tenga que usarla.\n\nEn el encabezamiento se incluirá siempre el nombre y la empresa del destinatario, el nombre del proyecto o contrato, y si se dirige al Cliente un número (semejante al usado para las cartas) que se usará correlativamente. La firma incluirá el nombre del remitente (eventualmente su cargo en el proyecto), el nombre de Intecsa Industrial, la dirección, el teléfono directo del remitente y nuestra dirección en Internet.",
+      "nivel": "child",
+      "parent_id": "add18bbe-45cb-4b32-9e2a-705f5d1d5571",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "3.3. Identificación de los documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5dc2b42d-281c-4a94-826f-86740d9216bd",
+      "texto": "Los documentos técnicos se identificarán con los siguientes códigos:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Otros documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1b6672fbf54e4524bafcc82d6cb6ddd9",
+      "texto": "|             | z      | a   | b   | c    | d      | e    |\n|-------------|--------|-----|-----|------|--------|------|\n| Planos      | -      | OT  | Cta | n os | -      | -    |\n| Isométricas | -      | OT  | Cta | n os | letras | n os |\n| Escritos    | letras | OT  | Cta | n os | -      | -    |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Otros documentos",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "383fb95f-4a2b-45ae-a0fa-691f3648c7e4",
+      "texto": "donde OT es el número de encargo ( nº) , Cta es la cuenta según Anexo V y los n os c indican (cuando procede) el Area o Unidad y (siempre) la numeración correlativa dentro del Area o Unidad y Cuenta.\n\nLas letras  z  identifican   el   tipo   de   documento   escrito   (E   =   especificación,   RM   = Relación de Material) y las letras  d  y n os e  de las isométricas dan sobre ellas información adicional.\n\nLas   ediciones   sucesivas   de   un   documento   se   numerarán   con   cifras   arábigas correlativas, comenzando con 1 para la emisión. Estas cifras irán en el lugar previsto para ello en el documento. Cuando este lugar no exista, o al hacer referencia escrita a un documento, el nº de edición se situará tras el número de orden, separado por una barra.\n\nEn el capítulo 5 se da información completa sobre identificación.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Otros documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "bee5134f-5fbc-400d-a8dc-8e1cda9aa07f",
+      "texto": "Los sellos de los planos serán como se indica en el Anexo II.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Sellos de los planos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "77b9db1c-c850-4169-8e51-48966170fd5a",
+      "texto": "En el Anexo III figuran los cuadros de distribución de documentos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "3.4. Distribución de documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0337f86d-6946-49b8-a97b-f403447661f2",
+      "texto": "Los proveedores enviarán sus planos y documentos a Intecsa Industrial de acuerdo con las condiciones que marque el pedido, para comentarios o aprobación cuando proceda.\n\nLa distribución interna en Intecsa Industrial para aquellos planos que deban ser comentados por más de una Especialidad viene reflejada en el correspondiente cuadro del Anexo III. Los planos finales de los proveedores serán recogidos por Intecsa Industrial y entregados a (Cliente) en su momento.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "3.5. Documentos de proveedores",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "35d1ffd5-d699-4f7b-a99f-7409d092e00a",
+      "texto": "Los documentos del Proyecto serán verificados de acuerdo con el correspondiente Procedimiento de Verificación de Intecsa Industrial (v.   apartado   5.3.)   y   con   las Instrucciones de Trabajo especificas de cada uno de los Departamentos, registrando esta verificación con la firma correspondiente del responsable de la misma.\n\nSe verificarán todos los documentos en todas y cada una de sus ediciones.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "3.6. Verificación de documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "bd26710e-9981-45a9-ba99-2f942600c70b",
+      "texto": "Cada   uno   de   los   documentos   técnicos   será   aprobado   técnicamente   por   el Especialista responsable de la Cuenta a que corresponda.\n\nTodos los documentos serán aprobados además por el Jefe del Proyecto.\n\nLos documentos que requieren aprobación previa de ( Cliente) le serán sometidos por el Jefe del Proyecto antes de su propia aprobación, que es la que finalmente autoriza la difusión y uso del documento.\n\nLos documentos que deban ser aprobados por (Cliente) le serán remitidos en edición interna provisional y sólo una vez aprobados será registrada su nueva edición oficial.\n\nLa edición interna provisional se utiliza así:\n\nSe marca en el documento lo que se haya modificado desde la edición anterior. Se dibuja en la cabecera del documento un círculo o \"burbuja\", dividido horizontalmente en dos partes iguales. En el semicírculo superior figura una letra, empezando por A y, en el inferior la fecha y en estas condiciones se circula el documento para aprobación o comentarios. Cuando el documento está listo para su edición oficial se pone el nuevo número de edición en los lugares previstos para ello, se elimina la \"burbuja\" y se recogen las firmas correspondientes.\n\nLos documentos que debe aprobar ( Cliente) son los siguientes:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "3.7. Aprobación de documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1d5046f7-4b39-4768-83a3-65f625afe4c9",
+      "texto": "Cada   uno   de   los   documentos   técnicos   será   aprobado   técnicamente   por   el Especialista responsable de la Cuenta a que corresponda.\n\nTodos los documentos serán aprobados además por el Jefe del Proyecto.\n\nLos documentos que requieren aprobación previa de ( Cliente) le serán sometidos por el Jefe del Proyecto antes de su propia aprobación, que es la que finalmente autoriza la difusión y uso del documento.\n\nLos documentos que deban ser aprobados por (Cliente) le serán remitidos en edición interna provisional y sólo una vez aprobados será registrada su nueva edición oficial.\n\nLa edición interna provisional se utiliza así:\n\nSe marca en el documento lo que se haya modificado desde la edición anterior. Se dibuja en la cabecera del documento un círculo o \"burbuja\", dividido horizontalmente en dos partes iguales. En el semicírculo superior figura una letra, empezando por A y, en el inferior la fecha y en estas condiciones se circula el documento para aprobación o comentarios.",
+      "nivel": "child",
+      "parent_id": "bd26710e-9981-45a9-ba99-2f942600c70b",
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "3.7. Aprobación de documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b6eeebf8-bfed-4d2e-aeea-4db791139b15",
+      "texto": "Cuando el documento está listo para su edición oficial se pone el nuevo número de edición en los lugares previstos para ello, se elimina la \"burbuja\" y se recogen las firmas correspondientes.\n\nLos documentos que debe aprobar ( Cliente) son los siguientes:",
+      "nivel": "child",
+      "parent_id": "bd26710e-9981-45a9-ba99-2f942600c70b",
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "3.7. Aprobación de documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a46ca436-f3f1-4c20-9852-b8b175777377",
+      "texto": "La secretaria del Proyecto archivará toda la correspondencia entre Intecsa Industrial y (Cliente) incluso las notas de acompañamiento de documentación, indicando en las que reciba el destino interno de esa documentación.\n\nTodos los originales de los documentos técnicos producidos por las especialidades serán conservados por éstas.\n\nSe   entiende   por   \"original\"   el   ejemplar   que   físicamente   recoge   las   firmas   de verificación y aprobación (no los disquetes).\n\nLas copias de los documentos utilizadas en su verificación serán también archivadas en la especialidad correspondiente.\n\nToda la documentación de ofertas, pedidos y subcontratos, y correspondencia con proveedores será archivada en el Departamento de Compras ó en el de Construcción (subcontratos)\n\nEl índice de los documentos producidos por Intecsa Industrial y su nº de edición vigente   será   único,   informatizado,   permanentemente   puesto   al   día,   y   disponible desde todos los terminales de ordenador.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "3.8. Archivo de documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f768f248-5428-4fac-808c-a25c3021609c",
+      "texto": "Los cambios que se produzcan en el curso del trabajo, fundamentalmente por cambio de instrucciones o cambios de alcance, le serán sometidos por escrito a ( Cliente) con su valoración, para que proceda a su aprobación o rechazo, en los correspondientes formatos \"Ordenes de Cambio\" que se incluyen en el Anexo I. Intecsa Industrial no acometerá ningún cambio sin la aprobación y firma de ( Cliente).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "3.9. Ordenes de Cambio",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f7c67d11-a191-49d5-9c95-203bff46b192",
+      "texto": "Los miembros del Equipo de Proyecto de Intecsa Industrial mantendrán cuantas reuniones sean precisas entre ellos y los proveedores, pero nunca para acordar nada que afecte al Contrato, el coste, el programa o los pedidos.\n\nTodo aquello que haga relación a esto último se tratará en reuniones convocadas por los Jefes del Proyecto y en presencia de ellos.\n\nLas reuniones se convocarán con el plazo necesario y con un Orden del Día, indicando también, día, lugar y hora, asistentes y duración prevista.\n\nDe cada reunión se levantará un Acta que ha de ser aprobada por el Jefe del Proyecto de Intecsa Industrial quien la enviará al Jefe del Proyecto de ( Cliente) para su aprobación o reparos en el plazo de ( nº) días laborables, tras los cuales el Acta se considerará aprobada por ( Cliente) .\n\nLas reuniones, y en consecuencia las Actas, se numerarán correlativamente a partir de la primera (01).\n\nEn las Actas de reunión figurarán claramente las acciones acordadas y quien es el responsable de llevar a efecto cada una. (v. formato en Anexo I).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "3.10. Reuniones",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "cd022044-cae4-47c8-bb48-404856172df2",
+      "texto": "Los miembros del Equipo de Proyecto de Intecsa Industrial mantendrán cuantas reuniones sean precisas entre ellos y los proveedores, pero nunca para acordar nada que afecte al Contrato, el coste, el programa o los pedidos.\n\nTodo aquello que haga relación a esto último se tratará en reuniones convocadas por los Jefes del Proyecto y en presencia de ellos.\n\nLas reuniones se convocarán con el plazo necesario y con un Orden del Día, indicando también, día, lugar y hora, asistentes y duración prevista.\n\nDe cada reunión se levantará un Acta que ha de ser aprobada por el Jefe del Proyecto de Intecsa Industrial quien la enviará al Jefe del Proyecto de ( Cliente) para su aprobación o reparos en el plazo de ( nº) días laborables, tras los cuales el Acta se considerará aprobada por ( Cliente) .\n\nLas reuniones, y en consecuencia las Actas, se numerarán correlativamente a partir de la primera (01).",
+      "nivel": "child",
+      "parent_id": "f7c67d11-a191-49d5-9c95-203bff46b192",
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "3.10. Reuniones",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0a0c076b-9a6e-4616-b503-805a5322043a",
+      "texto": "En las Actas de reunión figurarán claramente las acciones acordadas y quien es el responsable de llevar a efecto cada una. (v. formato en Anexo I).",
+      "nivel": "child",
+      "parent_id": "f7c67d11-a191-49d5-9c95-203bff46b192",
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "3.10. Reuniones",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "37383284-047c-4d40-92b1-b3bc94b16034",
+      "texto": "Intecsa Industrial entregará a (Cliente) los siguientes planos \"as built\". (relacionar)\n\nLa documentación final (Libros de Proyecto) constará de lo siguiente: (relacionar)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 13,
+      "pagina_fin": 13,
+      "seccion": "3.11. Documentación final",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9cf82129-b989-4362-a1d9-8e750f940fbb",
+      "texto": "Al comenzar el Proyecto, Intecsa Industrial realizará la Planificación del mismo de acuerdo con su Procedimiento (pendiente) y utilizando sus programas informáticos.\n\nDe los distintos niveles de información que se obtienen sobre la Planificación de un Proyecto, a (Cliente) se le suministrarán los llamados \"Planificación general Básica\" y \"Programa General del Proyecto\".\n\nEl objetivo de la  Planificación General Básica  es el de facilitar, una sucinta pero suficiente información sobre la marcha del conjunto del Proyecto.\n\nConsiste en un diagrama de barras, conteniendo los hitos contractuales, indicando el comienzo  y   terminación   de   cada   una   de   las   Especialidades   que   intervienen   y destacando   aquellas   actividades   críticas,   que   condicionan   el   plazo   global   del proyecto.\n\nEn cada una de las ediciones de esta Planificación General Básica se indica la situación del Proyecto, mediante una línea vertical quebrada indicando adelantos o retrasos o señalando en cada barra los % de progreso previsto y alcanzado en la fecha del informe.\n\nEl Programa   General   del   Proyecto contiene   una   información   más   detallada, desglosando las especialidades en las actividades más importantes, con toda la información precisa para un buen seguimiento del Proyecto:\n\nConsta también de diagramas de barras para cada área en el que el Proyecto se divide.   En   cada   uno   de   ellos,   se   representan   desglosadas   las   actividades   más significativas de cada una de las especialidades involucradas   (grupos de planos, equipos principales, etc) y a los hitos a respetar para asegurar la realización del Proyecto en plazo.\n\nMensualmente   se   trazan   líneas   verticales   quebradas   que   unen   los   avances alcanzados en cada actividad. Se dispone así, de una información muy completa sobre la situación de los trabajos.\n\nEn el Anexo IV se incluyen ejemplos de estos diagramas.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 14,
+      "pagina_fin": 14,
+      "seccion": "4.1. Planificación",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "80ce1051-966c-47cb-b015-07fbe1fe7b19",
+      "texto": "Al comenzar el Proyecto, Intecsa Industrial realizará la Planificación del mismo de acuerdo con su Procedimiento (pendiente) y utilizando sus programas informáticos.\n\nDe los distintos niveles de información que se obtienen sobre la Planificación de un Proyecto, a (Cliente) se le suministrarán los llamados \"Planificación general Básica\" y \"Programa General del Proyecto\".\n\nEl objetivo de la  Planificación General Básica  es el de facilitar, una sucinta pero suficiente información sobre la marcha del conjunto del Proyecto.\n\nConsiste en un diagrama de barras, conteniendo los hitos contractuales, indicando el comienzo  y   terminación   de   cada   una   de   las   Especialidades   que   intervienen   y destacando   aquellas   actividades   críticas,   que   condicionan   el   plazo   global   del proyecto.",
+      "nivel": "child",
+      "parent_id": "9cf82129-b989-4362-a1d9-8e750f940fbb",
+      "pagina_inicio": 14,
+      "pagina_fin": 14,
+      "seccion": "4.1. Planificación",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "70e8f195-afec-40b2-9748-e0fc8c45cabe",
+      "texto": "En cada una de las ediciones de esta Planificación General Básica se indica la situación del Proyecto, mediante una línea vertical quebrada indicando adelantos o retrasos o señalando en cada barra los % de progreso previsto y alcanzado en la fecha del informe.\n\nEl Programa   General   del   Proyecto contiene   una   información   más   detallada, desglosando las especialidades en las actividades más importantes, con toda la información precisa para un buen seguimiento del Proyecto:\n\nConsta también de diagramas de barras para cada área en el que el Proyecto se divide.   En   cada   uno   de   ellos,   se   representan   desglosadas   las   actividades   más significativas de cada una de las especialidades involucradas   (grupos de planos, equipos principales, etc) y a los hitos a respetar para asegurar la realización del Proyecto en plazo.\n\nMensualmente   se   trazan   líneas   verticales   quebradas   que   unen   los   avances alcanzados en cada actividad.",
+      "nivel": "child",
+      "parent_id": "9cf82129-b989-4362-a1d9-8e750f940fbb",
+      "pagina_inicio": 14,
+      "pagina_fin": 14,
+      "seccion": "4.1. Planificación",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5d7c4a1c-c11d-4bd0-bfac-996d36c6aaa0",
+      "texto": "Se dispone así, de una información muy completa sobre la situación de los trabajos.\n\nEn el Anexo IV se incluyen ejemplos de estos diagramas.",
+      "nivel": "child",
+      "parent_id": "9cf82129-b989-4362-a1d9-8e750f940fbb",
+      "pagina_inicio": 14,
+      "pagina_fin": 14,
+      "seccion": "4.1. Planificación",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8fd458b9-5b13-41a9-8095-fb08573e342a",
+      "texto": "El Control de Costes de la inversión se realizará de acuerdo con el Procedimiento de Intecsa Industrial y mediante sus programas informáticos.\n\nEl Control de Costes del Proyecto tiene por finalidad informar en cada momento de la situación de la inversión, en especial con respecto a lo inicialmente previsto, y con lo que finalmente se prevé alcanzar.\n\nNo tiene en cuenta el Control de Costes, ni es su objeto, lo relacionado con facturas y pagos.\n\nEn consecuencia los conceptos del Control de Costes son los siguientes:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 14,
+      "pagina_fin": 14,
+      "seccion": "4.2. Control de Costes",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4d3bd6dc-38ca-46fe-8974-85518d8f4e5e",
+      "texto": "Es el valor del coste estimado inicial o presupuesto inicial, normalmente desglosado en todos aquellos componentes que van a ser objeto de seguimiento.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 15,
+      "pagina_fin": 15,
+      "seccion": "Estimación original",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f822eb27-2cfb-4c83-b3a4-46d453048dc7",
+      "texto": "Son los costes por cambios en el alcance o especificaciones iniciales, o por nuevas actividades, con el signo algebraico que les corresponda.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 15,
+      "pagina_fin": 15,
+      "seccion": "Ordenes de cambio",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7606f159-d2a8-4eac-a060-f261d35025ce",
+      "texto": "Permite   transferir   costes   entre   diferentes   actividades   o   suministros.   La   suma algebraica de las Transferencias, por tanto debe ser igual a cero.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 15,
+      "pagina_fin": 15,
+      "seccion": "Transferencias",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ce4e54fb-dc05-4600-8076-71598fb67778",
+      "texto": "Se trata de la suma algebraica de los conceptos anteriores, Estimación original, Ordenes de cambio y Transferencias.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 15,
+      "pagina_fin": 15,
+      "seccion": "Estimación original revisada",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "033ccc5f-3a80-4cf0-ba50-7c0b0bae54d2",
+      "texto": "Son los costes comprometidos hasta la fecha por haberse realizado el pedido o contrato correspondiente con el proveedor.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 15,
+      "pagina_fin": 15,
+      "seccion": "Compromisos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "bb19de3a-4497-4101-b501-e6af4eddcb36",
+      "texto": "Es la cantidad que se estima que falta realmente por gastar hasta terminar cada actividad o suministro.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 15,
+      "pagina_fin": 15,
+      "seccion": "Estimado para completar",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "100ddfa8-ca60-46e8-8a33-4d5305624a37",
+      "texto": "Es la suma de los Compromisos más los Estimados para completar.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 15,
+      "pagina_fin": 15,
+      "seccion": "Coste final esperado",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1a59a1b5-3654-4afa-9966-a3560144098f",
+      "texto": "Es la diferencia entre el Coste final esperado y la Estimación original revisada, con el signo que le corresponda.\n\n4.2.1 . En el caso de un contrato de servicios , todo ello se realizará a partir de la relación de actividades,   suministros   y   subcontratos   previstos   por   ( Cliente) y   su   estimación original, preparada por ( Cliente) con la colaboración de Intecsa Industrial .\n\nEl desglose de cada uno de los conceptos a controlar será objeto de acuerdo entre (Cliente) e Intecsa Industrial , así como su agrupación por Cuentas, Areas, etc.\n\nUn ejemplo de Informe de Control de Costes se incluye en el Anexo IV.\n\n4.2.2. En  el   caso   de   un   contrato   \"llave   en   mano\"   todo   ello   se   realizará   según   los Procedimientos de Intecsa Industrial ,   siendo el documento producido solamente para uso interno de la empresa.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 15,
+      "pagina_fin": 15,
+      "seccion": "Desvío",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "88487235-33d2-4fdf-96d1-f6acade52274",
+      "texto": "El Control de los principales documentos (especialmente planos y Relaciones de material), su estado y su avance con respecto a la planificación prevista, será objeto también de un documento que se incorporará a los Informes periódicos y tendrá el contenido que se muestra en el ejemplo del Anexo IV.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 16,
+      "pagina_fin": 16,
+      "seccion": "4.3. Control de documentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "90dd4f99-da5e-4d56-82c2-688de765ff36",
+      "texto": "Con todos los documentos reseñados, más los correspondientes a la Gestión de Compras y la de Subcontratos, Intecsa Industrial enviará un Informe mensual a (Cliente) para facilitarle el seguimiento de los trabajos.\n\nPara el progreso de los trabajos de ingeniería se seguirán las pautas establecidas en el correspondiente Procedimiento, tal como se indica en 5.4.\n\nEl Indice de los Informes será el siguiente:\n\n(Como orientación un informe completo sería:\n\nInforme mensual de progreso\n\nIngeniería Compras Subcontratos Construcción y montaje Control de costes Situación de Ordenes de Cambio y para los 4 primeros capítulos, el contenido puede ser:\n\nAvance desde el informe anterior Situación a origen previsto y real Comentarios a las desviaciones Previsiones inmediatas\n\nInforme de planificación\n\nInformes individuales de visitas de inspección a fabricantes)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 16,
+      "pagina_fin": 16,
+      "seccion": "4.4.1. Contratos de servicios",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8f6aa77f-fbaf-4e3c-8056-82e087414569",
+      "texto": "(La edición o no de un informe mensual al Cliente, y su contenido, se indicará por el Jefe de Proyecto al comienzo de éste. El informe interno del Proyecto se hará mensualmente, salvo que se acuerde otra cosa entre Proyecto y Control de Costes y Planificación)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 16,
+      "pagina_fin": 16,
+      "seccion": "4.4.2. Contrato \"Llave en mano\"",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f6808be0-9938-47e1-ae24-1fdff496970a",
+      "texto": "(Los   apartados   siguientes   se   refieren   a   contratos   de   servicios.   En   el   caso   de contratos \"llave en mano\" se reducirán a lo necesario para la información del Cliente, según las condiciones contractuales).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "5. PROCEDIMIENTOS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d517191a-c3d5-4508-acea-fdfed223aaf1",
+      "texto": "La estructura del número de identificación de planos y diagramas es la siguiente:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "5.1.1. Planos y diagramas",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "07ce3e42-c349-4156-ab5a-1dfc6fd2f500",
+      "texto": "a = número de la O.T. de identificación del Proyecto: (número) guión\n\nb = la letra mayúscula identificativa de la Cuenta (v. 5.2.).\n\nc = (decir lo que corresponda, según el PR-32) .\n\nEn el caso de numeración de Diagramas de flujo de Procesos y Diagramas de Tuberías e Instrumentos (P&I. D), se reservarán para los primeros las cifras de orden 01 a 10, usando las restantes a partir de 11 correlativamente para los P&I.D.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "a-b-c",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a2eaeefc-7acd-4300-bce8-46145b969bf3",
+      "texto": "La estructura de la identificación de isométricas es la siguiente:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "5.1.2. Isométricas",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2cbd92ff-d6a5-4e08-af04-14652835c06f",
+      "texto": "a,b y c según se indica en 5.1.1., como cualquier otro plano, con guiones guión\n\n(definir según el PR-32).\n\ne = número de orden de hoja, (se reservarán las 9 primeras hojas para la numeración de índices).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "a-b-c-d-e",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "95af980c-8a7e-48f1-90ac-3adb2322265b",
+      "texto": "La estructura del número de identificación de los documentos es la siguiente:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "5.1.3. Otros documentos excepto Hojas de Datos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b447dd86-8492-4682-bd80-8792c5b5f08c",
+      "texto": "z = las letras clave del tipo de documento (ver después)\n\na = el número de la O.T. de identificación del proyecto: (número)\n\nguión b = la letra característica de la Cuenta (v. 5.2.). guión\n\nc = un número de orden dentro de la Cuenta, de dos cifras a partir de 01.\n\nLas letras clave ( z ) del tipo de documento serán:\n\nEspecificación de Construcción o Pliego de Condiciones",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "z-a-b-c",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "32905449-5eac-47c8-adaa-8e095dfdd75a",
+      "texto": "HC = Hoja de Cálculo\n\nRM = Relación de Material\n\nBD = Bases de Diseño",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 18,
+      "pagina_fin": 18,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4d72a797-0f58-4d1d-bf95-addf2ba3245d",
+      "texto": "Se identificarán según normas propias de cada Departamento.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 18,
+      "pagina_fin": 18,
+      "seccion": "5.1.4. Hojas de Datos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "23e77506-9968-476e-a072-28c263ffba19",
+      "texto": "En todos los documentos figurará, en el lugar previsto para ello, el n de edición (nº \"revisión\"), comenzando por 1.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 18,
+      "pagina_fin": 18,
+      "seccion": "5.1.5. Ediciones",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8da757a0-eebe-4f8e-9b3e-5442c0e48be5",
+      "texto": "Para los equipos la estructura del número de identificación (ítem) es:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 18,
+      "pagina_fin": 18,
+      "seccion": "5.1.6. Todos los equipos excepto instrumentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b654dc70-4929-4ede-ba5d-f6e725666f27",
+      "texto": "b : una letra mayúscula que indica la Cuenta del equipo (v. 5.2.) y una segunda cuando se refiere al accionamiento del equipo guión\n\n(definir lo que corresponda según el PR-32)\n\nuna letra mayúscula cuando hay equipos homólogos\n\nEl sistema es el que se refleja en el cuadro siguiente.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 18,
+      "pagina_fin": 18,
+      "seccion": "b-c  d",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "57efc60f-9a33-486d-803c-94e02cf237fd",
+      "texto": "La estructura del ítem de un instrumento es:\n\nun grupo de dos a cuatro letras, según la norma ISA S5.\n\nun número de tres o cuatro cifras que identifica el lazo.\n\n(Además, en los planos, se incorporan al ítem símbolos gráficos y letras adicionales que amplían la información sobre su funcionamiento, y serán objeto de acuerdo con (Cliente) .",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 18,
+      "pagina_fin": 18,
+      "seccion": "5.1.7. Instrumentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a0a261103c484543bc4242166d21975c",
+      "texto": "| IDENTIFICACION DE EQUIPOS: b-cd   |\n|-----------------------------------|",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 19,
+      "pagina_fin": 19,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "19075e3f-e245-4ba5-a65c-3e295108589b",
+      "texto": "A,   B...   =   trabajan   simultáneamente;   R   =   reserva,   normalmente parado.\n\ny = una cifra mayor que la más alta decena de los equipos del Proyecto. P.ej. Si en la Cuenta en que hay más equipos hay 24, se toma y = 3 ó mayor; y0 = 30 ; yx = 31, 32.... etc.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 20,
+      "pagina_fin": 20,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "730cf6aa-6156-45d3-97a6-7fb924fd9e6f",
+      "texto": "La estructura del número de identificación de una línea es:\n\nm = el diámetro nominal de la línea (en cifra solamente si es en mm y la cifra con la indicación \" de pulgadas si se expresa con estas unidades).\n\nn = las letras clave del fluido de procesos a concertar con (Cliente).\n\n(definir lo que proceda, según PR-32).\n\np = el conjunto de cifras y letras que identifica la clave de material de tuberías según las normas ANSI (o normas DIN).\n\nq = las letras del revestimiento si lo hay (H: aislamiento para calor, C: aislamiento para frío, P: protección personal, ST: traceado de vapor, ET: traceado eléctrico). r = espesor del aislamiento (si el Cliente lo requiere).\n\nHORMIGON Y OBRAS CIVILES Estructuras de hormigón\n\nMovimiento de tierras\n\nMANIPULACION DE FLUIDOS\n\nE INTERCAMBIADORES Intercambiadores Secadores Condensadores Aerorrefrigerantes F CALDERERIA Tanques Depósitos y Recipientes Silos metálicos Tolvas Esferas Conductos G BOMBAS Y TURBINAS Bombas Turbinas H TUBERIAS Y SOPORTES Tuberías Válvulas Accesorios Soportes I EDIFICACION Arquitectura (Albañilería, cerrajería, etc) J ESTRUCTURAS METALICAS Estructuras metálicas Plataformas Escaleras K INSTRUMENTACION Instrumentos y válvulas de control Comunicaciones Alarmas Cableado de instrumentos Tuberías de instrumentos Sistemas de control Cuadros y Paneles L PROTECCIONES Y AISLAMIENTO Pintura Aislamiento térmico Aislamiento acústico Ignifugado Impermeabilización Control de ruidos y vibraciones",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 21,
+      "pagina_fin": 22,
+      "seccion": "AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "96b1bf8a-df1e-4ff7-b489-d0434da894cc",
+      "texto": "La estructura del número de identificación de una línea es:\n\nm = el diámetro nominal de la línea (en cifra solamente si es en mm y la cifra con la indicación \" de pulgadas si se expresa con estas unidades).\n\nn = las letras clave del fluido de procesos a concertar con (Cliente).\n\n(definir lo que proceda, según PR-32).\n\np = el conjunto de cifras y letras que identifica la clave de material de tuberías según las normas ANSI (o normas DIN).\n\nq = las letras del revestimiento si lo hay (H: aislamiento para calor, C: aislamiento para frío, P: protección personal, ST: traceado de vapor, ET: traceado eléctrico). r = espesor del aislamiento (si el Cliente lo requiere).",
+      "nivel": "child",
+      "parent_id": "730cf6aa-6156-45d3-97a6-7fb924fd9e6f",
+      "pagina_inicio": 21,
+      "pagina_fin": 22,
+      "seccion": "AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "adafa0ed-3baf-4479-af63-855c3009650c",
+      "texto": "HORMIGON Y OBRAS CIVILES Estructuras de hormigón\n\nMovimiento de tierras\n\nMANIPULACION DE FLUIDOS\n\nE INTERCAMBIADORES Intercambiadores Secadores Condensadores Aerorrefrigerantes F CALDERERIA Tanques Depósitos y Recipientes Silos metálicos Tolvas Esferas Conductos G BOMBAS Y TURBINAS Bombas Turbinas H TUBERIAS Y SOPORTES Tuberías Válvulas Accesorios Soportes I EDIFICACION Arquitectura (Albañilería, cerrajería, etc) J ESTRUCTURAS METALICAS Estructuras metálicas Plataformas Escaleras K INSTRUMENTACION Instrumentos y válvulas de control Comunicaciones Alarmas Cableado de instrumentos Tuberías de instrumentos Sistemas de control Cuadros y Paneles L PROTECCIONES Y AISLAMIENTO Pintura Aislamiento térmico Aislamiento acústico Ignifugado Impermeabilización Control de ruidos y vibraciones",
+      "nivel": "child",
+      "parent_id": "730cf6aa-6156-45d3-97a6-7fb924fd9e6f",
+      "pagina_inicio": 21,
+      "pagina_fin": 22,
+      "seccion": "AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ff9b2e6b-c9a9-41f7-872e-d2b56393f4ee",
+      "texto": "Espesadores y decantadores\n\nCentros de transformación\n\nCentros de control de motores\n\nGrupos de emergencia\n\nBaterías, rectificadores y onduladores\n\nCables, barras, bandejas y tubos\n\nMANIPULACION DE SOLIDOS\n\nCintas, tornillos, rodillos\n\nTransporte neumático\n\nGrúas y puentes-grúa\n\nElevadores y escaleras mecánicas\n\nINSTALACIONES CONTRA\n\nRedes contra incendios\n\nInstalaciones de CO2 y Halon\n\nR EQUIPOS DE PROCESO (Variable según necesidades del Proyecto)\n\nPREPARACION DE SOLIDOS",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 23,
+      "pagina_fin": 23,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2b611037-831e-4bc7-834b-962ddefbea85",
+      "texto": "Tratamiento de efluentes y residuos\n\nSaneamiento interior\n\nGrupos de enfriamiento\n\nSubcontratos de obra civil, construcción y montaje\n\nPlanos de implantación\n\nDIRECCION DE PROYECTO\n\nDirección de Proyecto\n\nAdministración de Proyecto\n\nZ GENERAL (Documentos)Documentos generales de Proyecto (no imputables a ninguna de las cuentas anteriores o comunes a varias de ellas)\n\nProcedimiento de Verificación\n\nVerificación y aprobación\n\nLa verificación de un documento consiste en un examen desde el punto de vista técnico y de calidad.\n\nEn concreto se verifica:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 24,
+      "pagina_fin": 24,
+      "seccion": "Descortezadoras",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7c2a65b2-93f9-4d5f-86ab-f269574ec37b",
+      "texto": "-Que el contenido del documento esta completo, es técnicamente correcto y coherente con las bases de diseño aplicables.\n\n-Que  el   documento   cumple   con   los   aspectos   formales   que   se requieren (formatos, identificación, etc.).\n\n-Que el  documento   cumple   las   normas,   códigos   y   reglamentos indicados en el Plan de Calidad y los demás que sean aplicables.\n\nUna vez verificado, el documento recibe la aprobación técnica del responsable de la Cuenta, y luego la aprobación total.\n\nLa   aprobación   significa   que   el   documento   cumple   con   los   requisitos   del   contrato,   está correctamente identificado, contiene las condiciones y salvedades para su uso y ha sido aprobado técnicamente por la persona responsable.\n\nLa aprobación de un documento significa también la autorización de su distribución para el uso al que se le destina.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 25,
+      "pagina_fin": 25,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "888d9259-81b6-40a1-8af5-a3613a4f82b0",
+      "texto": "Se establecen tres niveles típicos de verificación, de mayor a menor exigencia, denominados A, B y C, cuyo uso viene definido en los Planes de Verificación de los Departamentos.\n\nConsiste en la verificación completa, de todo el documento, por persona distinta del autor.\n\nSe aplica a los documentos críticos que constituyen las bases sobre las que se desarrollan otros trabajos del Proyecto.\n\nSe trata de la verificación completa de una muestra de los documentos correspondientes a la actividad a verificar, también por persona distinta del autor.\n\nSe aplica típicamente a todos los planos y hojas de datos que no han sido objeto del nivel A de verificación.\n\nContempla   la   verificación   por   el   propio   autor   del   documento   y   se   aplica   típicamente   a especificaciones y RM.\n\nEstimación de Progreso",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 25,
+      "pagina_fin": 25,
+      "seccion": "5.3.2. Niveles de verificación",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b7f4ccc7-c18d-4639-8b1f-7c23448f9aea",
+      "texto": "Para estimar el avance del trabajo de Ingeniería se utilizarán baremos en función de diferentes hitos, tal como se recoge a continuación.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 26,
+      "pagina_fin": 26,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "318fefcaf570417aa2664ee1d82ce495",
+      "texto": "| CONCEPTO                          | %ORIGEN HITOS                                                     | AVANCE                                                            |\n|-----------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|\n| Proceso                           |                                                                   |                                                                   |\n| Diagramas de flujo                |                                                                   |                                                                   |\n| Diagramas P&I                     | - Iniciación, Cálculos                                            | 20                                                                |\n| A                                 | - Edición preliminar                                              | 45                                                                |\n| B                                 | - Edición para diseño                                             | 75                                                                |\n| C,D-                              | Edición para revisión y comentarios                               | 90                                                                |\n| -                                 | Edición para construcción                                         | 100                                                               |\n| Lista de equipos                  | - Iniciación                                                      | 20                                                                |\n| A                                 | - Edición preliminar                                              | 70                                                                |\n| B                                 | - Edición 2ª revisión                                             | 85                                                                |\n| C                                 | - Edición para construcción                                       | 100                                                               |\n| Lista de líneas                   | - Iniciación                                                      | 20                                                                |\n| A                                 | - Edición preliminar                                              | 60                                                                |\n| B                                 | - Edición 2ª revisión                                             | 85                                                                |\n| C                                 | - Edición para construcción                                       | 100                                                               |\n| Especificaciones y Hojas de Datos | Especificaciones y Hojas de Datos                                 |                                                                   |\n| -                                 | Cálculos                                                          | 30                                                                |\n| A -                               | Edición preliminar                                                | 50                                                                |\n| B                                 | - Edición para aprobación                                         | 85                                                                |\n| C                                 | - Edición para compras                                            | 100                                                               |\n| Mecánica                          | (R.M. incluye: Especificación, Hoja de datos y Planos Vendedores) | (R.M. incluye: Especificación, Hoja de datos y Planos Vendedores) |\n| Ingeniería de Equipos             | - Edición R.M. para petición de oferta                            | 25                                                                |\n| normales                          | A - Análisis ofertas y tabulación técnica                         | 50                                                                |\n| B                                 | - Edición R.M. para compra                                        | 70                                                                |\n| C                                 | - Revisión y aprob. documentación vendedores                      | 95                                                                |\n| -                                 | Recepción documentación final                                     | 100                                                               |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 27,
+      "pagina_fin": 27,
+      "seccion": "HITOS DE EVALUACION DEL AVANCE DE DOCUMENTOS",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "fd1d1a6554db4df9b2a3fb07da54e7c1",
+      "texto": "| CONCEPTO                            | HITOS                                                                     |   AVANCE |\n|-------------------------------------|---------------------------------------------------------------------------|----------|\n| Ingeniería de Equipos               | - Edición R.M. para petición de oferta                                    |       25 |\n| semicompletos                       | A - Análisis ofertas y tabulación técnica                                 |       50 |\n| B                                   | - Edición R.M. para compra                                                |       70 |\n| C                                   | - Revisión y aprob. documentación vendedores                              |       95 |\n| -                                   | Inclusión de esquemas de flujo auxiliares y recepción documentación final |      100 |\n| Ingeniería de Equipos               | - Edición R.M. para petición de oferta                                    |       25 |\n| completos                           | A - Análisis ofertas y tabulación técnica                                 |       50 |\n| B                                   | - Edición R.M. para compra                                                |       70 |\n| C                                   | - Revisión y aprob. documentación vendedores                              |       95 |\n| -                                   | Inclusión de esquemas de flujo auxiliares                                 |          |\n| y recepción documentación final 100 | y recepción documentación final 100                                       |          |\n| Diseño                              | A - Edición preliminar ó comentarios                                      |       40 |\n| B                                   | - Edición de diseño ó, compras                                            |       65 |\n| C                                   | - Edición para construcción                                               |      100 |\n| Intercambiadores                    | A - Edición R.M. para petición de oferta                                  |       40 |\n| -                                   | Análisis ofertas y tabulación técnica                                     |       60 |\n| B                                   | - Edición R.M. para compra                                                |       75 |\n| C                                   | - Revisión y aprob. documentación vendedores                              |       95 |\n| -                                   | Recepción documentación final                                             |      100 |\n| Recipientes                         |                                                                           |          |\n| Ingeniería                          | - Edición R.M. para petición oferta                                       |          |\n| A                                   | (Cálculos incluidos)                                                      |       40 |\n| -                                   | Análisis ofertas y tabulación técnica                                     |       60 |\n| B                                   | - Edición R.M. para compra                                                |       70 |\n| C                                   | - Revisión y aprob. documentación vendedores                              |       90 |\n| -                                   | Recepción documentación final                                             |      100 |\n| Diseño                              | A - Edición plano para ofertas                                            |       25 |\n| B                                   | - Diseño para compra                                                      |       35 |\n| -                                   | Edición para construcción (incl. orientaciones)                           |       50 |\n| C                                   | - Aprobación planos vendedores                                            |       90 |\n| -                                   | Recepción planos finales                                                  |      100 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 28,
+      "pagina_fin": 28,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "51a1e98c1f9541abb696f9f119a5acce",
+      "texto": "| CONCEPTO                |                                        | HITOS                                          |   AVANCE |\n|-------------------------|----------------------------------------|------------------------------------------------|----------|\n| Tuberias                |                                        |                                                |          |\n| Montaje de maqueta      | -                                      | Terminación mesa (trazado)                     |       10 |\n| A                       | -                                      | Terminación estructuras y equipos              |       30 |\n| B                       | -                                      | Terminación tuberías                           |       75 |\n| -                       | Incorporación comentarios verificación | Incorporación comentarios verificación         |       90 |\n| C                       | -                                      | Seguimiento y revisión final                   |      100 |\n| Estudios tuberías       | A                                      | - Edición prelim. para comienzo maqueta        |       40 |\n| para maqueta            | B                                      | - Edición para completar maqueta               |       80 |\n| C                       | -                                      | Verificación y revisión final                  |      100 |\n| Planos de plantas       | A                                      | - Edición prelim. (para comienzo isométricas)  |       60 |\n| B                       | -                                      | Edición aprobado para construcción             |      100 |\n| Isométricas acotadas    |                                        | - Preparación croquis                          |       20 |\n| A                       | -                                      | Dibujo isométricas                             |       60 |\n| B                       | -                                      | Verificación y comentarios                     |       90 |\n| C                       | -                                      | Lista de material y aprobado para construcción |       10 |\n| Isométricas no acotadas |                                        | - Preparación                                  |       20 |\n| A                       | -                                      | Dibujo isométricas                             |       60 |\n| B                       | -                                      | Verificación y comentarios                     |       90 |\n| C                       | -                                      | Lista de material y aprobado para construcción |      100 |\n| Esfuerzos               |                                        | - Estudio preliminar de Lay-Outs               |       30 |\n| A                       | -                                      | Revisión de planos de plantas de tuberías      |       40 |\n| B                       | -                                      | Isométricas                                    |       80 |\n| C                       | -                                      | Seguimiento y Revisión final                   |      100 |\n| Soportes                |                                        | - Soporte de tuberías en planos de planta      |          |\n| A                       |                                        | ó isométricas                                  |       80 |\n| B                       | -                                      | Elementos especiales                           |       90 |\n| C                       | -                                      | Seguimiento y revisión final                   |      100 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 29,
+      "pagina_fin": 29,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "2bdd4b4b-794d-494c-9a40-8a3c7cde814e",
+      "texto": "Clasificación de áreas\n\nSubestación y C.C.M.\n\nRecorridos de cables\n\nPLAN DE CALIDAD Y MEDIO\n\n(Nombre del Proyecto)\n\nEspecificaciones de tuberías\n\n1ª Medición de tuberías\n\n2ª Medición de tuberías\n\nMedición final con isométricas verificadas\n\nEdición para comentarios\n\nEdición aprobada para diseño\n\nSeguimiento y revisión final\n\nEdición para comentarios\n\nEdición aprobada para diseño\n\nEdición R.M. para petición de oferta\n\nAnálisis ofertas y tabulación técnica\n\nEdición R.M. para compra\n\nRevisión y aprob. documentación vendedores\n\nEdición para comentarios\n\nRevisión y edición para aprobación\n\nEdición aprobada para construcción\n\nEdición para comentarios\n\nRevisión y edición para aprobación\n\nEdición aprobada para construcción\n\nEdición para comentarios\n\nSeguimiento y revisión final\n\nEdición para comentarios\n\nRevisión y edición para aprobación\n\nEdición aprobada para construcción\n\nSeguimiento y revisión final",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 30,
+      "pagina_fin": 30,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2958e07457f5435ca3e2966477f81322",
+      "texto": "| CONCEPTO                | HITOS                                 | HITOS                                 | HITOS                                         |   AVANCE |\n|-------------------------|---------------------------------------|---------------------------------------|-----------------------------------------------|----------|\n| Lista de cables         | A                                     | -                                     | Edición preliminar                            |       40 |\n| B                       | -                                     |                                       | Edición con medición sobre Pls. de recorridos |       80 |\n| C                       | -                                     |                                       | Seguimiento y revisión final                  |      100 |\n| Materiales              |                                       | -                                     | Edición especificaciones                      |        5 |\n| -                       | Edición R.M. para petición oferta     | Edición R.M. para petición oferta     | Edición R.M. para petición oferta             |          |\n| A                       | (con medición preliminar)             | (con medición preliminar)             | (con medición preliminar)                     |       45 |\n| -                       | Análisis ofertas y tabulación técnica | Análisis ofertas y tabulación técnica | Análisis ofertas y tabulación técnica         |       55 |\n| B                       | -                                     |                                       | Edición R.M. para compra (con 2ª medición)    |       80 |\n|                         |                                       | -                                     | Seguimiento y revisión final                  |      100 |\n| Instrumentación         |                                       |                                       |                                               |          |\n| Diagramas P&I           |                                       | -                                     | 1ª Revisión y estudio lazos de control       |       60 |\n|                         | A                                     | -                                     | Edición aprobada con comentarios              |       80 |\n|                         | B                                     | -                                     | Seguimiento y revisión final                  |      100 |\n| Indice de instrumentos  | A                                     | -                                     | Edición para comentarios                      |       40 |\n|                         | B                                     | -                                     | Revisión y edición para aprobación            |       80 |\n|                         |                                       | -                                     | Seguimiento, revisión final y edición         |          |\n|                         | C                                     |                                       | según comprado                                |      100 |\n| Instrumentos y Válvulas | A                                     | -                                     | Edición R.M. para petición de oferta          |       50 |\n| de Seguridad y Control  |                                       | -                                     | Análisis ofertas y tabulación técnica         |       90 |\n|                         | B                                     | -                                     | Edición R.M. para compra                      |       95 |\n|                         |                                       | -                                     | Revisión y aprob. documentación vendedores    |      100 |\n| Planos de Situación     | A                                     | -                                     | Edición para comentarios                      |       60 |\n|                         | B                                     | -                                     | Revisión y edición para aprobación            |       90 |\n|                         | C                                     | -                                     | Edición aprobada para construcción            |      100 |\n| Esquemas montaje        | A                                     | -                                     | Edición para comentarios                      |       60 |\n|                         | B                                     | -                                     | Revisión y edición para aprobación            |       90 |\n|                         | C                                     | -                                     | Edición aprobada para construcción            |      100 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 31,
+      "pagina_fin": 31,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "8252e9c2da2e42fd8346cd6120fbd204",
+      "texto": "| CONCEPTO            |    | HITOS   | HITOS                                       |   %ORIGEN AVANCE |\n|---------------------|----|---------|---------------------------------------------|------------------|\n| Materiales          |    | -       | Edición R.M. para petición oferta           |                  |\n|                     | A  |         | (Con medición preliminar)                   |               50 |\n|                     |    | -       | Análisis ofertas y tabulación técnica       |               60 |\n|                     | B  | -       | Edición R.M. para compra (con 2ª medición)  |               80 |\n|                     |    | -       | Revisión y aproba. documentación vendedores |              100 |\n| Civil               |    |         |                                             |                  |\n| Cimentaciones y     |    | -       | Estudio y cálculos                          |               20 |\n| Estruct. hormigón   | A  | -       | Edición para comentarios                    |               60 |\n|                     | B  | -       | Revisión y edición para aprobación          |               80 |\n|                     | C  | -       | Edición aprobada para construcción          |               95 |\n|                     |    | -       | Seguimiento y revisión final                |              100 |\n| Estructura metálica |    | -       | Estudio y cálculos                          |               30 |\n|                     | A  | -       | Edición para comentarios                    |               40 |\n|                     | B  | -       | Revisión y edición para aprobación          |               70 |\n|                     | C  | -       | Edición aprobada para construcción          |               90 |\n|                     |    | -       | Seguimiento y revisión final                |              100 |\n| Arquitectura        |    | -       | Estudio y cálculos                          |               25 |\n|                     | A  | -       | Edición para comentarios                    |               65 |\n|                     | B  | -       | Revisión y edición para aprobación          |               80 |\n|                     | C  | -       | Edición aprobada para construcción          |               90 |\n|                     |    | -       | Seguimiento y revisión final                |              100 |\n| Tubería enterrada   |    | -       | Estudio y cálculos                          |               10 |\n|                     | A  | -       | Edición prelim. para medición de material   |               30 |\n|                     | B  | -       | Revisión y edición para aprobación          |               50 |\n|                     | C  | -       | Edición aprobada para construcción          |               90 |\n|                     |    | -       | Seguimiento y revisión final                |              100 |\n| Instalaciones       |    |         |                                             |                  |\n| Aire acondicionado/ |    | -       | Diseño preliminar                           |               40 |\n| Ventilación/        | A  | -       | Edición planos preliminares                 |               60 |\n| Protección incendio | B  | -       | Edición aprobada para diseño                |               90 |\n|                     | C  | -       | Edición para construcción                   |              100 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 32,
+      "pagina_fin": 32,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "e354019256bf4f049663596b30404f62",
+      "texto": "| CONCEPTO   | HITOS   | HITOS   | HITOS                                  |   %ORIGEN AVANCE |\n|------------|---------|---------|----------------------------------------|------------------|\n| Compras    |         |         |                                        |                  |\n|            | A       | -       | Petición de oferta                     |               10 |\n|            |         | -       | Comparación de oferta                  |               25 |\n|            | B       | -       | Fax de intención                       |               30 |\n|            |         | -       | Pedido                                 |               40 |\n|            | -       |         | Inicio inspección                      |               55 |\n|            | -       |         | Inspección final                       |               90 |\n|            |         |         | Revisión y aprob. facturas proveedores |              100 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 33,
+      "pagina_fin": 33,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "3ee29753-8d59-430b-8401-85e0d8f97078",
+      "texto": "La entidad compradora es:\n\n(Cliente) ó (Intecsa Ingenieria Industrial) (Domicilio) (N.I.F.)\n\nEn nombre y por cuenta de (Cliente) actúa Intecsa Industrial como agente de compras en el caso de contratos de servicios.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 34,
+      "pagina_fin": 34,
+      "seccion": "5.5.1. Entidad compradora",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c478e5e5-f8c5-48ad-a70f-26d6b47027d3",
+      "texto": "Solamente en los contratos de servicios, o si contractualmente se indica así, para cada una de las RR.MM. (Relaciones de Material) producidas por los Especialistas de Intecsa Industrial , el Jefe del Proyecto someterá a (Cliente) una lista de un mínimo de tres y un máximo de cinco posibles proveedores para que sea aceptada o modificada.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 34,
+      "pagina_fin": 34,
+      "seccion": "5.5.2. Selección de proveedores",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c30e8834-f4cd-4275-9593-89836999ede2",
+      "texto": "Sobre la base de las Condiciones Generales de Compra de Intecsa Industrial , con las modificaciones   contractualmente   acordadas   con (Cliente) ,   se   establecerán   las Condiciones Particulares   para   cada   RM   o   grupos   de   RR.MM,   de   acuerdo   con   el Departamento de Compras de Intecsa Industrial , de forma que queden concretados:\n\n-Forma de dar los precios con la oferta, incluso el de personal que pueda ser preciso en la puesta en marcha y los repuestos.\n\n-Mediciones (para los   pedidos   que   lo   precisen,   forma   de   medir   el   número   de elementos suministrados, las dimensiones, etc.)\n\n-Forma en que, en su día, habrá de hacerse la planificación detallada cuando se trate de obras, montaje o instalaciones.\n\n-Penalidades (por retraso de envío de documentación, por retraso en el suministro, por defectos del suministro) y límite total de la penalidad máxima.\n\n-Condiciones de facturación, certificación y pago.\n\n-Garantías (de materiales, de prestaciones).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 34,
+      "pagina_fin": 34,
+      "seccion": "5.5.3. Condiciones de Compra",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0f90ae89-fedf-4c18-9574-70aba2e5072e",
+      "texto": "Sobre la base de las Condiciones Generales de Compra de Intecsa Industrial , con las modificaciones   contractualmente   acordadas   con (Cliente) ,   se   establecerán   las Condiciones Particulares   para   cada   RM   o   grupos   de   RR.MM,   de   acuerdo   con   el Departamento de Compras de Intecsa Industrial , de forma que queden concretados:\n\n-Forma de dar los precios con la oferta, incluso el de personal que pueda ser preciso en la puesta en marcha y los repuestos.\n\n-Mediciones (para los   pedidos   que   lo   precisen,   forma   de   medir   el   número   de elementos suministrados, las dimensiones, etc.)\n\n-Forma en que, en su día, habrá de hacerse la planificación detallada cuando se trate de obras, montaje o instalaciones.\n\n-Penalidades (por retraso de envío de documentación, por retraso en el suministro, por defectos del suministro) y límite total de la penalidad máxima.",
+      "nivel": "child",
+      "parent_id": "c30e8834-f4cd-4275-9593-89836999ede2",
+      "pagina_inicio": 34,
+      "pagina_fin": 34,
+      "seccion": "5.5.3. Condiciones de Compra",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "968caef5-5e56-4b03-828e-39b4b5dc2f85",
+      "texto": "-Condiciones de facturación, certificación y pago.\n\n-Garantías (de materiales, de prestaciones).",
+      "nivel": "child",
+      "parent_id": "c30e8834-f4cd-4275-9593-89836999ede2",
+      "pagina_inicio": 34,
+      "pagina_fin": 34,
+      "seccion": "5.5.3. Condiciones de Compra",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7ed79627-710b-4319-ab2d-3873d35a5ec6",
+      "texto": "Las peticiones de oferta serán enviadas por Intecsa Industrial quien las activará para recibirlas en el plazo establecido.\n\nEn el   caso   de   un   contrato   de   servicios,   este   plazo   no   se   prorrogará   salvo   que expresamente   lo   solicite (Cliente). Las   ofertas   se   abrirán   al   vencer   el   plazo,   en presencia de una persona de (Cliente) cuando éste así lo haya indicado.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 35,
+      "pagina_fin": 35,
+      "seccion": "5.5.4. Petición y obtención de ofertas",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "76f9082c-c3ad-4bd4-a324-27d86e15423a",
+      "texto": "Intecsa   Industrial realizará   el   estudio   comparativo   de   las   ofertas   y   hará   una recomendación de Compra para la aprobación del Jefe de Proyecto. En un contrato de servicios, se pasará a (Cliente) que tomará la decisión de adjudicación que proceda, comunicándola a Intecsa Industrial por escrito (para que prepare y envíe la RM \"para compra\" y el Pedido).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 35,
+      "pagina_fin": 35,
+      "seccion": "5.5.5. Adjudicación y Pedido",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e8efbc6e-ba1e-40c5-af13-43044d87e1c3",
+      "texto": "Intecsa Industrial realizará la activación de los pedidos y las inspecciones necesarias y dará en su momento la Autorización de Envío de los equipos.\n\nDe cada una de las inspecciones se hará un informe. Si contractualmente se ha acordado así, se entregará a ( Cliente) una copia cuando proceda.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 35,
+      "pagina_fin": 35,
+      "seccion": "5.5.6. Activación e Inspección",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "54b2d61c-c689-4b15-a01d-c55c239fc352",
+      "texto": "Las facturas de los proveedores serán visadas por Intecsa Industrial para comprobar si se han cumplido todos los requisitos del Pedido, o  procede, en  su caso, alguna penalización, realizando luego su pago. En el caso de un contrato de servicios este pago será realizado por ( Cliente) .",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 35,
+      "pagina_fin": 35,
+      "seccion": "5.5.7. Facturación y pago",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "94c8404a-a949-41d8-b7a6-84ba02f805c5",
+      "texto": "En los Informes de progreso mensuales se incluirá la información sobre toda la gestión de Compras, con la forma que se indica en el Anexo IV. Sólo se dará copia al Cliente de lo contractualmente acordado, en su caso.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 35,
+      "pagina_fin": 35,
+      "seccion": "5.5.8. Informes",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1e018450-5fa8-4fe9-ad76-4ef3413a610c",
+      "texto": "La entidad subcontratante es:\n\n(Cliente) ó (Intecsa Ingenieria Industrial, S.A.) (Domicilio) (N.I.F.)\n\nEn el caso de contratos de servicios, Intecsa Industrial actúa en nombre y por cuenta de (Cliente) como agente de subcontratación.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 35,
+      "pagina_fin": 35,
+      "seccion": "5.6.1. Entidad subcontratante",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "cac0c49e-8d6a-4bf1-a94c-769aa5c10e7b",
+      "texto": "Solamente en los contratos de servicios, o si contractualmente se acuerda así, para cada   una   de   las   RR.CC   (Requisiciones   de   Construcción)   producidas   por   los Especialistas de Intecsa Industrial , el Jefe del Proyecto someterá a (Cliente) una lista de un mínimo de tres y un máximo de cinco posibles subcontratistas para que sea aceptada o modificada .",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 36,
+      "pagina_fin": 36,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "762c2e42-5672-4b8b-8514-cfc52ed13003",
+      "texto": "Sobre la base de las Condiciones Generales de Subcontratación de Intecsa Industrial , con las modificaciones contractualmente acordadas con ( Cliente ) se establecerán las Condiciones   Particulares   para   cada   RC   o   grupos   de   RR.CC.,   de   acuerdo   con   el coordinador   de   subcontratación   de Intecsa   Industrial ,   de   forma   que   queden concretados:\n\n-Forma de dar los precios con la oferta, incluso el de personal que pueda ser preciso en la puesta en marcha y los repuestos.\n\n-Definición de las unidades de medida\n\n-Mediciones ( para  los   pedidos   que   lo   precisen,   forma   de   medir   el   número   de elementos suministrados, las dimensiones, etc. )\n\n-Forma en que, en su día, habrá de hacerse la planificación detallada de la obra, montaje o instalaciones.\n\n-Penalidades (por retraso de envío de documentación, por retraso en el suministro si lo hay, por retraso en el montaje y límite total de la penalidad máxima).\n\n-Condiciones de facturación, certificación y pago.\n\n-Garantías (de materiales, de prestaciones).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 36,
+      "pagina_fin": 36,
+      "seccion": "5.6.3. Condiciones de subcontratación",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b269dd38-0ec7-46e9-a6dd-4c6d69dafee9",
+      "texto": "Sobre la base de las Condiciones Generales de Subcontratación de Intecsa Industrial , con las modificaciones contractualmente acordadas con ( Cliente ) se establecerán las Condiciones   Particulares   para   cada   RC   o   grupos   de   RR.CC.,   de   acuerdo   con   el coordinador   de   subcontratación   de Intecsa   Industrial ,   de   forma   que   queden concretados:\n\n-Forma de dar los precios con la oferta, incluso el de personal que pueda ser preciso en la puesta en marcha y los repuestos.\n\n-Definición de las unidades de medida\n\n-Mediciones ( para  los   pedidos   que   lo   precisen,   forma   de   medir   el   número   de elementos suministrados, las dimensiones, etc. )\n\n-Forma en que, en su día, habrá de hacerse la planificación detallada de la obra, montaje o instalaciones.",
+      "nivel": "child",
+      "parent_id": "762c2e42-5672-4b8b-8514-cfc52ed13003",
+      "pagina_inicio": 36,
+      "pagina_fin": 36,
+      "seccion": "5.6.3. Condiciones de subcontratación",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9e4871f9-fcb8-4d9a-9555-1297976aa3b3",
+      "texto": "-Penalidades (por retraso de envío de documentación, por retraso en el suministro si lo hay, por retraso en el montaje y límite total de la penalidad máxima).\n\n-Condiciones de facturación, certificación y pago.\n\n-Garantías (de materiales, de prestaciones).",
+      "nivel": "child",
+      "parent_id": "762c2e42-5672-4b8b-8514-cfc52ed13003",
+      "pagina_inicio": 36,
+      "pagina_fin": 36,
+      "seccion": "5.6.3. Condiciones de subcontratación",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e20a3326-6d91-49c7-a38f-4b8a9380f836",
+      "texto": "Las peticiones de oferta serán enviadas por Intecsa Industrial quien las activará para recibirlas en el plazo establecido.\n\nEn el   caso   de   un   contrato   de   servicios,   este   plazo   no   se   prorrogará   salvo   que expresamente   lo   solicite   ( Cliente ).   Las   ofertas   se   abrirán   al   vencer   el   plazo,   en presencia de una persona de (Cliente) cuando éste así lo haya indicado.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 36,
+      "pagina_fin": 36,
+      "seccion": "5.6.4. Petición y obtención de ofertas",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "96e893b3-5924-4dd8-b3a0-215451975e0c",
+      "texto": "Intecsa   Industrial realizará   el   estudio   comparativo   de   las   ofertas   y   hará   una recomendación de Subcontratación para la aprobación por el Jefe de Proyecto. En un contrato de servicios, se pasará a (Cliente) que tomará la decisión de adjudicación que proceda, comunicándola a Intecsa Industrial por escrito (para que prepare y envíe la RM \"para compra\" y el Subcontrato).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 36,
+      "pagina_fin": 36,
+      "seccion": "5.6.5. Adjudicación y Subcontrato",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9a573303-6fe6-4bcf-b3cc-da0c9b473a43",
+      "texto": "Intecsa Industrial realizará la activación de los subcontratos hasta la incorporación a obra del subcontratista.\n\nDe cada una de las inspecciones se hará un informe. Si contractualmente se ha acordado así se entregará a ( Cliente ) una copia cuando proceda.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 37,
+      "pagina_fin": 37,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "234a8e24-16fc-4616-9955-dfc0578b7d1c",
+      "texto": "Las facturas de los proveedores serán visadas por Intecsa Industrial para comprobar si se han cumplido todos los requisitos  del   Pedido,   o   procede,   en   su   caso,   alguna penalización, realizando luego su pago. En el caso de un contrato de servicios, el pago será realizado por (Cliente).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 37,
+      "pagina_fin": 37,
+      "seccion": "5.6.7. Facturación y pago",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "dccc6ee3-3227-4d38-bfad-311965981a23",
+      "texto": "En los Informes de progreso mensuales se incluirá la información sobre toda la gestión de Subcontratos, con la forma que se indica en el Anexo IV. Sólo se dará copia al Cliente de lo contractualmente acordado, en su caso.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 37,
+      "pagina_fin": 37,
+      "seccion": "5.6.8. Informes",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f7cf0c05-1e2c-4047-a1d2-03738eb8fb21",
+      "texto": "(Se incluirá el organigrama y/o una descripción, con nombres de los responsables; puede incluirse como anexo).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 37,
+      "pagina_fin": 37,
+      "seccion": "5.7.1. Organización de Intecsa Industrial en la obra",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f316e590-3f2a-4502-adbd-0fb33860a9e3",
+      "texto": "Las relaciones en obra con la propiedad se mantendrán a través del Jefe de obra de Intecsa Industrial (nombrar) (y de la persona que así se acuerde, en su caso : nombrar)\n\nLa identificación de las cartas, correos electrónicos y otros escritos se indica en el apartado 3.3 Identificación de los documentos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 37,
+      "pagina_fin": 37,
+      "seccion": "5.7.2. Relaciones con la propiedad durante la obra",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2882b8b7-b9fa-4288-965c-839208ab0eb0",
+      "texto": "(La   inclusión   o   no   de   este   apartado   depende   de   si   existe   alguna   función   o responsabilidad que no esté contenida en el PR-55 Supervisión de construcción).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 37,
+      "pagina_fin": 37,
+      "seccion": "5.7.3. Funciones y responsabilidades del personal de supervisión",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "45453be9-2ac6-493e-99de-479460c6280f",
+      "texto": "(Este apartado se incluirá en el Plan interno en el caso de contrato \"llave en mano\". El texto que se incluye a continuación reproduce lo indicado en el PR-55 Supervisión de construcción, que deberá adaptarse a cada caso).\n\nLas   certificaciones   estarán   de   acuerdo   con   las   condiciones   establecidas   en   los Contratos y se complementarán con lo que aquí se expresa:\n\nEl Contratista entregará la certificación mensual y a origen en los primeros días de mes para la conformidad o comentarios de la Supervisión de Obra de Intecsa Industrial .\n\nLa Supervisión de Obra de Intecsa Industrial dispondrá de 10 días laborables para comentar, o dar su conformidad a la certificación. En caso de tener comentarios se devolverá al Contratista y una vez rectificada y presentada nuevamente por el mismo,",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 37,
+      "pagina_fin": 37,
+      "seccion": "5.7.4. Certificaciones de obra",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "342c6bac-0d73-43af-b780-aef419faa626",
+      "texto": "Intecsa Industrial dispondrá de 5 días laborables para su verificación y conformidad. Este ciclo se repetirá tantas veces como comentarios encuentre Intecsa Industrial en la certificación.\n\nLa certificación conformada por los miembros de la Supervisión de Obra de Intecsa Industrial que proceda, ha de ser aprobada por el Jefe de Obra, quien la hará llegar a la Jefatura del Proyecto.\n\nSi hubiera comentarios por parte de los receptores, se convocará una reunión entre los mismos y el Jefe de Obra, y si fuera necesario el personal de Supervisión y/o el Subcontratista correspondiente.\n\nUna vez obtenida la conformidad de todos los interesados, el Subcontratista entregará a la Supervisión de Obra de Intecsa Industrial un original y copias para su aprobación definitiva, haciéndose luego la siguiente distribución:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 38,
+      "pagina_fin": 38,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "822c89b8-a4b8-4fb1-bba7-08721f6ce31c",
+      "texto": "Cuando algún Subcontratista ejecute un trabajo no conforme con lo especificado, cuya aceptación o rechazo ha de ser decidida por el Especialista responsable de Cuenta, el Supervisor correspondiente preparará una No Conformidad de acuerdo con el PR-72 de Intecsa Industrial \"Procedimiento de no conformidades\".\n\nAsí   mismo,   cuando   la   Supervisión   detecte   defectos   en   el   montaje   (soluciones constructivas inadecuadas, interferencias, etc.) que obliguen a realizar modificaciones de lo construido según proyecto, se producirá generalmente una OTS (orden de trabajo suplementaria) que tendrá carácter de una No Conformidad aún cuando la solución pueda ser adoptada en obra sin intervención del Especialista responsable de Cuenta.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 38,
+      "pagina_fin": 38,
+      "seccion": "5.7.5. No Conformidades",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "75674889-9186-497f-899b-04971146ffab",
+      "texto": "(Este apartado se incluirá en el Plan interno en el caso de contrato \"Llave en mano\". El texto que se incluye a continuación reproduce lo indicado en el PR-55 Supervisión de construcción, que deberá adaptarse en cada caso).\n\nSea cual sea el origen del trabajo extra, el Subcontratista preparará una Orden de Trabajo Suplementario en el formato que le facilitará Intecsa Industrial , con todos los datos precisos y su valoración.\n\nLa O.T.S. deberá obtener la aprobación del Supervisor especialista, del Superintendente de Obra y del Jefe de Obra (y de la Propiedad si procede) antes de ser iniciados los trabajos.\n\nCuando la urgencia lo requiera, el Jefe de Obra podrá ordenar el comienzo de los trabajos comunicándolo lo antes posible a la Propiedad (si procede).\n\nCuando   el   trabajo   extra   sea   imputable   a   una   falta   de   un   Proveedor   o   de   otro Subcontratista,   se   someterá   la   O.T.S.   a   su   aprobación,   descontándole   después   el importe en la siguiente factura o certificación.\n\nSi el causante no responde al requerimiento, se procederá igualmente descontándole el importe.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 38,
+      "pagina_fin": 38,
+      "seccion": "5.7.6. Trabajos extras",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fdac61a7-8642-4be8-b9b7-62753f97d876",
+      "texto": "(Este apartado se incluirá en el Plan interno en el caso de contrato \"Llave en mano\". El texto que se incluye a continuación reproduce lo indicado en el PR-55 Supervisión de construcción, que deberá adaptarse en cada caso).\n\nSea cual sea el origen del trabajo extra, el Subcontratista preparará una Orden de Trabajo Suplementario en el formato que le facilitará Intecsa Industrial , con todos los datos precisos y su valoración.\n\nLa O.T.S. deberá obtener la aprobación del Supervisor especialista, del Superintendente de Obra y del Jefe de Obra (y de la Propiedad si procede) antes de ser iniciados los trabajos.\n\nCuando la urgencia lo requiera, el Jefe de Obra podrá ordenar el comienzo de los trabajos comunicándolo lo antes posible a la Propiedad (si procede).\n\nCuando   el   trabajo   extra   sea   imputable   a   una   falta   de   un   Proveedor   o   de   otro Subcontratista,   se   someterá   la   O.T.S.",
+      "nivel": "child",
+      "parent_id": "75674889-9186-497f-899b-04971146ffab",
+      "pagina_inicio": 38,
+      "pagina_fin": 38,
+      "seccion": "5.7.6. Trabajos extras",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4125ce58-fbaf-47ff-b120-d51ca24b1645",
+      "texto": "a   su   aprobación,   descontándole   después   el importe en la siguiente factura o certificación.\n\nSi el causante no responde al requerimiento, se procederá igualmente descontándole el importe.",
+      "nivel": "child",
+      "parent_id": "75674889-9186-497f-899b-04971146ffab",
+      "pagina_inicio": 38,
+      "pagina_fin": 38,
+      "seccion": "5.7.6. Trabajos extras",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a80c4187-a3d8-4ed8-b459-d91d941790a1",
+      "texto": "La identificación, la evaluación y el registro de aspectos medioambientales se recogen en el Documento (nombrar) (o se incluye en un anexo).\n\nEl control y seguimiento de operaciones se recoge en el Documento (nombrar).\n\nEl plan de gestión de residuos se recoge en el Documento (nombrar) (que se realiza de acuerdo con IT-CA-09 Guía para la elaboración del Plan de gestión de residuos).\n\nEl Plan de emergencia medioambiental y capacidad de respuesta se recoge en el Documento (nombrar) (elaborado de acuerdo con el índice orientativo incluido en el anexo I del PR-22 Planes de emergencia medioambiental).\n\nLos   registros   de   construcción   que   se   listan   a   continuación,   se   recopilan   por   los diferentes   supervisores   de   obra   (que   los   requerirán   a   los   correspondientes subcontratistas,   cuando   proceda)   con   la   colaboración   del   responsable   de   medio ambiente en la obra, quien es el encargado de su custodia:\n\nLas disposiciones legales aplicables se incluyen en el apéndice, en el que se listan bajo las siguientes denominaciones:\n\n-Legislación Internacional, Europea, Nacional y Autonómica:\n\n(listar, indicando la denominación de la disposición)\n\n-Legislación local y de otros organismos:\n\n(listar, indicando la denominación de la disposición)\n\nOtros requisitos aplicables (si proceden) se listan en el Documento (nombrar) (o en su caso, en un anexo al presente Procedimiento).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 39,
+      "pagina_fin": 39,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9978f7ab-d476-49f6-ad46-a666bc3a96ab",
+      "texto": "La identificación, la evaluación y el registro de aspectos medioambientales se recogen en el Documento (nombrar) (o se incluye en un anexo).\n\nEl control y seguimiento de operaciones se recoge en el Documento (nombrar).\n\nEl plan de gestión de residuos se recoge en el Documento (nombrar) (que se realiza de acuerdo con IT-CA-09 Guía para la elaboración del Plan de gestión de residuos).\n\nEl Plan de emergencia medioambiental y capacidad de respuesta se recoge en el Documento (nombrar) (elaborado de acuerdo con el índice orientativo incluido en el anexo I del PR-22 Planes de emergencia medioambiental).",
+      "nivel": "child",
+      "parent_id": "a80c4187-a3d8-4ed8-b459-d91d941790a1",
+      "pagina_inicio": 39,
+      "pagina_fin": 39,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1ead8027-cb54-4197-a76f-9c687205dfc9",
+      "texto": "Los   registros   de   construcción   que   se   listan   a   continuación,   se   recopilan   por   los diferentes   supervisores   de   obra   (que   los   requerirán   a   los   correspondientes subcontratistas,   cuando   proceda)   con   la   colaboración   del   responsable   de   medio ambiente en la obra, quien es el encargado de su custodia:\n\nLas disposiciones legales aplicables se incluyen en el apéndice, en el que se listan bajo las siguientes denominaciones:\n\n-Legislación Internacional, Europea, Nacional y Autonómica:\n\n(listar, indicando la denominación de la disposición)\n\n-Legislación local y de otros organismos:\n\n(listar, indicando la denominación de la disposición)\n\nOtros requisitos aplicables (si proceden) se listan en el Documento (nombrar) (o en su caso, en un anexo al presente Procedimiento).",
+      "nivel": "child",
+      "parent_id": "a80c4187-a3d8-4ed8-b459-d91d941790a1",
+      "pagina_inicio": 39,
+      "pagina_fin": 39,
+      "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4219dd8c-f976-4646-ac51-2d631f1df1db",
+      "texto": "Lo relativo a prevención de riesgos laborales se recoge en los siguientes documentos:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 39,
+      "pagina_fin": 39,
+      "seccion": "5.7.8. Prevención de riesgos laborales",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4864471b-dd29-4055-9a1f-8b50cb0b9ace",
+      "texto": "Se dispone en obra de los siguientes:\n\n-Libro de Ordenes y Asistencias\n\n-Libro de Incidencias\n\n(según lo indicado en el PR-55 Supervisión de construcción)\n\nAdemás el Jefe de Obra dispone de un Libro diario ( idem, indicando si es en papel o informático)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 39,
+      "pagina_fin": 39,
+      "seccion": "5.7.9. Libros de obra",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "84ceff0b-2789-457d-aa05-a22d6654d5b0",
+      "texto": "(La inclusión o no de este apartado, depende de si se modifica lo indicado en el PR-55 Supervisión de construcción; además en contratos \"llave en mano\" en todo caso se incluirá en un suplemento interno).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 40,
+      "pagina_fin": 40,
+      "seccion": "5.7.10. Control final y aceptación de la obra",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c0aecc6c-e7b2-4828-913e-6635031fed7c",
+      "texto": "(Se listará su contenido, teniendo en cuenta que buena parte de la información será para uso interno en el caso de un \"llave en mano\" y no en se incluirá tanto por confidencialidad frente al cliente como por estar disponible en línea).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 40,
+      "pagina_fin": 40,
+      "seccion": "5.7.11. Informes de obra",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "79c0fbb0-9a24-412b-af06-9aea1555c930",
+      "texto": "(Listar los que procedan, por ejemplo:\n\n-Requisitos legales aplicables",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 40,
+      "pagina_fin": 40,
+      "seccion": "5.7.12. Apéndices",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "12577324-cef0-4e42-81a2-86a8530036a5",
+      "texto": "-organigrama (si procede)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 40,
+      "pagina_fin": 40,
+      "seccion": "5.7.13.Anexos",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f59fd2db-862a-483c-94cd-f044de577444",
+      "texto": "-datos o partes del Plan que en un \"llave en mano\" no se dan al Cliente pero deben de conocerse en el Proyecto.\n\n-formatos adaptados a la OT en particular, pautas de diseño, niveles de desarrollo, etc.)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 41,
+      "pagina_fin": 41,
+      "seccion": "(Incluirá en principio lo siguiente:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    }
+  ]
+}

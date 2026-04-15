@@ -1,0 +1,511 @@
+{
+  "doc_id": "8a8f5433d3ba47c8bee5c82c6dd5bbfc",
+  "nombre_fichero": "PR-13.pdf",
+  "metadatos_admin": {
+    "empresa": "intecsa",
+    "proyecto_id": null,
+    "tipo_doc": "procedimiento",
+    "idioma": "es"
+  },
+  "metadatos_portada": {
+    "codigo_documento": null,
+    "edicion": "5",
+    "fecha_edicion": null,
+    "titulo_documento": "PROCEDIMIENTO DE CONTROL DE DOCUMENTOS DE UN PROYECTO"
+  },
+  "fecha_ingesta": "2026-04-15T15:24:56+00:00",
+  "paginas_total": 9,
+  "chunks": [
+    {
+      "chunk_id": "658a37a0-8042-4a6d-8430-41e381a91859",
+      "texto": "Este documento tiene por objeto describir el procedimiento para el control de todos los documentos técnicos manejados a lo largo de la vida de un proyecto, y definir las funciones y responsabilidades del Responsable de Control de Documentos (RCD)\n\nAsimismo establece las pautas a seguir para lograr una eficiente y eficaz activación de la documentación,   tanto   interna   de   documentos   de   Ingeniería   (editados   por   Intecsa Industrial),   como   externa,   de   documentos   de   Proveedores,   y   del   Cliente   y   fija   los requisitos básicos a seguir para la elaboración de los libros finales del Proyecto.\n\nEste Procedimiento forma parte del Sistema Integrado de Gestión de la Calidad y Gestión Ambiental de Intecsa Industrial y ha sido elaborado teniendo en cuenta las normas ISO 9001 y 14001.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "28661f3d-34c0-42f5-8bd1-5c8192b2f606",
+      "texto": "A continuación se recogen las abreviaturas y conceptos que serán utilizadas en el presente Procedimiento\n\n RCD : Responsable de Control de Documentos del Proyecto\n\n Gestor   Documental :   Programa   informático   donde   se   almacena   toda   la documentación de un Proyecto y que permite, a través de códigos de acceso, su visualización y utilización, si procede, por los participantes en el mismo.\n\n RM : Requisición de Material\n\n RC : Requisición de Construcción\n\n APC : Aprobado para Construcción\n\n CTI : Carta de Transmisión de documentos de Ingeniería\n\n CTV : Carta de Transmisión de documentos de Proveedor\n\n As Built : Según lo construido",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. DEFINICIONES",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2522f4bf-e8c7-4e64-8ca8-b13849b4a89c",
+      "texto": "Al inicio de un determinado proyecto el Jefe del Departamento de Control de Documentos designa un responsable para esta actividad (RCD), y asigna junto con el jefe de Proyecto los recursos necesarios para el desarrollo del trabajo, en función del tipo de proyecto y las horas asignadas. El RCD dependerá directamente del Jefe de Proyecto, de quien recibirá la información necesaria (Plan de Calidad del proyecto, Acuerdos Contractuales, horas asignadas, etc.), para el correcto desempeño de sus funciones. Así mismo se responsabilizará ante el Jefe de Proyecto del consumo de horas, plazos y rendimiento de su disciplina. Mensualmente el RCD reportará al Jefe de Proyecto el avance de esta disciplina y de todas   aquellas   circunstancias   que   afecten   al   adecuado   desempeño   de   su   trabajo, especialmente   de   las   desviaciones   en   la   planificación   y/o   en   el   programa   de aprobaciones y entregas de la documentación manejada en el proyecto.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3. ORGANIZACIÓN DEL CONTROL DE DOCUMENTOS EN UN PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "10e36e75-37a8-4e39-89f9-4e8a4c9f91b9",
+      "texto": "Las principales funciones del RCD son:\n\n Controlar cuidadosamente las horas asignadas en el presupuesto para el desarrollo de su trabajo, justificando y aportando las medidas correctivas necesarias para contrarrestar   cualquier   desviación   que   pudiera   aparecer   y   actualizando mensualmente las horas estimadas para la terminación de los trabajos.\n\n Definir y desarrollar, al inicio del proyecto, conjuntamente con el Jefe de Proyecto y el   Departamento   de   Sistemas   de   Información,   la   estructura   de   carpetas   que integraran   el   gestor   documental   del   Proyecto,   donde   se   archivará   toda   la documentación   del   mismo   en   formato   electrónico.   Esta   estructura   estará   de acuerdo con los requisitos del Cliente, el Plan de Calidad del Proyecto y las necesidades establecidas para la confección de los libros finales.\n\n Elaborar las matrices de distribución de documentos de Ingeniería, del Cliente y de Proveedores del proyecto\n\n Registrar,   activar,   distribuir   y   archivar   los   documentos   técnicos   de   ingeniería editados por Intecsa Industrial, Proveedores, Subcontratistas, Cliente y otros para\n\nun determinado proyecto, de tal forma que todos los participantes del mismo reciban   la   documentación   necesaria   para   el   desarrollo   de   sus   actividades   de acuerdo con la planificación del proyecto.\n\n Controlar   la   distribución   de   los   documentos   entregables   al   Cliente   para   su aprobación y/o comentarios, y activar sistemáticamente la devolución de éstos de acuerdo con los plazos establecidos contractualmente .\n\n Comunicar inmediatamente al Jefe de Proyecto mediante el formato 'Propuesta de Orden de Cambio' aquellas modificaciones o incidencias que puedan dar origen a un cambio sobre las horas asignadas, el plazo o el coste.\n\n Verificar que los documentos de Ingeniería cumplen con los aspectos formales requeridos (identificación, formatos, sellos, edición, firmas, fechas, etc.). En caso de encontrarse   deficiencias   se   devolverán   al   Líder   de   Disciplina   correspondiente, indicando la deficiencia observada.\n\n Verificar que los documentos recibidos del Proveedor cumplen con los aspectos formales   requeridos   (identificación,   formatos,   etc.).   En   caso   de   encontrarse deficiencias se recogerán sobre el documento, indicando el dato correcto para conocimiento del Líder de Disciplina.\n\n Incorporar   al   Gestor   documental   los   documentos   editados   por   Ingeniería,   los recibidos del Cliente, Proveedores, Subcontratistas y otros\n\n A requerimiento del jefe de Proyecto, participar en las reuniones con Cliente, Proveedores y Especialistas, que afecten al Control de documentos del Proyecto. Igualmente participará en las reuniones de seguimiento del proyecto, exponiendo las   dificultades   y   problemas   que   surjan   para   el   adecuado   desempeño   de   sus funciones.\n\n Emitir periódicamente los informes de situación de los documentos del proyecto, poniendo en conocimiento del Jefe de Proyecto las desviaciones e incumplimiento de los plazos por parte de los Líderes de Disciplina, Proveedores, Subcontratistas y Cliente.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "4. FUNCIONES DEL RESPONSABLE DE CONTROL DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f5160279-3a52-4bb3-9d42-27a37e71f300",
+      "texto": "Las principales funciones del RCD son:\n\n Controlar cuidadosamente las horas asignadas en el presupuesto para el desarrollo de su trabajo, justificando y aportando las medidas correctivas necesarias para contrarrestar   cualquier   desviación   que   pudiera   aparecer   y   actualizando mensualmente las horas estimadas para la terminación de los trabajos.\n\n Definir y desarrollar, al inicio del proyecto, conjuntamente con el Jefe de Proyecto y el   Departamento   de   Sistemas   de   Información,   la   estructura   de   carpetas   que integraran   el   gestor   documental   del   Proyecto,   donde   se   archivará   toda   la documentación   del   mismo   en   formato   electrónico.   Esta   estructura   estará   de acuerdo con los requisitos del Cliente, el Plan de Calidad del Proyecto y las necesidades establecidas para la confección de los libros finales.",
+      "nivel": "child",
+      "parent_id": "10e36e75-37a8-4e39-89f9-4e8a4c9f91b9",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "4. FUNCIONES DEL RESPONSABLE DE CONTROL DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3d1f40f6-57c2-4e63-a56c-71591d05135e",
+      "texto": " Elaborar las matrices de distribución de documentos de Ingeniería, del Cliente y de Proveedores del proyecto\n\n Registrar,   activar,   distribuir   y   archivar   los   documentos   técnicos   de   ingeniería editados por Intecsa Industrial, Proveedores, Subcontratistas, Cliente y otros para\n\nun determinado proyecto, de tal forma que todos los participantes del mismo reciban   la   documentación   necesaria   para   el   desarrollo   de   sus   actividades   de acuerdo con la planificación del proyecto.\n\n Controlar   la   distribución   de   los   documentos   entregables   al   Cliente   para   su aprobación y/o comentarios, y activar sistemáticamente la devolución de éstos de acuerdo con los plazos establecidos contractualmente .\n\n Comunicar inmediatamente al Jefe de Proyecto mediante el formato 'Propuesta de Orden de Cambio' aquellas modificaciones o incidencias que puedan dar origen a un cambio sobre las horas asignadas, el plazo o el coste.",
+      "nivel": "child",
+      "parent_id": "10e36e75-37a8-4e39-89f9-4e8a4c9f91b9",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "4. FUNCIONES DEL RESPONSABLE DE CONTROL DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "59035066-6c02-4081-ae57-df91123432ad",
+      "texto": " Verificar que los documentos de Ingeniería cumplen con los aspectos formales requeridos (identificación, formatos, sellos, edición, firmas, fechas, etc.). En caso de encontrarse   deficiencias   se   devolverán   al   Líder   de   Disciplina   correspondiente, indicando la deficiencia observada.\n\n Verificar que los documentos recibidos del Proveedor cumplen con los aspectos formales   requeridos   (identificación,   formatos,   etc.).   En   caso   de   encontrarse deficiencias se recogerán sobre el documento, indicando el dato correcto para conocimiento del Líder de Disciplina.\n\n Incorporar   al   Gestor   documental   los   documentos   editados   por   Ingeniería,   los recibidos del Cliente, Proveedores, Subcontratistas y otros\n\n A requerimiento del jefe de Proyecto, participar en las reuniones con Cliente, Proveedores y Especialistas, que afecten al Control de documentos del Proyecto.",
+      "nivel": "child",
+      "parent_id": "10e36e75-37a8-4e39-89f9-4e8a4c9f91b9",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "4. FUNCIONES DEL RESPONSABLE DE CONTROL DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4d142785-e61f-4888-aaad-d672fd717d96",
+      "texto": "Igualmente participará en las reuniones de seguimiento del proyecto, exponiendo las   dificultades   y   problemas   que   surjan   para   el   adecuado   desempeño   de   sus funciones.\n\n Emitir periódicamente los informes de situación de los documentos del proyecto, poniendo en conocimiento del Jefe de Proyecto las desviaciones e incumplimiento de los plazos por parte de los Líderes de Disciplina, Proveedores, Subcontratistas y Cliente.",
+      "nivel": "child",
+      "parent_id": "10e36e75-37a8-4e39-89f9-4e8a4c9f91b9",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "4. FUNCIONES DEL RESPONSABLE DE CONTROL DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "17dfd415-5cc7-4eba-909e-ffc96d3fd24b",
+      "texto": " Mantener a lo largo de la vida del Proyecto el archivo temporal de los originales de los   documentos   técnicos   de   éste,   enviando   posteriormente   al   archivo   Central aquellos que especifique el procedimiento PR-17.\n\n Colaborar en la confección de los Proyectos Oficiales y Adendas que por contrato sean   exigidos   a   partir   de   las   memorias   y   listas   de   planos   dadas   por   los especialistas.\n\n Elaborar   los   libros   finales   de   Proyecto,   incluyendo   la   última   edición   de   la documentación generada en el mismo.\n\n Las directrices para su trabajo las recibe el RCD fundamentalmente a través de:\n\n El Plan de Calidad y Medio Ambiente del Proyecto.\n\n Este Procedimiento.\n\n El Procedimiento de Control de Documentos de Proveedores (PR-35).\n\n El Procedimiento de archivo de documentos (PR-17).\n\n La Instrucción de trabajo IT-CD-01: Instrucción de trabajo de Control de Documentos de un proyecto.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE DOCUMENTOS DE UN PROYECTO",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e67d38df-7d26-4a1f-90ac-9bf2df42d3be",
+      "texto": " Mantener a lo largo de la vida del Proyecto el archivo temporal de los originales de los   documentos   técnicos   de   éste,   enviando   posteriormente   al   archivo   Central aquellos que especifique el procedimiento PR-17.\n\n Colaborar en la confección de los Proyectos Oficiales y Adendas que por contrato sean   exigidos   a   partir   de   las   memorias   y   listas   de   planos   dadas   por   los especialistas.\n\n Elaborar   los   libros   finales   de   Proyecto,   incluyendo   la   última   edición   de   la documentación generada en el mismo.\n\n Las directrices para su trabajo las recibe el RCD fundamentalmente a través de:\n\n El Plan de Calidad y Medio Ambiente del Proyecto.\n\n Este Procedimiento.\n\n El Procedimiento de Control de Documentos de Proveedores (PR-35).\n\n El Procedimiento de archivo de documentos (PR-17).",
+      "nivel": "child",
+      "parent_id": "17dfd415-5cc7-4eba-909e-ffc96d3fd24b",
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE DOCUMENTOS DE UN PROYECTO",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ebd81b5c-6493-4323-905a-c8a8aa2450c9",
+      "texto": " El Procedimiento de archivo de documentos (PR-17).\n\n La Instrucción de trabajo IT-CD-01: Instrucción de trabajo de Control de Documentos de un proyecto.",
+      "nivel": "child",
+      "parent_id": "17dfd415-5cc7-4eba-909e-ffc96d3fd24b",
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE DOCUMENTOS DE UN PROYECTO",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7eb692d3-1d84-4add-a550-9377639a1bd5",
+      "texto": "A continuación se describen los procesos de control de los documentos de Ingeniería originados por Intecsa Industrial, y de los procedentes de Proveedores, Subcontratistas y Cliente.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "5. CONTROL DE DOCUMENTOS DEL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5cd76a04-174f-4506-a5a0-35cd0b3d0fc4",
+      "texto": "Al   inicio   del   proyecto   y   de   acuerdo   con   lo   establecido   en   el   contrato,   Control   de Documentos elabora una lista de documentos del Cliente (especificaciones, estándares, planos originales, etc.), que incluye la edición y la fecha de cada uno.\n\nToda la documentación técnica del Cliente, en la edición de aplicación según contrato es introducida en el Gestor Documental donde está a disposición de todos los participantes en el Proyecto.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "5.1. Documentación del Cliente",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "103a95ad-e289-4315-acb2-0edc725c8699",
+      "texto": "En el caso particular de recibir documentación original del Cliente en papel, Control de Documentos firmará un acuse de recibo y exigirá lo mismo al Cliente al devolvérsela.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE DOCUMENTOS DE UN PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ce4353b1-df76-4b12-89b9-d3ebe54ff9d9",
+      "texto": "Son considerados documentos de Ingeniería los documentos técnicos elaborados por Intecsa Industrial o por compañías subcontratadas para un determinado alcance, en cuyo caso los documentos son tratados como propios.\n\nPara su control se utilizará la lista de documentos originada al inicio de Proyecto por los diferentes Líderes de Disciplina en el Programa de Control de Documentos (SQL), de desarrollo interno. Será responsabilidad del Líder de Disciplina actualizar dicha lista cada vez que se produzca una modificación.\n\nIgualmente, los diferentes Líderes de Disciplina identificarán los documentos editados por Ingeniería que, por Contrato, sean entregables al Cliente, tanto para su conocimiento como para su aprobación y comentarios, siendo responsabilidad del RCD su seguimiento y activación.\n\nCon independencia de que en cada proyecto se siguen las directrices particulares descritas   en   el   correspondiente   plan   de   Calidad,   el   control   de   los   documentos   de Ingeniería se realizará de acuerdo con el siguiente diagrama de flujo:\n\n[Descripción visual: La imagen es un diagrama de flujo titulado \"EMISION DOCUMENTOS DE INGENIERIA\". Se ilustra el proceso de emisión y control de documentos. La estructura es la siguiente:\n\n1. **Emisión de Documentos de Ingeniería**:\n   - Se divide en dos tipos de documentación: \n     - **Fichero Electrónico**\n     - **Documento Impreso**\n\n2. **Control de Documentos**:\n   - Tras la emisión, los documentos pasan al control, que incluye:\n     - Registro y publicación en un gestor documental.\n     - Envío, lo cual se indica como emisión CTI.\n   \n3. **Proceso de Control**:\n   - **Entregables Cliente**: Los documentos son revisados y, si procede, se aprueban.\n   - **Seguimiento y Control de CTI**: Se realiza un seguimiento de los documentos.\n   - **Activación**: Se activa algún tipo de proceso relacionado con los documentos.\n   - **Informes de Situación de Documentos**: Se generan informes para revisar el estado de los documentos.\n   - **Archivo de Originales**: Finalmente, los documentos originales son archivados.\n\nLa imagen utiliza flechas sólidas y una flecha discontinua para mostrar el flujo de información, especialmente entre la etapa de Control de Documentos y el paso de aprobación de los entregables al cliente.]",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "5.2. Documentos de Ingeniería",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6d57ebd4-7e35-4167-a0ea-2ee1bd184388",
+      "texto": "Son considerados documentos de Ingeniería los documentos técnicos elaborados por Intecsa Industrial o por compañías subcontratadas para un determinado alcance, en cuyo caso los documentos son tratados como propios.\n\nPara su control se utilizará la lista de documentos originada al inicio de Proyecto por los diferentes Líderes de Disciplina en el Programa de Control de Documentos (SQL), de desarrollo interno. Será responsabilidad del Líder de Disciplina actualizar dicha lista cada vez que se produzca una modificación.\n\nIgualmente, los diferentes Líderes de Disciplina identificarán los documentos editados por Ingeniería que, por Contrato, sean entregables al Cliente, tanto para su conocimiento como para su aprobación y comentarios, siendo responsabilidad del RCD su seguimiento y activación.",
+      "nivel": "child",
+      "parent_id": "ce4353b1-df76-4b12-89b9-d3ebe54ff9d9",
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "5.2. Documentos de Ingeniería",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "cbbc7e1c-6c6e-4e6f-ae36-4db6f077bf29",
+      "texto": "Con independencia de que en cada proyecto se siguen las directrices particulares descritas   en   el   correspondiente   plan   de   Calidad,   el   control   de   los   documentos   de Ingeniería se realizará de acuerdo con el siguiente diagrama de flujo:\n\n[Descripción visual: La imagen es un diagrama de flujo titulado \"EMISION DOCUMENTOS DE INGENIERIA\". Se ilustra el proceso de emisión y control de documentos. La estructura es la siguiente:\n\n1. **Emisión de Documentos de Ingeniería**:\n   - Se divide en dos tipos de documentación: \n     - **Fichero Electrónico**\n     - **Documento Impreso**\n\n2. **Control de Documentos**:\n   - Tras la emisión, los documentos pasan al control, que incluye:\n     - Registro y publicación en un gestor documental.\n     - Envío, lo cual se indica como emisión CTI.\n   \n3. **Proceso de Control**:\n   - **Entregables Cliente**: Los documentos son revisados y, si procede, se aprueban.",
+      "nivel": "child",
+      "parent_id": "ce4353b1-df76-4b12-89b9-d3ebe54ff9d9",
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "5.2. Documentos de Ingeniería",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ac312a3f-e8cf-410c-aafd-7278488db54f",
+      "texto": "- **Seguimiento y Control de CTI**: Se realiza un seguimiento de los documentos.\n   - **Activación**: Se activa algún tipo de proceso relacionado con los documentos.\n   - **Informes de Situación de Documentos**: Se generan informes para revisar el estado de los documentos.\n   - **Archivo de Originales**: Finalmente, los documentos originales son archivados.\n\nLa imagen utiliza flechas sólidas y una flecha discontinua para mostrar el flujo de información, especialmente entre la etapa de Control de Documentos y el paso de aprobación de los entregables al cliente.]",
+      "nivel": "child",
+      "parent_id": "ce4353b1-df76-4b12-89b9-d3ebe54ff9d9",
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "5.2. Documentos de Ingeniería",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e3b8a0cc-5e25-4019-9ece-206a1e44614c",
+      "texto": "El seguimiento de los trabajos indicados en el diagrama anterior, se realiza a través de dos programas:\n\n Programa de Gestión Integral de Documentos (GID), de desarrollo interno.\n\n Gestor Documental de Intecsa Industrial, de desarrollo externo, donde se introduce una copia de todos los documentos en formato electrónico, junto con la situación y fecha de la edición.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "LÍDER DE DISCIPLINA DE INGENIERIA",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2e35ef67-a17f-451f-a4f0-912deb729d80",
+      "texto": "El control de documentos de Proveedores y/o Subcontratistas se inicia con la edición para compra o subcontratación de la RM o RC respectivamente, que establecen en el apartado de Documentos Requeridos y Fechas (DRF), la lista de documentos o categoría de documentos a entregar por el Proveedor o Subcontratista, junto con el número de copias y la fecha de entrega.\n\nCada Proveedor o Subcontratista elaborará en el plazo máximo de 2 semanas desde la adjudicación, y de acuerdo con la DRF, su Índice de Documentos, que incluirá de forma detallada todos los documentos a emitir durante el desarrollo del pedido o subcontrato. Este índice una vez aprobado por el Líder de Disciplina correspondiente, constituye la base para el control y seguimiento a realizar por el RCD.\n\nEl control de documentos de Proveedores y/o Subcontratistas se realiza, de acuerdo con el Plan de Calidad del Proyecto, y el PR-35 (Procedimiento de Control de Documentos de Proveedores), mediante la utilización de dos programas:\n\n Programa de Gestión Integral de Documentos (GID), de desarrollo interno, donde se registra la situación de todos los documentos recibidos o enviados.\n\n Gestor Documental de Intecsa Industrial, de desarrollo externo, donde se introduce una copia de todos los documentos en formato electrónico, junto con la situación y fecha de la edición.\n\nSe incluye a continuación el diagrama de flujo que describe de forma general el control de documentos de Proveedores y/o Subcontratistas.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "5.3. Documentos de Proveedores y Subcontratistas",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "589824b0-2e69-4bad-b728-16a61919ce58",
+      "texto": "El control de documentos de Proveedores y/o Subcontratistas se inicia con la edición para compra o subcontratación de la RM o RC respectivamente, que establecen en el apartado de Documentos Requeridos y Fechas (DRF), la lista de documentos o categoría de documentos a entregar por el Proveedor o Subcontratista, junto con el número de copias y la fecha de entrega.\n\nCada Proveedor o Subcontratista elaborará en el plazo máximo de 2 semanas desde la adjudicación, y de acuerdo con la DRF, su Índice de Documentos, que incluirá de forma detallada todos los documentos a emitir durante el desarrollo del pedido o subcontrato. Este índice una vez aprobado por el Líder de Disciplina correspondiente, constituye la base para el control y seguimiento a realizar por el RCD.",
+      "nivel": "child",
+      "parent_id": "2e35ef67-a17f-451f-a4f0-912deb729d80",
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "5.3. Documentos de Proveedores y Subcontratistas",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "06fb0f71-4178-4f5e-912a-571ab9f195f7",
+      "texto": "El control de documentos de Proveedores y/o Subcontratistas se realiza, de acuerdo con el Plan de Calidad del Proyecto, y el PR-35 (Procedimiento de Control de Documentos de Proveedores), mediante la utilización de dos programas:\n\n Programa de Gestión Integral de Documentos (GID), de desarrollo interno, donde se registra la situación de todos los documentos recibidos o enviados.\n\n Gestor Documental de Intecsa Industrial, de desarrollo externo, donde se introduce una copia de todos los documentos en formato electrónico, junto con la situación y fecha de la edición.\n\nSe incluye a continuación el diagrama de flujo que describe de forma general el control de documentos de Proveedores y/o Subcontratistas.",
+      "nivel": "child",
+      "parent_id": "2e35ef67-a17f-451f-a4f0-912deb729d80",
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "5.3. Documentos de Proveedores y Subcontratistas",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "428b76c4-6a34-4e4e-9287-53003d924beb",
+      "texto": "[Descripción visual: La imagen es un diagrama de flujo que detalla el proceso de gestión de documentos entre un adjudicatario y un líder de disciplina de ingeniería. A continuación, se explica el contenido por secciones:\n\n1. **Adjudicatario**:\n   - **Emisión Documento Proveedor**: Se inicia el proceso con la emisión de un documento por parte del proveedor. Esta emisión puede ser en dos formatos:\n     - **Fichero electrónico**.\n     - **Documento impreso**.\n\n2. **Control de Documentos**:\n   - **Registro, publicación en gestor documental y envío = emisión CTV**: Los documentos emitidos se registran, se publican en un gestor documental, y se envían, completando la emisión del CTV (no especificado en el diagrama, pero generalmente es un tipo de documento o proceso relacionado con la gestión documental).\n   - **Registro, publicación en gestor documental + Dev.**: Similar al paso anterior, pero incluye una etapa de desarrollo adicional indicada como \"Dev.\".\n   - **Seguimiento y control de CTV**: Implica el monitoreo del CTV.\n   - **Activación**: Etapa donde se da curso o se implementa lo documentado.\n   - **Informes de situación de documentos**: Se generan informes sobre el estado de los documentos.\n\n3. **Líder de Disciplina de Ingeniería**:\n   - **Comentarios y calificación**: El líder recibe los documentos para revisión y proporciona comentarios y calificaciones. Estos comentarios se devuelven al proceso de control de documentos, cerrando un ciclo de retroalimentación.\n\nEl diagrama utiliza líneas punteadas para indicar procesos de retroalimentación y líneas sólidas para flujos estándar.]",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE DOCUMENTOS DE UN PROYECTO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2c702af8-7695-4a66-9acd-77e6ff9d9674",
+      "texto": "[Descripción visual: La imagen es un diagrama de flujo que detalla el proceso de gestión de documentos entre un adjudicatario y un líder de disciplina de ingeniería. A continuación, se explica el contenido por secciones:\n\n1. **Adjudicatario**:\n   - **Emisión Documento Proveedor**: Se inicia el proceso con la emisión de un documento por parte del proveedor. Esta emisión puede ser en dos formatos:\n     - **Fichero electrónico**.\n     - **Documento impreso**.\n\n2. **Control de Documentos**:\n   - **Registro, publicación en gestor documental y envío = emisión CTV**: Los documentos emitidos se registran, se publican en un gestor documental, y se envían, completando la emisión del CTV (no especificado en el diagrama, pero generalmente es un tipo de documento o proceso relacionado con la gestión documental).\n   - **Registro, publicación en gestor documental + Dev.**: Similar al paso anterior, pero incluye una etapa de desarrollo adicional indicada como \"Dev.\".",
+      "nivel": "child",
+      "parent_id": "428b76c4-6a34-4e4e-9287-53003d924beb",
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE DOCUMENTOS DE UN PROYECTO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "42f109da-becc-4501-8072-248ca131d301",
+      "texto": "- **Seguimiento y control de CTV**: Implica el monitoreo del CTV.\n   - **Activación**: Etapa donde se da curso o se implementa lo documentado.\n   - **Informes de situación de documentos**: Se generan informes sobre el estado de los documentos.\n\n3. **Líder de Disciplina de Ingeniería**:\n   - **Comentarios y calificación**: El líder recibe los documentos para revisión y proporciona comentarios y calificaciones. Estos comentarios se devuelven al proceso de control de documentos, cerrando un ciclo de retroalimentación.\n\nEl diagrama utiliza líneas punteadas para indicar procesos de retroalimentación y líneas sólidas para flujos estándar.]",
+      "nivel": "child",
+      "parent_id": "428b76c4-6a34-4e4e-9287-53003d924beb",
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE DOCUMENTOS DE UN PROYECTO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "57e4d0df-c2f2-401a-b31c-048dc7f6a383",
+      "texto": "Control de Documentos mantiene un archivo temporal que contiene:\n\n Los documentos originales del Cliente, en su caso\n\n Todos los documentos originales emitidos por Ingeniería",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "6.1. Archivo de documentos originales en papel",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a7a96abd-e536-4f44-83e4-23775e98d81f",
+      "texto": "Toda la documentación originada a lo largo del Proyecto es publicada en el Gestor Documental de Intecsa Industrial, en la carpeta correspondiente dentro de la estructura establecida al inicio del mismo.\n\nTodos los documentos de Ingeniería se publicarán en el momento de su edición. Se procederá de la misma forma para todas las revisiones posteriores que sufra cada uno de estos documentos.\n\nLos documentos de Proveedores y/o Subcontratistas se publicarán tanto a su recepción, previo registro y distribución, como a su devolución al Proveedor y/o Subcontratista con",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "6.2. Archivo de documentos electrónicos / Gestor Documental",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "141eb260-4695-4051-871e-b663e142dae8",
+      "texto": "los comentarios y situación en la que se encuentren una vez revisados por el Líder de Disciplina correspondiente. La publicación de la documentación en el gestor Documental se realizará de acuerdo con lo indicado en la Instrucción de Trabajo IT-CD-01 (Instrucción de trabajo de Control de\n\nDocumentos de un proyecto).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE DOCUMENTOS DE UN PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "221aa166-be1f-41a9-8a10-9664ae2e4229",
+      "texto": "Una vez finalizado el encargo, de acuerdo con el Jefe del Proyecto, el RCD recopila los Documentos que han de ser conservados en el Archivo Central, procediendo a su envío de acuerdo con lo indicado en el PR-17 (Procedimiento de archivo de documentos).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "6.3. Archivo Final",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ae901ef1-5dd1-4e06-9d85-d85dd306c0ac",
+      "texto": "Una vez disponga de toda la documentación de Ingeniería APC y/o As Built en su caso, y de los documentos de Proveedores y Subcontratistas APC, Control de Documentos elaborará los libros finales de Proyecto de acuerdo con lo exigido contractualmente. El contenido de estos libros, así como su edición física y/o electrónica y su distribución lo fija   el   Jefe   del   Proyecto   a   la   vista   del   Contrato   y   de   los   Procedimientos   de   Intecsa Industrial, dando las instrucciones pertinentes al RCD. El RCD es responsable de recopilar y ordenar la información, y editar y distribuir los libros, una vez aceptados por el Jefe del Proyecto. Una copia del Libro Electrónico se archivará dentro del departamento de Control de\n\nDocumentos de acuerdo con lo indicado en la IT-CD-01 (Instrucción de trabajo de Control de Documentos de un proyecto. Adicionalmente se enviarán copia de estos libros a la División de Operaciones y a Sistemas de Información.\n\nSe dejará constancia por escrito de la entrega de estos libros.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "7. LIBROS FINALES",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c8f89f2c-41ad-4dc4-ae1d-e85109ced6a7",
+      "texto": "Una vez disponga de toda la documentación de Ingeniería APC y/o As Built en su caso, y de los documentos de Proveedores y Subcontratistas APC, Control de Documentos elaborará los libros finales de Proyecto de acuerdo con lo exigido contractualmente. El contenido de estos libros, así como su edición física y/o electrónica y su distribución lo fija   el   Jefe   del   Proyecto   a   la   vista   del   Contrato   y   de   los   Procedimientos   de   Intecsa Industrial, dando las instrucciones pertinentes al RCD. El RCD es responsable de recopilar y ordenar la información, y editar y distribuir los libros, una vez aceptados por el Jefe del Proyecto. Una copia del Libro Electrónico se archivará dentro del departamento de Control de\n\nDocumentos de acuerdo con lo indicado en la IT-CD-01 (Instrucción de trabajo de Control de Documentos de un proyecto. Adicionalmente se enviarán copia de estos libros a la División de Operaciones y a Sistemas de Información.",
+      "nivel": "child",
+      "parent_id": "ae901ef1-5dd1-4e06-9d85-d85dd306c0ac",
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "7. LIBROS FINALES",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "20481969-be80-429b-8980-6113084bf5e0",
+      "texto": "Se dejará constancia por escrito de la entrega de estos libros.",
+      "nivel": "child",
+      "parent_id": "ae901ef1-5dd1-4e06-9d85-d85dd306c0ac",
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "7. LIBROS FINALES",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    }
+  ]
+}

@@ -14,9 +14,16 @@ manualmente porque LlamaIndex las partiría por frases.
 
 La salida final es una lista plana de `Chunk` (nuestro dataclass) en orden de
 documento, donde los parents aparecen antes que sus children correspondientes.
+
+Filtros de pre-chunking aplicados en `chunk_jerarquico()`:
+- Solución A: elementos con `seccion=None` (portada, antes del primer encabezado).
+- Solución D: elementos de prosa más cortos que `_LONGITUD_MINIMA_CHARS` (ruido
+  de maquetación que escapó al filtrado de `elementos.py`). Las tablas quedan
+  exentas de este filtro porque su longitud no indica irrelevancia.
 """
 from __future__ import annotations
 
+import sys
 import uuid
 from dataclasses import dataclass, field
 
@@ -29,6 +36,12 @@ from llama_index.core.schema import Document, NodeRelationship, TextNode
 
 from app.config import SETTINGS
 from app.procesamiento.elementos import ElementoProcesado
+
+# Longitud mínima de texto (caracteres) para que un elemento de prosa entre al
+# chunker. Elimina fragmentos de ruido cortos que escaparon a los filtros de
+# elementos.py (códigos de documento solos, cabeceras residuales, etc.).
+# Las tablas están exentas: su longitud no indica irrelevancia.
+_LONGITUD_MINIMA_CHARS = 20
 
 
 @dataclass
@@ -249,7 +262,32 @@ def _chunkear_tabla(segmento: _Segmento) -> list[Chunk]:
 
 
 def chunk_jerarquico(elementos: list[ElementoProcesado]) -> list[Chunk]:
-    """Orquesta el chunking: segmenta → chunk por tipo → concatena en orden."""
+    """Orquesta el chunking: filtra → segmenta → chunk por tipo → concatena en orden."""
+
+    # descartar contenido de portada (antes del primer encabezado) 
+    sin_seccion = [e for e in elementos if e.seccion is None and not e.indivisible]
+
+    # descartar elementos de prosa demasiado cortos 
+    demasiado_cortos = [
+        e for e in elementos
+        if not e.indivisible and e.seccion is not None and len(e.texto) < _LONGITUD_MINIMA_CHARS
+    ]
+
+    elementos = [
+        e for e in elementos
+        if (e.indivisible or e.seccion is not None)               
+        and (e.indivisible or len(e.texto) >= _LONGITUD_MINIMA_CHARS)  
+    ]
+
+    if sin_seccion or demasiado_cortos:
+        print(
+            f"[chunker] descartados: sin_seccion={len(sin_seccion)} "
+            f"demasiado_cortos={len(demasiado_cortos)} "
+            f"(umbral={_LONGITUD_MINIMA_CHARS} chars) "
+            f"→ {len(elementos)} elementos pasan",
+            file=sys.stderr,
+        )
+
     resultado: list[Chunk] = []
     for segmento in _segmentar(elementos):
         if segmento.tipo == "tabla":

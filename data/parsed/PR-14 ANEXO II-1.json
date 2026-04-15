@@ -1,0 +1,65 @@
+{
+  "doc_id": "7f24e8890eba470789c9eb1c70cb0db0",
+  "nombre_fichero": "PR-14 ANEXO II-1.pdf",
+  "metadatos_admin": {
+    "empresa": "intecsa",
+    "proyecto_id": null,
+    "tipo_doc": "procedimiento",
+    "idioma": "es"
+  },
+  "metadatos_portada": {
+    "codigo_documento": null,
+    "edicion": "5",
+    "fecha_edicion": null,
+    "titulo_documento": "PROCEDIMIENTODE PLANIFICACIONDEPROYECTOS"
+  },
+  "fecha_ingesta": "2026-04-15T15:25:52+00:00",
+  "paginas_total": 2,
+  "chunks": [
+    {
+      "chunk_id": "b5bb5ab1-2688-4a76-80f9-002b1e603a5b",
+      "texto": "[Descripción visual: La imagen es un gráfico de Gantt que muestra una planificación general básica de un proyecto de construcción. Fue elaborado por la empresa Intecsa Uhde Industrial S.A. El título del proyecto es \"Duje 7/A\" y se trata de un plan de ejecución. \n\nAquí está la descripción detallada del contenido:\n\n- **Columnas**: Las columnas representan diferentes actividades del proyecto de construcción, como \"ESTRUCTURA Y ARQUITECTURA\", \"COMPRAS EQUIPOS Y MATERIALES\", \"CONSTRUCCIÓN OBRA CIVIL Y ARQUITECTURA\", y \"MONTAJE ELECTRO MECÁNICO\".\n\n- **Duración de las actividades**: Cada actividad tiene barras que indican su duración. Las fechas se extienden desde marzo de 1998 hasta febrero de 1999.\n\n- **Fechas importantes**: Las barras de las actividades comienzan y terminan en fechas específicas. Por ejemplo, la actividad \"INICIO ARQUITECTURA\" va del 30 de marzo de 1998 al 29 de marzo de 1999. La actividad de \"PROYECTO, CONSTRUCCIÓN, INSTALACIONES\" tiene diferentes fases programadas entre mayo y octubre de 1998.\n\n- **Línea de tiempo**: El gráfico tiene una línea de tiempo en la parte superior, que muestra los meses y años (de marzo de 1998 a febrero de 1999).\n\n- **Indicadores visuales**: Hay barras sólidas que representan el rango de tiempo reservado para cada actividad. La leyenda indica que hay diferentes tipos de líneas, pero solo barras sólidas están presentes.\n\n- **Detalles adicionales**: El gráfico está rotado 90 grados en el documento. Hay una leyenda con varias opciones, aunque no se utilizan estilos adicionales en las actividades mostradas.\n\nEste gráfico de Gantt proporciona una visión visual clara de cómo las actividades planificadas se distribuyen en el tiempo para asegurar una ejecución efectiva del proyecto.]",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "ANEXO 1.1 PLANIFICACION GENERAL BASICA (P.G.B.)",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "28ca58f4-47f2-47b3-ad20-37d33c51cbde",
+      "texto": "[Descripción visual: La imagen es un gráfico de Gantt que muestra una planificación general básica de un proyecto de construcción. Fue elaborado por la empresa Intecsa Uhde Industrial S.A. El título del proyecto es \"Duje 7/A\" y se trata de un plan de ejecución. \n\nAquí está la descripción detallada del contenido:\n\n- **Columnas**: Las columnas representan diferentes actividades del proyecto de construcción, como \"ESTRUCTURA Y ARQUITECTURA\", \"COMPRAS EQUIPOS Y MATERIALES\", \"CONSTRUCCIÓN OBRA CIVIL Y ARQUITECTURA\", y \"MONTAJE ELECTRO MECÁNICO\".\n\n- **Duración de las actividades**: Cada actividad tiene barras que indican su duración. Las fechas se extienden desde marzo de 1998 hasta febrero de 1999.\n\n- **Fechas importantes**: Las barras de las actividades comienzan y terminan en fechas específicas.",
+      "nivel": "child",
+      "parent_id": "b5bb5ab1-2688-4a76-80f9-002b1e603a5b",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "ANEXO 1.1 PLANIFICACION GENERAL BASICA (P.G.B.)",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fcb3d45f-4d02-4d88-a960-e4123dbc2d41",
+      "texto": "Por ejemplo, la actividad \"INICIO ARQUITECTURA\" va del 30 de marzo de 1998 al 29 de marzo de 1999. La actividad de \"PROYECTO, CONSTRUCCIÓN, INSTALACIONES\" tiene diferentes fases programadas entre mayo y octubre de 1998.\n\n- **Línea de tiempo**: El gráfico tiene una línea de tiempo en la parte superior, que muestra los meses y años (de marzo de 1998 a febrero de 1999).\n\n- **Indicadores visuales**: Hay barras sólidas que representan el rango de tiempo reservado para cada actividad. La leyenda indica que hay diferentes tipos de líneas, pero solo barras sólidas están presentes.\n\n- **Detalles adicionales**: El gráfico está rotado 90 grados en el documento. Hay una leyenda con varias opciones, aunque no se utilizan estilos adicionales en las actividades mostradas.\n\nEste gráfico de Gantt proporciona una visión visual clara de cómo las actividades planificadas se distribuyen en el tiempo para asegurar una ejecución efectiva del proyecto.]",
+      "nivel": "child",
+      "parent_id": "b5bb5ab1-2688-4a76-80f9-002b1e603a5b",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "ANEXO 1.1 PLANIFICACION GENERAL BASICA (P.G.B.)",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    }
+  ]
+}

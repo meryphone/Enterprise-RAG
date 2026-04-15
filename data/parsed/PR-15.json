@@ -1,0 +1,1044 @@
+{
+  "doc_id": "7189868d30524d52bb2c7f81aba8b2a4",
+  "nombre_fichero": "PR-15.pdf",
+  "metadatos_admin": {
+    "empresa": "intecsa",
+    "proyecto_id": null,
+    "tipo_doc": "procedimiento",
+    "idioma": "es"
+  },
+  "metadatos_portada": {
+    "codigo_documento": null,
+    "edicion": "4",
+    "fecha_edicion": null,
+    "titulo_documento": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO"
+  },
+  "fecha_ingesta": "2026-04-15T15:39:59+00:00",
+  "paginas_total": 38,
+  "chunks": [
+    {
+      "chunk_id": "65b3cf97-6c5e-4738-b537-362214486a7f",
+      "texto": "2.CONTROL DE COSTES DE UN PROYECTO\n\n3.SISTEMA DE CONTROL DE SERVICIOS DE INGENIERÍA. SCSI\n\n3.2. Operativa del S.C.S.I\n\n4.CONTROL DE GASTOS ESPECÍFICOS\n\n5.CONTROL DE SUMINISTROS\n\n6.RESUMEN DEL CONTROL DE COSTES DE PROYECTOS\n\nANEXO I. Diagrama de Control Integral de Proyectos\n\nANEXO II. Ejemplo de \"Planificación y Control de Documentos\n\nANEXO III. Formato \"Partes diarios de trabajo\"\n\nANEXO IV.  Ejemplos de informes del SCSI\n\nANEXO V. Relación de Especialidades, Actividades, Items\n\nANEXO VI. Hitos de evaluación del avance de documentos",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 1,
+      "pagina_fin": 1,
+      "seccion": "I N D I C E",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3619d0c172e84b5f85feed7535e1bbd8",
+      "texto": "| RLL    | APL    | 4       | Jun 07   | REVISADO POR CAMBIO DE RAZON SOCIAL       |\n|--------|--------|---------|----------|-------------------------------------------|\n| D.D.   | A.I.   | 3       | Sept. 98 | REVISION GENERAL                          |\n| A.K.   | E.L.   | 2       | Abr. 94  | CAMBIADA LA IDENTIFICACIÓN Y LO MARCADO * |\n| A.K.   | E.L.   | 1       | Oct. 93  | EMISION COMO PR-330                       |\n| APROB. | VERIF. | EDICION | FECHA    | DESCRIPCION DE LA EDICION                 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 1,
+      "pagina_fin": 1,
+      "seccion": "I N D I C E",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fa34704e-845b-4e75-b128-3c486530bc1d",
+      "texto": "Este Procedimiento regula las herramientas de que disponen los Jefes de Proyecto para el Control de los costes directos imputados a los Proyectos.\n\nEs aplicable a todos los Proyectos que tengan previsto un número de horas de trabajo de ingeniería superiores a 15.000, y si en algún caso no fuese aconsejable su aplicación, se precisará la aprobación del Director General Adjunto.\n\nEste Procedimiento forma parte del Sistema de Calidad de Intecsa Industrial y ha sido elaborado teniendo en cuenta la norma ISO 9001.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c7ce41fb-d754-4baa-b724-9e63f2a21fc6",
+      "texto": "El   Control   de   Costes   de   un   Proyecto   tiene   por   finalidad   reflejar   la   situación económica   actual   del   mismo,   y   prever   la   situación   final,   lo   que   requiere   un conocimiento, no sólo de los costes habidos, sino la estimación razonable de los Costes estimados para completar, de donde se deduce el Coste final esperado. De todo ello se deducen consecuencias que deben permitir tomar medidas correctoras lo antes posible cuando las desviaciones afecten a la rentabilidad del Contrato.\n\nLos costes que se producen en un Proyecto son, en el caso más general, de tres tipos:\n\n-Coste de horas de trabajo (que incluye número de horas y su coste unitario según las claves presupuestarias)\n\n-Coste de gastos específicos (viajes, reprografía, ordenador, comunicaciones, etc.)\n\n-Coste de suministros (equipos, subcontratos, etc.)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. CONTROL DE COSTES DE UN PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0966d542-6f76-4ee0-8c93-5456efefa70b",
+      "texto": "Este sistema se utiliza para controlar el gasto de horas y obtener los avances durante la vida del Proyecto; al final del Proyecto permite obtener estadísticas detalladas   de   las   horas   necesarias   para   realizar   los   trabajos   y   así   definir   los baremos estándares de la empresa.\n\nPara   que   este   sistema   funcione,     es   condición   imprescindible   que   todas   las personas carguen a items, independientemente de las horas de ingeniería del Proyecto. El Anexo V muestra una relación de Especialidades, Actividades, Items.\n\nDependiendo de la complejidad de los Proyectos, el control se hará a diferentes niveles, como se indica a continuación.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "3. SISTEMA DE CONTROL DE SERVICIOS DE INGENIERÍA. SCSI",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "96d459d4-cbe9-4b67-b74f-7c4c0b16f1fa",
+      "texto": "No se empleará el SCSI, salvo que sea requerido por la Dirección. Sólo se llevara el control de horas gastadas por persona e ítem, para lo cual es necesario cargar las horas gastadas a los items.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "Proyectos pequeños (menos de 15.000 horas)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1eed3b17-f465-4118-a387-42395678c750",
+      "texto": "Es necesario   realizar   y   actualizar   mensualmente   la   lista   de   documentos   para generar los avances físicos y las horas para terminar.\n\nLa dimensión y exhaustividad de la lista de documentos tiene que ver sólo con los requerimientos del Cliente, los requerimientos del Jefe de Proyecto   o la propia conveniencia del especialista responsable de cuenta. Para poder realizar el control con el SCSI es suficiente con definir un documento, aunque sea ficticio, al que se le asignarán las horas, el avance, las horas para terminar y la cantidad del ítem a controlar.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "Proyectos medianos y grandes (mas de 15.000 horas)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7f3cf934-20a2-44ec-a3ef-3dd6b78b219e",
+      "texto": "No   es   necesario   realizar   el   SCSI,   salvo   que   se   decida   realizarlo   a   efectos estadísticos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "Proyectos por administración",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1c946d3d-4014-4c8d-bf6b-2cbf3cdd96c3",
+      "texto": "Los conceptos principales en el SCSI son los siguientes:\n\nCuenta . Equivale a Especialidad o disciplina técnica y se corresponde con la propia estructura de Intecsa Industrial . Por ejemplo, Proceso (o cuenta 20)\n\nActividades .   Trabajos con un mismo carácter y/o un mismo objeto dentro de una Especialidad. Por ejemplo, Hojas de datos de equipos (o actividad 22)\n\nÍtem. Código numérico que se asigna a cada parte de una Actividad que se refleja en resultados homogéneos (documentos de un cierto tipo, generalmente). Por ejemplo, Hoja de datos de Recipientes (o ítem 2226)\n\nCantidad del ítem inicial (A) y revisada (B) .  Cifra asociada a cada ítem expresada en la unidad medible del ítem. Por ejemplo, 5 si hay 5 recipientes en el ítem 2226, cuya unidad es Número de equipos.\n\nBaremo inicial (C=F/A), revisado (D=G/B)  y esperado (E=M/B). Número de horas iniciales, revisadas o esperadas para llevar a cabo una unidad.\n\nHoras aprobadas iniciales (F). Es la cantidad de las horas aprobadas al inicio del Proyecto.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3.1 Conceptos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fe864e0b-4362-4579-bd12-49ec3cd68a02",
+      "texto": "Los conceptos principales en el SCSI son los siguientes:\n\nCuenta . Equivale a Especialidad o disciplina técnica y se corresponde con la propia estructura de Intecsa Industrial . Por ejemplo, Proceso (o cuenta 20)\n\nActividades .   Trabajos con un mismo carácter y/o un mismo objeto dentro de una Especialidad. Por ejemplo, Hojas de datos de equipos (o actividad 22)\n\nÍtem. Código numérico que se asigna a cada parte de una Actividad que se refleja en resultados homogéneos (documentos de un cierto tipo, generalmente). Por ejemplo, Hoja de datos de Recipientes (o ítem 2226)\n\nCantidad del ítem inicial (A) y revisada (B) .  Cifra asociada a cada ítem expresada en la unidad medible del ítem. Por ejemplo, 5 si hay 5 recipientes en el ítem 2226, cuya unidad es Número de equipos.\n\nBaremo inicial (C=F/A), revisado (D=G/B)  y esperado (E=M/B).",
+      "nivel": "child",
+      "parent_id": "1c946d3d-4014-4c8d-bf6b-2cbf3cdd96c3",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3.1 Conceptos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fcdf7b88-83c6-408d-ab96-166f0170026d",
+      "texto": "Número de horas iniciales, revisadas o esperadas para llevar a cabo una unidad.\n\nHoras aprobadas iniciales (F). Es la cantidad de las horas aprobadas al inicio del Proyecto.",
+      "nivel": "child",
+      "parent_id": "1c946d3d-4014-4c8d-bf6b-2cbf3cdd96c3",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3.1 Conceptos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d41f996d-0493-4c1b-a1ee-4ce8689fb402",
+      "texto": "Horas cambios aprobadas (V). Son las horas que resultan de las Ordenes de Cambio aprobadas.\n\nHoras aprobadas revisadas (G=F+V). Son las horas aprobadas mas las órdenes de cambio aprobadas.\n\nHoras gastadas (H). Son las horas gastadas en el ítem, las gastadas en el mes se obtienen detalladas por personas.\n\nAvance Horario (I=H/G). Es el cociente porcentual de las horas gastadas entre las aprobadas revisadas.\n\nAvance físico (J). Es el valor porcentual estimado del trabajo realizado sobre el trabajo total a realizar\n\nHoras remanentes (K=G-H). Diferencia entre las horas aprobadas revisadas y las realmente gastadas.\n\nEstimación de horas para terminar (L). Son las horas que se estima que falta para terminar los documentos o actividades asociados al ítem.\n\nEstimación de horas esperadas (M=H+L). Es la suma de las horas estimadas para terminar y las gastadas a origen.\n\nRendimiento actual (N=J/I). Es el cociente del avance físico entre el avance horario.\n\nRendimiento esperado (O=G/M). Es el cociente entre las horas aprobadas revisadas y la estimación de horas esperadas.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "da498c1c-95b2-4e5d-a967-d0d4f9cedd9f",
+      "texto": "Horas cambios aprobadas (V). Son las horas que resultan de las Ordenes de Cambio aprobadas.\n\nHoras aprobadas revisadas (G=F+V). Son las horas aprobadas mas las órdenes de cambio aprobadas.\n\nHoras gastadas (H). Son las horas gastadas en el ítem, las gastadas en el mes se obtienen detalladas por personas.\n\nAvance Horario (I=H/G). Es el cociente porcentual de las horas gastadas entre las aprobadas revisadas.\n\nAvance físico (J). Es el valor porcentual estimado del trabajo realizado sobre el trabajo total a realizar\n\nHoras remanentes (K=G-H). Diferencia entre las horas aprobadas revisadas y las realmente gastadas.\n\nEstimación de horas para terminar (L). Son las horas que se estima que falta para terminar los documentos o actividades asociados al ítem.\n\nEstimación de horas esperadas (M=H+L). Es la suma de las horas estimadas para terminar y las gastadas a origen.\n\nRendimiento actual (N=J/I).",
+      "nivel": "child",
+      "parent_id": "d41f996d-0493-4c1b-a1ee-4ce8689fb402",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "12521a92-843e-4c14-8404-159e55ff7cf3",
+      "texto": "Rendimiento actual (N=J/I). Es el cociente del avance físico entre el avance horario.\n\nRendimiento esperado (O=G/M). Es el cociente entre las horas aprobadas revisadas y la estimación de horas esperadas.",
+      "nivel": "child",
+      "parent_id": "d41f996d-0493-4c1b-a1ee-4ce8689fb402",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5ae10ecb-b08e-46ba-abbe-f11d3ba58b1d",
+      "texto": "El responsable de Planificación y Control de Gestión, establecerá una lista específica de items, en función de los previstos por los Especialistas de acuerdo con el Jefe del Proyecto, así como los items generales que establezca el Jefe del Proyecto.\n\nAl comenzar el control de un Proyecto el responsable de Planificación y Control de Gestión   tendrá   que   configurar   el   Proyecto   siguiendo   los   pasos   a   continuación indicados:\n\n-Dar de alta las áreas de control del proyecto, e introducir su descripción.\n\n-Definir  las Cuentas del Proyecto y asignarles las horas aprobadas.\n\n-Asignar cada ítem del plan contable estándar a una cuenta.\n\n-Asignar a cada cuenta un responsable\n\n-Definir   los   tipos   de   documentos   que   se   podrán   utilizar   en   la   lista   de documentos",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "Inicio",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b977746f-fa27-4d25-8174-ead0fdb3a31f",
+      "texto": "Una vez configurado el proyecto los especialistas responsables de cuenta (ERC) podrán elaborar la lista de documentos, según la IT correspondiente del departamento de Planificación y Control de Gestión. (IT-CG-01)\n\nEl ERC tendrá que comunicar a todas las personas que trabajen para su cuenta los items definidos en la lista de documentos, ya que las horas que se carguen a un ítem que no pertenezca a esta lista se considerarán como horas mal cargadas y se cargarán al ítem por defecto definido para  cada persona.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4d6697be-0428-46b0-bee4-5826802c9643",
+      "texto": "El sistema se alimenta con las siguientes entradas:\n\n-Horas aprobadas iniciales, resultado de la negociación de la estimación original de la ofertas. Esta entrada de datos la realiza directamente el Servicio de Control de Gestión.\n\n-Horas aprobadas por órdenes de cambio, resultado de la negociación del Jefe de Proyecto con el ERC. Esta entrada de datos la realiza directamente el Servicio   de   Control   de   Gestión,   después   de   recibir   el   resultado   de   la negociación por parte el Jefe de Proyecto.\n\n-Horas gastadas, provienen de la introducción en el sistema de los datos de los partes diarios de trabajo por las personas encargadas de ello. El personal de ingeniería debe reflejar en dichos partes los códigos asociados a los items que carga horas, de acuerdo con la siguiente relación:\n\nA = Despiece de armaduras\n\nB = Planos as built, repuestos, manuales, etc.\n\nC = Comparación técnica de ofertas\n\nF = Croquis de instrumentos en recipientes\n\nK = Comentarios P&I de instrumentos\n\nL = Revisión planos taller\n\nP = Datos de Proceso\n\nS = Standards, plataformas, escaleras, etc.\n\nT = Técnico (cálculo, Especificaciones, HD, RM)\n\nV = Planos vendedores\n\n-Datos provenientes de la Planificación y Control de Documentos. Cada mes el ERC tiene que actualizar la lista de documentos para que el SCSI pueda importar los datos siguientes: Ítem, Cantidad, Horas, Avance físico y Horas para terminar.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "Entradas",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "711d9368-f961-4bbb-800b-68231eeff248",
+      "texto": "El sistema se alimenta con las siguientes entradas:\n\n-Horas aprobadas iniciales, resultado de la negociación de la estimación original de la ofertas. Esta entrada de datos la realiza directamente el Servicio de Control de Gestión.\n\n-Horas aprobadas por órdenes de cambio, resultado de la negociación del Jefe de Proyecto con el ERC. Esta entrada de datos la realiza directamente el Servicio   de   Control   de   Gestión,   después   de   recibir   el   resultado   de   la negociación por parte el Jefe de Proyecto.\n\n-Horas gastadas, provienen de la introducción en el sistema de los datos de los partes diarios de trabajo por las personas encargadas de ello. El personal de ingeniería debe reflejar en dichos partes los códigos asociados a los items que carga horas, de acuerdo con la siguiente relación:\n\nA = Despiece de armaduras\n\nB = Planos as built, repuestos, manuales, etc.",
+      "nivel": "child",
+      "parent_id": "4d6697be-0428-46b0-bee4-5826802c9643",
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "Entradas",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "12341232-a7a8-4cee-ad6e-f52079a790a9",
+      "texto": "C = Comparación técnica de ofertas\n\nF = Croquis de instrumentos en recipientes\n\nK = Comentarios P&I de instrumentos\n\nL = Revisión planos taller\n\nP = Datos de Proceso\n\nS = Standards, plataformas, escaleras, etc.\n\nT = Técnico (cálculo, Especificaciones, HD, RM)\n\nV = Planos vendedores\n\n-Datos provenientes de la Planificación y Control de Documentos. Cada mes el ERC tiene que actualizar la lista de documentos para que el SCSI pueda importar los datos siguientes: Ítem, Cantidad, Horas, Avance físico y Horas para terminar.",
+      "nivel": "child",
+      "parent_id": "4d6697be-0428-46b0-bee4-5826802c9643",
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "Entradas",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "06e24b4b-7bbf-49b2-ba99-130cb5bb5b5a",
+      "texto": "El   responsable   de   Planificación   y   Control   de   Gestión   encargado   del   Control   del Proyecto  elaborará el SCSI ordenando  todos los datos anteriores y obteniendo para cada Ítem, Cuenta y Total Proyecto los datos definidos en el punto anterior. La elaboración del SCSI se describe en una (IT-CG-02) del Servicio de Planificación y Control de Gestión.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "Elaboración",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "467c818e-4f10-482d-ba1c-5b5963e67f81",
+      "texto": "El SCSI produce,  los siguientes informes.\n\n-Informes Cuenta - Ítem. Es un informe detallado a nivel ítem y está destinado a los Especialistas,   a los jefes de especialidad y puede servir a los Jefes de Proyecto.\n\n-Informe   Proyecto   -   Cuenta.   Se   destina   a   los   Jefes   de   Proyecto   y   como documento  para la Dirección.\n\nEstos  dos   informes   necesitan   ser   elaborados   para   poder   obtenerse.   Esto significa   que   el   informe   de   un   mes   sólo   estará   disponible   desde   que   se terminen de elaborar hasta que se comience a elaborar el del mes siguiente. Es función del responsable de Control de Planificación y Control de Gestión el comunicar que está disponible. Una vez comunicado el ERC puede obtenerlo directamente en el mismo menú en el que introduce los datos.\n\n-Informe   de   situación   de   Ordenes   de   Cambio.   Se   destina   a   los   Jefes   de Proyecto y a los Especialistas responsables de Cuenta, y como documento optativo de consulta para la Dirección General.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "Salidas",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6d31c697-3b5c-4ad5-a41d-cd80f4a7fea1",
+      "texto": "El SCSI produce,  los siguientes informes.\n\n-Informes Cuenta - Ítem. Es un informe detallado a nivel ítem y está destinado a los Especialistas,   a los jefes de especialidad y puede servir a los Jefes de Proyecto.\n\n-Informe   Proyecto   -   Cuenta.   Se   destina   a   los   Jefes   de   Proyecto   y   como documento  para la Dirección.\n\nEstos  dos   informes   necesitan   ser   elaborados   para   poder   obtenerse.   Esto significa   que   el   informe   de   un   mes   sólo   estará   disponible   desde   que   se terminen de elaborar hasta que se comience a elaborar el del mes siguiente. Es función del responsable de Control de Planificación y Control de Gestión el comunicar que está disponible. Una vez comunicado el ERC puede obtenerlo directamente en el mismo menú en el que introduce los datos.\n\n-Informe   de   situación   de   Ordenes   de   Cambio.",
+      "nivel": "child",
+      "parent_id": "467c818e-4f10-482d-ba1c-5b5963e67f81",
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "Salidas",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3a6821a3-8bc6-417b-8bec-d8d98663de39",
+      "texto": "-Informe   de   situación   de   Ordenes   de   Cambio.   Se   destina   a   los   Jefes   de Proyecto y a los Especialistas responsables de Cuenta, y como documento optativo de consulta para la Dirección General.",
+      "nivel": "child",
+      "parent_id": "467c818e-4f10-482d-ba1c-5b5963e67f81",
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "Salidas",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "41844b8a-f041-4aff-ac20-b6996687b617",
+      "texto": "El control de gastos específicos se obtiene de la información que facilita el SIG, el cual se ha alimentado de datos de costes introducidos por el Servicio de Administración.\n\nLas actividades básicas a considerar en lo referente a gastos específicos son:\n\n-Subcontratos de ingeniería",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "4. CONTROL DE GASTOS ESPECÍFICOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d7067f81-c4a5-4b45-8773-0e8964f63642",
+      "texto": "Mensualmente el SIG facilita la información de los gastos habidos en el mes y su valor acumulado a origen.\n\nSi se detectan desvíos en la relación de costes habidos frente al total de costes presupuestados, deberá realizarse una nueva estimación de los costes estimados para terminar, evaluándose tal valor directamente en función del avance de horas con ciertas salvedades (p.e. los viajes y dietas afectan más en fase de supervisión de obra, la reprografía se incrementa al preparar los libros de proyecto, los subcontratos de ingeniería tienen su propia planificación, etc.). Esta evaluación la hace el Servicio de Planificación y Control de Gestión, de acuerdo con el Jefe del Proyecto.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1756dda6-2714-42d3-9396-8ce9611325e2",
+      "texto": "Para realizar el control de suministros se sigue el Procedimiento PR-16.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "5. CONTROL DE SUMINISTROS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2023356a-fa5d-42be-8021-c4a34a63f670",
+      "texto": "-El control de horas se realiza mediante el SCSI (capítulos 3)\n\n-El control de gastos específicos se obtiene del SIG (ver capítulo 4)\n\n-El control de suministros se realiza según el PR-16 (ver capítulo 5)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "6. RESUMEN DEL CONTROL DE COSTES DE PROYECTOS",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "63101034-7631-4595-851e-e00e27f016e9",
+      "texto": "[Descripción visual: La imagen es un diagrama de flujo titulado \"CONTROL INTEGRAL DE PROYECTOS\" de Intecsa Industrial, parte del \"PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO\", identificado como PR-15, edición 4, hoja 9 de 37.\n\nEl esquema central está dividido en dos áreas principales: \"INFORME CUENTA - ITEM\" y \"INFORME PROYECTO - CUENTA\", que incluyen distintos conceptos como:\n\n- Cantidades\n- Base aprobada inicial\n- Cambio aprobado\n- Horas gastadas revisadas\n- Horas gastadas\n- Avance físico\n- Horas remanentes\n- Horas esperadas para terminar\n- Horas finales esperadas\n- Rendimientos\n\nDesde el área de \"CONTROL INTEGRAL DE PROYECTOS\", se establecen conexiones con varios bloques que se listan a continuación:\n\n1. **\"ESTIMACIÓN DE HORAS (OFERTA)\"**:\n   - Información: Item, Cantidad, Horas\n\n2. **\"ESTIMACION DE CAMBIO\"**:\n   - Información: Item, Cantidad, Horas\n\n3. **\"PRESUPUESTO HORARIO\"**:\n   - Información: Horas presupuesto, Cuenta\n\n4. **\"CAMBIOS APROBADOS\"**:\n   - Información: Horas Cambios, Boletines, Cuenta \n\n5. **\"PARTES DE TRABAJO\"**:\n   - Información: OT/Item/Código, Horas\n\n6. **\"SIG\"**:\n   - Información: Horas gastadas, Nombre, Item\n\n7. **\"PLANIFICACIÓN Y CONTROL DE DOCUMENTOS\"**:\n   - Información: Item, Cantidad, Avance físico, Horas para terminar\n\n8. **\"PLANIFICACIÓN\"**:\n   - Información: Hitos/Actividades, Duración, Fechas\n\nFlechas conectan estos bloques con el área central del informe, indicando el flujo de información entre ellos para el control de costes y gestión de proyectos.]\n\nResp.Cuenta: MATERIALES TUBERIAS\n\nPLANIFICACIONYCONTROLDEDOOLMENTOS.ESPECIALISTA\n\nINGENIERIA FENOLERTISA\n\nCant idad Horas subcont.\n\nESPECIFIC.MATERIALES DE TUBERIAS CLIENTE(INGLES)\n\nESPECIFICACIONESDEMATERIALESDETUBERIAS(22)\n\nESPECIFIC.MATERIALESTUBERIASCLIENTE(ESPANOL)\n\nESPECIFICACIONESGENERALESDEVALVULAS\n\nACCESORIOSDETUBINGDEOOBRE\n\nTUBERIADEACEROCARBONOYGALVANIZADO\n\nVALVULASFORJADASDEACEROCARBONDYGALVANIZADO\n\nVALVULAS DEMARIPOSADEAC.CARBONDY GALVANIZADO\n\nACCESCRIOS S.W.Y THD.DEAC.AL CARBONOY GALVAN.\n\nACOESORIOSBUTTWELDDEAC.ALCARBONOYGALVAN.\n\nBRIDASDEACEROALCARBONOYGALVANIZADO\n\nFIGURAS8,FILTROSTEMPORALESDEAC.CARBONOYGALV.\n\nFILTROSYPURGADORESDEACEROALCARBOND\n\nUBERIADEACEROALEADOSANICRO28\n\nResp. Cuenta: MATERIALES TUBERIAS\n\nPLANIFICACIONYCONTROLDE DOOLMENTOS.ESPECIALISTA\n\nDINSA/INTECSA/EOOLAIRE\n\nINGENIERIAFENOLERTISA\n\nCantidadHoras subcont.\n\nACCESCRIOSS.W.YTHD.DE ACERO ALEADO SANICRO28\n\nTUBERIA DEACEROINOKIDABLE\n\nACCESORIOSS.W.YTHD.DE ACEROINOXIDABLE\n\nBRIDASDEACEROINOXIDABLE\n\nTUBERIA DE ACERO BAJA TEMPERATURA L.T.C.S.\n\nACCESORIOSS.W.YTHD.DE ACERO BAJA TEMPERATURA\n\nBRIDASDE ACERO BAJA TEMPERATURA\n\nVALVULASDE RETENCIONTIPGGESTRA\n\nResp.Ouenta: MATERIALES TUBERIAS\n\nPLANIFICACIONYCONTROLDEDOCLMENTOS.ESPECIALISTA\n\nINGENIERIA FENOLERTISA\n\nDINSA/INTECSA/ECOLAIRE\n\nCantidad Horas subcont.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 14,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9044a8f2-86b2-48ea-aad3-e5f43b5494f4",
+      "texto": "[Descripción visual: La imagen es un diagrama de flujo titulado \"CONTROL INTEGRAL DE PROYECTOS\" de Intecsa Industrial, parte del \"PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO\", identificado como PR-15, edición 4, hoja 9 de 37.\n\nEl esquema central está dividido en dos áreas principales: \"INFORME CUENTA - ITEM\" y \"INFORME PROYECTO - CUENTA\", que incluyen distintos conceptos como:\n\n- Cantidades\n- Base aprobada inicial\n- Cambio aprobado\n- Horas gastadas revisadas\n- Horas gastadas\n- Avance físico\n- Horas remanentes\n- Horas esperadas para terminar\n- Horas finales esperadas\n- Rendimientos\n\nDesde el área de \"CONTROL INTEGRAL DE PROYECTOS\", se establecen conexiones con varios bloques que se listan a continuación:\n\n1. **\"ESTIMACIÓN DE HORAS (OFERTA)\"**:\n   - Información: Item, Cantidad, Horas\n\n2.",
+      "nivel": "child",
+      "parent_id": "63101034-7631-4595-851e-e00e27f016e9",
+      "pagina_inicio": 9,
+      "pagina_fin": 14,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "232a1b06-eb9e-41ef-bff2-71198fdfdfd1",
+      "texto": "**\"ESTIMACION DE CAMBIO\"**:\n   - Información: Item, Cantidad, Horas\n\n3. **\"PRESUPUESTO HORARIO\"**:\n   - Información: Horas presupuesto, Cuenta\n\n4. **\"CAMBIOS APROBADOS\"**:\n   - Información: Horas Cambios, Boletines, Cuenta \n\n5. **\"PARTES DE TRABAJO\"**:\n   - Información: OT/Item/Código, Horas\n\n6. **\"SIG\"**:\n   - Información: Horas gastadas, Nombre, Item\n\n7. **\"PLANIFICACIÓN Y CONTROL DE DOCUMENTOS\"**:\n   - Información: Item, Cantidad, Avance físico, Horas para terminar\n\n8. **\"PLANIFICACIÓN\"**:\n   - Información: Hitos/Actividades, Duración, Fechas\n\nFlechas conectan estos bloques con el área central del informe, indicando el flujo de información entre ellos para el control de costes y gestión de proyectos.]",
+      "nivel": "child",
+      "parent_id": "63101034-7631-4595-851e-e00e27f016e9",
+      "pagina_inicio": 9,
+      "pagina_fin": 14,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "46a321a9-2b5b-4f0a-be0f-27c8b33e5481",
+      "texto": "Resp.Cuenta: MATERIALES TUBERIAS\n\nPLANIFICACIONYCONTROLDEDOOLMENTOS.ESPECIALISTA\n\nINGENIERIA FENOLERTISA\n\nCant idad Horas subcont.\n\nESPECIFIC.MATERIALES DE TUBERIAS CLIENTE(INGLES)\n\nESPECIFICACIONESDEMATERIALESDETUBERIAS(22)\n\nESPECIFIC.MATERIALESTUBERIASCLIENTE(ESPANOL)\n\nESPECIFICACIONESGENERALESDEVALVULAS\n\nACCESORIOSDETUBINGDEOOBRE\n\nTUBERIADEACEROCARBONOYGALVANIZADO\n\nVALVULASFORJADASDEACEROCARBONDYGALVANIZADO\n\nVALVULAS DEMARIPOSADEAC.CARBONDY GALVANIZADO\n\nACCESCRIOS S.W.Y THD.DEAC.AL CARBONOY GALVAN.\n\nACOESORIOSBUTTWELDDEAC.ALCARBONOYGALVAN.",
+      "nivel": "child",
+      "parent_id": "63101034-7631-4595-851e-e00e27f016e9",
+      "pagina_inicio": 9,
+      "pagina_fin": 14,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "895cb88e-ebdf-4d53-a068-48299b94a2fc",
+      "texto": "BRIDASDEACEROALCARBONOYGALVANIZADO\n\nFIGURAS8,FILTROSTEMPORALESDEAC.CARBONOYGALV.\n\nFILTROSYPURGADORESDEACEROALCARBOND\n\nUBERIADEACEROALEADOSANICRO28\n\nResp. Cuenta: MATERIALES TUBERIAS\n\nPLANIFICACIONYCONTROLDE DOOLMENTOS.ESPECIALISTA\n\nDINSA/INTECSA/EOOLAIRE\n\nINGENIERIAFENOLERTISA\n\nCantidadHoras subcont.\n\nACCESCRIOSS.W.YTHD.DE ACERO ALEADO SANICRO28\n\nTUBERIA DEACEROINOKIDABLE\n\nACCESORIOSS.W.YTHD.DE ACEROINOXIDABLE\n\nBRIDASDEACEROINOXIDABLE\n\nTUBERIA DE ACERO BAJA TEMPERATURA L.T.C.S.",
+      "nivel": "child",
+      "parent_id": "63101034-7631-4595-851e-e00e27f016e9",
+      "pagina_inicio": 9,
+      "pagina_fin": 14,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a148d0c3-ead9-4f5e-8aac-7f165b961462",
+      "texto": "ACCESORIOSS.W.YTHD.DE ACERO BAJA TEMPERATURA\n\nBRIDASDE ACERO BAJA TEMPERATURA\n\nVALVULASDE RETENCIONTIPGGESTRA\n\nResp.Ouenta: MATERIALES TUBERIAS\n\nPLANIFICACIONYCONTROLDEDOCLMENTOS.ESPECIALISTA\n\nINGENIERIA FENOLERTISA\n\nDINSA/INTECSA/ECOLAIRE\n\nCantidad Horas subcont.",
+      "nivel": "child",
+      "parent_id": "63101034-7631-4595-851e-e00e27f016e9",
+      "pagina_inicio": 9,
+      "pagina_fin": 14,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4b6e71cc-9060-4862-83ce-0b4e27a06f60",
+      "texto": "DUCHASYLAVAOJOSDESEGURIDAD\n\nHORNACINATOMADEMLESTRAS\n\nREFRIGERADORDE TOMADEMUESTRAS\n\nCONEXIONESRAPIDASPARAMANGUERAS\n\nCUBIERTAPROTECCIONVENTEOS\n\nFILTROS\"STRAINERIADAPTADOS\n\nTAPASDEDRENAJESCERRADOS\n\n[Descripción visual: La imagen muestra una hoja de control de costes de un proyecto de la empresa Intecsa Industrial. En la esquina superior izquierda, se encuentra el logotipo de la empresa y el título \"PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO,\" seguido del código \"PR-15.\" La imagen es la página 14 de 37 de la edición 4.\n\nLa tabla en la parte central de la página se divide en varias columnas y filas. El encabezado de la tabla incluye secciones como:\n\n1. **Planificación y control de documentos:**\n   - Hay espacios para el número de documento, fecha y edición.\n\n2. **Descripción:**\n   - Incluye una columna para el código, la cantidad, y el factor.\n\n3. **Control:**\n   - Una sección más específica está titulada \"Revisión y Control de Documentos Especialista.\" \n   - El ejemplo muestra un documento con un valor total de 606, y una cantidad específica de 99 dentro de un subtotal.\n\n4. **MTO (Monto):**\n   - Muestra cifras para diferentes categorías, etiquetadas como A, B y C, con cifras bajo \"Planif / Real\" y \"Fecha Esc.\"\n   - Hay un total calculado para cada sección.\n\n5. **Totales:**\n   - Incluye un valor específico para el total general con cifras y un porcentaje total de 174%.\n\nEste diagrama parece ser parte de un sistema de seguimiento y control de costes en el ámbito de gestión de proyectos.]",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 14,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d66935c0-5763-4588-86c1-49e4de522b92",
+      "texto": "DUCHASYLAVAOJOSDESEGURIDAD\n\nHORNACINATOMADEMLESTRAS\n\nREFRIGERADORDE TOMADEMUESTRAS\n\nCONEXIONESRAPIDASPARAMANGUERAS\n\nCUBIERTAPROTECCIONVENTEOS\n\nFILTROS\"STRAINERIADAPTADOS\n\nTAPASDEDRENAJESCERRADOS\n\n[Descripción visual: La imagen muestra una hoja de control de costes de un proyecto de la empresa Intecsa Industrial. En la esquina superior izquierda, se encuentra el logotipo de la empresa y el título \"PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO,\" seguido del código \"PR-15.\" La imagen es la página 14 de 37 de la edición 4.\n\nLa tabla en la parte central de la página se divide en varias columnas y filas. El encabezado de la tabla incluye secciones como:\n\n1. **Planificación y control de documentos:**\n   - Hay espacios para el número de documento, fecha y edición.\n\n2.",
+      "nivel": "child",
+      "parent_id": "4b6e71cc-9060-4862-83ce-0b4e27a06f60",
+      "pagina_inicio": 9,
+      "pagina_fin": 14,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "bba96fde-caf0-492c-a875-f67b1673f406",
+      "texto": "2. **Descripción:**\n   - Incluye una columna para el código, la cantidad, y el factor.\n\n3. **Control:**\n   - Una sección más específica está titulada \"Revisión y Control de Documentos Especialista.\" \n   - El ejemplo muestra un documento con un valor total de 606, y una cantidad específica de 99 dentro de un subtotal.\n\n4. **MTO (Monto):**\n   - Muestra cifras para diferentes categorías, etiquetadas como A, B y C, con cifras bajo \"Planif / Real\" y \"Fecha Esc.\"\n   - Hay un total calculado para cada sección.\n\n5. **Totales:**\n   - Incluye un valor específico para el total general con cifras y un porcentaje total de 174%.\n\nEste diagrama parece ser parte de un sistema de seguimiento y control de costes en el ámbito de gestión de proyectos.]",
+      "nivel": "child",
+      "parent_id": "4b6e71cc-9060-4862-83ce-0b4e27a06f60",
+      "pagina_inicio": 9,
+      "pagina_fin": 14,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d7893cc5-0a9f-462b-8181-22a9abf9f959",
+      "texto": "[Descripción visual: La imagen muestra un formulario titulado \"PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO\" de la empresa Intecsa Industrial. Está identificado como un documento de edición 4, hoja 16 de 37. Abajo, se observa el logo y nombre de \"INTECSA UHDE\".\n\nEl formulario parece ser una hoja de control para registrar partes diarios de trabajo. \n\nEn la parte superior, hay espacios para completar el año, el mes, y el número de la hoja. Hay columnas divididas por días, indicadas con los encabezados \"S\" y \"D\". Cada día incluye una tabla para llenar información.\n\nVerticalmente, a la izquierda, se observa \"PARTES DIARIOS DE TRABAJO\", y hay un espacio titulado \"ENCUDRAMIENTO\".\n\nLas entradas horizontales a la izquierda de cada tabla parecen estar destinadas a registrar horas (HE, HL, HM), posiblemente horas extras u ordinarias.\n\nAl final de cada columna, se encuentran secciones para llenar detalles específicos bajo las etiquetas \"O.T.\", \"CÓD\", y otras letras (X, M, A, V), probablemente para códigos de tiempo o actividades específicas del proyecto.]",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 16,
+      "pagina_fin": 16,
+      "seccion": "ANEXO III FORMATO PARTES DIARIOS DE TRABAJO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a488fc4f-1a20-4ed0-863e-3b5b85c30949",
+      "texto": "[Descripción visual: La imagen muestra un formulario titulado \"PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO\" de la empresa Intecsa Industrial. Está identificado como un documento de edición 4, hoja 16 de 37. Abajo, se observa el logo y nombre de \"INTECSA UHDE\".\n\nEl formulario parece ser una hoja de control para registrar partes diarios de trabajo. \n\nEn la parte superior, hay espacios para completar el año, el mes, y el número de la hoja. Hay columnas divididas por días, indicadas con los encabezados \"S\" y \"D\". Cada día incluye una tabla para llenar información.\n\nVerticalmente, a la izquierda, se observa \"PARTES DIARIOS DE TRABAJO\", y hay un espacio titulado \"ENCUDRAMIENTO\".\n\nLas entradas horizontales a la izquierda de cada tabla parecen estar destinadas a registrar horas (HE, HL, HM), posiblemente horas extras u ordinarias.",
+      "nivel": "child",
+      "parent_id": "d7893cc5-0a9f-462b-8181-22a9abf9f959",
+      "pagina_inicio": 16,
+      "pagina_fin": 16,
+      "seccion": "ANEXO III FORMATO PARTES DIARIOS DE TRABAJO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9b3235a3-31a4-488b-9c4d-543ea4a5f814",
+      "texto": "Al final de cada columna, se encuentran secciones para llenar detalles específicos bajo las etiquetas \"O.T.\", \"CÓD\", y otras letras (X, M, A, V), probablemente para códigos de tiempo o actividades específicas del proyecto.]",
+      "nivel": "child",
+      "parent_id": "d7893cc5-0a9f-462b-8181-22a9abf9f959",
+      "pagina_inicio": 16,
+      "pagina_fin": 16,
+      "seccion": "ANEXO III FORMATO PARTES DIARIOS DE TRABAJO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "660bde51639145b2a4c642eb4610dfbf",
+      "texto": "| ESPERADO ESPERADAS ESTIMACION HORAS TERMINAR     | W3-0                                             |                      |                       | 88'0                  | 0,93               | L5'0                 | 0,55                 | 1,02             | 98'0                  | 29'0                     | 2x'0                | +s'0                       | 183.509                              |\n|--------------------------------------------------|--------------------------------------------------|----------------------|-----------------------|-----------------------|--------------------|----------------------|----------------------|------------------|-----------------------|--------------------------|---------------------|----------------------------|--------------------------------------|\n|                                                  | N=J/1                                            | 08'0                 | 0,75                  |                       | %'0                | 66'0                 | 0,55                 | 1,06             | B'0                   | 0,63                     |                     | 29'0                       | 0,68 Q'                              |\n|                                                  | MIL                                              | 6822                 | 10.3Z3                | 16.351                | 621'S              | 7.140                | 8'                   | 3.485            | 19.166                | 22.343                   | 2.259               |                            | 1.250                                |\n|                                                  |                                                  | 08                   | 9                     |                       | 655                | 6S                   | 1.158                |                  | 1.915                 | 120                      | N                   | 8.000                      | 18.082                               |\n| HORAS K=G-H                                      | HORAS K=G-H                                      |                      | -2.083                |                       |                    | -3.915               | 5/2'-                |                  | 09L-                  | -8.002                   | -1.525              | 08'9-                      | -1.250 -40.156                       |\n| AVANCEORIGEN FISIOO HORARIO I=VG HORAS           | CRIGEI                                           | 23.029,00103,4083,16 | 125,4395,0B 10.274,75 | 109,1698,19 15.876,25 | 100,49 96,93       | 247,9597,29 6.561,00 | 33.686,75173,5296,54 | 5282028 2,930,00 | 104,6191,20 17.251,25 | 156,2799,41              | 2.257,00308,3398,78 | 2,0024.717,50 138,49 88,00 | 2,19 165.427,25 132,0592,44 1.250,25 |\n| GASTADAS HORARIO FISIOO AVNCEMES iztVG           | GASTADAS HORARIO FISIOO AVNCEMES iztVG           | 5,56                 | 1,77                  | 0,24                  | 2,77 8,14          |                      | 2,10 02' 1.399,50    | 2,50 66'L        | 4,85                  | 9E'0 5,12                |                     | 14,97                      |                                      |\n| HORAS GASTADAS                                   | HORAS GASTADAS                                   | 1.299,75             | 145,2                 | 579,50                | 435,50             | 05206                |                      |                  | 800,75                |                          |                     | 2.672,25                   | 9.172,50                             |\n| S REVISADAS HORAS GTV                            | S REVISADAS HORAS GTV                            |                      | 8.191                 | 14.544                | 5.344              | 2.646                | 19.413               | 3.572            | 16.491                | 14.221                   | 722                 | 17.847                     |                                      |\n| HORAS S APRCBADAS                                | HORAS S APRCBADAS                                |                      | 3.272                 | 5.525                 |                    |                      | 656                  |                  |                       | N                        |                     | -2.153                     | 11.254                               |\n| APRCBADAS INICIALES HORAS                        | APRCBADAS INICIALES HORAS                        | 21.200               |                       | 9.089                 | 5.194              | 2.646                | 18.474               | 3.282            | 14.551                | 14.000                   | 251                 | 0002                       | 114.087                              |\n| PROYECTO: 14043 FENOL, REVAN.QLMENO, OFF SITES E | PROYECTO: 14043 FENOL, REVAN.QLMENO, OFF SITES E | GRLPO DE PROYECTO    | PROCESOS              | EUIPOS                | MATERIALESTUBERIAS | ESRLERZDSYSOPORTES   | TUBERIAS             | ELECTRICIDAO     | INSTRLMENTOS          | CIVIL Y ARQUITECTURA 8 8 | INSTALACICES        | MMPRAS                     | CONSTRLOCION                         |\n|                                                  |                                                  |                      |                       | 8                     |                    |                      |                      |                  |                       |                          | R                   | 8                          | Total 8                              |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 18,
+      "pagina_fin": 18,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "09bd93205a9641c684f5349e6b8cbbbe",
+      "texto": "|                                                                          | W3-0                                     | 0,40                                         |                                                                       | 1,08               |                                |                          |                                  |               |                      |           |                                   |\n|--------------------------------------------------------------------------|------------------------------------------|----------------------------------------------|-----------------------------------------------------------------------|--------------------|--------------------------------|--------------------------|----------------------------------|---------------|----------------------|-----------|-----------------------------------|\n| Fecha Infonme:12/05/98                                                   |                                          | 50,40                                        |                                                                       | 71,09              |                                | 73 0,70 0,62             |                                  | 322 1,50 1,45 |                      |           | 57290,960,93                      |\n|                                                                          | ESPERADAS ACTUAL ESPERADO 1/=N+H=W       | 955                                          |                                                                       |                    |                                |                          |                                  |               |                      |           |                                   |\n| ESTIMACION HORAS Horas gastadas hasta: 04/1998                           | TERMINAR                                 | 16                                           |                                                                       | 26                 |                                |                          |                                  |               |                      |           | 655                               |\n| K=G-H HORAS                                                              | K=G-H HORAS                              | -555                                         |                                                                       | 207                |                                | 17-                      |                                  |               |                      |           |                                   |\n| AVANCES                                                                  | HORAR1O&#124;FISI00&#124;REMANENTES 1=VG | 2,22 939,50 244,66 99,00 0,00                | 1,42 8'9                                                              | 26'86 90'06        | 31,1518,22                     | 109,14 77,06             |                                  | 00'           | 64,27 97,00          | 8,142,76  | 5370,25100,4996,92                |\n| GASTADAS                                                                 | HORAS H                                  | 0,00                                         | 0 16318                                                               | 'S292              | 140,50 140,50                  | 492,25                   | 17,50                            | 17,50         | 302,75               | 435,50    |                                   |\n| HORAS                                                                    | NOMBRE                                   | 384Total a Origen Total Mes                  | DIONISIOLETRAN,MANUEL FRANCORODRIGLEZBENITO ESPAFELIPCARLOS Total Mes | 4038Total a Origen | ARBOLEDASMORAANTONIO Total Mes | TotalaOrigen 451         |                                  | TotalMes      | 471! Total a Origen  |           |                                   |\n| MATERIALES TUBERIAS HORAS APRCBADAS                                      | INICIALES&#124;REVISADAS G               |                                              |                                                                       | 9166               |                                |                          |                                  |               |                      |           | 5194                              |\n| BAREMOS                                                                  | O E=VB                                   | 14,2                                         |                                                                       | 28,8               |                                | 1.4                      |                                  | 322,7         |                      |           | Total origen                      |\n|                                                                          | REVISADO D=G/B                           |                                              |                                                                       |                    |                                |                          |                                  | 471,0         |                      |           |                                   |\n|                                                                          | INICIAL C=F/A                            | 15.                                          |                                                                       | 100,4              |                                | 74,6                     |                                  | 458,0         |                      | Total Mes |                                   |\n| CANTIDAD DEL ITBM                                                        | REVISADA B INICIAL                       | 9                                            |                                                                       |                    |                                | 6                        |                                  |               |                      |           |                                   |\n| PROYECTO:14043 FENOL,REVAM.QUMENO,OFF SITES INTECSA UHDE INDUSTRIAL S.A. |                                          | 3410 Especificacicnes materiales de tuberfas | 3420 Mro's, Lista de meteriales, RM's                                 |                    | 3430 Items H                   | UnidaddelItem3430=NIteTs | 3499 General Materiales Tuberfas |               | Unidad delItem3499=% |           | TOTAL CUENTA: MATERIALES TUBERIAS |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 19,
+      "pagina_fin": 19,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "8eb45488-41fc-4dd3-b255-18f3b1291d0b",
+      "texto": "[Descripción visual: La imagen es una tabla detallada que parece ser un informe o documento de trabajo relacionado con órdenes de cambio de un proyecto. Aquí hay un desglose del contenido:\n\n1. **Encabezado**: \n   - **DIE** y **DINSA / INTECSA / ECOLAIRE MADRID**: indicando las entidades involucradas.\n   - **CLIENTE**: UTE DRAGADOS INTECSA UNHD.ECOL PLANTA: INGENIERÍA FENOL ERTISA.\n   - **PROYECTO**: 14063\n   - **SITUACION ORDENES DE CAMBIO**\n   - **FECHA**: 03/08/1998\n   - **PÁGINA**: 1\n   - **DOCUMENTO**: COPIA DE TRABAJO, **REVISIÓN**: indica que es una copia y revisión del trabajo en curso.\n\n2. **Columnas**: \n   - **Descripción Cuenta**: Agrupación de tareas.\n   - **Cont**: Números de contexto secuenciales.\n   - **#O.C.**: Número de órdenes de cambio.\n   - **Descripción O. Cambio**: Descripción del cambio de proceso o equipo.\n   - **Fecha Propuesta**: Fecha en la que se propuso el cambio.\n   - **Propuestas**: Costo propuesto.\n   - **Aprobadas**: Costo de propuestas aprobadas.\n   - **Rechazadas**: Costo de propuestas rechazadas.\n   - **Pendientes**: Costo de propuestas pendientes.\n\n3. **Contenido Detallado**: \n   - **Grupo de Proyecto 10.01 ADMINISTRACION**\n     - Muestra varias actividades relacionadas con procesos como \"NUEV.REV.UOP/MCN-01/ER/INSTR*2\", \"ESTUDIO INHAUSTIVO RELIEF\", con costos propuestos y aprobaciones detalladas.\n   - **Equipo**\n     - Incluye actividades relacionadas con equipos, como modificaciones y nuevas implementaciones.\n   - **Materiales Tuberías**\n     - Actividades relacionadas con la especificación de materiales y su traducción, cambios no previstos, y otras especificaciones materiales.\n   - **Tuberías**\n     - Información sobre procesos relacionados con tuberías.\n\n4. **Totales**:\n   - Los totales de costos propuestos, aprobados, rechazados y pendientes están al final para cada sección.\n\nLa tabla]\n\n[Descripción visual: La imagen muestra una tabla titulada \"SITUACION ORDENES DE CAMBIO\" que parece ser parte de un documento de trabajo relacionado con un proyecto en el ámbito de la ingeniería. Aquí están los detalles del contenido:\n\n- **Encabezado:**\n  - El documento está asociado con \"DINSA / INTECSA / ECLAIRE\" de Madrid, para el proyecto número \"14043.\"\n  - Cliente: \"UTE DRAGADOS INTECSA UHDE ECOL.\"\n  - Planta: \"INGENIERIA FENOL ERTISA.\"\n  - Número de documento: \"COPIA DE TRABAJO.\"\n  - Fecha: \"03/08/1998.\"\n  - Página: 3.\n\n- **Cuerpo de la tabla:**\n  - **Columnas:**\n    1. Descripción Cuenta\n    2. Cont\n    3. N.O.C. (Número de Orden de Cambio)\n    4. Descripción O.Cambio (Descripción de la Orden de Cambio)\n    5. Fecha Propuesta\n    6. Propuestas\n    7. Aprobadas\n    8. Rechazadas\n    9. Pendientes\n\n- **Filas principales:**\n  - \"CIVIL Y ARQUITECTURA\" con tres órdenes de cambio, cada una con su descripción y fecha respectiva. Se proporcionan números en las columnas de propuestas, aprobadas, rechazadas y pendientes.\n  - \"COMPRAS\" con dos órdenes de cambio, mostrando datos similares a los anteriores.\n\n- **Sumarios:**\n  - Al final de las secciones se presentan totales por categoría:\n    - Para \"CIVIL Y ARQUITECTURA\": 66 propuestas, 221 aprobadas, 58 rechazadas, 3,767 pendientes.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 20,
+      "pagina_fin": 21,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "75b97da7-53cd-4d48-a7c2-a2e3ce0b8b3a",
+      "texto": "[Descripción visual: La imagen es una tabla detallada que parece ser un informe o documento de trabajo relacionado con órdenes de cambio de un proyecto. Aquí hay un desglose del contenido:\n\n1. **Encabezado**: \n   - **DIE** y **DINSA / INTECSA / ECOLAIRE MADRID**: indicando las entidades involucradas.\n   - **CLIENTE**: UTE DRAGADOS INTECSA UNHD.ECOL PLANTA: INGENIERÍA FENOL ERTISA.\n   - **PROYECTO**: 14063\n   - **SITUACION ORDENES DE CAMBIO**\n   - **FECHA**: 03/08/1998\n   - **PÁGINA**: 1\n   - **DOCUMENTO**: COPIA DE TRABAJO, **REVISIÓN**: indica que es una copia y revisión del trabajo en curso.\n\n2. **Columnas**: \n   - **Descripción Cuenta**: Agrupación de tareas.\n   - **Cont**: Números de contexto secuenciales.\n   - **#O.C.",
+      "nivel": "child",
+      "parent_id": "8eb45488-41fc-4dd3-b255-18f3b1291d0b",
+      "pagina_inicio": 20,
+      "pagina_fin": 21,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fafa5c14-fda5-407a-b0be-380f900aad4a",
+      "texto": "- **Cont**: Números de contexto secuenciales.\n   - **#O.C.**: Número de órdenes de cambio.\n   - **Descripción O. Cambio**: Descripción del cambio de proceso o equipo.\n   - **Fecha Propuesta**: Fecha en la que se propuso el cambio.\n   - **Propuestas**: Costo propuesto.\n   - **Aprobadas**: Costo de propuestas aprobadas.\n   - **Rechazadas**: Costo de propuestas rechazadas.\n   - **Pendientes**: Costo de propuestas pendientes.\n\n3. **Contenido Detallado**: \n   - **Grupo de Proyecto 10.01 ADMINISTRACION**\n     - Muestra varias actividades relacionadas con procesos como \"NUEV.REV.UOP/MCN-01/ER/INSTR*2\", \"ESTUDIO INHAUSTIVO RELIEF\", con costos propuestos y aprobaciones detalladas.\n   - **Equipo**\n     - Incluye actividades relacionadas con equipos, como modificaciones y nuevas implementaciones.",
+      "nivel": "child",
+      "parent_id": "8eb45488-41fc-4dd3-b255-18f3b1291d0b",
+      "pagina_inicio": 20,
+      "pagina_fin": 21,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c790ea11-56fa-4df6-85a4-5f4f5c2a6565",
+      "texto": "- **Materiales Tuberías**\n     - Actividades relacionadas con la especificación de materiales y su traducción, cambios no previstos, y otras especificaciones materiales.\n   - **Tuberías**\n     - Información sobre procesos relacionados con tuberías.\n\n4. **Totales**:\n   - Los totales de costos propuestos, aprobados, rechazados y pendientes están al final para cada sección.\n\nLa tabla]\n\n[Descripción visual: La imagen muestra una tabla titulada \"SITUACION ORDENES DE CAMBIO\" que parece ser parte de un documento de trabajo relacionado con un proyecto en el ámbito de la ingeniería. Aquí están los detalles del contenido:\n\n- **Encabezado:**\n  - El documento está asociado con \"DINSA / INTECSA / ECLAIRE\" de Madrid, para el proyecto número \"14043.\"\n  - Cliente: \"UTE DRAGADOS INTECSA UHDE ECOL.\"\n  - Planta: \"INGENIERIA FENOL ERTISA.\"\n  - Número de documento: \"COPIA DE TRABAJO.\"",
+      "nivel": "child",
+      "parent_id": "8eb45488-41fc-4dd3-b255-18f3b1291d0b",
+      "pagina_inicio": 20,
+      "pagina_fin": 21,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "26bb61ae-b20a-4f1f-bad5-b319a5863e48",
+      "texto": "- Número de documento: \"COPIA DE TRABAJO.\"\n  - Fecha: \"03/08/1998.\"\n  - Página: 3.\n\n- **Cuerpo de la tabla:**\n  - **Columnas:**\n    1. Descripción Cuenta\n    2. Cont\n    3. N.O.C. (Número de Orden de Cambio)\n    4. Descripción O.Cambio (Descripción de la Orden de Cambio)\n    5. Fecha Propuesta\n    6. Propuestas\n    7. Aprobadas\n    8. Rechazadas\n    9. Pendientes\n\n- **Filas principales:**\n  - \"CIVIL Y ARQUITECTURA\" con tres órdenes de cambio, cada una con su descripción y fecha respectiva. Se proporcionan números en las columnas de propuestas, aprobadas, rechazadas y pendientes.\n  - \"COMPRAS\" con dos órdenes de cambio, mostrando datos similares a los anteriores.",
+      "nivel": "child",
+      "parent_id": "8eb45488-41fc-4dd3-b255-18f3b1291d0b",
+      "pagina_inicio": 20,
+      "pagina_fin": 21,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "bef15672-bc36-43da-baea-275255677b0b",
+      "texto": "- **Sumarios:**\n  - Al final de las secciones se presentan totales por categoría:\n    - Para \"CIVIL Y ARQUITECTURA\": 66 propuestas, 221 aprobadas, 58 rechazadas, 3,767 pendientes.",
+      "nivel": "child",
+      "parent_id": "8eb45488-41fc-4dd3-b255-18f3b1291d0b",
+      "pagina_inicio": 20,
+      "pagina_fin": 21,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "17d1fba2-ae04-4aae-9f52-6266c6f5481c",
+      "texto": "- Para \"COMPRAS\": 2,153 en ambas propuestas y aprobadas.\n\n- **Totales generales en la parte inferior:**\n  - Propuestas: 22,616\n  - Aprobadas: 11,254\n  - Rechazadas: 368\n  - Pendientes: 10,994\n\nLa tabla parece reflejar el estado de diferentes órdenes de cambio de un proyecto de ingeniería, indicando cuántas propuestas han sido aprobadas, rechazadas o están pendientes.]",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 20,
+      "pagina_fin": 21,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "69ed0dba77c54728905fa6d08ce1a68a",
+      "texto": "| DIE DINSA/ INTECSA/ECOLAIRE PROYECT0:14043 MADRID                               |   cont N\"O.C. | CLIENTE:UTE DRAGADOS INTECSA UHDE ECOL PLANTA .:INGENIERIA FENOL ERTISA SITUACION ORDENES DE CAMBIO DescripcionO.Cambio   | Fecha Propuesta Propuestas Aprobadas   |            | FECHA..:03/08/1998 REVISION: PAGINA..:   |   N DOCUMENTO:COPIA DE TRABAJO Rechazadas Pendientes |          |\n|---------------------------------------------------------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------|------------|------------------------------------------|------------------------------------------------------|----------|\n| Descripcion Cuenta CIVIL Y ARQUITECTURA CIVILY ARQUITECTURA CIVILY AROUITECTURA |               | 60.52VALORACION CASETA BOMBAS AGUA 60.51SOPORTES TUBERIAS FRACCIONAMIE 60.53 NUEVOS SOPORTES TUBERIASAR.51                | 16/04/1998 12/05/1998 12/05/1998       | 18 20 78   |                                          |                                                      | 20 18 78 |\n|                                                                                 |            53 |                                                                                                                           |                                        | 4.046      | 221                                      |                                                   58 | 3.767    |\n| COMPRAS COMPRAS                                                                 |               | 10.01VARIACIONES PRESUPUESTO INIC. 80.O1HOMOLOGACION SUMINISTRADORES                                                      | 17/10/1997 07/01/1997                  | -2.300 147 | -2.300 147                               |                                                      |          |\n|                                                                                 |             2 |                                                                                                                           |                                        | -2.153     | -2.153                                   |                                                      |          |\n|                                                                                 |           150 |                                                                                                                           |                                        | 22.616     | 11.254                                   |                                                  368 | 10.994   |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 21,
+      "pagina_fin": 21,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "ec51e594-973d-4fa0-ab1a-93f4a9bf2828",
+      "texto": "(En cada proyecto se utilizarán los items que se establezcan para el mismo. Para las especialidades de ingeniería se tomarán como base los vigentes en cada Departamento)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 22,
+      "pagina_fin": 22,
+      "seccion": "ANEXO V RELACIÓN DE ESPECIALIDADES, ACTIVIDADES, ITEMS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "043cafc6c1f24390a0423395e62b40a5",
+      "texto": "| R elación de Especialidades, Actividades, Items   | R elación de Especialidades, Actividades, Items   | R elación de Especialidades, Actividades, Items   | R elación de Especialidades, Actividades, Items   |\n|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|\n| ESPECIALIDAD                                      | ACTIVIDAD                                         | ITEM                                              | DESCRIPCIÓN                                       |\n| 1 GRUPO PROYECTO                                  | 10 DIRECCION DE PROYECTO                          | 1000                                              | Director de Proyecto                              |\n|                                                   |                                                   | 1010                                              | Ingeniero de Proyecto                             |\n|                                                   |                                                   | 1020                                              | Coordinador de Proyecto                           |\n|                                                   |                                                   | 1030                                              | Coordinador Proyectos Oficiales                   |\n|                                                   |                                                   | 1031                                              | Tramitación documentos oficiales                  |\n|                                                   |                                                   | 1040                                              | Ordenes de Cambio                                 |\n|                                                   |                                                   | 1050                                              | Control de Calidad                                |\n|                                                   | 11 SECRETARIA DE PROYECTO                         | 1100                                              | Secretaria de Proyecto                            |\n|                                                   |                                                   | 1140                                              | Secretaria Cliente                                |\n|                                                   |                                                   | 1150                                              | Traducción                                        |\n|                                                   | 12 ADMINISTRACION DE PROYECTO                     | 1200                                              | Control de Documentos                             |\n|                                                   |                                                   | 1210                                              | Documentos de Vendedores                          |\n|                                                   |                                                   | 1220                                              | Libros de Proyecto                                |\n|                                                   | 13 CONTROL DE PROYECTO                            | 1300                                              | Planificación y Control de ingeniería             |\n|                                                   |                                                   | 1310                                              | Control de Ingeniería                             |\n|                                                   |                                                   | 1320                                              | Control de Costes                                 |\n|                                                   |                                                   | 1330                                              | Estimaciones                                      |\n|                                                   |                                                   | 1350                                              | Contabilidad                                      |\n|                                                   | 14 PERSONAL CEDIDO                                | 1400                                              | Personal cedido                                   |\n|                                                   |                                                   | 1420                                              | Entrenamiento Procesos                            |\n|                                                   |                                                   | 1434                                              | Entrenamiento materiales tuberías                 |\n|                                                   |                                                   | 1436                                              | Entrenamiento tuberías                            |\n|                                                   |                                                   | 1437                                              | Entrenamiento operador CAD                        |\n|                                                   | 15 VARIOS                                         | 1500                                              | Isometricas Petrodesign                           |\n| 2 PROCESO                                         | 20 DOCUMENTOS DE PROCESO                          | 2000                                              | Bases de diseño                                   |\n| 2 PROCESO                                         |                                                   | 2010                                              | Diagramas de flujo                                |\n| 2 PROCESO                                         |                                                   | 2020                                              | Balances materia y energía                        |\n| 2 PROCESO                                         |                                                   | 2030                                              | Lista de emisiones                                |\n| 2 PROCESO                                         |                                                   | 2040                                              | Libro de ingeniería básica                        |\n| 2 PROCESO                                         |                                                   | 2050                                              | Descripciones                                     |\n| 2 PROCESO                                         |                                                   | 2060                                              | Manual de operación                               |\n| 2 PROCESO                                         |                                                   | 2070                                              | Análisis de consistencia                          |\n| 2 PROCESO                                         |                                                   | 2080                                              | Estudios Hazop                                    |\n| 2 PROCESO                                         | 21 P&I, LISTA DE LINEAS Y EQUIPOS                 | 2110                                              | P&I de Proceso                                    |\n| 2 PROCESO                                         |                                                   | 2130                                              | P&I distribución, utilities y off sites           |\n| 2 PROCESO                                         |                                                   | 2150                                              | Lista líneas y servicios, especif.tuber.          |\n| 2 PROCESO                                         |                                                   | 2160                                              | Lista de equipos, lista de items H                |\n| 2 PROCESO                                         | 22 HOJAS DE DATOS DE EQUIPOS                      | 2201                                              | H.D.Bombas, agitad, ventilad, turb.vapor          |\n|                                                   |                                                   | 2204                                              | H.D.Compresores y soplantes                       |\n|                                                   |                                                   | 2206                                              | H.D.Torres de refrigeración                       |\n|                                                   |                                                   | 2207                                              | H.D.Eyectores, mezclad, filtros, varios           |\n|                                                   |                                                   | 2209                                              | H.D.Calderas, turbinas de vapor                   |\n|                                                   |                                                   | 2210                                              | H.D.Unidades paquete                              |\n|                                                   |                                                   | 2211                                              | H.D.Grúas,básculas,cintas,elevad,molinos          |\n|                                                   |                                                   | 2214                                              | H.D.Tamb.rot,vibrad,cribas,filtros polvo          |\n|                                                   |                                                   | 2215                                              | H.D.Transporte neumático                          |\n|                                                   |                                                   | 2218                                              | H.D.Lecho fluído,espesadores,decantador.          |\n|                                                   |                                                   | 2225                                              | H.D.Columnas, reactores, platos, relleno          |\n|                                                   |                                                   | 2226                                              | H.D.Recipientes, ciclones                         |\n|                                                   |                                                   | 2227                                              | H.D.Tanques, esferas, silos                       |\n|                                                   |                                                   | 2232                                              | H.D.Intercambiadores aerorefrigerantes            |\n|                                                   |                                                   | 2234                                              | H.D.Hornos, otros equipos térmicos                |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 23,
+      "pagina_fin": 23,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "4c9f9b45850b41fc974188da92a02730",
+      "texto": "| ESPECIALIDAD      | ACTIVIDAD                     | ITEM      | DESCRIPCION                                           |\n|-------------------|-------------------------------|-----------|-------------------------------------------------------|\n| 2 PROCESO (CONT.) | 24 TRABAJOS PROCESO OTRAS     | 2410      | Lista de consumos                                     |\n| 2 PROCESO (CONT.) | ESPECIALIDADES                | 2430      | Plano de implantación                                 |\n| 2 PROCESO (CONT.) | 24 TRABAJOS PROCESO OTRAS     | 2440      | Fuentes de escape                                     |\n| 2 PROCESO (CONT.) | 24 TRABAJOS PROCESO OTRAS     | 2450      | Instrumentos, vávulas control, enclavam.              |\n| 2 PROCESO (CONT.) | 24 TRABAJOS PROCESO OTRAS     | 2460      | Estudios válvulas segur.colector antorch              |\n| 2 PROCESO (CONT.) | 29 COORDINACION PROCESOS      | 2910      | Puesta en marcha                                      |\n| 2 PROCESO (CONT.) | 29 COORDINACION PROCESOS      | 2998      | Supervis.ingeniería básica subcontratada              |\n| 2 PROCESO (CONT.) | 29 COORDINACION PROCESOS      | 2999      | General Proceso                                       |\n| 3 MECÁNICA        | 30 EQUIPOS MANEJO FLUIDOS     | 3005      | Bombas, Agitadores, Ventiladores                      |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3010      | Turbinas de gas                                       |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3015      | Turbinas de vapor                                     |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3020      | Compresores de proceso                                |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3025      | Compresores de aire y soplantes                       |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3030      | Torre de refrigeración                                |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3035      | Eyectores, Mezcladores                                |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3040      | Filtros                                               |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3045      | Calderas, Incineradores                               |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3050      | Cámara combustión polvo                               |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3055      | Caldera fluido térmico Hot Oil                        |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3060      | Quemadores postcombustión                             |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3090      | Otros Equipos manejo fluidos                          |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3095      | U.P. Tratamiento de agua                              |\n|                   | 30 EQUIPOS MANEJO FLUIDOS     | 3096 3097 | U.P. Unidad satélite                                  |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3100      | Ingeniería Equipos Rotativos                          |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3101      | Delineación Equipos Rotativos                         |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3105      | Puente grúa. Polipastos. Básculas                     |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3110      | Cintas transportadoras                                |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3115      | Elevadores de cangilones. Tornillos                   |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3120      | Tambores rotativos                                    |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3125      | Transporte neumático                                  |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3130      | Vibradores, Cribas, Fondos vibrantes                  |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3135      | Filtros captación polvo                               |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3140      | Lecho fluído                                          |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3145      | Ciclones                                              |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3150      | Espesadores, Decantadores                             |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3155      | Trituradoras, Molinos                                 |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3160      | Apiladoras, Desapiladoras                             |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3190 3195 | Otros equipos manejo sólidos Traducción documentación |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3198      | Superv.de Subcontrat.Ingen. Mecánica                  |\n|                   | 31 EQUIPOS MANEJO SOLIDOS     | 3199      | General Mecánica                                      |\n|                   | 32 RECIPIENTES                | 3210      | Reactores                                             |\n|                   | 32 RECIPIENTES                | 3220      | Columnas                                              |\n|                   | 32 RECIPIENTES                | 3230      | Recipientes a presión                                 |\n|                   | 32 RECIPIENTES                | 3240      | Tanques                                               |\n|                   | 32 RECIPIENTES                | 3250 3260 | Esferas Silos                                         |\n|                   | 32 RECIPIENTES                | 3270      | Tolvas y calderería ligera                            |\n|                   | 32 RECIPIENTES                | 3280      | Depósitos sin presión                                 |\n|                   | 33 I NTERCAMBIADORES Y HORNOS | 3300      | Ingeniería Equipos Estáticos                          |\n|                   | 33 I NTERCAMBIADORES Y HORNOS | 3301      | Delineación Equipos                                   |\n|                   | 33 I NTERCAMBIADORES Y HORNOS |           | Estáticos                                             |\n|                   | 33 I NTERCAMBIADORES Y HORNOS | 3310      | Intercambiadores                                      |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 24,
+      "pagina_fin": 24,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "1e6d4906a680425d8dcbdbde0b409727",
+      "texto": "|                    | 3320 Aeros                          | 3320 Aeros              | 3320 Aeros                                                               |\n|--------------------|-------------------------------------|-------------------------|--------------------------------------------------------------------------|\n| ESPECIALIDAD       | ACTIVIDAD                           | ITEM                    | DESCRIPCIÓN                                                              |\n| 3 MECANICA (Cont.) |                                     | 3350                    | Hornos                                                                   |\n|                    |                                     | 3390                    | Otros equipos térmicos                                                   |\n|                    |                                     | 3398                    | Superv.Subcontrat.Ingen.Intercambiadores                                 |\n|                    |                                     | 3399                    | General Intercambiadores                                                 |\n|                    | 34 ESPECIFICACIONES DE MATERIALES Y | 3400                    | Ingeniería Materiales                                                    |\n|                    | MTO                                 | 3410                    | Especificaciones materiales de tuberías                                  |\n|                    |                                     | 3420                    | MTO's, Lista de materiales, RM's                                         |\n|                    |                                     | 3421                    | Conductos mediciones y especificaciones                                  |\n|                    |                                     | 3430                    | Items H                                                                  |\n|                    |                                     | 3498                    | Superv.Subcontrat.Ingen.Mat.Tuberías                                     |\n|                    |                                     | 3499                    | General Materiales Tuberías                                              |\n|                    | 35 ESFUERZOS Y SOPORTES             | 3500                    | Ingeniería Esfuerzos y Soportes                                          |\n|                    |                                     | 3510                    | Cálculo esfuerzos en tuberías y equipos                                  |\n|                    |                                     | 3511                    | Conductos juntas (stress)                                                |\n|                    |                                     | 3520                    | Cálculo y diseño de soportes                                             |\n|                    |                                     | 3530 3540               | Lista de soportes Elementos especiales                                   |\n|                    |                                     | 3598                    | Superv.Subcontrat.Ingen.Esfuerzos/soport                                 |\n|                    |                                     | 3600                    | Ingeniería Tuberías                                                      |\n|                    | 36 DISEÑO DE TUBERIAS               |                         |                                                                          |\n|                    |                                     | 3601                    | Delineación Tuberías                                                     |\n|                    |                                     | 3621                    | Dibujo en CAD de Diagramas                                               |\n|                    |                                     | 3630                    | Plano de implantación/general                                            |\n|                    |                                     | 3631                    | Plano clave                                                              |\n|                    |                                     | 3650                    | Planos de planta de tuberías                                             |\n|                    |                                     | 3651                    | Estudios tuberías para maqueta                                           |\n|                    |                                     | 3652                    | Planos de rack                                                           |\n|                    |                                     | 3653                    | Planos auxiliares, Venteos, Drenajes                                     |\n|                    |                                     | 3660                    | Isométricas acotadas                                                     |\n|                    |                                     | 3661                    | Isométricas no acotadas                                                  |\n|                    |                                     | 3665                    | Medición de Tuberías                                                     |\n|                    |                                     | 3670                    | Montaje de maqueta                                                       |\n|                    |                                     | 3680                    | Información para civil                                                   |\n|                    |                                     | 3681                    | Comentarios de P&I y lista de líneas                                     |\n|                    |                                     | 3695                    | Especificaciones diseño tuberías                                         |\n|                    |                                     | 3696                    | Especificaciones PDMS                                                    |\n|                    |                                     | 3698                    | Superv.Subcontrat.Ingen.Diseño Tuberías                                  |\n|                    |                                     | 3699                    | General Diseño Tuberías                                                  |\n|                    | 37 DISEÑO MECANICO                  | 3730                    | Plano de implantación general                                            |\n|                    |                                     | 3750                    | Planos de planta, alzado y secciones                                     |\n|                    |                                     | 3751                    | Planos de subconjuntos y detalles                                        |\n|                    |                                     | 3760 Planos de          | calderería                                                               |\n|                    |                                     |                         | Pl.conduc.sólidos,gas,captac.polvo,trans                                 |\n|                    |                                     | 3761 3762               | Conductos isométricas                                                    |\n|                    |                                     | 3770 Planos de conjunto |                                                                          |\n|                    |                                     | 3798                    | de equipos Superv.Subcontrat.Ingen.Diseño                                |\n|                    |                                     | 3799                    | Mecánico                                                                 |\n|                    |                                     | General                 | Diseño Mecánico                                                          |\n| 4 ELECTRICIDAD     | 40 ESQUEMAS                         | 4000                    | Esquemas unifilares generales                                            |\n|                    |                                     | 4005                    | Esquemas unifilares subestación A.T.                                     |\n|                    |                                     | 4010 4020               | Esquemas unifilares cabinas A.T. Esquemas unifilares cuadros de potencia |\n|                    |                                     | 4030                    | Esquemas unifilares C.C.M.                                               |\n|                    |                                     |                         | Esquemas unifilares cuadros                                              |\n|                    |                                     | 4040                    | sec.                                                                     |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 25,
+      "pagina_fin": 25,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "beb10fbb825a40b3ac9c2effd2c9ea45",
+      "texto": "|                                    |                                   | 4050      | Esquemas de funcionamiento          |\n|------------------------------------|-----------------------------------|-----------|-------------------------------------|\n|                                    | ACTIVIDAD                         | 4060      | Esquemas de interconexión           |\n| ESPECIALIDAD 4 ELECTRICIDAD (Cont) | Superv.Subcontrat.Ingen.Eléctrica | ITEM 4070 | DESPCRIPCION Esquemas desarrollados |\n|                                    | 41 FUERZA Y PUESTA A TIERRA       | 4100      | Sala eléctrica                      |\n|                                    |                                   | 4110      | Bandejas y canalizaciones           |\n|                                    |                                   | 4120      | Distribución a consumidores         |\n|                                    |                                   | 4130      | Distribución a traceados            |\n|                                    |                                   | 4140      | Corrientes débiles                  |\n|                                    |                                   | 4150      | Redes enterradas P. a T.            |\n|                                    |                                   | 4160      | Redes exteriores P. a T.            |\n|                                    | 42 ALUMBRADO                      | 4200      | Alumbrado de plantas                |\n|                                    |                                   | 4210      | Alumbrado de naves                  |\n|                                    |                                   | 4220      | Alumbrado de edificios              |\n|                                    |                                   | 4230      | Alumbrado de calles                 |\n|                                    | 43 PLANOS ESPECIALES              | 4300      | Clasificación de áreas              |\n|                                    |                                   | 4310      | Ayudas Obra Civil                   |\n|                                    |                                   | 4320      | Standards                           |\n|                                    |                                   | 4330      | Líneas aéreas                       |\n|                                    |                                   | 4340      | Subestaciones                       |\n|                                    | 44 LISTAS Y MEDICIONES            | 4400      | Listas de consumidores              |\n|                                    |                                   | 4410      | Listas de motores                   |\n|                                    |                                   | 4420      | Listas de cables                    |\n|                                    |                                   | 4430      | Listas de Materiales                |\n|                                    | 45 EQUIPOS Y MATERIALES           | 4500      | Motores                             |\n|                                    |                                   | 4505      | Transformadores                     |\n|                                    |                                   | 4508      | Alternadores                        |\n|                                    |                                   | 4510      | Grupo electrógeno                   |\n|                                    |                                   | 4515      | Condensadores                       |\n|                                    |                                   | 4520      | Cabinas A.T.                        |\n|                                    |                                   | 4525      | Cuadros y C.C.M.                    |\n|                                    |                                   | 4530      | Cuadros auxiliares                  |\n|                                    |                                   | 4535      | Batería, Cargador, S.A.I.           |\n|                                    |                                   | 4540      | Aparamenta                          |\n|                                    |                                   | 4543      | Subestación A.T.                    |\n|                                    |                                   | 4545      | Conductos de barras                 |\n|                                    |                                   | 4550      | Cables A.T.                         |\n|                                    |                                   | 4555      | Cables B.T.                         |\n|                                    |                                   | 4560      | Estaciones maniobra                 |\n|                                    |                                   | 4563      | Sistema Control Lógico Programable  |\n|                                    |                                   | 4565      | Alumbrado                           |\n|                                    |                                   | 4570      | Tomas                               |\n|                                    |                                   | 4575      | Bandejas                            |\n|                                    |                                   | 4580      | Materiales auxiliares               |\n|                                    |                                   | 4585      | Materiales P. a T.                  |\n|                                    |                                   | 4588      | Equipo Comunicaciones A.T.          |\n|                                    |                                   | 4589      | Sistemas de comunicaciones          |\n|                                    |                                   | 4590      | Montaje Eléctrico                   |\n|                                    |                                   | 4595      | Unidades Paquete                    |\n|                                    | 46 OTROS DOCUMENTOS               | 4600      | Otros documentos y general          |\n|                                    |                                   | 4610      | Estudios de cortocircuito           |\n|                                    |                                   | 4620      | Estudios de cargas                  |\n|                                    |                                   | 4630      | Estudios de selectividad            |\n|                                    |                                   | 4640      | Proyectos oficiales A.T.            |\n|                                    |                                   | 4650      | Proyectos oficiales B.T.            |\n|                                    |                                   | 4660      | Memorias                            |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 26,
+      "pagina_fin": 26,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "c7d99dfcfaf24882800a563eaf9ad06f",
+      "texto": "|                       |                                             | 4680   | Manual de operación                      |\n|-----------------------|---------------------------------------------|--------|------------------------------------------|\n|                       |                                             | 4698   | Superv.Subcontrat.Ingen.Eléctrica        |\n| ESPECIALIDAD          | ACTIVIDAD                                   | ITEM   | DESCRIPCION                              |\n| 4 ELECTRICIDAD (Cont) |                                             | 4699   | General Electricidad                     |\n| 5 INSTRUMENTACIÓN     | 50 I NDICE DE INSTRUMENTOS                  | 5000   | Documentos globales de instrumentación   |\n|                       |                                             | 5010   | Indice de Instrumentos                   |\n|                       |                                             | 5020   | Lazos de control y esquemas lógicos      |\n|                       |                                             | 5021   | Revisión de P&I                          |\n|                       |                                             | 5030   | Diagramas de lazo                        |\n|                       | 51 SISTEMA DE CONTROL                       | 5100   | Sistemas de Control                      |\n|                       |                                             | 5110   | Sistema de control distribuido           |\n|                       |                                             | 5120   | PLC                                      |\n|                       |                                             | 5130   | Panel de Control                         |\n|                       |                                             | 5140   | Paneles y cuadros                        |\n|                       |                                             | 5150   | Unidades paquete y equipos mecánicos     |\n|                       | 52 INSTRUMENTOS,TRANSMISORES, INTERRUPTORES | 5200   | Transmisores e interruptores             |\n|                       | 53 INSTRUMENTOS SECUNDARIOS LOCALES         | 5300   | Instrumentos locales                     |\n|                       | 54 VALVULAS DE CONTROL Y SEGURIDAD          | 5400   | Válvulas                                 |\n|                       |                                             | 5410   | Válvulas de control y todo nada          |\n|                       |                                             | 5420   | Válvulas de seguridad y discos ruptura   |\n|                       | 56 ANALIZADORES E INSTRUMENTOS              | 5600   | Analizadores y varios                    |\n|                       | ESPECIALES                                  | 5610   | Cromatógrafos                            |\n|                       |                                             | 5620   | Otros analizadores                       |\n|                       |                                             | 5621   | PH, Conductividad, etc.                  |\n|                       |                                             | 5630   | Instrumentos especiales                  |\n|                       | 57 ACCESORIOS Y MONTAJE                     | 5700   | Accesorios y montajes                    |\n|                       |                                             | 5710   | Esquemas de montaje al proceso y neumat. |\n|                       |                                             | 5720   | Conexiones a recipientes                 |\n|                       |                                             | 5730   | Planimetría de campo y salas             |\n|                       |                                             | 5770   | Cajas de conexionado e interconexiones   |\n|                       |                                             | 5780   | Material de montaje                      |\n|                       |                                             | 5785   | Especificaciones Montaje de Instrumentos |\n|                       |                                             | 5790   | Lista de cables y multicables            |\n|                       | 58 VARIOS INSTRUMENTOS                      | 5810   | Especificaciones Generales               |\n|                       |                                             | 5898   | Superv.Subcontrat.Ingen.Instumentación   |\n|                       |                                             | 5899   | General Instrumentación                  |\n| 6 CIVIL               | 60 DOCUMENTACION GENRAL PROYECTO            | 6010   | Edición especificaciones (Cliente+IUI)   |\n|                       |                                             | 6020   | Edición planos estándar (Cliente+IUI)    |\n|                       |                                             | 6030   | Pet.oferta Inf.Geotéc.(con pl situación) |\n|                       |                                             | 6040   | Pet.oferta Constr.(con med.y espec.part) |\n|                       |                                             | 6050   | Estim. coste inversión (con medición)    |\n|                       |                                             | 6060   | Medición de Planos                       |\n|                       |                                             | 6098   | Documentos generales                     |\n|                       | 61 INFRAESTRUCTURA,PILOTAJE Y               | 6110   | Movimiento tierras y preparación terreno |\n|                       | PLANOS GENERALES                            | 6120   | Planta gral replanteo y defin. Pilotes   |\n|                       |                                             | 6130   | Planta gral cimentaciones (área proceso) |\n|                       |                                             | 6135   | Planta gral cimentaciones (off sites)    |\n|                       |                                             | 6140   | Planta gral pav/redes (Proc.)sin canales |\n|                       |                                             | 6145   | Planta gral pav/redes (Proc.)con canales |\n|                       |                                             | 6150   | Planta gral pavim/red enterr.(off sites) |\n|                       |                                             | 6160   | Plantas parciales cimentaciones o pav.   |\n|                       |                                             | 6170   | Detalles infraestructura pavim. y redes  |\n|                       |                                             | 6180   | Planta pavim interior y redes en nav.met |\n|                       |                                             | 6198   | Infraestructura                          |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 27,
+      "pagina_fin": 27,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "1f53a78b79644fd59e1307a7c66a69bc",
+      "texto": "| ESPECIALIDAD   | ACTIVIDAD                                        |   ITEM | DESCRIPCION                              |\n|----------------|--------------------------------------------------|--------|------------------------------------------|\n| CIVIL (Cont.)  | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6210 | Ciment.equipos pequeños sobre suelo      |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6215 | Ciment.equipos estáticos sobre pedestal  |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6220 | Ciment.eq.dinám.sobre suelo (cálc.dinám) |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6225 | Ciment.eq.dinám.elevados (cálculo dinám) |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6230 | Ciment.y fosos de trafos (incl. Muros)   |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6240 | Ciment. flexibles de tanques             |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6250 | Durmientes/ciment.soporte y anclaje tub. |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6260 | Ciment.edif.no industrial de estr.met.   |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6265 | Ciment.nave/edif.industrial de estr.met. |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6270 | Ciment:edif.elec/subest/control estr.met |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6275 | Ciment.estr.met. para apoyo eq. Proceso  |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6280 | Ciment.estr.met.puente tub/apoyo conduct |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6285 | Ciment.estr.met. cintas transportadoras  |\n|                | 62 CIMENTACIONES EQUIPOS Y ESTRUCTURAS METALICAS |   6298 | Cimentaciones equipos y E metálica      |\n|                | 63 OBRAS CIVILES HORMIGON (CON SUS CIMENT.)      |   6310 | Fosos y depósitos hormigón enterrados    |\n|                | 63 OBRAS CIVILES HORMIGON (CON SUS CIMENT.)      |   6320 | Básculas de hormigón                     |\n|                | 63 OBRAS CIVILES HORMIGON (CON SUS CIMENT.)      |   6330 | Estructuras cajón enterradas en hormigón |\n|                | 63 OBRAS CIVILES HORMIGON (CON SUS CIMENT.)      |   6340 | Muros contención tierras y cubetos horm. |\n|                | 63 OBRAS CIVILES HORMIGON (CON SUS CIMENT.)      |   6350 | Depósitos hormigón sobre el terreno      |\n|                | 63 OBRAS CIVILES HORMIGON (CON SUS CIMENT.)      |   6360 | Obras singulares (Silos, tolvas, chim... |\n|                |                                                  |   6370 | Pernos anclaje equip/estruct.met. (std)  |\n|                | 64 ESTRUCTURA METALICA                           |   6410 | Edificios no industriales                |\n|                | 64 ESTRUCTURA METALICA                           |   6420 | Naves/Edif.1vano,1alt. c/pórt.alma llena |\n|                | 64 ESTRUCTURA METALICA                           |   6425 | Naves/Edif.1vano,1alt.c/ cerchas/celosia |\n|                | 64 ESTRUCTURA METALICA                           |   6430 | Edif.elect./subestaciones/salas control  |\n|                | 64 ESTRUCTURA METALICA                           |   6435 | Naves/Edif.indus.multimod.desarr. planta |\n|                | 64 ESTRUCTURA METALICA                           |   6440 | Estruc.1 alt con plataforma para equipos |\n|                | 64 ESTRUCTURA METALICA                           |   6445 | Estruc./Edif.Proceso varias plantas met. |\n|                | 64 ESTRUCTURA METALICA                           |   6450 | Estr/Edif.Proc.con losa hormigon/forjado |\n|                | 64 ESTRUCTURA METALICA                           |   6455 | Estr.aislada apoyo silos deposit. aeros  |\n|                | 64 ESTRUCTURA METALICA                           |   6460 | Puentes de tuberías                      |\n|                | 64 ESTRUCTURA METALICA                           |   6465 | Estruc.soportes conductos/chimen./cintas |\n|                | 64 ESTRUCTURA METALICA                           |   6470 | Pasarelas/Plataformas de servicio varias |\n|                | 64 ESTRUCTURA METALICA                           |   6480 | Cubiertas metal.sobre estruc.hormigón    |\n|                |                                                  |   6498 | Estructura metálica                      |\n|                | 65 ESTRUCTURAS HORMIGON                          |   6510 | Edif.no indus.con forjados unidireccion. |\n|                | 65 ESTRUCTURAS HORMIGON                          |   6515 | Edif.no indus.con forjados reticulares   |\n|                | 65 ESTRUCTURAS HORMIGON                          |   6520 | Naves/Edif.indus. un sólo vano y altura  |\n|                | 65 ESTRUCTURAS HORMIGON                          |   6530 | Edif.elect./subestaciones/salas control  |\n|                | 65 ESTRUCTURAS HORMIGON                          |   6540 | Naves/Edif.indus.multimod.desarr.planta  |\n|                | 65 ESTRUCTURAS HORMIGON                          |   6550 | Estr.1 alt.con losa hormig.para apoyo eq |\n|                | 65 ESTRUCTURAS HORMIGON                          |   6555 | Estr./Edif.Proceso c/varias plant.losa h |\n|                | 65 ESTRUCTURAS HORMIGON                          |   6560 | Estr. aislada apoyo silos deposit. aeros |\n|                | 65 ESTRUCTURAS HORMIGON                          |   6570 | Puentes de tuberías                      |\n|                | 65 ESTRUCTURAS HORMIGON                          |   6580 | Estructuras soporte conductos/cintas     |\n|                |                                                  |   6598 | Estructura Hormigón                      |\n|                | 66 ARQUITECTURA                                  |   6610 | Planos anteproyecto para aprobación      |\n|                | 66 ARQUITECTURA                                  |   6620 | Implant. gral y urbaniz.y/o jardinería   |\n|                | 66 ARQUITECTURA                                  |   6625 | Detalles arquitect.de urbaniz/jardinería |\n|                | 66 ARQUITECTURA                                  |   6630 | Edificios no industriales                |\n|                | 66 ARQUITECTURA                                  |   6640 | Naves/Edif.indust.de ceramientos pesados |\n|                | 66 ARQUITECTURA                                  |   6645 | Naves/Edif.indust.de cerramiento ligeros |\n|                | 66 ARQUITECTURA                                  |   6650 | Pequeñas casetas completas en un plano   |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 28,
+      "pagina_fin": 28,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "3e61d3a5-827f-4ca2-ae0a-1eae53b1e80e",
+      "texto": "[Descripción visual: La imagen muestra una tabla con dos filas y varias columnas. Las celdas contienen números y texto. En una columna superior a la derecha, están los números \"6660\" y \"6670\". A la derecha de estos números, se encuentran las descripciones \"Falsos techos\" y \"Amueblamiento\", respectivamente. La tabla parece estar dentro de un documento con borde negro. El resto de la imagen es un fondo blanco sin más contenido.]",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 29,
+      "pagina_fin": 29,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e2d4c236634047f6856568b904ef188a",
+      "texto": "| ESPECIALIDAD    | ACTIVIDAD                                       | ITEM      | DESCRIPCION                                     |\n|-----------------|-------------------------------------------------|-----------|-------------------------------------------------|\n| 6 CIVIL (Cont.) |                                                 | 6675      | Evacuación                                      |\n| 6 CIVIL (Cont.) |                                                 | 6680      | Jardinería                                      |\n| 6 CIVIL (Cont.) |                                                 | 6685      | Trabajos singulares (decor/prefabric...)        |\n| 6 CIVIL (Cont.) |                                                 | 6698      | Arquitectura                                    |\n| 6 CIVIL (Cont.) | 67 ENCARGOS ESPECIALES                          | 6710      | Planos hormigón (sólo formas)                   |\n| 6 CIVIL (Cont.) | 67 ENCARGOS ESPECIALES                          | 6720      | Planos hormigón (sólo armaduras)                |\n| 6 CIVIL (Cont.) | 67 ENCARGOS ESPECIALES                          | 6730      | Despiece de armaduras                           |\n| 6 CIVIL (Cont.) | 67 ENCARGOS ESPECIALES                          | 6740      | Planos de elementos embebidos                   |\n| 6 CIVIL (Cont.) | 67 ENCARGOS ESPECIALES                          | 6750      | Puesta de planos \"as built\"                     |\n| 6 CIVIL (Cont.) | 67 ENCARGOS ESPECIALES                          | 6760      | Informes, estudios, dictámenes etc.             |\n| 6 CIVIL (Cont.) | 67 ENCARGOS ESPECIALES                          | 6798      | Encargos especiales                             |\n| 6 CIVIL (Cont.) | 68. COORDINACION INTERNA/SUPERVI- SION SUBCONT. | 6810      | Revisión normal de planos de taller             |\n| 6 CIVIL (Cont.) | 68. COORDINACION INTERNA/SUPERVI- SION SUBCONT. | 6820      | Revisión/activ.intensa planos de taller         |\n| 6 CIVIL (Cont.) | 68. COORDINACION INTERNA/SUPERVI- SION SUBCONT. | 6830      | Rev.planos taller cerram./cubierta chapa        |\n| 6 CIVIL (Cont.) | 68. COORDINACION INTERNA/SUPERVI- SION SUBCONT. | 6840      | Supervisión subcontratistas ingeniería          |\n| 6 CIVIL (Cont.) | 68. COORDINACION INTERNA/SUPERVI- SION SUBCONT. | 6899      | Coordinación y general (inc. bases Proy)        |\n| INSTALACIONES   | INSTALACIONES                                   | 7000      | Climatización                                   |\n|                 |                                                 | 7010      | Protección contraincendios                      |\n|                 |                                                 | 7020      | Fontanería y saneamiento                        |\n|                 |                                                 | 7030      | Fluidos térmicos de Proceso                     |\n|                 |                                                 | 7040      | Gases industriales y vacío                      |\n|                 |                                                 | 7050      | Aire comprimido                                 |\n|                 |                                                 | 7060      | Combustibles                                    |\n|                 |                                                 | 7070      | Unidades Paquete                                |\n|                 |                                                 | 7080      | Supervisión de Subcontratistas                  |\n| 8 COMPRAS       | 80 GESTION DE COMPRAS                           | 8000      | Coordinación de compras                         |\n| 8 COMPRAS       | 80 GESTION DE COMPRAS                           | 8010      | Compras                                         |\n| 8 COMPRAS       | 80 GESTION DE COMPRAS                           | 8020      | Activación                                      |\n| 8 COMPRAS       | 80 GESTION DE COMPRAS                           | 8030      | Inspección                                      |\n| 8 COMPRAS       | 80 GESTION DE COMPRAS                           | 8040      | Transporte y aduanas                            |\n| 8 COMPRAS       | 80 GESTION DE COMPRAS                           | 8050      | Control de facturas                             |\n| 8 COMPRAS       | 80 GESTION DE COMPRAS                           | 8060      | Planos de vendedores                            |\n| 8 COMPRAS       | 80 GESTION DE COMPRAS                           | 8070      | Apoyo informático                               |\n| 8 COMPRAS       | 80 GESTION DE COMPRAS                           | 8095      | Mecanografía compras                            |\n| 9 CONSTRUCCIÓN  | 90 PERSONAL DE SUPERVISION                      | 9000      | Jefe de Obra                                    |\n| 9 CONSTRUCCIÓN  | 90 PERSONAL DE SUPERVISION                      | 9010      | Superintendente                                 |\n| 9 CONSTRUCCIÓN  | 90 PERSONAL DE SUPERVISION                      | 9020      | Supervisor Obra Civil/Arquitectura              |\n| 9 CONSTRUCCIÓN  | 90 PERSONAL DE SUPERVISION                      | 9030      | Supervisor Mecánica/Instalaciones               |\n| 9 CONSTRUCCIÓN  | 90 PERSONAL DE SUPERVISION                      | 9040      | Supervisor Tuberías                             |\n| 9 CONSTRUCCIÓN  | 90 PERSONAL DE SUPERVISION                      | 9050      | Supervisor Electricidad Supervisor Instrumentos |\n| 9 CONSTRUCCIÓN  | 90 PERSONAL DE SUPERVISION                      | 9060 9070 | Supervisor Protecciones                         |\n| 9 CONSTRUCCIÓN  | 90 PERSONAL DE SUPERVISION                      | 9080 9090 | Otros supervisores Topógrafo                    |\n| 9 CONSTRUCCIÓN  | 91 PERSONAL AUXILIAR                            | 9100      | Secretaria obra                                 |\n| 9 CONSTRUCCIÓN  | 91 PERSONAL AUXILIAR                            | 9110      | Almacenero                                      |\n| 9 CONSTRUCCIÓN  | 91 PERSONAL AUXILIAR                            | 9120      | Peones                                          |\n| 9 CONSTRUCCIÓN  | 91 PERSONAL AUXILIAR                            | 9130 9140 | Guardas Choferes                                |\n| 9 CONSTRUCCIÓN  | 91 PERSONAL AUXILIAR                            | 9150      | Subalternos                                     |\n| 9 CONSTRUCCIÓN  | 91 PERSONAL AUXILIAR                            |           |                                                 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 30,
+      "pagina_fin": 30,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "d21414f41cf048db844ed93edd501b16",
+      "texto": "| ESPECIALIDAD         | ACTIVIDAD                             |   ITEM | DESCRIPCION                      |\n|----------------------|---------------------------------------|--------|----------------------------------|\n| CONSTRUCCION ( Cont) | 92 OFICINA DE OBRA                    |   9200 | Ingeniero de Campo               |\n|                      |                                       |   9210 | Ingeniero de Planificación       |\n|                      |                                       |   9220 | Ingeniero de Costes              |\n|                      |                                       |   9230 | Técnico mediciones               |\n|                      |                                       |   9240 | Delineación y archivo técnico    |\n|                      |                                       |   9250 | Compras locales y subcontratos   |\n|                      |                                       |   9260 | Administración de Obra           |\n|                      |                                       |   9270 | Auxiliares obra                  |\n|                      | 93 PUESTA EN MARCHA                   |   9300 | Jefe de Puesta en marcha         |\n|                      |                                       |   9310 | Supervisores de puesta en marcha |\n|                      |                                       |   9320 | Operadores                       |\n|                      |                                       |   9330 | Personal Auxiliar                |\n|                      | 94 VARIOS CONSTRUCCION                |   9400 | Construcción Mangement           |\n|                      |                                       |   9410 | Organización de Obra             |\n|                      |                                       |   9420 | Proyecto de Seguridad            |\n|                      |                                       |   9430 | Asistencia periodo de garantía   |\n|                      |                                       |   9440 | Especificaciones de Construcción |\n|                      | 95 APOYO A OBRA DESDE OFICINA CENTRAL |   9500 | Gestión subcontratos             |\n|                      |                                       |   9510 | Mediciones                       |\n|                      |                                       |   9520 | Secretaria                       |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 31,
+      "pagina_fin": 31,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "5d647ec4-96e9-486e-a5d3-2b3f43b530ce",
+      "texto": "ANEXO VI HITOS DE EVALUACIÓN DEL AVANCE DE DOCUMENTOS",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 32,
+      "pagina_fin": 32,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f2df1b93-67e6-433f-b401-927cf0e3f789",
+      "texto": "(Las letras A, B y C corresponden a los hitos de \"Planificación y Control de Documentos\")",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 33,
+      "pagina_fin": 33,
+      "seccion": "HITOS DE EVALUACION DEL AVANCE DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fc23f6062ca94ad1a77bda1935f4cd09",
+      "texto": "| CONCEPTO                          | HITOS                                                             | HITOS                                                             | HITOS                                                                     | %ORIGEN AVANCE                                                    |\n|-----------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------|\n| Proceso                           |                                                                   |                                                                   |                                                                           |                                                                   |\n| Diagramas de flujo                |                                                                   |                                                                   |                                                                           |                                                                   |\n| Diagramas P&I                     |                                                                   | -                                                                 | Iniciación, Cálculos                                                      | 20                                                                |\n|                                   |                                                                   | -                                                                 | Edición preliminar                                                        | 45                                                                |\n|                                   | A                                                                 | -                                                                 | Edición para revisión y comentarios                                       | 75                                                                |\n|                                   | B                                                                 | -                                                                 | Edición para aprobación                                                   | 90                                                                |\n|                                   | C                                                                 | -                                                                 | Edición para construcción                                                 | 100                                                               |\n| Lista de equipos                  |                                                                   | -                                                                 | Iniciación                                                                | 20                                                                |\n|                                   | A                                                                 | -                                                                 | Edición preliminar                                                        | 70                                                                |\n|                                   | B                                                                 | -                                                                 | Edición 2 revisión                                                       | 85                                                                |\n|                                   | C                                                                 | -                                                                 | Edición para construcción                                                 | 100                                                               |\n| Lista de líneas                   |                                                                   | -                                                                 | Iniciación                                                                | 20                                                                |\n|                                   | A                                                                 | -                                                                 | Edición preliminar                                                        | 60                                                                |\n|                                   | B                                                                 | -                                                                 | Edición 2 revisión                                                       | 85                                                                |\n|                                   | C                                                                 | -                                                                 | Edición para construcción                                                 | 100                                                               |\n| Especificaciones y Hojas de Datos | Especificaciones y Hojas de Datos                                 | Especificaciones y Hojas de Datos                                 | Especificaciones y Hojas de Datos                                         | Especificaciones y Hojas de Datos                                 |\n|                                   |                                                                   | -                                                                 | Cálculos                                                                  | 30                                                                |\n|                                   | A                                                                 | -                                                                 | Edición preliminar                                                        | 50                                                                |\n|                                   | B                                                                 | -                                                                 | Edición para aprobación                                                   | 85                                                                |\n|                                   | C                                                                 | -                                                                 | Edición para compras                                                      | 100                                                               |\n| Mecánica                          | (R.M. incluye: Especificación, Hoja de datos y Planos Vendedores) | (R.M. incluye: Especificación, Hoja de datos y Planos Vendedores) | (R.M. incluye: Especificación, Hoja de datos y Planos Vendedores)         | (R.M. incluye: Especificación, Hoja de datos y Planos Vendedores) |\n| Ingeniería de Equipos             |                                                                   | -                                                                 | Edición R.M. para petición de oferta                                      | 25                                                                |\n| normales                          | A                                                                 | -                                                                 | Análisis ofertas y tabulación técnica                                     | 50                                                                |\n|                                   | B                                                                 | -                                                                 | Edición R.M. para compra                                                  | 70                                                                |\n|                                   | C                                                                 | -                                                                 | Revisión y aprob. documentación vendedores                                | 95                                                                |\n|                                   |                                                                   | -                                                                 | Recepción documentación final                                             | 100                                                               |\n| Ingeniería de Equipos             |                                                                   | -                                                                 | Edición R.M. para petición de oferta                                      | 25                                                                |\n| semicompletos                     | A                                                                 | -                                                                 | Análisis ofertas y tabulación técnica                                     | 50                                                                |\n|                                   | B                                                                 | -                                                                 | Edición R.M. para compra                                                  | 70                                                                |\n|                                   | C                                                                 | -                                                                 | Revisión y aprob. documentación vendedores                                | 95                                                                |\n|                                   |                                                                   | -                                                                 | Inclusión de esquemas de flujo auxiliares y recepción documentación final | 100                                                               |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 33,
+      "pagina_fin": 33,
+      "seccion": "HITOS DE EVALUACION DEL AVANCE DE DOCUMENTOS",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "9e0ff46e372e4d629122b45aaa1a064a",
+      "texto": "| CONCEPTO              |    | HITOS   | HITOS                                                                     |   AVANCE |\n|-----------------------|----|---------|---------------------------------------------------------------------------|----------|\n| Ingeniería de Equipos |    | -       | Edición R.M. para petición de oferta                                      |       25 |\n| completos             | A  | -       | Análisis ofertas y tabulación técnica                                     |       50 |\n|                       | B  | -       | Edición R.M. para compra                                                  |       70 |\n|                       | C  | -       | Revisión y aprob. documentación vendedores                                |       95 |\n|                       |    | -       | Inclusión de esquemas de flujo auxiliares y recepción documentación final |      100 |\n| Diseño                | A  | -       | Edición preliminar ó comentarios                                          |       40 |\n|                       | B  | -       | Edición de diseño ó, compras                                              |       65 |\n|                       | C  | -       | Edición para construcción                                                 |      100 |\n| Intercambiadores      | A  | -       | Edición R.M. para petición de oferta                                      |       40 |\n|                       |    | -       | Análisis ofertas y tabulación técnica                                     |       60 |\n|                       | B  | -       | Edición R.M. para compra                                                  |       75 |\n|                       | C  | -       | Revisión y aprob. documentación vendedores                                |       95 |\n|                       |    | -       | Recepción documentación final                                             |      100 |\n| Recipientes           |    |         |                                                                           |          |\n| Ingeniería            |    | -       | Edición R.M. para petición oferta                                         |          |\n|                       | A  |         | (Cálculos incluídos)                                                      |       40 |\n|                       |    | -       | Análisis ofertas y tabulación técnica                                     |       60 |\n|                       | B  | -       | Edición R.M. para compra                                                  |       70 |\n|                       | C  | -       | Revisión y aprob. documentación vendedores                                |       90 |\n|                       |    | -       | Recepción documentación final                                             |      100 |\n| Diseño                | A  | -       | Edición plano para ofertas                                                |       25 |\n|                       | B  | -       | Diseño para compra                                                        |       35 |\n|                       |    | -       | Edición para construcción (incl. orientaciones)                           |       50 |\n|                       | C  | -       | Aprobación planos vendedores                                              |       90 |\n|                       |    | -       | Recepción planos finales                                                  |      100 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 34,
+      "pagina_fin": 34,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "9146324ccafa4f6fbcbea9318e3084cb",
+      "texto": "| CONCEPTO                |    | HITOS   |                                                |   %ORIGEN AVANCE |\n|-------------------------|----|---------|------------------------------------------------|------------------|\n| Tuberías                |    |         |                                                |                  |\n| Montaje de maqueta      |    | -       | Terminación mesa (trazado)                     |               10 |\n|                         | A  | -       | Terminación estructuras y equipos              |               30 |\n|                         | B  | -       | Terminación tuberías                           |               75 |\n|                         |    | -       | Incorporación comentarios verificación         |               90 |\n|                         | C  | -       | Seguimiento y revisión final                   |              100 |\n| Estudios tuberías       | A  | -       | Edición prelim. para comienzo maqueta          |               40 |\n| para maqueta            | B  | -       | Edición para completar maqueta                 |               80 |\n|                         | C  | -       | Verificación y revisión final                  |              100 |\n| Planos de plantas       | A  | -       | Edición prelim. (para comienzo isométricas)    |               60 |\n|                         | B  | -       | Edición aprobado para construcción             |              100 |\n| Isométricas acotadas    |    | -       | Preparación croquis                            |               20 |\n|                         | A  | -       | Dibujo isométricas                             |               60 |\n|                         | B  | -       | Verificación y comentarios                     |               90 |\n|                         | C  | -       | Lista de material y aprobado para construcción |               10 |\n| Isométricas no acotadas |    | -       | Preparación                                    |               20 |\n|                         | A  | -       | Dibujo isométricas                             |               60 |\n|                         | B  | -       | Verificación y comentarios                     |               90 |\n|                         | C  | -       | Lista de material y aprobado para construcción |              100 |\n| Esfuerzos               |    | -       | Estudio preliminar de Lay-Outs                 |               30 |\n|                         | A  | -       | Revisión de planos de plantas de tuberías      |               40 |\n|                         | B  | -       | Isométricas                                    |               80 |\n|                         | C  | -       | Seguimiento y Revisión final                   |              100 |\n| Soportes                |    | -       | Soporte de tuberías en planos de planta        |                  |\n|                         | A  |         | ó isométricas                                  |               80 |\n|                         | B  | -       | Elementos especiales                           |               90 |\n|                         | C  | -       | Seguimiento y revisión final                   |              100 |\n| M.T.O.                  |    | -       | Especificaciones de tuberías                   |               20 |\n|                         | A  | -       | 1 Medición de tuberías                        |               45 |\n|                         | B  | -       | 2 Medición de tuberías                        |               65 |\n|                         | C  | -       | Medición final con isométricas verificadas     |              100 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 35,
+      "pagina_fin": 35,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "ff569cf9bd16457195c9b7154d1f7efe",
+      "texto": "| CONCEPTO               | HITOS   | HITOS   | HITOS                                         |   %ORIGEN AVANCE |\n|------------------------|---------|---------|-----------------------------------------------|------------------|\n| Electricidad           |         |         |                                               |                  |\n| Diagrama unifilar      | A       | -       | Edición para comentarios                      |               60 |\n|                        | B       | -       | Edición aprobada para diseño                  |               80 |\n|                        | C       | -       | Seguimiento y revisión final                  |              100 |\n| Clasificación de áreas | A       | -       | Edición para comentarios                      |               75 |\n|                        | B       | -       | Edición aprobada para diseño                  |              100 |\n| Equipo principal       | A       | -       | Edición R.M. para petición de oferta          |               50 |\n|                        |         | -       | Análisis ofertas y tabulación técnica         |               70 |\n|                        | B       | -       | Edición R.M. para compra                      |               90 |\n|                        |         | -       | Revisión y aprob. documentación vendedores    |              100 |\n| Subestación y C.C.M.   | A       | -       | Edición para comentarios                      |               60 |\n|                        | B       | -       | Revisión y edición para aprobación            |               75 |\n|                        | C       | -       | Edición aprobada para construcción            |              100 |\n| Distribución Fuerza    |         | -       | Estudio y cálculos                            |               20 |\n| Alumbrado y P.A.T.     | A       | -       | Edición para comentarios                      |               70 |\n|                        | B       | -       | Revisión y edición para aprobación            |               90 |\n|                        | C       | -       | Edición aprobada para construcción            |              100 |\n| Lista de Equipos y     | A       | -       | Edición preliminar                            |               50 |\n| Motores                | B       | -       | Edición para comentarios                      |               80 |\n|                        | C       | -       | Seguimiento y revisión final                  |              100 |\n| Recorridos de cables   | A       | -       | Edición para comentarios                      |               60 |\n|                        | B       | -       | Revisión y edición para aprobación            |               80 |\n|                        | C       | -       | Edición aprobada para construcción            |               95 |\n|                        |         | -       | Seguimiento y revisión final                  |              100 |\n| Lista de cables        | A       | -       | Edición preliminar                            |               40 |\n|                        | B       | -       | Edición con medición sobre Pls. de recorridos |               80 |\n|                        | C       | -       | Seguimiento y revisión final                  |              100 |\n| Materiales             |         | -       | Edición especificaciones                      |                5 |\n|                        |         | -       | Edición R.M. para petición oferta             |               45 |\n|                        |         | -       |                                               |                  |\n|                        | A       |         | (con medición preliminar)                     |                  |\n|                        |         |         | Análisis ofertas y tabulación técnica         |               55 |\n|                        | B       | -       | Edición R.M. para compra (con 2 medición)    |               80 |\n|                        |         | -       | Seguimiento y revisión final                  |              100 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 36,
+      "pagina_fin": 36,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "4ea5ae01f34e49b58dafcea17e72cc79",
+      "texto": "| CONCEPTO                |    | HITOS   |                                                             |   %ORIGEN AVANCE |\n|-------------------------|----|---------|-------------------------------------------------------------|------------------|\n| Instrumentación         |    |         |                                                             |                  |\n| Diagramas P&I           |    | -       | 1 Revisión y estudio lazos de control                      |               60 |\n|                         | A  | -       | Edición aprobada con comentarios                            |               80 |\n|                         | B  | -       | Seguimiento y revisión final                                |              100 |\n| Indice de instrumentos  | A  | -       | Edición para comentarios                                    |               40 |\n|                         | B  | -       | Revisión y edición para aprobación                          |               80 |\n|                         | C  | -       | Seguimiento, revisión final y edición según comprado        |              100 |\n| Instrumentos y Válvulas | A  | -       | Edición R.M. para petición de oferta                        |               50 |\n| de Seguridad y Control  |    | -       | Análisis ofertas y tabulación técnica                       |               90 |\n|                         | B  | -       | Edición R.M. para compra                                    |               95 |\n|                         |    | -       | Revisión y aprob. documentación vendedores                  |              100 |\n| Planos de Situación     | A  | -       | Edición para comentarios                                    |               60 |\n|                         | B  | -       | Revisión y edición para aprobación                          |               90 |\n|                         | C  | -       | Edición aprobada para construcción                          |              100 |\n| Esquemas montaje        | A  | -       | Edición para comentarios                                    |               60 |\n|                         | B  | -       | Revisión y edición para aprobación                          |               90 |\n|                         | C  | -       | Edición aprobada para construcción                          |              100 |\n| Materiales              |    | -       | Edición R.M. para petición oferta (Con medición preliminar) |               50 |\n|                         | A  | -       | Análisis ofertas y tabulación técnica                       |               60 |\n|                         | B  | -       | Edición R.M. para compra (con 2 medición)                  |               80 |\n|                         |    | -       | Revisión y aproba. documentación vendedores                 |              100 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 37,
+      "pagina_fin": 37,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "39c0d6dbfdde46709c19b211072245be",
+      "texto": "| CONCEPTO            |    | HITOS   |                                           |   %ORIGEN AVANCE |\n|---------------------|----|---------|-------------------------------------------|------------------|\n| Civil               |    |         |                                           |                  |\n| Cimentaciones y     |    | -       | Estudio y cálculos                        |               20 |\n| Estruct. hormigón   | A  | -       | Edición para comentarios                  |               60 |\n|                     | B  | -       | Revisión y edición para aprobación        |               80 |\n|                     | C  | -       | Edición aprobada para construcción        |               95 |\n|                     |    | -       | Seguimiento y revisión final              |              100 |\n| Estructura metálica |    | -       | Estudio y cálculos                        |               30 |\n|                     | A  | -       | Edición para comentarios                  |               40 |\n|                     | B  | -       | Revisión y edición para aprobación        |               70 |\n|                     | C  | -       | Edición aprobada para construcción        |               90 |\n|                     |    | -       | Seguimiento y revisión final              |              100 |\n| Arquitectura        |    | -       | Estudio y cálculos                        |               25 |\n|                     | A  | -       | Edición para comentarios                  |               65 |\n|                     | B  | -       | Revisión y edición para aprobación        |               80 |\n|                     | C  | -       | Edición aprobada para construcción        |               90 |\n|                     |    | -       | Seguimiento y revisión final              |              100 |\n| Tubería enterrada   |    | -       | Estudio y cálculos                        |               10 |\n|                     | A  | -       | Edición prelim. para medición de material |               30 |\n|                     | B  | -       | Revisión y edición para aprobación        |               50 |\n|                     | C  | -       | Edición aprobada para construcción        |               90 |\n|                     |    | -       | Seguimiento y revisión final              |              100 |\n| Instalaciones       |    |         |                                           |                  |\n| Aire acondicionado/ |    | -       | Diseño preliminar                         |               40 |\n| Ventilación/        | A  | -       | Edición planos preliminares               |               60 |\n| Protección incendio | B  | -       | Edición aprobada para diseño              |               90 |\n|                     | C  | -       | Edición para construcción                 |              100 |\n| Compras             |    |         |                                           |                  |\n|                     | A  | -       | Petición de oferta                        |               10 |\n|                     |    | -       | Comparación de oferta                     |               25 |\n|                     | B  | -       | Fax de intención                          |               30 |\n|                     |    | -       | Pedido                                    |               40 |\n|                     |    | -       | Inicio inspección                         |               55 |\n|                     |    | -       | Inspección final                          |               90 |\n|                     |    | -       | Revisión y aprob. facturas proveedores    |              100 |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 38,
+      "pagina_fin": 38,
+      "seccion": "PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    }
+  ]
+}

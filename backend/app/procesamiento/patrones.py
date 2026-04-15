@@ -11,7 +11,7 @@ PATRON_ANEXO = re.compile(r"\b(ANEXO|APPENDIX|ANNEX)\b", re.IGNORECASE)
 
 # Secciones de índice/tabla de contenidos — su contenido se descarta
 PATRON_INDICE = re.compile(
-    r"^\s*([ÍI]NDICE|INDEX|TABLE\s+OF\s+CONTENTS|CONTENTS|SUMARIO|SOMMAIRE)\.?\s*$",
+    r"^\s*([IÍ]\s*N\s*D\s*[IÍ]\s*C\s*E|INDEX|TABLE\s+OF\s+CONTENTS|CONTENTS|SUMARIO|SOMMAIRE)\.?\s*$",
     re.IGNORECASE,
 )
 

@@ -29,7 +29,7 @@ CASOS_DE_PRUEBA: list[tuple[str, MetadatosAdministrador]] = [
         MetadatosAdministrador(empresa="intecsa", proyecto_id=None, tipo_doc="procedimiento", idioma="es"),
     ),
     (
-        "intecsa/procedimientos_generales/PR-02 (ANEXO).pdf",
+        "intecsa/procedimientos_generales/PR-02_anexo.pdf",
         MetadatosAdministrador(empresa="intecsa", proyecto_id=None, tipo_doc="anexo", idioma="es"),
     ),
     (

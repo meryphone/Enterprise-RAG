@@ -1,0 +1,148 @@
+{
+  "doc_id": "65994e274d004f1f92d39b35b0e44d42",
+  "nombre_fichero": "PR-14 ANEXO II-2.pdf",
+  "metadatos_admin": {
+    "empresa": "intecsa",
+    "proyecto_id": null,
+    "tipo_doc": "procedimiento",
+    "idioma": "es"
+  },
+  "metadatos_portada": {
+    "codigo_documento": null,
+    "edicion": "5",
+    "fecha_edicion": null,
+    "titulo_documento": "PROCEDIMIENTODE PLANIFICACIONDEPROYECTOS"
+  },
+  "fecha_ingesta": "2026-04-15T15:27:04+00:00",
+  "paginas_total": 4,
+  "chunks": [
+    {
+      "chunk_id": "4fd90f7a-aa3a-4c66-afed-b2d2381e7193",
+      "texto": "ANEXO H.2 PROGRAMA GENERAL DEL PROYECTO (P.G.P.)\n\n[Descripción visual: La imagen muestra un diagrama de Gantt del \"Programa General del Proyecto\" de INTECSA UHDE INDUSTRIAL S.A., correspondiente a un proyecto de desarrollo. El diagrama está orientado horizontalmente y desglosa las actividades y fases del proyecto en un cronograma detallado desde marzo de 1998 hasta enero de 1999.\n\n### Elementos destacados:\n\n- **Actividades**: Listadas en la parte inferior, se dividen en dos categorías principales:\n  - **CIVIL-ESTRUCTURA Y ARQUITECTURA**: Incluye actividades como proyectos generales, obras civiles, instalaciones, centros de distribución, etc.\n  - **INSTALACIONES ELECTROMECÁNICAS Y ELÉCTRICAS**: Incluye actividades similares relacionadas con estas instalaciones.\n\n- **Duración y Periodos**: Cada actividad tiene barras que indican el periodo desde el inicio hasta el final, en líneas sólidas o punteadas (probablemente representando diferentes fases o estados de finalización).\n\n- **Fechas**: Las fechas están especificadas para el inicio temprano y tardío, así como finalización anticipada y final. Por ejemplo, la actividad de \"PROYECTO GENERAL\" en la sección de estructuras civiles empieza el 30 de marzo de 1998 y concluye el 29 de marzo de 1999.\n\n- **Escala de Tiempo**: Va de marzo de 1998 a enero de 1999, con meses marcados en la parte superior y líneas divisorias para indicar cada mes.\n\n- **Leyenda**: A la derecha, hay una leyenda que explica los símbolos utilizados, como líneas horizontales sólidas y discontinuas para representar diferentes aspectos del cronograma.\n\nEste diagrama se utiliza para la planificación, programación y seguimiento del progreso del proyecto en curso.]\n\n[Descripción visual: La imagen muestra un gráfico de barras verticales que representa diferentes actividades relacionadas con la construcción o proyectos de ingeniería. A continuación, detallo los elementos principales:\n\n1. **Ejes:**\n   - El eje horizontal enumera las diferentes actividades, como \"EDIFICIO ADMINISTRATIVO Y SOCIAL,\" \"ESTACIÓN DEPURADORA,\" \"CENTRO DE DISTRIBUCIÓN COMBUSTIBLE,\" entre otras.\n   - El eje vertical, ubicado en el lado izquierdo, muestra las fechas de 1998 (marzo a diciembre) y 1999 (hasta mayo).\n\n2. **Actividades:**\n   - Cada actividad tiene un identificador numérico (ejemplo: \"15,\" \"12,\" \"20\") y está vinculada a un rango de fechas, que representa el inicio y fin de la actividad.\n\n3. **Barras de Actividad:**\n   - Las barras están posicionadas verticalmente, representando el período que cada actividad abarca. \n   - Algunas barras tienen segmentos más oscuros y líneas con flechas, posiblemente indicando divisiones o hitos dentro de la actividad.\n\n4. **Leyenda:**\n   - En la parte inferior, hay una sección con números y fechas que parecen indicar el resumen o total de las actividades por cada mes.\n\n5. **Colores y Texturas:**\n   - Las barras y áreas tienen diferentes tipos de texturas y colores en blanco y negro, posiblemente para diferenciar entre diversos tipos de actividades o estados de los proyectos.\n\nEsta imagen es una representación detallada de un cronograma de actividades de construcción o proyecto, mostrando su planificación frente al tiempo.]\n\n[Descripción visual: La imagen muestra un diagrama de Gantt orientado verticalmente. Este gráfico representa diferentes actividades y su planificación temporal. Aquí está la descripción detallada:\n\n1. **Ejes Temporales**: En la parte superior, se observa una escala temporal que abarca desde marzo de 1998 hasta enero de 1999. Los meses están divididos en semanas específicas.\n\n2.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 1,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTODE PLANIFICACIONDEPROYECTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2c73c14f-457d-4100-9b0f-dbfec9325d85",
+      "texto": "ANEXO H.2 PROGRAMA GENERAL DEL PROYECTO (P.G.P.)\n\n[Descripción visual: La imagen muestra un diagrama de Gantt del \"Programa General del Proyecto\" de INTECSA UHDE INDUSTRIAL S.A., correspondiente a un proyecto de desarrollo. El diagrama está orientado horizontalmente y desglosa las actividades y fases del proyecto en un cronograma detallado desde marzo de 1998 hasta enero de 1999.\n\n### Elementos destacados:\n\n- **Actividades**: Listadas en la parte inferior, se dividen en dos categorías principales:\n  - **CIVIL-ESTRUCTURA Y ARQUITECTURA**: Incluye actividades como proyectos generales, obras civiles, instalaciones, centros de distribución, etc.\n  - **INSTALACIONES ELECTROMECÁNICAS Y ELÉCTRICAS**: Incluye actividades similares relacionadas con estas instalaciones.",
+      "nivel": "child",
+      "parent_id": "4fd90f7a-aa3a-4c66-afed-b2d2381e7193",
+      "pagina_inicio": 1,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTODE PLANIFICACIONDEPROYECTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8a863bb7-0e96-4167-9f8b-b24034c1f434",
+      "texto": "- **Duración y Periodos**: Cada actividad tiene barras que indican el periodo desde el inicio hasta el final, en líneas sólidas o punteadas (probablemente representando diferentes fases o estados de finalización).\n\n- **Fechas**: Las fechas están especificadas para el inicio temprano y tardío, así como finalización anticipada y final. Por ejemplo, la actividad de \"PROYECTO GENERAL\" en la sección de estructuras civiles empieza el 30 de marzo de 1998 y concluye el 29 de marzo de 1999.\n\n- **Escala de Tiempo**: Va de marzo de 1998 a enero de 1999, con meses marcados en la parte superior y líneas divisorias para indicar cada mes.\n\n- **Leyenda**: A la derecha, hay una leyenda que explica los símbolos utilizados, como líneas horizontales sólidas y discontinuas para representar diferentes aspectos del cronograma.\n\nEste diagrama se utiliza para la planificación, programación y seguimiento del progreso del proyecto en curso.]",
+      "nivel": "child",
+      "parent_id": "4fd90f7a-aa3a-4c66-afed-b2d2381e7193",
+      "pagina_inicio": 1,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTODE PLANIFICACIONDEPROYECTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f2d648fd-ca77-46a3-bd04-3a3360b39fc0",
+      "texto": "[Descripción visual: La imagen muestra un gráfico de barras verticales que representa diferentes actividades relacionadas con la construcción o proyectos de ingeniería. A continuación, detallo los elementos principales:\n\n1. **Ejes:**\n   - El eje horizontal enumera las diferentes actividades, como \"EDIFICIO ADMINISTRATIVO Y SOCIAL,\" \"ESTACIÓN DEPURADORA,\" \"CENTRO DE DISTRIBUCIÓN COMBUSTIBLE,\" entre otras.\n   - El eje vertical, ubicado en el lado izquierdo, muestra las fechas de 1998 (marzo a diciembre) y 1999 (hasta mayo).\n\n2. **Actividades:**\n   - Cada actividad tiene un identificador numérico (ejemplo: \"15,\" \"12,\" \"20\") y está vinculada a un rango de fechas, que representa el inicio y fin de la actividad.\n\n3. **Barras de Actividad:**\n   - Las barras están posicionadas verticalmente, representando el período que cada actividad abarca.",
+      "nivel": "child",
+      "parent_id": "4fd90f7a-aa3a-4c66-afed-b2d2381e7193",
+      "pagina_inicio": 1,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTODE PLANIFICACIONDEPROYECTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c36ef250-4a3d-44be-9724-747d45967eb0",
+      "texto": "- Algunas barras tienen segmentos más oscuros y líneas con flechas, posiblemente indicando divisiones o hitos dentro de la actividad.\n\n4. **Leyenda:**\n   - En la parte inferior, hay una sección con números y fechas que parecen indicar el resumen o total de las actividades por cada mes.\n\n5. **Colores y Texturas:**\n   - Las barras y áreas tienen diferentes tipos de texturas y colores en blanco y negro, posiblemente para diferenciar entre diversos tipos de actividades o estados de los proyectos.\n\nEsta imagen es una representación detallada de un cronograma de actividades de construcción o proyecto, mostrando su planificación frente al tiempo.]\n\n[Descripción visual: La imagen muestra un diagrama de Gantt orientado verticalmente. Este gráfico representa diferentes actividades y su planificación temporal. Aquí está la descripción detallada:\n\n1. **Ejes Temporales**: En la parte superior, se observa una escala temporal que abarca desde marzo de 1998 hasta enero de 1999. Los meses están divididos en semanas específicas.\n\n2.",
+      "nivel": "child",
+      "parent_id": "4fd90f7a-aa3a-4c66-afed-b2d2381e7193",
+      "pagina_inicio": 1,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTODE PLANIFICACIONDEPROYECTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "bdb2c94a-b7ee-4d91-bdd3-072c7fdcec0a",
+      "texto": "Los meses están divididos en semanas específicas.\n\n2. **Actividades**: A la izquierda, hay una lista de actividades con títulos como:\n   - EDIFICIO ADMINISTRATIVO Y SOCIAL\n   - REDES EXTERIORES\n   - MONTAJE ELECTROMECÁNICO\n   - GENENERADOR\n   - NEXAS DE COMBUSTIBLE\n   - ENTREGA Y EXPLICACIÓN TÉCNICA\n   - CENTRO DE DISTRIBUCIÓN COMBUSTIBLE\n   - INSTALACIÓN DE GENERADOR\n\n3. **Barreras de Tiempo**: Cada actividad tiene asociada una barra que indica su duración:\n   - Las barras empiezan y terminan en fechas específicas.\n   - Algunas están en negro completo, otras en gris, lo que puede indicar la diferencia entre actividades planeadas y actividades ya realizadas.\n\n4. **Fechas de Inicio y Fin**: Junto a cada actividad, se encuentran las fechas concretas de inicio y finalización, tanto en plan inicial como en plan realmente ejecutado.\n\n5. **Datos de Progreso**: Al pie del gráfico, hay información de progreso mensual con totales y números que parecen reflejar el avance o tiempo consumido en cada mes.\n\nEl diagrama está diseñado para ser una herramienta visual de gestión de proyectos, facilitando la organización y seguimiento del tiempo y recursos destinados a cada tarea dentro del proyecto.]",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 1,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTODE PLANIFICACIONDEPROYECTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0f22bf25-b9c4-4462-85cb-0e53ef412cbc",
+      "texto": "Los meses están divididos en semanas específicas.\n\n2. **Actividades**: A la izquierda, hay una lista de actividades con títulos como:\n   - EDIFICIO ADMINISTRATIVO Y SOCIAL\n   - REDES EXTERIORES\n   - MONTAJE ELECTROMECÁNICO\n   - GENENERADOR\n   - NEXAS DE COMBUSTIBLE\n   - ENTREGA Y EXPLICACIÓN TÉCNICA\n   - CENTRO DE DISTRIBUCIÓN COMBUSTIBLE\n   - INSTALACIÓN DE GENERADOR\n\n3. **Barreras de Tiempo**: Cada actividad tiene asociada una barra que indica su duración:\n   - Las barras empiezan y terminan en fechas específicas.\n   - Algunas están en negro completo, otras en gris, lo que puede indicar la diferencia entre actividades planeadas y actividades ya realizadas.\n\n4. **Fechas de Inicio y Fin**: Junto a cada actividad, se encuentran las fechas concretas de inicio y finalización, tanto en plan inicial como en plan realmente ejecutado.\n\n5.",
+      "nivel": "child",
+      "parent_id": "bdb2c94a-b7ee-4d91-bdd3-072c7fdcec0a",
+      "pagina_inicio": 1,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTODE PLANIFICACIONDEPROYECTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "899ba25b-b4ca-4574-9bfb-f17c142e6102",
+      "texto": "5. **Datos de Progreso**: Al pie del gráfico, hay información de progreso mensual con totales y números que parecen reflejar el avance o tiempo consumido en cada mes.\n\nEl diagrama está diseñado para ser una herramienta visual de gestión de proyectos, facilitando la organización y seguimiento del tiempo y recursos destinados a cada tarea dentro del proyecto.]",
+      "nivel": "child",
+      "parent_id": "bdb2c94a-b7ee-4d91-bdd3-072c7fdcec0a",
+      "pagina_inicio": 1,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTODE PLANIFICACIONDEPROYECTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    }
+  ]
+}
