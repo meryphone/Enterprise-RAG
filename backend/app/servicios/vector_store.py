@@ -114,9 +114,9 @@ def _meta_chunk(chunk, documento: "DocumentoIngerido") -> dict:
         # Identificación del documento
         "doc_id": documento.doc_id,
         "nombre_fichero": documento.nombre_fichero,
-        "titulo_documento": documento.metadatos_portada.titulo_documento or "",
-        "version": documento.metadatos_portada.edicion or "",
-        "fecha_edicion": documento.metadatos_portada.fecha_edicion or "",
+        "titulo_documento": documento.metadatos_documento.titulo or "",
+        "version": documento.metadatos_documento.edicion or "",
+        "fecha_emision": documento.metadatos_documento.fecha_emision or "",
         "fecha_ingesta": documento.fecha_ingesta,
         # Metadatos del administrador
         "empresa": documento.metadatos_admin.empresa,

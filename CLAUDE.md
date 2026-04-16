@@ -138,16 +138,15 @@ El pipeline recibe un PDF y los metadatos del administrador y produce chunks ind
 
 ### Flujo general
 
-Cuatro pasos secuenciales:
+Pasos secuenciales:
 
 1. **Parseo:** Docling convierte el PDF en `DoclingDocument` con elementos tipificados.
-2. **Extracción de metadatos de cabecera (fase 1 — texto, sin coste):** regex sobre los primeros 35 items del documento para extraer título (primer `SectionHeaderItem` que supera los filtros de longitud y charset) y edición (patrón `EDICION/EDITION`). Ninguna llamada a API.
-3. **Extracción de metadatos de portada (fase 2 — visión, con coste):** si `ENABLE_VISION=1`, se llama a GPT-4o con la imagen de la primera página para obtener `fecha_edicion` y completar campos que la fase 1 no pudo extraer.
-4. **Procesado de elementos:** cada item del `DoclingDocument` se transforma en `ElementoProcesado` aplicando las reglas por tipo.
-5. **Chunking:** los elementos procesados se segmentan y pasan por `HierarchicalNodeParser`.
-6. **Indexación:** los chunks se serializan con metadatos aplanados y se suben a ChromaDB.
+2. **Extracción de metadatos de cabecera (texto, sin coste):** regex sobre los primeros 35 items del documento para extraer título (primer `SectionHeaderItem` que supera los filtros de longitud y charset) y edición (patrón `EDICION/EDITION`). Ninguna llamada a API.
+3. **Procesado de elementos:** cada item del `DoclingDocument` se transforma en `ElementoProcesado` aplicando las reglas por tipo.
+4. **Chunking:** los elementos procesados se segmentan y pasan por `HierarchicalNodeParser`.
+5. **Indexación:** los chunks se serializan con metadatos aplanados y se suben a ChromaDB.
 
-Los metadatos tienen tres orígenes: extraídos del documento (fases 1 y 2), introducidos por el administrador al subir el documento, y generados por el pipeline (fecha de ingesta, IDs).
+Los metadatos tienen tres orígenes: extraídos del documento con regex sobre la cabecera, introducidos por el administrador al subir el documento, y generados por el pipeline (fecha de ingesta, IDs).
 
 ### Arquitectura del pipeline (pipes and filters)
 
@@ -219,9 +218,9 @@ Cada chunk indexado en ChromaDB lleva 20 metadatos. ChromaDB requiere tipos prim
 |---|---|---|---|
 | `doc_id` | str | Pipeline | UUID generado en el momento de la ingesta — identificador interno único del documento |
 | `nombre_fichero` | str | Pipeline | Nombre del fichero PDF original |
-| `titulo_documento` | str | Docling (fase 1 — texto) | Título extraído del primer `SectionHeaderItem` que supera los filtros de longitud y charset. `""` si no se detectó |
-| `version` | str | Docling (fase 1 — texto) | Edición del documento extraída por regex del texto de cabecera. `""` si no se detectó. Mapeado desde `metadatos_portada.edicion` |
-| `fecha_edicion` | str | Vision (fase 2 — GPT-4o) | Fecha de edición extraída de la portada. `""` si vision desactivada o no detectada |
+| `titulo_documento` | str | Docling (regex cabecera) | Título extraído del primer `SectionHeaderItem` que supera los filtros de longitud y charset. `""` si no se detectó. Mapeado desde `metadatos_documento.titulo` |
+| `version` | str | Docling (regex cabecera) | Edición del documento extraída por regex del texto de cabecera. `""` si no se detectó. Mapeado desde `metadatos_documento.edicion` |
+| `fecha_emision` | str | — | Campo reservado. Actualmente siempre `""` — no se extrae en la beta |
 | `fecha_ingesta` | str | Pipeline | Fecha de procesado en ISO 8601 |
 | `empresa` | str | Administrador | `"intecsa"` o nombre del cliente (e.g. `"repsol"`) |
 | `proyecto_id` | str | Administrador | Código del proyecto (e.g. `"13187"`). `""` si es corpus global |

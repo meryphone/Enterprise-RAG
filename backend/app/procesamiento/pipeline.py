@@ -24,6 +24,7 @@ from pathlib import Path
 from app.procesamiento import elementos as mod_elementos
 from app.procesamiento import parser as mod_parser
 from app.procesamiento.chunker import Chunk, chunk_jerarquico
+from app.procesamiento.elementos import MetadatosDocumento
 
 
 # ---------------------------------------------------------------------------
@@ -43,28 +44,11 @@ class MetadatosAdministrador:
 
 
 @dataclass
-class MetadatosPortada:
-    """Metadatos del documento ensamblados desde la cabecera (regex) y la portada.
-
-    Todos los campos son opcionales: si Docling no encuentra el valor en el texto
-    digital y la visión está desactivada, el campo queda como None.
-    """
-
-    edicion: str | None
-    fecha_edicion: str | None
-    titulo_documento: str | None = None
-
-    @classmethod
-    def vacio(cls) -> "MetadatosPortada":
-        return cls(None, None, None)
-
-
-@dataclass
 class DocumentoIngerido:
     doc_id: str
     nombre_fichero: str
     metadatos_admin: MetadatosAdministrador
-    metadatos_portada: MetadatosPortada
+    metadatos_documento: MetadatosDocumento
     fecha_ingesta: str                    # ISO 8601
     chunks: list[Chunk] = field(default_factory=list)
 
@@ -83,12 +67,7 @@ def ingestar_pdf(path: Path, metadatos_admin: MetadatosAdministrador) -> Documen
 
     # 2. Metadatos desde la cabecera del documento (texto digital, gratis).
     #    Extrae título y edición mediante regex sobre los primeros ítems.
-    cabecera = mod_elementos.extraer_metadatos_documento(doc)
-    metadatos_portada = MetadatosPortada.vacio()
-    if cabecera.titulo:
-        metadatos_portada.titulo_documento = cabecera.titulo
-    if cabecera.edicion:
-        metadatos_portada.edicion = cabecera.edicion
+    metadatos_documento = mod_elementos.extraer_metadatos_documento(doc)
 
     # doc_id: siempre un UUID generado — no se extrae del documento.
     doc_id = uuid.uuid4().hex
@@ -110,7 +89,7 @@ def ingestar_pdf(path: Path, metadatos_admin: MetadatosAdministrador) -> Documen
         doc_id=doc_id,
         nombre_fichero=path.name,
         metadatos_admin=metadatos_admin,
-        metadatos_portada=metadatos_portada,
+        metadatos_documento=metadatos_documento,
         fecha_ingesta=datetime.now(tz=timezone.utc).isoformat(timespec="seconds"),
         chunks=chunks,
     )
@@ -122,7 +101,7 @@ def documento_a_dict(documento: DocumentoIngerido) -> dict:
         "doc_id": documento.doc_id,
         "nombre_fichero": documento.nombre_fichero,
         "metadatos_admin": asdict(documento.metadatos_admin),
-        "metadatos_portada": asdict(documento.metadatos_portada),
+        "metadatos_documento": asdict(documento.metadatos_documento),
         "fecha_ingesta": documento.fecha_ingesta,
         "chunks": [asdict(c) for c in documento.chunks],
     }

@@ -51,6 +51,7 @@ class MetadatosDocumento:
 
     titulo: str | None = None
     edicion: str | None = None
+    fecha_emision: str | None = None       # reservado, no se extrae por ahora
 
 
 def extraer_metadatos_documento(doc: DoclingDocument) -> MetadatosDocumento:

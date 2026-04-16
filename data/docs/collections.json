@@ -12,485 +12,399 @@
         {
           "id": "procedimientos_generales",
           "nombre": "Procedimientos Generales de INTECSA",
-          "ruta_origen": "_PROCEDIMENTOS Generales de INTECSA",
           "documentos": [
             {
-              "archivo": "PR-01.doc",
+              "archivo": "PR-01.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-02.doc",
+              "archivo": "PR-02.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-02 (ANEXO).doc",
+              "archivo": "PR-02_anexo.pdf",
               "tipo": "anexo",
-              "extension": "doc",
               "idioma": "es",
               "anexo_de": "PR-02"
             },
             {
-              "archivo": "PR-03.doc",
+              "archivo": "PR-03.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-05.doc",
+              "archivo": "PR-05.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-06.doc",
+              "archivo": "PR-06.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-07.docx",
+              "archivo": "PR-07.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-08.doc",
-              "tipo": "procedimiento",
-              "extension": "doc",
-              "idioma": "es"
-            },
-            {
-              "archivo": "PR-08 ANEXO III.doc",
+              "archivo": "PR-08-ANEXO-III.pdf",
               "tipo": "anexo",
-              "extension": "doc",
               "idioma": "es",
-              "anexo_de": "PR-08",
-              "num_anexo": "III"
+              "anexo_de": "PR-08"
             },
             {
-              "archivo": "PR-09.doc",
+              "archivo": "PR-08.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-10.doc",
+              "archivo": "PR-09.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-11.doc",
+              "archivo": "PR-10.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-11-ANEXO I.doc",
+              "archivo": "PR-11-ANEXO-I.pdf",
               "tipo": "anexo",
-              "extension": "doc",
               "idioma": "es",
-              "anexo_de": "PR-11",
-              "num_anexo": "I"
+              "anexo_de": "PR-11"
             },
             {
-              "archivo": "PR-11-ANEXO II.doc",
+              "archivo": "PR-11-ANEXO-II.pdf",
               "tipo": "anexo",
-              "extension": "doc",
               "idioma": "es",
-              "anexo_de": "PR-11",
-              "num_anexo": "II"
+              "anexo_de": "PR-11"
             },
             {
-              "archivo": "PR-11-ANEXO III.doc",
+              "archivo": "PR-11-ANEXO-III.pdf",
               "tipo": "anexo",
-              "extension": "doc",
               "idioma": "es",
-              "anexo_de": "PR-11",
-              "num_anexo": "III"
+              "anexo_de": "PR-11"
             },
             {
-              "archivo": "PR-11-ANEXO IV.doc",
+              "archivo": "PR-11-ANEXO-IV.pdf",
               "tipo": "anexo",
-              "extension": "doc",
               "idioma": "es",
-              "anexo_de": "PR-11",
-              "num_anexo": "IV"
+              "anexo_de": "PR-11"
             },
             {
-              "archivo": "PR-12.doc",
+              "archivo": "PR-11.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-13.doc",
+              "archivo": "PR-12.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-14.doc",
+              "archivo": "PR-13.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-14 ANEXO I.pdf",
+              "archivo": "PR-14-ANEXO-I.pdf",
               "tipo": "anexo",
-              "extension": "pdf",
               "idioma": "es",
-              "anexo_de": "PR-14",
-              "num_anexo": "I"
+              "anexo_de": "PR-14"
             },
             {
-              "archivo": "PR-14 ANEXO II-1.pdf",
+              "archivo": "PR-14-ANEXO-II-1.pdf",
               "tipo": "anexo",
-              "extension": "pdf",
               "idioma": "es",
-              "anexo_de": "PR-14",
-              "num_anexo": "II-1"
+              "anexo_de": "PR-14"
             },
             {
-              "archivo": "PR-14 ANEXO II-2.pdf",
+              "archivo": "PR-14-ANEXO-II-2.pdf",
               "tipo": "anexo",
-              "extension": "pdf",
               "idioma": "es",
-              "anexo_de": "PR-14",
-              "num_anexo": "II-2"
+              "anexo_de": "PR-14"
             },
             {
-              "archivo": "PR-15.doc",
+              "archivo": "PR-14.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-16.doc",
+              "archivo": "PR-15.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-17.doc",
+              "archivo": "PR-16.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-18.doc",
+              "archivo": "PR-17.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-19.doc",
+              "archivo": "PR-18.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-20.doc",
+              "archivo": "PR-19.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-21.docx",
+              "archivo": "PR-20.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-22.doc",
+              "archivo": "PR-21.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-23.doc",
+              "archivo": "PR-22.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-24.docx",
+              "archivo": "PR-23.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-26.docx",
+              "archivo": "PR-24.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-27.docx",
+              "archivo": "PR-26.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-28.docx",
+              "archivo": "PR-27.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-29.docx",
+              "archivo": "PR-28.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-30.doc",
+              "archivo": "PR-29.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-31.doc",
+              "archivo": "PR-30.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-32.doc",
+              "archivo": "PR-31.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-33.doc",
+              "archivo": "PR-32.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-34.doc",
+              "archivo": "PR-33.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-35.docx",
+              "archivo": "PR-34.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-36.doc",
+              "archivo": "PR-35.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-37.doc",
+              "archivo": "PR-36.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-38.doc",
+              "archivo": "PR-37.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-39.docx",
+              "archivo": "PR-38.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-40.doc",
+              "archivo": "PR-39.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-43 - ESP.docx",
+              "archivo": "PR-40.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-43 - ENG.docx",
+              "archivo": "PR-43-ENG.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "en"
             },
             {
-              "archivo": "PR-46.doc",
+              "archivo": "PR-43-ESP.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-50.doc",
+              "archivo": "PR-46.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-51.doc",
+              "archivo": "PR-50.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-52.doc",
+              "archivo": "PR-51.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-53.docx",
+              "archivo": "PR-52.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-54.doc",
+              "archivo": "PR-53.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-55.doc",
+              "archivo": "PR-54.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-56.doc",
+              "archivo": "PR-55.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-57.doc",
+              "archivo": "PR-56.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-58.docx",
+              "archivo": "PR-57.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-59.doc",
+              "archivo": "PR-58.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-60.doc",
+              "archivo": "PR-59.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-61.docx",
+              "archivo": "PR-60.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-63.docx",
+              "archivo": "PR-61.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-65.doc",
+              "archivo": "PR-63.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-66.doc",
+              "archivo": "PR-65.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-70.doc",
+              "archivo": "PR-66.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-71.doc",
+              "archivo": "PR-70.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-72.doc",
+              "archivo": "PR-71.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-73.doc",
+              "archivo": "PR-72.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-74.doc",
+              "archivo": "PR-73.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-75.doc",
+              "archivo": "PR-74.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-76.doc",
+              "archivo": "PR-75.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-77.doc",
+              "archivo": "PR-76.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-78.doc",
+              "archivo": "PR-77.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-79.docx",
+              "archivo": "PR-78.pdf",
               "tipo": "procedimiento",
-              "extension": "docx",
               "idioma": "es"
             },
             {
-              "archivo": "PR-80.doc",
+              "archivo": "PR-79.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "PR-82.doc",
+              "archivo": "PR-80.pdf",
               "tipo": "procedimiento",
-              "extension": "doc",
+              "idioma": "es"
+            },
+            {
+              "archivo": "PR-82.pdf",
+              "tipo": "procedimiento",
               "idioma": "es"
             }
           ]
@@ -498,17 +412,14 @@
         {
           "id": "instrucciones_trabajo",
           "nombre": "Instrucciones de Trabajo",
-          "ruta_origen": "Instrucciones_de_trabajo/03. INSTRUCCIONES DE TRABAJO",
           "disciplinas": [
             {
               "id": "AF",
               "nombre": "AF",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (AF)",
               "documentos": [
                 {
-                  "archivo": "IT AF-01.doc",
+                  "archivo": "IT-AF-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 }
               ]
@@ -516,440 +427,294 @@
             {
               "id": "AP",
               "nombre": "Aprovisionamientos",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (AP)",
               "documentos": [
                 {
-                  "archivo": "IT-AP-01.doc",
+                  "archivo": "IT-AP-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-AP-01 (I).doc",
+                  "archivo": "IT-AP-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en",
-                  "variante": "ingles"
-                },
-                {
-                  "archivo": "IT-AP-02.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-AP-02 (I).doc",
+                  "archivo": "IT-AP-02F.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en",
-                  "variante": "ingles"
-                },
-                {
-                  "archivo": "IT-AP-02F.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es",
                   "variante": "formulario"
                 },
                 {
-                  "archivo": "IT-AP-03.doc",
+                  "archivo": "IT-AP-03.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-AP-03 (I).doc",
+                  "archivo": "IT-AP-03F.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en",
-                  "variante": "ingles"
-                },
-                {
-                  "archivo": "IT-AP-03F.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es",
                   "variante": "formulario"
                 },
                 {
-                  "archivo": "IT-AP-04.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "es"
+                  "archivo": "IT-AP-04-(ANEXO-3).pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-AP-04"
                 },
                 {
-                  "archivo": "IT-AP-04 (ANEXO I).doc",
+                  "archivo": "IT-AP-04-(ANEXO-4).pdf",
                   "tipo": "anexo",
-                  "extension": "doc",
                   "idioma": "es",
-                  "anexo_de": "IT-AP-04",
-                  "num_anexo": "I"
+                  "anexo_de": "IT-AP-04"
                 },
                 {
-                  "archivo": "IT-AP-04 (ANEXO 2).xls",
+                  "archivo": "IT-AP-04-(ANEXO-4)_0.pdf",
                   "tipo": "anexo",
-                  "extension": "xls",
                   "idioma": "es",
                   "anexo_de": "IT-AP-04",
-                  "num_anexo": "2"
-                },
-                {
-                  "archivo": "IT-AP-04 (ANEXO 3).doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
-                  "idioma": "es",
-                  "anexo_de": "IT-AP-04",
-                  "num_anexo": "3"
-                },
-                {
-                  "archivo": "IT-AP-04 (ANEXO 4).doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
-                  "idioma": "es",
-                  "anexo_de": "IT-AP-04",
-                  "num_anexo": "4"
-                },
-                {
-                  "archivo": "IT-AP-04 (ANEXO 4)_0.doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
-                  "idioma": "es",
-                  "anexo_de": "IT-AP-04",
-                  "num_anexo": "4",
                   "variante": "revision"
                 },
                 {
-                  "archivo": "IT-AP-04 (ANEXO 5).doc",
+                  "archivo": "IT-AP-04-(ANEXO-5).pdf",
                   "tipo": "anexo",
-                  "extension": "doc",
                   "idioma": "es",
-                  "anexo_de": "IT-AP-04",
-                  "num_anexo": "5"
+                  "anexo_de": "IT-AP-04"
                 },
                 {
-                  "archivo": "IT-AP-04 (ANEXO 6).doc",
+                  "archivo": "IT-AP-04-(ANEXO-6).pdf",
                   "tipo": "anexo",
-                  "extension": "doc",
                   "idioma": "es",
-                  "anexo_de": "IT-AP-04",
-                  "num_anexo": "6"
+                  "anexo_de": "IT-AP-04"
                 },
                 {
-                  "archivo": "IT-AP-04 (ANEXO 6)I.doc",
+                  "archivo": "IT-AP-04-(ANEXO-6)I.pdf",
                   "tipo": "anexo",
-                  "extension": "doc",
                   "idioma": "en",
                   "anexo_de": "IT-AP-04",
-                  "num_anexo": "6",
                   "variante": "ingles"
                 },
                 {
-                  "archivo": "IT-AP-04 (ANEXO 7).doc",
+                  "archivo": "IT-AP-04-(ANEXO-7).pdf",
                   "tipo": "anexo",
-                  "extension": "doc",
                   "idioma": "es",
-                  "anexo_de": "IT-AP-04",
-                  "num_anexo": "7"
+                  "anexo_de": "IT-AP-04"
                 },
                 {
-                  "archivo": "IT-AP-05.doc",
+                  "archivo": "IT-AP-04-(ANEXO-I).pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-AP-04"
+                },
+                {
+                  "archivo": "IT-AP-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-AP-05 (ANEXO 1).doc",
+                  "archivo": "IT-AP-05-(ANEXO-1)-I.pdf",
                   "tipo": "anexo",
-                  "extension": "doc",
-                  "idioma": "es",
-                  "anexo_de": "IT-AP-05",
-                  "num_anexo": "1"
-                },
-                {
-                  "archivo": "IT-AP-05 (ANEXO 1) I.doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
                   "idioma": "en",
                   "anexo_de": "IT-AP-05",
-                  "num_anexo": "1",
                   "variante": "ingles"
                 },
                 {
-                  "archivo": "IT-AP-05 (ANEXO 1).pdf",
+                  "archivo": "IT-AP-05-(ANEXO-1).pdf",
                   "tipo": "anexo",
-                  "extension": "pdf",
                   "idioma": "es",
-                  "anexo_de": "IT-AP-05",
-                  "num_anexo": "1"
+                  "anexo_de": "IT-AP-05"
                 },
                 {
-                  "archivo": "IT-AP-05 (ANEXO 2).doc",
+                  "archivo": "IT-AP-05-(ANEXO-2).pdf",
                   "tipo": "anexo",
-                  "extension": "doc",
                   "idioma": "es",
-                  "anexo_de": "IT-AP-05",
-                  "num_anexo": "2"
+                  "anexo_de": "IT-AP-05"
                 },
                 {
-                  "archivo": "IT-AP-06.doc",
+                  "archivo": "IT-AP-05.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-AP-06 (I).doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en",
-                  "variante": "ingles"
+                  "archivo": "IT-AP-06-(ANEXO-1).pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-AP-06"
                 },
                 {
-                  "archivo": "IT-AP-06  (ANEXO 1).doc",
+                  "archivo": "IT-AP-06-(ANEXO-1)_0.pdf",
                   "tipo": "anexo",
-                  "extension": "doc",
                   "idioma": "es",
                   "anexo_de": "IT-AP-06",
-                  "num_anexo": "1"
-                },
-                {
-                  "archivo": "IT-AP-06  (ANEXO 1)_0.doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
-                  "idioma": "es",
-                  "anexo_de": "IT-AP-06",
-                  "num_anexo": "1",
                   "variante": "revision"
                 },
                 {
-                  "archivo": "IT-AP-06  (ANEXO 2).doc",
+                  "archivo": "IT-AP-06-(ANEXO-2).pdf",
                   "tipo": "anexo",
-                  "extension": "doc",
                   "idioma": "es",
-                  "anexo_de": "IT-AP-06",
-                  "num_anexo": "2"
+                  "anexo_de": "IT-AP-06"
                 },
                 {
-                  "archivo": "IT-AP-08.doc",
+                  "archivo": "IT-AP-06.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-AP-09.doc",
+                  "archivo": "IT-AP-08.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-AP-09 (ANEXO 1).doc",
+                  "archivo": "IT-AP-09-(ANEXO-1).pdf",
                   "tipo": "anexo",
-                  "extension": "doc",
                   "idioma": "es",
-                  "anexo_de": "IT-AP-09",
-                  "num_anexo": "1"
+                  "anexo_de": "IT-AP-09"
                 },
                 {
-                  "archivo": "IT-AP-09 (ANNEX 1).doc",
+                  "archivo": "IT-AP-09-(ANNEX-1).pdf",
                   "tipo": "anexo",
-                  "extension": "doc",
                   "idioma": "en",
-                  "anexo_de": "IT-AP-09",
-                  "num_anexo": "1"
+                  "anexo_de": "IT-AP-09"
                 },
                 {
-                  "archivo": "IT-AP-10.doc",
+                  "archivo": "IT-AP-09.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-AP-11.doc",
+                  "archivo": "IT-AP-10.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-AP-12.doc",
+                  "archivo": "IT-AP-11.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-AP-12.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-AP-13.doc",
+                  "archivo": "IT-AP-13.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-AP-13 (I).doc",
+                  "archivo": "IT-AP-13_0.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en",
-                  "variante": "ingles"
-                },
-                {
-                  "archivo": "IT-AP-13_0.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es",
                   "variante": "revision"
-                },
-                {
-                  "archivo": "IT-AP-13 (I)_0.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en",
-                  "variante": "ingles_revision"
                 }
               ]
             },
             {
               "id": "CO",
               "nombre": "Construccion",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (CO)",
               "documentos": [
                 {
-                  "archivo": "FC-11.doc",
+                  "archivo": "IT-CO-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "ITC-CO-11 Funciones y Responsabilidades de Personal en Obra Ed2.docx",
+                  "archivo": "IT-CO-03.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-02.doc",
+                  "archivo": "IT-CO-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-03.doc",
+                  "archivo": "IT-CO-05.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-04.doc",
+                  "archivo": "IT-CO-06.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-05.doc",
+                  "archivo": "IT-CO-07.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-06.doc",
+                  "archivo": "IT-CO-08.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-07.doc",
+                  "archivo": "IT-CO-09.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-08.doc",
+                  "archivo": "IT-CO-10.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-09.doc",
+                  "archivo": "IT-CO-12.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-10.doc",
+                  "archivo": "IT-CO-14.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-12.doc",
+                  "archivo": "IT-CO-15.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-14.doc",
+                  "archivo": "IT-CO-20.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-15.doc",
+                  "archivo": "IT-CO-21.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-20.docx",
+                  "archivo": "IT-CO-22.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-21.docx",
+                  "archivo": "IT-CO-23.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-22.pptx",
+                  "archivo": "IT-CO-30.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pptx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-23.docx",
+                  "archivo": "IT-CO-40.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-30.doc",
+                  "archivo": "IT-CO-50.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-40.doc",
+                  "archivo": "IT-CO-60.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CO-50.doc",
+                  "archivo": "ITC-CO-11-Funciones-y-Responsabilidades-de-Personal-en-Obra-Ed2.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "es"
-                },
-                {
-                  "archivo": "IT-CO-60.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "es"
-                },
-                {
-                  "archivo": "_Indice IT de Construcción.pdf",
-                  "tipo": "indice",
-                  "extension": "pdf",
                   "idioma": "es"
                 }
               ]
@@ -957,79 +722,66 @@
             {
               "id": "DCD",
               "nombre": "Control de Documentos",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (DCD)",
               "documentos": [
                 {
-                  "archivo": "IT-CD-01_E.docx",
+                  "archivo": "IT-CD-01_E.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CD-01_I.docx",
+                  "archivo": "IT-CD-01_I.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "en",
                   "variante": "ingles"
                 },
                 {
-                  "archivo": "IT-CD-02_E.docx",
+                  "archivo": "IT-CD-02_E.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CD-03_E.docx",
+                  "archivo": "IT-CD-03_E.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CD-04_E.docx",
+                  "archivo": "IT-CD-04_E.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CD-05_E.docx",
+                  "archivo": "IT-CD-05_E.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CD-06_E.docx",
+                  "archivo": "IT-CD-06_E.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CD-07_E.docx",
+                  "archivo": "IT-CD-07_E.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CD-09_E.docx",
+                  "archivo": "IT-CD-09_E.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CD-10_E.docx",
+                  "archivo": "IT-CD-10_E.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CD-11_E.docx",
+                  "archivo": "IT-CD-11_E.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-CD-13_E.doc",
+                  "archivo": "IT-CD-13_E.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 }
               ]
@@ -1037,42 +789,35 @@
             {
               "id": "EL",
               "nombre": "Electricidad",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (EL)",
               "documentos": [
                 {
                   "archivo": "IT-EL-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-EL-02.doc",
+                  "archivo": "IT-EL-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-EL-03.doc",
+                  "archivo": "IT-EL-03.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-EL-04.doc",
+                  "archivo": "IT-EL-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-EL-07.doc",
+                  "archivo": "IT-EL-07.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-EL-11.doc",
+                  "archivo": "IT-EL-11.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 }
               ]
@@ -1080,188 +825,158 @@
             {
               "id": "IN",
               "nombre": "Instrumentacion",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (IN)",
               "documentos": [
                 {
-                  "archivo": "IT-IN-01.doc",
+                  "archivo": "IT-IN-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-IN-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-IN-03.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-IN-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-IN-07.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-IN-11.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-IN-12.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-IN-13.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-IN-15.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-IN-23.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-IN-32.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-IN-34.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-IN-36.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "es"
-                },
-                {
-                  "archivo": "IT-IN-36 - ANEXOS.pdf",
+                  "archivo": "IT-IN-36-ANEXOS.pdf",
                   "tipo": "anexo",
-                  "extension": "pdf",
                   "idioma": "es",
                   "anexo_de": "IT-IN-36"
                 },
                 {
-                  "archivo": "IT-IN-37 de SI.doc",
+                  "archivo": "IT-IN-36.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-IN-37 - ANEXO.xls",
+                  "archivo": "IT-IN-37-ANEXO.pdf",
                   "tipo": "anexo",
-                  "extension": "xls",
                   "idioma": "es",
                   "anexo_de": "IT-IN-37"
+                },
+                {
+                  "archivo": "IT-IN-37-de-SI.pdf",
+                  "tipo": "instruccion_trabajo",
+                  "idioma": "es"
                 }
               ]
             },
             {
               "id": "ME",
               "nombre": "Mecanica",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (ME)",
               "documentos": [
                 {
-                  "archivo": "IT-IF-01.doc",
+                  "archivo": "IT-IF-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es",
                   "nota": "Prefijo IF en carpeta ME"
                 },
                 {
-                  "archivo": "IT-IF-02.doc",
+                  "archivo": "IT-IF-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es",
                   "nota": "Prefijo IF en carpeta ME"
                 },
                 {
-                  "archivo": "IT-IF-04.doc",
+                  "archivo": "IT-IF-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es",
                   "nota": "Prefijo IF en carpeta ME"
                 },
                 {
-                  "archivo": "IT-IF-07.doc",
+                  "archivo": "IT-IF-07.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es",
                   "nota": "Prefijo IF en carpeta ME"
                 },
                 {
-                  "archivo": "IT-IF-12.doc",
+                  "archivo": "IT-IF-12.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es",
                   "nota": "Prefijo IF en carpeta ME"
                 },
                 {
-                  "archivo": "IT-ME-01.doc",
+                  "archivo": "IT-ME-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-ME-02.doc",
+                  "archivo": "IT-ME-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-ME-03.doc",
+                  "archivo": "IT-ME-03.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-ME-04.doc",
+                  "archivo": "IT-ME-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-ME-07.doc",
+                  "archivo": "IT-ME-07.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-ME-15.doc",
+                  "archivo": "IT-ME-15.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-ME-16.doc",
+                  "archivo": "IT-ME-16.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 }
               ]
@@ -1269,133 +984,105 @@
             {
               "id": "OC",
               "nombre": "Oficina de Compras",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (OC)",
               "documentos": [
                 {
-                  "archivo": "ÍNDICE INTRUCCIONES TRABAJO.doc",
-                  "tipo": "indice",
-                  "extension": "doc",
+                  "archivo": "IT-OC-01.pdf",
+                  "tipo": "instruccion_trabajo",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-ID-02.pdf",
+                  "archivo": "IT-OC-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
-                  "idioma": "es",
-                  "nota": "Prefijo ID en carpeta OC"
-                },
-                {
-                  "archivo": "IT-OC-01.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-02.doc",
+                  "archivo": "IT-OC-03.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-03.doc",
+                  "archivo": "IT-OC-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-04.doc",
+                  "archivo": "IT-OC-07.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-07.doc",
+                  "archivo": "IT-OC-09.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-09.doc",
+                  "archivo": "IT-OC-10.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-10.doc",
+                  "archivo": "IT-OC-11.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "es"
-                },
-                {
-                  "archivo": "IT-OC-11.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-OC-15.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-16.doc",
+                  "archivo": "IT-OC-16.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-23.doc",
+                  "archivo": "IT-OC-23.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-35.doc",
+                  "archivo": "IT-OC-35.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-36.doc",
+                  "archivo": "IT-OC-36.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-37.docx",
+                  "archivo": "IT-OC-37.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-65.doc",
+                  "archivo": "IT-OC-65.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-80.doc",
+                  "archivo": "IT-OC-80.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-90.doc",
+                  "archivo": "IT-OC-90.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-94.doc",
+                  "archivo": "IT-OC-94.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-OC-98.doc",
+                  "archivo": "IT-OC-98.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
+                  "idioma": "es"
+                },
+                {
+                  "archivo": "ÍNDICE-INTRUCCIONES-TRABAJO.pdf",
+                  "tipo": "indice",
                   "idioma": "es"
                 }
               ]
@@ -1403,78 +1090,65 @@
             {
               "id": "PE",
               "nombre": "Ingenieria de Proceso",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (PE)",
               "documentos": [
                 {
-                  "archivo": "IT-PE-01.doc",
+                  "archivo": "IT-PE-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PE-02.doc",
+                  "archivo": "IT-PE-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PE-03.doc",
+                  "archivo": "IT-PE-03.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PE-04.doc",
+                  "archivo": "IT-PE-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PE-05.doc",
+                  "archivo": "IT-PE-05.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PE-06.doc",
+                  "archivo": "IT-PE-06.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PE-07.doc",
+                  "archivo": "IT-PE-07.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PE-08.doc",
+                  "archivo": "IT-PE-08.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PE-09.doc",
+                  "archivo": "IT-PE-09.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PE-10.doc",
+                  "archivo": "IT-PE-10.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PE-11.doc",
+                  "archivo": "IT-PE-11.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PE-12.doc",
+                  "archivo": "IT-PE-12.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 }
               ]
@@ -1482,224 +1156,179 @@
             {
               "id": "PR",
               "nombre": "Produccion / Proyectos",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (PR)",
               "documentos": [
                 {
-                  "archivo": "Indice IT. Instrucciones de trabajo.xlsx",
-                  "tipo": "indice",
-                  "extension": "xlsx",
-                  "idioma": "es"
+                  "archivo": "IT-PR-01(ANEXO-1).pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-PR-01"
+                },
+                {
+                  "archivo": "IT-PR-01(ANEXO-2)-ING.pdf",
+                  "tipo": "anexo",
+                  "idioma": "en",
+                  "anexo_de": "IT-PR-01"
+                },
+                {
+                  "archivo": "IT-PR-01(ANEXO-3)-ING.pdf",
+                  "tipo": "anexo",
+                  "idioma": "en",
+                  "anexo_de": "IT-PR-01"
                 },
                 {
                   "archivo": "IT-PR-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
-                },
-                {
-                  "archivo": "IT-PR-01(ANEXO-1).pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
-                  "idioma": "es",
-                  "anexo_de": "IT-PR-01",
-                  "num_anexo": "1"
-                },
-                {
-                  "archivo": "IT-PR-01(ANEXO-2) ING.pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
-                  "idioma": "en",
-                  "anexo_de": "IT-PR-01",
-                  "num_anexo": "2"
-                },
-                {
-                  "archivo": "IT-PR-01(ANEXO-3) ING.pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
-                  "idioma": "en",
-                  "anexo_de": "IT-PR-01",
-                  "num_anexo": "3"
                 },
                 {
                   "archivo": "IT-PR-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
+                },
+                {
+                  "archivo": "IT-PR-03-(ANEXO-2).pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-PR-03"
                 },
                 {
                   "archivo": "IT-PR-03.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
-                },
-                {
-                  "archivo": "IT-PR-03 (ANEXO-2).pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
-                  "idioma": "es",
-                  "anexo_de": "IT-PR-03",
-                  "num_anexo": "2"
                 },
                 {
                   "archivo": "IT-PR-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-PR-07.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-PR-11.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
+                },
+                {
+                  "archivo": "IT-PR-12(ANEXO-3-parte-1).pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-PR-12"
+                },
+                {
+                  "archivo": "IT-PR-12(ANEXO-3-parte-2).pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-PR-12"
+                },
+                {
+                  "archivo": "IT-PR-12-(ADDENDUM-1).pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-PR-12"
                 },
                 {
                   "archivo": "IT-PR-12.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PR-12 (ADDENDUM 1).doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
+                  "archivo": "IT-PR-15-ANEXO-I.pdf",
                   "idioma": "es",
-                  "anexo_de": "IT-PR-12",
-                  "num_anexo": "ADDENDUM 1"
+                  "tipo": "anexo",
+                  "anexo_de": "IT-PR-15"
                 },
                 {
-                  "archivo": "IT-PR-12(ANEXO 3 - parte 1).pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
+                  "archivo": "IT-PR-15-_Addendum-1.pdf",
                   "idioma": "es",
-                  "anexo_de": "IT-PR-12",
-                  "num_anexo": "3-parte1"
+                  "tipo": "anexo",
+                  "anexo_de": "IT-PR-15"
                 },
                 {
-                  "archivo": "IT-PR-12(ANEXO 3 - parte 2).pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
+                  "archivo": "IT-PR-15.pdf",
                   "idioma": "es",
-                  "anexo_de": "IT-PR-12",
-                  "num_anexo": "3-parte2"
+                  "tipo": "instruccion_trabajo"
                 },
                 {
-                  "archivo": "IT-PR-15 (SUPERADA POR PR-46)/IT-PR-15.doc",
+                  "archivo": "IT-PR-16.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "es",
-                  "obsoleto": true,
-                  "superada_por": "PR-46"
-                },
-                {
-                  "archivo": "IT-PR-15 (SUPERADA POR PR-46)/IT-PR-15 _Addendum 1.doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
-                  "idioma": "es",
-                  "obsoleto": true,
-                  "superada_por": "PR-46"
-                },
-                {
-                  "archivo": "IT-PR-15 (SUPERADA POR PR-46)/IT-PR-15 ANEXO I.pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
-                  "idioma": "es",
-                  "obsoleto": true,
-                  "superada_por": "PR-46"
-                },
-                {
-                  "archivo": "IT-PR-16.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PR-18.doc",
+                  "archivo": "IT-PR-18.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PR-19.doc",
+                  "archivo": "IT-PR-19.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-PR-22.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PR-24.docx",
+                  "archivo": "IT-PR-24.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PR-25.doc",
+                  "archivo": "IT-PR-25.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-PR-27.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-PR-28.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-PR-29.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-PR-30.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PR-31.doc",
+                  "archivo": "IT-PR-31.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PR-32.doc",
+                  "archivo": "IT-PR-32.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PR-33.doc",
+                  "archivo": "IT-PR-33.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PR-34.docx",
+                  "archivo": "IT-PR-34.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "docx",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-PR-35.doc",
+                  "archivo": "IT-PR-35.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
+                  "idioma": "es"
+                },
+                {
+                  "archivo": "Indice-IT.-Instrucciones-de-trabajo.pdf",
+                  "tipo": "indice",
                   "idioma": "es"
                 }
               ]
@@ -1707,36 +1336,30 @@
             {
               "id": "SO",
               "nombre": "Soporte / Sistemas",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (SO)",
               "documentos": [
                 {
-                  "archivo": "INDICE.doc",
+                  "archivo": "INDICE.pdf",
                   "tipo": "indice",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-SO-01.doc",
+                  "archivo": "IT-SO-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-SO-08.doc",
+                  "archivo": "IT-SO-08.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-SO-10.doc",
+                  "archivo": "IT-SO-10.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-SO-12.doc",
+                  "archivo": "IT-SO-12.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 }
               ]
@@ -1744,251 +1367,170 @@
             {
               "id": "TU",
               "nombre": "Tuberias",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO (TU)",
               "documentos": [
                 {
-                  "archivo": "IT-TU-01.doc",
+                  "archivo": "I-SKETCH.pdf",
+                  "idioma": "es",
+                  "tipo": "instruccion_trabajo"
+                },
+                {
+                  "archivo": "ISOCAD-5-INSTALACIÓN.pdf",
+                  "idioma": "es",
+                  "tipo": "instruccion_trabajo"
+                },
+                {
+                  "archivo": "ISOCAD-5-MANUAL.pdf",
+                  "idioma": "es",
+                  "tipo": "instruccion_trabajo"
+                },
+                {
+                  "archivo": "IT-TU-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-TU-01-INGLES.doc",
+                  "archivo": "IT-TU-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en"
-                },
-                {
-                  "archivo": "IT-TU-02.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-TU-02-INGLES.doc",
+                  "archivo": "IT-TU-03.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en"
-                },
-                {
-                  "archivo": "IT-TU-03.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-TU-03-INGLES.doc",
+                  "archivo": "IT-TU-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en"
-                },
-                {
-                  "archivo": "IT-TU-04.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-TU-04-INGLES.doc",
+                  "archivo": "IT-TU-07.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en"
-                },
-                {
-                  "archivo": "IT-TU-07.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
-                },
-                {
-                  "archivo": "IT-TU-07-INGLES.doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en"
                 },
                 {
                   "archivo": "IT-TU-09.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-TU-15.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-TU-16.doc",
+                  "archivo": "IT-TU-16.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-TU-09 - ANEXOS PARA APLICACIONES DE CAD/I-SKETCH.doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
+                  "archivo": "LIBRERÍA-DE-CÉLULAS-DIAGRAMAS-DE-INGENIERÍA.pdf",
                   "idioma": "es",
-                  "anexo_de": "IT-TU-09"
+                  "tipo": "instruccion_trabajo"
                 },
                 {
-                  "archivo": "IT-TU-09 - ANEXOS PARA APLICACIONES DE CAD/ISOCAD 5 - INSTALACIÓN.doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
+                  "archivo": "LIBRERÍA-DE-CÉLULAS-PLANOS-DE-IMPLANTACIÓN.pdf",
                   "idioma": "es",
-                  "anexo_de": "IT-TU-09"
+                  "tipo": "instruccion_trabajo"
                 },
                 {
-                  "archivo": "IT-TU-09 - ANEXOS PARA APLICACIONES DE CAD/ISOCAD 5 - MANUAL.doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
+                  "archivo": "P&ID-UHDE-MANUAL.pdf",
                   "idioma": "es",
-                  "anexo_de": "IT-TU-09"
+                  "tipo": "instruccion_trabajo"
                 },
                 {
-                  "archivo": "IT-TU-09 - ANEXOS PARA APLICACIONES DE CAD/LIBRERÍA DE CÉLULAS - DIAGRAMAS DE INGENIERÍA.pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
+                  "archivo": "PDMS-DRAFT-MANUAL-DE-CONFIGURACIÓN-(ADP).pdf",
                   "idioma": "es",
-                  "anexo_de": "IT-TU-09"
+                  "tipo": "instruccion_trabajo"
                 },
                 {
-                  "archivo": "IT-TU-09 - ANEXOS PARA APLICACIONES DE CAD/LIBRERÍA DE CÉLULAS - PLANOS DE IMPLANTACIÓN.pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
+                  "archivo": "PDMS-DRAFT-MANUAL-DE-USUARIO-(ADP).pdf",
                   "idioma": "es",
-                  "anexo_de": "IT-TU-09"
-                },
-                {
-                  "archivo": "IT-TU-09 - ANEXOS PARA APLICACIONES DE CAD/PDMS DRAFT - MANUAL DE CONFIGURACIÓN (ADP).doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
-                  "idioma": "es",
-                  "anexo_de": "IT-TU-09"
-                },
-                {
-                  "archivo": "IT-TU-09 - ANEXOS PARA APLICACIONES DE CAD/PDMS DRAFT - MANUAL DE USUARIO (ADP).doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
-                  "idioma": "es",
-                  "anexo_de": "IT-TU-09"
-                },
-                {
-                  "archivo": "IT-TU-09 - ANEXOS PARA APLICACIONES DE CAD/P&ID UHDE - MANUAL.doc",
-                  "tipo": "anexo",
-                  "extension": "doc",
-                  "idioma": "es",
-                  "anexo_de": "IT-TU-09"
+                  "tipo": "instruccion_trabajo"
                 }
               ]
             },
             {
               "id": "GC",
               "nombre": "Gestion de Calidad - General",
-              "ruta_origen": "3.0 INSTRUCCIONES DE TRABAJO (GC)/GENERAL",
               "documentos": [
                 {
-                  "archivo": "IT-GC-01.doc",
+                  "archivo": "IT-GC-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-GC-02.doc",
+                  "archivo": "IT-GC-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-GC-04.doc",
+                  "archivo": "IT-GC-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-GC-06.doc",
+                  "archivo": "IT-GC-06.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
-                },
-                {
-                  "archivo": "IT-GC-06 (I).doc",
-                  "tipo": "instruccion_trabajo",
-                  "extension": "doc",
-                  "idioma": "en",
-                  "variante": "ingles"
                 }
               ]
             },
             {
               "id": "PRL",
               "nombre": "Prevencion de Riesgos Laborales",
-              "ruta_origen": "PREVENCION DE RIESGOS LABORALES",
               "documentos": [
                 {
                   "archivo": "IT-PRL-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-PRL-02.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
+                },
+                {
+                  "archivo": "IT-PRL-03-ANEXO-1.pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-PRL-03"
                 },
                 {
                   "archivo": "IT-PRL-03.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
-                },
-                {
-                  "archivo": "IT-PRL-03 ANEXO 1.pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
-                  "idioma": "es",
-                  "anexo_de": "IT-PRL-03",
-                  "num_anexo": "1"
                 },
                 {
                   "archivo": "IT-PRL-04.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 },
                 {
                   "archivo": "IT-PRL-06.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
+                },
+                {
+                  "archivo": "IT-PRL-07-ANEXO-1.pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-PRL-07"
+                },
+                {
+                  "archivo": "IT-PRL-07-ANEXO-2.pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-PRL-07"
                 },
                 {
                   "archivo": "IT-PRL-07.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
-                },
-                {
-                  "archivo": "IT-PRL-07 ANEXO 1.pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
-                  "idioma": "es",
-                  "anexo_de": "IT-PRL-07",
-                  "num_anexo": "1"
-                },
-                {
-                  "archivo": "IT-PRL-07 ANEXO 2.pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
-                  "idioma": "es",
-                  "anexo_de": "IT-PRL-07",
-                  "num_anexo": "2"
                 },
                 {
                   "archivo": "IT-PRL-10.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "pdf",
                   "idioma": "es"
                 }
               ]
@@ -1996,55 +1538,29 @@
             {
               "id": "ID",
               "nombre": "ID (sin disciplina asignada)",
-              "ruta_origen": "03. INSTRUCCIONES DE TRABAJO",
               "nota": "Archivos sueltos en la raiz de instrucciones de trabajo",
               "documentos": [
                 {
-                  "archivo": "IT-ID-01.doc",
+                  "archivo": "IT-ID-01-ANEXO.pdf",
+                  "tipo": "anexo",
+                  "idioma": "es",
+                  "anexo_de": "IT-ID-01"
+                },
+                {
+                  "archivo": "IT-ID-01.pdf",
                   "tipo": "instruccion_trabajo",
-                  "extension": "doc",
                   "idioma": "es"
                 },
                 {
-                  "archivo": "IT-ID-01-ANEXO.pdf",
-                  "tipo": "anexo",
-                  "extension": "pdf",
+                  "archivo": "IT-ID-02.pdf",
                   "idioma": "es",
-                  "anexo_de": "IT-ID-01"
+                  "tipo": "instruccion_trabajo"
                 }
               ]
             }
           ]
         }
-      ],
-      "estadisticas": {
-        "total_archivos": 296,
-        "por_extension": {
-          "doc": 201,
-          "pdf": 47,
-          "docx": 34,
-          "xls": 1,
-          "xlsx": 1,
-          "pptx": 1
-        },
-        "disciplinas_activas": [
-          "AF",
-          "AP",
-          "CO",
-          "DCD",
-          "EL",
-          "GC",
-          "ID",
-          "IN",
-          "ME",
-          "OC",
-          "PE",
-          "PR",
-          "PRL",
-          "SO",
-          "TU"
-        ]
-      }
+      ]
     },
     {
       "id": "proyectos_clientes",
@@ -2055,19 +1571,15 @@
         {
           "id": "13187_repsol",
           "nombre": "REPSOL La Pampilla",
-          "codigo_proyecto": "13187",
-          "cliente": "REPSOL",
           "documentos": [
             {
-              "archivo": "13187-IT-01.doc",
+              "archivo": "13187-IT-01.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "13187-IT-02.doc",
+              "archivo": "13187-IT-02.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             }
           ]
@@ -2075,64 +1587,52 @@
         {
           "id": "13189_dow",
           "nombre": "DOW Tarragona",
-          "codigo_proyecto": "13189",
-          "cliente": "DOW",
           "documentos": [
             {
-              "archivo": "13189-IT-01.doc",
+              "archivo": "13189-IT-01-(English-Version).pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
-              "idioma": "es"
-            },
-            {
-              "archivo": "13189-IT-01 (English Version).doc",
-              "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "en"
             },
             {
-              "archivo": "13189-IT-02.doc",
+              "archivo": "13189-IT-01.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "13189-IT-02 (English version).doc",
+              "archivo": "13189-IT-02-(English-version).pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "en"
+            },
+            {
+              "archivo": "13189-IT-02.pdf",
+              "tipo": "instruccion_trabajo",
+              "idioma": "es"
             }
           ]
         },
         {
           "id": "14090_interquisa",
           "nombre": "INTERQUISA",
-          "codigo_proyecto": "14090",
-          "cliente": "INTERQUISA",
           "documentos": [
             {
-              "archivo": "14090-IT-01.doc",
-              "tipo": "instruccion_trabajo",
-              "extension": "doc",
-              "idioma": "es"
-            },
-            {
-              "archivo": "14090-IT-01 (ANEXO).xls",
+              "archivo": "14090-IT-01-(ANEXO).pdf",
               "tipo": "anexo",
-              "extension": "xls",
               "idioma": "es",
               "anexo_de": "14090-IT-01"
             },
             {
-              "archivo": "14090-IT-02.doc",
+              "archivo": "14090-IT-01.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "14090-IT-03.doc",
+              "archivo": "14090-IT-02.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
+              "idioma": "es"
+            },
+            {
+              "archivo": "14090-IT-03.pdf",
+              "tipo": "instruccion_trabajo",
               "idioma": "es"
             }
           ]
@@ -2140,39 +1640,32 @@
         {
           "id": "14093_petresa",
           "nombre": "PETRESA",
-          "codigo_proyecto": "14093",
-          "cliente": "PETRESA",
           "documentos": [
             {
-              "archivo": "14093-IT-01.doc",
-              "tipo": "instruccion_trabajo",
-              "extension": "doc",
-              "idioma": "es"
-            },
-            {
-              "archivo": "14093-IT-01 (ANEXO).xls",
+              "archivo": "14093-IT-01-(ANEXO).pdf",
               "tipo": "anexo",
-              "extension": "xls",
               "idioma": "es",
               "anexo_de": "14093-IT-01"
             },
             {
-              "archivo": "14093-IT-02.doc",
+              "archivo": "14093-IT-01.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "14093-IT-02 (ANEXO).xls",
+              "archivo": "14093-IT-02-(ANEXO).pdf",
               "tipo": "anexo",
-              "extension": "xls",
               "idioma": "es",
               "anexo_de": "14093-IT-02"
             },
             {
-              "archivo": "14093-IT-03.doc",
+              "archivo": "14093-IT-02.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
+              "idioma": "es"
+            },
+            {
+              "archivo": "14093-IT-03.pdf",
+              "tipo": "instruccion_trabajo",
               "idioma": "es"
             }
           ]
@@ -2180,19 +1673,15 @@
         {
           "id": "14112_cepsa_fcc",
           "nombre": "CEPSA FCC",
-          "codigo_proyecto": "14112",
-          "cliente": "CEPSA",
           "documentos": [
             {
-              "archivo": "14112-IT-01.doc",
+              "archivo": "14112-IT-01.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "14112-IT-02.doc",
+              "archivo": "14112-IT-02.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             }
           ]
@@ -2200,19 +1689,15 @@
         {
           "id": "14113_cepsa_hds_v",
           "nombre": "CEPSA HDS V",
-          "codigo_proyecto": "14113",
-          "cliente": "CEPSA",
           "documentos": [
             {
-              "archivo": "14113-IT-01.doc",
+              "archivo": "14113-IT-01.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "14113-IT-02.doc",
+              "archivo": "14113-IT-02.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             }
           ]
@@ -2220,13 +1705,10 @@
         {
           "id": "14150_servicios_rnl",
           "nombre": "SERVICIOS AUX. RNL",
-          "codigo_proyecto": "14150",
-          "cliente": "RNL",
           "documentos": [
             {
-              "archivo": "14150-IT-01.doc",
+              "archivo": "14150-IT-01.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             }
           ]
@@ -2234,32 +1716,26 @@
         {
           "id": "16055_enip",
           "nombre": "ENIP Argelia",
-          "codigo_proyecto": "16055",
-          "cliente": "ENIP",
           "documentos": [
             {
-              "archivo": "16055-IT-01.doc",
+              "archivo": "16055-IT-01.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "16055-IT-02.doc",
-              "tipo": "instruccion_trabajo",
-              "extension": "doc",
-              "idioma": "es"
-            },
-            {
-              "archivo": "16055-IT-02 (ANEXO).xls",
+              "archivo": "16055-IT-02-(ANEXO).pdf",
               "tipo": "anexo",
-              "extension": "xls",
               "idioma": "es",
               "anexo_de": "16055-IT-02"
             },
             {
-              "archivo": "16055-IT-03.doc",
+              "archivo": "16055-IT-02.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
+              "idioma": "es"
+            },
+            {
+              "archivo": "16055-IT-03.pdf",
+              "tipo": "instruccion_trabajo",
               "idioma": "es"
             }
           ]
@@ -2267,69 +1743,32 @@
         {
           "id": "16057_pars",
           "nombre": "PARS Iran",
-          "codigo_proyecto": "16057",
-          "cliente": "PARS",
           "documentos": [
             {
-              "archivo": "16057-IT-01.doc",
+              "archivo": "16057-IT-01.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
             },
             {
-              "archivo": "16057-IT-01 (I).doc",
+              "archivo": "16057-IT-02.pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
-              "idioma": "en",
-              "variante": "ingles"
-            },
-            {
-              "archivo": "16057-IT-02.doc",
-              "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "es"
-            },
-            {
-              "archivo": "16057-IT-02 (I).doc",
-              "tipo": "instruccion_trabajo",
-              "extension": "doc",
-              "idioma": "en",
-              "variante": "ingles"
             }
           ]
         },
         {
           "id": "28364_indorama",
           "nombre": "INDORAMA",
-          "codigo_proyecto": "28364",
-          "cliente": "INDORAMA",
           "documentos": [
             {
-              "archivo": "28364-IT-01(I).doc",
+              "archivo": "28364-IT-01(I).pdf",
               "tipo": "instruccion_trabajo",
-              "extension": "doc",
               "idioma": "en",
               "variante": "ingles"
             }
           ]
         }
-      ],
-      "estadisticas": {
-        "total_archivos": 29,
-        "total_proyectos": 10
-      }
+      ]
     }
-  ],
-  "estadisticas_globales": {
-    "total_colecciones": 2,
-    "total_archivos": 325,
-    "por_extension": {
-      "doc": 228,
-      "pdf": 55,
-      "docx": 34,
-      "xls": 6,
-      "xlsx": 1,
-      "pptx": 1
-    }
-  }
+  ]
 }
