@@ -1,0 +1,765 @@
+{
+  "doc_id": "3d15fb0238754916b8c3d5f34032c359",
+  "nombre_fichero": "PR-09.pdf",
+  "metadatos_admin": {
+    "empresa": "intecsa",
+    "proyecto_id": null,
+    "tipo_doc": "procedimiento",
+    "idioma": "es",
+    "anexo_de": null
+  },
+  "metadatos_documento": {
+    "titulo": null,
+    "edicion": null,
+    "fecha_emision": null
+  },
+  "fecha_ingesta": "2026-04-16T18:20:36+00:00",
+  "chunks": [
+    {
+      "chunk_id": "378c0ba7-3acd-4ae3-83d1-bcf9a6624420",
+      "texto": "Este documento establece las pautas a seguir por Intecsa Industrial para asegurar la correcta gestión medioambiental de todas las actividades potencialmente generadoras de aspectos e impactos medioambientales, desarrolladas de forma habitual en la sede central.   Igualmente   describe   la   forma   de   gestionar   los   distintos   tipos   de   residuos generados en estas oficinas\n\nLa gestión medioambiental en las oficinas locales se realizará de manera análoga, con las singularidades que se indican en el PR-08 Funcionamiento de oficinas locales.\n\nLa gestión medioambiental en las oficinas de obra que se montan temporalmente para el desarrollo de un proyecto concreto, se rige por lo indicado en este Procedimiento, con las necesarias condiciones particulares de la cesión por el Cliente de espacio, oficinas existentes, etc. Estas adaptaciones se incluirán en el Plan de Calidad y Medio Ambiente del Proyecto.\n\nEste procedimiento forma parte del Sistema Integrado de Gestión de la Calidad y Medioambiental de Intecsa Industrial , y ha sido elaborado tomando en consideración las normas ISO 9001 y 14001.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a9fb826a-be61-4433-ab87-b298383e768c",
+      "texto": "Este documento establece las pautas a seguir por Intecsa Industrial para asegurar la correcta gestión medioambiental de todas las actividades potencialmente generadoras de aspectos e impactos medioambientales, desarrolladas de forma habitual en la sede central.   Igualmente   describe   la   forma   de   gestionar   los   distintos   tipos   de   residuos generados en estas oficinas\n\nLa gestión medioambiental en las oficinas locales se realizará de manera análoga, con las singularidades que se indican en el PR-08 Funcionamiento de oficinas locales.\n\nLa gestión medioambiental en las oficinas de obra que se montan temporalmente para el desarrollo de un proyecto concreto, se rige por lo indicado en este Procedimiento, con las necesarias condiciones particulares de la cesión por el Cliente de espacio, oficinas existentes, etc. Estas adaptaciones se incluirán en el Plan de Calidad y Medio Ambiente del Proyecto.",
+      "nivel": "child",
+      "parent_id": "378c0ba7-3acd-4ae3-83d1-bcf9a6624420",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "cdb0f187-f7d7-4880-8526-e57ba0199126",
+      "texto": "Este procedimiento forma parte del Sistema Integrado de Gestión de la Calidad y Medioambiental de Intecsa Industrial , y ha sido elaborado tomando en consideración las normas ISO 9001 y 14001.",
+      "nivel": "child",
+      "parent_id": "378c0ba7-3acd-4ae3-83d1-bcf9a6624420",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5b448cd0-9261-40c3-bd57-4c5860dd7d5a",
+      "texto": "Las principales fuentes de consumo de energía eléctrica, que podemos encontrar en la sede central son:\n\n Sistema informático (Ordenadores, impresoras, servidor/es, etc.)\n\n Sistema de climatización:\n\n-Formado por varios sistemas propiedad de Intecsa Industrial ,   ubicados en distintas salas de reuniones, e independientes del sistema general del edificio.\n\n Faxes, fotocopiadoras, etc.\n\n Sistema de iluminación (Fluorescentes y lámparas de diferentes potencias)\n\n Calentadores para el agua en los distintos servicios higiénicos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2.1. Puntos de consumo de energía eléctrica",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c1a69abb-647c-4149-bbab-0d9f7ae57b78",
+      "texto": "El consumo de energía eléctrica queda registrado en los distintos contadores parciales, para cada ala (derecha e izquierda), de las distintas plantas ocupadas por personal de Intecsa Industrial .\n\nLas facturas de la empresa suministradora correspondientes al menos a los últimos 24 meses, se custodian en el Servicio de Administración y Finanzas, que enviará copia al Servicio de RR.HH y Organización, para su introducción en la Intranet de Intecsa Industrial . Calidad y Medio Ambiente, a partir de estos datos mantiene un registro con lo siguiente:\n\n-Consumo medio de los últimos 12 meses",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2.2. Gestión de energía eléctrica",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ab9bf0c8-c70f-42d9-89cc-677fb39b6f06",
+      "texto": "-Variación porcentual sobre el consumo de igual periodo del año anterior.\n\nEn el caso de que este último dato supere el 20% de aumento, se iniciará una investigación por Calidad y Medio Ambiente para averiguar las causas. Si el consumo se considera justificado, no dará lugar a acciones posteriores, y si no es así, se establecerá una acción correctiva del desvío.\n\nAdemás se promueve el ahorro energético mediante las siguientes medidas:\n\n Las fotocopiadoras e impresoras disponen de un sistema de paso a bajo consumo cuando permanecen inactivas durante un tiempo determinado.\n\n El sistema de iluminación es individual para cada ala, y se maneja desde paneles situados en cada una de ellas.\n\nLa iluminación es conectada por las mañanas por los ordenanzas, al inicio de la jornada laboral, y es desconectada por la contrata de limpieza o los ordenanzas a su conclusión, salvo que por elevada carga de trabajo personal de Intecsa Industrial permanezca en el edificio mas tiempo. En éste caso corresponderá a éste personal el apagado de las luces.\n\n Cada persona es responsable de desconectar su PC al acabar su jornada laboral.\n\n Para optimizar el consumo energético de los equipos de aire acondicionado en las salas   de   reuniones   se   asegurará   que   los   termostatos   se   encuentren   lejos   de fuentes de calor (sol, lámparas, etc.) y se regularán siempre a una temperatura entre 20 y 22º C, desconectándose al acabar la reunión.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "PROCEDIMIENTO DE ACTIVIDADES DE OFICINA Y GESTIÓN DE RESIDUOS",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "27944fbc-a7d9-4638-9860-cb4865ab089c",
+      "texto": "-Variación porcentual sobre el consumo de igual periodo del año anterior.\n\nEn el caso de que este último dato supere el 20% de aumento, se iniciará una investigación por Calidad y Medio Ambiente para averiguar las causas. Si el consumo se considera justificado, no dará lugar a acciones posteriores, y si no es así, se establecerá una acción correctiva del desvío.\n\nAdemás se promueve el ahorro energético mediante las siguientes medidas:\n\n Las fotocopiadoras e impresoras disponen de un sistema de paso a bajo consumo cuando permanecen inactivas durante un tiempo determinado.\n\n El sistema de iluminación es individual para cada ala, y se maneja desde paneles situados en cada una de ellas.\n\nLa iluminación es conectada por las mañanas por los ordenanzas, al inicio de la jornada laboral, y es desconectada por la contrata de limpieza o los ordenanzas a su conclusión, salvo que por elevada carga de trabajo personal de Intecsa Industrial permanezca en el edificio mas tiempo.",
+      "nivel": "child",
+      "parent_id": "ab9bf0c8-c70f-42d9-89cc-677fb39b6f06",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "PROCEDIMIENTO DE ACTIVIDADES DE OFICINA Y GESTIÓN DE RESIDUOS",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "45cf0955-00cd-4e11-948d-c9eb097a6b4e",
+      "texto": "En éste caso corresponderá a éste personal el apagado de las luces.\n\n Cada persona es responsable de desconectar su PC al acabar su jornada laboral.\n\n Para optimizar el consumo energético de los equipos de aire acondicionado en las salas   de   reuniones   se   asegurará   que   los   termostatos   se   encuentren   lejos   de fuentes de calor (sol, lámparas, etc.) y se regularán siempre a una temperatura entre 20 y 22º C, desconectándose al acabar la reunión.",
+      "nivel": "child",
+      "parent_id": "ab9bf0c8-c70f-42d9-89cc-677fb39b6f06",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "PROCEDIMIENTO DE ACTIVIDADES DE OFICINA Y GESTIÓN DE RESIDUOS",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9ec4013e-00d6-4446-be64-e183e41ee68e",
+      "texto": "El consumo de agua potable está fuera del control de Intecsa Industrial , ya que las oficinas son alquiladas en un edificio compartido con otras empresas. El consumo de agua se contabiliza en un único contador general para todo el edificio, y se abona a prorrata.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3. CONSUMO DE AGUA POTABLE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "aef0dfeb-bc0c-42b8-8dac-193d1549293d",
+      "texto": "El sistema de acondicionamiento de aire es común para todo el edificio, y lo gestiona la propiedad de éste, al igual que el agua potable.\n\nLa propiedad limpia los filtros periódicamente. El Servicio de Prevención de Riesgos Laborales se encarga de comprobar periódicamente la calidad del aire, con objeto de controlar la aparición de unidades formadoras de colonias (U.F.C).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "4. SISTEMA DE ACONDICIONAMIENTO DE AIRE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "574dcff6-bc64-4501-afce-28e8cac22a25",
+      "texto": "El control del consumo de papel, por parte del personal de Intecsa Industrial , presenta gran   dificultad,   debido   principalmente   a   la   variedad   de   tipos   utilizados   y   la heterogeneidad de éstos.\n\nLos principales   flujos   de   papel   entrante   pertenecen   a   documentos   procedentes   de clientes, de proveedores, de contratistas, copias de documentos encargados a empresas externas (reprografía) y papel propio comprado mensualmente por el Servicio de RR.HH. y Organización.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "5. CONSUMO DE PAPEL",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5306eedf-67d3-4b08-9978-48be056d07d5",
+      "texto": "Como consecuencia de la existencia de estas fuentes y lo variable de su aportación, resulta prácticamente imposible cuantificar el consumo total, por lo que el control de éste consumo se centrará sobre el papel comprado, de cara a futuras mejoras.\n\nMensualmente el Servicio de RR.HH. y Organización, comunicará la cantidad de papel comprado a Calidad y Medio Ambiente, que mantendrá un registro de consumo.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTO DE ACTIVIDADES DE OFICINA Y GESTIÓN DE RESIDUOS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ea6bd22a-8d50-4782-a921-f6c12c249696",
+      "texto": "El Servicio de Sistemas de información compra los cartuchos de tóner para \"plotter\" de planos y para impresoras (blanco y negro o color). El Servicio de RR HH y Organización compra los cartuchos para fotocopiadoras.\n\nAmbos Servicios envían copia de los boletines de pedido a Calidad y Medio Ambiente, donde queda registrado el consumo de estos elementos. En el caso de cambio de tipo de tóner, capacidad del envase, etc, el Servicio correspondiente informará a Calidad y Medio Ambiente.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "6. CONSUMO DE TÓNER",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9838533a-fe57-4b35-9954-b488c3e44701",
+      "texto": "Los tipos de residuos generados se pueden considerar dentro de dos grupos, según que se produzcan de forma centralizada  por un Servicio de la empresa, o que se produzcan individualmente   y   el   personal   comienza   su   gestión   depositando   los   residuos selectivamente en el recipiente adecuado, como paso previo a la gestión posteriormente centralizada, tal y como se indica en el apartado 8 de este Procedimiento.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "7. TIPOS DE RESIDUOS GENERADOS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "70f8156f-432a-4bd6-8c7e-e4303918d0c3",
+      "texto": " Cartuchos y envases de tóner\n\n-Envases vacíos de tóner de fotocopiadora\n\n-Cartuchos vacíos de tóner de impresoras.\n\n-Envases vacíos de tóner de plotter\n\n Consumibles de electricidad\n\n-Tubos fluorescentes 18W/54-33\n\n-Tubos fluorescentes 36w/54-33\n\n-Lámpara dicroica 50 W/12V\n\n-Lámpara reflectora 63mm 60w/220V\n\n Residuos especiales de mantenimiento:\n\n-Botes   y   recipientes   con   restos   de   pintura,   disolvente,   lubricante,   colas, pegamentos, resina, barniz, etc.\n\n Residuos informáticos / ofimáticos:\n\n-Equipos ofimáticos obsoletos o estropeados, placas, monitores, teclados, etc.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "7.1. Residuos con recogida centralizada",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2a44e3fb-12dc-4254-8457-acdf22915896",
+      "texto": " Papeles y cartones usados",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "7.2. Residuos producidos individualmente",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "54189dc0-4284-4ca8-a465-4a8e7c6c5ae0",
+      "texto": "-Papel de tamaño entre A0 y A4, en general.\n\n-Papel y cartón procedentes de terceras partes.\n\n-Papel secamanos (bobinas de 180 m).\n\n-Embalajes procedentes de documentación recibida de proveedores, contratistas y/o clientes.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "PROCEDIMIENTO DE ACTIVIDADES DE OFICINA Y GESTIÓN DE RESIDUOS",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "64bbf253-3bab-407a-a318-cb52cb686b07",
+      "texto": "-Vasos y cucharillas de plástico\n\n-Metales, papel de aluminio\n\n-Plásticos de cualquier tipo\n\n Pilas normales y de botón",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": " Envases",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "61fe87b6-2b3e-479f-b68b-1fb4c0eaff11",
+      "texto": "-Restos de comida, posos de café y filtros, bolsas de té, colillas, etc.\n\n-Vendas, algodones y \"tiritas\" usadas, compresas, etc.\n\n-Papeles ensuciados al recoger vertidos, limpieza, etc.\n\n-Todo resto no incluido en los grupos anteriores.\n\nLa aparición de un nuevo tipo de residuo de oficina, de forma continuada o puntual, será comunicada por el responsable del departamento donde se genere, a Calidad y Medio Ambiente y gestionado por éste.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": " Residuos urbanos",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "703d9aa9-e63f-4177-95b8-a53879317c53",
+      "texto": "La gestión   de   los   residuos   generados   en   oficina   se   llevará   a   cabo   siguiendo   las siguientes instrucciones:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "8. GESTIÓN DE RESIDUOS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9042c0bb-8433-4748-9b27-1fae32d7bf0d",
+      "texto": "Cuando cualquier miembro del personal de Intecsa Industrial detecta la necesidad de sustitución   de   un   tóner   de   una   fotocopiadora   o   cartucho   de   fax,   lo   comunica inmediatamente al Servicio de RR.HH y Organización, que transmite la orden a los ordenanzas, encargados de la sustitución de éstos.\n\nLos ordenanzas retiran los envases vacíos y los depositan en un recipiente adecuado habilitado al afecto y claramente identificado (Tipo de residuo y fecha de inicio de almacenaje), situado en el Almacén de residuos especiales. El Suministrador recoge estos envases cuando entrega los nuevos, dando un justificante de la recogida. Una copia de este justificante se hace llegar a Calidad y Medio Ambiente para su registro.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "Envases vacíos de tóner para fotocopiadoras",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "43b0cff2-45cd-4082-b8d3-f7f811a42ea9",
+      "texto": "La compra y almacenamiento del tóner para los plotter de planos y para las impresoras es responsabilidad del Servicio de Sistemas de Información.\n\nCuando el personal detecta la necesidad de sustituir el tóner se pone en contacto con el Servicio de Sistemas de Información, que le suministra uno nuevo.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "Envases vacíos para tóner de plotter para planos y para impresoras",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "43187777-e8a8-4009-8773-ce62161bc519",
+      "texto": "La persona que sustituye el envase vacío, hace llegar éste al Servicio de Sistemas de Información.\n\nEste Servicio conserva los envases vacíos hasta su retirada por una empresa adecuada que entregará un recibo en el que se incluye el número de envases de tóner retirados, haciéndose llegar copia del mismo a Calidad y Medio Ambiente para su registro.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "PROCEDIMIENTO DE ACTIVIDADES DE OFICINA Y GESTIÓN DE RESIDUOS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "05bb0bf2-848b-4c79-ab9d-d439b3efe8c7",
+      "texto": "El   Servicio   de   RR.HH.   y   Organización   es   el   responsable   de   la   sustitución   de fluorescentes y cebadores, a requerimiento de cualquier empleado que detecte falta de funcionamiento.\n\nLos fluorescentes y cebadores retirados se almacenan en el almacén de residuos especiales durante un máximo de 6 meses, según lo estipulado por la legislación actual vigente, hasta su retirada por gestor autorizado (que entregará un justificante de ello).\n\nLos recipientes utilizados para su almacenamiento tienen un cartel identificativo del tipo de residuo y de la fecha de almacenaje del primer fluorescente/cebador, con el objetivo de controlar el tiempo máximo establecido por la ley.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "Fluorescentes y cebadores",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "eb38e973-f68d-41a4-a58c-05d9a8c1dcf3",
+      "texto": "Se gestionan según lo establecido para los residuos urbanos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "Resto de consumibles eléctricos (lámparas)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "af966f18-e721-4d7d-a969-2e94a7cfaa48",
+      "texto": "Éste   tipo   de   residuos   se   generan   como   consecuencia   de   las   operaciones   de mantenimiento  y   reparación   de   mobiliario,   estructuras,   etc.   llevadas   a   cabo   por   el servicio de mantenimiento.\n\nEl servicio de mantenimiento es el responsable de depositar este tipo de residuos en bidones   o   recipientes   adecuados   y   convenientemente   identificados,   situados   en   el almacén de residuos especiales, hasta su retirada por gestor de forma semejante a fluorescentes y cebadores.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "8.3. Residuos especiales de mantenimiento",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "021ed33a-a58d-4a82-bc07-9d4c28b14306",
+      "texto": "Son generados por el Servicio de Sistemas de Información, durante el mantenimiento de la red y de los equipos individuales, que los recoge y entrega al Servicio de RR.HH. y Organización para quedar depositados en   recipientes adecuados en el almacén de residuos especiales y se gestionan de forma semejante a fluorescentes y cebadores.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "8.4. Residuos informáticos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "92bb8793-9af1-4a9a-b1a5-b2ffc5c04570",
+      "texto": "Cada persona que genere papel o cartón usado, lo depositará en la papelera individual de su puesto de trabajo (que no es válida para depositar residuos de otros grupos), en las situadas en las salas de reuniones o en los recipientes azules situados junto a las fotocopiadoras (en los cuales el personal que realiza la limpieza diaria de las oficinas vaciará las papeleras) Periódicamente un gestor autorizado retirará el contenido de estos recipientes para su reciclaje, entregando mensualmente un certificado con el peso de papel gestionado.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "8.5. Papeles y cartones usados",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "10f5f4a0-b6c2-4656-b1c7-ee02b9d8f90c",
+      "texto": "Los envases se depositan en recipientes amarillos situados a tal efecto junto a las cafeteras, en las salas de reuniones y en otros dos o tres lugares en cada ala de las plantas de la oficina.\n\nEstos serán retirados por la contrata de limpieza, y depositados en los contenedores amarillos del Ayuntamiento de Madrid, destinados a la recogida selectiva de residuos de envases y embalajes.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "8.6. Envases",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "af60386c-5888-4512-8d15-231644484ab3",
+      "texto": "Una vez agotadas, cada usuario las deposita en recipientes especiales habilitados para su recogida situados en la planta 6ª, junto a las cafeteras.\n\nPeriódicamente RR.HH. y Organización recogerá estas pilas usadas y las guardará en el almacén   de   residuos   especiales;   cuando   excedan   de   30   kilogramos,   se   avisa   al Ayuntamiento de Madrid, que las recoge de forma gratuita y expide un acuse de recibo, del que hace llegar copia a Calidad y Medio Ambiente para su registro.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "8.7. Pilas normales y de botón",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4a88f9aa-cd9f-4378-9957-252d20279a5f",
+      "texto": "Se depositarán en los recipientes naranja, ubicados en las zonas de café y en los servicios higiénicos.\n\nLa contrata de limpieza será la encargada de retirar y depositar estos residuos en los contenedores municipales destinados a la recogida de restos orgánicos principalmente.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "8.8. Residuos urbanos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "100f07a1-b068-4b40-900c-0ecc032cc078",
+      "texto": "El anexo II a este procedimiento recoge el único riesgo ambiental que se puede originar en nuestras oficinas 'un incendio' y establece la forma de actuar en caso de producirse con objeto de prevenir la contaminación.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "9. RIESGOS AMBIENTALES EN LAS OFICINAS Y PLAN DE ACTUACIÓN",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6f677a3d-2f25-45af-8bcf-22a3653b78a4",
+      "texto": " Cumplimiento de las pautas recogidas en este Procedimiento, que afecten a su trabajo diario.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "Todo el personal de Intecsa Industrial",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e5095379-7750-4e55-a5ee-674c2329d421",
+      "texto": " Registro de la evolución del consumo eléctrico en general y de agua en las oficinas locales   e   investigación   en   caso   de   consumos   superiores   al   20%   del   valor correspondiente al año anterior para ese mismo periodo.\n\n Registro de consumo de papel.\n\n Diferentes registros de consumo de tóner en general.\n\n Registro de gestión de residuos especiales, por gestor autorizado.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "Jefe de Calidad y Medio Ambiente",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d266674f-dd36-4215-a232-7ab79c2bed8d",
+      "texto": " Mantenimiento de las relaciones contractuales con la empresa suministradora de energía eléctrica.\n\n Introduce en la Intranet copia de los recibos de consumo de electricidad y agua.\n\n Introduce   en   la   Intranet   copia   de   las   facturas   de   suministro   de   tóner   de fotocopiadoras y faxes.\n\n Introduce en la Intranet copia de las facturas de suministro del papel comprado mensualmente y de los certificados del gestor que retira el papel usado para su reciclaje.\n\n Controla del cumplimiento de los requisitos recogidos en éste procedimiento por parte de la contrata de limpieza.\n\n Mantiene en buen estado el Almacén de residuos especiales, tanto el estado de los recipientes, como la identificación de residuos.\n\n Gestiona fluorescentes, cebadores, envases vacíos de tóner para fotocopiadoras, pilas   normales   y   de   botón,   residuos   informáticos   y   residuos   especiales   de mantenimiento, de acuerdo con las instrucciones recogidas en este Procedimiento.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "Servicio de RR. HH.y Organización",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "515f24cf-73a8-4ee9-aa73-f0d1f07cc978",
+      "texto": " Mantenimiento de las relaciones contractuales con la empresa suministradora de energía eléctrica.\n\n Introduce en la Intranet copia de los recibos de consumo de electricidad y agua.\n\n Introduce   en   la   Intranet   copia   de   las   facturas   de   suministro   de   tóner   de fotocopiadoras y faxes.\n\n Introduce en la Intranet copia de las facturas de suministro del papel comprado mensualmente y de los certificados del gestor que retira el papel usado para su reciclaje.\n\n Controla del cumplimiento de los requisitos recogidos en éste procedimiento por parte de la contrata de limpieza.\n\n Mantiene en buen estado el Almacén de residuos especiales, tanto el estado de los recipientes, como la identificación de residuos.",
+      "nivel": "child",
+      "parent_id": "d266674f-dd36-4215-a232-7ab79c2bed8d",
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "Servicio de RR. HH.y Organización",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "95e8768a-a6d0-4a87-86fc-94cb6cd50146",
+      "texto": " Gestiona fluorescentes, cebadores, envases vacíos de tóner para fotocopiadoras, pilas   normales   y   de   botón,   residuos   informáticos   y   residuos   especiales   de mantenimiento, de acuerdo con las instrucciones recogidas en este Procedimiento.",
+      "nivel": "child",
+      "parent_id": "d266674f-dd36-4215-a232-7ab79c2bed8d",
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "Servicio de RR. HH.y Organización",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b189c23b-8c18-418a-a129-b08673a6a897",
+      "texto": " Envía a Calidad y Medio Ambiente copia de los formularios de suministro de tóner para impresoras y tóner para plotter.\n\n Gestiona cartuchos vacíos de tóner para impresoras, a través de empresa dedicada al reciclaje.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "Servicio de Sistemas de información",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "551c27b0-c40d-4d78-95bd-044f1f65f1b4",
+      "texto": " CARTUCHOS Y ENVASES DE TÓNER\n\n(AVISO A RR.HH Y ORGANIZACIÓN).\n\n-Envases vacíos de tóner para fotocopiadora\n\n CARTUCHOS Y ENVASES DE TÓNER (ENVIO A SISTEMAS DE INFORMACION).\n\n-Cartuchos vacíos de tóner para impresoras.\n\n-Envases vacíos de tóner para plotter\n\n CONSUMIBLES DE ELECTRICIDAD\n\n-Tubos fluorescentes\n\n CONSUMIBLES DE ELECTRICIDAD ASIMILABLES A URBANOS (RECIP. NARANJA)\n\n-Lámparas reflectoras\n\n RESIDUOS ESPECIALES DE MANTENIMIENTO\n\n(AVISO A RR.HH Y ORGANIZACIÓN)\n\n-Botes y recipientes con restos de pintura, disolvente, lubricante, colas, pegamentos, resina, barniz, etc.\n\n RESIDUOS INFORMÁTICOS:\n\n-Placas, monitores, teclados.\n\n PILAS NORMALES Y DE BOTÓN (RECIPIENTES ESPECIALES)\n\n PAPELES Y CARTONES USADOS (PAPELERA INDIVIDUAL, RECIPIENTES AZUL)\n\n-Papel de tamaño entre A0 y A4, en general.\n\n-Papel y cartón procedentes de terceras partes.\n\n-Embalajes procedentes de documentación recibida de proveedores, y/o clientes.\n\n ENVASES (RECIPIENTES AMARILLO)\n\n-Vasos y cucharillas de plástico\n\n-Briks de leche, latas de refrescos, etc\n\n-Metales, papel de aluminio.\n\n-Plásticos de cualquier tipo\n\n RESIDUOS URBANOS (RECIPIENTES NARANJA)\n\n-Restos de comida, posos de café y filtros, bolsas de té, colillas, etc.\n\n-Vendas, algodones y \"tiritas\" usadas, compresas, etc.\n\n-Papeles ensuciados al secarse las manos, recoger vertidos, etc.\n\n-Todo resto no incluido en los grupos anteriores.\n\n(AVISO A RR.HH Y ORGANIZACIÓN)\n\n(AVISO A RR.HH Y ORGANIZACIÓN).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "RESUMEN DE GESTION DE RESIDUOS EN LA SEDE CENTRAL",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1f331160-924a-4daf-8f7b-59be56785673",
+      "texto": " CARTUCHOS Y ENVASES DE TÓNER\n\n(AVISO A RR.HH Y ORGANIZACIÓN).\n\n-Envases vacíos de tóner para fotocopiadora\n\n CARTUCHOS Y ENVASES DE TÓNER (ENVIO A SISTEMAS DE INFORMACION).\n\n-Cartuchos vacíos de tóner para impresoras.\n\n-Envases vacíos de tóner para plotter\n\n CONSUMIBLES DE ELECTRICIDAD\n\n-Tubos fluorescentes\n\n CONSUMIBLES DE ELECTRICIDAD ASIMILABLES A URBANOS (RECIP. NARANJA)\n\n-Lámparas reflectoras\n\n RESIDUOS ESPECIALES DE MANTENIMIENTO\n\n(AVISO A RR.HH Y ORGANIZACIÓN)\n\n-Botes y recipientes con restos de pintura, disolvente, lubricante, colas, pegamentos, resina, barniz, etc.\n\n RESIDUOS INFORMÁTICOS:\n\n-Placas, monitores, teclados.",
+      "nivel": "child",
+      "parent_id": "551c27b0-c40d-4d78-95bd-044f1f65f1b4",
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "RESUMEN DE GESTION DE RESIDUOS EN LA SEDE CENTRAL",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "51fe2e13-7f44-4735-9db8-3a9a8eb1b665",
+      "texto": " PILAS NORMALES Y DE BOTÓN (RECIPIENTES ESPECIALES)\n\n PAPELES Y CARTONES USADOS (PAPELERA INDIVIDUAL, RECIPIENTES AZUL)\n\n-Papel de tamaño entre A0 y A4, en general.\n\n-Papel y cartón procedentes de terceras partes.\n\n-Embalajes procedentes de documentación recibida de proveedores, y/o clientes.\n\n ENVASES (RECIPIENTES AMARILLO)\n\n-Vasos y cucharillas de plástico\n\n-Briks de leche, latas de refrescos, etc\n\n-Metales, papel de aluminio.\n\n-Plásticos de cualquier tipo\n\n RESIDUOS URBANOS (RECIPIENTES NARANJA)\n\n-Restos de comida, posos de café y filtros, bolsas de té, colillas, etc.\n\n-Vendas, algodones y \"tiritas\" usadas, compresas, etc.\n\n-Papeles ensuciados al secarse las manos, recoger vertidos, etc.\n\n-Todo resto no incluido en los grupos anteriores.",
+      "nivel": "child",
+      "parent_id": "551c27b0-c40d-4d78-95bd-044f1f65f1b4",
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "RESUMEN DE GESTION DE RESIDUOS EN LA SEDE CENTRAL",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d9b3d1b6-1995-45d9-a310-b0974a652d80",
+      "texto": "-Todo resto no incluido en los grupos anteriores.\n\n(AVISO A RR.HH Y ORGANIZACIÓN)\n\n(AVISO A RR.HH Y ORGANIZACIÓN).",
+      "nivel": "child",
+      "parent_id": "551c27b0-c40d-4d78-95bd-044f1f65f1b4",
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "RESUMEN DE GESTION DE RESIDUOS EN LA SEDE CENTRAL",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "64e4eab5-0dfc-4d4e-9aa2-ca498af2b15b",
+      "texto": "DESCRIPCIÓN   DEL   INCIDENTE,   ACCIDENTE   O   SITUACIÓN   DE   EMERGENCIA   Y   ASPECTOS MEDIOAMBIENTALES ASOCIADOS:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "RIESGOS AMBIENTALES EN LAS OFICINAS Y PLAN DE ACTUACIÓN",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "66ff308a-b119-49d5-8f15-fab355c6f187",
+      "texto": "Cuando el incendio desborda la corta capacidad de respuesta de Intecsa Industrial , es cuando se pueden producir aspectos medioambientales significativos e importantes, sobre todo debido al gran volumen de residuos que pueden llegar a generarse.\n\n1.1.Vertido de aguas utilizadas en la extinción del incendio.\n\n1.2.Residuos generados por el incendio.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "1. INCENDIO",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9c121ea0-3007-45e8-8501-9f07d2805971",
+      "texto": "1.1.- El vertido de las aguas utilizadas en la extinción del incendio no merece la consideración de ningún tipo de medida especial de actuación, ya que no existen productos peligrosos en las oficinas y el aumento de caudal en la red de alcantarillado es perfectamente asumible por esta.\n\n1.2.La gestión de los residuos generados en el incendio se llevará a cabo de la siguiente forma:\n\n-La empresa o empresas contratadas agruparán los residuos según las siguientes categorías para llevar a cabo una gestión individualizada de cada una de ellas: Escombros y restos de materiales inertes, metales, tubos fluorescentes y restos de materiales orgánicos (madera, papel, cartón, etc.).\n\n-Todos estos residuos serán gestionados de acuerdo con la legislación vigente de la siguiente forma:\n\nEscombros y restos de materiales inertes se enviarán a depósito controlado de inertes.\n\nTubos   fluorescentes   se   entregarán   a   gestor   autorizado   de   residuos   peligrosos, siempre y cuando no hayan sido destruidos en el incendio.\n\nLos restos metálicos se destinarán a reciclaje (chatarra)\n\nLos restos de materiales orgánicos se enviarán a depósito controlado de este tipo de residuos.\n\n-La gestión de todos estos residuos se documentará de acuerdo con lo exigido por la legislación de aplicación.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "MEDIDAS DE ACTUACIÓN:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1d695dbd-57a1-40d8-8054-15d99188a0c7",
+      "texto": "1.1.- El vertido de las aguas utilizadas en la extinción del incendio no merece la consideración de ningún tipo de medida especial de actuación, ya que no existen productos peligrosos en las oficinas y el aumento de caudal en la red de alcantarillado es perfectamente asumible por esta.\n\n1.2.La gestión de los residuos generados en el incendio se llevará a cabo de la siguiente forma:\n\n-La empresa o empresas contratadas agruparán los residuos según las siguientes categorías para llevar a cabo una gestión individualizada de cada una de ellas: Escombros y restos de materiales inertes, metales, tubos fluorescentes y restos de materiales orgánicos (madera, papel, cartón, etc.).\n\n-Todos estos residuos serán gestionados de acuerdo con la legislación vigente de la siguiente forma:\n\nEscombros y restos de materiales inertes se enviarán a depósito controlado de inertes.",
+      "nivel": "child",
+      "parent_id": "9c121ea0-3007-45e8-8501-9f07d2805971",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "MEDIDAS DE ACTUACIÓN:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7363bd64-e30b-4cca-ad4e-9d71704a75d2",
+      "texto": "Tubos   fluorescentes   se   entregarán   a   gestor   autorizado   de   residuos   peligrosos, siempre y cuando no hayan sido destruidos en el incendio.\n\nLos restos metálicos se destinarán a reciclaje (chatarra)\n\nLos restos de materiales orgánicos se enviarán a depósito controlado de este tipo de residuos.\n\n-La gestión de todos estos residuos se documentará de acuerdo con lo exigido por la legislación de aplicación.",
+      "nivel": "child",
+      "parent_id": "9c121ea0-3007-45e8-8501-9f07d2805971",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "MEDIDAS DE ACTUACIÓN:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "256e7f1e-9cf6-4819-b7ea-91809f625ca3",
+      "texto": "1.2.- Corresponde al responsable de Recursos Humanos (Servicios generales) incluir, las medidas de actuación, en el contrato firmado con la empresa o empresas encargadas de la limpieza y restauración de las oficinas, controlar su cumplimiento, y exigir la documentación acreditativa de la gestión adecuada de cada uno de estos residuos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "FUNCIONES Y RESPONSABILIDADES:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "50c3f49a-e428-4de8-84e6-52a5bc19b669",
+      "texto": "Este anexo forma parte del procedimiento 9 incluido en el Portal para conocimiento general.\n\nEn las auditorias anuales al departamento de RRHH se comprobará el conocimiento de su contenido.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "REVISIONES DEL PLAN",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    }
+  ]
+}

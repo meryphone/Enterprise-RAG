@@ -63,6 +63,8 @@ Los documentos indexados pueden estar en **cualquier idioma** — se han identif
 | Frontend | Next.js + shadcn/ui | Azure Static Web Apps |
 | Parser de documentos | Docling | Docling |
 | Vision (opcional) | GPT-4o vía OpenAI API (`ENABLE_VISION=1`) | GPT-4o vía Azure OpenAI |
+| BM25 léxico | `rank-bm25` en memoria por colección | `rank-bm25` o BM25 nativo de Azure AI Search |
+| Reranker | Cohere Rerank API (`rerank-multilingual-v3.0`) | Cohere Rerank API (igual) |
 | Demo sin despliegue | ngrok | — |
 
 ### Decisiones clave
@@ -100,8 +102,9 @@ Query Router
   ├──► Scope: Global Intecsa   ─┐
   ├──► Scope: Proyecto/cliente ─┤──► Retrieval Engine
   └──► Scope: Multi-scope      ─┘        │
-                                         ├── Vector search + filtro metadatos
-                                         ├── Reranker (cross-encoder)
+                                         ├── Hybrid search (vector + BM25)
+                                         ├── Filtro de metadatos (tipo_doc, ...)
+                                         ├── Reranker (Cohere Rerank)
                                          └── Construcción de contexto con citas
                                                      │
                                                      ▼
@@ -188,9 +191,9 @@ Regla de fusión: si la imagen está en la misma página que el `ElementoProcesa
 
 ### Penalización de chunks de anexos
 
-Los chunks con `dentro_de_anexo=True` reciben un factor de penalización de 0.7 en el reranker. No se excluyen del retrieval pero son menos competitivos frente a chunks del cuerpo principal. El valor es calibrable con el banco de queries de prueba.
+Pendiente de implementación: los chunks con `dentro_de_anexo=True` recibirán un factor de penalización de 0.7 aplicado post-rerank sobre el score de Cohere. No se excluyen del retrieval pero son menos competitivos frente a chunks del cuerpo principal. El valor es calibrable con el banco de queries de prueba.
 
-El system prompt incluye la instrucción de indicarle al usuario cuando la información procede de un anexo.
+El system prompt incluirá la instrucción de indicarle al usuario cuando la información procede de un anexo.
 
 ### Hierarchical chunking
 
@@ -251,6 +254,76 @@ El campo `empresa` define el scope. El filtrado multi-scope se expresa como `emp
 
 ---
 
+## Pipeline de retrieval (Fase 1)
+
+Implementado en `backend/app/servicios/retrieval.py`. Función pública única: `recuperar(query, proyecto_id, empresa, tipo_doc, ...)`.
+
+### Pipeline MVP
+
+```
+query + scope (proyecto_id)
+  │
+  ├── 1. Vector search (ChromaDB, cosine, top-k=20)        ─┐
+  ├── 2. BM25 search   (rank-bm25, en memoria, top-k=20)   ─┤
+  │                                                          │
+  └──►  3. Fusión ponderada (min-max + 0.5/0.5)  ◄──────────┘
+             │
+             ├── 4. Filtro metadatos: scope (colección) + tipo_doc opcional
+             │
+             └──► 5. Rerank con Cohere (rerank-multilingual-v3.0) → top-n=5
+                         │
+                         ▼
+                    list[ChunkRecuperado]
+```
+
+### Hybrid search
+
+- **Vector:** embeddings `text-embedding-3-small` sobre children; distancia coseno; `col.query(n_results=top_k)`.
+- **BM25:** índice `rank-bm25` construido en memoria la primera vez que se consulta cada colección. Se cachea como singleton por proceso (`_cache_bm25`). Tokenización multilingüe: `\w+` en minúsculas. Tras indexar nuevos documentos hay que llamar a `invalidar_cache_bm25(coleccion)`.
+- **Fusión:** cada retriever normaliza sus scores min-max → [0,1] y se combinan con los pesos `RETRIEVAL_PESO_VECTOR` y `RETRIEVAL_PESO_BM25` del `.env` (default 0.5/0.5). Se conservan las top-k combinadas para pasar al rerank.
+
+### Filtrado por metadatos
+
+- **Scope obligatorio** — el scope (corpus global Intecsa o proyecto concreto) se expresa como la elección de colección ChromaDB; no es un filtro `where` sino la colección sobre la que se busca. Si `proyecto_id=None`, la colección es `intecsa`; si no, `{proyecto_id}_{empresa}`.
+- **`tipo_doc` opcional** — se aplica como cláusula `where` de Chroma en la consulta vectorial y como filtro post-hoc sobre los resultados de BM25. Casos típicos: `tipo_doc="procedimiento"` o `tipo_doc="anexo"`.
+
+### Reranking
+
+- **Modelo:** `rerank-multilingual-v3.0` (configurable vía `COHERE_RERANK_MODEL`). Soporta ES/EN/FR nativamente, necesario porque el corpus es multilingüe.
+- **Input:** `query` + los top-k textos fusionados (hasta 20).
+- **Output:** top-n chunks (default 5) con `relevance_score` entre 0 y 1 que sustituye al score de fusión.
+
+### Parámetros configurables (`.env`)
+
+| Variable | Default | Descripción |
+|---|---|---|
+| `RETRIEVAL_TOP_K` | 20 | Candidatos tras la fusión, antes del rerank |
+| `RETRIEVAL_TOP_N` | 5 | Chunks finales devueltos al orquestador |
+| `RETRIEVAL_PESO_VECTOR` | 0.5 | Peso de la señal vectorial en la fusión |
+| `RETRIEVAL_PESO_BM25` | 0.5 | Peso de la señal BM25 en la fusión |
+| `COHERE_API_KEY` | — | Clave de Cohere (obligatoria si se usa rerank) |
+| `COHERE_RERANK_MODEL` | `rerank-multilingual-v3.0` | Modelo de rerank |
+
+### Expansión a parents
+
+No está en el módulo de retrieval. Los `ChunkRecuperado` devueltos son children y exponen `parent_id` en sus metadatos; el orquestador de `/query` se encargará de hacer `get(ids=[parent_id])` sobre la colección `{nombre}__parents` para expandir el contexto antes de pasarlo al LLM. Los chunks de tabla (`parent_id=""`) se pasan tal cual al LLM sin expansión.
+
+### Fase 2 (pospuesta)
+
+Las siguientes técnicas se evaluarán tras medir la baseline y no están implementadas:
+
+- **Query rewriting** con GPT-4o-mini para clarificar queries vagas.
+- **Sentence window retrieval** para añadir contexto adyacente al chunk recuperado.
+- **Penalización de anexos** con factor × 0.7 sobre el score post-rerank.
+
+### Evaluación
+
+- **Métricas:** Recall@5, MRR, nDCG@5.
+- **Test set:** 50–100 pares `(query, ground_truth)` construidos a partir del corpus Intecsa.
+- **Enfoque:** baseline vector-only → añadir BM25 → añadir rerank → medir delta en cada paso para justificar cada técnica.
+
+---
+
 ## API (FastAPI)
 
 ### Endpoints planificados
@@ -296,7 +369,7 @@ Azure Static Web Apps con conexión directa a la API en Azure Container Apps.
 
 - Validar el pipeline con `ingest_test.py` (7 docs) antes de lanzar `ingest_all.py` sobre el corpus completo.
 - Documentar el umbral de confianza del router: hiperparámetro a calibrar con un banco de 20-30 queries con scope esperado.
-- El reranker opera sobre los top-K fragmentos. Modelo sugerido: `cross-encoder/ms-marco-MiniLM-L12-v2`. Los chunks con `dentro_de_anexo=True` reciben penalización × 0.7.
+- El reranker usa Cohere Rerank (`rerank-multilingual-v3.0`) sobre los top-K fragmentos fusionados. La penalización × 0.7 para chunks con `dentro_de_anexo=True` aún no está implementada — pendiente tras medir la baseline.
 - Para activar descripción de imágenes y extracción de metadatos de portada: `ENABLE_VISION=1` en `.env`. Requiere `OPENAI_API_KEY` válida.
 - Para demos sin despliegue: arrancar FastAPI y Next.js en local y exponer con ngrok para generar una URL pública accesible desde cualquier navegador.
 - La GTX 960M no puede ejecutar los modelos PyTorch de Docling (CUDA CC 5.0 < CC 7.5 mínimo). Docling corre en CPU. Esta restricción no existe en Azure.

@@ -41,6 +41,11 @@ _BATCH_SIZE = 100
 _chroma_client: chromadb.CloudClient | None = None
 
 
+def get_chroma() -> chromadb.CloudClient:
+    """Cliente ChromaDB compartido (singleton). Expuesto para otros servicios."""
+    return _get_chroma()
+
+
 def _get_chroma() -> chromadb.CloudClient:
     global _chroma_client
     if _chroma_client is None:
@@ -73,8 +78,13 @@ def nombre_coleccion(empresa: str, proyecto_id: str | None) -> str:
     return f"{proyecto_id}_{empresa.lower()}"
 
 
-def _coleccion_parents(nombre: str) -> str:
+def coleccion_parents(nombre: str) -> str:
+    """Nombre de la colección de parents asociada a una colección de children."""
     return f"{nombre}__parents"
+
+
+def _coleccion_parents(nombre: str) -> str:
+    return coleccion_parents(nombre)
 
 
 # ---------------------------------------------------------------------------

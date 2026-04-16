@@ -32,6 +32,12 @@ class Settings:
     chroma_api_key: str | None      # ChromaDB cloud API key
     chroma_tenant: str | None       # ChromaDB tenant ID
     chroma_database: str            # ChromaDB database name
+    cohere_api_key: str | None      # Cohere API key para rerank
+    cohere_rerank_model: str        # modelo de rerank (multilingüe)
+    retrieval_top_k: int            # candidatos tras fusión híbrida
+    retrieval_top_n: int            # resultados finales tras rerank
+    retrieval_peso_vector: float    # peso de la señal vectorial en la fusión
+    retrieval_peso_bm25: float      # peso de la señal BM25 en la fusión
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -48,6 +54,12 @@ class Settings:
             chroma_api_key=os.getenv("CHROMA_API_KEY") or None,
             chroma_tenant=os.getenv("CHROMA_TENANT") or None,
             chroma_database=os.getenv("CHROMA_DATABASE", "default"),
+            cohere_api_key=os.getenv("COHERE_API_KEY") or None,
+            cohere_rerank_model=os.getenv("COHERE_RERANK_MODEL", "rerank-multilingual-v3.0"),
+            retrieval_top_k=int(os.getenv("RETRIEVAL_TOP_K", "20")),
+            retrieval_top_n=int(os.getenv("RETRIEVAL_TOP_N", "5")),
+            retrieval_peso_vector=float(os.getenv("RETRIEVAL_PESO_VECTOR", "0.5")),
+            retrieval_peso_bm25=float(os.getenv("RETRIEVAL_PESO_BM25", "0.5")),
         )
 
 

@@ -1,22 +1,22 @@
 {
-  "doc_id": "70a29ddf548f4264b75ba1503f18b53a",
+  "doc_id": "17d34b03dfcd4040bc551aef15be4c52",
   "nombre_fichero": "13187-IT-01.pdf",
   "metadatos_admin": {
     "empresa": "repsol",
     "proyecto_id": "13187",
-    "tipo_doc": "procedimiento",
-    "idioma": "es"
+    "tipo_doc": "instruccion_trabajo",
+    "idioma": "es",
+    "anexo_de": null
   },
-  "metadatos_portada": {
-    "codigo_documento": null,
+  "metadatos_documento": {
+    "titulo": "INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA",
     "edicion": null,
-    "fecha_edicion": null,
-    "titulo_documento": "INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO 13187-REPSOL YPF LA PAMPILLA"
+    "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-15T18:19:31+00:00",
+  "fecha_ingesta": "2026-04-16T18:34:29+00:00",
   "chunks": [
     {
-      "chunk_id": "fe8a0226-6a10-4866-a3c6-afe0a0e84468",
+      "chunk_id": "5ca9cadd-5b64-45d3-b81a-76cba599fb44",
       "texto": "Este documento tiene por objeto describir el procedimiento de aportación y acceso de documentos de proyecto al portal de IUI para el proyecto de 13187 - REPSOL YPF LA PAMPILLA.",
       "nivel": "parent",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0ca18e52-0ad1-43ac-bcdd-03e4dacbe515",
+      "chunk_id": "f1c79ce9-65e1-471e-9ef1-980cf5b7baa3",
       "texto": "Intecsa-Uhde dispone de un Portal de Intranet en el que se aporten contenidos para su uso en toda la organización permitiéndonos definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad .\n\nSe ha creado una Intranet del proyecto donde se compartirán todos los documentos e información del proyecto. En esta Intranet existe, para cada actividad, un área gestionada por el responsable de cada actividad",
       "nivel": "parent",
       "parent_id": null,
@@ -46,7 +46,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0f3829cf-130d-4c61-980e-58fbe6ef24e3",
+      "chunk_id": "1178f164-9314-4acf-b239-25f4ae753adf",
       "texto": "Para poder incluir documentos al portal, el usuario debe tener los permisos adecuados gestionados   por Gestión del   Conocimiento .   De   este   modo   se   garantiza   que   los contenidos se hagan con control y garantía de calidad.",
       "nivel": "parent",
       "parent_id": null,
@@ -61,7 +61,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b52583e6-8082-4117-a8cb-d77061951e2b",
+      "chunk_id": "e146327c-4533-41e3-a08a-3006dd967e11",
       "texto": "La idea básica de un portal está centrada en compartir conocimiento con toda la organización y por tanto, el acceso debe ser lo más amplio posible .   No obstante, queda garantizada la confidencialidad de los documentos con total flexibilidad según requisitos que especifique el proyecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -76,8 +76,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9462bfd8-7a6b-450c-a04f-d0eced138e3c",
-      "texto": "Como vimos anteriormente la inclusión de documentos del Proyecto se hace a través del Portal de IUI al cual tendrá acceso a través de la Intranet el equipo de proyecto, en este caso la Joint Venture constituida a tal efecto.\n\nSin embargo para el acceso a esta información tenemos una estructura más amplia en función de las necesidades del proyecto:\n\n Acceso vía Intranet : además de aportar contenidos a la base documental la estructura de permisos permite tener un acceso selectivo a los documentos del proyecto protegiendo la confidencialidad de los documentos de carácter privado o restringido. Este punto quedará más claro al explicar la estructura de permisos.\n\n Acceso vía Internet : la organización de Intecsa Uhde para el comercio electrónico define dos accesos diferenciados:\n\no Centro de Negocios. Es un acceso para que los proveedores autorizados accedan a las peticiones de oferta generadas o bien a las ofertas ya adjudicadas de manera que tengan un acceso rápido y actualizado a la documentación necesria para sus ofertas.\n\no Proyecto en Colaboración. Se pone a disposición a través de Internet la información que sea necesaria con una estructura de permisos que permite el acceso a los documentos ya aprobados.\n\n[Descripción visual: **Diagrama o Esquema Técnico**\n\nEste es un diagrama de flujo que representa la estructura de acceso y copia de datos en un entorno de proyectos de colaboración.\n\n**Descripción de componentes y conexiones:**\n\n1. **Acceso vía INTRANET:**\n   - **Conectado a:** Equipo de Proyecto, Joint Venture\n   - **Función:** Permite acceso a la intranet para el equipo involucrado en el joint venture.\n\n2. **Copia diaria de contenidos:**\n   - **Conexión hacia:** Acceso vía INTERNET\n   - **Función:** Indica que se realiza una copia diaria del contenido de la intranet hacia el sistema accesible por Internet.\n\n3. **Acceso vía INTERNET:**\n   - **Conectado a:** \n     - **Proveedores**\n     - **Socios**\n     - **Cliente**\n     - **Obra**\n   - **Función:** Permite acceso a los sistemas de colaboración online para los diferentes participantes del proyecto.\n\n4. **Proyecto en Colaboración:**\n   - Se entiende como el núcleo donde se gestionan las interacciones y el flujo de información entre los diferentes actores mencionados (proveedores, socios, cliente, obra).\n\n5. **Interacciones posibles:**\n   - Bidireccionales entre el sistema del proyecto y cada uno de los componentes conectados.\n\n**Texto presente en la imagen:**\n\n- \"Acceso vía INTRANET\"\n- \"Equipo de Proyecto\"\n- \"Joint Venture\"\n- \"Copia diaria de contenidos\"\n- \"Acceso vía INTERNET\"\n- \"Proveedores\"\n- \"Socios\"\n- \"Cliente\"\n- \"Obra\"\n- \"Proyecto en Colaboración\"\n\nEste diagrama es usado para entender cómo se gestiona y distribuye la información en un proyecto colaborativo entre diferentes entidades a través de sistemas internos y externos.]",
+      "chunk_id": "9baa80b5-c596-4a78-aa00-56cbd1e7f162",
+      "texto": "Como vimos anteriormente la inclusión de documentos del Proyecto se hace a través del Portal de IUI al cual tendrá acceso a través de la Intranet el equipo de proyecto, en este caso la Joint Venture constituida a tal efecto.\n\nSin embargo para el acceso a esta información tenemos una estructura más amplia en función de las necesidades del proyecto:\n\n Acceso vía Intranet : además de aportar contenidos a la base documental la estructura de permisos permite tener un acceso selectivo a los documentos del proyecto protegiendo la confidencialidad de los documentos de carácter privado o restringido. Este punto quedará más claro al explicar la estructura de permisos.\n\n Acceso vía Internet : la organización de Intecsa Uhde para el comercio electrónico define dos accesos diferenciados:\n\no Centro de Negocios. Es un acceso para que los proveedores autorizados accedan a las peticiones de oferta generadas o bien a las ofertas ya adjudicadas de manera que tengan un acceso rápido y actualizado a la documentación necesria para sus ofertas.\n\no Proyecto en Colaboración. Se pone a disposición a través de Internet la información que sea necesaria con una estructura de permisos que permite el acceso a los documentos ya aprobados.\n\n[Descripción visual: **DIAGRAMA O ESQUEMA TÉCNICO**\n\n- **Descripción del Diagrama**: \n  - Representa un flujo de acceso y distribución de contenido entre diferentes partes interesadas mediante intranet e internet.\n  \n- **Componentes y Nodos Visibles**:\n  - **Acceso vía INTRANET**:\n    - Conectado al **EQUIPO DE PROYECTO JOINT VENTURE**.\n  - **Acceso vía INTERNET**:\n    - Nodo central etiquetado como **PROYECTO EN COLABORACIÓN**.\n    - Relacionado con:\n      - **PROVEEDORES**\n      - **SOCIOS**\n      - **CLIENTE**\n      - **OBRA** \n    - Todas estas relaciones están vinculadas con **JOINT VENTURE**.\n\n- **Conexiones y Relaciones**:\n  - Una flecha indica que hay una **Copia diaria de contenidos** desde el nodo de intranet hacia el nodo de internet.\n  - Las demás conexiones son bidireccionales, indicando interacción entre **PROYECTO EN COLABORACIÓN** y los otros componentes externos.\n\n- **Texto y Etiquetas en el Diagrama**:\n  - Acceso y transferencia de información gestionada mediante \"INTRANET\" y \"INTERNET\".\n  - Múltiples interesados colaboran y reciben contenidos relacionados a un proyecto conjunto (\"JOINT VENTURE\").\n\nEste diagrama ilustra cómo las diferentes partes están interconectadas y la metodología de acceso a contenido para la gestión de un proyecto colaborativo.]",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 3,
@@ -92,10 +92,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "192181d0-caf9-4e2a-801a-49dc5db0635a",
+      "chunk_id": "4b8e0ae2-5bcc-492e-91be-e961eb27f5b1",
       "texto": "Como vimos anteriormente la inclusión de documentos del Proyecto se hace a través del Portal de IUI al cual tendrá acceso a través de la Intranet el equipo de proyecto, en este caso la Joint Venture constituida a tal efecto.\n\nSin embargo para el acceso a esta información tenemos una estructura más amplia en función de las necesidades del proyecto:\n\n Acceso vía Intranet : además de aportar contenidos a la base documental la estructura de permisos permite tener un acceso selectivo a los documentos del proyecto protegiendo la confidencialidad de los documentos de carácter privado o restringido. Este punto quedará más claro al explicar la estructura de permisos.\n\n Acceso vía Internet : la organización de Intecsa Uhde para el comercio electrónico define dos accesos diferenciados:\n\no Centro de Negocios. Es un acceso para que los proveedores autorizados accedan a las peticiones de oferta generadas o bien a las ofertas ya adjudicadas de manera que tengan un acceso rápido y actualizado a la documentación necesria para sus ofertas.\n\no Proyecto en Colaboración.",
       "nivel": "child",
-      "parent_id": "9462bfd8-7a6b-450c-a04f-d0eced138e3c",
+      "parent_id": "9baa80b5-c596-4a78-aa00-56cbd1e7f162",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "3. ESTRUCTURA DE ACCESO A LOS DOCUMENTOS DEL PROYECTO 13187 REPSOL YPF LA PAMPILLA",
@@ -108,10 +108,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1eab3c64-1e49-480a-8d04-93941665a29c",
-      "texto": "o Proyecto en Colaboración. Se pone a disposición a través de Internet la información que sea necesaria con una estructura de permisos que permite el acceso a los documentos ya aprobados.\n\n[Descripción visual: **Diagrama o Esquema Técnico**\n\nEste es un diagrama de flujo que representa la estructura de acceso y copia de datos en un entorno de proyectos de colaboración.\n\n**Descripción de componentes y conexiones:**\n\n1. **Acceso vía INTRANET:**\n   - **Conectado a:** Equipo de Proyecto, Joint Venture\n   - **Función:** Permite acceso a la intranet para el equipo involucrado en el joint venture.\n\n2. **Copia diaria de contenidos:**\n   - **Conexión hacia:** Acceso vía INTERNET\n   - **Función:** Indica que se realiza una copia diaria del contenido de la intranet hacia el sistema accesible por Internet.\n\n3.",
+      "chunk_id": "f8a13bfd-2012-4f66-acfd-824ff21e36bc",
+      "texto": "o Proyecto en Colaboración. Se pone a disposición a través de Internet la información que sea necesaria con una estructura de permisos que permite el acceso a los documentos ya aprobados.\n\n[Descripción visual: **DIAGRAMA O ESQUEMA TÉCNICO**\n\n- **Descripción del Diagrama**: \n  - Representa un flujo de acceso y distribución de contenido entre diferentes partes interesadas mediante intranet e internet.\n  \n- **Componentes y Nodos Visibles**:\n  - **Acceso vía INTRANET**:\n    - Conectado al **EQUIPO DE PROYECTO JOINT VENTURE**.\n  - **Acceso vía INTERNET**:\n    - Nodo central etiquetado como **PROYECTO EN COLABORACIÓN**.\n    - Relacionado con:\n      - **PROVEEDORES**\n      - **SOCIOS**\n      - **CLIENTE**\n      - **OBRA** \n    - Todas estas relaciones están vinculadas con **JOINT VENTURE**.",
       "nivel": "child",
-      "parent_id": "9462bfd8-7a6b-450c-a04f-d0eced138e3c",
+      "parent_id": "9baa80b5-c596-4a78-aa00-56cbd1e7f162",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "3. ESTRUCTURA DE ACCESO A LOS DOCUMENTOS DEL PROYECTO 13187 REPSOL YPF LA PAMPILLA",
@@ -124,10 +124,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f47c923d-b814-4e49-aee2-daef4d340e07",
-      "texto": "3. **Acceso vía INTERNET:**\n   - **Conectado a:** \n     - **Proveedores**\n     - **Socios**\n     - **Cliente**\n     - **Obra**\n   - **Función:** Permite acceso a los sistemas de colaboración online para los diferentes participantes del proyecto.\n\n4. **Proyecto en Colaboración:**\n   - Se entiende como el núcleo donde se gestionan las interacciones y el flujo de información entre los diferentes actores mencionados (proveedores, socios, cliente, obra).\n\n5. **Interacciones posibles:**\n   - Bidireccionales entre el sistema del proyecto y cada uno de los componentes conectados.",
+      "chunk_id": "0d8063a1-9f7c-47ae-be40-7442210c9330",
+      "texto": "- **Conexiones y Relaciones**:\n  - Una flecha indica que hay una **Copia diaria de contenidos** desde el nodo de intranet hacia el nodo de internet.\n  - Las demás conexiones son bidireccionales, indicando interacción entre **PROYECTO EN COLABORACIÓN** y los otros componentes externos.\n\n- **Texto y Etiquetas en el Diagrama**:\n  - Acceso y transferencia de información gestionada mediante \"INTRANET\" y \"INTERNET\".\n  - Múltiples interesados colaboran y reciben contenidos relacionados a un proyecto conjunto (\"JOINT VENTURE\").\n\nEste diagrama ilustra cómo las diferentes partes están interconectadas y la metodología de acceso a contenido para la gestión de un proyecto colaborativo.]",
       "nivel": "child",
-      "parent_id": "9462bfd8-7a6b-450c-a04f-d0eced138e3c",
+      "parent_id": "9baa80b5-c596-4a78-aa00-56cbd1e7f162",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "3. ESTRUCTURA DE ACCESO A LOS DOCUMENTOS DEL PROYECTO 13187 REPSOL YPF LA PAMPILLA",
@@ -140,23 +140,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ff4ebd54-4c15-4ec6-8f74-1ce50ede4cfe",
-      "texto": "**Texto presente en la imagen:**\n\n- \"Acceso vía INTRANET\"\n- \"Equipo de Proyecto\"\n- \"Joint Venture\"\n- \"Copia diaria de contenidos\"\n- \"Acceso vía INTERNET\"\n- \"Proveedores\"\n- \"Socios\"\n- \"Cliente\"\n- \"Obra\"\n- \"Proyecto en Colaboración\"\n\nEste diagrama es usado para entender cómo se gestiona y distribuye la información en un proyecto colaborativo entre diferentes entidades a través de sistemas internos y externos.]",
-      "nivel": "child",
-      "parent_id": "9462bfd8-7a6b-450c-a04f-d0eced138e3c",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "3. ESTRUCTURA DE ACCESO A LOS DOCUMENTOS DEL PROYECTO 13187 REPSOL YPF LA PAMPILLA",
-      "tipos_elemento": [
-        "NarrativeText",
-        "ListItem"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": false,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "12b5b91f-7320-4159-9d72-8dc55c1e6099",
+      "chunk_id": "b19534ed-f56e-4b03-96f3-bab70fb0fa93",
       "texto": "Toda la documentación de proyecto deberá formar parte del Portal sin excepciones.\n\nEstá incluirá, pero no se limitará, a: Especificaciones, Estándares, RM's, Hojas de datos, Planos, etc.\n\nLas instrucciones para importar documentos las podemos encontrar en el manual editado por Gestión del Conocimiento: INCORPORAR DOCUMENTOS AL PORTAL\n\nNOTA: Para acceder directamente al documento a través de este enlace deberá estar previamente trabajando en el portal (Haber hecho log in previamente)\n\nUn documento de proyecto que se edite (en papel) deberá ser firmado de acuerdo al plan de calidad del proyecto. Previamente al envío del documento para su aprobación en papel se incluirá éste en el portal por el especialista que lo genera y lanzará el WORKFLOW de registro   de   aprobación (Ver 13187-IT-02 INSTRUCCIONES   DE   CONTROL   DE DOCUMENTOS EN EL PORTAL PARA EL PROYECTO 13187 - REPSOL La Pampilla )",
       "nivel": "parent",
       "parent_id": null,
@@ -171,7 +155,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "56607f4a-80be-47fa-88fd-45d887256633",
+      "chunk_id": "b618b02a-2a14-4ba6-a442-248ab13bbb39",
       "texto": "En Documentum ,   los   usuarios   están   organizados   según   grupos   de   manera   que   los permisos (ACL'S) consisten en asignar a cada grupo de usuarios los privilegios que se les desee conceder.\n\nEn cuanto a la actualización de los usuarios participantes en el proyecto será la dirección del mismo quien comunique a Gestión del Conocimiento si se producen altas o bajas dentro del proyecto, indicando en el caso de las altas la amplitud del acceso que debe tener el usuario, es decir, en qué grupo debe ser incluido.\n\nAsimismo la dirección de proyecto se pondrá en contacto con Gestión del Conocimiento ante necesidades de nuevos permisos o de modificación de los existentes.",
       "nivel": "parent",
       "parent_id": null,
@@ -186,7 +170,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "399404f1-48fb-4be6-b7e2-4686ccfd6806",
+      "chunk_id": "5f979c83-521d-4be9-90c0-2e8bb86e5086",
       "texto": " proy_pampilla_civil, aplicable   a   documentos   generados   por   el   departamento   de arquitectura y civil.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de arquitectura y civil.\n\n proy_pampilla_compras, aplicable a documentos generados en compras de carácter no restringido.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de compras.\n\n proy_pampilla_compras_priv, aplicable a documento generados en el departamento de compras de carácter privado, es decir, las tabulaciones económicas.\n\nDesde la intranet permite  LEER  a la dirección de proyecto, los jefes de departamento y al responsable de costes y MODIFICAR al departamento de compras\n\n proy_pampilla_compras_rest, aplicable a los documentos generados en compras de carácter restringido, es decir, los relativos a pedidos.\n\nDesde la intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta y MODIFICAR al departamento de compras.\n\n proy_pampilla_construc, aplicable   a   documentos   generados   en   construcción   de carácter no restringido.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de construcción.\n\n proy_pampilla_construc_priv, aplicable a documento generados en el departamento de construcción de carácter privado, es decir, las tabulaciones económicas.\n\nDesde la intranet permite  LEER  a la dirección de proyecto, los jefes de departamento y al responsable de costes y MODIFICAR al departamento de construcción\n\n proy_pampilla_construc_rest, aplicable a los documentos generados en construcción de carácter restringido, es decir, los relativos a pedidos.\n\nDesde la intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta y MODIFICAR al departamento de construcción.\n\n proy_pampilla_dinamicos, aplicable a documentos generados en el departamento de equipos dinámicos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de equipos dinámicos\n\n proy_pampilla_elecinstr, aplicable a documentos generados en los departamentos de electricidad e instrumentación\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de los departamentos de electricidad e instrumentación\n\n proy_pampilla_estaticos, aplicable a documentos generados en el departamento de equipos estáticos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de equipos estáticos.\n\n proy_pampilla_hornos, aplicable a documentos generados en el equipo de hornos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del equipo de hornos.\n\n proy_pampilla_interno_iui, aplicable   a   documentos   generados   en   el   proyecto   que solamente son accesibles por el grupo de proyecto de Intecsa Uhde, s.a.\n\nDesde la Intranet permite LEER al grupo de proyecto de IUI y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_interno_jv, aplicable a documentos generados en el proyecto que son accesibles a todo el grupo de la Joint Venture\n\nDesde la Intranet permite LEER a todo el grupo de la Joint Venture y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_lectura, aplicable a documentos accesibles para todos los usuarios del proyecto que sólo modifica el propietario.\n\nDesde la Intranet permite LEER a toda IUI y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_materiales, aplicable a documentos generados en el departamento de materiales.",
       "nivel": "parent",
       "parent_id": null,
@@ -202,10 +186,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7f4c5c15-13d4-4109-a364-09cbc35e6b1f",
+      "chunk_id": "5e7ab7dc-84e7-4783-a1fc-8b59b688b351",
       "texto": " proy_pampilla_civil, aplicable   a   documentos   generados   por   el   departamento   de arquitectura y civil.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de arquitectura y civil.\n\n proy_pampilla_compras, aplicable a documentos generados en compras de carácter no restringido.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de compras.\n\n proy_pampilla_compras_priv, aplicable a documento generados en el departamento de compras de carácter privado, es decir, las tabulaciones económicas.",
       "nivel": "child",
-      "parent_id": "399404f1-48fb-4be6-b7e2-4686ccfd6806",
+      "parent_id": "5f979c83-521d-4be9-90c0-2e8bb86e5086",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -218,10 +202,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "784cddf0-9338-4165-aca5-f179f0add4a6",
+      "chunk_id": "945a15f9-26bc-4d7f-ac6c-b6f22bd68846",
       "texto": "Desde la intranet permite  LEER  a la dirección de proyecto, los jefes de departamento y al responsable de costes y MODIFICAR al departamento de compras\n\n proy_pampilla_compras_rest, aplicable a los documentos generados en compras de carácter restringido, es decir, los relativos a pedidos.\n\nDesde la intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta y MODIFICAR al departamento de compras.\n\n proy_pampilla_construc, aplicable   a   documentos   generados   en   construcción   de carácter no restringido.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de construcción.\n\n proy_pampilla_construc_priv, aplicable a documento generados en el departamento de construcción de carácter privado, es decir, las tabulaciones económicas.",
       "nivel": "child",
-      "parent_id": "399404f1-48fb-4be6-b7e2-4686ccfd6806",
+      "parent_id": "5f979c83-521d-4be9-90c0-2e8bb86e5086",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -234,10 +218,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4c0ce88d-019c-49a8-b875-4615ef9ac3a2",
+      "chunk_id": "36237a8d-e786-42ab-adef-88dc9a379927",
       "texto": "Desde la intranet permite  LEER  a la dirección de proyecto, los jefes de departamento y al responsable de costes y MODIFICAR al departamento de construcción\n\n proy_pampilla_construc_rest, aplicable a los documentos generados en construcción de carácter restringido, es decir, los relativos a pedidos.\n\nDesde la intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta y MODIFICAR al departamento de construcción.\n\n proy_pampilla_dinamicos, aplicable a documentos generados en el departamento de equipos dinámicos.",
       "nivel": "child",
-      "parent_id": "399404f1-48fb-4be6-b7e2-4686ccfd6806",
+      "parent_id": "5f979c83-521d-4be9-90c0-2e8bb86e5086",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -250,10 +234,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "64269c61-cdc5-4158-8a22-f6e036c11e5e",
+      "chunk_id": "ef5a5e49-d156-442a-bd9f-9e166b17f5a4",
       "texto": "Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de equipos dinámicos\n\n proy_pampilla_elecinstr, aplicable a documentos generados en los departamentos de electricidad e instrumentación\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de los departamentos de electricidad e instrumentación\n\n proy_pampilla_estaticos, aplicable a documentos generados en el departamento de equipos estáticos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de equipos estáticos.\n\n proy_pampilla_hornos, aplicable a documentos generados en el equipo de hornos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del equipo de hornos.",
       "nivel": "child",
-      "parent_id": "399404f1-48fb-4be6-b7e2-4686ccfd6806",
+      "parent_id": "5f979c83-521d-4be9-90c0-2e8bb86e5086",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -266,10 +250,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e5a2a0ca-fca7-46a2-8466-0d1fc83112ae",
+      "chunk_id": "28cf4270-efeb-4fb6-a55d-ccc944e1ced5",
       "texto": " proy_pampilla_interno_iui, aplicable   a   documentos   generados   en   el   proyecto   que solamente son accesibles por el grupo de proyecto de Intecsa Uhde, s.a.\n\nDesde la Intranet permite LEER al grupo de proyecto de IUI y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_interno_jv, aplicable a documentos generados en el proyecto que son accesibles a todo el grupo de la Joint Venture\n\nDesde la Intranet permite LEER a todo el grupo de la Joint Venture y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_lectura, aplicable a documentos accesibles para todos los usuarios del proyecto que sólo modifica el propietario.\n\nDesde la Intranet permite LEER a toda IUI y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_materiales, aplicable a documentos generados en el departamento de materiales.",
       "nivel": "child",
-      "parent_id": "399404f1-48fb-4be6-b7e2-4686ccfd6806",
+      "parent_id": "5f979c83-521d-4be9-90c0-2e8bb86e5086",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -282,7 +266,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "142856d8-9149-4fc7-9116-453b5dd9aad7",
+      "chunk_id": "0d235deb-ec87-498a-ac4f-77efe1ff4319",
       "texto": "Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de materiales.\n\n proy_pampilla_operaciones, aplicable   a   documentos   incorporados   por   operaciones (p.e. la Ingeniería Básica, especificaciones de repsol,...)\n\nDesde la Intranet permite LEER a toda IUI y MODIFICAR únicamente al grupo de operaciones.\n\n proy_pampilla_privado, aplicable a documentos relativos a costes.\n\nDesde la Intranet permite LEER a la dirección de proyecto, los jefes de departamento y el responsable de costes.\n\n proy_pampilla_procesos, aplicable a documentos generados en el departamento de procesos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de procesos.\n\n proy_pampilla_restringido, aplicable a documentos relativos a pedidos o informes de progreso.\n\nDesde la Intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta.\n\n proy_pampilla_sci, aplicable a documentos generados en el equipo de Sistemas Contra Incendios\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del grupo de Sistemas Contra Incendios.\n\n proy_pampilla_soportes, aplicable a documentos generados en el grupo de Esfuerzos y Soportes\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del grupo de Esfuerzos y Soportes.\n\n proy_pampilla_tuberías, aplicable a documentos generados en el departamento de tuberías.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de tuberías.\n\nLa   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc",
       "nivel": "parent",
       "parent_id": null,
@@ -298,10 +282,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6f940bb5-b1df-438c-aaeb-45defe41b58b",
+      "chunk_id": "86a3c89a-287d-4d98-add2-dea0afba9af5",
       "texto": "Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de materiales.\n\n proy_pampilla_operaciones, aplicable   a   documentos   incorporados   por   operaciones (p.e. la Ingeniería Básica, especificaciones de repsol,...)\n\nDesde la Intranet permite LEER a toda IUI y MODIFICAR únicamente al grupo de operaciones.\n\n proy_pampilla_privado, aplicable a documentos relativos a costes.\n\nDesde la Intranet permite LEER a la dirección de proyecto, los jefes de departamento y el responsable de costes.\n\n proy_pampilla_procesos, aplicable a documentos generados en el departamento de procesos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de procesos.\n\n proy_pampilla_restringido, aplicable a documentos relativos a pedidos o informes de progreso.",
       "nivel": "child",
-      "parent_id": "142856d8-9149-4fc7-9116-453b5dd9aad7",
+      "parent_id": "0d235deb-ec87-498a-ac4f-77efe1ff4319",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -314,10 +298,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d5c7b8ff-df6e-42b3-bcf2-85c588ab6d18",
+      "chunk_id": "5c807098-3b02-426d-bb78-7e6da5e3aa12",
       "texto": "Desde la Intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta.\n\n proy_pampilla_sci, aplicable a documentos generados en el equipo de Sistemas Contra Incendios\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del grupo de Sistemas Contra Incendios.\n\n proy_pampilla_soportes, aplicable a documentos generados en el grupo de Esfuerzos y Soportes\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del grupo de Esfuerzos y Soportes.\n\n proy_pampilla_tuberías, aplicable a documentos generados en el departamento de tuberías.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de tuberías.",
       "nivel": "child",
-      "parent_id": "142856d8-9149-4fc7-9116-453b5dd9aad7",
+      "parent_id": "0d235deb-ec87-498a-ac4f-77efe1ff4319",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -330,10 +314,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4e20387c-0b11-4c9b-99b2-27ac5d05ffb5",
+      "chunk_id": "887be465-025d-47d3-b1bf-94782a49b21f",
       "texto": "La   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc",
       "nivel": "child",
-      "parent_id": "142856d8-9149-4fc7-9116-453b5dd9aad7",
+      "parent_id": "0d235deb-ec87-498a-ac4f-77efe1ff4319",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -346,8 +330,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ec86c500-01a1-4f4d-a623-2719e988e17b",
-      "texto": "Debido a la estructura organizativa del proyecto se han creado diferentes tipos de acceso a través de Internet como explicamos en el punto 3. Estructura de Acceso a los documentos.\n\nVimos el siguiente esquema:\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nLa imagen es un esquema técnico representando un sistema de colaboración en un proyecto de ingeniería industrial.\n\n**Componentes y etiquetas visibles:**\n\n1. **Acceso vía INTRANET:**\n   - **Descripción:** Conectado al \"Equipo de Proyecto\" y \"Joint Venture.\"\n   \n2. **Copia diaria de contenidos:**\n   - **Descripción:** Indica que se realiza una copia diaria de contenidos desde la intranet al sistema accesible vía Internet.\n\n3. **Acceso vía INTERNET:**\n   - **Descripción:** Conectado a diversas entidades: \"Proveedores,\" \"Socios,\" \"Cliente,\" \"Obra\" y \"Joint Venture.\"\n   \n4. **PROYECTO EN COLABORACIÓN:**\n   - **Descripción:** Ubicado en el centro del acceso vía Internet, representa el elemento central de colaboración.\n\n**Conexiones y relaciones:**\n\n- El \"Equipo de Proyecto\" y \"Joint Venture\" tienen acceso al sistema mediante la intranet.\n- Hay una conexión directa de contenidos entre el acceso vía INTRANET y el acceso vía INTERNET.\n- Los \"Proveedores,\" \"Socios,\" \"Cliente\" y \"Obra\" acceden al \"Proyecto en Colaboración\" a través de Internet.\n\n**Transcripción de textos:**\n\n- \"Acceso vía INTRANET\"\n- \"Copia diaria de contenidos\"\n- \"Acceso vía INTERNET\"\n- \"PROYECTO EN COLABORACIÓN\"\n- \"PROVEEDORES\"\n- \"SOCIOS\"\n- \"CLIENTE\"\n- \"OBRA\"\n- \"EQUIPO DE PROYECTO\"\n- \"JOINT VENTURE\"\n\nEste diagrama ilustra un sistema de gestión de información y colaboración para un proyecto que involucra distintos actores internos y externos, facilitando la comunicación y el intercambio de datos.]\n\nEntonces   para   el   acceso   vía   Internet   desde Proyecto en colaboración tenemos los siguientes usuarios:\n\n Usuario del cliente que accede desde la refinería. (Repsol YPF La Pampilla.)\n\n Usuario del cliente a usar por los residentes y por la central de ingeniería (Repsol YPF)\n\n Usuario de Tipiel , socio colombiano de IUI en el proyecto\n\n Usuario de Technip , socio francés del proyecto\n\n Usuario empleado por Dyctel , empresa encargada de la reprografía para la refinería.",
+      "chunk_id": "fff8fdbf-5d7c-483b-bc68-a9fd85f72281",
+      "texto": "Debido a la estructura organizativa del proyecto se han creado diferentes tipos de acceso a través de Internet como explicamos en el punto 3. Estructura de Acceso a los documentos.\n\nVimos el siguiente esquema:\n\n[Descripción visual: Diagrama o esquema técnico\n\nEl diagrama muestra un flujo de acceso y copia de información entre intranet e internet en un entorno de proyecto de joint venture:\n\n- **Acceso vía INTRANET**:\n  - Etiquetado como \"EQUIPO DE PROYECTO\" y \"JOINT VENTURE\".\n  - Realiza una \"Copia diaria de contenidos\" hacia el acceso vía Internet.\n\n- **Acceso vía INTERNET**:\n  - Conecta con \"PROVEEDORES\", \"SOCIOS\", \"CLIENTE\", y \"OBRA\", todos etiquetados también con \"JOINT VENTURE\".\n  - Incluye internamente un \"PROYECTO EN COLABORACIÓN\".\n\nLas flechas indican el flujo de acceso y la copia diaria de contenidos desde la intranet hacia los diferentes actores y componentes del proyecto vía internet.]\n\nEntonces   para   el   acceso   vía   Internet   desde Proyecto en colaboración tenemos los siguientes usuarios:\n\n Usuario del cliente que accede desde la refinería. (Repsol YPF La Pampilla.)\n\n Usuario del cliente a usar por los residentes y por la central de ingeniería (Repsol YPF)\n\n Usuario de Tipiel , socio colombiano de IUI en el proyecto\n\n Usuario de Technip , socio francés del proyecto\n\n Usuario empleado por Dyctel , empresa encargada de la reprografía para la refinería.",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 8,
@@ -362,10 +346,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2bfc4f2c-ca27-4c1e-9351-46781bd24777",
-      "texto": "Debido a la estructura organizativa del proyecto se han creado diferentes tipos de acceso a través de Internet como explicamos en el punto 3. Estructura de Acceso a los documentos.\n\nVimos el siguiente esquema:\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nLa imagen es un esquema técnico representando un sistema de colaboración en un proyecto de ingeniería industrial.\n\n**Componentes y etiquetas visibles:**\n\n1. **Acceso vía INTRANET:**\n   - **Descripción:** Conectado al \"Equipo de Proyecto\" y \"Joint Venture.\"\n   \n2. **Copia diaria de contenidos:**\n   - **Descripción:** Indica que se realiza una copia diaria de contenidos desde la intranet al sistema accesible vía Internet.\n\n3. **Acceso vía INTERNET:**\n   - **Descripción:** Conectado a diversas entidades: \"Proveedores,\" \"Socios,\" \"Cliente,\" \"Obra\" y \"Joint Venture.\"\n   \n4.",
+      "chunk_id": "ae477363-a0e2-43d7-b691-76f075032c63",
+      "texto": "Debido a la estructura organizativa del proyecto se han creado diferentes tipos de acceso a través de Internet como explicamos en el punto 3. Estructura de Acceso a los documentos.\n\nVimos el siguiente esquema:\n\n[Descripción visual: Diagrama o esquema técnico\n\nEl diagrama muestra un flujo de acceso y copia de información entre intranet e internet en un entorno de proyecto de joint venture:\n\n- **Acceso vía INTRANET**:\n  - Etiquetado como \"EQUIPO DE PROYECTO\" y \"JOINT VENTURE\".\n  - Realiza una \"Copia diaria de contenidos\" hacia el acceso vía Internet.\n\n- **Acceso vía INTERNET**:\n  - Conecta con \"PROVEEDORES\", \"SOCIOS\", \"CLIENTE\", y \"OBRA\", todos etiquetados también con \"JOINT VENTURE\".\n  - Incluye internamente un \"PROYECTO EN COLABORACIÓN\".",
       "nivel": "child",
-      "parent_id": "ec86c500-01a1-4f4d-a623-2719e988e17b",
+      "parent_id": "fff8fdbf-5d7c-483b-bc68-a9fd85f72281",
       "pagina_inicio": 8,
       "pagina_fin": 8,
       "seccion": "Permisos a través de Internet.",
@@ -378,10 +362,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "51643a0e-8df0-4a49-b877-dfd02f9191c3",
-      "texto": "4. **PROYECTO EN COLABORACIÓN:**\n   - **Descripción:** Ubicado en el centro del acceso vía Internet, representa el elemento central de colaboración.\n\n**Conexiones y relaciones:**\n\n- El \"Equipo de Proyecto\" y \"Joint Venture\" tienen acceso al sistema mediante la intranet.\n- Hay una conexión directa de contenidos entre el acceso vía INTRANET y el acceso vía INTERNET.\n- Los \"Proveedores,\" \"Socios,\" \"Cliente\" y \"Obra\" acceden al \"Proyecto en Colaboración\" a través de Internet.",
+      "chunk_id": "0a8aab5e-9de2-4d36-a18c-d03222def76d",
+      "texto": "- Incluye internamente un \"PROYECTO EN COLABORACIÓN\".\n\nLas flechas indican el flujo de acceso y la copia diaria de contenidos desde la intranet hacia los diferentes actores y componentes del proyecto vía internet.]\n\nEntonces   para   el   acceso   vía   Internet   desde Proyecto en colaboración tenemos los siguientes usuarios:\n\n Usuario del cliente que accede desde la refinería. (Repsol YPF La Pampilla.)\n\n Usuario del cliente a usar por los residentes y por la central de ingeniería (Repsol YPF)\n\n Usuario de Tipiel , socio colombiano de IUI en el proyecto\n\n Usuario de Technip , socio francés del proyecto\n\n Usuario empleado por Dyctel , empresa encargada de la reprografía para la refinería.",
       "nivel": "child",
-      "parent_id": "ec86c500-01a1-4f4d-a623-2719e988e17b",
+      "parent_id": "fff8fdbf-5d7c-483b-bc68-a9fd85f72281",
       "pagina_inicio": 8,
       "pagina_fin": 8,
       "seccion": "Permisos a través de Internet.",
@@ -394,39 +378,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1e37228f-4cd4-4c3e-a62d-9232b17367ca",
-      "texto": "**Transcripción de textos:**\n\n- \"Acceso vía INTRANET\"\n- \"Copia diaria de contenidos\"\n- \"Acceso vía INTERNET\"\n- \"PROYECTO EN COLABORACIÓN\"\n- \"PROVEEDORES\"\n- \"SOCIOS\"\n- \"CLIENTE\"\n- \"OBRA\"\n- \"EQUIPO DE PROYECTO\"\n- \"JOINT VENTURE\"\n\nEste diagrama ilustra un sistema de gestión de información y colaboración para un proyecto que involucra distintos actores internos y externos, facilitando la comunicación y el intercambio de datos.]\n\nEntonces   para   el   acceso   vía   Internet   desde Proyecto en colaboración tenemos los siguientes usuarios:\n\n Usuario del cliente que accede desde la refinería. (Repsol YPF La Pampilla.)",
-      "nivel": "child",
-      "parent_id": "ec86c500-01a1-4f4d-a623-2719e988e17b",
-      "pagina_inicio": 8,
-      "pagina_fin": 8,
-      "seccion": "Permisos a través de Internet.",
-      "tipos_elemento": [
-        "NarrativeText",
-        "ListItem"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": false,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "411769dc-eeb8-4fc8-ae4a-835ac207e92a",
-      "texto": "(Repsol YPF La Pampilla.)\n\n Usuario del cliente a usar por los residentes y por la central de ingeniería (Repsol YPF)\n\n Usuario de Tipiel , socio colombiano de IUI en el proyecto\n\n Usuario de Technip , socio francés del proyecto\n\n Usuario empleado por Dyctel , empresa encargada de la reprografía para la refinería.",
-      "nivel": "child",
-      "parent_id": "ec86c500-01a1-4f4d-a623-2719e988e17b",
-      "pagina_inicio": 8,
-      "pagina_fin": 8,
-      "seccion": "Permisos a través de Internet.",
-      "tipos_elemento": [
-        "NarrativeText",
-        "ListItem"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": false,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "48d09be3-ac5b-4758-b35e-facc51584040",
+      "chunk_id": "f16a51fa-b4b8-4a92-bb32-d5b4316aca99",
       "texto": "A  continuación   se   recoge   el   directorio   de   carpetas   en   el   que   será   estructurada   la documentación generada a lo largo del proyecto en el portal de IUI. Asimismo, se indica quién   tiene   acceso   a   los   contenidos   de   las   carpetas   y   a   determinados   documentos, empleando para ello el siguiente código:\n\nusr: usuario con acceso a vía internet a la documentación una vez aprobada.\n\ndp: dirección de proyecto de IUI.\n\ncost : responsable de control de costes del proyecto.\n\nrc: conjunto de responsables de cuenta del proyecto\n\njdpto: conjunto de jefes de departamento de IUI\n\niui: conjunto de todo el personal de IUI\n\nAsí por ejemplo, dp + cost + jdpto indica que a los contenidos de la carpeta referida tienen acceso la dirección del proyecto, el responsable de costes y los jefes de departamento de IUI.",
       "nivel": "parent",
       "parent_id": null,
@@ -442,7 +394,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "89937b83-aedc-4bc8-b8a1-1ace9f8b0dd3",
+      "chunk_id": "772bdd37-b758-4bcf-bd8a-2ed8cb149c5c",
       "texto": "Se refiere a carpetas generales.\n\nSe refiere a carpetas de RM.\n\nEl Proyecto está dividido en varias áreas:\n\n Área 00: OFFSITES E INTERCONEXIONES\n\n Área 04: V-II. Unidad de vacío II\n\n Área 19: MEROX unidad de merox\n\n Área 24: V-B . Unidad de visbreaking\n\n Área 47: SISTEMA ELÉCTRICO. Unidad de sistema de recepción y distribución eléctrica\n\n Área 51: STRIPPER. Stripper de aguas ácidas\n\nEn la estructura que aparece a continuación solamente está desarrollada el área 04. V-II (Unidad de Vacío) por ser la más general El resto de las áreas tienen una estructura muy parecida, y si alguna de las especialidades no tiene aplicación (hornos, ing. básica...) no aparecerá carpeta específica de esa especialidad en ese área.\n\nTambién en esta área (04. V-II) se almacenan los documentos que serían comunes para varias áreas",
       "nivel": "parent",
       "parent_id": null,
@@ -458,7 +410,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f2a969da90684e90883d864bcd88e4fc",
+      "chunk_id": "34aa7752af5542079e8010f97fc6e09e",
       "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO             | PERMISOS DE ACCESO    |\n|-------------------------------------------------|-----------------------|\n| 13187 - REPSOL YPF La Pampilla                  |                       |\n| _DOCUMENTACIÓN GENERAL                          |                       |\n| _DIRECCIÓN DE PROYECTO                          |                       |\n| ACTAS DE REUNIÓN                                |                       |\n| REPSOL                                          | usr + dp + rc + jdpto |\n| INFORME DE PROGRESO                             | usr + iui             |\n| PLAN DE CALIDAD DE IUI                          | usr + iui             |\n| PROCEDIMIENTOS DE COORDINACIÓN DE REPSOL        | usr + iui             |\n| PROCEDIMIENTOS DE PROYECTO DE LA JOINT VENTURE  | usr + iui             |\n| _PLANIFICACIÓN Y CONTROL                        |                       |\n| CURVAS DE AVANCE                                | usr + iui             |\n| PLANIFICACIÓN                                   | usr + iui             |\n| DOCUMENTACIÓN DE RELAPASA PARA EL PROYECTO      | usr + iui             |\n| ESPECIFICACIONES DE REPSOL Y UOP                | usr + iui             |\n| ESTUDIOS Y PROYECTOS OFICIALES                  | usr + iui             |\n| FOTOGRAFÍAS                                     | usr + iui             |\n| PROCEDIMIENTOS DE SEGURIDAD Y RIESGOS LABORALES | usr + iui             |\n| REGLAMENTOS PERUANOS                            | usr + iui             |\n| 00. OFFSITES E INTERCONEXIONES                  |                       |\n| 02. UDP II                                      |                       |",
       "nivel": "child",
       "parent_id": null,
@@ -473,7 +425,7 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "cf57477afc404ac99a64dbccd5d2a7a3",
+      "chunk_id": "2ac35aaa8b094adeb1ae0004178d84d1",
       "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                            | PERMISOS DE ACCESO   |\n|----------------------------------------------------------------|----------------------|\n| 04. V-II                                                       |                      |\n| 1. CIVIL Y ARQUITECTURA                                        |                      |\n| 1.0. COMPARACIONES TÉCNICAS DE OFERTAS                         | usr + iui            |\n| 2.0 ESPECIFICACIONES Y BASES DE DISEÑO DE CIVIL Y ARQUITECTURA | usr + iui            |\n| 3.0.ESTUDIOS Y CÁLCULOS                                        | usr + iui            |\n| 4.0. LISTAS DE CANTIDADES (BOQ'S)                              | usr + iui            |\n| 5.0. MEDICIONES                                                | usr + iui            |\n| 6.0. PLANOS Y ESTÁNDARES                                       | usr + iui            |\n| 7.0. REQUISICIONES DE MATERIALES                               | usr + iui            |\n| 2. ELECTRICIDAD                                                |                      |\n| 1.0. COMPARACIONES TÉCNICAS DE OFERTAS                         | usr + iui            |\n| 2.0 ESPECIFICACIONES DE ELECTRICIDAD                           | usr + iui            |\n| 3.0.HOJAS DE DATOS                                             | usr + iui            |\n| 3.1. LISTAS                                                    | usr + iui            |\n| 3.2. MEDICIONES                                                | usr + iui            |\n| 4.0. PLANOS Y ESTÁNDARES                                       | usr + iui            |\n| 5.0. REQUISICIONES DE MATERIALES (RM'S)                        | usr + iui            |\n| 6.0. DOCUMENTOS ASOCIADOS A RM'S DE ELECTRICIDAD               | usr + iui            |\n| 3. INSTRUMENTACIÓN                                             |                      |\n| 1.0. COMPARACIONES TÉCNICAS DE OFERTAS                         | usr + iui            |",
       "nivel": "child",
       "parent_id": null,
@@ -488,7 +440,7 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "302dd0274c944ecbb838d7bd7656a44b",
+      "chunk_id": "6b1b1e02a0f14443b451879d7ca85f32",
       "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                   | PERMISOS DE ACCESO   |\n|-------------------------------------------------------|----------------------|\n| 2.0 ESPECIFICACIONES DE INSTRUMENTACIÓN               | usr + iui            |\n| 3.0.HOJAS DE DATOS                                    | usr + iui            |\n| 3.1. LISTAS                                           | usr + iui            |\n| 3.2. MEDICIONES                                       | usr + iui            |\n| 4.0. PLANOS Y DIAGRAMAS                               | usr + iui            |\n| 5.0. REQUISICIONES DE MATERIALES (RM'S)               | usr + iui            |\n| 6.0. DOCUMENTOS ASOCIADOS A RM'S DE INSTRUMENTACIÓN   | usr + iui            |\n| 4.1. MECÁNICA - EQUIPOS DINÁMICOS                     |                      |\n| 1.0. COMPARACIONES TÉCNICAS DE OFERTAS                | usr + iui            |\n| 2.0 ESPECIFICACIONES DE EQUIPOS DINÁMICOS             | usr + iui            |\n| 3.0.HOJAS DE DATOS                                    | usr + iui            |\n| 4.0. PLANOS                                           | usr + iui            |\n| 5.0. REQUISICIONES DE MATERIALES (RM'S)               | usr + iui            |\n| 6.0. DOCUMENTOS ASOCIADOS A RM'S DE EQUIPOS DINÁMICOS | usr + iui            |\n| 4.2. MECÁNICA - EQUIPOS ESTÁTICOS                     |                      |\n| 1.0. COMPARACIONES TÉCNICAS DE OFERTAS                | usr + iui            |\n| 2.0 ESPECIFICACIONES DE EQUIPOS ESTÁTICOS             | usr + iui            |\n| 3.0.HOJAS DE DATOS                                    | usr + iui            |",
       "nivel": "child",
       "parent_id": null,
@@ -503,7 +455,7 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "1ea16c26df3e49e2bc73a5787b5d360f",
+      "chunk_id": "0ea5e99424aa46cfa7f3b551c519e637",
       "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                      | PERMISOS DE ACCESO   |\n|----------------------------------------------------------|----------------------|\n| 4.0. PLANOS                                              | usr + iui            |\n| 5.0. REQUISICIONES DE MATERIALES (RM'S)                  | usr + iui            |\n| 6.0. DOCUMENTOS ASOCIADOS A RM'S DE EQUIPOS ESTÁTICOS    | usr + iui            |\n| 4.3. MECÁNICA - MATERIALES DE TUBERÍAS                   |                      |\n| 1.0. COMPARACIONES TÉCNICAS DE OFERTAS                   | usr + iui            |\n| 2.0 ESPECIFICACIONES Y ESTÁNDARES DE MATERIALES          | usr + iui            |\n| 3.0.HOJAS DE DATOS                                       | usr + iui            |\n| 4.0. LISTA DE MATERIALES (BM'S)                          | usr + iui            |\n| 5.0. REQUISICIONES DE MATERIALES (RM'S)                  | usr + iui            |\n| 6.0. DOCUMENTOS ASOCIADOS A RM'S DE MATERIALES           | usr + iui            |\n| 4.4. MECÁNICA - ESFUERZOS Y SOPORTES                     |                      |\n| 1.0. COMPARACIONES TÉCNICAS DE OFERTAS                   | usr + iui            |\n| 2.0 ESPECIFICACIONES DE ESFUERZOS Y SOPORTES             | usr + iui            |\n| 3.0.HOJAS DE DATOS                                       | usr + iui            |\n| 4.0. PLANOS                                              | usr + iui            |\n| 5.0. REQUISICIONES DE MATERIALES (RM'S)                  | usr + iui            |\n| 6.0. DOCUMENTOS ASOCIADOS A RM'S DE ESFUERZOS Y SOPORTES | usr + iui            |",
       "nivel": "child",
       "parent_id": null,
@@ -518,7 +470,7 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "671d571649834c68ac2e5fdc5bbccd13",
+      "chunk_id": "fdc2f1c5c87a4552ae023a551e22d0b1",
       "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO        | PERMISOS DE ACCESO   |\n|--------------------------------------------|----------------------|\n| 4.5. MECÁNICA - SISTEMAS CONTRA INCENDIOS  |                      |\n| 1.0. COMPARACIONES TÉCNICAS DE OFERTAS     | usr + iui            |\n| 2.0 ESPECIFICACIONES DE S.C.I.             | usr + iui            |\n| 3.0. PLANOS                                | usr + iui            |\n| 4.0. REQUISICIONES DE MATERIALES (RM'S)    | usr + iui            |\n| 5.0. DOCUMENTOS ASOCIADOS A RM'S DE S.C.I. | usr + iui            |\n| 4.6. MECÁNICA - HORNOS                     |                      |\n| 1.0. COMPARACIONES TÉCNICAS DE OFERTAS     | usr + iui            |\n| 2.0 ESPECIFICACIONES DE HORNOS             | usr + iui            |\n| 3.0.HOJAS DE DATOS                         | usr + iui            |\n| 4.0. PLANOS                                | usr + iui            |\n| 5.0. REQUISICIONES DE MATERIALES (RM'S)    | usr + iui            |\n| 6.0. DOCUMENTOS ASOCIADOS A RM'S DE HORNOS | usr + iui            |\n| 5. TUBERÍAS                                |                      |\n| 1.0. ESTÁNDARES DE TUBERÍAS                | usr + iui            |\n| 2.0. ISOMÉTRICAS                           | usr + iui            |\n| 3.0. PLANOS AUXILIARES                     | usr + iui            |\n| 4.0. PLANOS DE IMPLANTACIÓN                | usr + iui            |\n| 5.0. PLANOS DE PLANTA                      | usr + iui            |\n| 6.0. PLANOS DE RACK                        | usr + iui            |",
       "nivel": "child",
       "parent_id": null,
@@ -533,7 +485,7 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "2eb457943baa4266814912775916ec59",
+      "chunk_id": "cc36faf6616448ad8f2d88b3536d065e",
       "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                 | PERMISOS DE ACCESO   |\n|-----------------------------------------------------|----------------------|\n| 6. PROCESOS                                         |                      |\n| 1.0. BASES DE DISEÑO                                | usr + iui            |\n| 2.0. DATOS DE PROCESO PARA EQUIPOS (HOJAS DE DATOS) | usr + iui            |\n| 3.0. LISTAS                                         | usr + iui            |\n| 4.0. PLANOS DE IMPLANTACIÓN                         | usr + iui            |\n| 5.0. DIAGRAMAS DE FLUJO                             | usr + iui            |\n| 6.0. P&ID's                                         | usr + iui            |\n| 7. COMPRAS                                          | usr + iui            |\n| 1.0. GENERAL                                        | usr + iui            |\n| 2.0. TABULACIONES ECONÓMICAS                        | dp + cost + jdpto    |\n| 3.0. PEDIDOS E INSPECCIÓN                           | dp + rc + jdpto      |\n| 8. CONSTRUCCIÓN                                     |                      |\n| _ESPECIFICACIONES DE CONSTRUCCIÓN                   | usr + iui            |\n| 1.0. GENERAL                                        | usr + iui            |\n| 2.0. TABULACIONES                                   | dp + cost + jdpto    |\n| 3.0. PEDIDOS DE CONSTRUCCIÓN                        | dp + rc + jdpto      |\n| 4.0. REQUISICIONES DE CONSTRUCCIÓN (RC's)           | usr + iui            |\n| 5.0. DOCUMENTOS ASOCIADOS A RC's                    | usr + iui            |\n| 19. MEROX                                           |                      |\n| 24. V-B                                             |                      |\n| 47. SISTEMA ELÉCTRICO                               |                      |\n| 51. STRIPPER                                        |                      |",
       "nivel": "child",
       "parent_id": null,

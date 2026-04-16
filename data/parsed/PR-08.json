@@ -1,0 +1,890 @@
+{
+  "doc_id": "2fbf5438640b4098a7110fa867cf3502",
+  "nombre_fichero": "PR-08.pdf",
+  "metadatos_admin": {
+    "empresa": "intecsa",
+    "proyecto_id": null,
+    "tipo_doc": "procedimiento",
+    "idioma": "es",
+    "anexo_de": null
+  },
+  "metadatos_documento": {
+    "titulo": null,
+    "edicion": null,
+    "fecha_emision": null
+  },
+  "fecha_ingesta": "2026-04-16T18:18:51+00:00",
+  "chunks": [
+    {
+      "chunk_id": "944065a7-d008-407a-8f84-e546cf24e848",
+      "texto": "Este Procedimiento resume las particularidades de la forma de realizar el trabajo en las Oficinas locales de Intecsa Industrial , con respecto a lo indicado para la Oficina central en los documentos del Sistema de Calidad de Intecsa Industrial .\n\nLas Oficinas locales tienen como  finalidad dar un mejor servicio a los Clientes mediante la aproximación a las zonas de ejecución de proyectos, por razones de competitividad y rapidez de respuesta\n\nEste Procedimiento forma parte del Sistema de Calidad de Intecsa Industrial y se ha preparado teniendo en cuenta la norma ISO 9001.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "93c48eb4-1711-4111-89f3-ebf1f944f7db",
+      "texto": "2.1. El Jefe del Servicio de Oficinas locales dirige el funcionamiento de las mismas en dependencia directa de la Dirección General de Intecsa Industrial y  en   estrecha colaboración con los diversos Encuadramientos.\n\nEl Jefe del Servicio de Oficinas locales nombra para cada una de ellas a un Jefe de Operaciones, de acuerdo con la Dirección General.\n\n2.2. El Jefe de Operaciones de la Oficina local tiene dependencia directa del Jefe del Servicio de Oficinas locales, dirige la misma y es responsable, entre otras funciones, de:\n\nla preparación de las ofertas solicitadas por los Clientes a la Oficina local, actuando simultáneamente como Coordinador de oferta y como Jefe de oferta, de acuerdo con el PR-06 Guía para la elaboración de ofertas;\n\nla   ejecución   de   los   proyectos   adjudicados   por   los   Clientes   a   la   Oficina   local, actuando como Jefe de Proyecto.\n\nExcepcionalmente, el Jefe de Operaciones de la Oficina local, de acuerdo con el Jefe del Servicio de Oficinas locales, puede designar por escrito a otras personas como Jefes de Oferta o de Proyecto.\n\n2.3. El personal de una oficina local podrá intervenir en proyectos que se desarrollen en la Oficina de Madrid (apartado 5.2.), siendo entonces su Jefe de Proyecto el designado por el Director de Operaciones.\n\n2.4. El personal de Oficinas locales depende:\n\n-técnicamente, del Jefe del Departamento de su especialidad;\n\n-funcionalmente, del Jefe de Proyecto.\n\nLa definición del perfil del personal de nuevo ingreso y su selección se acordará entre el Jefe del Servicio de Oficinas locales y el Jefe del Departamento correspondiente, en coordinación con el Jefe del Servicio de RR.HH. y Organización.\n\n2.5. La evaluación del desempeño y la fijación de objetivos del personal de las Oficinas locales serán responsabilidad del Jefe del Servicio de Oficinas locales, previa consulta con el Jefe de Operaciones de la Oficina local correspondiente, con el Jefe de Proyecto (cuando esté designada otra persona), y con los respectivos Jefes de Departamento.\n\n2.6. El Jefe del Servicio de Oficinas locales es responsable de la Calidad y de la Prevención de   Riesgos   laborales   en   su   Servicio,   y   para   su   gestión   delega   en   el   Jefe   de Operaciones de la Oficina local.\n\n2.7. El Jefe de Operaciones de la Oficina local, actuará coordinadamente en lo relativo a la Calidad con los Jefes de los Departamentos (éstos definirán los niveles de Calidad exigibles y aportarán los recursos necesarios para alcanzarla, si no existieren en la oficina local) y en lo relativo a la Prevención de Riesgos laborales con el Jefe de este Servicio,   de   acuerdo   con   lo   indicado   en   los   Procedimientos   de   dicho   Servicio   de Prevención de Riesgos laborales.\n\n2.8. El Jefe del Servicio de Oficinas locales las gestionará en coordinación con los distintos Servicios de Intecsa Industrial .\n\n2.9. Los  gastos   de   la   Oficina   local   no   relacionados   con   los   proyectos   específicos   se gestionarán según lo establecido en la Instrucción de Trabajo IT-AF-01 Circuito de conformación de facturas.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "2. DESCRIPCIÓN DE LA ORGANIZACIÓN DE LAS OFICINAS LOCALES .",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5f28820e-72ee-4a53-abfe-bd822bec81a4",
+      "texto": "2.1. El Jefe del Servicio de Oficinas locales dirige el funcionamiento de las mismas en dependencia directa de la Dirección General de Intecsa Industrial y  en   estrecha colaboración con los diversos Encuadramientos.\n\nEl Jefe del Servicio de Oficinas locales nombra para cada una de ellas a un Jefe de Operaciones, de acuerdo con la Dirección General.\n\n2.2. El Jefe de Operaciones de la Oficina local tiene dependencia directa del Jefe del Servicio de Oficinas locales, dirige la misma y es responsable, entre otras funciones, de:\n\nla preparación de las ofertas solicitadas por los Clientes a la Oficina local, actuando simultáneamente como Coordinador de oferta y como Jefe de oferta, de acuerdo con el PR-06 Guía para la elaboración de ofertas;\n\nla   ejecución   de   los   proyectos   adjudicados   por   los   Clientes   a   la   Oficina   local, actuando como Jefe de Proyecto.",
+      "nivel": "child",
+      "parent_id": "93c48eb4-1711-4111-89f3-ebf1f944f7db",
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "2. DESCRIPCIÓN DE LA ORGANIZACIÓN DE LAS OFICINAS LOCALES .",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "54a4014c-bc55-4a44-93f2-8f8303d4cc92",
+      "texto": "Excepcionalmente, el Jefe de Operaciones de la Oficina local, de acuerdo con el Jefe del Servicio de Oficinas locales, puede designar por escrito a otras personas como Jefes de Oferta o de Proyecto.\n\n2.3. El personal de una oficina local podrá intervenir en proyectos que se desarrollen en la Oficina de Madrid (apartado 5.2.), siendo entonces su Jefe de Proyecto el designado por el Director de Operaciones.\n\n2.4. El personal de Oficinas locales depende:\n\n-técnicamente, del Jefe del Departamento de su especialidad;\n\n-funcionalmente, del Jefe de Proyecto.\n\nLa definición del perfil del personal de nuevo ingreso y su selección se acordará entre el Jefe del Servicio de Oficinas locales y el Jefe del Departamento correspondiente, en coordinación con el Jefe del Servicio de RR.HH. y Organización.\n\n2.5.",
+      "nivel": "child",
+      "parent_id": "93c48eb4-1711-4111-89f3-ebf1f944f7db",
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "2. DESCRIPCIÓN DE LA ORGANIZACIÓN DE LAS OFICINAS LOCALES .",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a739e069-c974-47cf-88ae-160522dc09e3",
+      "texto": "y Organización.\n\n2.5. La evaluación del desempeño y la fijación de objetivos del personal de las Oficinas locales serán responsabilidad del Jefe del Servicio de Oficinas locales, previa consulta con el Jefe de Operaciones de la Oficina local correspondiente, con el Jefe de Proyecto (cuando esté designada otra persona), y con los respectivos Jefes de Departamento.\n\n2.6. El Jefe del Servicio de Oficinas locales es responsable de la Calidad y de la Prevención de   Riesgos   laborales   en   su   Servicio,   y   para   su   gestión   delega   en   el   Jefe   de Operaciones de la Oficina local.\n\n2.7.",
+      "nivel": "child",
+      "parent_id": "93c48eb4-1711-4111-89f3-ebf1f944f7db",
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "2. DESCRIPCIÓN DE LA ORGANIZACIÓN DE LAS OFICINAS LOCALES .",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "afb44e5d-d80f-4ced-bad8-ae9ea821bfa0",
+      "texto": "2.7. El Jefe de Operaciones de la Oficina local, actuará coordinadamente en lo relativo a la Calidad con los Jefes de los Departamentos (éstos definirán los niveles de Calidad exigibles y aportarán los recursos necesarios para alcanzarla, si no existieren en la oficina local) y en lo relativo a la Prevención de Riesgos laborales con el Jefe de este Servicio,   de   acuerdo   con   lo   indicado   en   los   Procedimientos   de   dicho   Servicio   de Prevención de Riesgos laborales.\n\n2.8. El Jefe del Servicio de Oficinas locales las gestionará en coordinación con los distintos Servicios de Intecsa Industrial .\n\n2.9. Los  gastos   de   la   Oficina   local   no   relacionados   con   los   proyectos   específicos   se gestionarán según lo establecido en la Instrucción de Trabajo IT-AF-01 Circuito de conformación de facturas.",
+      "nivel": "child",
+      "parent_id": "93c48eb4-1711-4111-89f3-ebf1f944f7db",
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "2. DESCRIPCIÓN DE LA ORGANIZACIÓN DE LAS OFICINAS LOCALES .",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f930a341-df65-4014-9b47-d05b639dc937",
+      "texto": "3.1. Las peticiones de oferta recibidas en cualquiera de las Oficinas locales serán puestas inmediatamente en conocimiento del Jefe del Servicio de Oficinas locales.\n\n3.2. El Jefe del Servicio de Oficinas locales, con los datos de la oferta solicitada, procederá a abrir una Carpeta en la Intranet de Intecsa Industrial, (INTECSA Portal > Ofertas Comerciales > Ofertas Oficinas Locales), avisando a la División de Operaciones, al Departamento Comercial y al Servicio de Control de Proyectos y de Gestión. Este Servicio abrirá una orden de trabajo.\n\n3.3. Se precisará la aprobación previa de la Dirección General, antes de empezar el trabajo, en ofertas de servicios cuyo coste de preparación sea superior a 12 000 € o en ofertas 'llave en mano' cuyo precio de venta final se estime en más de 1 200 000 €.\n\n3.4. El Jefe del Servicio de Oficinas locales estará informado del desarrollo de la oferta y para   su   presentación   acordará   las   condiciones   comerciales   con   el   Departamento Comercial.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3. PREPARACIÓN DE OFERTAS PARA CLIENTES",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "cd1c4c15-e31a-49e8-b89f-55369f6eece0",
+      "texto": "3.1. Las peticiones de oferta recibidas en cualquiera de las Oficinas locales serán puestas inmediatamente en conocimiento del Jefe del Servicio de Oficinas locales.\n\n3.2. El Jefe del Servicio de Oficinas locales, con los datos de la oferta solicitada, procederá a abrir una Carpeta en la Intranet de Intecsa Industrial, (INTECSA Portal > Ofertas Comerciales > Ofertas Oficinas Locales), avisando a la División de Operaciones, al Departamento Comercial y al Servicio de Control de Proyectos y de Gestión. Este Servicio abrirá una orden de trabajo.\n\n3.3. Se precisará la aprobación previa de la Dirección General, antes de empezar el trabajo, en ofertas de servicios cuyo coste de preparación sea superior a 12 000 € o en ofertas 'llave en mano' cuyo precio de venta final se estime en más de 1 200 000 €.\n\n3.4.",
+      "nivel": "child",
+      "parent_id": "f930a341-df65-4014-9b47-d05b639dc937",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3. PREPARACIÓN DE OFERTAS PARA CLIENTES",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "eaf50a58-1fbd-4759-b025-7dcfcdcb3037",
+      "texto": "3.4. El Jefe del Servicio de Oficinas locales estará informado del desarrollo de la oferta y para   su   presentación   acordará   las   condiciones   comerciales   con   el   Departamento Comercial.",
+      "nivel": "child",
+      "parent_id": "f930a341-df65-4014-9b47-d05b639dc937",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3. PREPARACIÓN DE OFERTAS PARA CLIENTES",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "51d56b07-45fe-4feb-a578-f5a70ea1251d",
+      "texto": "3.5. Cuando se considere necesario, el Jefe de la Oferta solicitará la colaboración que precise de los Departamentos y Servicios de la Oficina de Madrid.\n\n3.6. Una vez definidos, el Jefe del Servicio de Oficinas locales envía los puntos principales de la oferta al Departamento Comercial, para que informe a la Dirección General. Las ofertas cuya elaboración ha necesitado la aprobación de ésta, también la requieren antes de presentarlas al Cliente.\n\n3.7. El Jefe de la Oferta firmará la que se presenta al Cliente. La Hoja de Oferta interna la firmarán los Jefes del Servicio de Oficinas locales y del Departamento Comercial y en su caso el Director General.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "PROCEDIMIENTO DE TRABAJO EN LAS OFICINAS LOCALES",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fc49f9de-a782-4153-89a7-83e4e34ae2e0",
+      "texto": "4.1. Si se adjudica la oferta e Intecsa Industrial tiene que preparar el Contrato, el Jefe de Operaciones de la Oficina local es el responsable de la preparación del mismo, de acuerdo con los modelos previamente establecidos con el Departamento Comercial, con cuyo Jefe coordinará los eventuales desvíos de los modelos oficiales (en su caso de acuerdo con el Servicio Jurídico). El Jefe de Operaciones de la Oficina local someterá la redacción final del Contrato a la aprobación del Jefe del Servicio de Oficinas locales.\n\n4.2. El Jefe del Servicio de Oficinas locales entregará al Departamento Comercial para su aprobación por la Dirección General, el borrador de todo Contrato correspondiente a una Oferta cuya elaboración haya requerido la aprobación de ésta, como paso previo a su presentación al Cliente. Dicho Contrato estará firmado por la Dirección General , que podrá autorizar a hacerlo al Jefe del Servicio de Oficinas locales.\n\n4.3. El Jefe del Servicio de Oficinas locales, o con su autorización el Jefe de Operaciones de la Oficina local, firmará el original del Contrato en el número de ejemplares necesarios. Una vez recibido el ejemplar firmado por el Cliente, el Jefe de Operaciones de la Oficina local   dispondrá   copias   para   sus   archivos   y   el   desarrollo   del   proyecto,   enviando   el original al Departamento Comercial.\n\nEste Departamento archivará una copia del mismo, enviará otra copia a la División de Operaciones y dará dicho original para su custodia, con una copia del mismo, al Servicio de Control de proyectos y de Gestión.\n\n4.4. El Jefe de Proyecto solicitará al Servicio de Control de Proyectos y de Gestión la apertura de la Orden de trabajo correspondiente, cumplimentando el formato de la misma.   Tras   su   firma   por   el   Jefe   del   Servicio   de   Oficinas   locales   y   el   Jefe   de Operaciones de la Oficina local, la Orden de trabajo se pasará al Servicio de Control de Proyectos y de Gestión para su tramitación y custodia por la vía habitual.\n\n4.5. El Jefe del Servicio de Oficinas locales coordinará con la oficina de Madrid lo relativo a seguros, avales, etc. cuando proceda.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "4. PREPARACIÓN DEL CONTRATO CON UN CLIENTE",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "45e5c820-5561-4cdf-9d8a-dae034894a97",
+      "texto": "4.1. Si se adjudica la oferta e Intecsa Industrial tiene que preparar el Contrato, el Jefe de Operaciones de la Oficina local es el responsable de la preparación del mismo, de acuerdo con los modelos previamente establecidos con el Departamento Comercial, con cuyo Jefe coordinará los eventuales desvíos de los modelos oficiales (en su caso de acuerdo con el Servicio Jurídico). El Jefe de Operaciones de la Oficina local someterá la redacción final del Contrato a la aprobación del Jefe del Servicio de Oficinas locales.\n\n4.2. El Jefe del Servicio de Oficinas locales entregará al Departamento Comercial para su aprobación por la Dirección General, el borrador de todo Contrato correspondiente a una Oferta cuya elaboración haya requerido la aprobación de ésta, como paso previo a su presentación al Cliente. Dicho Contrato estará firmado por la Dirección General , que podrá autorizar a hacerlo al Jefe del Servicio de Oficinas locales.\n\n4.3.",
+      "nivel": "child",
+      "parent_id": "fc49f9de-a782-4153-89a7-83e4e34ae2e0",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "4. PREPARACIÓN DEL CONTRATO CON UN CLIENTE",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "690ac4d0-da06-4690-8261-cfe240622356",
+      "texto": "4.3. El Jefe del Servicio de Oficinas locales, o con su autorización el Jefe de Operaciones de la Oficina local, firmará el original del Contrato en el número de ejemplares necesarios. Una vez recibido el ejemplar firmado por el Cliente, el Jefe de Operaciones de la Oficina local   dispondrá   copias   para   sus   archivos   y   el   desarrollo   del   proyecto,   enviando   el original al Departamento Comercial.\n\nEste Departamento archivará una copia del mismo, enviará otra copia a la División de Operaciones y dará dicho original para su custodia, con una copia del mismo, al Servicio de Control de proyectos y de Gestión.\n\n4.4. El Jefe de Proyecto solicitará al Servicio de Control de Proyectos y de Gestión la apertura de la Orden de trabajo correspondiente, cumplimentando el formato de la misma.",
+      "nivel": "child",
+      "parent_id": "fc49f9de-a782-4153-89a7-83e4e34ae2e0",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "4. PREPARACIÓN DEL CONTRATO CON UN CLIENTE",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "12abfc84-3332-4e23-865c-176567a46feb",
+      "texto": "Tras   su   firma   por   el   Jefe   del   Servicio   de   Oficinas   locales   y   el   Jefe   de Operaciones de la Oficina local, la Orden de trabajo se pasará al Servicio de Control de Proyectos y de Gestión para su tramitación y custodia por la vía habitual.\n\n4.5. El Jefe del Servicio de Oficinas locales coordinará con la oficina de Madrid lo relativo a seguros, avales, etc. cuando proceda.",
+      "nivel": "child",
+      "parent_id": "fc49f9de-a782-4153-89a7-83e4e34ae2e0",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "4. PREPARACIÓN DEL CONTRATO CON UN CLIENTE",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d3ec6790-52da-4acb-af9f-e469bea5d6f7",
+      "texto": "5.1. En el caso de un Proyecto a desarrollar íntegramente en una Oficina local, no se celebrará   la   Reunión   con   los  Jefes  de   Departamento,   quienes   recibirán   para   su conocimiento y efectos una nota, en la que el Jefe de Proyecto comunicará el alcance y el programa a desarrollar, así como el nombre de los responsables de las diversas tareas.\n\nIgualmente   y   a   criterio   del   Jefe   de   Proyecto,   podrá   no   celebrarse   la   reunión   de lanzamiento (\"kick-off meeting\"), pero en todo caso se informará por escrito a todos los afectados tanto de los datos principales del nuevo Contrato como de todas aquellas características que no sean usuales en otros proyectos. El correspondiente Plan de Calidad estará igualmente a disposición del personal afectado.\n\nDada la proximidad en la oficina de todos los responsables de los diversos trabajos, la celebración con los mismos de reuniones mensuales de coordinación y avance quedará a criterio del Jefe de Proyecto.\n\n5.2. En el caso de un Proyecto del que sea responsable la Oficina local  y en el que se considere necesaria la colaboración de la Oficina de Madrid, el Jefe de Proyecto gestionará con el Jefe de la División de Ingeniería y con los Jefes de los Departamentos correspondientes   los   servicios   a   prestar   y   su   planificación.   Si   el   Proyecto   es responsabilidad de la Oficina de Madrid y se considera necesaria la colaboración de una Oficina local, el Jefe de Proyecto los gestionará con el Jefe de Operaciones de la Oficina local.\n\n5.3. El Jefe de Proyecto es responsable de la preparación de las órdenes de facturación al Cliente. Para su confección, de acuerdo con la IT-AF-01, si es preciso recabará la ayuda   del   Servicio   de   Control   de   proyectos   y   de   Gestión   o   del   Servicio   de Administración y Finanzas. Una vez elaborada, la orden de facturación se enviará a este último Servicio, que preparará la correspondiente factura y la mandará a la Oficina local para su entrega al Cliente.\n\n5.4. El Jefe de Proyecto es responsable de la preparación y seguimiento de la planificación del mismo. Pedirá si la requiere la colaboración del Servicio de Control de proyectos y de Gestión, a quien en cualquier caso hará llegar periódicamente copia de la misma. Este   Servicio   comprobará   cada   cierto   tiempo   el   cumplimiento   de   estas responsabilidades.\n\n5.5. El Servicio de Oficinas locales aportará los datos necesarios para el SIG y el SCSI globales de Intecsa Industrial , de acuerdo con el PR-15 y el PR-77, para su utilización por el Servicio de Control de proyectos y de Gestión.\n\n5.6. El Jefe de Proyecto preparará el Proyecto Oficial, si procede, para su firma por el Director Facultativo.\n\n5.7. De acuerdo con lo indicado en el Procedimiento del Servicio de Prevención de Riesgos laborales   PRL-19   Estudios   y   planes   de   seguridad   en   obras,   el   Jefe   de   Proyecto solicitará   al   Jefe   de   este   Servicio   la   propuesta   en   su   caso   de   un   Coordinador   de Seguridad y salud en fase de elaboración del Proyecto, quien será responsable de la elaboración del correspondiente Estudio de Seguridad y salud en obra.\n\n5.8. El   Jefe   de   Proyecto   coordinará   el   archivo   de   proyecto   tanto   si   su   ejecución   es totalmente en la Oficina local como si parte de los trabajos se desarrollan en la Oficina de Madrid.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 6,
+      "seccion": "5. DESARROLLO DEL PROYECTO",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "351b4ae0-537f-4e76-ae57-26a1f9a1100a",
+      "texto": "5.1. En el caso de un Proyecto a desarrollar íntegramente en una Oficina local, no se celebrará   la   Reunión   con   los  Jefes  de   Departamento,   quienes   recibirán   para   su conocimiento y efectos una nota, en la que el Jefe de Proyecto comunicará el alcance y el programa a desarrollar, así como el nombre de los responsables de las diversas tareas.\n\nIgualmente   y   a   criterio   del   Jefe   de   Proyecto,   podrá   no   celebrarse   la   reunión   de lanzamiento (\"kick-off meeting\"), pero en todo caso se informará por escrito a todos los afectados tanto de los datos principales del nuevo Contrato como de todas aquellas características que no sean usuales en otros proyectos. El correspondiente Plan de Calidad estará igualmente a disposición del personal afectado.\n\nDada la proximidad en la oficina de todos los responsables de los diversos trabajos, la celebración con los mismos de reuniones mensuales de coordinación y avance quedará a criterio del Jefe de Proyecto.",
+      "nivel": "child",
+      "parent_id": "d3ec6790-52da-4acb-af9f-e469bea5d6f7",
+      "pagina_inicio": 5,
+      "pagina_fin": 6,
+      "seccion": "5. DESARROLLO DEL PROYECTO",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5ee80cce-02a2-4327-9d7d-726e07daf035",
+      "texto": "5.2. En el caso de un Proyecto del que sea responsable la Oficina local  y en el que se considere necesaria la colaboración de la Oficina de Madrid, el Jefe de Proyecto gestionará con el Jefe de la División de Ingeniería y con los Jefes de los Departamentos correspondientes   los   servicios   a   prestar   y   su   planificación.   Si   el   Proyecto   es responsabilidad de la Oficina de Madrid y se considera necesaria la colaboración de una Oficina local, el Jefe de Proyecto los gestionará con el Jefe de Operaciones de la Oficina local.\n\n5.3. El Jefe de Proyecto es responsable de la preparación de las órdenes de facturación al Cliente. Para su confección, de acuerdo con la IT-AF-01, si es preciso recabará la ayuda   del   Servicio   de   Control   de   proyectos   y   de   Gestión   o   del   Servicio   de Administración y Finanzas.",
+      "nivel": "child",
+      "parent_id": "d3ec6790-52da-4acb-af9f-e469bea5d6f7",
+      "pagina_inicio": 5,
+      "pagina_fin": 6,
+      "seccion": "5. DESARROLLO DEL PROYECTO",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9183ab39-2843-4ec6-ae22-ddc7cfa46bdf",
+      "texto": "Una vez elaborada, la orden de facturación se enviará a este último Servicio, que preparará la correspondiente factura y la mandará a la Oficina local para su entrega al Cliente.\n\n5.4. El Jefe de Proyecto es responsable de la preparación y seguimiento de la planificación del mismo. Pedirá si la requiere la colaboración del Servicio de Control de proyectos y de Gestión, a quien en cualquier caso hará llegar periódicamente copia de la misma. Este   Servicio   comprobará   cada   cierto   tiempo   el   cumplimiento   de   estas responsabilidades.\n\n5.5. El Servicio de Oficinas locales aportará los datos necesarios para el SIG y el SCSI globales de Intecsa Industrial , de acuerdo con el PR-15 y el PR-77, para su utilización por el Servicio de Control de proyectos y de Gestión.\n\n5.6. El Jefe de Proyecto preparará el Proyecto Oficial, si procede, para su firma por el Director Facultativo.\n\n5.7.",
+      "nivel": "child",
+      "parent_id": "d3ec6790-52da-4acb-af9f-e469bea5d6f7",
+      "pagina_inicio": 5,
+      "pagina_fin": 6,
+      "seccion": "5. DESARROLLO DEL PROYECTO",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "59dd24b3-3b24-422c-b132-648c0d2301d7",
+      "texto": "5.7. De acuerdo con lo indicado en el Procedimiento del Servicio de Prevención de Riesgos laborales   PRL-19   Estudios   y   planes   de   seguridad   en   obras,   el   Jefe   de   Proyecto solicitará   al   Jefe   de   este   Servicio   la   propuesta   en   su   caso   de   un   Coordinador   de Seguridad y salud en fase de elaboración del Proyecto, quien será responsable de la elaboración del correspondiente Estudio de Seguridad y salud en obra.\n\n5.8. El   Jefe   de   Proyecto   coordinará   el   archivo   de   proyecto   tanto   si   su   ejecución   es totalmente en la Oficina local como si parte de los trabajos se desarrollan en la Oficina de Madrid.",
+      "nivel": "child",
+      "parent_id": "d3ec6790-52da-4acb-af9f-e469bea5d6f7",
+      "pagina_inicio": 5,
+      "pagina_fin": 6,
+      "seccion": "5. DESARROLLO DEL PROYECTO",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7e7956a1-4253-46de-864a-40ebb94532b7",
+      "texto": "6.1. En un Proyecto que depende de la Oficina local,  el Jefe de Proyecto coordinará la supervisión necesaria con los Jefes de los Departamentos de Ingeniería. Así mismo, si se precisa que algunos trabajos se desarrollen en la oficina de Madrid, el Jefe de Proyecto coordinará en su caso con los Jefes de los Departamentos de Ingeniería, las personas a asignar y el alcance de los mismos.\n\n6.2. En un Proyecto que depende de la División de Operaciones, el Jefe de Proyecto coordinará en su caso con los Jefes de los Departamentos de Ingeniería, los criterios de supervisión de la ingeniería de detalle desarrollada en la Oficina local.\n\n6.3. La subcontratación externa de servicios de ingeniería y diseño seguirá lo indicado en el PR- 36 Procedimiento de Subcontratación de ingeniería. Dichos servicios seguirán el Sistema de Calidad (en especial la verificación de documentos especificada por la Instrucción de Trabajo IT-03 de cada Especialidad) y el Sistema de Prevención de Riesgos laborales.\n\n6.4. Cuando un Especialista Responsable de cuenta trabaja en Madrid para un Proyecto de una Oficina local, el Jefe de Proyecto coordinará el circuito de firma física sobre papel de los originales de los documentos técnicos de la cuenta que lo requieran, tanto los elaborados por Intecsa Industrial como los de cualquier otro origen. Salvo decisión expresa en contrario, el Especialista responsable de cuenta custodiará estos originales.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "6. EJECUCIÓN DE LA INGENIERÍA Y EL DISEÑO DE UN PROYECTO",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2f68bab7-78f1-4955-af8d-63215ee4befb",
+      "texto": "6.1. En un Proyecto que depende de la Oficina local,  el Jefe de Proyecto coordinará la supervisión necesaria con los Jefes de los Departamentos de Ingeniería. Así mismo, si se precisa que algunos trabajos se desarrollen en la oficina de Madrid, el Jefe de Proyecto coordinará en su caso con los Jefes de los Departamentos de Ingeniería, las personas a asignar y el alcance de los mismos.\n\n6.2. En un Proyecto que depende de la División de Operaciones, el Jefe de Proyecto coordinará en su caso con los Jefes de los Departamentos de Ingeniería, los criterios de supervisión de la ingeniería de detalle desarrollada en la Oficina local.\n\n6.3. La subcontratación externa de servicios de ingeniería y diseño seguirá lo indicado en el PR- 36 Procedimiento de Subcontratación de ingeniería.",
+      "nivel": "child",
+      "parent_id": "7e7956a1-4253-46de-864a-40ebb94532b7",
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "6. EJECUCIÓN DE LA INGENIERÍA Y EL DISEÑO DE UN PROYECTO",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "65695a7e-4ae0-4ee6-b56f-fa17bcb031c8",
+      "texto": "Dichos servicios seguirán el Sistema de Calidad (en especial la verificación de documentos especificada por la Instrucción de Trabajo IT-03 de cada Especialidad) y el Sistema de Prevención de Riesgos laborales.\n\n6.4. Cuando un Especialista Responsable de cuenta trabaja en Madrid para un Proyecto de una Oficina local, el Jefe de Proyecto coordinará el circuito de firma física sobre papel de los originales de los documentos técnicos de la cuenta que lo requieran, tanto los elaborados por Intecsa Industrial como los de cualquier otro origen. Salvo decisión expresa en contrario, el Especialista responsable de cuenta custodiará estos originales.",
+      "nivel": "child",
+      "parent_id": "7e7956a1-4253-46de-864a-40ebb94532b7",
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "6. EJECUCIÓN DE LA INGENIERÍA Y EL DISEÑO DE UN PROYECTO",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "40a66037-74cb-4eab-8a58-7e1aef9d5608",
+      "texto": "7.1. El   Jefe   de   Proyecto   coordinará   la   utilización   de   los   modelos   establecidos   por   los Departamentos de Compras y de Construcción respectivamente, para los Pedidos y Subcontratos   elaborados   en   la   Oficina   local,   solicitando   ayuda   del   Departamento correspondiente si en algún caso se requiere su adaptación.\n\n7.2. El Jefe de Proyecto coordinará en su caso con los Jefes de los Departamentos de Compras o de Construcción de la Oficina de Madrid, los detalles de las compras (incluso   la   activación   y   la   inspección   en   los   talleres   de   fabricantes)   y   de   los subcontratos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "7. EJECUCIÓN DE LAS COMPRAS Y DE LA SUBCONTRATACIÓN EN UN PROYECTO",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0f2e0cb7-40af-4739-bd99-9967c90453bf",
+      "texto": "7.3. La Oficina local incluirá en principio los Pedidos y Subcontratos y sus suplementos en el portal de Intecsa Industrial , para conocimiento de los Departamentos Comercial, de Compras y de Construcción  y del Servicio de Control de proyectos y de Gestión.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "PROCEDIMIENTO DE TRABAJO EN LAS OFICINAS LOCALES",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b6064da8-666f-4ab7-b2b0-d9aed19b018d",
+      "texto": "8.1. El Jefe de Obra será designado de común acuerdo por el Jefe de Proyecto y el Jefe del Departamento de Construcción.\n\n8.2. En todo caso la supervisión de la obra se hará bajo la responsabilidad del Jefe de Proyecto, siguiendo los Sistemas de gestión de la Calidad y de Prevención de riesgos laborales de Intecsa Industrial .\n\n8.3. En su caso, el Jefe de Proyecto estará en contacto con el Jefe del Servicio de Prevención de Riesgos laborales para nombrar al Coordinador de Seguridad y salud en la fase de ejecución de las obras, actuando todos de acuerdo con los Procedimientos de Prevención de Riesgos laborales de Intecsa Industrial .",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "8. SUPERVISIÓN DE LA CONSTRUCCIÓN Y EL MONTAJE EN UN PROYECTO",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "68fdb6b7-9798-4faa-aa7f-d5450bec3c33",
+      "texto": "9.1. Para la tramitación de las facturas emitidas por los Proveedores y Subcontratistas de un Proyecto, se seguirá lo indicado en la Instrucción de trabajo IT-AF-01 Circuito de conformación de facturas.\n\n9.2. Si   un   Pedido   o   Subcontrato   se   emite   en   una   Oficina   local,   las   facturas   de   los Suministradores   correspondientes   se   recibirán   también   en   la   Oficina   local.   Dichas facturas deberán ir acompañadas por los documentos debidamente aprobados que se citan en la indicada IT, que se seguirá para su tramitación.\n\n9.3. Si un Pedido o Subcontrato se emite desde la oficina de Madrid, el Suministrador enviará las facturas al Servicio de Administración y finanzas, que procederá a su tramitación de acuerdo con la indicada IT.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "9. FACTURACIÓN DE PROVEEDORES Y SUBCONTRATISTAS EN UN PROYECTO",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "53ed3a98-b6ec-4c5e-a32c-f9af9691775a",
+      "texto": "El consumo de energía eléctrica queda registrado en los contadores de la oficina.\n\nLas facturas de la empresa suministradora correspondientes al menos a los últimos 24 meses, se custodian en la oficina, que a partir de estos datos mantiene un registro con lo siguiente:\n\n-Consumo medio de los últimos 12 meses",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "10.1.Gestión de energía eléctrica",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fba6b74e-4af6-4488-9472-d0f8f4fcaac0",
+      "texto": "-Variación porcentual sobre el consumo (variación porcentual sobre el consumo de referencia (media de consumo de los últimos 3 años)\n\nEn el caso de que este último dato supere el 20% de aumento, se iniciará una investigación por Calidad y Medio Ambiente para averiguar las causas. Si el consumo se considera justificado,   no   dará   lugar   a   acciones   posteriores,   y   si   no   es   así,   se establecerá una acción correctiva del desvío.\n\nAdemás se promueve el ahorro energético mediante las siguientes medidas:\n\n Las  fotocopiadoras   e   impresoras   disponen   de   un   sistema   de   paso   a   bajo consumo cuando permanecen inactivas durante un tiempo determinado.\n\n Cada persona es responsable de desconectar su PC al acabar su jornada laboral.\n\n Para optimizar el consumo energético de los equipos de aire acondicionado en las salas de reuniones se asegurará que los termostatos se encuentren lejos de fuentes de calor (sol, lámparas, etc.) y se regularán siempre a una temperatura entre 20 y 22º C, desconectándose al acabar la reunión.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "PROCEDIMIENTO DE TRABAJO EN LAS OFICINAS LOCALES",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "844f003f-5ccb-40ad-878f-c3d8d6dc9bb1",
+      "texto": "-Variación porcentual sobre el consumo (variación porcentual sobre el consumo de referencia (media de consumo de los últimos 3 años)\n\nEn el caso de que este último dato supere el 20% de aumento, se iniciará una investigación por Calidad y Medio Ambiente para averiguar las causas. Si el consumo se considera justificado,   no   dará   lugar   a   acciones   posteriores,   y   si   no   es   así,   se establecerá una acción correctiva del desvío.\n\nAdemás se promueve el ahorro energético mediante las siguientes medidas:\n\n Las  fotocopiadoras   e   impresoras   disponen   de   un   sistema   de   paso   a   bajo consumo cuando permanecen inactivas durante un tiempo determinado.\n\n Cada persona es responsable de desconectar su PC al acabar su jornada laboral.\n\n Para optimizar el consumo energético de los equipos de aire acondicionado en las salas de reuniones se asegurará que los termostatos se encuentren lejos de fuentes de calor (sol, lámparas, etc.)",
+      "nivel": "child",
+      "parent_id": "fba6b74e-4af6-4488-9472-d0f8f4fcaac0",
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "PROCEDIMIENTO DE TRABAJO EN LAS OFICINAS LOCALES",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "16cf9c88-45c7-4fd7-96a7-73aef59a9ef4",
+      "texto": "y se regularán siempre a una temperatura entre 20 y 22º C, desconectándose al acabar la reunión.",
+      "nivel": "child",
+      "parent_id": "fba6b74e-4af6-4488-9472-d0f8f4fcaac0",
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "PROCEDIMIENTO DE TRABAJO EN LAS OFICINAS LOCALES",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a209d72f-f03e-4ca0-9a85-1a3d20fdcd0b",
+      "texto": "El consumo de agua queda registrado en los contadores de la oficina.\n\nLas facturas de la empresa suministradora correspondientes al menos a los últimos 24 meses, se custodian en la oficina, que a partir de estos datos mantiene un registro con lo siguiente:\n\n-Consumo medio de los últimos 12 meses\n\n-Variación porcentual sobre el consumo (variación porcentual sobre el consumo de referencia (media de consumo de los últimos 3 años))\n\nEn el caso de que este último dato supere el 20% de aumento, se iniciará una investigación   por   Calidad   y   Medio   Ambiente   para   averiguar   las   causas.   Si   el consumo se considera justificado, no dará lugar a acciones posteriores, y si no es así, se establecerá una acción correctiva del desvío.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "10.2.- Consumo de agua potable",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9786d0b6-ef69-412a-bae1-ed97ed6234c6",
+      "texto": "La media del consumo de papel de los últimos 3 años, será considerada como el valor de referencia para la evaluación continua del consumo futuro.\n\nSe considera, que el consumo de papel es significativo cuando supere en mas del 20% el valor de referencia",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "10.3.- Consumo de papel",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "aad5b67e-13ff-40e2-9dfe-ec78ea0e7a3c",
+      "texto": "La media del consumo de toner de los últimos 3 años, será considerada como el valor de referencia para la evaluación continua del consumo futuro.\n\nSe considera, que el consumo de toner es significativo cuando supere en mas del 20% el valor de referencia.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "PROCEDIMIENTO DE TRABAJO EN LAS OFICINAS LOCALES",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c1a32ead-cacd-4a09-879e-485e4812a5ab",
+      "texto": "La gestión de los residuos generados en oficina se llevará a cabo siguiendo las siguientes instrucciones:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "10.5.- Gestión de residuos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a47b1f95-87b9-4def-8959-1fcd4903ad5c",
+      "texto": "Los tóner usados de la fotocopiadora e impresoras son retirados por la empresa suministradora, para su destino final a reciclaje.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "10.5.1. Cartuchos y envases de tóner",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5a7bb818-b1c0-4ce3-ab6d-d8e21a3fd9c4",
+      "texto": "La empresa suministradora los retira para reciclaje.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "Fluorescentes y cebadores",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b1790f7b-6c2a-416b-93b6-544ab971ebab",
+      "texto": "Se gestionan según lo establecido para los residuos urbanos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "Resto de consumibles eléctricos (lámparas)",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2d74e6b0-19d3-4766-95c5-3078460b2613",
+      "texto": "La separación en origen de residuos orgánicos y envases no se realiza en la debido a que el ayuntamiento de los Barrios no tiene establecido un sistema de recogida selectiva de estos.\n\nLa contrata de limpieza será la encargada de retirar y depositar estos residuos   en   los  contenedores   municipales   destinados   a   la   recogida   de restos orgánicos principalmente.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "10.5.3. Residuos urbanos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8a6d3bb8-96f2-4cbd-9873-d91d6d1cca90",
+      "texto": "Cada  persona   que   genere   papel   o   cartón   usado,   lo   depositará   en   la papelera individual de su puesto de trabajo (que no es válida para depositar residuos de otros grupos) o en las papeleras de sólo papel distribuidas en la oficina (en las cuales el personal que realiza la limpieza diaria de las oficinas vaciará las papeleras) y a su vez se depositaran en el contenedor de selección de papel del ayuntamiento situado frente a la oficina.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "10.5.4. Papeles y cartones usados",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8855236c-7023-42d3-ae81-f196e9e0d01e",
+      "texto": "Son almacenados hasta su  donación   a   entidades   sin   ánimo   de   lucro, conservándose registro de estas.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 9,
+      "pagina_fin": 9,
+      "seccion": "10.5.5. Residuos informáticos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "939966db-6703-4d82-bb66-e31d962de9cc",
+      "texto": "El anexo I a este procedimiento recoge el único riesgo ambiental que se puede originar en la oficina local 'un incendio' y establece la forma de actuar en caso de producirse con objeto de prevenir la contaminación .",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "PROCEDIMIENTO DE TRABAJO EN LAS OFICINAS LOCALES",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "185b420e-c0ea-48f0-8050-d652b7e375df",
+      "texto": "Se establece una nueva estructura para el almacenamiento de datos de Proyectos, así como el establecimiento de nuevos permisos de lectura/ escritura a todos los usuarios de la Oficina Local de Intecsa Industrial del Campo de Gibraltar.\n\nLa unidad principal de almacenamiento de datos de Proyectos esta nominada como DATOSPR y su estructura de directorios se muestran en el Anexo II.\n\nExistirá una carpeta por cada Proyecto con su correspondiente número de cuenta de Intecsa Industrial y dentro de ellas subdirectorios con cada una de las especialidades, que a su vez se subdividirán en diferentes carpetas para las diferentes categorías establecidas, según se puede apreciar en la estructura de directorios (Anexo II).\n\nTambién existirá en la raíz de DATOSPR una carpeta correspondiente a las ofertas donde estarán contenidos diferentes directorios con todas las ofertas numeradas según Intecsa Industrial .\n\nLa manipulación de la estructura de directorios sólo podrá realizarla el Administrador del Sistema con la autorización y visto bueno del Jefe de la Oficina local y del responsable de la especialidad. Los usuarios podrán acceder, leer y escribir en cada uno de ellos en función a unos permisos que han sido establecidos de acuerdo a su especialidad y categoría laboral (ver Anexo II). La modificación de los archivos contenidos en esta unidad deberá realizarse primero copiando dicho archivo al Terminal Local de cada usuario (PC) y una vez realizados los cambios   y   verificados   su   validez,   proceder   a   pasarla   al   servidor   a   fin   de   no   alterar erróneamente el archivo en origen con el fin de garantizar que el personal de la Oficina Local tiene acceso en cada momento a la última información del proyecto, se deberá mantener al día, mediante ediciones abiertas toda la documentación incluida en esta unidad.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "11.1.-    Gestión de archivos informáticos.",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "927ca5c7-d236-4477-ae34-3b269fd7d75b",
+      "texto": "Se establece una nueva estructura para el almacenamiento de datos de Proyectos, así como el establecimiento de nuevos permisos de lectura/ escritura a todos los usuarios de la Oficina Local de Intecsa Industrial del Campo de Gibraltar.\n\nLa unidad principal de almacenamiento de datos de Proyectos esta nominada como DATOSPR y su estructura de directorios se muestran en el Anexo II.\n\nExistirá una carpeta por cada Proyecto con su correspondiente número de cuenta de Intecsa Industrial y dentro de ellas subdirectorios con cada una de las especialidades, que a su vez se subdividirán en diferentes carpetas para las diferentes categorías establecidas, según se puede apreciar en la estructura de directorios (Anexo II).\n\nTambién existirá en la raíz de DATOSPR una carpeta correspondiente a las ofertas donde estarán contenidos diferentes directorios con todas las ofertas numeradas según Intecsa Industrial .\n\nLa manipulación de la estructura de directorios sólo podrá realizarla el Administrador del Sistema con la autorización y visto bueno del Jefe de la Oficina local y del responsable de la especialidad.",
+      "nivel": "child",
+      "parent_id": "185b420e-c0ea-48f0-8050-d652b7e375df",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "11.1.-    Gestión de archivos informáticos.",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "59c9f361-d57a-4144-a0c7-b7998e7c1e9a",
+      "texto": "Los usuarios podrán acceder, leer y escribir en cada uno de ellos en función a unos permisos que han sido establecidos de acuerdo a su especialidad y categoría laboral (ver Anexo II). La modificación de los archivos contenidos en esta unidad deberá realizarse primero copiando dicho archivo al Terminal Local de cada usuario (PC) y una vez realizados los cambios   y   verificados   su   validez,   proceder   a   pasarla   al   servidor   a   fin   de   no   alterar erróneamente el archivo en origen con el fin de garantizar que el personal de la Oficina Local tiene acceso en cada momento a la última información del proyecto, se deberá mantener al día, mediante ediciones abiertas toda la documentación incluida en esta unidad.",
+      "nivel": "child",
+      "parent_id": "185b420e-c0ea-48f0-8050-d652b7e375df",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "11.1.-    Gestión de archivos informáticos.",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5dc4ff55-0720-4b27-89b7-9580a327fef3",
+      "texto": "Como norma general todos los usuarios de la Oficina Local podrán acceder en modo lectura a todas las carpetas (con algunas excepciones como indicamos en la lista de permisos) y en modo escritura según su especialidad: PROCESOS, MECANICA, ELECTRICIDAD, OBRA CIVIL, INSTRUMENTACION, SEGURIDAD, COMPRAS Y GENERAL. El personal de Intecsa Industrial de las oficinas de Madrid podrá acceder a la información de determinadas carpetas previa autorización de la dirección de la Oficina o del Responsable de Cuenta o Jefe de Proyecto.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "11.1.1.Accesos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6f4c6b4a-d34c-418d-b8e7-fae872321f2d",
+      "texto": "Dentro del protocolo de trabajo se establece como norma la creación, en cada una de las   carpetas   de   una   subcarpeta   donde   se   vayan   almacenando   las   revisiones superadas de documentos, con el fin de poder hacer un seguimiento desde su  origen. Antes de la realización de una nueva edición de un documento se debe asegurar que\n\nla edición anterior se encuentra guardada en la carpeta antes mencionada. De igual manera antes de la eliminación definitiva de alguno de los documentos, se deberá comprobar que se ha guardado la copia válida en su lugar correspondiente.\n\nLa actualización de la información contenida en los proyectos correrá a cargo de los usuarios correspondientes, y toda modificación realizada durante la jornada se enviara a los servidores al finalizar la misma con el fin de preservar el trabajo realizado de cualquier avería de los Terminales Clientes (PC) de los usuarios.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 10,
+      "pagina_fin": 11,
+      "seccion": "11.1.2.- Actualización de documentos.",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "63bd5690-691e-40db-9b3e-9677df5c5601",
+      "texto": "El Administrador del Sistema asegurará diariamente todo lo contenido en DATOSPR realizando una copia de seguridad en cinta magnética. Dicho backup diario se renueva semanalmente, y una vez transcurrido un trimestre se guarda dicha cinta en un histórico para su posterior consulta en caso necesario. Dado el carácter limitado del espacio en los discos duros del servidor, los proyectos con más de 2 años de antigüedad son volcados a soporte DVD y eliminados del servidor. La recuperación de cualquier dato de proyectos ya sea por una eliminación errónea, o por antigüedad del mismo se gestionara a través del Administrador de Sistema.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "11.2.-  Copias de seguridad.",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "403d8b58-ab87-4971-a55e-f70af5b97378",
+      "texto": "Se  controlan las ediciones originales y las copias de estos originales, puesto que son elementos vivos que van evolucionando a lo largo de los proyectos.\n\nLas copias en papel de documentos realizados en ordenador con su número de edición, fecha y con la firma original de los responsables, y en su caso del Cliente, constituye el original de la correspondiente edición. y solamente copias de éste son considerados documentos válidos para el Proyecto.\n\nLos documentos originales realizados en papel como (Planos de Intecsa Industrial, Licenciatarios o socios, especificaciones, estándares, relaciones de material (RM),…) se archivan para su conservación, siendo el responsable de éstos el jefe de proyecto/ ingeniero de proyecto. Se realiza una copia master para utilizarla como documento de trabajo.   En   el   caso   de   modificación     del   documento   original,   el   responsable   del documento archiva   la   edición   anterior   y realiza   una   nueva   copia   master, asegurándose de la destrucción de la copia master anterior para evitar su uso.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "11.3.- Gestión de archivos originales.",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4f119a33-613e-451c-bb75-f6f46975c02d",
+      "texto": "DESCRIPCIÓN   DEL   INCIDENTE,   ACCIDENTE   O   SITUACIÓN   DE   EMERGENCIA   Y   ASPECTOS AMBIENTALES ASOCIADOS:",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "RIESGOS AMBIENTALES EN LAS OFICINAS Y PLAN DE ACTUACIÓN",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9df2769a-6d8d-4ca1-ba5e-be9352c2b2b6",
+      "texto": "Cuando el incendio desborda la corta capacidad de respuesta de Intecsa Industrial , es cuando se pueden producir aspectos medioambientales significativos e importantes, sobre todo debido al gran volumen de residuos que pueden llegar a generarse.\n\n1.1.Vertido de aguas utilizadas en la extinción del incendio.\n\n1.2.Residuos generados por el incendio.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "1. INCENDIO",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b0946296-f875-4a98-a267-f51ce11c0f42",
+      "texto": "1.1.- El vertido de las aguas utilizadas en la extinción del incendio no merece la consideración de ningún tipo de medida especial de actuación, ya que no existen productos peligrosos en las oficinas y el aumento de caudal en la red de alcantarillado es perfectamente asumible por esta.\n\n1.2.La gestión de los residuos generados en el incendio se llevará a cabo de la siguiente forma:\n\n-La empresa o empresas contratadas agruparán los residuos según las siguientes categorías para llevar a cabo una gestión individualizada de cada una de ellas: Escombros y restos de materiales inertes, metales, tubos fluorescentes y restos de materiales orgánicos (madera, papel, cartón, etc.).\n\n-Todos estos residuos serán gestionados de acuerdo con la legislación vigente de la siguiente forma:\n\nEscombros y restos de materiales inertes se enviarán a depósito controlado de inertes.\n\nTubos   fluorescentes   se   entregarán   a   gestor   autorizado   de   residuos   peligrosos, siempre y cuando no hayan sido destruidos en el incendio.\n\nLos restos metálicos se destinarán a reciclaje (chatarra)\n\nLos restos de materiales orgánicos se enviarán a depósito controlado de este tipo de residuos.\n\n-La gestión de todos estos residuos se documentará de acuerdo con lo exigido por la legislación de aplicación.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "MEDIDAS DE ACTUACIÓN:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "be3c5189-5c72-41a9-8d41-ddc96651258f",
+      "texto": "1.1.- El vertido de las aguas utilizadas en la extinción del incendio no merece la consideración de ningún tipo de medida especial de actuación, ya que no existen productos peligrosos en las oficinas y el aumento de caudal en la red de alcantarillado es perfectamente asumible por esta.\n\n1.2.La gestión de los residuos generados en el incendio se llevará a cabo de la siguiente forma:\n\n-La empresa o empresas contratadas agruparán los residuos según las siguientes categorías para llevar a cabo una gestión individualizada de cada una de ellas: Escombros y restos de materiales inertes, metales, tubos fluorescentes y restos de materiales orgánicos (madera, papel, cartón, etc.).\n\n-Todos estos residuos serán gestionados de acuerdo con la legislación vigente de la siguiente forma:\n\nEscombros y restos de materiales inertes se enviarán a depósito controlado de inertes.",
+      "nivel": "child",
+      "parent_id": "b0946296-f875-4a98-a267-f51ce11c0f42",
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "MEDIDAS DE ACTUACIÓN:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "54b0be7a-a378-4aeb-b3de-ea36c880f281",
+      "texto": "Tubos   fluorescentes   se   entregarán   a   gestor   autorizado   de   residuos   peligrosos, siempre y cuando no hayan sido destruidos en el incendio.\n\nLos restos metálicos se destinarán a reciclaje (chatarra)\n\nLos restos de materiales orgánicos se enviarán a depósito controlado de este tipo de residuos.\n\n-La gestión de todos estos residuos se documentará de acuerdo con lo exigido por la legislación de aplicación.",
+      "nivel": "child",
+      "parent_id": "b0946296-f875-4a98-a267-f51ce11c0f42",
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "MEDIDAS DE ACTUACIÓN:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a72d14d8-8d8d-4831-aeef-f00d7511d606",
+      "texto": "1.2.Corresponde al responsable de la Oficina Local incluir, las medidas de actuación, en el contrato firmado con la empresa o empresas encargadas de la limpieza y restauración de las oficinas,   controlar   su   cumplimiento,   y   exigir   la   documentación   acreditativa   de   la   gestión adecuada de cada uno de estos residuos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "FUNCIONES Y RESPONSABILIDADES:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "bb479af4-177a-44a1-b5cd-6763a51f8485",
+      "texto": "Este anexo forma parte del procedimiento 8 incluido en el Portal para conocimiento general.\n\nEn las auditorias anuales a la Oficina Local se comprobará el conocimiento de su contenido.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "REVISIONES DEL PLAN",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8dce8926-a4a2-426a-b881-9c70194853fa",
+      "texto": "Libro Final Proyecto\n\nReportaje Fotografico\n\nInfor. Medioambiental",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 13,
+      "pagina_fin": 13,
+      "seccion": "ESTRUCTURA DE DOCUMENTACION DE PROYECTOS EN SERVIDOR DE OFICINA LOCAL INTECSA CAMPO GIBRALTAR ANEXO II",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "edcdc29d-2f1e-4596-a44c-8fc0fe9141c8",
+      "texto": "Datos de Instrumentos\n\nPlanes de  Seguridad",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 14,
+      "pagina_fin": 14,
+      "seccion": "PROCEDIMIENTO DE TRABAJO EN LAS OFICINAS LOCALES",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    }
+  ]
+}

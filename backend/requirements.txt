@@ -13,6 +13,10 @@ openai>=1.30.0                      # GPT-4o vision + text-embedding-3-small
 chromadb>=0.5.0                     # dev local
 # azure-search-documents>=11.4.0   # producción Azure AI Search
 
+# ── Retrieval ──────────────────────────────────────────────────────────────
+rank-bm25>=0.2.2                    # BM25 léxico en memoria
+cohere>=5.11.0                      # Rerank multilingüe
+
 # ── API ────────────────────────────────────────────────────────────────────
 fastapi>=0.111.0
 uvicorn[standard]>=0.29.0

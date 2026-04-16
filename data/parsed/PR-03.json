@@ -1,0 +1,229 @@
+{
+  "doc_id": "8d22b8bc6aee48f7bdde2c3661fab970",
+  "nombre_fichero": "PR-03.pdf",
+  "metadatos_admin": {
+    "empresa": "intecsa",
+    "proyecto_id": null,
+    "tipo_doc": "procedimiento",
+    "idioma": "es",
+    "anexo_de": null
+  },
+  "metadatos_documento": {
+    "titulo": "PROCEDIMIENTO DE ELABORACION DE PROGRAMAS INFORMATICOS",
+    "edicion": "2",
+    "fecha_emision": null
+  },
+  "fecha_ingesta": "2026-04-16T18:06:29+00:00",
+  "chunks": [
+    {
+      "chunk_id": "ca325a7a-177e-4593-a9ab-cc866c023e6b",
+      "texto": "Este Procedimiento tiene por objeto definir la forma de actuación en la elaboración y posterior   uso   de   los   programas   informáticos   adoptados   para   uso   oficial   de Intecsa Industrial ,   tanto   los   que   afectan   a   toda   la   empresa   como   los   más   específicos   de Divisiones, Servicios y Departamentos.\n\nEste Procedimiento forma parte del Sistema Integrado de Gestión de la Calidad y Gestión Ambiental de Calidad de Intecsa Industrial y se ha preparado teniendo en cuenta la norma ISO 9001 y 14001.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3aa61962-7a8c-4571-91e3-f8d09e3e5712",
+      "texto": "El   Jefe   del   Departamento   o   Servicio   que   pide   la   elaboración   de   un   programa   es responsable de especificar la aplicación que se requiera, y a partir de esta especificación el Jefe del Servicio de Sistemas de Información decide su elaboración.\n\nLa verificación y validación del mismo se lleva a cabo coordinadamente por el Jefe del Servicio de Sistemas de Información y por el Jefe del Departamento o Servicio que pidió su elaboración.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. RESPONSABILIDADES",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "27ba0392-e033-4697-b5ab-2d67f2f99fbd",
+      "texto": "Detectada la necesidad de un programa informático para llevar a cabo un determinado trabajo, el Jefe de la División, Departamento o Servicio correspondiente, lo comunicará al Jefe  del   Servicio   de   Sistemas   de   Información,   quien,   previo   estudio,   formulará   una propuesta de elaboración y la someterá a aprobación de la Dirección.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "3.1. Petición de su elaboración",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5cf930f9-adc8-4cb7-8c75-89f8ae3abc08",
+      "texto": "El Jefe del grupo que ha solicitado el programa designará un responsable (en adelante usuario) del desarrollo del mismo, el cual preparará las especificaciones técnicas. Estas especificaciones se acordarán con el Jefe de Servicio de Sistemas de Información, quien designará a un responsable (en adelante responsable de informática) que asegurará, de forma coordinada con el usuario, que el programa se desarrolla de acuerdo con las mismas,   ya   sea   por   el   propio   Servicio   de   Sistemas   de   Información   o   mediante subcontratación a terceros.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "3.2. Elaboración",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0013092b-a2bb-43e0-af5e-e9c3cb4518d5",
+      "texto": "A la finalización del programa, el usuario y el responsable de informática verificarán coordinadamente el programa, utilizándolo con datos adecuados para comprobar, en principio, el funcionamiento correcto de la aplicación y la coherencia de sus resultados. Una vez hecha la comprobación, informarán a sus jefes, y el Servicio de Sistemas de\n\nInformación,   en   su   caso,   comunicará   al   Jefe   de   Calidad   y   Medio   Ambiente   que   el programa está disponible para su validación.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "3.3. Verificación",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5f91478b-277e-42bc-9f1e-aade60eb66d4",
+      "texto": "El Jefe de Calidad y Medio Ambiente, propondrá al Comité de Calidad la designación de un proyecto o prueba piloto para el uso del programa, marcando un plazo de utilización del mismo para poder considerar al programa validado para su uso o para revisar y/o mejorar lo que se precise antes de considerarlo definitivamente validado.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3.4. Validación",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6ccc5bea-ccde-4eb0-9c95-6d451a3e1d6c",
+      "texto": "En paralelo con el uso del programa en un trabajo piloto, el usuario preparará un manual de utilización del mismo, que se podrá editar (según la importancia del programa) como una I.T. o bien incluir en la INTRANET de Intecsa Industrial.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3.5. Manual de utilización",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a864b49f-88f1-428f-bb77-f8418d8ddef7",
+      "texto": "Una vez acabada satisfactoriamente la fase piloto, el Jefe de Calidad y Medio Ambiente, lo indicará al Jefe de Servicio de Sistemas de Información, quien autorizará el uso del nuevo   programa   general   de Intecsa   Industrial. Para   ello   rellenará   el   protocolo correspondiente (Anexo 1) que firmará junto con el Jefe de la División, Departamento o Servicio usuario y con el Jefe de Calidad y Medio Ambiente.\n\nEl Servicio de Sistemas de Información mantendrá el programa a la disposición de las personas autorizadas para su utilización y lo dará de alta en la Lista de programas en uso.\n\nPara   cada   programa   se   realizará   una   ficha   técnica   (Anexo   2),   describiendo   las características del mismo, el responsable de su utilización y la documentación existente.\n\nTodos los programas que estaban en uso normal el 31.12.1999 se consideran validados. Sus fichas técnicas se adaptarán al modelo incluido en el Anexo 2, y se incluirá en el registro un único protocolo en el que se listará la denominación oficial de todos ellos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3.6. Utilización como programa general",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5a9f3050-e6b3-42b9-b2f8-29cf40f74423",
+      "texto": "Una vez acabada satisfactoriamente la fase piloto, el Jefe de Calidad y Medio Ambiente, lo indicará al Jefe de Servicio de Sistemas de Información, quien autorizará el uso del nuevo   programa   general   de Intecsa   Industrial. Para   ello   rellenará   el   protocolo correspondiente (Anexo 1) que firmará junto con el Jefe de la División, Departamento o Servicio usuario y con el Jefe de Calidad y Medio Ambiente.\n\nEl Servicio de Sistemas de Información mantendrá el programa a la disposición de las personas autorizadas para su utilización y lo dará de alta en la Lista de programas en uso.\n\nPara   cada   programa   se   realizará   una   ficha   técnica   (Anexo   2),   describiendo   las características del mismo, el responsable de su utilización y la documentación existente.\n\nTodos los programas que estaban en uso normal el 31.12.1999 se consideran validados.",
+      "nivel": "child",
+      "parent_id": "a864b49f-88f1-428f-bb77-f8418d8ddef7",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3.6. Utilización como programa general",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6e6adcbb-1bcb-4eba-9f93-58e7c67a5248",
+      "texto": "Sus fichas técnicas se adaptarán al modelo incluido en el Anexo 2, y se incluirá en el registro un único protocolo en el que se listará la denominación oficial de todos ellos.",
+      "nivel": "child",
+      "parent_id": "a864b49f-88f1-428f-bb77-f8418d8ddef7",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3.6. Utilización como programa general",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a6cf0d62-f5ff-4969-8634-1e4c6f2d6402",
+      "texto": "El Servicio de Sistemas de Información llevará en un registro los protocolos indicados en el apartado 3.6, con sus revisiones cuando proceda.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "3.7. Registro",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f5f6c55e-6bf2-4169-af0d-302745ee1137",
+      "texto": "MI-107 Protocolo de Autorización de uso de un programa",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "ANEXO 1",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b39c3bcc-d577-4fcb-9934-2b499129e4d7",
+      "texto": "(se adjunta ejemplo)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "ANEXO 2 Ficha técnica de programas informáticos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "dd697aa87149413a8d89c4074c10f7a5",
+      "texto": "| ANEXO II                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |            |               |        | Fecha:   |                  |             |\n|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------|--------|----------|------------------|-------------|\n| Programa:                               | Sistema Integrado de Gestión de Compras 2007                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |            |               |        | Junio    |                  | COMPRAS     |\n| AREA:                                   | Compras y Subcontratos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |            |               |        |          |                  |             |\n| Descripción                             | Da soporte informático a toda la actividad de Compras, desde la petición de ofertas hasta el control de recepción del material en obra.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |               |        |          |                  |             |\n|                                         | Las funciones principales que resuelve son: - Gestión de proveedores homologados. Asignación de Proveedores a un proyecto. - Incorporación automática de los ITEMS a comprar desde las bases de datos de Ingeniería. Gestión de RM's y variaciones en los items (cantidades).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |            |               |        |          |                  |             |\n| Informes Datos                          | - - Control de facturas de proveedor. - Control de documentos de proveedor. Indice del Libro Fin de Proyecto. - Activación e inspección. - Seguimiento del estado de compras. - Cálculo del avance de la actividad de compras. - Proporcionar el coste comprometido al sistema de COSTES. - Comunicar al almacén de obra los materiales a recibir y fecha prevista de entrega. - Recepción del almacén de obra de los materiales ya recibidos. - Valoración de presupuestos a partir de la base histórica de precios (Mat. Tuberías). Las                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |            |               |        |          |                  | - -         |\n| Usuarios Potenciales                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |            |               |        |          |                  |             |\n| Autoriza el uso Manual de               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |            |               |        |          |                  |             |\n| uso y formación Responsable Informático | Fax de intención. Pedidos y suplementos. Gestión del estado de los pedidos. Previsión de pagos. características principales son Incorporación automática de datos (RM's de Ingeniería, precios y fechas de entrega de proveedores). Seguimiento de los cambios en los ITEMS a comprar. Integración total con los sistemas de COSTES, ALMACEN, ANALISIS DE CONSTRUCTIBILIDAD y EMBARQUES. Multimoneda. Permite informes en cada moneda y la agregación en la moneda de proyecto. Todos los necesarios para soportar las funciones mencionadas. Se pueden obtener en castellano, inglés y francés. Los de los ITEMS a comprar se incorporan de las bases de datos de ingeniería (automáticamente) y los precios de los ofertantes y fechas de entrega (automáticamente desde disquete). Llegada de materiales a obra (automáticamente desde el programa Almacén) Resto de datos (manualmente) - Datos de documentos de proveedor (automático en disquete). un sistema on line que está permanentemente actualizado. informes (previsiones de pago, etc) son de ciclo mensual. de proyecto (a partir de los informes producidos por Compras). Planificación y Control de Gestión (coste comprometido). servicio de Compras y Subcontratos. servicio de Compras y Subcontratos. |            |               |        |          |                  | - - -       |\n| DATOS TECNICOS                          | Francisco Machín                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Requisitos |               |        |          |                  |             |\n| Programas                               | xBase (en red) Sistemas de                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |            | AUTORIZADO SU | USO    | Ratón    |                  |             |\n| Archivos                                | CTRLCOST ALMACEN CONSTRUC EMBARQUES PAGOS INTECSA INDUSTRIAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Ingeniería | POR:          |        |          |                  |             |\n| Interfase Usuario                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |            |               | FECHA: |          |                  |             |\n| relacionados                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |            |               |        |          |                  |             |\n| Lenguaje                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |            |               |        |          |                  | Foxpro, DOS |\n| Periocidad                              | El Lo proporciona el Francisco Machín                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |            |               |        | PENTIUM  | 32 Mb o Superior |             |\n| Autores                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |            |               |        | WINDOWS  |                  |             |\n|                                         | Es Algunos Jefes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |            |               |        |          |                  |             |\n|                                         | PREVISTO:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |            |               |        |          |                  |             |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "ANEXO 2 Ficha técnica de programas informáticos",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": true
+    }
+  ]
+}
