@@ -50,6 +50,7 @@ from app.servicios.vector_store import indexar_documento  # noqa: E402
 _RE_ENGLISH = re.compile(r"\(English", re.IGNORECASE)
 _RE_FRENCH = re.compile(r"\(French", re.IGNORECASE)
 _RE_ANEXO = re.compile(r"\(ANEXO\)", re.IGNORECASE)
+_RE_ANEXO_DE = re.compile(r"^(.+?)\s*[\(\-]\s*(?:ANEXO|ANNEX|ADDENDUM)", re.IGNORECASE)
 
 
 def _es_version_duplicada(nombre: str) -> bool:
@@ -59,6 +60,12 @@ def _es_version_duplicada(nombre: str) -> bool:
 
 def _tipo_doc(nombre: str, tipo_base: str = "procedimiento") -> str:
     return "anexo" if _RE_ANEXO.search(nombre) else tipo_base
+
+
+def _anexo_de(nombre_stem: str) -> str | None:
+    """Extrae el código del documento padre si el fichero es un anexo."""
+    m = _RE_ANEXO_DE.match(nombre_stem)
+    return m.group(1).strip() if m else None
 
 
 # ---------------------------------------------------------------------------
@@ -79,14 +86,16 @@ def _manifiesto_intecsa() -> list[EntradaManifiesto]:
     for pdf in sorted(carpeta.glob("*.pdf")):
         if _es_version_duplicada(pdf.name):
             continue
+        tipo = _tipo_doc(pdf.name)
         entradas.append(
             EntradaManifiesto(
                 ruta_relativa=str(pdf.relative_to(DOCS_DIR)),
                 metadatos=MetadatosAdministrador(
                     empresa="intecsa",
                     proyecto_id=None,
-                    tipo_doc=_tipo_doc(pdf.name),
+                    tipo_doc=tipo,
                     idioma="es",
+                    anexo_de=_anexo_de(pdf.stem) if tipo == "anexo" else None,
                 ),
             )
         )
@@ -119,14 +128,16 @@ def _manifiesto_proyectos() -> list[EntradaManifiesto]:
         for pdf in sorted(carpeta_proyecto.glob("*.pdf")):
             if _es_version_duplicada(pdf.name):
                 continue
+            tipo = _tipo_doc(pdf.name)
             entradas.append(
                 EntradaManifiesto(
                     ruta_relativa=str(pdf.relative_to(DOCS_DIR)),
                     metadatos=MetadatosAdministrador(
                         empresa=empresa,
                         proyecto_id=proyecto_id,
-                        tipo_doc=_tipo_doc(pdf.name),
+                        tipo_doc=tipo,
                         idioma=_idioma_proyecto(pdf.name),
+                        anexo_de=_anexo_de(pdf.stem) if tipo == "anexo" else None,
                     ),
                 )
             )
@@ -150,7 +161,6 @@ def _resumen(doc_dict: dict) -> str:
     anexo = sum(1 for c in chunks if c["dentro_de_anexo"])
     tablas = sum(1 for c in chunks if "Table" in c["tipos_elemento"])
     return (
-        f"págs={doc_dict['paginas_total']} "
         f"parents={len(parents)} children={len(children)} "
         f"tablas={tablas} img={con_imagen} anexo={anexo}"
     )

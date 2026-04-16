@@ -74,6 +74,12 @@ CASOS_DE_PRUEBA: list[tuple[str, MetadatosAdministrador]] = [
             empresa="repsol", proyecto_id="13187", tipo_doc="procedimiento", idioma="es"
         ),
     ),
+     (
+        "intecsa/procedimientos_generales/PR-08 ANEXO III.pdf",
+        MetadatosAdministrador(
+            empresa="repsol", proyecto_id="13187", tipo_doc="procedimiento", idioma="es"
+        ),
+    ),
     (
         "proyectos_clientes/13189_dow/13189-IT-01 (English Version).pdf",
         MetadatosAdministrador(
@@ -103,7 +109,6 @@ def _resumen(documento_dict: dict) -> str:
     anexo = sum(1 for c in chunks if c["dentro_de_anexo"])
     tablas = sum(1 for c in chunks if "Table" in c["tipos_elemento"])
     return (
-        f"páginas={documento_dict['paginas_total']} "
         f"parents={len(parents)} children={len(children)} "
         f"tablas={tablas} con_imagen={con_imagen} anexo={anexo}"
     )

@@ -81,7 +81,6 @@ def main() -> int:
 
     print(
         f"[OK  ] {rel_path}  ({dt:.1f}s)  "
-        f"páginas={doc_dict['paginas_total']} "
         f"parents={len(parents)} children={len(children)} "
         f"tablas={tablas} con_imagen={con_imagen} anexo={anexo}"
     )

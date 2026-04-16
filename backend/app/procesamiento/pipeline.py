@@ -23,7 +23,6 @@ from pathlib import Path
 
 from app.procesamiento import elementos as mod_elementos
 from app.procesamiento import parser as mod_parser
-from app.procesamiento import vision
 from app.procesamiento.chunker import Chunk, chunk_jerarquico
 
 
@@ -40,6 +39,24 @@ class MetadatosAdministrador:
     proyecto_id: str | None               # None → corpus global
     tipo_doc: str                         # procedimiento, especificacion, ..., anexo
     idioma: str                           # ISO 639-1: "es", "en", "fr"
+    anexo_de: str | None = None           # nombre_fichero del doc padre si tipo_doc=="anexo"
+
+
+@dataclass
+class MetadatosPortada:
+    """Metadatos del documento ensamblados desde la cabecera (regex) y la portada.
+
+    Todos los campos son opcionales: si Docling no encuentra el valor en el texto
+    digital y la visión está desactivada, el campo queda como None.
+    """
+
+    edicion: str | None
+    fecha_edicion: str | None
+    titulo_documento: str | None = None
+
+    @classmethod
+    def vacio(cls) -> "MetadatosPortada":
+        return cls(None, None, None)
 
 
 @dataclass
@@ -47,9 +64,8 @@ class DocumentoIngerido:
     doc_id: str
     nombre_fichero: str
     metadatos_admin: MetadatosAdministrador
-    metadatos_portada: vision.MetadatosPortada
+    metadatos_portada: MetadatosPortada
     fecha_ingesta: str                    # ISO 8601
-    paginas_total: int
     chunks: list[Chunk] = field(default_factory=list)
 
 
@@ -68,7 +84,7 @@ def ingestar_pdf(path: Path, metadatos_admin: MetadatosAdministrador) -> Documen
     # 2. Metadatos desde la cabecera del documento (texto digital, gratis).
     #    Extrae título y edición mediante regex sobre los primeros ítems.
     cabecera = mod_elementos.extraer_metadatos_documento(doc)
-    metadatos_portada = vision.MetadatosPortada.vacio()
+    metadatos_portada = MetadatosPortada.vacio()
     if cabecera.titulo:
         metadatos_portada.titulo_documento = cabecera.titulo
     if cabecera.edicion:
@@ -96,7 +112,6 @@ def ingestar_pdf(path: Path, metadatos_admin: MetadatosAdministrador) -> Documen
         metadatos_admin=metadatos_admin,
         metadatos_portada=metadatos_portada,
         fecha_ingesta=datetime.now(tz=timezone.utc).isoformat(timespec="seconds"),
-        paginas_total=len(doc.pages),
         chunks=chunks,
     )
 
@@ -109,6 +124,5 @@ def documento_a_dict(documento: DocumentoIngerido) -> dict:
         "metadatos_admin": asdict(documento.metadatos_admin),
         "metadatos_portada": asdict(documento.metadatos_portada),
         "fecha_ingesta": documento.fecha_ingesta,
-        "paginas_total": documento.paginas_total,
         "chunks": [asdict(c) for c in documento.chunks],
     }

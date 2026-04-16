@@ -141,7 +141,7 @@ El pipeline recibe un PDF y los metadatos del administrador y produce chunks ind
 Cuatro pasos secuenciales:
 
 1. **Parseo:** Docling convierte el PDF en `DoclingDocument` con elementos tipificados.
-2. **Extracción de metadatos de cabecera (fase 1 — texto, sin coste):** regex sobre los primeros 35 items del documento para extraer título (primer `SectionHeaderItem` que supera los filtros de longitud y charset), edición (patrón `EDICION/EDITION`) y `codigo_documento` (patrón de código de documento). Ninguna llamada a API.
+2. **Extracción de metadatos de cabecera (fase 1 — texto, sin coste):** regex sobre los primeros 35 items del documento para extraer título (primer `SectionHeaderItem` que supera los filtros de longitud y charset) y edición (patrón `EDICION/EDITION`). Ninguna llamada a API.
 3. **Extracción de metadatos de portada (fase 2 — visión, con coste):** si `ENABLE_VISION=1`, se llama a GPT-4o con la imagen de la primera página para obtener `fecha_edicion` y completar campos que la fase 1 no pudo extraer.
 4. **Procesado de elementos:** cada item del `DoclingDocument` se transforma en `ElementoProcesado` aplicando las reglas por tipo.
 5. **Chunking:** los elementos procesados se segmentan y pasan por `HierarchicalNodeParser`.
@@ -213,41 +213,30 @@ Pre-segmentación antes del parser: `chunker.py` agrupa los `ElementoProcesado` 
 
 ## Modelo de metadatos
 
-Cada chunk indexado en ChromaDB lleva los siguientes metadatos. ChromaDB requiere tipos primitivos (str/int/float/bool) — las listas se serializan como strings separados por comas; los campos ausentes usan -1 (enteros) o "" (strings).
+Cada chunk indexado en ChromaDB lleva 20 metadatos. ChromaDB requiere tipos primitivos (str/int/float/bool) — las listas se serializan como strings separados por comas; los campos ausentes usan -1 (enteros) o "" (strings). La serialización se hace en `vector_store.py → _meta_chunk()`.
 
-### Metadatos de documento
-
-| Campo | Origen | Descripción |
-|---|---|---|
-| `doc_id` | Pipeline | UUID generado en el momento de la ingesta — identificador interno único del documento |
-| `nombre_fichero` | Pipeline | Nombre del fichero PDF original |
-| `titulo_documento` | Docling (fase 1 — texto) | Título extraído del primer `SectionHeaderItem` que supera los filtros de longitud y charset |
-| `edicion` | Docling (fase 1 — texto) | Edición del documento extraída por regex del texto de cabecera |
-| `fecha_ingesta` | Pipeline | Fecha de procesado en ISO 8601 |
-
-
-### Metadatos del administrador
-
-| Campo | Origen | Descripción |
-|---|---|---|
-| `empresa` | Administrador | "intecsa" o nombre del cliente |
-| `proyecto_id` | Administrador | Código del proyecto; None si es corpus global |
-| `tipo_doc` | Administrador / Pipeline | `procedimiento`, `especificacion`, `informe`, `anexo`. "anexo" lo asigna el administrador o el pipeline cuando detecta una sección con título ANEXO/APPENDIX/ANNEX |
-| `idioma` | Administrador | Código ISO 639-1 del idioma principal del documento — "es", "en", "fr" |
-
-### Metadatos de chunk
-
-| Campo | Origen | Descripción |
-|---|---|---|
-| `nivel` | Pipeline | "child" o "parent" |
-| `parent_id` | Pipeline | UUID del chunk padre; None para chunks padre y para tablas |
-| `pagina_inicio` | Pipeline | Primera página de los elementos que componen el chunk |
-| `pagina_fin` | Pipeline | Última página de los elementos que componen el chunk |
-| `seccion` | Docling | Título de la sección actual cuando se procesó el elemento |
-| `tipos_elemento` | Pipeline | Tipos de elementos que componen el chunk, separados por coma (NarrativeText, ListItem, Table, Image) |
-| `es_imagen` | Pipeline | `true` si el chunk incorpora una descripción visual (fusión texto+imagen o chunk standalone de imagen) |
-| `dentro_de_anexo` | Pipeline | `true` si el chunk pertenece a una sección cuyo título contiene ANEXO/APPENDIX/ANNEX, o si el administrador declaró `tipo_doc="anexo"` |
-| `tabla_degradada` | Pipeline | `true` si la tabla tiene celdas fusionadas que Docling no pudo separar correctamente. Candidata a re-procesar con vision |
+| Campo | Tipo | Origen | Descripción |
+|---|---|---|---|
+| `doc_id` | str | Pipeline | UUID generado en el momento de la ingesta — identificador interno único del documento |
+| `nombre_fichero` | str | Pipeline | Nombre del fichero PDF original |
+| `titulo_documento` | str | Docling (fase 1 — texto) | Título extraído del primer `SectionHeaderItem` que supera los filtros de longitud y charset. `""` si no se detectó |
+| `version` | str | Docling (fase 1 — texto) | Edición del documento extraída por regex del texto de cabecera. `""` si no se detectó. Mapeado desde `metadatos_portada.edicion` |
+| `fecha_edicion` | str | Vision (fase 2 — GPT-4o) | Fecha de edición extraída de la portada. `""` si vision desactivada o no detectada |
+| `fecha_ingesta` | str | Pipeline | Fecha de procesado en ISO 8601 |
+| `empresa` | str | Administrador | `"intecsa"` o nombre del cliente (e.g. `"repsol"`) |
+| `proyecto_id` | str | Administrador | Código del proyecto (e.g. `"13187"`). `""` si es corpus global |
+| `tipo_doc` | str | Administrador / Pipeline | `procedimiento`, `instruccion_trabajo`, `especificacion`, `informe`, `anexo`. `"anexo"` lo asigna el administrador o el pipeline cuando detecta sección ANEXO/APPENDIX/ANNEX |
+| `idioma` | str | Administrador | Código ISO 639-1 del idioma principal del documento — `"es"`, `"en"`, `"fr"` |
+| `anexo_de` | str | Administrador | Nombre del documento padre si `tipo_doc=="anexo"` (e.g. `"PR-08"`, `"14090-IT-01"`). `""` si no es anexo |
+| `nivel` | str | Pipeline | `"child"` o `"parent"` |
+| `parent_id` | str | Pipeline | UUID del chunk padre. `""` para chunks padre y para tablas |
+| `pagina_inicio` | int | Pipeline | Primera página de los elementos que componen el chunk. `-1` si desconocida |
+| `pagina_fin` | int | Pipeline | Última página de los elementos que componen el chunk. `-1` si desconocida |
+| `seccion` | str | Docling | Título de la sección actual cuando se procesó el elemento. `""` si no hay sección |
+| `tipos_elemento` | str | Pipeline | Tipos de elementos que componen el chunk, separados por coma (`"NarrativeText,ListItem"`, `"Table"`, `"Image"`) |
+| `es_imagen` | bool | Pipeline | `true` si el chunk incorpora una descripción visual (fusión texto+imagen o chunk standalone de imagen) |
+| `dentro_de_anexo` | bool | Pipeline | `true` si el chunk pertenece a una sección cuyo título contiene ANEXO/APPENDIX/ANNEX, o si el administrador declaró `tipo_doc="anexo"` |
+| `tabla_degradada` | bool | Pipeline | `true` si la tabla tiene celdas fusionadas que Docling no pudo separar correctamente. Candidata a re-procesar con vision |
 
 ### Nota sobre `empresa` y scopes
 

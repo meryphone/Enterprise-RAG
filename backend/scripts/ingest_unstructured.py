@@ -63,7 +63,6 @@ def _resumen(doc_dict: dict) -> str:
     anexo = sum(1 for c in chunks if c["dentro_de_anexo"])
     tablas = sum(1 for c in chunks if "Table" in c["tipos_elemento"])
     return (
-        f"páginas={doc_dict['paginas_total']} "
         f"parents={len(parents)} children={len(children)} "
         f"tablas={tablas} con_imagen={con_imagen} anexo={anexo}"
     )

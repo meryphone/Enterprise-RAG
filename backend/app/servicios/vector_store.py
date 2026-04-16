@@ -118,12 +118,12 @@ def _meta_chunk(chunk, documento: "DocumentoIngerido") -> dict:
         "version": documento.metadatos_portada.edicion or "",
         "fecha_edicion": documento.metadatos_portada.fecha_edicion or "",
         "fecha_ingesta": documento.fecha_ingesta,
-        "paginas_total": documento.paginas_total,
         # Metadatos del administrador
         "empresa": documento.metadatos_admin.empresa,
         "proyecto_id": documento.metadatos_admin.proyecto_id or "",
         "tipo_doc": documento.metadatos_admin.tipo_doc,
         "idioma": documento.metadatos_admin.idioma,
+        "anexo_de": documento.metadatos_admin.anexo_de or "",
         # Metadatos del chunk
         "nivel": chunk.nivel,
         "parent_id": chunk.parent_id or "",
@@ -199,6 +199,22 @@ def indexar_documento(documento: "DocumentoIngerido") -> dict[str, int]:
         )
 
     return {"children": len(children), "parents": len(parents)}
+
+
+def precrear_colecciones(nombres: list[str]) -> None:
+    """Crea las colecciones children + parents si no existen.
+
+    Útil para que el Query Router pueda listar todos los scopes disponibles
+    desde el primer momento, aunque aún no tengan documentos indexados.
+    """
+    chroma = _get_chroma()
+    for nombre in nombres:
+        chroma.get_or_create_collection(
+            name=nombre,
+            metadata={"hnsw:space": "cosine"},
+        )
+        chroma.get_or_create_collection(name=_coleccion_parents(nombre))
+        logger.info("Colección '%s' (+ __parents) lista", nombre)
 
 
 def colecciones_disponibles() -> list[str]:

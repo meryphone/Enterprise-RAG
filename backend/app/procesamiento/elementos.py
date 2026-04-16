@@ -23,27 +23,12 @@ from docling_core.types.doc import (
     TextItem,
 )
 
-from app.config import SETTINGS
-from app.procesamiento import vision
 from app.procesamiento.patrones import (
     PATRON_ANEXO,
     PATRON_CABECERA,
     PATRON_INDICE,
     PATRON_PIE_PAGINA,
     PATRON_TITULO,
-)
-
-
-# Palabras clave que, cuando aparecen en el texto inmediatamente anterior a una
-# imagen, nos hacen tratarla como ilustración "de ejemplo" (describir estructura,
-# no transcribir datos).
-_PALABRAS_EJEMPLO = (
-    "ejemplo",
-    "se puede ver",
-    "como se muestra",
-    "example",
-    "as shown",
-    "for instance",
 )
 
 # Longitud mínima en caracteres para que un fragmento de texto se considere
@@ -148,13 +133,6 @@ def _pagina_de(item) -> int | None:
     return None
 
 
-def _texto_previo_sugiere_ejemplo(buffer: list[ElementoProcesado]) -> bool:
-    if not buffer:
-        return False
-    ultimo = buffer[-1].texto.lower()
-    return any(clave in ultimo for clave in _PALABRAS_EJEMPLO)
-
-
 # Palabras que solo pueden aparecer en cabeceras de página, nunca en contenido real.
 # Cualquier token que no esté aquí, no sea un número y no sea un código de documento
 # indica que el TextItem tiene contenido legítimo.
@@ -227,7 +205,7 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
     seccion_actual: str | None = None
     dentro_de_anexo = False
     dentro_de_indice = False
-    logo_omitido = False  # la primera imagen del documento es siempre el logo corporativo
+    pagina_anterior = 0
 
     # Contadores de diagnóstico — resuelven la pregunta "¿Docling no detecta
     # la imagen o el pipeline la descarta?". Se vuelcan a stderr al final.
@@ -247,7 +225,7 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
             if texto_seccion and PATRON_PIE_PAGINA.match(texto_seccion):
                 continue
             # Ignorar el titulo de la cabecera que rompe la seccion actual
-            if texto_seccion.contains(_titulo_norm):
+            if _titulo_norm and _titulo_norm in texto_seccion:
                 continue
             # Docling a veces concatena número y título: "3.NOTAS" → "3. NOTAS"
             texto_seccion = re.sub(r"^(\d+\.)\s*([A-ZÁÉÍÓÚÑ])", r"\1 \2", texto_seccion)
@@ -301,13 +279,6 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
             # Detectamos tablas degradadas con celdas fusionadas que rompen el Markdown.
             degradada = bool(re.search(r"\|\s{10,}\|", md))
 
-            # Tablas degradadas con visión habilitada: intentamos obtener una
-            # descripción visual más fiel que el Markdown roto.
-            if degradada and SETTINGS.enable_vision:
-                pil_image = item.get_image(doc) if hasattr(item, "get_image") else None
-                if pil_image is not None:
-                    md = vision.describir_imagen(pil_image)
-
             resultado.append(
                 ElementoProcesado(
                     texto=md,
@@ -323,31 +294,25 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
 
         # --- Imágenes ---------------------------------------------------------
         if isinstance(item, PictureItem):
-            pic_total += 1
-
-            # La primera imagen del documento es siempre el logo de Intecsa en la
-            # cabecera/portada. No aporta información — la descartamos sin procesar.
-            if not logo_omitido:
-                logo_omitido = True
+            # El logo corporativo aparece en la cabecera de cada página como primer
+            # PictureItem. Lo detectamos por cambio de página: si es la primera imagen
+            # que vemos en esta página, la saltamos. pagina_anterior se actualiza aquí
+            # (no fuera del bloque) para que la segunda imagen de la misma página sí
+            # se procese correctamente.
+            if pagina is not None and pagina != pagina_anterior:
+                pagina_anterior = pagina
                 pic_logo += 1
                 continue
+            pic_total += 1
 
-            # 1. Descripción de Docling (Ollama vía PictureDescriptionApiOptions).
-            #    Si Docling ya describió la imagen durante el parseo, usamos ese
-            #    texto directamente — evita una segunda llamada a visión.
+            # Descripción generada por Docling durante el parseo vía GPT-4o
+            # (PictureDescriptionApiOptions en parser.py). Si Docling no la
+            # generó (visión desactivada o error de red), descartamos la imagen.
             descripcion: str | None = None
             for ann in item.get_annotations():
                 if isinstance(ann, DescriptionAnnotation) and ann.text.strip():
                     descripcion = ann.text.strip()
                     break
-
-            # 2. Fallback: visión externa (GPT-4o) si está habilitada y Docling
-            #    no generó descripción.
-            if descripcion is None and SETTINGS.enable_vision:
-                pil_image = item.get_image(doc) if hasattr(item, "get_image") else item.image
-                if pil_image is not None:
-                    es_ejemplo = _texto_previo_sugiere_ejemplo(resultado)
-                    descripcion = vision.describir_imagen(pil_image, es_ejemplo=es_ejemplo)
 
             # Sin descripción disponible → descartar la imagen.
             if descripcion is None:
