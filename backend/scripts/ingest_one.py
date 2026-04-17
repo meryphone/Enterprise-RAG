@@ -29,28 +29,28 @@ CASOS_DE_PRUEBA: list[tuple[str, MetadatosAdministrador]] = [
         MetadatosAdministrador(empresa="intecsa", proyecto_id=None, tipo_doc="procedimiento", idioma="es"),
     ),
     (
-        "intecsa/procedimientos_generales/PR-02_anexo.pdf",
-        MetadatosAdministrador(empresa="intecsa", proyecto_id=None, tipo_doc="anexo", idioma="es"),
+        "intecsa/procedimientos_generales/PR-02(ANEXO).pdf",
+        MetadatosAdministrador(empresa="intecsa", proyecto_id=None, tipo_doc="anexo", idioma="es", anexo_de="PR-02"),
     ),
     (
         "proyectos_clientes/13187_repsol/13187-IT-01.pdf",
-        MetadatosAdministrador(empresa="repsol", proyecto_id="13187", tipo_doc="procedimiento", idioma="es"),
+        MetadatosAdministrador(empresa="repsol", proyecto_id="13187", tipo_doc="instruccion_trabajo", idioma="es"),
     ),
     (
-        "proyectos_clientes/13189_dow/13189-IT-01 (English Version).pdf",
-        MetadatosAdministrador(empresa="dow", proyecto_id="13189", tipo_doc="procedimiento", idioma="en"),
+        "proyectos_clientes/13189_dow/13189-IT-01(English Version).pdf",
+        MetadatosAdministrador(empresa="dow", proyecto_id="13189", tipo_doc="instruccion_trabajo", idioma="en"),
     ),
     (
-        "intecsa/instrucciones_trabajo/TU/LIBRERÍA DE CÉLULAS - DIAGRAMAS DE INGENIERÍA.pdf",
-        MetadatosAdministrador(empresa="intecsa", proyecto_id=None, tipo_doc="procedimiento", idioma="es"),
+        "intecsa/instrucciones_trabajo/TU/LIBRERÍA-DE-CÉLULAS-DIAGRAMAS-DE-INGENIERÍA.pdf",
+        MetadatosAdministrador(empresa="intecsa", proyecto_id=None, tipo_doc="instruccion_trabajo", idioma="es"),
     ),
     (
-        "intecsa/instrucciones_trabajo/TU/PDMS DRAFT - MANUAL DE CONFIGURACIÓN (ADP).pdf",
-        MetadatosAdministrador(empresa="intecsa", proyecto_id=None, tipo_doc="procedimiento", idioma="es"),
+        "intecsa/instrucciones_trabajo/TU/PDMS DRAFT-MANUAL DE CONFIGURACIÓN (ADP).pdf",
+        MetadatosAdministrador(empresa="intecsa", proyecto_id=None, tipo_doc="instruccion_trabajo", idioma="es"),
     ),
     (
-        "intecsa/procedimientos_generales/PR-08 ANEXO III.pdf",
-        MetadatosAdministrador(empresa="intecsa", proyecto_id=None, tipo_doc="anexo", idioma="es"),
+        "intecsa/procedimientos_generales/PR-08 ANEXO-III.pdf",
+        MetadatosAdministrador(empresa="intecsa", proyecto_id=None, tipo_doc="anexo", idioma="es", anexo_de="PR-08"),
     ),
 ]
 

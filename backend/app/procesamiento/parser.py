@@ -59,10 +59,11 @@ def _build_picture_desc_options() -> PictureDescriptionApiOptions:
 def _build_converter() -> DocumentConverter:
     pipeline_options = PdfPipelineOptions()
     pipeline_options.generate_picture_images = True
+    pipeline_options.generate_page_images = True
     pipeline_options.do_picture_description = True
     pipeline_options.enable_remote_services = True
     pipeline_options.picture_description_options = _build_picture_desc_options()
-    pipeline_options.images_scale = 2.0
+    pipeline_options.images_scale = 3.0
     pipeline_options.do_ocr = True
     pipeline_options.do_table_structure = True
     pipeline_options.table_structure_options = TableStructureOptions(mode=TableFormerMode.ACCURATE)

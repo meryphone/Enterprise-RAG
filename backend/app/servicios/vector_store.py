@@ -18,6 +18,8 @@ from __future__ import annotations
 import logging
 from typing import TYPE_CHECKING
 
+from app.procesamiento.pipeline import DocumentoIngerido  
+
 import chromadb
 from openai import OpenAI
 
@@ -28,7 +30,7 @@ if TYPE_CHECKING:
 
 logger = logging.getLogger(__name__)
 
-# Dimensionalidad fija de text-embedding-3-small.
+# Dimensionalidad fija de text-embedding-3-large.
 _EMBEDDING_DIM = 1536
 # Tamaño de lote para las llamadas a la API de embeddings.
 _BATCH_SIZE = 100
@@ -160,7 +162,6 @@ def indexar_documento(documento: "DocumentoIngerido") -> dict[str, int]:
     Devuelve un dict con el recuento de chunks indexados:
         {"children": N, "parents": M}
     """
-    from app.procesamiento.pipeline import DocumentoIngerido  # evitar circular
 
     chroma = _get_chroma()
     col_nombre = nombre_coleccion(

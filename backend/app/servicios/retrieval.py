@@ -184,25 +184,43 @@ def recuperar(
     ids_vec: list[str] = res_vec["ids"][0] if res_vec["ids"] else []
     docs_vec: list[str] = res_vec["documents"][0] if res_vec["documents"] else []
     metas_vec: list[dict] = res_vec["metadatas"][0] if res_vec["metadatas"] else []
-    # Cosine distance en [0, 2] → similitud en [-1, 1] con 1 = idéntico.
+    # Pasamos de distancia del coseno en [0, 2] → similitud en [-1, 1] con 1 = idéntico (por estándar)
     scores_vec = [1.0 - d for d in (res_vec["distances"][0] if res_vec["distances"] else [])]
 
     # ── 2. Búsqueda BM25 ─────────────────────────────────────────────────
     indice = _get_indice_bm25(coleccion)
 
     def _pasa_filtro(i: int) -> bool:
+    # Sin filtro → todos los chunks son válidos
         if not where:
             return True
-        meta = indice.metadatas[i] or {}
-        return all(meta.get(k) == v for k, v in where.items())
+
+        # Metadatos del chunk i (diccionario vacío si no tiene)
+        metadatos = indice.metadatas[i] or {}
+
+        # El chunk pasa solo si TODOS los campos del filtro coinciden
+        for campo, valor_esperado in where.items():
+            if metadatos.get(campo) != valor_esperado:
+                return False
+
+        return True
 
     if indice.ids:
-        raw_bm25 = indice.bm25.get_scores(_tokenizar(query))
-        candidatos_bm25 = sorted(
-            ((i, raw_bm25[i]) for i in range(len(indice.ids)) if _pasa_filtro(i)),
-            key=lambda x: -x[1],
-        )[:top_k]
+        # Calcular puntuación BM25 para cada chunk de la coleccion respecto a la query
+        puntuaciones_bm25 = indice.bm25.get_scores(_tokenizar(query))
+
+        # Crear lista de (posición, puntuación) solo con chunks que pasan el filtro
+        chunks_con_puntuacion = []
+        for posicion in range(len(indice.ids)):
+            if _pasa_filtro(posicion):
+                chunks_con_puntuacion.append((posicion, puntuaciones_bm25[posicion]))
+
+            # Ordenar de mayor a menor puntuación y quedarnos con los top_k mejores
+            chunks_con_puntuacion.sort(key=lambda x: x[1], reverse=True)
+            candidatos_bm25 = chunks_con_puntuacion[:top_k]
+
     else:
+        # No hay documentos en el índice
         candidatos_bm25 = []
 
     ids_bm25 = [indice.ids[i] for i, _ in candidatos_bm25]
@@ -219,7 +237,7 @@ def recuperar(
     for idx, _ in candidatos_bm25:
         cid = indice.ids[idx]
         if cid not in cache_docs:
-            cache_docs[cid] = (indice.textos[idx], indice.metadatas[idx] or {})
+            cache_docs[cid] = (indice.textos[idx], indice.metadatas[idx] or {}) # cache_docs: dict[id] = (texto, metadatos)
 
     fusion = []
     for cid in set(norm_vec) | set(norm_bm25):
@@ -229,7 +247,7 @@ def recuperar(
         fusion.append((cid, score, sv, sb))
 
     fusion.sort(key=lambda x: -x[1])
-    fusion = fusion[:top_k]
+    fusion = fusion[:top_k] # fusion : list of (chunk_id, score_fusion, score_vector, score_bm25) de los top_k candidatos tras la fusión híbrida
 
     if not fusion:
         return []

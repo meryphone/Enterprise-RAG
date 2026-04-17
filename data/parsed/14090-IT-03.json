@@ -1,0 +1,173 @@
+{
+  "doc_id": "1300624839e748d6a42e128094380a4a",
+  "nombre_fichero": "14090-IT-03.pdf",
+  "metadatos_admin": {
+    "empresa": "interquisa",
+    "proyecto_id": "14090",
+    "tipo_doc": "instruccion_trabajo",
+    "idioma": "es",
+    "anexo_de": null
+  },
+  "metadatos_documento": {
+    "titulo": "INSTRUCCIONES DE DOCUMENTOS DE FABRICANTES EN EL PORTAL INTERQUISA",
+    "edicion": "2",
+    "fecha_emision": null
+  },
+  "fecha_ingesta": "2026-04-16T18:44:44+00:00",
+  "chunks": [
+    {
+      "chunk_id": "3d77c8f1-d1d9-4e88-8bd3-5cbb2f7773f7",
+      "texto": "Este   documento   tiene   por   objeto   describir   el   procedimiento   de   recepción   y   envío   de documentos de fabricante para el proyecto de INTERQUISA.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c6e1d73f-23e6-4ceb-92ee-20182d641165",
+      "texto": " Que los especialistas no se encarguen de realizar, ni gestionar, copias.\n\n Que los documentos de fabricantes estén accesibles a todo el proyecto.\n\n Que los comentarios de todas las especialidades estén accesibles.\n\n Reducción de los costes de manejo y envío de comentarios",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "Los objetivos son:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "58b21ba9-4c26-4b71-a877-b6df49361d73",
+      "texto": "Los documentos son recibidos por el EDF (Encargado de Documentos de Fabricante) que registra la llegada en el programa de Documentos de fabricante.\n\nEl EDF distribuye copias del documento al ERC (Especialista Responsable de Cuenta), a los especialistas a los que pueda afectar y a INTERQUISA según cuadro de distribución del proyecto.\n\nEl ERC, una vez recibidos los comentarios de las otras especialidades y de INTERQUISA, recopila todos ellos en una única copia master. (IMPORTANTE: los comentarios sobre la copia master se realizarán en ROJO e indicando con una nube su situación donde están los comentarios para su mejor visualización)\n\nEl ERC envía esta única copia al EDF.\n\nEl EDF escanea y realiza las copias necesarias (1 copia para inspección y 1 copia para el suministrador que lo necesite) de los documentos comentados, tras lo cual:\n\n Enviará los documentos por correo electrónico al fabricante registrando su salida en el programa de control de documentos de fabricante. Dicho correo electrónico irá con copia al   ERC   y   al   responsable   de   inspección,   con   objeto   de   informar   del   envío   de   los documentos comentados al suministrador, así como de su inminente inclusión en el portal. (IMPORTANTE: los e-mail en principio no deberán ocupar más de 300 kb para no saturar los servidores de correo de los suministradores).\n\n Incluirá en el portal el documento escaneado (ver anexo). De este modo, todos los documentos de fabricante quedarán en el portal para su consulta por parte del proyecto. El   ERC   avisará   mediante   tareas   al   Ingeniero   de   proyecto,   al   ERC   y   aquellas especialidades implicadas .\n\n Devuelve la copia master al ERC.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. INSTRUCCIONES",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "584414a7-a144-4993-8c35-99fe9a65c729",
+      "texto": "Los documentos son recibidos por el EDF (Encargado de Documentos de Fabricante) que registra la llegada en el programa de Documentos de fabricante.\n\nEl EDF distribuye copias del documento al ERC (Especialista Responsable de Cuenta), a los especialistas a los que pueda afectar y a INTERQUISA según cuadro de distribución del proyecto.\n\nEl ERC, una vez recibidos los comentarios de las otras especialidades y de INTERQUISA, recopila todos ellos en una única copia master. (IMPORTANTE: los comentarios sobre la copia master se realizarán en ROJO e indicando con una nube su situación donde están los comentarios para su mejor visualización)\n\nEl ERC envía esta única copia al EDF.\n\nEl EDF escanea y realiza las copias necesarias (1 copia para inspección y 1 copia para el suministrador que lo necesite) de los documentos comentados, tras lo cual:\n\n Enviará los documentos por correo electrónico al fabricante registrando su salida en el programa de control de documentos de fabricante.",
+      "nivel": "child",
+      "parent_id": "58b21ba9-4c26-4b71-a877-b6df49361d73",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. INSTRUCCIONES",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ab3653bf-1fe8-4d12-8c8c-dcee8f82418f",
+      "texto": "Dicho correo electrónico irá con copia al   ERC   y   al   responsable   de   inspección,   con   objeto   de   informar   del   envío   de   los documentos comentados al suministrador, así como de su inminente inclusión en el portal. (IMPORTANTE: los e-mail en principio no deberán ocupar más de 300 kb para no saturar los servidores de correo de los suministradores).\n\n Incluirá en el portal el documento escaneado (ver anexo). De este modo, todos los documentos de fabricante quedarán en el portal para su consulta por parte del proyecto. El   ERC   avisará   mediante   tareas   al   Ingeniero   de   proyecto,   al   ERC   y   aquellas especialidades implicadas .\n\n Devuelve la copia master al ERC.",
+      "nivel": "child",
+      "parent_id": "58b21ba9-4c26-4b71-a877-b6df49361d73",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. INSTRUCCIONES",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4b60037f-7dfd-442f-93bc-c6669f6df2a3",
+      "texto": "Los documentos de fabricante estarán ubicados en el área de compras, ordenados por pedidos.\n\nEn cada carpeta de pedido se encuentra:\n\n-Pedidos y sus suplementos\n\n-Informes de inspección y fotografías de inspección\n\n-Planos y documentos de fabricantes",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "3. UBICACIÓN DE LOS DOCUMENTOS DE FABRICANTES.",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6cb39abe-eed6-48e6-bc08-5812b2e0e9fb",
+      "texto": "Nota: El tipo documental es IUI_documento_Proyecto y la clase \"Documento de fabricante\". No confundir con el tipo documental IUI_documento_Fabricante que no es de uso en el proyecto.\n\n[Descripción visual: **Plantilla para Gestión de Documentos Técnicos en Sistema RAG**\n\n**Nombre del Formulario:** Propiedades del Documento\n\n**Campos y Tipo de Datos Esperado:**\n\n- **Documento:** Texto libre\n- **Título:** Texto libre\n- **Edición:** Texto libre\n- **Fecha:** Fecha (formato dd/mm/aaaa)\n- **Autores:** Texto libre (separados por comas)\n- **OT:** Texto libre\n- **Departamento:** Selección desplegable\n- **Clase:** Selección desplegable\n- **Actividad:** Selección desplegable\n- **Idioma:** Texto libre\n- **Descripción:** Texto libre\n- **Palabras clave:** Texto libre (separadas por comas)\n\n**Propósito del Formulario:** Este formulario está diseñado para gestionar las propiedades de documentos técnicos en un sistema corporativo RAG, facilitando la organización y acceso a especificaciones documentales dentro de la empresa de ingeniería industrial INTECSA UHDE. Permite especificar detalles como el autor, fecha, departamento involucrado, y clasificaciones relacionadas con el documento técnico.\n\n**Opciones Adicionales en el Formulario:**\n- **Guardar cambios**: Botón para guardar la información ingresada.\n- **Deshacer cambios**: Botón para revertir cambios no deseados.\n\n**Uso del Sistema:** Gestión de documentos técnicos (formato Adobe Acrobat PDF) para proyectos dentro de la empresa.]\n\nFecha de devolución de ese plano al fabricante (En su edición final aparecerá el del plano)",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "ANEXO. PROPIEDADES  DE LOS DOCUMENTOS DE FABRICANTE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e07b85a8-7957-4af8-afa5-5f3d3a795a1c",
+      "texto": "Nota: El tipo documental es IUI_documento_Proyecto y la clase \"Documento de fabricante\". No confundir con el tipo documental IUI_documento_Fabricante que no es de uso en el proyecto.",
+      "nivel": "child",
+      "parent_id": "6cb39abe-eed6-48e6-bc08-5812b2e0e9fb",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "ANEXO. PROPIEDADES  DE LOS DOCUMENTOS DE FABRICANTE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "42565286-619d-4e2b-ad53-afd7bcaa05ec",
+      "texto": "[Descripción visual: **Plantilla para Gestión de Documentos Técnicos en Sistema RAG**\n\n**Nombre del Formulario:** Propiedades del Documento\n\n**Campos y Tipo de Datos Esperado:**\n\n- **Documento:** Texto libre\n- **Título:** Texto libre\n- **Edición:** Texto libre\n- **Fecha:** Fecha (formato dd/mm/aaaa)\n- **Autores:** Texto libre (separados por comas)\n- **OT:** Texto libre\n- **Departamento:** Selección desplegable\n- **Clase:** Selección desplegable\n- **Actividad:** Selección desplegable\n- **Idioma:** Texto libre\n- **Descripción:** Texto libre\n- **Palabras clave:** Texto libre (separadas por comas)\n\n**Propósito del Formulario:** Este formulario está diseñado para gestionar las propiedades de documentos técnicos en un sistema corporativo RAG, facilitando la organización y acceso a especificaciones documentales dentro de la empresa de ingeniería industrial INTECSA UHDE.",
+      "nivel": "child",
+      "parent_id": "6cb39abe-eed6-48e6-bc08-5812b2e0e9fb",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "ANEXO. PROPIEDADES  DE LOS DOCUMENTOS DE FABRICANTE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "049d2e88-4892-4d76-8e8f-4abc1282a556",
+      "texto": "Permite especificar detalles como el autor, fecha, departamento involucrado, y clasificaciones relacionadas con el documento técnico.\n\n**Opciones Adicionales en el Formulario:**\n- **Guardar cambios**: Botón para guardar la información ingresada.\n- **Deshacer cambios**: Botón para revertir cambios no deseados.\n\n**Uso del Sistema:** Gestión de documentos técnicos (formato Adobe Acrobat PDF) para proyectos dentro de la empresa.]\n\nFecha de devolución de ese plano al fabricante (En su edición final aparecerá el del plano)",
+      "nivel": "child",
+      "parent_id": "6cb39abe-eed6-48e6-bc08-5812b2e0e9fb",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "ANEXO. PROPIEDADES  DE LOS DOCUMENTOS DE FABRICANTE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    }
+  ]
+}

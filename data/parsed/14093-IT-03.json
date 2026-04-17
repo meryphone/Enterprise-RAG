@@ -1,0 +1,173 @@
+{
+  "doc_id": "1ce340d5fb214b80b5713090bb740651",
+  "nombre_fichero": "14093-IT-03.pdf",
+  "metadatos_admin": {
+    "empresa": "petresa",
+    "proyecto_id": "14093",
+    "tipo_doc": "instruccion_trabajo",
+    "idioma": "es",
+    "anexo_de": null
+  },
+  "metadatos_documento": {
+    "titulo": "INSTRUCCIONES DE DOCUMENTOS DE FABRICANTES EN EL PORTAL PETRESA",
+    "edicion": "2",
+    "fecha_emision": null
+  },
+  "fecha_ingesta": "2026-04-16T18:49:48+00:00",
+  "chunks": [
+    {
+      "chunk_id": "a2ea50e0-f468-4a14-9e7f-636153a09b6d",
+      "texto": "Este   documento   tiene   por   objeto   describir   el   procedimiento   de   recepción   y   envío   de documentos de fabricante para el proyecto de PETRESA.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8835a28b-64c0-4490-a0f0-30d7d94be921",
+      "texto": " Que los especialistas no se encarguen de realizar, ni gestionar, copias.\n\n Que los documentos de fabricantes estén accesibles a todo el proyecto.\n\n Que los comentarios de todas las especialidades estén accesibles.\n\n Reducción de los costes de manejo y envío de comentarios",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "Los objetivos son:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "59a39c32-be92-4eae-b045-d25fc03db20a",
+      "texto": "Los documentos son recibidos por el EDF que registra la llegada en el programa de Documentos de fabricante.\n\nEl EDF envía el documento con sus copias al ERC\n\nEl ERC realiza la distribución a las especialidades afectadas para recepción de comentarios.\n\nUna vez recibidos los comentarios de otras especialidades, recopila todos en una  única copia master  (los comentarios se realizaran en ROJO e indicando con una nube donde están los comentarios para su mejor visualización)\n\nEl ERC envía esta única copia al EDF\n\nEl EDF realizará un escaneado de los documentos con sus comentarios:\n\n Enviará por correo electrónico al fabricante registrando su salida en el porgrama de control de documentos de fabricante. Una copia del e-mail será el registro de salida (los e-mail no deberán ocupar más de 300 kb para no saturar los servidores de correo de los suministradores).\n\n Incluirá en el portal el documento escaneado (ver anexo) avisando al ERC mediante una tarea del documento incluido (este a su vez podrá avisar a otras especialidades de la inclusión   de   este   documento).   De   este   modo   todos   los   documentos   de   fabricante quedarán en el portal para su consulta por parte del proyecto.\n\n Devuelve la copia master al ERC.\n\nNOTA: Los especialistas   enviarán   tareas   a   aquellas   especialidades   para   los   que   los comentarios de los planos tengan relevancia.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. INSTRUCCIONES",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "07cf3bec-5a56-4bff-b9b1-9cbb64dd4151",
+      "texto": "Los documentos son recibidos por el EDF que registra la llegada en el programa de Documentos de fabricante.\n\nEl EDF envía el documento con sus copias al ERC\n\nEl ERC realiza la distribución a las especialidades afectadas para recepción de comentarios.\n\nUna vez recibidos los comentarios de otras especialidades, recopila todos en una  única copia master  (los comentarios se realizaran en ROJO e indicando con una nube donde están los comentarios para su mejor visualización)\n\nEl ERC envía esta única copia al EDF\n\nEl EDF realizará un escaneado de los documentos con sus comentarios:\n\n Enviará por correo electrónico al fabricante registrando su salida en el porgrama de control de documentos de fabricante. Una copia del e-mail será el registro de salida (los e-mail no deberán ocupar más de 300 kb para no saturar los servidores de correo de los suministradores).",
+      "nivel": "child",
+      "parent_id": "59a39c32-be92-4eae-b045-d25fc03db20a",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. INSTRUCCIONES",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a633f291-567c-4412-b578-94caa8f2fb39",
+      "texto": " Incluirá en el portal el documento escaneado (ver anexo) avisando al ERC mediante una tarea del documento incluido (este a su vez podrá avisar a otras especialidades de la inclusión   de   este   documento).   De   este   modo   todos   los   documentos   de   fabricante quedarán en el portal para su consulta por parte del proyecto.\n\n Devuelve la copia master al ERC.\n\nNOTA: Los especialistas   enviarán   tareas   a   aquellas   especialidades   para   los   que   los comentarios de los planos tengan relevancia.",
+      "nivel": "child",
+      "parent_id": "59a39c32-be92-4eae-b045-d25fc03db20a",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. INSTRUCCIONES",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d5a0f2bd-c35f-4f7e-8a8d-4f6825ff7bdc",
+      "texto": "Los documentos de fabricante estarán ubicados en el área de compras, ordenados por pedidos.\n\nEn cada carpeta de pedido se encuentra:\n\n-Pedidos y sus suplementos\n\n-Informes de inspección y fotografías de inspección\n\n-Planos y documentos de fabricantes",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "3. UBICACIÓN DE LOS DOCUMENTOS DE FABRICANTES.",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c49a6f40-3431-4397-9447-3415b1a93eaa",
+      "texto": "Nota: El tipo documental es IUI_documento_Proyecto y la clase \"Documento de fabricante\". No confundir con el tipo documental IUI_documento_Fabricante que no es de uso en el proyecto.\n\n[Descripción visual: ### Plantilla o Formulario Vacío\n\nEsta imagen muestra una plantilla o formulario para la gestión de propiedades de documentos técnicos. No contiene datos reales, sino espacios para ser completados. \n\n**Nombre del formulario:**\n- Propiedades de documento de proyecto.\n\n**Campos incluidos:**\n1. **Documento:** Texto libre (número de documento).\n2. **Título:** Texto libre (título del documento).\n3. **Edición:** Texto libre (versión o edición del documento).\n4. **Fecha:** Fecha (formato DD/MM/AAAA).\n5. **Autores:** Texto libre (nombre de los autores, separados por comas).\n6. **OT:** Texto libre (código de orden de trabajo).\n7. **Departamento:** Texto libre (nombre del departamento).\n8. **Clase:** Texto libre (tipo de documento).\n9. **Actividad:** Texto libre (número y descripción de actividad).\n10. **Idioma:** Texto libre (idioma del documento).\n11. **Descripción:** Texto libre (detalles adicionales del documento).\n12. **Palabras clave:** Texto libre (términos de búsqueda, separados por comas).\n\n**Proceso o tarea empresarial:**\nEste formulario está diseñado para registrar y gestionar las propiedades de documentos técnicos dentro de un sistema de archivos corporativo, relacionado con la documentación de proyectos de ingeniería industrial.]",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "ANEXO. PROPIEDADES  DE LOS DOCUMENTOS DE FABRICANTE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f906f3d7-b27f-471f-b41b-cc8d3f305169",
+      "texto": "Nota: El tipo documental es IUI_documento_Proyecto y la clase \"Documento de fabricante\". No confundir con el tipo documental IUI_documento_Fabricante que no es de uso en el proyecto.\n\n[Descripción visual: ### Plantilla o Formulario Vacío\n\nEsta imagen muestra una plantilla o formulario para la gestión de propiedades de documentos técnicos. No contiene datos reales, sino espacios para ser completados. \n\n**Nombre del formulario:**\n- Propiedades de documento de proyecto.\n\n**Campos incluidos:**\n1. **Documento:** Texto libre (número de documento).\n2. **Título:** Texto libre (título del documento).\n3. **Edición:** Texto libre (versión o edición del documento).\n4. **Fecha:** Fecha (formato DD/MM/AAAA).\n5. **Autores:** Texto libre (nombre de los autores, separados por comas).\n6. **OT:** Texto libre (código de orden de trabajo).\n7. **Departamento:** Texto libre (nombre del departamento).\n8. **Clase:** Texto libre (tipo de documento).",
+      "nivel": "child",
+      "parent_id": "c49a6f40-3431-4397-9447-3415b1a93eaa",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "ANEXO. PROPIEDADES  DE LOS DOCUMENTOS DE FABRICANTE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2c2a0698-3a79-48ce-b5e1-25f6e17f6d79",
+      "texto": "8. **Clase:** Texto libre (tipo de documento).\n9. **Actividad:** Texto libre (número y descripción de actividad).\n10. **Idioma:** Texto libre (idioma del documento).\n11. **Descripción:** Texto libre (detalles adicionales del documento).\n12. **Palabras clave:** Texto libre (términos de búsqueda, separados por comas).\n\n**Proceso o tarea empresarial:**\nEste formulario está diseñado para registrar y gestionar las propiedades de documentos técnicos dentro de un sistema de archivos corporativo, relacionado con la documentación de proyectos de ingeniería industrial.]",
+      "nivel": "child",
+      "parent_id": "c49a6f40-3431-4397-9447-3415b1a93eaa",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "ANEXO. PROPIEDADES  DE LOS DOCUMENTOS DE FABRICANTE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "15c58810-b91c-41e1-b395-a3d0519ab709",
+      "texto": "Tipo:IUI-DocumentodeProyecto\n\nPropietario:_LopezVillarejo_Luis\n\nEtiquetadelaversion:1.o,CURRENT\n\n(Los items estan separados por comas)\n\nEntrada del registro:\n\nhttp://iumas1int/rs-bin/RightSite.dll/ssi4_logged_in?view=attributes&id=09007bcd8001f1 05/04/01",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "22286/01 Propiedades",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    }
+  ]
+}

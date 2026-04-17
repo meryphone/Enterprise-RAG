@@ -47,6 +47,11 @@ PATRON_TITULO = re.compile(
     r"^[A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ0-9 \-\/\.\,\(\)\'\":]{9,}$",
 )
 
+# ── Normalización de títulos de sección ─────────────────────────────────────
+
+# Docling a veces concatena número y título sin espacio: "3.NOTAS" → "3. NOTAS"
+PATRON_NUMERO_TITULO = re.compile(r"^(\d+\.)\s*([A-ZÁÉÍÓÚÑ])")
+
 # ── Pies/cabeceras de página repetidos ──────────────────────────────────────
 
 # Se aplica tanto a SectionHeaderItem (para no actualizar seccion_actual) como
@@ -102,3 +107,18 @@ PATRON_PIE_PAGINA = re.compile(
     """,
     re.VERBOSE | re.IGNORECASE,
 )
+
+# ── Extracción de número de edición ─────────────────────────────────────────
+
+PATRON_EDICION = re.compile(r"EDICI[OÓ]N\s+(\d+)", re.IGNORECASE)
+PATRON_SOLO_NUMERO = re.compile(r"^\d+$")
+
+# ── Tablas degradadas ────────────────────────────────────────────────────────
+
+# Celdas fusionadas en Markdown: columnas con espacios excesivos entre pipes.
+PATRON_TABLA_DEGRADADA = re.compile(r"\|\s{10,}\|")
+
+# ── Tokens de cabecera de página ─────────────────────────────────────────────
+
+# Código de documento puro: PR-01, 13187-IT-01, IT-TU-16, etc.
+PATRON_CODIGO_DOC = re.compile(r"^[A-Z0-9]{2,}(?:-[A-Z0-9]+)+(?:\([^)]*\))?$")

@@ -1,5 +1,5 @@
 {
-  "doc_id": "8e399bc320874336b49ebeb621cf5506",
+  "doc_id": "8e001603886045b9bd730fc8f06cf20d",
   "nombre_fichero": "PR-01.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,10 +13,10 @@
     "edicion": "6",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-16T17:51:53+00:00",
+  "fecha_ingesta": "2026-04-17T18:03:49+00:00",
   "chunks": [
     {
-      "chunk_id": "4e42ad0529174087b723579bb96a35df",
+      "chunk_id": "fe3d862d75f24ed49777585fa6ee65ae",
       "texto": "| RLL      | APL    | 6       | Jun 07   | REVISADO POR CAMBIO DE RAZON SOCIAL                     |\n|----------|--------|---------|----------|---------------------------------------------------------|\n| H.G.K.R. | J.G.C. | 5       | Sept. 02 | REVISADO LO MARCADO *                                   |\n| H.G.K.R. | J.G.C  | 4       | Enero 02 | INTEGRADO EL S.G.MEDIOAMBIENTAL (Revisado lo marcado *) |\n| A.K.     | E.L.   | 3       | Mayo 94  | CAMBIADA LA IDENTIFICACION Y LO MARCADO *               |\n| A.K.     | E.L.   | 2       | Marzo 93 | SIMPLIFICACION                                          |\n| A.K.     | J.R.B. | 1       | Marzo 92 | EMISION COMO PR-100                                     |\n| APROB.   | VERIF. | EDICION | FECHA    | DESCRIPCION DE LA EDICION                               |",
       "nivel": "child",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "517c4d9f-df21-476e-8bba-1c564d27a6a4",
+      "chunk_id": "79a7cb2b-de37-4215-8eb7-b62bbec381d5",
       "texto": "Este manual establece la pauta a seguir en el desarrollo de los Contratos aceptados por Intecsa Industrial , desde el momento de la firma hasta la obtención de los resultados finales y su recopilación estadística para el futuro.\n\nEn lugar de ser un documento exhaustivo, se ha confeccionado como una orientación hacia los Procedimientos específicos para cada actuación.\n\nEl Manual de Calidad y el conjunto de los Procedimientos, constituyen la base del Sistema Integrado de Gestión de la Calidad y Medioambiental de Intecsa Industrial y todos ellos han sido redactados de acuerdo con las normas ISO 9001 y 14001.\n\nEl objeto final de estos documentos es la optimización de los rendimientos, la calidad, la prevención   de   la   contaminación,   el   coste   y   el   plazo   establecido   en   los   Contratos, ajustando   en   cada   caso   los   parámetros   a   asignar   en   función   de   los   compromisos adquiridos.\n\nEn el Anexo se incluye un vocabulario con los principales términos y definiciones de aplicación en el Sistema.",
       "nivel": "parent",
       "parent_id": null,
@@ -46,7 +46,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "44dccebd-9330-4536-80bb-8e8c7378d6df",
+      "chunk_id": "37c370e0-9193-4317-b752-7fd299d39b6f",
       "texto": "La organización tipo de los Proyectos será matricial, adaptándose en cada caso a las necesidades   del   Contrato,   en   función   de   las   actividades   o   procesos   a   desarrollar coordinadamente para la realización del mismo. La organización para las Ofertas será similar.\n\nTodo Proyecto contará con un Jefe del mismo, asistido o no por un Grupo de Proyecto en función   de   las   necesidades.   Este   Grupo   de   Proyecto   puede   incluir   Ingenieros   de Proyecto, de Planificación, de Control de Costes y un responsable de Calidad y Medio Ambiente. Incluirá siempre un Coordinador en materia de seguridad y salud durante la elaboración del proyecto, designado por el Promotor del mismo .\n\nEn cualquier caso y según el alcance del contrato para cada caso, se formará un Equipo de Proyecto organizado de acuerdo con las actividades o procesos a desarrollar en cada caso.\n\nEste Equipo de Proyecto estará constituido por el Grupo de Proyecto y además:\n\n-Especialistas responsables de cuenta, Especialistas y personal de Diseño.\n\n-Coordinador de Compras, Compradores, Inspectores, Activadores, etc.\n\n-Coordinador de Subcontratos, Gestores de Subcontración, Activadores, etc.\n\n-Jefe de obra, Supervisores, etc. más un Coordinador en materia de seguridad y salud durante la ejecución de la construcción designado por el Promotor.\n\nDada la organización  matricial   la   dependencia   del   Equipo   de   Proyecto   será   doble: funcional   con   respecto   al   Jefe   de   proyecto   y   técnica   con   respecto   al   Jefe   de   su Encuadramiento,   tal   como   se   describe   en   detalle   en   los   correspondientes Procedimientos.",
       "nivel": "parent",
       "parent_id": null,
@@ -62,10 +62,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0d04a276-f76f-4af0-9bb9-15c5e1d2cfe3",
+      "chunk_id": "e21e1dc0-92fd-40bf-a833-1a60c3be593d",
       "texto": "La organización tipo de los Proyectos será matricial, adaptándose en cada caso a las necesidades   del   Contrato,   en   función   de   las   actividades   o   procesos   a   desarrollar coordinadamente para la realización del mismo. La organización para las Ofertas será similar.\n\nTodo Proyecto contará con un Jefe del mismo, asistido o no por un Grupo de Proyecto en función   de   las   necesidades.   Este   Grupo   de   Proyecto   puede   incluir   Ingenieros   de Proyecto, de Planificación, de Control de Costes y un responsable de Calidad y Medio Ambiente. Incluirá siempre un Coordinador en materia de seguridad y salud durante la elaboración del proyecto, designado por el Promotor del mismo .\n\nEn cualquier caso y según el alcance del contrato para cada caso, se formará un Equipo de Proyecto organizado de acuerdo con las actividades o procesos a desarrollar en cada caso.\n\nEste Equipo de Proyecto estará constituido por el Grupo de Proyecto y además:\n\n-Especialistas responsables de cuenta, Especialistas y personal de Diseño.",
       "nivel": "child",
-      "parent_id": "44dccebd-9330-4536-80bb-8e8c7378d6df",
+      "parent_id": "37c370e0-9193-4317-b752-7fd299d39b6f",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. ORGANIZACION DE LOS TRABAJOS",
@@ -78,10 +78,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "12f3582b-e148-4d65-b1ad-df86f4794463",
+      "chunk_id": "c270bbe7-7b39-41c0-9165-ad0d9d358b5f",
       "texto": "-Coordinador de Compras, Compradores, Inspectores, Activadores, etc.\n\n-Coordinador de Subcontratos, Gestores de Subcontración, Activadores, etc.\n\n-Jefe de obra, Supervisores, etc. más un Coordinador en materia de seguridad y salud durante la ejecución de la construcción designado por el Promotor.\n\nDada la organización  matricial   la   dependencia   del   Equipo   de   Proyecto   será   doble: funcional   con   respecto   al   Jefe   de   proyecto   y   técnica   con   respecto   al   Jefe   de   su Encuadramiento,   tal   como   se   describe   en   detalle   en   los   correspondientes Procedimientos.",
       "nivel": "child",
-      "parent_id": "44dccebd-9330-4536-80bb-8e8c7378d6df",
+      "parent_id": "37c370e0-9193-4317-b752-7fd299d39b6f",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. ORGANIZACION DE LOS TRABAJOS",
@@ -94,7 +94,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2213a1f5-d82e-4cad-bcba-069b4b7c799c",
+      "chunk_id": "a1841c7a-e3eb-46a1-855c-f20300ddacb3",
       "texto": "En cada Proyecto, el Jefe del mismo es responsable de la calidad y el medio ambiente pudiendo estar auxiliado   por   un   responsable   de   calidad   y   medio   ambiente   para   el Proyecto. En este último caso, este responsable depende funcionalmente, a efectos de Calidad y Medio Ambiente, del Jefe de Calidad y Medio Ambiente de la Empresa.\n\nEl Jefe de Calidad y Medio Ambiente de la Empresa auditará los Proyectos según los planes aprobados por la Dirección General.",
       "nivel": "parent",
       "parent_id": null,
@@ -109,7 +109,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bb48308f-6330-4415-b722-cb0e955d2cdf",
+      "chunk_id": "43b04bf7-1877-44ae-b215-885c6153b390",
       "texto": "Corresponde al Director de la División de Operaciones la propuesta de nombramiento en cada caso del Jefe del Proyecto, que ha de ser aprobado por la Dirección General.\n\nEl Jefe del Proyecto, como responsable ante el Cliente y la Dirección de los resultados de la ejecución del Proyecto, es la pieza clave de la organización. Sus funciones están detalladas en el PROCEDIMIENTO DE JEFES DE PROYECTO (PR-10).",
       "nivel": "parent",
       "parent_id": null,
@@ -124,7 +124,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b13012ef-0a69-42ab-8c58-8c9a6208d72b",
+      "chunk_id": "29a9dcc5-d2de-495c-9e14-d9df72ec0e90",
       "texto": "Se refiere este apartado a la persona que ostenta la responsabilidad de una especialidad en un Proyecto, con independencia del número de Especialistas asignados al mismo.\n\nPueden tener un equipo con ellos o actuar solos, e incluso a tiempo parcial, pero la responsabilidad técnica, de horas y de plazo en su especialidad según los requerimientos del Proyecto, recae completamente en ellos.\n\nSus   funciones   se   detallan   en   el   PROCEDIMIENTO   DE   ESPECIALISTAS RESPONSABLES DE CUENTAS (PR-30) y las Cuentas en el PR-31 PROCEDIMIENTO DE CUENTAS.",
       "nivel": "parent",
       "parent_id": null,
@@ -139,7 +139,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fee2b8b2-c541-46bb-b189-d268276ca0c1",
+      "chunk_id": "f52d0cf5-025e-4523-8ff9-0a1c0c7a095b",
       "texto": "De acuerdo con las características de cada Proyecto y de la carga de trabajo de la empresa en ese momento, los Jefes de Departamento, junto con el Jefe del Proyecto, analizarán si es procedente la utilización de recursos ajenos en el desarrollo del Proyecto\n\nen cuestión mediante subcontratación de trabajos, la colaboración de personal (agencias o autónomos) o personal contratado temporalmente.\n\nLa Subcontratación de Ingeniería se realizará según regula el PROCEDIMIENTO DE SUBCONTRATACION DE INGENIERIA (PR-36) y la colaboración o contratación de personas la hará, según normas propias, el Servicio de RR.HH. y Organización.",
       "nivel": "parent",
       "parent_id": null,
@@ -154,7 +154,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8ab37fe4-035e-4f0e-9167-6c9e8c985044",
+      "chunk_id": "38a33faa-ab36-4353-bda2-c88ba30f980f",
       "texto": "Para cada Proyecto, se preparará su Plan de Calidad y Medioambiental en base al Sistema de Intecsa Industrial , de acuerdo con la GUIA PARA EL PLAN DE CALIDAD Y MEDIOA MBIENTE DE UN PROYECTO (PR-11), en el que se incluirá todo aquello en lo que el Proyecto en particular no sigue el Sistema Integrado de Gestión de la calidad y Medioambiental de Intecsa Industrial\n\nEl responsable de su elaboración así como de los suplementos con instrucciones internas de funcionamiento será el Jefe del Proyecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -170,7 +170,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0562a192-d28f-4637-9c58-a05edb919b0f",
+      "chunk_id": "1790d55e-c53e-4157-8437-e033eab1c2e6",
       "texto": "Los Especialistas asignados a los Proyectos serán los responsables de la preparación de Especificaciones, Hojas de Datos, Cálculos, etc. y contarán con el   grupo de diseño correspondiente para la ejecución de los planos.\n\nSe utilizarán al máximo posible los formatos ya preparados, e incluso se modificarán, cuando su semejanza lo permita, los documentos o planos emitidos para otros Proyectos y que sean similares, apoyándose para esto en las ventajas que ofrecen los medios informáticos en cada caso.\n\nSe seguirán siempre los siguientes Procedimientos:\n\nPROCEDIMIENTO DE IDENTIFICACION DE EQUIPOS Y DOCUMENTOS (PR-32)\n\nPROCEDIMIENTO DE ELABORACION Y CONTROL DE DOCUMENTOS (PR-02) en cuyo   ANEXO   se   recogen   todas   las   Especificaciones,   Hojas   de   Datos,   Estandáres, Formatos, etc. existentes en Intecsa Industrial.\n\nPROCEDIMIENTO DE REDACCION Y EMISION DE LAS RM (PR-33)\n\nPROCEDIMIENTO DE DELINEACION (PR-37)\n\nPROCEDIMIENTO DE REALIZACION DE PLANOS EN PC (PR-38)\n\nPROCEDIMIENTO DE VERIFICACION DE DOCUMENTOS (PR-34)",
       "nivel": "parent",
       "parent_id": null,
@@ -185,10 +185,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "45a2b128-df26-44ce-9bb4-b4ac73d6c835",
+      "chunk_id": "8b7e1f81-c99b-4e1e-9692-4c4e5f819b77",
       "texto": "Los Especialistas asignados a los Proyectos serán los responsables de la preparación de Especificaciones, Hojas de Datos, Cálculos, etc. y contarán con el   grupo de diseño correspondiente para la ejecución de los planos.\n\nSe utilizarán al máximo posible los formatos ya preparados, e incluso se modificarán, cuando su semejanza lo permita, los documentos o planos emitidos para otros Proyectos y que sean similares, apoyándose para esto en las ventajas que ofrecen los medios informáticos en cada caso.\n\nSe seguirán siempre los siguientes Procedimientos:\n\nPROCEDIMIENTO DE IDENTIFICACION DE EQUIPOS Y DOCUMENTOS (PR-32)\n\nPROCEDIMIENTO DE ELABORACION Y CONTROL DE DOCUMENTOS (PR-02) en cuyo   ANEXO   se   recogen   todas   las   Especificaciones,   Hojas   de   Datos,   Estandáres, Formatos, etc. existentes en Intecsa Industrial.",
       "nivel": "child",
-      "parent_id": "0562a192-d28f-4637-9c58-a05edb919b0f",
+      "parent_id": "1790d55e-c53e-4157-8437-e033eab1c2e6",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "8. ELABORACION Y VERIFICACION DE DOCUMENTOS Y PLANOS",
@@ -200,10 +200,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e41b6f24-cc57-4068-a96e-eb199de74420",
+      "chunk_id": "fa83fa10-fd30-46b5-8f9e-d7b5c288a93d",
       "texto": "existentes en Intecsa Industrial.\n\nPROCEDIMIENTO DE REDACCION Y EMISION DE LAS RM (PR-33)\n\nPROCEDIMIENTO DE DELINEACION (PR-37)\n\nPROCEDIMIENTO DE REALIZACION DE PLANOS EN PC (PR-38)\n\nPROCEDIMIENTO DE VERIFICACION DE DOCUMENTOS (PR-34)",
       "nivel": "child",
-      "parent_id": "0562a192-d28f-4637-9c58-a05edb919b0f",
+      "parent_id": "1790d55e-c53e-4157-8437-e033eab1c2e6",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "8. ELABORACION Y VERIFICACION DE DOCUMENTOS Y PLANOS",
@@ -215,7 +215,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bcc4e8d9-859a-42d0-aea0-3e3479719196",
+      "chunk_id": "d7abc354-fc67-47b9-8e23-44bc3d8c55a4",
       "texto": "La   distribución   de   estos   documentos   será   establecida   en   el   Plan   de   Calidad   y Medioambiental   y   la   forma   de   proceder   con   ellos   es   la   que   se   recoge   en   el PROCEDIMIENTO DE DOCUMENTOS DE FABRICANTES (PR-35)",
       "nivel": "parent",
       "parent_id": null,
@@ -230,7 +230,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1cd47e71-150e-47df-a41f-c14faee05b36",
+      "chunk_id": "917e284c-d90d-4bf0-8240-16debfb3152c",
       "texto": "La Administración y archivo de documentos y planos quedan regulados por :\n\nPROCEDIMIENTO DE ARCHIVO DE DOCUMENTOS (PR-17)\n\nPROCEDIMIENTO DE ADMINISTRACION DE DOCUMENTOS (PR-13)",
       "nivel": "parent",
       "parent_id": null,
@@ -245,7 +245,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7cb2a4e5-9079-4652-930f-823eaac96c79",
+      "chunk_id": "6443c412-129b-4c5b-983e-6f8217560a71",
       "texto": "Una de las claves del éxito en la gestión de Proyectos consiste en la defensa del alcance establecido en el Contrato y el derecho a gestionar los Cambios ante el Cliente.\n\nLos Especialistas   responsables   de   Cuentas,   informarán   inmediatamente   al   Jefe   del Proyecto sobre el alcance y valoración de los Cambios que se produzcan a lo largo de la ejecución del Proyecto en su especialidad. De igual manera procederán los responsables de Compras y de Subcontratación y el Jefe de Construcción .\n\nEl Jefe del Proyecto vigilará además las modificaciones sobre el alcance producidas por Cambios de cualquier   índole   (Ingeniería   Básica,   Implantación,   requisitos   del   propio Cliente, etc.) y preparará inmediatamente una Orden de Cambio, de acuerdo con el PROCEDIMIENTO DE ORDENES DE CAMBIO (PR-12). Llevará un control   de   la situación de las órdenes presentadas y conseguirá la aprobación del Cliente, antes de iniciar la modificación requerida.",
       "nivel": "parent",
       "parent_id": null,
@@ -260,10 +260,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "754bdbf1-8198-40b6-87be-0c06591b6a11",
+      "chunk_id": "cdadf650-6c00-45af-9bbd-09a2560f55eb",
       "texto": "Una de las claves del éxito en la gestión de Proyectos consiste en la defensa del alcance establecido en el Contrato y el derecho a gestionar los Cambios ante el Cliente.\n\nLos Especialistas   responsables   de   Cuentas,   informarán   inmediatamente   al   Jefe   del Proyecto sobre el alcance y valoración de los Cambios que se produzcan a lo largo de la ejecución del Proyecto en su especialidad. De igual manera procederán los responsables de Compras y de Subcontratación y el Jefe de Construcción .\n\nEl Jefe del Proyecto vigilará además las modificaciones sobre el alcance producidas por Cambios de cualquier   índole   (Ingeniería   Básica,   Implantación,   requisitos   del   propio Cliente, etc.) y preparará inmediatamente una Orden de Cambio, de acuerdo con el PROCEDIMIENTO DE ORDENES DE CAMBIO (PR-12).",
       "nivel": "child",
-      "parent_id": "7cb2a4e5-9079-4652-930f-823eaac96c79",
+      "parent_id": "6443c412-129b-4c5b-983e-6f8217560a71",
       "pagina_inicio": 5,
       "pagina_fin": 5,
       "seccion": "11. ORDENES DE CAMBIO",
@@ -275,10 +275,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e14db7c7-0f89-43c7-976d-c43092c2839d",
+      "chunk_id": "b0887583-a66d-4698-8c08-ce5be501d906",
       "texto": "Llevará un control   de   la situación de las órdenes presentadas y conseguirá la aprobación del Cliente, antes de iniciar la modificación requerida.",
       "nivel": "child",
-      "parent_id": "7cb2a4e5-9079-4652-930f-823eaac96c79",
+      "parent_id": "6443c412-129b-4c5b-983e-6f8217560a71",
       "pagina_inicio": 5,
       "pagina_fin": 5,
       "seccion": "11. ORDENES DE CAMBIO",
@@ -290,7 +290,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d69d7ef2-da18-4c9e-ae42-3fe93709021b",
+      "chunk_id": "46fd95e9-68e2-4f01-aeea-a7185b089d58",
       "texto": "Mensualmente los Especialistas responsables de Cuentas prepararán los Partes de Incidencias de acuerdo con el PROCEDIMIENTO DE PARTES DE INCIDENCIAS (PR39).",
       "nivel": "parent",
       "parent_id": null,
@@ -305,7 +305,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3504bfd2-e770-4d1e-b703-62085bd72146",
+      "chunk_id": "e681a5a3-5beb-42d0-87cc-d361e630957d",
       "texto": "Las   actividades   del   Departamento   de   Compras   comprenden   la   compra,   activación, inspección y transporte de los equipos y/o materiales.\n\nEl   PROCEDIMIENTO   DE   COMPRAS   (PR-50)   desarrolla   las   actividades   del Departamento de Compras en un Proyecto.\n\nSon también de aplicación el PROCEDIMIENTO DE EVALUACION DE FABRICANTES (PR-51) el PROCEDIMIENTO DE EXPEDICION (PR-52) y el PROCEDIMIENTO DE NO CONFORMIDADES (PR-72), cada uno en su respectivo ámbito",
       "nivel": "parent",
       "parent_id": null,
@@ -320,7 +320,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0368dd73-ee97-451d-ab48-77a784c22cb5",
+      "chunk_id": "4d3d2da7-6b62-4af1-b899-4173a28aed8a",
       "texto": "Las actividades del Servicio de Planificación y Control de Gestión, se extienden a:\n\n- La   Planificación   de   los   trabajos,   de   acuerdo   con   las   actividades   o   procesos   a desarrollar en el Proyecto.\n\n-El Control de los Costes de los Proyectos.\n\n-El Control de Costes para los Clientes.\n\n-El Control global de Gestión para la Dirección General.\n\nSerán de aplicación el PROCEDIMIENTO DE CONTROL DE COSTES DE PROYECTO (PR-15), el PROCEDIMIENTO DE CONTROL DE COSTES DEL CLIENTE (PR-16), el PROCEDIMIENTO   DE   PLANIFICACION   DE   PROYECTOS   (PR-14)   y el PROCEDIMIENTO DE CONTROL DE GESTION (PR-77).",
       "nivel": "parent",
       "parent_id": null,
@@ -336,7 +336,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "88fa9700-3440-4635-83e3-9a18b8262789",
+      "chunk_id": "1c26c553-36fe-4232-a70c-1419e6827e59",
       "texto": "Las actividades del Departamento de Construcción incluyen la subcontratación de obras y montajes,   la supervisión y el control de la construcción y montaje de las plantas o unidades objeto de cada Proyecto.\n\nAsí mismo el Departamento gestiona las compras que sea preciso efectuar desde las Obras.\n\nLos   Procedimientos   PR-54   \"PROCEDIMIENTO   DE   SUBCONTRATACION\" y PR-55 \"PROCEDIMIENTO DE SUPERVISION DE CONSTRUCCION\", desarrollan el detalle de las actividades del Departamento de Construcción.\n\nSon también de aplicación el PROCEDIMIENTO DE EVALUACION DE FABRICANTES (PR-51) el PROCEDIMIENTO DE EXPEDICION (PR-52) y el PROCEDIMIENTO DE NO CONFORMIDADES (PR-72), cada uno en su respectivo ámbito.",
       "nivel": "parent",
       "parent_id": null,
@@ -351,7 +351,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "cae5730d-9f2e-46a4-b7f6-0460466e8b2b",
+      "chunk_id": "2107c221-756c-4a21-8e52-2afee474abee",
       "texto": "Es obligación de todo Jefe de Proyecto al finalizar el mismo, la preparación del Libro Resumen de Proyecto, cuyo contenido se especifica en el PROCEDIMIENTO DEL LIBRO RESUMEN DEL PROYECTO (PR-18).",
       "nivel": "parent",
       "parent_id": null,
@@ -366,7 +366,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2b99fa5a-d63a-4d80-a5e9-4b61d411b82b",
+      "chunk_id": "3b8ada9c-b740-438e-b074-7a5c4121bb59",
       "texto": "Las relaciones con los Clientes vienen gobernadas por los Planes de Calidad y Medio Ambiente de los Proyectos, y además por el PROCEDIMIENTO DE RECLAMACIONES DE CLIENTES Y COMUNICACIONES EXTERNAS (PR-75) y el PROCEDIMIENTO DE RELACIONES CON LOS RESIDENTES (PR-76).",
       "nivel": "parent",
       "parent_id": null,
@@ -381,7 +381,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f875b5cb-f82e-4e8e-8267-b754b9454e13",
+      "chunk_id": "e9811fe7-59a4-4138-8b09-eeacd28b62c8",
       "texto": "Las auditorías internas de calidad se llevan a cabo según regula el PROCEDIMIENTO DE AUDITORIAS DE CALIDAD Y MEDIO AMBIENTE (PR-71), el tratamiento de las desviaciones se realiza según el PROCEDIMIENTO DE ACCIONES CORRECTIVAS Y PREVENTIVAS (PR-73), la formación del personal según el PROCEDIMIENTO DE FORMACION (PR-74) y el gobierno de todo ello corresponde al Comité de Calidad y Medio Ambiente, según el PROCEDIMIENTO DEL COMITE DE CALIDAD Y MEDIO AMBIENTE (PR-70).",
       "nivel": "parent",
       "parent_id": null,
@@ -396,7 +396,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4d661959-21fe-481a-97f1-433431bedd58",
+      "chunk_id": "f462f815-75ab-4a36-adca-b4d613b13027",
       "texto": "Necesidad o expectativa establecida, generalmente implícita u obligatoria (condiciones contractuales, sistema de gestión, norma, disposición legal, especificación, etc.).",
       "nivel": "parent",
       "parent_id": null,
@@ -411,7 +411,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "48e24e2c-b66b-44ac-bd56-da32fc757cfd",
+      "chunk_id": "c2f3f34b-03ef-414c-884c-7af543399df7",
       "texto": "Percepción del cliente sobre el grado en que se han cumplido los requisitos que ha definido en el Contrato con Intecsa Industrial .",
       "nivel": "parent",
       "parent_id": null,
@@ -426,7 +426,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "59651870-67ba-42fc-9a07-06339af84faa",
+      "chunk_id": "4da708d2-834e-4480-976f-cf8a134e2da5",
       "texto": "Organización o persona que proporciona un producto (equipo, material, montaje, servicio, etc.)",
       "nivel": "parent",
       "parent_id": null,
@@ -441,7 +441,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "dac85809-e646-42ad-990c-650bc272ec2f",
+      "chunk_id": "50f03b60-341d-4680-971a-29cee20a4838",
       "texto": "Conjunto de actividades mutuamente relacionadas o que interactúan para transformar entradas   (ingeniería   básica,   requisitos   contractuales,   sistema   de   gestión)   en   salidas (proyecto final, planta llave en mano)",
       "nivel": "parent",
       "parent_id": null,
@@ -456,7 +456,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5427fcd0-2523-406e-95f2-4a69c371ebfe",
+      "chunk_id": "2031b45a-2d6c-432a-9479-324f32ab15d2",
       "texto": "Resultado de un proceso .",
       "nivel": "parent",
       "parent_id": null,
@@ -471,7 +471,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c962777e-f0b2-4c06-9bbf-b3b2624df83f",
+      "chunk_id": "3bc8dcb8-0fc2-43b4-bd1e-96b02963e015",
       "texto": "Capacidad para seguir la historia, aplicación o localización de todo aquello que está bajo consideración (documento, equipo, montaje, producción).",
       "nivel": "parent",
       "parent_id": null,
@@ -486,7 +486,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "48467167-68fd-4c13-b0e5-91366586aa7e",
+      "chunk_id": "787f789d-0a31-4c97-aedb-dc2bcad18b42",
       "texto": "Documento   que   proporciona   resultados   conseguidos   o   evidencia   de   actividades efectuadas.",
       "nivel": "parent",
       "parent_id": null,
@@ -501,7 +501,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "eead2144-a392-4899-84ca-6f2cda281602",
+      "chunk_id": "8a146e88-9baa-4cca-884f-d0425519c4b4",
       "texto": "Grado en que un conjunto de características inherentes cumple con unos requisitos marcados .",
       "nivel": "parent",
       "parent_id": null,
@@ -516,7 +516,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f13f5436-07ba-4b03-9365-4d919bada5ae",
+      "chunk_id": "ff449f84-7a43-4540-9b8f-da4725f7255a",
       "texto": "Actividades coordinadas para dirigir y controlar una organización en lo relativo a la calidad .",
       "nivel": "parent",
       "parent_id": null,
@@ -531,7 +531,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7f4b25a2-c81c-4213-b1b5-6f2c05e7928c",
+      "chunk_id": "39030f7f-0417-4b09-b4f8-d1040b68aa80",
       "texto": "Entorno en el cual opera una organización, incluyendo el aire, el agua, la tierra, los recursos naturales, la flora, la fauna, los seres humanos y sus interrelaciones. En el caso de Intecsa Industrial un entorno son las oficinas (central y locales), y otro entorno la zona donde se instala la una nueva planta.",
       "nivel": "parent",
       "parent_id": null,
@@ -546,7 +546,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "58170392-d282-4352-9a7d-4d93d8bb37ab",
+      "chunk_id": "ededfc18-041d-4691-b829-fcf7375ccbf3",
       "texto": "Aquella parte de las actividades y servicios de Intecsa Industrial que interactúa o puede interactuar con el medio ambiente, positiva o negativamente.",
       "nivel": "parent",
       "parent_id": null,
@@ -561,7 +561,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "92701ab2-70ce-4d84-9f9d-24311cbb8384",
+      "chunk_id": "878424d2-0827-4cc2-9844-96dd3331d30e",
       "texto": "Cualquier cambio en el medio ambiente, sea adverso o beneficioso, resultante en todo o en parte de las actividades y servicios de Intecsa Industrial . Un aspecto es una causa que provoca un impacto como efecto de la misma.",
       "nivel": "parent",
       "parent_id": null,
@@ -576,7 +576,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ddd2f853-c437-4d0b-954b-b9be54d58fbe",
+      "chunk_id": "0ecfa203-5217-4109-aa70-79b24502f66e",
       "texto": "Utilización de procesos, prácticas, materiales, o productos que evitan, reducen o controlan la contaminación. Puede incluir el reciclado, el tratamiento, los cambios de procesos, los mecanismos de control, el uso eficiente de los recursos y la sustitución de materiales.",
       "nivel": "parent",
       "parent_id": null,
@@ -591,7 +591,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "68f55494-b268-4a73-b98d-7b2a51729413",
+      "chunk_id": "019ba896-60f9-4f13-8d7c-4c86fa4f9dd0",
       "texto": "Fin medioambiental de carácter general, que tiene su origen en la política medioambiental, marcado por la Dirección General a propuesta del Jefe de Calidad y Medio Ambiente o cualquier otro miembro de la organización, cuantificado siempre que sea posible.",
       "nivel": "parent",
       "parent_id": null,
@@ -606,7 +606,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "34d7a519-1f2a-4908-a59e-d390a1b43fa7",
+      "chunk_id": "5d4eb503-f152-4018-a24c-2c8695e42d5d",
       "texto": "Requisito detallado de actuación, cuantificado siempre que sea posible, aplicable a parte de las actividades y servicios de Intecsa Industrial , que tiene su origen en los objetivos medioambientales, y que debe establecerse para alcanzarlos. La relación de objetivo a meta es la de causa a efecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -621,7 +621,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "913575e6-cf72-4ab1-a128-4e610448d57b",
+      "chunk_id": "0bc49a20-68ee-4d42-8548-41ed28576b15",
       "texto": "Documento que define, entre otros, los principios de actuación medioambiental específicos, recursos y secuencias de las actividades ligadas a la gestión medioambiental en un proyecto concreto.\n\nSu contenido y complejidad depende del tipo de proyecto y las actividades que incluya, aunque todos ellos   contendrán   como   mínimo   los   requisitos   legales   y   normativos   de aplicación, la identificación y evaluación de aspectos medioambientales asociados a las actividades del proyecto, el control y posibles tratamientos de las actividades con mayor posibilidad de afección ambiental y la gestión de residuos.",
       "nivel": "parent",
       "parent_id": null,
@@ -636,7 +636,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "718dcd64-4c64-4374-ba7e-163bc5034e93",
+      "chunk_id": "f89110f4-ffae-4c23-9cea-48cf98df2b52",
       "texto": "Documento que define las actividades concretas, los recursos y las responsabilidades necesarias   para   lograr   la   adecuada   consecución   de   los   objetivos   y   metas medioambientales,   con   el   fin   de   mejorar   la   actuación   medioambiental   de Intecsa Industrial .",
       "nivel": "parent",
       "parent_id": null,
@@ -651,7 +651,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4dbded3d-9c40-43a1-aad3-e78deb47c88b",
+      "chunk_id": "ce016797-edbc-49df-85d9-023afb7fc415",
       "texto": "Análisis que permite estimar los efectos que un determinado proyecto, obra o actividad causa sobre el medio ambiente.",
       "nivel": "parent",
       "parent_id": null,
@@ -666,7 +666,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9643d6d7-caec-4c18-badf-3eaba1c7649a",
+      "chunk_id": "755c96cc-d712-4c9a-aa79-3cc18690895c",
       "texto": "Identificación de aquellas operaciones y actividades que están asociadas con los aspectos medioambientales   significativos,   conforme   a   la   política   establecida,   planificándolas   y vigilando su cumplimiento.",
       "nivel": "parent",
       "parent_id": null,
@@ -681,7 +681,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "86f94172-ab8b-4081-9d27-000b1bb7b6c7",
+      "chunk_id": "ad899611-071a-43a9-819a-6b7588c566be",
       "texto": "Cualquier sustancia u objeto perteneciente a alguna de las categorías que figuran en el anejo de la ley 10/1998 de 21 de abril, de Residuos, del cual su poseedor se desprenda o del que tenga la intención u obligación de desprenderse. En todo caso, tendrán esta consideración los que figuren en el Catálogo Europeo de Residuos (CER), aprobado por las instituciones comunitarias.",
       "nivel": "parent",
       "parent_id": null,
@@ -696,7 +696,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8eda9cc1-ab9f-4fb8-9151-c349d1106476",
+      "chunk_id": "5c0ae991-7155-4808-a7e4-c7a000a55e18",
       "texto": "Conjunto de actividades encaminadas a dar a los residuos el destino final más adecuado de   acuerdo   con   sus   características   y   en   orden   al   cumplimiento   de   la   legislación. Comprende   las   operaciones   de   recogida,   almacenamiento,   transporte,   tratamiento, recuperación y eliminación de los mismos.",
       "nivel": "parent",
       "parent_id": null,
@@ -711,7 +711,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "04972a67-df64-468f-a384-2ac665a94d08",
+      "chunk_id": "316594f2-8c1f-4995-9a10-ef1da02bbbdc",
       "texto": "Documento que regula las medidas a adoptar, el reparto de tareas, responsabilidades, y los datos   aplicables   a   los   servicios   externos   de   auxilio,   en   caso   de   emergencia medioambiental.",
       "nivel": "parent",
       "parent_id": null,

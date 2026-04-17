@@ -23,11 +23,17 @@ from docling_core.types.doc import (
     TextItem,
 )
 
+from app.config import SETTINGS
 from app.procesamiento.patrones import (
     PATRON_ANEXO,
     PATRON_CABECERA,
+    PATRON_CODIGO_DOC,
+    PATRON_EDICION,
     PATRON_INDICE,
+    PATRON_NUMERO_TITULO,
     PATRON_PIE_PAGINA,
+    PATRON_SOLO_NUMERO,
+    PATRON_TABLA_DEGRADADA,
     PATRON_TITULO,
 )
 
@@ -92,12 +98,12 @@ def extraer_metadatos_documento(doc: DoclingDocument) -> MetadatosDocumento:
 
         if meta.edicion is None and isinstance(item, (TextItem, ListItem)):
             if "EDICI" in texto.upper():
-                m = re.search(r"EDICI[OÓ]N\s+(\d+)", texto, re.IGNORECASE)
+                m = PATRON_EDICION.search(texto)
                 if m:
                     meta.edicion = m.group(1)
                 elif i + 1 < len(items_cabecera):
                     sig_texto = (items_cabecera[i + 1].text or "").strip()
-                    if re.match(r"^\d+$", sig_texto):
+                    if PATRON_SOLO_NUMERO.match(sig_texto):
                         meta.edicion = sig_texto
 
     return meta
@@ -145,10 +151,6 @@ _PALABRAS_CABECERA = frozenset({
     "DE", "OF",
 })
 
-_PATRON_CODIGO_DOC = re.compile(r"^[A-Z0-9]{2,}(?:-[A-Z0-9]+)+(?:\([^)]*\))?$")
-_PATRON_NUMERO = re.compile(r"^\d+$")
-
-
 def _es_fragmento_cabecera_puro(texto: str) -> bool:
     """True si el TextItem contiene únicamente tokens de cabecera de página.
 
@@ -167,9 +169,9 @@ def _es_fragmento_cabecera_puro(texto: str) -> bool:
             if t_u not in {"DE", "OF"}:
                 tiene_indicador_fuerte = True
             continue
-        if _PATRON_NUMERO.match(t):
+        if PATRON_SOLO_NUMERO.match(t):
             continue
-        if _PATRON_CODIGO_DOC.match(t):
+        if PATRON_CODIGO_DOC.match(t):
             tiene_indicador_fuerte = True
             continue
         return False  # token con contenido real → no es cabecera pura
@@ -229,7 +231,7 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
             if _titulo_norm and _titulo_norm in texto_seccion:
                 continue
             # Docling a veces concatena número y título: "3.NOTAS" → "3. NOTAS"
-            texto_seccion = re.sub(r"^(\d+\.)\s*([A-ZÁÉÍÓÚÑ])", r"\1 \2", texto_seccion)
+            texto_seccion = PATRON_NUMERO_TITULO.sub(r"\1 \2", texto_seccion)
             seccion_actual = texto_seccion or seccion_actual
             dentro_de_anexo = bool(seccion_actual and PATRON_ANEXO.search(seccion_actual))
             dentro_de_indice = bool(seccion_actual and PATRON_INDICE.match(seccion_actual))
@@ -278,7 +280,14 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
             md = md.strip()
 
             # Detectamos tablas degradadas con celdas fusionadas que rompen el Markdown.
-            degradada = bool(re.search(r"\|\s{10,}\|", md))
+            degradada = bool(PATRON_TABLA_DEGRADADA.search(md))
+
+            if degradada and SETTINGS.enable_vision:
+                from app.procesamiento import vision as mod_vision
+                descripcion = mod_vision.describir_tabla(item, doc)
+                if descripcion:
+                    md = descripcion
+                    degradada = False
 
             resultado.append(
                 ElementoProcesado(

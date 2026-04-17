@@ -1,0 +1,644 @@
+{
+  "doc_id": "50602b3fdb83459eb9f128ace57a3349",
+  "nombre_fichero": "14150-IT-01.pdf",
+  "metadatos_admin": {
+    "empresa": "servicios_rnl",
+    "proyecto_id": "14150",
+    "tipo_doc": "instruccion_trabajo",
+    "idioma": "es",
+    "anexo_de": null
+  },
+  "metadatos_documento": {
+    "titulo": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 14150 - SS.AA. RNL",
+    "edicion": "1",
+    "fecha_emision": null
+  },
+  "fecha_ingesta": "2026-04-16T19:04:11+00:00",
+  "chunks": [
+    {
+      "chunk_id": "761deee1-6e77-4731-9d30-0ff413e1bc30",
+      "texto": "El objeto del presente documento es la descripción del procedimiento de uso del Portal de IUI en el proyecto 14150 - SERVICIOS AUXILIARES DE RNL\n\nEn particular se incidirá en los siguientes aspectos:\n\n-Organización del archivo electrónico del proyecto en el portal.\n\n-Acceso a la información por parte de los distintos participantes en el proyecto: personal de IUI, colaboradores, proveedores y personal del cliente.\n\n-Introducción y control de los documentos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e40bc97a-d260-4363-81b2-23c5ccacb683",
+      "texto": "IUI dispone de un Portal que constituye el punto de acceso a la información de la compañía. El portal de IUI está regido por Documentum 4i, un Sistema de Gestión Electrónica de Documentos que presenta las siguientes características y funcionalidades:\n\nSistema orientado a Intranet / Internet: permite crear, modificar y buscar documentos a través de un navegador estándar (Internet Explorer p.e.). El que se trate de un entorno web, permite facilitar el acceso a la información a través de Internet.\n\nCatalogación de la información: para cada documento se cumplimentan una serie de atributos o propiedades (número de documento, título, autor, etc.) que facilitan la rápida localización de los documentos deseados mediante utilidades de búsqueda.\n\nFácil acceso a la información: la aplicación está dotada de herramientas de búsqueda basadas en los atributos asociados a los documentos. Por otro lado, dentro de la estructura de directorios (carpetas) en la que está organizada la información, el sistema permite   realizar   enlaces   haciendo   que   un   mismo   documento   sea   accesible   desde distintas localizaciones (desde distintas carpetas) sin necesidad de duplicar archivos.\n\nIntegridad y seguridad de la información: el   sistema incorpora procedimientos de seguridad basados en listas de control de acceso (ACL: access control list), las cuales son aplicables individualmente a carpetas y documentos definiendo qué privilegios tiene cada usuario sobre ellos (ver, editar, borrar, etc.). De esta forma, se garantiza que cada usuario accede únicamente a la información a la que tiene derecho. Asimismo, se evita el riesgo de borrados involuntarios.\n\nMantenimiento y control de versiones: a   la   hora   de   modificar   un   documento   del sistema   existe   la   opción   de   sobrescribirlo   (perdiendo   el   documento   original)   o   de conservarlo, añadiendo el nuevo documento como versión del documento inicial. Ello posibilita el mantenimiento de un histórico de ediciones de los documentos, de modo que el sistema nos muestra la última versión pero nos permite acceder a las anteriores.\n\nMensajería electrónica : la aplicación permite el envío de mensajes entre usuarios con documentos del sistema asociados a dichos mensajes.\n\nSoporte multiformato: el sistema permite incluir los documentos en el formato con que son creados. Adicionalmente, es posible guardar los documentos en varios formatos siendo de especial interés la publicación de documentos tanto en su formato original como en formato PDF, formato estándar que garantiza que cualquier usuario puede visualizar el documento sin necesidad de tener instalada la aplicación con la que ha sido generado.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "2. INTRODUCCIÓN",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "65ffc67b-5089-4da2-a0c8-76363bbfb48f",
+      "texto": "IUI dispone de un Portal que constituye el punto de acceso a la información de la compañía. El portal de IUI está regido por Documentum 4i, un Sistema de Gestión Electrónica de Documentos que presenta las siguientes características y funcionalidades:\n\nSistema orientado a Intranet / Internet: permite crear, modificar y buscar documentos a través de un navegador estándar (Internet Explorer p.e.). El que se trate de un entorno web, permite facilitar el acceso a la información a través de Internet.\n\nCatalogación de la información: para cada documento se cumplimentan una serie de atributos o propiedades (número de documento, título, autor, etc.) que facilitan la rápida localización de los documentos deseados mediante utilidades de búsqueda.\n\nFácil acceso a la información: la aplicación está dotada de herramientas de búsqueda basadas en los atributos asociados a los documentos.",
+      "nivel": "child",
+      "parent_id": "e40bc97a-d260-4363-81b2-23c5ccacb683",
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "2. INTRODUCCIÓN",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3233e1a4-5135-4ab6-abd6-fb936cf3a187",
+      "texto": "Por otro lado, dentro de la estructura de directorios (carpetas) en la que está organizada la información, el sistema permite   realizar   enlaces   haciendo   que   un   mismo   documento   sea   accesible   desde distintas localizaciones (desde distintas carpetas) sin necesidad de duplicar archivos.\n\nIntegridad y seguridad de la información: el   sistema incorpora procedimientos de seguridad basados en listas de control de acceso (ACL: access control list), las cuales son aplicables individualmente a carpetas y documentos definiendo qué privilegios tiene cada usuario sobre ellos (ver, editar, borrar, etc.). De esta forma, se garantiza que cada usuario accede únicamente a la información a la que tiene derecho. Asimismo, se evita el riesgo de borrados involuntarios.\n\nMantenimiento y control de versiones: a   la   hora   de   modificar   un   documento   del sistema   existe   la   opción   de   sobrescribirlo   (perdiendo   el   documento   original)   o   de conservarlo, añadiendo el nuevo documento como versión del documento inicial.",
+      "nivel": "child",
+      "parent_id": "e40bc97a-d260-4363-81b2-23c5ccacb683",
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "2. INTRODUCCIÓN",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e0935589-7555-4dd8-a6b8-c1e103cb9fa3",
+      "texto": "Ello posibilita el mantenimiento de un histórico de ediciones de los documentos, de modo que el sistema nos muestra la última versión pero nos permite acceder a las anteriores.\n\nMensajería electrónica : la aplicación permite el envío de mensajes entre usuarios con documentos del sistema asociados a dichos mensajes.\n\nSoporte multiformato: el sistema permite incluir los documentos en el formato con que son creados. Adicionalmente, es posible guardar los documentos en varios formatos siendo de especial interés la publicación de documentos tanto en su formato original como en formato PDF, formato estándar que garantiza que cualquier usuario puede visualizar el documento sin necesidad de tener instalada la aplicación con la que ha sido generado.",
+      "nivel": "child",
+      "parent_id": "e40bc97a-d260-4363-81b2-23c5ccacb683",
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "2. INTRODUCCIÓN",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ce171b38-4a08-4b97-bf69-32974640b4ec",
+      "texto": "Todos los documentos del proyecto son incluidos en el Portal de Intranet de IUI, en el cual existe un área específica para la documentación asociada al proyecto.\n\nComo documentos del proyecto serán incluidos en el portal:\n\n-Documentos proporcionados por el cliente: Ingeniería básica, especificaciones y estándares, planos de las instalaciones existentes, etc.\n\n-Documentos generados por IUI:\n\no Documentos de ingeniería: planos, especificaciones, hojas de datos, etc\n\no Documentos de compras y de subcontratos de construcción: peticiones de oferta, tabulaciones económicas, pedidos, etc.\n\no  Documentos de planificación y control del proyecto: planificaciones, curvas de avance, informes de costes, etc.\n\no Documentos generales: informes   de   progreso,   actas   de   reunión,   plan   de calidad, etc.\n\n-Documentos provenientes de los proveedores.\n\no Correspondencia: se incluirán las notas internas y la correspondencia rlevante con el cliente y con los proveedores.\n\nLos documentos son introducidos en el Portal de Intranet por personal de  IUI, quedando disponibles para su uso en toda la organización siendo posible definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad. Periódicamente, en principio una vez al día, es realizada una copia de contenidos de la Intranet a Internet, para hacerlos accesibles a través de la página web de IUI en Internet . De esta manera, clientes, proveedores e incluso personal de IUI desplazado de las oficinas   pueden   acceder   a   aquellos   documentos   del   proyecto   que   se   determinen   en cualquier momento y desde cualquier lugar, siempre y cuando dispongan de conexión a",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "3. DOCUMENTOS QUE DEBE RECOGER EL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "83d7a770-76d5-4213-90a6-72170041001e",
+      "texto": "Todos los documentos del proyecto son incluidos en el Portal de Intranet de IUI, en el cual existe un área específica para la documentación asociada al proyecto.\n\nComo documentos del proyecto serán incluidos en el portal:\n\n-Documentos proporcionados por el cliente: Ingeniería básica, especificaciones y estándares, planos de las instalaciones existentes, etc.\n\n-Documentos generados por IUI:\n\no Documentos de ingeniería: planos, especificaciones, hojas de datos, etc\n\no Documentos de compras y de subcontratos de construcción: peticiones de oferta, tabulaciones económicas, pedidos, etc.\n\no  Documentos de planificación y control del proyecto: planificaciones, curvas de avance, informes de costes, etc.\n\no Documentos generales: informes   de   progreso,   actas   de   reunión,   plan   de calidad, etc.\n\n-Documentos provenientes de los proveedores.\n\no Correspondencia: se incluirán las notas internas y la correspondencia rlevante con el cliente y con los proveedores.",
+      "nivel": "child",
+      "parent_id": "ce171b38-4a08-4b97-bf69-32974640b4ec",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "3. DOCUMENTOS QUE DEBE RECOGER EL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f0610731-982a-4bd0-bbae-6bce4deef0a3",
+      "texto": "Los documentos son introducidos en el Portal de Intranet por personal de  IUI, quedando disponibles para su uso en toda la organización siendo posible definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad. Periódicamente, en principio una vez al día, es realizada una copia de contenidos de la Intranet a Internet, para hacerlos accesibles a través de la página web de IUI en Internet . De esta manera, clientes, proveedores e incluso personal de IUI desplazado de las oficinas   pueden   acceder   a   aquellos   documentos   del   proyecto   que   se   determinen   en cualquier momento y desde cualquier lugar, siempre y cuando dispongan de conexión a",
+      "nivel": "child",
+      "parent_id": "ce171b38-4a08-4b97-bf69-32974640b4ec",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "3. DOCUMENTOS QUE DEBE RECOGER EL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "74c6bef5-3239-46c0-9577-dc0e00206d41",
+      "texto": " El cliente podrá acceder a la documentación del proyecto , desde la página web de IUI en   Internet ,   desde   la   zona   de   proyecto   en   colaboración. Para   garantizar   su confidencialidad se habilitarán dos nombres de usuario y sus respectivas contraseñas cada uno de los cuales corresponderá a un nivel de acceso. Se trata de un área únicamente de consulta y descarga, no existiendo posibilidad de modificación de los documentos allí publicados.\n\nEl cliente únicamente tendrá acceso a los documentos una vez éstos hayan sido aprobados por IUI de manera que para un determinado documento que no esté aprobado no tendrán posibilidad de abrirlo pero sí acceder a la última edición aprobada.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "4. ACCESO POR PARTE DEL CLIENTE",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "23bbb82d-1b3b-4ec4-867c-bbed06bda309",
+      "texto": "Los proveedores podrán acceder a través del Centro de Negocios de IUI en Internet a aquellos documentos asociados a las requisiciones de material del proyecto en las que están involucrados ,   tanto en la fase de petición de oferta como una vez adjudicado el pedido. La información publicada en el Centro de Negocios queda restringida a los proveedores   seleccionados   para   la   petición   de   oferta   y   al   adjudicatario   si   nos encontramos en la fase de pedido . Ello queda garantizado por un sistema de contraseñas que gestiona el departamento de Compras de IUI .",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "5. ACCESO POR PARTE DE LOS PROVEEDORES",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "54ae0c5e-a4fb-42e5-b7cb-001ddafb8cb7",
+      "texto": "La introducción de la documentación en el portal de IUI será llevada a cabo por quien genere el documento y será aprobada y distribuida electrónicamente.\n\nLos documentos proporcionados por el cliente serán introducidos por el administrador del proyecto , quien será el responsable de la gestión del archivo electrónico del proyecto en el portal.\n\nEn cuanto a documentos proporcionados por los proveedores, el encargado de su introducción en el sistema tanto a la llegada a IUI como a su salida será el Administrador de Proyecto (concretamente en PDF).",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "6. INTRODUCCIÓN APROBACIÓN Y DISTRIBUCIÓN DE LA DOCUMENTACIÓN",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fc4710e3-ae3f-47ed-82d7-0a392d693f55",
+      "texto": "Como responsable del archivo  electrónico   del   proyecto   se   determinará   una   figura   de administrador del proyecto, que tendrá entre otras misiones:\n\n-Distribución electrónica de los documentos.\n\n-Introducción de aquellos documentos proporcionados por los especialistas.\n\n-Introducción de aquellos documentos proporcionados por el cliente.\n\n-Agrupación de los documentos asociados a las requisiciones de material para propiciar el acceso a ellos por parte de los proveedores.\n\n-Seguimiento de la introducción de los documentos: detectar y activar la corrección de fallos como puedan ser errores a la hora de cumplimentar las propiedades y sobre todo a la hora de fijar los permisos.\n\n-Registro de la devolución de los documentos por el cliente.\n\n-Realización de tareas que requieren una manipulación masiva de documentos, como la introducción y extracción masiva de documentos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "7.1. Documentos de Ingeniería.",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ccdbef3d-fa28-4e67-ad20-da00dab4e7f2",
+      "texto": "El Administrador de Proyectos será el encargado de:\n\n-Activar la llegada de los documentos en la fecha requerida.\n\n-Introducción de los documentos en el Portal a su llegada a IUI.\n\n-Distribución de los documentos a los especialistas implicados.\n\n-Introducción en el sistema de los documentos una vez comentados para que puedan ser consultados por el proyecto, el cliente y el proveedor implicado.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 5,
+      "pagina_fin": 6,
+      "seccion": "7.2. Documentos de Fabricante",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4f84f0bd-0c19-46ac-a865-0930de380c4f",
+      "texto": "En el Portal de IUI, la información se estructura buscando lograr un doble objetivo: el fácil acceso a la misma y la simplicidad a la hora de gestionar los permisos de acceso y modificación.\n\nEn este sentido, la información se estructura atendiendo a la naturaleza de la misma (documentos proporcionados por el cliente, correspondencia, etc.) y en segundo término por especialidades o actividades\n\nEn el caso concreto de aquellas especialidades que emiten requisiciones de material, la documentación estará organizada matricialmente, es decir, atendiendo al tipo de documento (hoja de datos, especificación, etc.) y atendiendo a la requisición de material a la que está asociada.\n\nEn el ANEXO 1 se recoge la estructura de carpetas así como los permisos de acceso asociados.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "8. ESTRUCTURA DE LA INFORMACIÓN",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "61403cdc-c3a5-4533-ab36-19131c00bcb0",
+      "texto": "En Documentum ,   los   usuarios   están   organizados   según   grupos   de   manera   que   los permisos (ACL'S) consisten en asignar a cada grupo de usuarios los privilegios que se les desee conceder.\n\nEn cuanto a la actualización de los usuarios participantes en el proyecto será la dirección del mismo quien comunique a Gestión del Conocimiento si se producen altas o bajas dentro del proyecto, indicando en el caso de las altas la amplitud del acceso que debe tener el usuario, es decir, en qué grupo debe ser incluido.\n\nAsimismo la dirección de proyecto se pondrá en contacto con Gestión del Conocimiento ante necesidades de nuevos permisos o de modificación de los existentes.\n\nPERMISOS DISPONIBLES PARA EL PROYECTO\n\n-Proy_rnl_lectura: aplicable a documentos de carácter no confidencial aún no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR únicamente al propietario del documento y al administrador del proyecto. -Proy_rnl_privado: aplicable a documentos únicamente accesibles por la dirección del proyecto y por el responsable de costes del proyecto. Desde la intranet permite LEER al responsable de costes del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_nrl_privado_rc: aplicable   a   documentos   relativos   a   resúmenes   de   costes, órdenes de cambio y curvas económicas. Desde la intranet permite LEER a la dirección de proyectos y al grupo de contratos y permite MODIFICAR al grupo de planificación. -Proy_rnl_restringido: aplicable a documentos únicamente accesibles a los responsables de cuenta, a la dirección del proyecto y a los jefes de departamento. Desde la intranet permite LEER a los responsables de cuenta del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_rnl_restringido_cl: aplicable a documentos generales que introducirá, o bien el grupo de operaciones o bien el Administrador de documentos. Desde la intranet permite LEER a todos los usuarios de IUI y MODIFICAR al grupo de operaciones y al Administrador de Documentos. -Proy_rnl_civil: aplicable   a   documentos   generados   por   los   componentes   de   civil   y accesibles a toda IUI. Desde la Intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de civil. -Proy_rnl_compras: aplicable   a   documentos   no   restringidos   generados   por   los componentes de compras y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_nrl_compras_rest: aplicable a documentos generados por los componentes de\n\ncompras de carácter restringido por ejemplo pedidos y tabulaciones.\n\nDesde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_nrl_compras_priv: aplicable a documentos generados por los componentes de compras de carácter restringido por ejemplo permisos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_rnl_construc: aplicable   a   documentos   no   restringidos   generados   por   los componentes de construcción y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_rnl_construc_rest: aplicable a documentos generados por los componentes de construcción de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_rnl_dinamicos : aplicable  a   documentos   generados  por  los   componentes   de equipos dinámicos y accesibles a toda IUI.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3ab03623-3019-415b-96ec-28e6bd4c0425",
+      "texto": "En Documentum ,   los   usuarios   están   organizados   según   grupos   de   manera   que   los permisos (ACL'S) consisten en asignar a cada grupo de usuarios los privilegios que se les desee conceder.\n\nEn cuanto a la actualización de los usuarios participantes en el proyecto será la dirección del mismo quien comunique a Gestión del Conocimiento si se producen altas o bajas dentro del proyecto, indicando en el caso de las altas la amplitud del acceso que debe tener el usuario, es decir, en qué grupo debe ser incluido.\n\nAsimismo la dirección de proyecto se pondrá en contacto con Gestión del Conocimiento ante necesidades de nuevos permisos o de modificación de los existentes.\n\nPERMISOS DISPONIBLES PARA EL PROYECTO\n\n-Proy_rnl_lectura: aplicable a documentos de carácter no confidencial aún no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR únicamente al propietario del documento y al administrador del proyecto.",
+      "nivel": "child",
+      "parent_id": "61403cdc-c3a5-4533-ab36-19131c00bcb0",
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c5545e4a-4e26-46a2-ad13-4bf1559c6833",
+      "texto": "-Proy_rnl_privado: aplicable a documentos únicamente accesibles por la dirección del proyecto y por el responsable de costes del proyecto. Desde la intranet permite LEER al responsable de costes del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_nrl_privado_rc: aplicable   a   documentos   relativos   a   resúmenes   de   costes, órdenes de cambio y curvas económicas. Desde la intranet permite LEER a la dirección de proyectos y al grupo de contratos y permite MODIFICAR al grupo de planificación. -Proy_rnl_restringido: aplicable a documentos únicamente accesibles a los responsables de cuenta, a la dirección del proyecto y a los jefes de departamento. Desde la intranet permite LEER a los responsables de cuenta del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_rnl_restringido_cl: aplicable a documentos generales que introducirá, o bien el grupo de operaciones o bien el Administrador de documentos.",
+      "nivel": "child",
+      "parent_id": "61403cdc-c3a5-4533-ab36-19131c00bcb0",
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8712ea98-4107-4fd8-8992-7c02f3836908",
+      "texto": "Desde la intranet permite LEER a todos los usuarios de IUI y MODIFICAR al grupo de operaciones y al Administrador de Documentos. -Proy_rnl_civil: aplicable   a   documentos   generados   por   los   componentes   de   civil   y accesibles a toda IUI. Desde la Intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de civil. -Proy_rnl_compras: aplicable   a   documentos   no   restringidos   generados   por   los componentes de compras y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_nrl_compras_rest: aplicable a documentos generados por los componentes de\n\ncompras de carácter restringido por ejemplo pedidos y tabulaciones.\n\nDesde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras.",
+      "nivel": "child",
+      "parent_id": "61403cdc-c3a5-4533-ab36-19131c00bcb0",
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3c7f8f6d-d276-458c-964a-c44c2edd61e2",
+      "texto": "-Proy_nrl_compras_priv: aplicable a documentos generados por los componentes de compras de carácter restringido por ejemplo permisos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_rnl_construc: aplicable   a   documentos   no   restringidos   generados   por   los componentes de construcción y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_rnl_construc_rest: aplicable a documentos generados por los componentes de construcción de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras.",
+      "nivel": "child",
+      "parent_id": "61403cdc-c3a5-4533-ab36-19131c00bcb0",
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3cadd4c0-f8b0-4b3b-9d3d-40b696c54c6c",
+      "texto": "-Proy_rnl_dinamicos : aplicable  a   documentos   generados  por  los   componentes   de equipos dinámicos y accesibles a toda IUI.",
+      "nivel": "child",
+      "parent_id": "61403cdc-c3a5-4533-ab36-19131c00bcb0",
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7a0976d2-6666-42ed-bef3-5e8710cc26f3",
+      "texto": "Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos dinámicos. -Proy_rnl_elec : aplicable a documentos generados por los componentes de electricidad e instrumentación y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de electricidad e instrumentación. -Proy_rnl_estaticos: aplicable   a   documentos   generados   por   los   componentes   de equipos estáticos  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos estáticos. -Proy_rnl_agua: aplicable   a   documentos   generados   por   los   componentes   de Tratamiento de Agua  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Tratamiento de Agua. -Proy_rnl_materiales: aplicable   a   documentos   generados   por   los   componentes   de\n\nmateriales y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de materiales. -Proy_rnl_procesos   : aplicable   a   documentos   generados   por   los   componentes   de procesos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de procesos. -Proy_rnl_sci   : aplicable   a   documentos   generados   por   los   componentes   de   (SCI) Sistemas Contra Incendios y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de sistemas contra incendios. -Proy_rnl_soportes   : aplicable   a   documentos   generados   por   los   componentes   de Esfuerzos y Soportes y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Esfuerzos y Soportes. -Proy_rnl_tuberías   : aplicable   a   documentos   generados   por   los   componentes   de tuberías y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de tuberías. -Proy_rnl_antorcha   : aplicable   a   documentos   generados   por   los   componentes   de mecánica Antorcha y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de mecánica Antorcha. -Proy_rnl_caldera   : aplicable   a   documentos   generados   por   los   componentes   de mecánica Caldera y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de mecánica Caldera. -Proy_rnl_instr   : aplicable   a   documentos   generados   por   los   componentes   de Instrumentación y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Instrumentación. -Proy_rnl_operaciones : aplicable a documentos generados por los componentes de\n\nOperaciones y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Operaciones.\n\n-Proy_rnl_segcali   : aplicable   a   documentos   generados   por   los   componentes   de Seguridad y Calidad y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Seguridad y Calidad.\n\n-Proy_rnl_torre : aplicable a documentos generados por los componentes de Mecánica Torre de Refrigeración y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Mecánica Torre de Refrigeración.\n\n-Proy_rnl_visible : Permiso para las carpetas en las que no deben crearse ni modificarse otras carpetas.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "10fae1f1-ef44-46f4-9e2d-d33a740c7ebf",
+      "texto": "Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos dinámicos. -Proy_rnl_elec : aplicable a documentos generados por los componentes de electricidad e instrumentación y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de electricidad e instrumentación. -Proy_rnl_estaticos: aplicable   a   documentos   generados   por   los   componentes   de equipos estáticos  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos estáticos. -Proy_rnl_agua: aplicable   a   documentos   generados   por   los   componentes   de Tratamiento de Agua  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Tratamiento de Agua.",
+      "nivel": "child",
+      "parent_id": "7a0976d2-6666-42ed-bef3-5e8710cc26f3",
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2e47aca7-1a20-47e8-9fb8-93cbaa00b166",
+      "texto": "-Proy_rnl_materiales: aplicable   a   documentos   generados   por   los   componentes   de\n\nmateriales y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de materiales. -Proy_rnl_procesos   : aplicable   a   documentos   generados   por   los   componentes   de procesos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de procesos. -Proy_rnl_sci   : aplicable   a   documentos   generados   por   los   componentes   de   (SCI) Sistemas Contra Incendios y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de sistemas contra incendios. -Proy_rnl_soportes   : aplicable   a   documentos   generados   por   los   componentes   de Esfuerzos y Soportes y accesibles a toda IUI.",
+      "nivel": "child",
+      "parent_id": "7a0976d2-6666-42ed-bef3-5e8710cc26f3",
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "97077e6d-3cea-43df-95ad-94a51d4ba12b",
+      "texto": "Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Esfuerzos y Soportes. -Proy_rnl_tuberías   : aplicable   a   documentos   generados   por   los   componentes   de tuberías y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de tuberías. -Proy_rnl_antorcha   : aplicable   a   documentos   generados   por   los   componentes   de mecánica Antorcha y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de mecánica Antorcha. -Proy_rnl_caldera   : aplicable   a   documentos   generados   por   los   componentes   de mecánica Caldera y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de mecánica Caldera.",
+      "nivel": "child",
+      "parent_id": "7a0976d2-6666-42ed-bef3-5e8710cc26f3",
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "26962dae-e8c2-4fea-a2e3-d4c8177f5c83",
+      "texto": "-Proy_rnl_instr   : aplicable   a   documentos   generados   por   los   componentes   de Instrumentación y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Instrumentación. -Proy_rnl_operaciones : aplicable a documentos generados por los componentes de\n\nOperaciones y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Operaciones.\n\n-Proy_rnl_segcali   : aplicable   a   documentos   generados   por   los   componentes   de Seguridad y Calidad y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Seguridad y Calidad.\n\n-Proy_rnl_torre : aplicable a documentos generados por los componentes de Mecánica Torre de Refrigeración y accesibles a toda IUI.",
+      "nivel": "child",
+      "parent_id": "7a0976d2-6666-42ed-bef3-5e8710cc26f3",
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "917c2085-c70b-4f87-bc6f-f623eb669582",
+      "texto": "Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Mecánica Torre de Refrigeración.\n\n-Proy_rnl_visible : Permiso para las carpetas en las que no deben crearse ni modificarse otras carpetas.",
+      "nivel": "child",
+      "parent_id": "7a0976d2-6666-42ed-bef3-5e8710cc26f3",
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4c6bf48f-bd98-48ce-9ad7-5c04e3783019",
+      "texto": "La   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc\n\nLos permisos del cliente los comentamos anteriormente en el punto de Acceso por parte del Cliente",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 6,
+      "pagina_fin": 10,
+      "seccion": "9. USUARIOS DEL PROYECTO Y PERMISOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "be701053-f06e-4a7d-a9de-b051f9a5b614",
+      "texto": "A  continuación   se   recoge   el   directorio   de   carpetas   en   el   que   será   estructurada   la documentación generada a lo largo del proyecto en el portal de IUI. Asimismo, se indica quién   tiene   acceso   a   los   contenidos   de   las   carpetas   y   a   determinados   documentos, empleando para ello el siguiente código:\n\ncte: cliente usuario con acceso a cierta documentación.\n\ndp: dirección de proyecto de IUI.\n\ncost : responsable de control de costes del proyecto.\n\nrc: conjunto de responsables de cuenta del proyecto\n\njdpto: conjunto de jefes de departamento de IUI\n\niui: conjunto de todo el personal de IUI\n\nAsí por ejemplo, dp + cost + jdpto indica que a los contenidos de la carpeta referida tienen acceso la dirección del proyecto, el responsable de costes y los jefes de departamento de IUI.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "ESTRUCTURA DEL ARCHIVO ELECTRÓNICO DEL PROYECTO 14150 - SERVICIOS AUXILIARES DE RNL EN EL PORTAL DE IUI",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c658365a-1ed7-4028-ab9d-aa201579c17f",
+      "texto": "-Se refiere a carpetas generales.\n\n-Se refiere a carpetas de RM.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 11,
+      "pagina_fin": 11,
+      "seccion": "Otras aclaraciones:",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a05f8a5e015c470192a46e2e0e4d3d3d",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO             | PERMISOS DE ACCESO    |\n|-------------------------------------------------|-----------------------|\n| 14150 - SERVICIOS AUXILIARES DE RNL             |                       |\n| 01. GENERAL                                     |                       |\n| 1.1. CONTRATO                                   | dp + cost + jdpto     |\n| 1.1.1. CONTRATO                                 |                       |\n| 1.1.2. ÓRDENES DE CAMBIO                        |                       |\n| 1.1.3. FACTURACIÓN                              |                       |\n| 1.2 PLAN DE CALIDAD                             | cte + iui             |\n| ANEXOS AL PLAN DE CALIDAD                       |                       |\n| PLAN DE CALIDAD                                 |                       |\n| PROCEDIMIENTOS                                  |                       |\n| 1.3 ACTAS DE REUNIÓN                            |                       |\n| 1.3.1. Actas de Reunión con CEPSA               | cte + dp + rc + jdpto |\n| 1.3.2. Actas de Reunión con PROVEEDORES         | cte + dp + rc + jdpto |\n| 1.3.3. Actas de Reunión INTERNAS                | dp + rc + jdpto       |\n| 1.4 CORRESPONDENCIA                             |                       |\n| 1.4.1. Correspondencia con CEPSA                |                       |\n| 1.4.1.1. Correspondencia de CEPSA a IUI (CM-IU) |                       |\n| 1.4.1.1.1. CONTRACTUAL, Y FINANCIERA            | dp + cost + jdpto     |\n| 1.4.1.1.2. INGENIERÍA (De 1000 a 1999)          | cte + dp + rc + jdpto |\n| 1.4.1.1.3. COMPRAS (De 2000 a 2999)             | cte + dp + rc + jdpto |\n| 1.4.1.1.4. CONSTRUCCIÓN ( De 3000 a 3999)       | cte + dp + rc + jdpto |\n| 1.4.1.1.5. CORRESPONDENCIA SIN NUMERO           | cte + dp + rc + jdpto |\n| 1.4.1.1.6. TRANSMISIONES                        | cte + dp + rc + jdpto |\n| 1.4.1.2. Correspondencia de IUI a CEPSA (IU-CM) |                       |\n| 1.4.1.2.1. CONTRACTUAL, Y FINANCIERA            | dp + cost + jdpto     |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "Otras aclaraciones:",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "47bac6fdbe604edab38de8d6a16623df",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO       | PERMISOS DE ACCESO    |\n|-------------------------------------------|-----------------------|\n| 1.4.1.2.2. INGENIERÍA (De 1000 a 1999)    | cte + dp + rc + jdpto |\n| 1.4.1.2.3. COMPRAS (De 2000 a 2999)       | cte + dp + rc + jdpto |\n| 1.4.1.2.4. CONSTRUCCIÓN ( De 3000 a 3999) | cte + dp + rc + jdpto |\n| 1.4.1.2.5. CORRESPONDENCIA SIN NUMERO     | cte + dp + rc + jdpto |\n| 1.4.1.2.6. TRANSMISIONES                  | cte + dp + rc + jdpto |\n| 1.4.2. NTERNA                             | dp + rc + jdpto       |\n| 1.5. PROYECTOS OFICIALES Y ESTUDIOS       | cte + iui             |\n| 1.5.1. ESTUDIO GESTIÓN OPERACIÓN SEGURA   |                       |\n| 1.5.2. ESTUDIO DE IMPACTO AMBIENTAL       |                       |\n| 1.5.3. ESTUDIO DE SEGURIDAD               |                       |\n| 1.5.4. ESTUDIO HAZOP                      |                       |\n| 1.5.5. PROYECTOS OFICIALES                |                       |\n| 1.5.6. SEPARATAS TÉCNICAS                 |                       |\n| 1.5.7. ESTUDIO DE NIVEL DE RUIDOS         |                       |\n| 1.5.8. ESTUDIO GEOTECNICO                 |                       |\n| 1.6 INFORMES DE PROGRESO                  | cte + iui             |\n| 1.7 ACUERDO DE CONFIDENCIALIDAD           | dp + cost+ jdpto      |\n| 1.8 CONSULTAS A BASES DE DATOS            | iui                   |\n| 1.9 LISTA DE DOCUMENTOS                   | cte + dp + rc + jdpto |\n| 1.10 LEGISLACION Y NORMAS ATEX            | iui                   |\n| ARTICULOS INGENIERIA QUÍMICA              |                       |\n| ATEX 100                                  |                       |\n| ATEX 137                                  |                       |\n| NORMAS UNE-EN                             |                       |\n| 02. ANÁLISIS DE CONTRATOS                 | dp + cost + jdpto     |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 13,
+      "pagina_fin": 13,
+      "seccion": "Otras aclaraciones:",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "45bd63e2-dc4f-4c20-8d44-37a6fff3ef42",
+      "texto": "2.1. ANÁLISIS DE CONTRATOS\n\n2.2. CURVAS DE AVANCE\n\n2.3. INFORMES DE COSTES 88\n\n03. DOCUMENTACIÓN GENERAL DE CEPSA\n\n3.2. PROCEDIMIENTOS 8888\n\n3.3. ESPECIFICACIONES 3888\n\n3.4. LISTA DE SUMINISTRADORES\n\n3.5. LISTA DE SUBCONTRATISTAS\n\n3.6. CONTRATOS MARCO\n\n3.8. CLASIFICACION AREAS\n\n3.9. SUBESTACIÓN DE ENERGIAS\n\n04. INGENIERÍA BÁSICA 88\n\nCALCULOS HIDRAULICOS\n\nDATOS DE PROCESO INSTRUMENTOS\n\n05. CIVIL Y ARQUITECTURA\n\n5.1. COMPARACIONES TÉCNICAS DE OFERTAS\n\n5.2. ESPECIFICACIONES Y BASES DE DISEÑO\n\n5.4. PLANOS Y ESTÁNDARES\n\n5.5. REQUISICIONES DE MATERIALES (RM'S)\n\n5.6. DOCUMENTOS ASOCIADOS A RM'S\n\n6.1. COMPARACIONES TÉCNICAS DE OFERTAS\n\n6.2. ESPECIFICACIONES\n\n6.6. PLANOS Y ESTÁNDARES\n\n6.7. REQUISICIONES DE MATERIALES (RM'S)\n\n6.8. DOCUMENTOS ASOCIADOS A RM'S\n\n7.1. COMPARACIONES TÉCNICAS DE OFERTAS\n\n7.2. ESPECIFICACIONES\n\n7.6. PLANOS Y ESQUEMAS\n\n7.7. REQUISICIONES DE MATERIALES (RM'S)\n\n7.8. DOCUMENTOS ASOCIADOS A RM'S\n\n08.1. MECÁNICA - EQUIPOS DINÁMICOS\n\n8.1.1. COMPARACIONES TÉCNICAS DE OFERTAS",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 14,
+      "pagina_fin": 15,
+      "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0ea69e91-b33c-4364-8698-a597ab34896e",
+      "texto": "2.1. ANÁLISIS DE CONTRATOS\n\n2.2. CURVAS DE AVANCE\n\n2.3. INFORMES DE COSTES 88\n\n03. DOCUMENTACIÓN GENERAL DE CEPSA\n\n3.2. PROCEDIMIENTOS 8888\n\n3.3. ESPECIFICACIONES 3888\n\n3.4. LISTA DE SUMINISTRADORES\n\n3.5. LISTA DE SUBCONTRATISTAS\n\n3.6. CONTRATOS MARCO\n\n3.8. CLASIFICACION AREAS\n\n3.9. SUBESTACIÓN DE ENERGIAS\n\n04. INGENIERÍA BÁSICA 88\n\nCALCULOS HIDRAULICOS\n\nDATOS DE PROCESO INSTRUMENTOS\n\n05. CIVIL Y ARQUITECTURA\n\n5.1. COMPARACIONES TÉCNICAS DE OFERTAS\n\n5.2. ESPECIFICACIONES Y BASES DE DISEÑO\n\n5.4. PLANOS Y ESTÁNDARES\n\n5.5.",
+      "nivel": "child",
+      "parent_id": "45bd63e2-dc4f-4c20-8d44-37a6fff3ef42",
+      "pagina_inicio": 14,
+      "pagina_fin": 15,
+      "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "27884731-55f9-4196-bacc-72af3e6951a7",
+      "texto": "PLANOS Y ESTÁNDARES\n\n5.5. REQUISICIONES DE MATERIALES (RM'S)\n\n5.6. DOCUMENTOS ASOCIADOS A RM'S\n\n6.1. COMPARACIONES TÉCNICAS DE OFERTAS\n\n6.2. ESPECIFICACIONES\n\n6.6. PLANOS Y ESTÁNDARES\n\n6.7. REQUISICIONES DE MATERIALES (RM'S)\n\n6.8. DOCUMENTOS ASOCIADOS A RM'S\n\n7.1. COMPARACIONES TÉCNICAS DE OFERTAS\n\n7.2. ESPECIFICACIONES\n\n7.6. PLANOS Y ESQUEMAS\n\n7.7. REQUISICIONES DE MATERIALES (RM'S)\n\n7.8. DOCUMENTOS ASOCIADOS A RM'S\n\n08.1. MECÁNICA - EQUIPOS DINÁMICOS\n\n8.1.1. COMPARACIONES TÉCNICAS DE OFERTAS",
+      "nivel": "child",
+      "parent_id": "45bd63e2-dc4f-4c20-8d44-37a6fff3ef42",
+      "pagina_inicio": 14,
+      "pagina_fin": 15,
+      "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "302814608ddd4160b062eedbfc200d57",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                                                                                                                                                      | PERMISOS DE ACCESO   |\n|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|\n| 8.1.2. ESPECIFICACIONES EQUIPOS DINÁMICOS 8.1.3. HOJAS DE DATOS 8.1.4. PLANOS Y ESQUEMAS 8.1.5. REQUISICIONES DE MATERIALES (RM'S) 8.1.6. DOCUMENTOS ASOCIADOS A RM'S 08.2. MECÁNICA - EQUIPOS ESTÁTICOS | cte + iui            |\n| 08.3. MECÁNICA - SISTEMAS CONTRA INCENDIOS 8.4.1. ESPECIFICACIONES                                                                                                                                       | cte + iui            |\n| 8.4.3. PLANOS                                                                                                                                                                                            |                      |\n| (RM'S)                                                                                                                                                                                                   |                      |\n| 08.4. MECÁNICA - U.P. CALDERA                                                                                                                                                                            |                      |\n| 08.7. MECÁNICA - U.P. TORRE                                                                                                                                                                              |                      |\n| 09. TUBERÍAS                                                                                                                                                                                             |                      |\n| 9.1. TUBERÍAS-GENERAL                                                                                                                                                                                    | cte + iui            |\n| 9.1. ESTÁNDARES                                                                                                                                                                                          |                      |\n|                                                                                                                                                                                                          | cte + iui cte + iui  |\n| 8.4.4. REQUISICIONES DE MATERIALES                                                                                                                                                                       | cte + iui            |\n| 8.4.5. DOCUMENTOS ASOCIADOS A RM'S                                                                                                                                                                       |                      |\n| REFRIGERACION                                                                                                                                                                                            |                      |\n| 08.6. MECÁNICA - U.P. ANTORCHA                                                                                                                                                                           | cte + iui            |\n| 08.5. MECÁNICA - U.P. TRATAMIENTO DE AGUA                                                                                                                                                                | cte + iui            |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 16,
+      "pagina_fin": 16,
+      "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "f4ed3e3b-fbd0-4a05-b0d4-3bd4e2675f03",
+      "texto": "9.4. PLANOS AUXILIARES\n\n9.5. PLANOS DE IMPLANTACIÓN\n\n9.6. PLANOS DE PLANTA\n\n9.2. TUBERÍAS-ESFUERZOS Y SOPORTES\n\n9.2.1. COMPARACIONES TÉCNICAS DE OFERTAS\n\n9.2.2. ESPECIFICACIONES\n\n9.2.3. HOJAS DE DATOS\n\n9.2.5. REQUISICIONES DE MATERIALES (RM'S)\n\n9.2.6. DOCUMENTOS ASOCIADOS A RM'S\n\n9.3. TUBERÍAS-ESFUERZOS Y SOPORTES\n\n9.2.1. COMPARACIONES TÉCNICAS DE OFERTAS\n\n9.2.2. ESPECIFICACIONES\n\n9.2.3. HOJAS DE DATOS\n\n9.2.5. REQUISICIONES DE MATERIALES (RM'S)\n\n9.2.6. DOCUMENTOS ASOCIADOS A RM'S\n\n10.1. BASES DE DISEÑO\n\n10.2. DATOS DE PROCESO PARA EQUIPOS (HOJAS DE DATOS)\n\n10.2.1. BOMBAS: Datos de Proceso para Equipos",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d5d04951-fdbd-4516-9139-8cce16963676",
+      "texto": "9.4. PLANOS AUXILIARES\n\n9.5. PLANOS DE IMPLANTACIÓN\n\n9.6. PLANOS DE PLANTA\n\n9.2. TUBERÍAS-ESFUERZOS Y SOPORTES\n\n9.2.1. COMPARACIONES TÉCNICAS DE OFERTAS\n\n9.2.2. ESPECIFICACIONES\n\n9.2.3. HOJAS DE DATOS\n\n9.2.5. REQUISICIONES DE MATERIALES (RM'S)\n\n9.2.6. DOCUMENTOS ASOCIADOS A RM'S\n\n9.3. TUBERÍAS-ESFUERZOS Y SOPORTES\n\n9.2.1. COMPARACIONES TÉCNICAS DE OFERTAS\n\n9.2.2. ESPECIFICACIONES\n\n9.2.3. HOJAS DE DATOS\n\n9.2.5. REQUISICIONES DE MATERIALES (RM'S)\n\n9.2.6. DOCUMENTOS ASOCIADOS A RM'S\n\n10.1.",
+      "nivel": "child",
+      "parent_id": "f4ed3e3b-fbd0-4a05-b0d4-3bd4e2675f03",
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "db1de122-e1e7-4d01-955d-296d1caf75ea",
+      "texto": "DOCUMENTOS ASOCIADOS A RM'S\n\n10.1. BASES DE DISEÑO\n\n10.2. DATOS DE PROCESO PARA EQUIPOS (HOJAS DE DATOS)\n\n10.2.1. BOMBAS: Datos de Proceso para Equipos",
+      "nivel": "child",
+      "parent_id": "f4ed3e3b-fbd0-4a05-b0d4-3bd4e2675f03",
+      "pagina_inicio": 17,
+      "pagina_fin": 17,
+      "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "22d20693df574ea5a42ec3d64d15adaf",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                          | PERMISOS DE ACCESO   |\n|--------------------------------------------------------------|----------------------|\n| 10.2.2. CAMBIADORES DE CALOR: Datos de Proceso para Equipos  |                      |\n| 10.2.3. RECIPIENTES y TANQUES: Datos de Proceso para Equipos |                      |\n| 10.3. LISTAS                                                 |                      |\n| 10.4. DIAGRAMAS DE FLUJO                                     |                      |\n| 10.5. P&ID'S                                                 |                      |\n| 10.6. PLANOS EXISTENTES                                      |                      |\n| 11. COMPRAS                                                  |                      |\n| 11.1.1. ELECTRICIDAD 11.1.2. INSTRUMENTACIÓN                 | cte + iui cte + iui  |\n| 11.1.3. EQUIPOS DINÁMICOS 11.1.4. EQUIPOS ESTÁTICOS          | cte + iui cte + iui  |\n|                                                              | cte + iui            |\n| 11.1.5. MATERIALES                                           |                      |\n| 11.2. TABULACIONES ECONÓMICAS                                | cte + dp + rc + jdpt |\n| 11.3. PEDIDOS                                                | cte + dp + rc + jdpt |\n| 11.4. INFORMES DE INSPECCIÓN                                 | cte + iui            |\n| 11.5. INFORMES DE RECEPCIÓN DE MATERIALES                    | cte + iui            |\n| (IRM'S)                                                      |                      |\n| 11.6. CORRESPONDENCIA CON EL PROVEEDOR                       | dp + rc + jdpt       |\n| 11.7. DOCUMENTACIÓN PROVEEDOR                                | cte + dp + rc + jdpt |\n| 11.8. SITUACIÓN DE SUMINISTRO                                | cte + dp + rc + jdpt |\n| 12. CONSTRUCCIÓN                                             |                      |\n| 12.0. GENERAL                                                | cte + iui            |\n| 12.1. ESPECIFICACIONES                                       | cte + iui            |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 18,
+      "pagina_fin": 18,
+      "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": true
+    },
+    {
+      "chunk_id": "9617307ca9054d80b68e16626708e476",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO        | PERMISOS DE ACCESO   |\n|--------------------------------------------|----------------------|\n| 12.2. REQUISICIONES DE CONSTRUCCIÓN        | cte + iui            |\n| 12.3. TABULACIONES TÉCNICO-ECONÓMICAS      | cte + dp + rc + jdpt |\n| 12.4. FAXES DE INTENCIÓN Y PEDIDOS         | cte + dp + rc + jdpt |\n| 12.5. DOCUMENTOS TÉCNICOS ASOCIADOS A RC'S | cte + iui            |\n| 12.6. ESTUDIO DE SEGURIDAD Y SALUD         | cte + iui            |\n| 13. FOTOGRAFÍAS                            | cte + iui            |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 19,
+      "pagina_fin": 19,
+      "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    }
+  ]
+}

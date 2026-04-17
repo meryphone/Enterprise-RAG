@@ -1,0 +1,169 @@
+{
+  "doc_id": "1cf85b3352d64da1a217fde319c1782f",
+  "nombre_fichero": "14093-IT-01.pdf",
+  "metadatos_admin": {
+    "empresa": "petresa",
+    "proyecto_id": "14093",
+    "tipo_doc": "instruccion_trabajo",
+    "idioma": "es",
+    "anexo_de": null
+  },
+  "metadatos_documento": {
+    "titulo": "INSTRUCCIONES DE USO DEL PORTAL DE IUI EN EL PROYECTO DE PETRESA",
+    "edicion": "1",
+    "fecha_emision": null
+  },
+  "fecha_ingesta": "2026-04-16T18:47:02+00:00",
+  "chunks": [
+    {
+      "chunk_id": "8bee49fb-ae5a-4274-b8ff-f9712c5af461",
+      "texto": "Este documento tiene por objeto describir el procedimiento de aportación y acceso de documentos de proyecto al portal de IUI para el proyecto de PETRESA.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "18f555e7-8fe3-416b-abf1-8b8dd74f6421",
+      "texto": "Intecsa-Uhde dispone de un Portal de Conocimiento en la que se aporten contenidos para su uso en toda la organización permitiéndonos definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad.\n\nSe ha creado una Intranet del proyecto donde se compartirán todos los documentos e información del proyecto. En esta Intranet existe, para cada actividad, un área gestionada por un responsable de cada actividad.\n\nSe designará por cada una de las actividades, un responsable de la web del proyecto RWP que será el encargado de la supervisión y gestión del contenido en documentos de proyecto de la Intranet de PETRESA.\n\nLas restricciones de acceso a la documentación serán también establecidas por el RWP y la dirección de proyecto",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. INTRODUCCIÓN",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "79bd90eb-49af-4bf8-940d-07c8c26c860b",
+      "texto": "Para poder incluir documentos al portal, el usuario debe tener los permisos adecuados dados por Gestión del Conocimiento. De este modo se garantiza que los contenidos se hagan con control y garantía de calidad.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "Quien puede aportar documentos a la Intranet de PETRESA.",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1b689092-781d-48b2-a928-80a49f221eda",
+      "texto": "La   idea   básica   de   un   portal   está   centrada   en   compartir   conocimiento   con   toda   la organización y por tanto, el acceso debe ser lo más amplio posible. No obstante, queda garantizada la confidencialidad de los documentos con total flexibilidad según requisitos que especifique el proyecto.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "Quien puede acceder a los contenidos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d553b210-fae9-4f52-8c34-fa5b683df0b9",
+      "texto": "Toda la documentación de proyecto deberá formar parte del Portal sin excepciones. En el anexo se encuentra una descripción de estos documentos para cada actividad.\n\nEstá incluirá, pero no se limitará, a: Especificaciones, Estándares, Instrucciones de Trabajo, Procedimientos, Hojas de datos, Plantillas y formatos, etc.\n\nVer anexo 2. Instrucciones para importar documentos homologados.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "3. DOCUMENTACIÓN QUE DEBEN INCLUIR LA INTRANET DE PETRESA.",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "6f15442e-820d-44f1-b314-9b4b2d4e4402",
+      "texto": "Un documento de proyecto que se edite (en papel) deberá ser firmado de acuerdo al plan de calidad del proyecto. La copia original deberá guardarse según esté especificado. Una vez haya sido firmado deberá incluirse en el portal para su uso por parte del proyecto.\n\nA partir de este momento el documento válido para el proyecto es, exclusivamente, el que se encuentra en el portal.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "Procedimiento general",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1cf4d42d-9bd6-4532-9624-1e9e7896d143",
+      "texto": "Para los P&I, los planos de implantación y los planos de equipos estáticos, el encargado de realizar estos planos obtendrá una copia en papel para su firma de acuerdo al plan de calidad del proyecto. A la vez que obtiene esta copia en papel, realizará el pdf en blanco y\n\nnegro. Este archivo pdf junto con el de Autocad (o Microstation) los pondrá en el servidor (en el sitio habitual) de manera que cuando el responsable (procesos, el especialista,…) firme la copia en papel, incluya en el portal el archivo en pdf.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "Procedimiento particular",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fc86b4c5e76f4ef2961c0e58dab424d9",
+      "texto": "| ACTIVIDAD                  | INTEGRANTES (*) RWP                                                                                                             |\n|----------------------------|---------------------------------------------------------------------------------------------------------------------------------|\n| General Proyecto           | Medina Trigo, Angel Pirajno Medina, Vittorio (*) Raul Llamazares Marín Ramos, Maribel Pérez Remedios Hermenegildo Pérez Serrano |\n| Proceso                    | Mª Teresa Blanco Molina (*) Angel Guindo (*) Saenz, Antonio De la Iglesia, Mª Dolores                                           |\n| Mecánica Tuberías          | (*) Muñoz Lanza, Paulino Carlos Javier Caballero                                                                                |\n| Mecánica Equipos estáticos | (*) Agreda, Marta Mariano Tirado Zuazo Tomás                                                                                    |\n| Mecánica Equipos rotativos | (*) Agustín García                                                                                                              |\n| Materiales                 | (*) Benito Franco Rodríguez Angel Miguel Ortega                                                                                 |\n| Instrumentación            | (*) López Pérez, Blanca Manuel Tena Francisco Castro                                                                            |\n| Electricidad               | (*) Jose Pereira Mateos García, José Miguel                                                                                     |\n| Civil y Arquitectura       | (*) Pedro Campoy Francisco Congosto                                                                                             |\n| Compras                    | (*) Emilio de la Rua Mora López Villarejo_Luis Pedro Cabañero Mañas Enrique Pérez Manuel Paniagua                               |\n| Sistema Contra Incendios   | (*) Francisco Sanchez Bernal                                                                                                    |\n| Hornos                     | (*) Arturo Saiz Juan Luis Pérez de Burgos                                                                                       |\n| Construcción               | (*) Gonzalo Chapatte                                                                                                            |\n| Planificación y Costes     | (*) Luis Rodríguez Esteban                                                                                                      |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "RESPONSABLES DE INTRANET DE PETRESA  (RWP)",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b976775b-480c-471e-8c16-5763c458d8eb",
+      "texto": "Debe existir una copia impresa y firmada del documento que quedará custodiada por quien designe el plan de calidad del proyecto.\n\nEl formato electrónico debe ser fiel reflejo del documento en papel.\n\nEste debe tener las siglas de los firmantes del documento en la casilla de la edición actual. (Ver ejemplo)\n\nTipo de documento: IUI_Documento_de_Proyecto\n\nAtributos o propiedades del documento a rellenar durante la importación. (entre paréntesis el ejemplo del presente documento). Es importante poner todo con acentos.",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "INSTRUCCIONES PARA IMPORTACIÓN DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ec26bbcd1cae4e61b7b091f688eb5ec5",
+      "texto": "| Propiedad                                                                    | Descripción                                                                                                              | Ejemplo                                                   |\n|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|\n| DOCUMENTO Máx 255 caracteres                                                 | Número del documento.                                                                                                    | E-G-01                                                    |\n| TITULO Máx 255 caracteres                                                    | Título que aparece en el documento físico.                                                                               | ESPECIFICACIÓN DE BOMBAS CENTRÍFUGAS                      |\n| EDICION Máx 3 caracteres                                                     | Número de la edición del documento.                                                                                      | 1                                                         |\n| FECHA Máx 32 caracteres                                                      | Fecha de la edición del documento físico. (Formato aconsejado: dd/mm/aaaa)                                               | 16/01/2001                                                |\n| AUTORES Máx 32 caracteres por autor, separados por comas                     | Nombre y apellidos del autor (en este orden), que puede ser distinto del usuario que introduce el documento en el portal | Agustín García                                            |\n| OT Lista deplegable                                                          | Designación del Proyecto                                                                                                 | PETRESA                                                   |\n| DEPARTAMENTO Lista deplegable                                                | Departamento al que pertenece el documento.                                                                              | Mecánica                                                  |\n| CLASE Lista deplegable                                                       | Clase de documento.                                                                                                      | Especificación                                            |\n| ACTIVIDAD Lista deplegable                                                   | Actividad con la que está relacionada el documento                                                                       | 30 - EQUIPOS DINAMICOS                                    |\n| IDIOMA Lista deplegable                                                      | idioma en el que está escrito el documento. (Por defecto español)                                                        | Español                                                   |\n| DESCRIPCION Máx 255 caracteres                                               | . Es una descripción del contenido del documento                                                                         | Especificación general del proyecto basada en la de CEPSA |\n| PALABRAS CLAVE Máx 32 caracteres por palabra o concepto, separados por comas | Palabras que servirán para buscar y categorizar en el futuro el documento (palabras o conceptos separados por comas ','  | Cierres mecánicos                                         |",
+      "nivel": "child",
+      "parent_id": null,
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "INSTRUCCIONES PARA IMPORTACIÓN DE DOCUMENTOS",
+      "tipos_elemento": [
+        "Table"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    }
+  ]
+}
