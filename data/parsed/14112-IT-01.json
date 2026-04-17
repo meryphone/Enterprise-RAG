@@ -1,5 +1,5 @@
 {
-  "doc_id": "a94c2360c2234e868e0e31905f26b0f3",
+  "doc_id": "372b2f5bbc3348babc114f67ee9eb7f9",
   "nombre_fichero": "14112-IT-01.pdf",
   "metadatos_admin": {
     "empresa": "cepsa_fcc",
@@ -13,10 +13,10 @@
     "edicion": "2",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-16T18:52:22+00:00",
+  "fecha_ingesta": "2026-04-17T18:39:27+00:00",
   "chunks": [
     {
-      "chunk_id": "df261cdc-9efe-4db3-95cc-a7cc1cab8e91",
+      "chunk_id": "0332df23-ca85-4f68-a741-63019b174107",
       "texto": "El objeto del presente documento es la descripción del procedimiento de uso del Portal de IUI en el proyecto 14112 - CEPSA FCC.\n\nEn particular se incidirá en los siguientes aspectos:\n\n-Organización del archivo electrónico del proyecto en el portal.\n\n-Acceso a la información por parte de los distintos participantes en el proyecto: personal de IUI, colaboradores, proveedores y personal del cliente.\n\n-Introducción y control de los documentos.",
       "nivel": "parent",
       "parent_id": null,
@@ -32,7 +32,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "97d7af9a-5a50-493c-87f2-39980d165605",
+      "chunk_id": "b034e5c6-c707-4ad0-a096-ffd53950cfca",
       "texto": "IUI dispone de un Portal que constituye el punto de acceso a la información de la compañía. El portal de IUI está regido por Documentum 4i, un Sistema de Gestión Electrónica de Documentos que presenta las siguientes características y funcionalidades:\n\nSistema orientado a Intranet / Internet: permite crear, modificar y buscar documentos a través de un navegador estándar (Internet Explorer p.e.). El que se trate de un entorno web, permite facilitar el acceso a la información a través de Internet.\n\nCatalogación de la información: para cada documento se cumplimentan una serie de atributos o propiedades (número de documento, título, autor, etc.) que facilitan la rápida localización de los documentos deseados mediante utilidades de búsqueda.\n\nFácil acceso a la información: la aplicación está dotada de herramientas de búsqueda basadas en los atributos asociados a los documentos. Por otro lado, dentro de la estructura de directorios (carpetas) en la que está organizada la información, el sistema permite   realizar   enlaces   haciendo   que   un   mismo   documento   sea   accesible   desde distintas localizaciones (desde distintas carpetas) sin necesidad de duplicar archivos.\n\nIntegridad y seguridad de la información: el   sistema incorpora procedimientos de seguridad basados en listas de control de acceso (ACL: access control list), las cuales son aplicables individualmente a carpetas y documentos definiendo qué privilegios tiene cada usuario sobre ellos (ver, editar, borrar, etc.). De esta forma, se garantiza que cada usuario accede únicamente a la información a la que tiene derecho. Asimismo, se evita el riesgo de borrados involuntarios.\n\nMantenimiento y control de versiones: a   la   hora   de   modificar   un   documento   del sistema   existe   la   opción   de   sobrescribirlo   (perdiendo   el   documento   original)   o   de conservarlo, añadiendo el nuevo documento como versión del documento inicial. Ello posibilita el mantenimiento de un histórico de ediciones de los documentos, de modo que el sistema nos muestra la última versión pero nos permite acceder a las anteriores.\n\nMensajería electrónica : la aplicación permite el envío de mensajes entre usuarios con documentos del sistema asociados a dichos mensajes.\n\nGestión de ciclos de vida y de flujos de trabajo (workflows): el sistema permite atribuir ciclos de vida a los documentos entendidos éstos como una sucesión de estados por los que atraviesa el documento desde su creación hasta su publicación y distribución una vez aprobados. Asimismo, es posible la automatización de flujos documentales en los que se especifica por qué usuarios y en qué orden ha de pasar cada documento para su revisión, aprobación o simplemente para información. Las sucesivas revisiones y aprobaciones quedan registradas en el sistema.\n\nSoporte multiformato: el sistema permite incluir los documentos en el formato con que son creados. Adicionalmente, es posible guardar los documentos en varios formatos siendo de especial interés la publicación de documentos tanto en su formato original como en formato PDF, formato estándar que garantiza que cualquier usuario puede visualizar el documento sin necesidad de tener instalada la aplicación con la que ha sido generado.",
       "nivel": "parent",
       "parent_id": null,
@@ -48,10 +48,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "74eedd17-c627-4997-a32d-c801784504f3",
+      "chunk_id": "12c64893-5ecc-41eb-9483-c2a3a0a90c40",
       "texto": "IUI dispone de un Portal que constituye el punto de acceso a la información de la compañía. El portal de IUI está regido por Documentum 4i, un Sistema de Gestión Electrónica de Documentos que presenta las siguientes características y funcionalidades:\n\nSistema orientado a Intranet / Internet: permite crear, modificar y buscar documentos a través de un navegador estándar (Internet Explorer p.e.). El que se trate de un entorno web, permite facilitar el acceso a la información a través de Internet.\n\nCatalogación de la información: para cada documento se cumplimentan una serie de atributos o propiedades (número de documento, título, autor, etc.) que facilitan la rápida localización de los documentos deseados mediante utilidades de búsqueda.\n\nFácil acceso a la información: la aplicación está dotada de herramientas de búsqueda basadas en los atributos asociados a los documentos.",
       "nivel": "child",
-      "parent_id": "97d7af9a-5a50-493c-87f2-39980d165605",
+      "parent_id": "b034e5c6-c707-4ad0-a096-ffd53950cfca",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. INTRODUCCIÓN",
@@ -64,10 +64,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4ef168bf-4bb5-4eaa-9e8c-f8ca3aa51f26",
+      "chunk_id": "4e4731c9-4396-46d6-bb36-de9a7dd6284c",
       "texto": "Por otro lado, dentro de la estructura de directorios (carpetas) en la que está organizada la información, el sistema permite   realizar   enlaces   haciendo   que   un   mismo   documento   sea   accesible   desde distintas localizaciones (desde distintas carpetas) sin necesidad de duplicar archivos.\n\nIntegridad y seguridad de la información: el   sistema incorpora procedimientos de seguridad basados en listas de control de acceso (ACL: access control list), las cuales son aplicables individualmente a carpetas y documentos definiendo qué privilegios tiene cada usuario sobre ellos (ver, editar, borrar, etc.). De esta forma, se garantiza que cada usuario accede únicamente a la información a la que tiene derecho. Asimismo, se evita el riesgo de borrados involuntarios.\n\nMantenimiento y control de versiones: a   la   hora   de   modificar   un   documento   del sistema   existe   la   opción   de   sobrescribirlo   (perdiendo   el   documento   original)   o   de conservarlo, añadiendo el nuevo documento como versión del documento inicial.",
       "nivel": "child",
-      "parent_id": "97d7af9a-5a50-493c-87f2-39980d165605",
+      "parent_id": "b034e5c6-c707-4ad0-a096-ffd53950cfca",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. INTRODUCCIÓN",
@@ -80,10 +80,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9c7dd521-c862-4a57-a4c3-f3df4c4ff44c",
+      "chunk_id": "39875b9d-2ef1-4cb3-8946-4fb4ed6e2581",
       "texto": "Ello posibilita el mantenimiento de un histórico de ediciones de los documentos, de modo que el sistema nos muestra la última versión pero nos permite acceder a las anteriores.\n\nMensajería electrónica : la aplicación permite el envío de mensajes entre usuarios con documentos del sistema asociados a dichos mensajes.\n\nGestión de ciclos de vida y de flujos de trabajo (workflows): el sistema permite atribuir ciclos de vida a los documentos entendidos éstos como una sucesión de estados por los que atraviesa el documento desde su creación hasta su publicación y distribución una vez aprobados. Asimismo, es posible la automatización de flujos documentales en los que se especifica por qué usuarios y en qué orden ha de pasar cada documento para su revisión, aprobación o simplemente para información. Las sucesivas revisiones y aprobaciones quedan registradas en el sistema.\n\nSoporte multiformato: el sistema permite incluir los documentos en el formato con que son creados.",
       "nivel": "child",
-      "parent_id": "97d7af9a-5a50-493c-87f2-39980d165605",
+      "parent_id": "b034e5c6-c707-4ad0-a096-ffd53950cfca",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. INTRODUCCIÓN",
@@ -96,10 +96,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8ecbb9d9-e89f-4ca1-8308-f2c71e0915bc",
+      "chunk_id": "c0974b30-34fb-4d43-8451-5d8676ff7420",
       "texto": "Adicionalmente, es posible guardar los documentos en varios formatos siendo de especial interés la publicación de documentos tanto en su formato original como en formato PDF, formato estándar que garantiza que cualquier usuario puede visualizar el documento sin necesidad de tener instalada la aplicación con la que ha sido generado.",
       "nivel": "child",
-      "parent_id": "97d7af9a-5a50-493c-87f2-39980d165605",
+      "parent_id": "b034e5c6-c707-4ad0-a096-ffd53950cfca",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. INTRODUCCIÓN",
@@ -112,7 +112,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8b1250aa-884b-4c4c-9c0c-27b3a99b2968",
+      "chunk_id": "8e62d647-4c05-45e5-b5b7-dcc1632aa25d",
       "texto": "Todos los documentos del proyecto son incluidos en el Portal de Intranet de IUI, en el cual existe un área específica para la documentación asociada al proyecto.\n\nComo documentos del proyecto serán incluidos en el portal:\n\n-Documentos proporcionados  por   el   cliente: ingeniería   básica,   especificaciones   y estándares, planos de las instalaciones existentes, etc.\n\n-Documentos generados por IUI:\n\no Documentos de ingeniería: planos, especificaciones, hojas de datos, etc\n\no  Documentos de compras y de subcontratos de construcción: peticiones de oferta, tabulaciones económicas, pedidos, etc.\n\no  Documentos de planificación y control del proyecto: planificaciones, curvas de avance, informes de costes, etc.\n\no Documentos generales: informes   de   progreso,   actas   de   reunión,   plan   de calidad, etc.\n\n-Documentos provenientes de los proveedores.\n\no Correspondencia: se incluirán las notas internas y la correspondencia relevante con el cliente y con los proveedores.\n\nLos documentos son introducidos en el Portal de Intranet por personal de  IUI, quedando disponibles para su uso en toda la organización siendo posible definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad. Periódicamente, en principio una vez al día, es realizada una copia de contenidos de la Intranet a Internet, para hacerlos accesibles a través de la página web de IUI en Internet . De esta manera, clientes, proveedores e incluso personal de IUI desplazado de las oficinas   pueden   acceder   a   aquellos   documentos   del   proyecto   que   se   determinen   en cualquier momento y desde cualquier lugar, siempre y cuando dispongan de conexión a Internet.",
       "nivel": "parent",
       "parent_id": null,
@@ -128,10 +128,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3c7d7bc2-4032-4e39-a19e-5b5e3670020e",
+      "chunk_id": "be4dc562-e99f-4549-8bca-6a599e9ecb48",
       "texto": "Todos los documentos del proyecto son incluidos en el Portal de Intranet de IUI, en el cual existe un área específica para la documentación asociada al proyecto.\n\nComo documentos del proyecto serán incluidos en el portal:\n\n-Documentos proporcionados  por   el   cliente: ingeniería   básica,   especificaciones   y estándares, planos de las instalaciones existentes, etc.\n\n-Documentos generados por IUI:\n\no Documentos de ingeniería: planos, especificaciones, hojas de datos, etc\n\no  Documentos de compras y de subcontratos de construcción: peticiones de oferta, tabulaciones económicas, pedidos, etc.\n\no  Documentos de planificación y control del proyecto: planificaciones, curvas de avance, informes de costes, etc.\n\no Documentos generales: informes   de   progreso,   actas   de   reunión,   plan   de calidad, etc.\n\n-Documentos provenientes de los proveedores.\n\no Correspondencia: se incluirán las notas internas y la correspondencia relevante con el cliente y con los proveedores.",
       "nivel": "child",
-      "parent_id": "8b1250aa-884b-4c4c-9c0c-27b3a99b2968",
+      "parent_id": "8e62d647-4c05-45e5-b5b7-dcc1632aa25d",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "3. DOCUMENTOS QUE DEBE RECOGER EL PROYECTO",
@@ -144,10 +144,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8efbe1d6-e929-4a77-9d48-a8a6c989f6d7",
+      "chunk_id": "a9fe987d-d976-4ea3-b4e1-cc183b62d443",
       "texto": "Los documentos son introducidos en el Portal de Intranet por personal de  IUI, quedando disponibles para su uso en toda la organización siendo posible definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad. Periódicamente, en principio una vez al día, es realizada una copia de contenidos de la Intranet a Internet, para hacerlos accesibles a través de la página web de IUI en Internet . De esta manera, clientes, proveedores e incluso personal de IUI desplazado de las oficinas   pueden   acceder   a   aquellos   documentos   del   proyecto   que   se   determinen   en cualquier momento y desde cualquier lugar, siempre y cuando dispongan de conexión a Internet.",
       "nivel": "child",
-      "parent_id": "8b1250aa-884b-4c4c-9c0c-27b3a99b2968",
+      "parent_id": "8e62d647-4c05-45e5-b5b7-dcc1632aa25d",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "3. DOCUMENTOS QUE DEBE RECOGER EL PROYECTO",
@@ -160,7 +160,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1ea6ed60-a00b-4ea3-974c-923a3337bca0",
+      "chunk_id": "35f64351-1054-4bfe-b4e3-1b956ec7dfaf",
       "texto": "El cliente podrá acceder a la documentación del proyecto a través de la página Web de IUI en Internet, desde la zona de proyecto en colaboración. Para proporcionar el acceso a la documentación y para garantizar su confidencialidad se habilitarán dos nombres de usuario y sus respectivas contraseñas cada uno de los cuales corresponderá con un nivel de acceso. Se trata de un área únicamente de consulta y descarga, no existiendo posibilidad de modificación de los documentos allí publicados. El cliente únicamente tendrá acceso a los documentos una vez éstos hayan sido aprobados por IUI\n\nde manera que para un determinado documento que no esté aprobado no tendrán posibilidad de abrirlo pero sí acceder a la última edición aprobada.",
       "nivel": "parent",
       "parent_id": null,
@@ -175,7 +175,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ac276c91-19ae-43a7-b4bb-03bf98cd3587",
+      "chunk_id": "c25a357f-a72f-4af8-8d51-245c8443e7a7",
       "texto": "Los proveedores podrán acceder a través del Centro de Negocios de IUI en Internet a aquellos documentos asociados a las requisiciones de material del proyecto en las que están involucrados ,   tanto en la fase de petición de oferta como una vez adjudicado el pedido. La información publicada en el Centro de Negocios queda restringida a los proveedores   seleccionados   para   la   petición   de   oferta   y   al   adjudicatario   si   nos encontramos en la fase de pedido . Ello queda garantizado por un sistema de contraseñas que gestiona el departamento de Compras de IUI.",
       "nivel": "parent",
       "parent_id": null,
@@ -190,7 +190,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fde195f7-6927-4517-b15d-0e4c2bcd261a",
+      "chunk_id": "8a7b81d7-2459-4556-9470-5eabafea8da7",
       "texto": "La introducción de la documentación en el portal de IUI será llevada a cabo por quien genere el documento y será aprobada y distribuida electrónicamente. Los documentos proporcionados por el cliente serán introducidos por el administrador del proyecto , quien será el responsable de la gestión del archivo electrónico del proyecto en el portal. En cuanto a documentos proporcionados por los proveedores, el encargado de su introducción en el sistema tanto a la llegada a IUI como a su salida será el Encargado de Documentos de Fabricante (concretamente en PDF).",
       "nivel": "parent",
       "parent_id": null,
@@ -205,7 +205,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9e4d5566-592d-4c5e-9a04-227067c5844f",
+      "chunk_id": "5326619e-0a07-42b1-ab63-1def1b1af1c6",
       "texto": "Como responsable del archivo  electrónico   del   proyecto   se   determinará   una   figura   de administrador del proyecto, que tendrá entre otras misiones:\n\n-Distribución electrónica de los documentos.\n\n-Introducción de aquellos documentos proporcionados por el cliente.\n\n-Agrupamiento de los documentos asociados a las requisiciones de material para propiciar el acceso a ellos por parte de los proveedores.\n\n-Seguimiento de la introducción de los documentos: detectar y activar la corrección de fallos como puedan ser errores a la hora de cumplimentar las propiedades y sobre todo a la hora de fijar los permisos.\n\n-Registro de la devolución de los documentos por el cliente.\n\n-Realización de tareas que requieren una manipulación masiva de documentos, como la introducción y extracción masiva de documentos.",
       "nivel": "parent",
       "parent_id": null,
@@ -221,7 +221,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e6f7395f-8f33-4c99-92d4-92cf10644af3",
+      "chunk_id": "9fc6b8ab-f2bc-4646-973e-6182c6354971",
       "texto": "El Administrador de Proyectos será el encargado de:\n\n-Activar la llegada de los documentos en la fecha requerida.\n\n-Introducción de los documentos en el Portal a su llegada a IUI.\n\n-Distribución de los documentos a los especialistas implicados.\n\n-Introducción en el sistema de los documentos una vez comentados para que puedan ser consultados por el proyecto, el cliente y el proveedor implicado.",
       "nivel": "parent",
       "parent_id": null,
@@ -237,7 +237,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "469efeeb-ed80-4ef2-9a75-4787699d49cd",
+      "chunk_id": "f901c473-6819-443b-8dde-2c64aaf876fa",
       "texto": "En el Portal de IUI, la información se estructura buscando lograr un doble objetivo: el fácil acceso a la misma y la simplicidad a la hora de gestionar los permisos de acceso y modificación.\n\nEn este sentido, la información se estructura atendiendo a la naturaleza de la misma (documentos proporcionados por el cliente, correspondencia, etc.) y en segundo término por especialidades o actividades\n\nEn el caso concreto de aquellas especialidades que emiten requisiciones de material, la documentación estará organizada matricialmente, es decir, atendiendo al tipo de documento (hoja de datos, especificación, etc.) y atendiendo a la requisición de material a la que está asociada.\n\nEn el ANEXO 1 se recoge la estructura de carpetas así como los permisos de acceso asociados.",
       "nivel": "parent",
       "parent_id": null,
@@ -252,7 +252,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "59d53806-406c-4358-bce7-edc94e5a4ffd",
+      "chunk_id": "02dc8772-682e-403c-b16c-14b957a831a8",
       "texto": "En Documentum ,   los   usuarios   están   organizados   según   grupos   de   manera   que   los permisos (ACL'S) consisten en asignar a cada grupo de usuarios los privilegios que se les desee conceder. En cuanto a la actualización de los usuarios participantes en el proyecto será la dirección del mismo quien comunique a Gestión del Conocimiento si se producen altas o bajas dentro del proyecto, indicando en el caso de las altas la amplitud del acceso que debe tener el usuario, es decir, en qué grupo debe ser incluido. Asimismo la dirección de proyecto se pondrá en contacto con Gestión del Conocimiento ante necesidades de nuevos permisos o de modificación de los existentes.",
       "nivel": "parent",
       "parent_id": null,
@@ -267,7 +267,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a3fbf8b0-133c-4799-bc3b-2ae3c90a95ac",
+      "chunk_id": "10fa7f20-3153-4205-a1e2-6ec641af0987",
       "texto": "-   Proy_cepsa_lectura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR únicamente al propietario del documento y al administrador del proyecto. -Proy_cepsa_dirección: aplicable a los documentos solamente accesibles a la dirección del proyecto. Desde la intranet permite LEER a la dirección del proyecto y MODIFICAR al propietario del documento. -Proy_cepsa_escritura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR a cualquier integrante del proyecto. -Proy_cepsa_plan_privado: aplicable a documentos relativos a resúmenes de costes, órdenes de cambio y curvas económicas. Desde la intranet permite LEER a la dirección de proyectos y al grupo de contratos y permite MODIFICAR al grupo de planificación.\n\n-Proy_cepsa_plan_restringido: aplicable   a   documentos   relativos   a   la   situación   del proyecto (SIPO). Desde la intranet permite LEER a la dirección del proyecto así como a los jefes de departamento y permite MODIFICAR al grupo de planificación. -Proy_cepsa_plan_scsi: aplicable a documentos relativos a los sistemas de control de servicios de ingeniería. Desde la intranet permite LEER a la dirección proyecto, responsables de cuenta y jefes de departamento y permite MODIFICAR al propietario del documento. -Proy_cepsa_privado: aplicable a documentos únicamente accesibles por la dirección del proyecto y por el responsable de costes del proyecto. Desde la intranet permite LEER al responsable de costes del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -       Proy_cepsa_restringido: aplicable   a   documentos   únicamente   accesibles   a   los responsables de cuenta, a la dirección del proyecto y a los jefes de departamento. Desde la intranet permite LEER a los responsables de cuenta del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. - Proy_cepsa_operaciones: aplicable a documentos generales que introducirá, o bien el grupo de operaciones o bien el Administrador de documentos. Desde la intranet permite LEER a todos los usuarios de IUI y MODIFICAR al grupo de operaciones y al Administrador de Documentos. Se   han   habilitado   unos   permisos   por   especialidad   que   permitan   INTRODUCIR   y MODIFICAR los documentos a todos los componentes de dicha especialidad y permitan LEER al resto de los componentes de IUI -Proy_cepsa_civil: aplicable a documentos generados por los componentes de civil y accesibles a toda IUI. Desde la Intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de civil. -Proy_cepsa_compras: aplicable   a   documentos   no   restringidos   generados   por   los componentes de compras y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras.\n\n-Proy_cepsa_compras_rest: aplicable a documentos generados por los componentes de compras de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_cepsa_construc: aplicable   a   documentos   no   restringidos   generados   por   los componentes de construcción y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_cepsa_construc_rest: aplicable a documentos generados por los componentes de construcción de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras.",
       "nivel": "parent",
       "parent_id": null,
@@ -283,10 +283,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "452836cf-1ac2-4edb-8fb4-c4b1c40908ca",
+      "chunk_id": "b083b637-5920-47d2-b4b2-684cda796d52",
       "texto": "-   Proy_cepsa_lectura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR únicamente al propietario del documento y al administrador del proyecto. -Proy_cepsa_dirección: aplicable a los documentos solamente accesibles a la dirección del proyecto. Desde la intranet permite LEER a la dirección del proyecto y MODIFICAR al propietario del documento. -Proy_cepsa_escritura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR a cualquier integrante del proyecto. -Proy_cepsa_plan_privado: aplicable a documentos relativos a resúmenes de costes, órdenes de cambio y curvas económicas.",
       "nivel": "child",
-      "parent_id": "a3fbf8b0-133c-4799-bc3b-2ae3c90a95ac",
+      "parent_id": "10fa7f20-3153-4205-a1e2-6ec641af0987",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -299,10 +299,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "65294feb-4447-492b-825a-a9268e99d2a5",
+      "chunk_id": "f481d7aa-03ff-4897-856f-62563e9add9f",
       "texto": "Desde la intranet permite LEER a la dirección de proyectos y al grupo de contratos y permite MODIFICAR al grupo de planificación.\n\n-Proy_cepsa_plan_restringido: aplicable   a   documentos   relativos   a   la   situación   del proyecto (SIPO). Desde la intranet permite LEER a la dirección del proyecto así como a los jefes de departamento y permite MODIFICAR al grupo de planificación. -Proy_cepsa_plan_scsi: aplicable a documentos relativos a los sistemas de control de servicios de ingeniería. Desde la intranet permite LEER a la dirección proyecto, responsables de cuenta y jefes de departamento y permite MODIFICAR al propietario del documento. -Proy_cepsa_privado: aplicable a documentos únicamente accesibles por la dirección del proyecto y por el responsable de costes del proyecto. Desde la intranet permite LEER al responsable de costes del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI.",
       "nivel": "child",
-      "parent_id": "a3fbf8b0-133c-4799-bc3b-2ae3c90a95ac",
+      "parent_id": "10fa7f20-3153-4205-a1e2-6ec641af0987",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -315,10 +315,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "23580b96-e73a-470c-abeb-7707b931c3f9",
+      "chunk_id": "6fd967b9-20db-46d3-8c60-0768b58ff45c",
       "texto": "-       Proy_cepsa_restringido: aplicable   a   documentos   únicamente   accesibles   a   los responsables de cuenta, a la dirección del proyecto y a los jefes de departamento. Desde la intranet permite LEER a los responsables de cuenta del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. - Proy_cepsa_operaciones: aplicable a documentos generales que introducirá, o bien el grupo de operaciones o bien el Administrador de documentos. Desde la intranet permite LEER a todos los usuarios de IUI y MODIFICAR al grupo de operaciones y al Administrador de Documentos. Se   han   habilitado   unos   permisos   por   especialidad   que   permitan   INTRODUCIR   y MODIFICAR los documentos a todos los componentes de dicha especialidad y permitan LEER al resto de los componentes de IUI -Proy_cepsa_civil: aplicable a documentos generados por los componentes de civil y accesibles a toda IUI.",
       "nivel": "child",
-      "parent_id": "a3fbf8b0-133c-4799-bc3b-2ae3c90a95ac",
+      "parent_id": "10fa7f20-3153-4205-a1e2-6ec641af0987",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -331,10 +331,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f8cc3a9c-e15d-4096-bbe3-d83628a6907c",
+      "chunk_id": "5dab9c67-0c21-4a9b-9ae4-0252b0211ef2",
       "texto": "Desde la Intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de civil. -Proy_cepsa_compras: aplicable   a   documentos   no   restringidos   generados   por   los componentes de compras y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras.\n\n-Proy_cepsa_compras_rest: aplicable a documentos generados por los componentes de compras de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_cepsa_construc: aplicable   a   documentos   no   restringidos   generados   por   los componentes de construcción y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras.",
       "nivel": "child",
-      "parent_id": "a3fbf8b0-133c-4799-bc3b-2ae3c90a95ac",
+      "parent_id": "10fa7f20-3153-4205-a1e2-6ec641af0987",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -347,10 +347,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2f92c55e-1633-4180-a9c6-0dcbe17da58c",
+      "chunk_id": "81a783bd-e37d-4b46-bdaa-b593a73575cc",
       "texto": "-Proy_cepsa_construc_rest: aplicable a documentos generados por los componentes de construcción de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras.",
       "nivel": "child",
-      "parent_id": "a3fbf8b0-133c-4799-bc3b-2ae3c90a95ac",
+      "parent_id": "10fa7f20-3153-4205-a1e2-6ec641af0987",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -363,7 +363,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a65cf15c-148b-4c76-82fb-b90406488278",
+      "chunk_id": "1187c38d-449f-4ac7-bf1b-85ec359bbe01",
       "texto": "-Proy_cepsa_dinamicos : aplicable a documentos generados por los componentes de equipos dinámicos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos dinámicos. -Proy_cepsa_elecinst : aplicable a documentos generados por los componentes de electricidad e instrumentación y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de electricidad e instrumentación. -Proy_cepsa_estaticos: aplicable a documentos generados por los componentes de equipos estáticos  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos estáticos. -Proy_cepsa_hvac: aplicable a documentos generados por los componentes de HVAC (Heating, Ventilation and Air Conditioning)  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de hvac. -Proy_cepsa_materiales: aplicable a documentos generados por los componentes de materiales y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de materiales.\n\n-Proy_cepsa_procesos : aplicable a documentos generados por los componentes de procesos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de procesos. -Proy_cepsa_sci : aplicable a documentos generados por los componentes de sistemas contra incendios y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de sistemas contra incendios. -Proy_cepsa_soportes : aplicable a documentos generados por los componentes de Esfuerzos y Soportes y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Esfuerzos y Soportes. -Proy_cepsa_tuberías : aplicable a documentos generados por los componentes de tuberías y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de\n\nLa   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc\n\nCon carácter general el cliente tendrá acceso a todos los documentos del proyecto excepto aquellos que se encuentran en fase de aprobación aunque si podrá acceder a las anteriores ediciones aprobadas de dicho documento.\n\nLa existencia de dos niveles de acceso para el cliente permite desde uno acceder a toda la documentación técnica necesaria mientras desde el otro permite, además, acceso a la información restringida de carácter económico.",
       "nivel": "parent",
       "parent_id": null,
@@ -379,10 +379,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ad87ee80-676f-4f5a-93d6-98103ce0aa94",
+      "chunk_id": "6ea3652c-6b6e-4bfc-8cbf-9a920e477c0e",
       "texto": "-Proy_cepsa_dinamicos : aplicable a documentos generados por los componentes de equipos dinámicos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos dinámicos. -Proy_cepsa_elecinst : aplicable a documentos generados por los componentes de electricidad e instrumentación y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de electricidad e instrumentación. -Proy_cepsa_estaticos: aplicable a documentos generados por los componentes de equipos estáticos  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos estáticos. -Proy_cepsa_hvac: aplicable a documentos generados por los componentes de HVAC (Heating, Ventilation and Air Conditioning)  y accesibles a toda IUI.",
       "nivel": "child",
-      "parent_id": "a65cf15c-148b-4c76-82fb-b90406488278",
+      "parent_id": "1187c38d-449f-4ac7-bf1b-85ec359bbe01",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -395,10 +395,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bf5b0462-872b-4107-8874-4d18fe6536ad",
+      "chunk_id": "9e36a365-b5eb-44e6-b62e-d28b839e32e1",
       "texto": "Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de hvac. -Proy_cepsa_materiales: aplicable a documentos generados por los componentes de materiales y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de materiales.\n\n-Proy_cepsa_procesos : aplicable a documentos generados por los componentes de procesos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de procesos. -Proy_cepsa_sci : aplicable a documentos generados por los componentes de sistemas contra incendios y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de sistemas contra incendios. -Proy_cepsa_soportes : aplicable a documentos generados por los componentes de Esfuerzos y Soportes y accesibles a toda IUI.",
       "nivel": "child",
-      "parent_id": "a65cf15c-148b-4c76-82fb-b90406488278",
+      "parent_id": "1187c38d-449f-4ac7-bf1b-85ec359bbe01",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -411,10 +411,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1e00a455-09bd-4bb7-879e-0eccbf9d8ff7",
+      "chunk_id": "b947a16a-2647-485a-8dbd-03421171b78f",
       "texto": "Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Esfuerzos y Soportes. -Proy_cepsa_tuberías : aplicable a documentos generados por los componentes de tuberías y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de\n\nLa   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc\n\nCon carácter general el cliente tendrá acceso a todos los documentos del proyecto excepto aquellos que se encuentran en fase de aprobación aunque si podrá acceder a las anteriores ediciones aprobadas de dicho documento.\n\nLa existencia de dos niveles de acceso para el cliente permite desde uno acceder a toda la documentación técnica necesaria mientras desde el otro permite, además, acceso a la información restringida de carácter económico.",
       "nivel": "child",
-      "parent_id": "a65cf15c-148b-4c76-82fb-b90406488278",
+      "parent_id": "1187c38d-449f-4ac7-bf1b-85ec359bbe01",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -427,7 +427,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e84b91e6-c431-49dd-8486-8733946aaffc",
+      "chunk_id": "580952e8-108d-4024-9194-bc19a4b1166b",
       "texto": "A  continuación   se   recoge   el   directorio   de   carpetas   en   el   que   será   estructurada   la documentación generada a lo largo del proyecto en el portal de IUI. Asimismo, se indica quién   tiene   acceso   a   los   contenidos   de   las   carpetas   y   a   determinados   documentos, empleando para ello el siguiente código:\n\ncte: cliente usuario con acceso a documentación de carácter no restringido.\n\ncte2: cliente con acceso a documentos restringidos (económicos) además de los documentos accesibles para el código cte.\n\ndp: dirección de proyecto de IUI.\n\ncost : responsable de control de costes del proyecto.\n\nrc: conjunto de responsables de cuenta del proyecto\n\njdpto: conjunto de jefes de departamento de IUI\n\niui: conjunto de todo el personal de IUI\n\nAsí por ejemplo, dp + cost + jdpto indica que a los contenidos de la carpeta referida tienen acceso la dirección del proyecto, el responsable de costes y los jefes de departamento de IUI.",
       "nivel": "parent",
       "parent_id": null,
@@ -443,7 +443,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "087b7f85-ef28-4e76-a5d1-adcf85cbe0d5",
+      "chunk_id": "eb5d3826-a139-4168-97ef-c147999b7ef5",
       "texto": "-Se refiere a carpetas generales.\n\n-Se refiere a carpetas de RM.",
       "nivel": "parent",
       "parent_id": null,
@@ -458,8 +458,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b2ff4137ed5445749d1e41befa4c76aa",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                      | PERMISOS DE ACCESO       |\n|----------------------------------------------------------|--------------------------|\n| 14112 - CEPSA FCC                                        |                          |\n| 01. GENERAL                                              |                          |\n| 1.1. CONTRATO                                            |                          |\n| 1.1.1. CONTRATO                                          | cte2 + dp + cost + jdpto |\n| 1.1.2. ÓRDENES DE CAMBIO                                 | cte2 + dp + cost + jdpto |\n| 1.1.3. FACTURACIÓN                                       | cte2 + dp + cost + jdpto |\n| 1.2 PLAN DE CALIDAD                                      | cte + iui                |\n| ANEXOS AL PLAN DE CALIDAD                                | cte + iui                |\n| 1.3 ACTAS DE REUNIÓN                                     |                          |\n| 1.3.1. Actas de Reunión con CEPSA                        | cte + dp + rc + jdpto    |\n| 1.3.2. Actas de Reunión con PROVEEDORES                  | cte + dp + rc + jdpto    |\n| 1.3.3. Actas de Reunión INTERNAS                         | dp + rc + jdpto          |\n| 1.4 CORRESPONDENCIA                                      |                          |\n| 1.4.1. Correspondencia con CEPSA                         |                          |\n| 1.4.1.1. Correspondencia de CEPSA a IUI (CM-IU)          |                          |\n| 1.4.1.1.1. CONTRACTUAL, PAGOS Y COBROS (De 0001 a 0999): | cte2 + dp + cost + jdpto |\n| 1.4.1.1.2. INGENIERÍA (De 1000 a 1999)                   | cte + dp + rc + jdpto    |\n| 1.4.1.1.3. COMPRAS (De 2000 a 2999)                      | cte + dp + rc + jdpto    |\n| 1.4.1.1.4. CONSTRUCCIÓN ( De 3000 a 3999)                | cte + dp + rc + jdpto    |\n| 1.4.1.2. Correspondencia de IUI a CEPSA (IU-CM)          |                          |\n| 1.4.1.2.1. CONTRACTUAL, PAGOS Y COBROS: (De 0001 a 0999) | cte2 + dp + cost + jdpto |\n| 1.4.1.2.2. INGENIERÍA (De 1000 a 1999)                   | cte + dp + rc + jdpto    |\n| 1.4.1.2.3. COMPRAS (De 2000 a 2999)                      | cte + dp + rc + jdpto    |\n| 1.4.1.2.3. CONSTRUCCIÓN (De 3000 a 3999)                 | cte + dp + rc + jdpto    |",
+      "chunk_id": "5d51c1fd00c34d8d8d1218d1d6852cbc",
+      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO           | PERMISOS DE ACCESO              |\n|-----------------------------------------------|---------------------------------|\n| 📁 14112 – CEPSA FCC                           |                                 |\n| **01. GENERAL**                               |                                 |\n| **1.1. CONTRATO**                             |                                 |\n| 📁 1.1.1. CONTRATO                            | cte2 + dp + cost + jdpcto       |\n| 📁 1.1.2. ÓRDENES DE CAMBIO                   | cte2 + dp + cost + jdpcto       |\n| 📁 1.1.3. FACTURACIÓN                         | cte2 + dp + cost + jdpcto       |\n| **1.2 PLAN DE CALIDAD**                       |                                 |\n| 📁 ANEXOS AL PLAN DE CALIDAD                  | cte + iui                       |\n| **1.3 ACTAS DE REUNIÓN**                      |                                 |\n| 📁 1.3.1. Actas de Reunión con CEPSA          | cte + dp + rc + jdpcto          |\n| 📁 1.3.2. Actas de Reunión con PROVEEDORES    | cte + dp + rc + jdpcto          |\n| 📁 1.3.3. Actas de Reunión INTERNAS           | dp + rc + jdpcto                |\n| **1.4 CORRESPONDENCIA**                       |                                 |\n| 📁 1.4.1. Correspondencia con CEPSA           |                                 |\n| 📁 1.4.1.1. Correspondencia de CEPSA a IUI (CM-IU) |                           |\n| 📁 1.4.1.1.1. CONTRACTUAL, PAGOS Y COBROS (De 0001 a 0999): | cte2 + dp + cost + jdpcto |\n| 📁 1.4.1.1.2. INGENIERÍA (De 1000 a 1999)     | cte + dp + rc + jdpcto          |\n| 📁 1.4.1.1.3. COMPRAS (De 2000 a 2999)        | cte + dp + rc + jdpcto          |\n| 📁 1.4.1.1.4. CONSTRUCCIÓN ( De 3000 a 3999)  | cte + dp + rc + jdpcto          |\n| 📁 1.4.1.2. Correspondencia de IUI a CEPSA (IU-CM) |                         |\n| 📁 1.4.1.2.1. CONTRACTUAL, PAGOS Y COBROS: (De 0001 a 0999) | cte2 + dp + cost + jdpcto |\n| 📁 1.4.1.2.2. INGENIERÍA (De 1000 a 1999)     | cte + dp + rc + jdpcto          |\n| 📁 1.4.1.2.3. COMPRAS (De 2000 a 2999)        | cte + dp + rc + jdpcto          |\n| 📁 1.4.1.2.4. CONSTRUCCIÓN (De 3000 a 3999)   | cte + dp + rc + jdpcto          |\n```",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 12,
@@ -470,11 +470,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": true
+      "tabla_degradada": false
     },
     {
-      "chunk_id": "f4d6f16132fe42068124afc2fcb0fe0a",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO     | PERMISOS DE ACCESO       |\n|-----------------------------------------|--------------------------|\n| 1.4.2. Correspondencia INTERNA IUI      | dp + rc + jdpto          |\n| 1.5. PROYECTOS OFICIALES Y ESTUDIOS     |                          |\n| 1.5.1. ESTUDIO GESTIÓN OPERACIÓN SEGURA | cte + iui                |\n| 1.5.2. ESTUDIO DE IMPACTO AMBIENTAL     | cte + iui                |\n| 1.5.3. ESTUDIO DE SEGURIDAD             | cte + iui                |\n| 1.5.4. ESTUDIO HAZOP                    | cte + iui                |\n| 1.5.5. PROYECTO OFICIAL                 | cte + iui                |\n| 1.5.6. SEPARATAS TÉCNICAS               | cte + iui                |\n| 1.6 INFORMES DE PROGRESO                |                          |\n| 1.6.1. DESCRIPCIÓN SITUACIÓN PROYECTO   | cte + iui                |\n| 1.6.2. AVANCES                          | cte + iui                |\n| 1.6.3. CONTROL DE INGENIERÍA            | cte + iui                |\n| 1.6.4. CONTROL DE MATERIALES            | cte + iui                |\n| 1.6.5. SITUACIÓN DE EQUIPOS             | cte + iui                |\n| 1.6.6. CONTROL DE COSTES                | cte2 + dp + cost + jdpto |\n| 1.6.7. PLANIFICACIÓN                    | cte + iui                |\n| 1.7 CONSULTAS A BASES DE DATOS          | iui                      |\n| 02. ANÁLISIS DE CONTRATO                | dp + cost + jdpto        |\n| 03. DOCUMENTACIÓN GENERAL DE CEPSA      |                          |\n| 3.1. ESTÁNDARES DE CEPSA                | cte + iui                |\n| 3.2. PROCEDIMIENTOS DE CEPSA            | cte + iui                |\n| 3.3. ESPECIFICACIONES DE CEPSA          | cte + iui                |\n| 04. INGENIERÍA BÁSICA                   |                          |\n| 4.1. INGENIERÍA BÁSICA TR               | cte + iui                |",
+      "chunk_id": "523a1df7272a4961af56c1120dd5fb34",
+      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO                      | PERMISOS DE ACCESO         |\n|----------------------------------------------------------|----------------------------|\n|                                                          |                            |\n| 1.4.2. Correspondencia INTERNA IUI                       | dp + rc + jdpdto           |\n|                                                          |                            |\n| **1.5. PROYECTOS OFICIALES Y ESTUDIOS**                  |                            |\n|                                                          |                            |\n| 1.5.1. ESTUDIO GESTIÓN OPERACIÓN SEGURA                  | cte + iui                  |\n| 1.5.2. ESTUDIO DE IMPACTO AMBIENTAL                      | cte + iui                  |\n| 1.5.3. ESTUDIO DE SEGURIDAD                              | cte + iui                  |\n| 1.5.4. ESTUDIO HAZOP                                     | cte + iui                  |\n| 1.5.5. PROYECTO OFICIAL                                  | cte + iui                  |\n| 1.5.6. SEPARATAS TÉCNICAS                                | cte + iui                  |\n|                                                          |                            |\n| **1.6 INFORMES DE PROGRESO**                             |                            |\n|                                                          |                            |\n| 1.6.1. DESCRIPCIÓN SITUACIÓN PROYECTO                    | cte + iui                  |\n| 1.6.2. AVANCES                                           | cte + iui                  |\n| 1.6.3. CONTROL DE INGENIERÍA                             | cte + iui                  |\n| 1.6.4. CONTROL DE MATERIALES                             | cte + iui                  |\n| 1.6.5. SITUACIÓN DE EQUIPOS                              | cte + iui                  |\n| 1.6.6. CONTROL DE COSTES                                 | cte2 + dp + cost + jdpdto  |\n| 1.6.7. PLANIFICACIÓN                                     | cte + iui                  |\n|                                                          |                            |\n| **1.7 CONSULTAS A BASES DE DATOS**                       | iui                        |\n|                                                          |                            |\n| **02. ANÁLISIS DE CONTRATO**                             | dp + cost + jdpdto         |\n|                                                          |                            |\n| **03. DOCUMENTACIÓN GENERAL DE CEPSA**                   |                            |\n| 3.1. ESTÁNDARES DE CEPSA                                 | cte + iui                  |\n| 3.2. PROCEDIMIENTOS DE CEPSA                             | cte + iui                  |\n| 3.3. ESPECIFICACIONES DE CEPSA                           | cte + iui                  |\n|                                                          |                            |\n| **04. INGENIERÍA BÁSICA**                                |                            |\n| 4.1. INGENIERÍA BÁSICA TR                                | cte + iui                  |\n```",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 13,
@@ -485,11 +485,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": true
+      "tabla_degradada": false
     },
     {
-      "chunk_id": "6fbba9ebe49142a28832f197b372ab4d",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                             | PERMISOS DE ACCESO   |\n|-----------------------------------------------------------------|----------------------|\n| 4.2. INGENIERÍA BÁSCIA UOP                                      | cte + iui            |\n| 4.3. INFORMACIÓN CEPSA PARA PROYECTO                            | cte + iui            |\n| 05. CIVIL Y ARQUITECTURA                                        |                      |\n| 5.1. COMPARACIONES TÉCNICAS                                     | cte + iui            |\n| 5.2. ESPECIFICACIONES Y BASES DE DISEÑO DE CIVIL Y ARQUITECTURA | cte + iui            |\n| 5.3. MEDICIONES                                                 | cte + iui            |\n| 5.4. PLANOS Y ESTÁNDARES                                        | cte + iui            |\n| 5.5. REQUISICIONES DE MATERIALES (RM'S)                         | cte + iui            |\n| 5.6. DOCUMENTOS ASOCIADOS A RM'S DE CIVIL Y ARQUITECTURA        | cte + iui            |\n| 06. ELECTRICIDAD                                                |                      |\n| 6.1. COMPARACIONES TÉCNICAS DE OFERTAS                          | cte + iui            |\n| 6.2. ESPECIFICACIONES DE ELECTRICIDAD                           | cte + iui            |\n| 6.3. HOJAS DE DATOS                                             | cte + iui            |\n| 6.4. LISTAS                                                     | cte + iui            |\n| 6.5. MEDICIONES                                                 | cte + iui            |\n| 6.6. PLANOS Y ESTÁNDARES                                        | cte + iui            |\n| 6.7. REQUISICIONES DE MATERIALES (RM'S)                         | cte + iui            |\n| 6.8. DOCUMENTOS ASOCIADOS A RM'S DE ELECTRICIDAD                | cte + iui            |\n| RM-350.18-......-1 ¡                                            | cte + iui            |\n| ....................                                            |                      |\n| RM-350.18-......-n                                              | cte + iui            |\n| 07. INSTRUMENTACIÓN                                             |                      |",
+      "chunk_id": "3b7ad4023c2a4f0aa75bd46b6f6faa86",
+      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO                             | PERMISOS DE ACCESO |\n|----------------------------------------------------------------|-------------------|\n| ![icono carpeta](🔒) 4.2. INGENIERÍA BÁSICA UOP                      | cte + iui         |\n| ![icono carpeta](🔒) 4.3. INFORMACIÓN CEPSA PARA PROYECTO            | cte + iui         |\n| 05. CIVIL Y ARQUITECTURA                                        |                   |\n| ![icono carpeta](🔒) 5.1. COMPARACIONES TÉCNICAS                  | cte + iui         |\n| ![icono carpeta](🔒) 5.2. ESPECIFICACIONES Y BASES DE DISEÑO DE CIVIL Y ARQUITECTURA | cte + iui |\n| ![icono carpeta](🔒) 5.3. MEDICIONES                              | cte + iui         |\n| ![icono carpeta](🔒) 5.4. PLANOS Y ESTÁNDARES                      | cte + iui         |\n| ![icono carpeta](🔒) 5.5. REQUISICIONES DE MATERIALES (RM’S)       | cte + iui         |\n| ![icono carpeta](🔒) 5.6. DOCUMENTOS ASOCIADOS A RM’S DE CIVIL Y ARQUITECTURA | cte + iui   |\n| 06. ELECTRICIDAD                                                |                   |\n| ![icono carpeta](🔒) 6.1. COMPARACIONES TÉCNICAS DE OFERTAS       | cte + iui         |\n| ![icono carpeta](🔒) 6.2. ESPECIFICACIONES DE ELECTRICIDAD        | cte + iui         |\n| ![icono carpeta](🔒) 6.3. HOJAS DE DATOS                          | cte + iui         |\n| ![icono carpeta](🔒) 6.4. LISTAS                                  | cte + iui         |\n| ![icono carpeta](🔒) 6.5. MEDICIONES                              | cte + iui         |\n| ![icono carpeta](🔒) 6.6. PLANOS Y ESTÁNDARES                      | cte + iui         |\n| ![icono carpeta](🔒) 6.7. REQUISICIONES DE MATERIALES (RM’S)       | cte + iui         |\n| ![icono carpeta](🔒) 6.8. DOCUMENTOS ASOCIADOS A RM’S DE ELECTRICIDAD | cte + iui   |\n| ![icono icono](🔒) RM-350.18-......-1                              | cte + iui         |\n| i                                                             |                   |\n| ....................                                          |                   |\n| ![icono icono](🔒) RM-350.18-......-n                              | cte + iui         |\n| 07. INSTRUMENTACIÓN                                            |                   |\n```",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 14,
@@ -500,11 +500,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": true
+      "tabla_degradada": false
     },
     {
-      "chunk_id": "afb03d389f0a4873bfe126a7eb7d1df7",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                     | PERMISOS DE ACCESO   |\n|---------------------------------------------------------|----------------------|\n| 7.1. COMPARACIONES TÉCNICAS DE OFERTAS                  | cte + iui            |\n| 7.2. ESPECIFICACIONES INSTRUMENTACIÓN                   | cte + iui            |\n| 7.3. HOJAS DE DATOS                                     | cte + iui            |\n| 7.4. LISTAS                                             | cte + iui            |\n| 7.5. MEDICIONES                                         | cte + iui            |\n| 7.6. PLANOS Y ESQUEMAS                                  | cte + iui            |\n| 7.7. REQUISICIONES DE MATERIALES (RM'S)                 | cte + iui            |\n| 7.8. DOCUMENTOS ASOCIADOS A RM'S DE                     | cte + iui            |\n| INSTRUMENTACIÓN                                         |                      |\n| 08. MECÁNICA                                            |                      |\n| 08.1. MECÁNICA - EQUIPOS DINÁMICOS                      |                      |\n| 8.1.1. COMPARACIONES TÉCNICAS DE OFERTAS                | cte + iui            |\n| 8.1.2. ESPECIFICACIONES EQUIPOS DINÁMICOS               | cte + iui            |\n| 8.1.3. HOJAS DE DATOS                                   | cte + iui            |\n| 8.1.4. PLANOS Y ESQUEMAS                                | cte + iui            |\n| 8.1.5. REQUISICIONES DE MATERIALES (RM'S)               | cte + iui            |\n| 8.1.6. DOCUMENTOS ASOCIADOS A RM'S DE EQUIPOS DINÁMICOS | cte + iui            |\n| 08.2. MECÁNICA - EQUIPOS ESTÁTICOS                      |                      |\n| 8.2.1. COMPARACIONES TÉCNICAS DE OFERTAS                | cte + iui            |\n| 8.2.2. ESPECIFICACIONES EQUIPOS ESTÁTICOS               | cte + iui            |\n| 8.2.3. HOJAS DE DATOS                                   | cte + iui            |\n| 8.2.4. PLANOS                                           | cte + iui            |\n| 8.2.5. REQUISICIONES DE MATERIALES (RM'S)               | cte + iui            |\n| 8.2.6. DOCUMENTOS ASOCIADOS A RM'S DE EQUIPOS ESTÁTICOS | cte + iui            |",
+      "chunk_id": "18a3626a93754853ad7f06c5ea4c1739",
+      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO                                     | PERMISOS DE ACCESO |\n|------------------------------------------------------------------------|--------------------|\n| ![Folder](folder_icon) 7.1. COMPARACIONES TÉCNICAS DE OFERTAS          | cte + iui          |\n| ![Folder](folder_icon) 7.2. ESPECIFICACIONES INSTRUMENTACIÓN           | cte + iui          |\n| ![Folder](folder_icon) 7.3. HOJAS DE DATOS                             | cte + iui          |\n| ![Folder](folder_icon) 7.4. LISTAS                                     | cte + iui          |\n| ![Folder](folder_icon) 7.5. MEDICIONES                                 | cte + iui          |\n| ![Folder](folder_icon) 7.6. PLANOS Y ESQUEMAS                          | cte + iui          |\n| ![Folder](folder_icon) 7.7. REQUISICIONES DE MATERIALES (RM’S)         | cte + iui          |\n| ![Folder](folder_icon) 7.8. DOCUMENTOS ASOCIADOS A RM’S DE INSTRUMENTACIÓN | cte + iui       |\n|                                                                        |                    |\n| ![Folder](folder_icon) 08. MECÁNICA                                    |                    |\n| ![Folder](folder_icon) 08.1. MECÁNICA – EQUIPOS DINÁMICOS              |                    |\n| ![Folder](folder_icon) 8.1.1. COMPARACIONES TÉCNICAS DE OFERTAS        | cte + iui          |\n| ![Folder](folder_icon) 8.1.2. ESPECIFICACIONES EQUIPOS DINÁMICOS       | cte + iui          |\n| ![Folder](folder_icon) 8.1.3. HOJAS DE DATOS                           | cte + iui          |\n| ![Folder](folder_icon) 8.1.4. PLANOS Y ESQUEMAS                        | cte + iui          |\n| ![Folder](folder_icon) 8.1.5. REQUISICIONES DE MATERIALES (RM’S)       | cte + iui          |\n| ![Folder](folder_icon) 8.1.6. DOCUMENTOS ASOCIADOS A RM’S DE EQUIPOS DINÁMICOS | cte + iui     |\n| ![Folder](folder_icon) 08.2. MECÁNICA – EQUIPOS ESTÁTICOS              |                    |\n| ![Folder](folder_icon) 8.2.1. COMPARACIONES TÉCNICAS DE OFERTAS        | cte + iui          |\n| ![Folder](folder_icon) 8.2.2. ESPECIFICACIONES EQUIPOS ESTÁTICOS       | cte + iui          |\n| ![Folder](folder_icon) 8.2.3. HOJAS DE DATOS                           | cte + iui          |\n| ![Folder](folder_icon) 8.2.4. PLANOS                                   | cte + iui          |\n| ![Folder](folder_icon) 8.2.5. REQUISICIONES DE MATERIALES (RM’S)       | cte + iui          |\n| ![Folder](folder_icon) 8.2.6. DOCUMENTOS ASOCIADOS A RM’S DE EQUIPOS ESTÁTICOS | cte + iui     |\n\n```\n\n(Note: Replace `![Folder](folder_icon)` with the appropriate Markdown image syntax linking to the folder icon you have for representation.)",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 15,
@@ -515,11 +515,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": true
+      "tabla_degradada": false
     },
     {
-      "chunk_id": "445e138dbc8d484b8ad2b73754785834",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                             | PERMISOS DE ACCESO   |\n|-----------------------------------------------------------------|----------------------|\n| 08.3. MECÁNICA - MATERIALES DE TUBERÍAS                         |                      |\n| 8.3.1. COMPARACIONES TÉCNICAS DE OFERTAS                        | cte + iui            |\n| 8.3.2. ESPECIFICACIONES Y ESTÁNDARES DE MATERIALES              | cte + iui            |\n| 8.3.3. HOJAS DE DATOS                                           | cte + iui            |\n| 8.3.4. LISTAS                                                   | cte + iui            |\n| 8.3.5. REQUISICIONES DE MATERIALES (RM'S)                       | cte + iui            |\n| 8.3.6. DOCUMENTOS ASOCIADOS A RM'S DE MATERIALES                | cte + iui            |\n| 08.4. MECÁNICA - SISTEMAS CONTRA INCENDIOS                      |                      |\n| 8.4.1. ESPECIFICACIONES DE LOS SISTEMAS CONTRA INCENDIOS        | cte + iui            |\n| 8.4.2. MEDICIONES                                               | cte + iui            |\n| 8.4.3. PLANOS                                                   | cte + iui            |\n| 8.4.4. REQUISICIONES DE MATERIALES (RM'S)                       | cte + iui            |\n| 8.4.5. DOCUMENTOS ASOCIADOS A RM'S DE SISTEMAS CONTRA INCENDIOS | cte + iui            |\n| 08.5. MECÁNICA - HVAC                                           |                      |\n| 8.5.1. ESPECIFICACIONES DE HVAC                                 | cte + iui            |\n| 8.5.2. MEDICIONES                                               | cte + iui            |\n| 8.5.3. PLANOS                                                   | cte + iui            |\n| 8.5.4. REQUISICIONES DE MATERIALES (RM'S)                       | cte + iui            |\n| 8.5.5. DOCUMENTOS ASOCIADOS A RM'S DE HVAC                      | cte + iui            |\n| 09. TUBERÍAS                                                    |                      |\n| 9.1. ESTÁNDARES DE TUBERÍAS                                     | cte + iui            |\n| 9.2. ISOMÉTRICAS                                                | cte + iui            |",
+      "chunk_id": "f3e3f9e8f831488998ad51504eef0ee4",
+      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO                                | PERMISOS DE ACCESO |\n|---------------------------------------------------------------------|--------------------|\n| ![📁](folder) **08.3. MECÁNICA – MATERIALES DE TUBERÍAS**           |                    |\n| ![📁](folder) 8.3.1. COMPARACIONES TÉCNICAS DE OFERTAS             | cte + iui          |\n| ![📁](folder) 8.3.2. ESPECIFICACIONES Y ESTÁNDARES DE MATERIALES   | cte + iui          |\n| ![📁](folder) 8.3.3. HOJAS DE DATOS                                | cte + iui          |\n| ![📁](folder) 8.3.4. LISTAS                                        | cte + iui          |\n| ![📁](folder) 8.3.5. REQUISICIONES DE MATERIALES (RM’S)            | cte + iui          |\n| ![📁](folder) 8.3.6. DOCUMENTOS ASOCIADOS A RM’S DE MATERIALES     | cte + iui          |\n| ![📁](folder) **08.4. MECÁNICA – SISTEMAS CONTRA INCENDIOS**       |                    |\n| ![📁](folder) 8.4.1. ESPECIFICACIONES DE LOS SISTEMAS CONTRA INCENDIOS | cte + iui      |\n| ![📁](folder) 8.4.2. MEDICIONES                                    | cte + iui          |\n| ![📁](folder) 8.4.3. PLANOS                                        | cte + iui          |\n| ![📁](folder) 8.4.4. REQUISICIONES DE MATERIALES (RM’S)            | cte + iui          |\n| ![📁](folder) 8.4.5. DOCUMENTOS ASOCIADOS A RM’S DE SISTEMAS CONTRA INCENDIOS | cte + iui    |\n| ![📁](folder) **08.5. MECÁNICA – HVAC**                            |                    |\n| ![📁](folder) 8.5.1. ESPECIFICACIONES DE HVAC                      | cte + iui          |\n| ![📁](folder) 8.5.2. MEDICIONES                                    | cte + iui          |\n| ![📁](folder) 8.5.3. PLANOS                                        | cte + iui          |\n| ![📁](folder) 8.5.4. REQUISICIONES DE MATERIALES (RM’S)            | cte + iui          |\n| ![📁](folder) 8.5.5. DOCUMENTOS ASOCIADOS A RM’S DE HVAC           | cte + iui          |\n| ![📁](folder) **09. TUBERÍAS**                                     |                    |\n| ![📁](folder) 9.1. ESTÁNDARES DE TUBERÍAS                          | cte + iui          |\n| ![📁](folder) 9.2. ISOMÉTRICAS                                     | cte + iui          |\n```",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 16,
@@ -530,11 +530,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": true
+      "tabla_degradada": false
     },
     {
-      "chunk_id": "21e65d2f1c7040c9bd870e789fb79e04",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO           | PERMISOS DE ACCESO    |\n|-----------------------------------------------|-----------------------|\n| 9.3. TIE-IN'S                                 | cte + iui             |\n| 9.4. PLANOS AUXILIARES                        | cte + iui             |\n| 9.5. PLANOS DE IMPLANTACIÓN                   | cte + iui             |\n| 9.6. PLANOS DE PLANTA                         | cte + iui             |\n| 9.7. PLANOS DE RACK                           | cte + iui             |\n| 10. PROCESOS                                  |                       |\n| 10.1. BASES DE DISEÑO                         | cte + iui             |\n| 10.2. DATOS DE PROCESO PARA EQUIPOS (HOJAS    |                       |\n| DE DATOS)                                     |                       |\n| 10.2.1. BOMBAS: Datos de Proceso para Equipos | cte + iui             |\n| 10.2.2. CAMBIADORES DE CALOR: Datos de        | cte + iui             |\n| Proceso para Equipos                          |                       |\n| 10.2.3. RECIPIENTES: Datos de Proceso para    | cte + iui             |\n| Equipos                                       |                       |\n| 10.3. LISTAS                                  | cte + iui             |\n| 10.4. DIAGRAMAS DE FLUJO                      | cte + iui             |\n| 10.5. P&ID'S                                  | cte + iui             |\n| 11. COMPRAS                                   |                       |\n| 11.1. PETICIONES DE OFERTA                    |                       |\n| 11.1.1. ELECTRICIDAD                          | cte + iui             |\n| 11.1.2. INSTRUMENTACIÓN                       | cte + iui             |\n| 11.1.3. EQUIPOS DINÁMICOS                     | cte + iui             |\n| 11.1.4. EQUIPOS ESTÁTICOS                     | cte + iui             |\n| 11.1.5. MATERIALES                            | cte + iui             |\n| 11.2. TABULACIONES ECONÓMICAS                 | cte2 + dp + rc + jdpt |\n| 11.3. PEDIDOS                                 | cte2 + dp + rc + jdpt |",
+      "chunk_id": "1cbeaf3d2d4b4cf3b2f1bafb0543dd1d",
+      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO                                           | PERMISOS DE ACCESO          |\n|-------------------------------------------------------------------------------|-----------------------------|\n| ![carpeta](https://via.placeholder.com/15) 9.3. TIE-IN’S                       | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 9.4. PLANOS AUXILIARES              | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 9.5. PLANOS DE IMPLANTACIÓN         | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 9.6. PLANOS DE PLANTA               | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 9.7. PLANOS DE RACK                 | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) **10. PROCESOS**                    |                             |\n| ![carpeta](https://via.placeholder.com/15) 10.1. BASES DE DISEÑO               | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 10.2. DATOS DE PROCESO PARA EQUIPOS (HOJAS DE DATOS) |                             |\n| ![carpeta](https://via.placeholder.com/15) 10.2.1. BOMBAS: Datos de Proceso para Equipos | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 10.2.2. CAMBIADORES DE CALOR: Datos de Proceso para Equipos | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 10.2.3. RECIPIENTES: Datos de Proceso para Equipos | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 10.3. LISTAS                      | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 10.4. DIAGRAMAS DE FLUJO           | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 10.5. P&ID’S                       | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) **11. COMPRAS**                    |                             |\n| ![carpeta](https://via.placeholder.com/15) 11.1. PETICIONES DE OFERTA         |                             |\n| ![carpeta](https://via.placeholder.com/15) 11.1.1. ELECTRICIDAD              | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 11.1.2. INSTRUMENTACIÓN           | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 11.1.3. EQUIPOS DINÁMICOS         | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 11.1.4. EQUIPOS ESTÁTICOS         | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 11.1.5. MATERIALES                | cte + iui                   |\n| ![carpeta](https://via.placeholder.com/15) 11.2. TABULACIONES ECONÓMICAS     | cte2 + dp + rc + jdpt       |\n| ![carpeta](https://via.placeholder.com/15) 11.3. PEDIDOS                     | cte2 + dp + rc + jdpt       |\n```",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 17,
@@ -545,11 +545,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": true
+      "tabla_degradada": false
     },
     {
-      "chunk_id": "9708384b17b54d4d850d04cc18b33582",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO               | PERMISOS DE ACCESO    |\n|---------------------------------------------------|-----------------------|\n| 11.4. INFORMES DE INSPECCIÓN                      | cte + iui             |\n| 11.5. INFORMES DE RECEPCIÓN DE MATERIALES (IRM'S) | cte + iui             |\n| 11.6. CORRESPONDENCIA CON EL PROVEEDOR            | cte2 + dp + rc + jdpt |\n| 11.7. DOCUMENTACIÓN PROVEEDOR                     | cte2 + dp + rc + jdpt |\n| 12. CONSTRUCCIÓN                                  |                       |\n| 12.1. ESPECIFICACIONES DE CONSTRUCCIÓN            | cte + iui             |\n| 12.2 REQUISICIONES DE CONSTRUCCIÓN                | cte + iui             |\n| 12.3. PETICIONES DE OFERTA                        | cte + iui             |\n| 12.4. TABULACIONES ECONÓMICAS                     | cte2 + dp + rc + jdpt |\n| 12.5. PEDIDOS                                     | cte2 + dp + rc + jdpt |\n| 12.6. CORRESPONDENCIA CON EL PROVEEDOR            | cte2 + dp + rc + jdpt |\n| 12.7. DOCUMENTACIÓN DEL PROVEEDOR                 | cte2 + dp + rc + jdpt |\n| 12.8. DOCUMENTOS TÉCNICOS ASOCIADOS A RC'S        | cte + iui             |\n| RC-350.18-......-1:                               |                       |\n| Documentos de la RC:......-1                      | cte + iui             |\n| Documentos de Petición de Oferta:......1          | cte + iui             |\n| Documentos del Proveedor                          | cte + iui             |\n| Correspondencia:...........1                      | cte + iui             |\n| ............................                      |                       |\n| RC-350.18-......-n                                |                       |\n| 13. FOTOGRAFÍAS                                   | cte + iui             |",
+      "chunk_id": "77fc85c79cbe4c608e5799ff78aa2906",
+      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO  | PERMISOS DE ACCESO     |\n|-------------------------------------|------------------------|\n| ![folder icon] 11.4. INFORMES DE INSPECCIÓN | cte + iui              |\n| ![folder icon] 11.5. INFORMES DE RECEPCIÓN DE MATERIALES (IRM’S) | cte + iui              |\n| ![folder icon] 11.6. CORRESPONDENCIA CON EL PROVEEDOR | cte2 + dp + rc + jdpt |\n| ![folder icon] 11.7. DOCUMENTACIÓN PROVEEDOR | cte2 + dp + rc + jdpt |\n| ![folder icon] **12. CONSTRUCCIÓN** |                        |\n| ![folder icon] 12.1. ESPECIFICACIONES DE CONSTRUCCIÓN | cte + iui              |\n| ![folder icon] 12.2 REQUISICIONES DE CONSTRUCCIÓN | cte + iui              |\n| ![folder icon] 12.3. PETICIONES DE OFERTA | cte + iui              |\n| ![folder icon] 12.4. TABULACIONES ECONÓMICAS | cte2 + dp + rc + jdpt |\n| ![folder icon] 12.5. PEDIDOS | cte2 + dp + rc + jdpt |\n| ![folder icon] 12.6. CORRESPONDENCIA CON EL PROVEEDOR | cte2 + dp + rc + jdpt |\n| ![folder icon] 12.7. DOCUMENTACIÓN DEL PROVEEDOR | cte2 + dp + rc + jdpt |\n| ![folder icon] 12.8. DOCUMENTOS TÉCNICOS ASOCIADOS A RC’S | cte + iui              |\n| ![file icon] **RC-350.18-......-1:** |                        |\n| ![folder icon] Documentos de la RC:......-1 | cte + iui              |\n| ![folder icon] Documentos de Petición de Oferta:......1 | cte + iui              |\n| ![folder icon] Documentos del Proveedor | cte + iui              |\n| ![folder icon] Correspondencia:..........1 | cte + iui              |\n| ..............................          |                        |\n| ![file icon] **RC-350.18-......-n**: |                        |\n| ![folder icon] **13. FOTOGRAFÍAS** | cte + iui              |\n\n```\n(Note: `![folder icon]` and `![file icon]` represent folder and file icons respectively.)",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 18,
@@ -560,7 +560,7 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": true
+      "tabla_degradada": false
     }
   ]
 }

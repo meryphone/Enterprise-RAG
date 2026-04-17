@@ -1,5 +1,5 @@
 {
-  "doc_id": "0db2535b79c44fe69adf8f18dd5079cd",
+  "doc_id": "d708aa6d352b4ec0bf8f59a4b9e1252d",
   "nombre_fichero": "PR-07.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,10 +13,10 @@
     "edicion": "2",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-16T18:17:54+00:00",
+  "fecha_ingesta": "2026-04-17T18:17:03+00:00",
   "chunks": [
     {
-      "chunk_id": "d8f286fd2a2442e8b67aad147b4c30f6",
+      "chunk_id": "a1b650d5a0d84824b1edcd09bc89ee90",
       "texto": "| RLLP   | DGB/OMP   | JAPP   | 2       | Sept 20   | Revisión General   |\n|--------|-----------|--------|---------|-----------|--------------------|\n| RLLP   | OMP       | JAPP   | 1       | Feb 2018  | Emisión            |\n| APROB. | VERIF.    | PREP.  | EDICION | FECHA     | DESCRIPCION        |",
       "nivel": "child",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6c27cc86-1c44-4c2a-b81a-1d05d09c75b6",
+      "chunk_id": "5f740f38-a2bb-47fd-8e07-9ec529214427",
       "texto": "Este documento describe el proceso a través del cual Intecsa Industrial/ Initec Energía gestionan   sus   contratos,   así   como   los   riesgos   asociados   a   los   Proyectos.   El procedimiento está diseñado para contratos llave en mano con alcance EP/EPC. La gestión de otro tipo de proyectos (FEED, PMC, EPCM, etc) será discutida caso por caso por el departamento de DNOG. Las secuencia descrita   en   este   procedimiento,   podrá   variar   en   función   de   la complejidad del contrato, por eso debe entenderse de forma flexible para poder adaptarse a cada situación particular. Este procedimiento será de aplicación a toda la organización una vez el proyecto haya sido   adjudicado   a Intecsa Industrial/   Initec   Energía con independencia de que el contrato con el cliente (de aquí en adelante 'CONTRATO') haya sido firmado o no, siempre y cuando la reunión de transferencia (Ver anexo I) haya sido realizada. Con independencia de que el Administrador de Contrato (ADC) es el responsable de la realización de la mayoría de actividades, es responsabilidad de toda la compañía y, en especial, de todos los componentes del proyecto, velar por el fiel cumplimiento del citado procedimiento en todo momento. Este documento forma parte del Sistema de Calidad y ha sido elaborado tomando en consideración la norma ISO 9001.",
       "nivel": "parent",
       "parent_id": null,
@@ -46,10 +46,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4081c785-f353-40c4-aed5-4525fca9c63e",
+      "chunk_id": "4df2bc9b-3d62-426e-9058-29ce57a1a958",
       "texto": "Este documento describe el proceso a través del cual Intecsa Industrial/ Initec Energía gestionan   sus   contratos,   así   como   los   riesgos   asociados   a   los   Proyectos.   El procedimiento está diseñado para contratos llave en mano con alcance EP/EPC. La gestión de otro tipo de proyectos (FEED, PMC, EPCM, etc) será discutida caso por caso por el departamento de DNOG. Las secuencia descrita   en   este   procedimiento,   podrá   variar   en   función   de   la complejidad del contrato, por eso debe entenderse de forma flexible para poder adaptarse a cada situación particular. Este procedimiento será de aplicación a toda la organización una vez el proyecto haya sido   adjudicado   a Intecsa Industrial/   Initec   Energía con independencia de que el contrato con el cliente (de aquí en adelante 'CONTRATO') haya sido firmado o no, siempre y cuando la reunión de transferencia (Ver anexo I) haya sido realizada.",
       "nivel": "child",
-      "parent_id": "6c27cc86-1c44-4c2a-b81a-1d05d09c75b6",
+      "parent_id": "5f740f38-a2bb-47fd-8e07-9ec529214427",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "1. OBJETO Y ALCANCE",
@@ -61,10 +61,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "43a4bdd3-74b9-446b-9d11-18e15493658c",
+      "chunk_id": "1399b0df-eece-48bb-b96a-1cfd2240cbd1",
       "texto": "Con independencia de que el Administrador de Contrato (ADC) es el responsable de la realización de la mayoría de actividades, es responsabilidad de toda la compañía y, en especial, de todos los componentes del proyecto, velar por el fiel cumplimiento del citado procedimiento en todo momento. Este documento forma parte del Sistema de Calidad y ha sido elaborado tomando en consideración la norma ISO 9001.",
       "nivel": "child",
-      "parent_id": "6c27cc86-1c44-4c2a-b81a-1d05d09c75b6",
+      "parent_id": "5f740f38-a2bb-47fd-8e07-9ec529214427",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "1. OBJETO Y ALCANCE",
@@ -76,7 +76,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "eea143cf-3c78-46ed-8999-c08499b21c30",
+      "chunk_id": "60cfd404-cb8a-4180-9bc7-4c62a1acbb0a",
       "texto": " DNOG :Desarrollo de Negocio (Petróleo y Gas)\n\n JDNOG :Jefe del departamento de desarrollo de negocio (Petróleo y Gas)\n\n EPC :Proyectos con alcance de Ingeniería, Compras y Construcción (Engineering, Procurement & Construction)\n\n EP :Proyectos con alcance de Ingeniería y Compras (Engineering & Procurement)\n\n IDNOG :Ingeniero de desarrollo de negocio (Petróleo y Gas)\n\n ADC :Administrador de contrato",
       "nivel": "parent",
       "parent_id": null,
@@ -91,7 +91,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "14b6deee-c86f-49a6-afb5-f7f326d111d7",
+      "chunk_id": "f9138e90-03f8-46a1-bba5-dc29a3112cf5",
       "texto": "El proceso de administración de contratos, tal y como se describe en el ANEXO 1, se divide en dos fases:\n\n una primera ejecutada por el IDNOG/ADC durante la fase comercial, antes de la adjudicación y cuyo proceso de define en el PR-06.\n\n una segunda fase ejecutada por el ADC que se define en el presente procedimiento.\n\nLas actividades previas durante la fase comercial son críticas para el éxito de la fase de proyecto.\n\nLa correcta ejecución en la fase de proyecto se verá comprometida sin una correcta evaluación del CONTRATO antes de su firma.",
       "nivel": "parent",
       "parent_id": null,
@@ -107,7 +107,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ecd8804c-c547-4686-9f64-a394992fa184",
+      "chunk_id": "d9b133e0-2cb0-4cbb-88b5-e6b7993c0143",
       "texto": "El ADC está encuadrado en el departamento de DNOG, dentro de la división comercial, reportando jerárquicamente al Jefe del departamento de Desarrollo de Negocio Petróleo y Gas, y funcionalmente al Jefe de Proyecto en el desarrollo de un proyecto y al Jefe de Oferta en la preparación de ésta.\n\nUna vez un contrato sea adjudicado a Intecsa Industrial/ Initec Energía ,   del   mismo modo que se asignó para colaborar con el JDA, el JDNOG asignará un ADC (o varios) para colaborar en la ejecución del CONTRATO. En la medida de lo posible, el ADC asignado al CONTRATO será el mismo que el ADC que ha trabajado en la preparación de oferta. El ADC compatibilizará su trabajo con el descrito en el PR-06.\n\nDe modo general, el ADC no dará prioridad a un proyecto o una   oferta salvo indicación de lo contrario. En la medida de lo posible el ADC simultaneará su trabajo en ofertas y contratos.\n\nEl ADC deberá realizar las funciones descritas en el documento IT-DN-01 teniendo en cuenta la obligación de informe, revisión y coordinación con el Jefe de Proyecto (del mismo modo que lo hacía en la fase comercial con el JPA-Ver PR-06) así como con la Dirección",
       "nivel": "parent",
       "parent_id": null,
@@ -122,10 +122,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e629f6b8-a3ef-4d5c-a231-1de672f69057",
+      "chunk_id": "10e8271f-f8f6-4b41-beb9-266dc776d998",
       "texto": "El ADC está encuadrado en el departamento de DNOG, dentro de la división comercial, reportando jerárquicamente al Jefe del departamento de Desarrollo de Negocio Petróleo y Gas, y funcionalmente al Jefe de Proyecto en el desarrollo de un proyecto y al Jefe de Oferta en la preparación de ésta.\n\nUna vez un contrato sea adjudicado a Intecsa Industrial/ Initec Energía ,   del   mismo modo que se asignó para colaborar con el JDA, el JDNOG asignará un ADC (o varios) para colaborar en la ejecución del CONTRATO. En la medida de lo posible, el ADC asignado al CONTRATO será el mismo que el ADC que ha trabajado en la preparación de oferta. El ADC compatibilizará su trabajo con el descrito en el PR-06.\n\nDe modo general, el ADC no dará prioridad a un proyecto o una   oferta salvo indicación de lo contrario. En la medida de lo posible el ADC simultaneará su trabajo en ofertas y contratos.",
       "nivel": "child",
-      "parent_id": "ecd8804c-c547-4686-9f64-a394992fa184",
+      "parent_id": "d9b133e0-2cb0-4cbb-88b5-e6b7993c0143",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "4. FUNCIONES Y RESPONSABILIDADES DEL ADMINISTRADOR DEL CONTRATO",
@@ -137,10 +137,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "18ac7380-d58b-4788-ba16-537596a53475",
+      "chunk_id": "0c788d5a-76d4-41fe-8f93-61c5124a42ba",
       "texto": "El ADC deberá realizar las funciones descritas en el documento IT-DN-01 teniendo en cuenta la obligación de informe, revisión y coordinación con el Jefe de Proyecto (del mismo modo que lo hacía en la fase comercial con el JPA-Ver PR-06) así como con la Dirección",
       "nivel": "child",
-      "parent_id": "ecd8804c-c547-4686-9f64-a394992fa184",
+      "parent_id": "d9b133e0-2cb0-4cbb-88b5-e6b7993c0143",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "4. FUNCIONES Y RESPONSABILIDADES DEL ADMINISTRADOR DEL CONTRATO",
@@ -152,7 +152,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a595fc24-c4a6-41c2-8d76-efae2545cd66",
+      "chunk_id": "eff4aaf4-7369-467c-ab72-e88636037fad",
       "texto": "El trabajo del ADC en fase de proyecto comienza una vez adjudicado el contrato. En ese momento el  Jefe de la Oferta convocará la reunión de traspaso del proyecto a la que asistirán todos los jefes de departamento, Jefe de Proyecto/Ingeniero de proyecto(s) asignado, Director de Operaciones,   Director Comercial y CEO (éste último opcional). Esta reunión se convocará a más tardar siete (7) días desde una notificación para proceder válida y se dividirá en tres partes:\n\n Presentación de oferta técnica\n\n Presentación del presupuesto\n\n Presentación del contrato y los riesgos\n\nDurante la presentación del contrato y los riesgos, el ADC asignado (junto el ADC/IDNOG que participó en la oferta si fueran diferentes) transferirán con la debida explicación a la dirección de la empresa (así como al JDT y al IPT) del Contrato firmado (o acordado) con sus anexos así como toda la información y documentos elaborados durante la fase de oferta, en particular:\n\n MI-111E/1 Cuadro de garantías interno\n\n MI-113E/1 Timeline Diagram\n\n MI-114E/1 Comentarios al contrato - Identificación y cuantificación de riesgos\n\nDel mismo modo, se harán referencias, allí donde fuera necesario a lecciones aprendidas de otros proyectos.\n\nEl ADC asignado al Proyecto levantará el acta de dicha Reunión de Transferencia incluyendo todas las preguntas que hubieran surgido.",
       "nivel": "parent",
       "parent_id": null,
@@ -168,10 +168,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a78cf71c-783c-4993-b4a5-df258cf5973e",
+      "chunk_id": "e1fb1285-b8f4-4bef-a8a9-1eda73d87214",
       "texto": "El trabajo del ADC en fase de proyecto comienza una vez adjudicado el contrato. En ese momento el  Jefe de la Oferta convocará la reunión de traspaso del proyecto a la que asistirán todos los jefes de departamento, Jefe de Proyecto/Ingeniero de proyecto(s) asignado, Director de Operaciones,   Director Comercial y CEO (éste último opcional).",
       "nivel": "child",
-      "parent_id": "a595fc24-c4a6-41c2-8d76-efae2545cd66",
+      "parent_id": "eff4aaf4-7369-467c-ab72-e88636037fad",
       "pagina_inicio": 5,
       "pagina_fin": 5,
       "seccion": "5. REUNIÓN DE TRASPASO",
@@ -184,10 +184,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c9b8b0bc-6c42-4116-a5cb-46bbe60ff5f2",
+      "chunk_id": "f83208b1-e606-491a-9ada-bd1c982ee6c2",
       "texto": "Esta reunión se convocará a más tardar siete (7) días desde una notificación para proceder válida y se dividirá en tres partes:\n\n Presentación de oferta técnica\n\n Presentación del presupuesto\n\n Presentación del contrato y los riesgos\n\nDurante la presentación del contrato y los riesgos, el ADC asignado (junto el ADC/IDNOG que participó en la oferta si fueran diferentes) transferirán con la debida explicación a la dirección de la empresa (así como al JDT y al IPT) del Contrato firmado (o acordado) con sus anexos así como toda la información y documentos elaborados durante la fase de oferta, en particular:\n\n MI-111E/1 Cuadro de garantías interno\n\n MI-113E/1 Timeline Diagram\n\n MI-114E/1 Comentarios al contrato - Identificación y cuantificación de riesgos\n\nDel mismo modo, se harán referencias, allí donde fuera necesario a lecciones aprendidas de otros proyectos.",
       "nivel": "child",
-      "parent_id": "a595fc24-c4a6-41c2-8d76-efae2545cd66",
+      "parent_id": "eff4aaf4-7369-467c-ab72-e88636037fad",
       "pagina_inicio": 5,
       "pagina_fin": 5,
       "seccion": "5. REUNIÓN DE TRASPASO",
@@ -200,10 +200,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "97e1a2f3-f0d7-44b8-9860-29849c4c4f51",
+      "chunk_id": "75d54165-57ae-4310-9275-5a1e5e00e8a6",
       "texto": "El ADC asignado al Proyecto levantará el acta de dicha Reunión de Transferencia incluyendo todas las preguntas que hubieran surgido.",
       "nivel": "child",
-      "parent_id": "a595fc24-c4a6-41c2-8d76-efae2545cd66",
+      "parent_id": "eff4aaf4-7369-467c-ab72-e88636037fad",
       "pagina_inicio": 5,
       "pagina_fin": 5,
       "seccion": "5. REUNIÓN DE TRASPASO",
@@ -216,7 +216,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d29f00ec-5f19-47f6-a892-13135548519f",
+      "chunk_id": "d94bff84-c622-48e0-b780-bc06d217f68f",
       "texto": "Tras   la   reunión   de   traspaso,   el   ADC   convocará   una   reunión   explicativa   donde   se expondrá al equipo de proyecto asignado tanto el Contrato firmado (o acordado) con sus\n\nanexos, como toda la información y documentos elaborados durante la fase de oferta (y posterior adaptación tras la adjudicación), en particular:",
       "nivel": "parent",
       "parent_id": null,
@@ -231,8 +231,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8912399675ec4810a653117622e089e3",
-      "texto": "| Documento   | Descripción                                                         | Comentario                                                                                                           |\n|-------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|\n| MI-111E/1   | Plantilla tabla de garantías y pruebas OIL&GAS                      |                                                                                                                      |\n| MI-111E/2   | Plantilla tabla de garantías y pruebas POWER                        |                                                                                                                      |\n| MI-113E/1   | Timeline Diagram                                                    |                                                                                                                      |\n| MI-114E/1   | Comentarios al contrato                                             | El ADC que participó en la propuesta debe cribar los comentarios indicando cuales son aplicables a cada especialidad |\n| MI-112E/1   | Identificación y cuantificación de riesgos                          |                                                                                                                      |\n| MI-116 E/1  | Formato para generar la condiciones generales de compra de proyecto | Deben ser preparadas por el ADC que participó en la propuesta                                                        |\n| MI-121E/1   | Suministradores con input de contratos                              | Deben ser preparadas por el ADC que participó en la propuesta                                                        |\n| MI-118 E/1  | LOG Comunicaciones de proyecto                                      |                                                                                                                      |\n| MI-117 E/1  | Contractual Logbook                                                 |                                                                                                                      |\n| MI-110      | Formato para generar las condiciones generales de subcontratación   | Deben ser preparadas por el ADC que participó en la propuesta                                                        |",
+      "chunk_id": "3277e02534b14a8b89f04ceef72d3c31",
+      "texto": "```markdown\n| Documento  | Descripción                                                        | Comentario                                                                                      |\n|------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|\n| MI-111E/1  | Plantilla tabla de garantías y pruebas OIL&GAS                     |                                                                                                 |\n| MI-111E/2  | Plantilla tabla de garantías y pruebas POWER                       |                                                                                                 |\n| MI-113E/1  | Timeline Diagram                                                  |                                                                                                 |\n| MI-114E/1  | Comentarios al contrato                                           | El ADC que participó en la propuesta debe cribar los comentarios indicando cuales son aplicables a cada especialidad |\n| MI-112E/1  | Identificación y cuantificación de riesgos                         |                                                                                                 |\n| MI-116 E/1 | Formato para generar la condiciones generales de compra de proyecto | Deben ser preparadas por el ADC que participó en la propuesta                                   |\n| MI-121E/1  | Suministradores con input de contratos                             | Deben ser preparadas por el ADC que participó en la propuesta                                   |\n| MI-118 E/1 | LOG Comunicaciones de proyecto                                    |                                                                                                 |\n| MI-117 E/1 | Contractual Logbook                                               |                                                                                                 |\n| MI-110     | Formato para generar las condiciones generales de subcontratación  | Deben ser preparadas por el ADC que participó en la propuesta                                   |\n```",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 6,
@@ -243,10 +243,10 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": true
+      "tabla_degradada": false
     },
     {
-      "chunk_id": "e0ee86e9-3ee1-4465-aa2f-2a39c5594508",
+      "chunk_id": "8d83dba1-e816-482e-94fd-e8a582623d88",
       "texto": "Es importante que durante esta reunión se explique cómo trata el contrato los siguientes puntos:\n\n El procedimiento de órdenes de cambio/ reclamaciones acordado.\n\n Reparto de posibles ahorros de coste (cost savings)\n\n Tratamiento de la Ingeniería de valor (value engineering)\n\nAntes de esta reunión, el ADC almacenará toda la información relativa al contrato en el servidor del Departamento de DNOG según se indica en el capítulo 9.\n\nDel mismo modo, el ADC fijará junto al Jefe de Proyecto asignado la información que debe almacenarse en el servidor del proyecto. El   ADC  asignado al Proyecto levantará el acta de dicha Reunión de Transferencia incluyendo todas las preguntas que hubieran surgido.",
       "nivel": "parent",
       "parent_id": null,
@@ -262,7 +262,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "59993527-d074-452b-b6d4-18e93b9d7cf6",
+      "chunk_id": "a1a1d196-ed15-44a1-89f6-ef9aad5255c0",
       "texto": "Con independencia de la reunión explicativa al equipo de proyecto, el ADC convocará a todos los Líderes de Disciplina, al Jefe e ingenieros de Proyecto, al Jefe de Departamento de Procesos, al Jefe de Departamento de Mecánica y al Coordinador de Compras del Proyecto,   a   una   reunión   explicativa   de   las   garantías   de   desempeño   (performance) asumidas contractualmente. En la reunión, se trataran al menos los siguientes asuntos:\n\n TIMELINE DIAGRAM de proyecto (MI-113E/1). Debe incidirse en las pruebas que se realizarán,   los   riesgos   que   hemos   asumido,   y   las   consecuencias   de   la   no consecución de las garantías técnicas (rechazo de planta, pago de penalidad por retraso y/o performance, terminación de contrato)\n\n Revisión del Cuadro de garantías interno (MI-111E/1), con una explicación clara de los márgenes (sobre el valor garantizado) con el cliente. Revisión del riesgo de incumplimiento  y de las consecuencias de cada incumplimiento.\n\n Estrategia   de   compras   de   los   equipos,   indicando   a   qué   equipos   se   les   pedirá garantías   (con   independencia   de   que   nuestra   garantía   requiera   de   esa contragarantía de los suministradores).\n\n Lista de suministradores con el input del ADC (MI-121E/1).\n\n Periodicidad en la revisión de las garantías y próximas reuniones de garantías. La siguiente reunión se realizará una vez avanzada la ingeniería y antes de la compra de los equipos principales. El ADC organizará las siguientes reuniones.\n\nEl   ADC  asignado al Proyecto levantará el acta de dicha Reunión de Transferencia incluyendo todas las preguntas que hubieran surgido.",
       "nivel": "parent",
       "parent_id": null,
@@ -278,10 +278,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e6c955df-b297-4b8c-9ce8-b569fd811afc",
+      "chunk_id": "8047b8c0-6f89-4a33-a1eb-6a054371fa96",
       "texto": "Con independencia de la reunión explicativa al equipo de proyecto, el ADC convocará a todos los Líderes de Disciplina, al Jefe e ingenieros de Proyecto, al Jefe de Departamento de Procesos, al Jefe de Departamento de Mecánica y al Coordinador de Compras del Proyecto,   a   una   reunión   explicativa   de   las   garantías   de   desempeño   (performance) asumidas contractualmente. En la reunión, se trataran al menos los siguientes asuntos:\n\n TIMELINE DIAGRAM de proyecto (MI-113E/1).",
       "nivel": "child",
-      "parent_id": "59993527-d074-452b-b6d4-18e93b9d7cf6",
+      "parent_id": "a1a1d196-ed15-44a1-89f6-ef9aad5255c0",
       "pagina_inicio": 7,
       "pagina_fin": 7,
       "seccion": "7. REUNIÓN GARANTÍAS",
@@ -294,10 +294,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f0329ff7-9cd9-426b-93a1-36a86cfefca2",
+      "chunk_id": "381d536e-a785-493a-ad45-30f14b3969f9",
       "texto": "Debe incidirse en las pruebas que se realizarán,   los   riesgos   que   hemos   asumido,   y   las   consecuencias   de   la   no consecución de las garantías técnicas (rechazo de planta, pago de penalidad por retraso y/o performance, terminación de contrato)\n\n Revisión del Cuadro de garantías interno (MI-111E/1), con una explicación clara de los márgenes (sobre el valor garantizado) con el cliente. Revisión del riesgo de incumplimiento  y de las consecuencias de cada incumplimiento.\n\n Estrategia   de   compras   de   los   equipos,   indicando   a   qué   equipos   se   les   pedirá garantías   (con   independencia   de   que   nuestra   garantía   requiera   de   esa contragarantía de los suministradores).\n\n Lista de suministradores con el input del ADC (MI-121E/1).\n\n Periodicidad en la revisión de las garantías y próximas reuniones de garantías.",
       "nivel": "child",
-      "parent_id": "59993527-d074-452b-b6d4-18e93b9d7cf6",
+      "parent_id": "a1a1d196-ed15-44a1-89f6-ef9aad5255c0",
       "pagina_inicio": 7,
       "pagina_fin": 7,
       "seccion": "7. REUNIÓN GARANTÍAS",
@@ -310,10 +310,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ba89c168-1467-4dac-a2cc-0e2af5a99cb4",
+      "chunk_id": "aa66a28d-dd10-4b0a-9c45-cb539e973744",
       "texto": "La siguiente reunión se realizará una vez avanzada la ingeniería y antes de la compra de los equipos principales. El ADC organizará las siguientes reuniones.\n\nEl   ADC  asignado al Proyecto levantará el acta de dicha Reunión de Transferencia incluyendo todas las preguntas que hubieran surgido.",
       "nivel": "child",
-      "parent_id": "59993527-d074-452b-b6d4-18e93b9d7cf6",
+      "parent_id": "a1a1d196-ed15-44a1-89f6-ef9aad5255c0",
       "pagina_inicio": 7,
       "pagina_fin": 7,
       "seccion": "7. REUNIÓN GARANTÍAS",
@@ -326,7 +326,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4b26ef1b-3722-4187-8bc0-63f14741161c",
+      "chunk_id": "30369145-d19c-45f9-81a3-0ada44c4c1c3",
       "texto": "Una vez  lanzado el proyecto, el Jefe de Proyecto y/o el ADC convocarán una reunión semanal, a la que asistirán los siguientes participantes del Proyecto:\n\n Jefe de Proyecto/adjunto\n\n Ingenieros de Proyecto\n\n Jefe de ingeniería de Proyecto\n\n Jefe construcción de Proyecto\n\n Jefe de Planificación y Control de Costes de Proyecto\n\n Jefe HSE de Proyecto\n\n Jefe de Calidad de Proyecto\n\n Coordinador de Compras\n\n Site Manager (vía telefónica si no está presente en Madrid)\n\nEn una de cada dos reuniones (cada 15 días) participarán, además de los anteriores, los líderes de disciplina.\n\nEs muy importante que estas reuniones se realicen en coordinación con la obra con la participación del jefe de construcción por lo que será necesario, en caso de que el personal de obra no esté disponible en Madrid, programar una conferencia telefónica.\n\nEl ADC dará seguimiento a todas aquellas incidencias, eventos o circunstancias que a lo largo del desarrollo del proyecto pudieran afectar al plazo, precio (sobrecostes o ahorros), riesgos o incumplimientos del Contrato. En esta reunión se revisarán al menos los siguientes puntos:\n\n Revisión de las acciones pendientes de semanas anteriores\n\n Nuevas   solicitudes   del   cliente   en   lo   que   respecta   a   ingeniería,   compras   y construcción. Se revisará si esta nueva solicitud está dentro del alcance del contrato.\n\n Si existe socio, nuevos eventos/circunstancias surgidos durante la semana anterior.\n\n Nuevos eventos /circunstancias surgidos con suministradores de pedidos principales en la semana anterior\n\n Posibles modificaciones que puedan suponer una orden de cambio revisando:\n\no Aquellas que partan de una modificación de la ingeniería\n\no Solicitudes de suministradores\n\no Solicitudes de subcontratistas\n\n Estado de las ordenes de cambio/ reclamaciones y puntos pendientes que requieran feedback del equipo de proyecto\n\n Propuestas de Ingeniería de valor (value engineering) que surjan de las disciplinas\n\n Propuestas de posibles ahorros de coste (cost savings)\n\n Estado de notificaciones al cliente (Propuesta de cambios,  reclamaciones…)\n\nDurante la reunión, los eventos que puedan dar lugar a un cambio en el contrato, se registrarán en el Contractual LogBook (plantilla 'MI-117E1- Contractual Logbook). En especial se prestará especial cuidado en cumplimentar cada semana la primera página del formato indicando la descripción del evento, las acciones que se tomarán, los posibles impactos, documentos de referencia y  estatus.  Del mismo modo, se reflejarán, los tiempos de respuesta siempre respetando los tiempos acordados contractualmente. El ADC mantendrá actualizado el Contractual Logbook y lo distribuirá semanalmente tanto al Jefe e Ingenieros de Proyecto, y al JDNOG. Cada mes, se archivará en el servidor de DNOG, el documento con los últimos cambios del mes en curso. También el ADC lo enviará al Jefe de Control de gestión, al Director de Operaciones y al Director Comercial. Tras la reunión, salvo no aprobación del Jefe de Proyecto, se enviarán comunicaciones escritas al cliente sobre las situación acaecida en el Proyecto que supongan o puedan suponer un coste y plazo extra. Para ello, se seguirá el procedimiento establecido en cada   contrato   y   se   prepararán   las   ordenes   de   cambio/   reclamaciones   que   sean necesarias. Como se establece en el documento MI-116 E, el ADC participará sólo en la preparación de la parte contractual de la orden de cambio/ reclamación, siendo responsabilidad del Jefe de Proyecto y/o sus Ingenieros de Proyecto la coordinación con todas las áreas del proyecto (ingeniería, compras, construcción, planning, costes…) de la orden de cambio/reclamación, así como de su estimación económica. En cualquier caso, el ADC no debe desligarse de la parte no contractual de modo que pueda hacer su trabajo correctamente.",
       "nivel": "parent",
       "parent_id": null,
@@ -342,10 +342,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e80a8a23-2bcc-4e37-a160-f022d11b34b5",
+      "chunk_id": "55ba9f8a-b53a-4d10-b7da-96f699af81e3",
       "texto": "Una vez  lanzado el proyecto, el Jefe de Proyecto y/o el ADC convocarán una reunión semanal, a la que asistirán los siguientes participantes del Proyecto:\n\n Jefe de Proyecto/adjunto\n\n Ingenieros de Proyecto\n\n Jefe de ingeniería de Proyecto\n\n Jefe construcción de Proyecto\n\n Jefe de Planificación y Control de Costes de Proyecto\n\n Jefe HSE de Proyecto\n\n Jefe de Calidad de Proyecto\n\n Coordinador de Compras\n\n Site Manager (vía telefónica si no está presente en Madrid)\n\nEn una de cada dos reuniones (cada 15 días) participarán, además de los anteriores, los líderes de disciplina.\n\nEs muy importante que estas reuniones se realicen en coordinación con la obra con la participación del jefe de construcción por lo que será necesario, en caso de que el personal de obra no esté disponible en Madrid, programar una conferencia telefónica.",
       "nivel": "child",
-      "parent_id": "4b26ef1b-3722-4187-8bc0-63f14741161c",
+      "parent_id": "30369145-d19c-45f9-81a3-0ada44c4c1c3",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "8. REUNION SEMANAL DE REVISIÓN DE CONTRATO, RIESGOS Y OPORTUNIDADES",
@@ -358,10 +358,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "00380381-c795-42b4-8a0f-d736c9c62e84",
+      "chunk_id": "0a78ea86-c2fb-453d-85b3-c09694ce0294",
       "texto": "El ADC dará seguimiento a todas aquellas incidencias, eventos o circunstancias que a lo largo del desarrollo del proyecto pudieran afectar al plazo, precio (sobrecostes o ahorros), riesgos o incumplimientos del Contrato. En esta reunión se revisarán al menos los siguientes puntos:\n\n Revisión de las acciones pendientes de semanas anteriores\n\n Nuevas   solicitudes   del   cliente   en   lo   que   respecta   a   ingeniería,   compras   y construcción. Se revisará si esta nueva solicitud está dentro del alcance del contrato.\n\n Si existe socio, nuevos eventos/circunstancias surgidos durante la semana anterior.",
       "nivel": "child",
-      "parent_id": "4b26ef1b-3722-4187-8bc0-63f14741161c",
+      "parent_id": "30369145-d19c-45f9-81a3-0ada44c4c1c3",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "8. REUNION SEMANAL DE REVISIÓN DE CONTRATO, RIESGOS Y OPORTUNIDADES",
@@ -374,10 +374,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "82ba4a1d-f871-4ff5-bd3d-f95a15857636",
+      "chunk_id": "ffff71a2-ec0f-49e9-b5d7-cc0294884a71",
       "texto": " Si existe socio, nuevos eventos/circunstancias surgidos durante la semana anterior.\n\n Nuevos eventos /circunstancias surgidos con suministradores de pedidos principales en la semana anterior\n\n Posibles modificaciones que puedan suponer una orden de cambio revisando:\n\no Aquellas que partan de una modificación de la ingeniería\n\no Solicitudes de suministradores\n\no Solicitudes de subcontratistas\n\n Estado de las ordenes de cambio/ reclamaciones y puntos pendientes que requieran feedback del equipo de proyecto\n\n Propuestas de Ingeniería de valor (value engineering) que surjan de las disciplinas\n\n Propuestas de posibles ahorros de coste (cost savings)\n\n Estado de notificaciones al cliente (Propuesta de cambios,  reclamaciones…)\n\nDurante la reunión, los eventos que puedan dar lugar a un cambio en el contrato, se registrarán en el Contractual LogBook (plantilla 'MI-117E1- Contractual Logbook).",
       "nivel": "child",
-      "parent_id": "4b26ef1b-3722-4187-8bc0-63f14741161c",
+      "parent_id": "30369145-d19c-45f9-81a3-0ada44c4c1c3",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "8. REUNION SEMANAL DE REVISIÓN DE CONTRATO, RIESGOS Y OPORTUNIDADES",
@@ -390,10 +390,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2b76b7f8-d134-4759-97f7-4f35f38589fa",
+      "chunk_id": "cd888602-c87c-4101-9c29-40a3b3a6cccd",
       "texto": "En especial se prestará especial cuidado en cumplimentar cada semana la primera página del formato indicando la descripción del evento, las acciones que se tomarán, los posibles impactos, documentos de referencia y  estatus.  Del mismo modo, se reflejarán, los tiempos de respuesta siempre respetando los tiempos acordados contractualmente. El ADC mantendrá actualizado el Contractual Logbook y lo distribuirá semanalmente tanto al Jefe e Ingenieros de Proyecto, y al JDNOG. Cada mes, se archivará en el servidor de DNOG, el documento con los últimos cambios del mes en curso. También el ADC lo enviará al Jefe de Control de gestión, al Director de Operaciones y al Director Comercial. Tras la reunión, salvo no aprobación del Jefe de Proyecto, se enviarán comunicaciones escritas al cliente sobre las situación acaecida en el Proyecto que supongan o puedan suponer un coste y plazo extra.",
       "nivel": "child",
-      "parent_id": "4b26ef1b-3722-4187-8bc0-63f14741161c",
+      "parent_id": "30369145-d19c-45f9-81a3-0ada44c4c1c3",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "8. REUNION SEMANAL DE REVISIÓN DE CONTRATO, RIESGOS Y OPORTUNIDADES",
@@ -406,10 +406,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "20102217-e928-4352-ab92-6e455dcdd60b",
+      "chunk_id": "5800c1c6-80c7-4def-a5b9-518e70b177a6",
       "texto": "Para ello, se seguirá el procedimiento establecido en cada   contrato   y   se   prepararán   las   ordenes   de   cambio/   reclamaciones   que   sean necesarias. Como se establece en el documento MI-116 E, el ADC participará sólo en la preparación de la parte contractual de la orden de cambio/ reclamación, siendo responsabilidad del Jefe de Proyecto y/o sus Ingenieros de Proyecto la coordinación con todas las áreas del proyecto (ingeniería, compras, construcción, planning, costes…) de la orden de cambio/reclamación, así como de su estimación económica. En cualquier caso, el ADC no debe desligarse de la parte no contractual de modo que pueda hacer su trabajo correctamente.",
       "nivel": "child",
-      "parent_id": "4b26ef1b-3722-4187-8bc0-63f14741161c",
+      "parent_id": "30369145-d19c-45f9-81a3-0ada44c4c1c3",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "8. REUNION SEMANAL DE REVISIÓN DE CONTRATO, RIESGOS Y OPORTUNIDADES",
@@ -422,7 +422,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9c7bbbce-a21d-4746-9a1c-8d2c7a1a650b",
+      "chunk_id": "1e13c357-bc1f-4ca7-b6f6-a6dcc4141eab",
       "texto": "Durante la realización de su trabajo, el ADC recopilará las lecciones aprendidas en el documento MI-120E. Adicionalmente a su almacenamiento en el servidor de DNOG, el documento será enviado a:\n\nJDE: Jefe de Estimaciones\n\nJDNOG: Jefe de Desarrollo de Negocio OG\n\n JDO: Jefe de Ofertas\n\n DC: Director Comercial\n\n Director de Operaciones\n\nARCHIVO DOCUMENTACIÓN GENERADA POR EL ADMINISTRADOR DEL CONTRATO\n\nCon independencia del archivo que cada proyecto lleve a cabo, el ADC archivará la documentación generada por él y de referencia para el Proyecto, según la distribución del\n\nárbol de almacenamiento de información establecida en la instrucción de trabajo IT-\n\nDN-03. La información que se almacenará, se dividirá del siguiente modo:\n\nSe almacenarán las comunicaciones más importantes realizadas con el cliente desde el punto de vista contractual.\n\nSe almacenará el contrato firmado por el cliente y sus anexos así como los documentos en nativo.\n\nDocumentos Contractuales\n\nSe almacenarán todos los documentos procedentes de la fase de oferta así como los realizados/ actualizados en fase contractual.\n\nSe podrán crear nuevas carpetas, previo acuerdo interno junto al JDNOG. Ejemplo de   otras   carpetas   son   subcontratos,   acuerdos   con   socios,   etc.   en   los   que   el departamento de DNOG haya participado.",
       "nivel": "parent",
       "parent_id": null,
@@ -438,10 +438,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d3fe0256-019f-4c7a-ac2e-24f98f566503",
+      "chunk_id": "6d964e44-677a-487b-8065-bf336bf788e7",
       "texto": "Durante la realización de su trabajo, el ADC recopilará las lecciones aprendidas en el documento MI-120E. Adicionalmente a su almacenamiento en el servidor de DNOG, el documento será enviado a:\n\nJDE: Jefe de Estimaciones\n\nJDNOG: Jefe de Desarrollo de Negocio OG\n\n JDO: Jefe de Ofertas\n\n DC: Director Comercial\n\n Director de Operaciones\n\nARCHIVO DOCUMENTACIÓN GENERADA POR EL ADMINISTRADOR DEL CONTRATO\n\nCon independencia del archivo que cada proyecto lleve a cabo, el ADC archivará la documentación generada por él y de referencia para el Proyecto, según la distribución del\n\nárbol de almacenamiento de información establecida en la instrucción de trabajo IT-\n\nDN-03. La información que se almacenará, se dividirá del siguiente modo:\n\nSe almacenarán las comunicaciones más importantes realizadas con el cliente desde el punto de vista contractual.\n\nSe almacenará el contrato firmado por el cliente y sus anexos así como los documentos en nativo.",
       "nivel": "child",
-      "parent_id": "9c7bbbce-a21d-4746-9a1c-8d2c7a1a650b",
+      "parent_id": "1e13c357-bc1f-4ca7-b6f6-a6dcc4141eab",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "8. REUNION SEMANAL DE REVISIÓN DE CONTRATO, RIESGOS Y OPORTUNIDADES",
@@ -454,10 +454,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "25b28d58-c793-4aca-944b-f39c094f7f71",
+      "chunk_id": "8324a0f9-fcc0-49e7-8e02-147af3607061",
       "texto": "Documentos Contractuales\n\nSe almacenarán todos los documentos procedentes de la fase de oferta así como los realizados/ actualizados en fase contractual.\n\nSe podrán crear nuevas carpetas, previo acuerdo interno junto al JDNOG. Ejemplo de   otras   carpetas   son   subcontratos,   acuerdos   con   socios,   etc.   en   los   que   el departamento de DNOG haya participado.",
       "nivel": "child",
-      "parent_id": "9c7bbbce-a21d-4746-9a1c-8d2c7a1a650b",
+      "parent_id": "1e13c357-bc1f-4ca7-b6f6-a6dcc4141eab",
       "pagina_inicio": 7,
       "pagina_fin": 10,
       "seccion": "8. REUNION SEMANAL DE REVISIÓN DE CONTRATO, RIESGOS Y OPORTUNIDADES",
@@ -470,7 +470,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e45d8f3b-f0f5-4497-86bc-7158b7f0cb30",
+      "chunk_id": "c8314671-a502-4d92-a9fa-ca3f505a5736",
       "texto": "Antes enviar cualquier notificación o propuesta de Orden de Cambio que suponga una modificación   de   los   hitos   contractuales   (fecha   o   definición)   o   una   variación   de   las responsabilidades, el ADC preparará, en coordinación con el   Jefe de Proyecto, una modificación del documento MI-113E/1 timeline.\n\nDel mismo modo, si se prevé una variación en las garantías del contrato, el ADC organizará una reunión de garantías donde se revisará el impacto de las garantías. En caso de duda, se deberá solicitar la confirmación del Responsable del departamento de Procesos.\n\nEsta   actualización   es   independiente   de   la   obligación   del   ADC de   actualizar   los documentos correspondientes, listados en el anexo 2.\n\nUna vez los documentos hayan sido modificados y archivados en el servidor de DN O&G, y una vez el Jefe de Proyecto haya calculado el coste de la orden de cambio, el ADC junto al Jefe de Proyecto realizará un chequeo para comprobar   que todos los costes definidos   en   la   MI   106   han   sido   considerados.   Ambos   deberán   firmar   la   lista   de verificación que será archivada en el servidor de DN O&G (Documentos Contractuales)",
       "nivel": "parent",
       "parent_id": null,
@@ -485,10 +485,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7ce23681-d567-43f3-bbba-e34eeab884b1",
+      "chunk_id": "a20331b8-66f0-4da7-a6a7-b278f12adc7a",
       "texto": "Antes enviar cualquier notificación o propuesta de Orden de Cambio que suponga una modificación   de   los   hitos   contractuales   (fecha   o   definición)   o   una   variación   de   las responsabilidades, el ADC preparará, en coordinación con el   Jefe de Proyecto, una modificación del documento MI-113E/1 timeline.\n\nDel mismo modo, si se prevé una variación en las garantías del contrato, el ADC organizará una reunión de garantías donde se revisará el impacto de las garantías. En caso de duda, se deberá solicitar la confirmación del Responsable del departamento de Procesos.\n\nEsta   actualización   es   independiente   de   la   obligación   del   ADC de   actualizar   los documentos correspondientes, listados en el anexo 2.",
       "nivel": "child",
-      "parent_id": "e45d8f3b-f0f5-4497-86bc-7158b7f0cb30",
+      "parent_id": "c8314671-a502-4d92-a9fa-ca3f505a5736",
       "pagina_inicio": 11,
       "pagina_fin": 11,
       "seccion": "9.1. ACTUALIZACIÓN DE LA DOCUMENTACIÓN ANTE UNA POSIBLE ORDEN DE CAMBIO",
@@ -500,10 +500,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4e66f4ae-94a5-49c1-bc5c-50ba51955c78",
+      "chunk_id": "7c1514c7-16fb-4e7f-8e09-a4b83939fcfd",
       "texto": "Una vez los documentos hayan sido modificados y archivados en el servidor de DN O&G, y una vez el Jefe de Proyecto haya calculado el coste de la orden de cambio, el ADC junto al Jefe de Proyecto realizará un chequeo para comprobar   que todos los costes definidos   en   la   MI   106   han   sido   considerados.   Ambos   deberán   firmar   la   lista   de verificación que será archivada en el servidor de DN O&G (Documentos Contractuales)",
       "nivel": "child",
-      "parent_id": "e45d8f3b-f0f5-4497-86bc-7158b7f0cb30",
+      "parent_id": "c8314671-a502-4d92-a9fa-ca3f505a5736",
       "pagina_inicio": 11,
       "pagina_fin": 11,
       "seccion": "9.1. ACTUALIZACIÓN DE LA DOCUMENTACIÓN ANTE UNA POSIBLE ORDEN DE CAMBIO",
@@ -515,7 +515,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "481f0cb5-6577-42e9-80b5-19cd75414984",
+      "chunk_id": "13a6b829-8114-439d-9ef4-c6ec269df8e7",
       "texto": "El   ADC   de   contrato,   en   coordinación   continua   con   el   equipo   de   proyecto,   es   el responsable de la gestión de riesgos del proyecto.\n\nPara la correcta evaluación se utilizará el documento MI-122/1 donde se responderá al checklist detallado.\n\nDurante todo  el proyecto, el ADC debe actualizar al análisis de riesgos proveniente de la fase de oferta. En caso de no recibirle de la fase anterior, este documento debe ser preparado por el ADC.\n\nEn caso de que el cliente solicite una evaluación de riesgos, no debe enviarse el documento interno al cliente. Al contrario, debe enviarse sólo los riesgos a los que el proyecto esté sometido.\n\nSi el cliente tiene un formato particular, el mismo debe de ser preparado de acuerdo a las instrucciones del cliente. De modo adicional a la citada evaluación, el equipo de Gestión de Control del Proyecto prepara una identificación de riesgos y oportunidades junto con el control de costes. Esta evaluación,   que   busca   una   mayor   evaluación   cuantitativa,   es   independiente   de   la realizada por el ADC. El análisis de riesgos debe ser actualizado de modo mensual. Cuando el ADC detecte una variación del riesgo, el mismo debe informar al JDNOG y al Jefe de Proyecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -530,10 +530,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bb91b74e-d537-4c87-a88a-12ae4cd9d045",
+      "chunk_id": "c99f311c-bccf-4a57-bdc9-8ffdeca0ea82",
       "texto": "El   ADC   de   contrato,   en   coordinación   continua   con   el   equipo   de   proyecto,   es   el responsable de la gestión de riesgos del proyecto.\n\nPara la correcta evaluación se utilizará el documento MI-122/1 donde se responderá al checklist detallado.\n\nDurante todo  el proyecto, el ADC debe actualizar al análisis de riesgos proveniente de la fase de oferta. En caso de no recibirle de la fase anterior, este documento debe ser preparado por el ADC.\n\nEn caso de que el cliente solicite una evaluación de riesgos, no debe enviarse el documento interno al cliente. Al contrario, debe enviarse sólo los riesgos a los que el proyecto esté sometido.\n\nSi el cliente tiene un formato particular, el mismo debe de ser preparado de acuerdo a las instrucciones del cliente. De modo adicional a la citada evaluación, el equipo de Gestión de Control del Proyecto prepara una identificación de riesgos y oportunidades junto con el control de costes.",
       "nivel": "child",
-      "parent_id": "481f0cb5-6577-42e9-80b5-19cd75414984",
+      "parent_id": "13a6b829-8114-439d-9ef4-c6ec269df8e7",
       "pagina_inicio": 11,
       "pagina_fin": 12,
       "seccion": "10. IDENTIFICACIÓN Y GESTIÓN DE RIESGOS",
@@ -545,10 +545,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fcdeee05-5b76-436f-b460-ce6524700a28",
+      "chunk_id": "5b7f101d-f251-47fb-b5e1-863c1249a145",
       "texto": "Esta evaluación,   que   busca   una   mayor   evaluación   cuantitativa,   es   independiente   de   la realizada por el ADC. El análisis de riesgos debe ser actualizado de modo mensual. Cuando el ADC detecte una variación del riesgo, el mismo debe informar al JDNOG y al Jefe de Proyecto.",
       "nivel": "child",
-      "parent_id": "481f0cb5-6577-42e9-80b5-19cd75414984",
+      "parent_id": "13a6b829-8114-439d-9ef4-c6ec269df8e7",
       "pagina_inicio": 11,
       "pagina_fin": 12,
       "seccion": "10. IDENTIFICACIÓN Y GESTIÓN DE RIESGOS",
@@ -560,7 +560,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "279f11005fbd4494844fe606872c4eff",
+      "chunk_id": "5cefeacefcab43b7ad3b41a555e2dcba",
       "texto": "| PROCEDIMIENTO DE ADMINISTRACIÓN DE CONTRATOS PR-07 EDICIÓN 2 PAGINA 13   |\n|--------------------------------------------------------------------------|",
       "nivel": "child",
       "parent_id": null,
@@ -575,8 +575,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2c764a76-d5c5-4e02-a3b0-814de9907175",
-      "texto": "[Descripción visual: La imagen es un **diagrama de flujo** titulado \"ANEXO 1 Contract Timeline. La vida del contrato\". Describe el proceso de gestión de contratos en varias etapas con documentos, reuniones y hitos.\n\n### Componentes del diagrama:\n\n#### Documentos:\n- **F101**: Documento inicial.\n- **MI-122/1**: Identificación y cuantificación de riesgos.\n- **MI-118E/4**: Timeline diagram.\n- **MI-115E/1**: Resumen ejecutivo.\n- **MI-114E/1**: Formato para general las CGCP.\n- **MI-118E/1 y MI-118E/2**: Cuadro de garantías interno y cliente.\n- **MI-112E/1**: Lecciones aprendidas.\n- **MI-118E/7**: Cierre de proyecto.\n\n#### Jalones (Hitos):\n- **B/NB**\n- **Lanzamiento/Estrategia**\n- **Cierre**\n- **Bid**\n- **Award/NTP**\n- **PA**\n- **FA**\n\n#### Reuniones:\n- **Reunión B/NB**\n- **Reunión Contrato**\n- **Reunión Lanzamiento**\n- **Reunión Estrategia**\n- **Reunión Garantías**\n- **Reunión Riesgos**\n- **Negociación Subcontratos principales**\n- **Negociación Cliente**\n- **Reunión de Cierre**\n- **Reunión de Traspaso**\n- **Contract Awareness Session**\n\n#### Flechas y conexiones:\n- Conexiones que muestran el flujo entre documentos, reuniones y jalones.\n- Fechas y tiempos máximos, como \"7d max\" para ciertas actividades.\n\n### Notas adicionales:\n- Se menciona la necesidad de revisiones adicionales como el \"Libro de Proyecto-PILS\" y otras reuniones específicas relacionadas con garantías y cierres de proyectos.\n  \nEste diagrama detalla de manera secuencial los pasos necesarios en la gestión de contratos dentro de la empresa.]",
+      "chunk_id": "04f866bf-b2a3-4769-bc5e-250a9bafe5aa",
+      "texto": "[Descripción visual: La imagen es un diagrama de flujo que detalla la vida de un contrato en el contexto de una empresa de ingeniería industrial.\n\n### Tipo de diagrama:\n- Diagrama de flujo del proceso contractual.\n\n### Componentes y etiquetas principales:\n- **Documentos:**\n  - MI-106/1: Lista de verificación de las órdenes de cambio.\n  - MI-110F/1: Formato para generar las condiciones generales de subcontratación.\n  - MI-110G/1: Plantilla tabla de garantías y pruebas DIB/GA5.\n  - MI-110H/2: Plantilla tabla de garantías y pruebas Power.\n  - MI-111E/1: Identificación y cuantificación de riesgos.\n  - MI-113F/1: Contractual Logbook.\n  - MI-118E/1: Log Comunicaciones.\n  - MI-119E/1: Cierre de Proyecto.\n  - MI-120E/1: Lecciones aprendidas.\n  - MI-114E/1: Comentarios al contrato (tabla comparativa).\n  - MI-122F/1, MI-112F/1: Different documents for summaries and risk management.\n\n- **Jalones:**\n  - B/NB (Inicio de contrato)\n  - Lanzamiento/Estrategia\n  - Cierre\n  - BID\n  - AWARD/NTP\n  - PA\n  - FA\n\n- **Reuniones:**\n  - Reunión B/NB\n  - Reunión garantías\n  - Reunión Riesgos\n  - Reunión de Cierre\n  - Negociación Cliente\n  - Reunión Lanzamiento\n  - Reunión Estrategia\n  - Negociación Subcontratistas\n  - Reunión de traspaso\n  - Contract Awareness Session\n  - Reuniones internas contractuales de ingeniería, procura, y construcción\n  - Reuniones cliente\n  - Reuniones con subcontratistas y suministradores\n  - Reunión Garantías (Para Disciplinas)\n  - Reunión Cierre Proyecto (PA y FA)\n\n### Notas adicionales:\n- Instrucciones específicas y listas de documentos deben ser revisadas a lo largo de la vida del contrato según notas en el diagrama.\n\nEsta información detalla los pasos y documentos involucrados en el ciclo de vida de un contrato dentro de la organización, proporcionando un marco para el seguimiento y gestión de proyectos.]",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 14,
@@ -590,10 +590,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a2540c23-f452-4bc0-bfc3-651cb609ed65",
-      "texto": "[Descripción visual: La imagen es un **diagrama de flujo** titulado \"ANEXO 1 Contract Timeline. La vida del contrato\". Describe el proceso de gestión de contratos en varias etapas con documentos, reuniones y hitos.\n\n### Componentes del diagrama:\n\n#### Documentos:\n- **F101**: Documento inicial.\n- **MI-122/1**: Identificación y cuantificación de riesgos.\n- **MI-118E/4**: Timeline diagram.\n- **MI-115E/1**: Resumen ejecutivo.\n- **MI-114E/1**: Formato para general las CGCP.\n- **MI-118E/1 y MI-118E/2**: Cuadro de garantías interno y cliente.\n- **MI-112E/1**: Lecciones aprendidas.\n- **MI-118E/7**: Cierre de proyecto.",
+      "chunk_id": "b30a7dac-2dad-4d26-aa23-f6e15f95fd20",
+      "texto": "[Descripción visual: La imagen es un diagrama de flujo que detalla la vida de un contrato en el contexto de una empresa de ingeniería industrial.\n\n### Tipo de diagrama:\n- Diagrama de flujo del proceso contractual.\n\n### Componentes y etiquetas principales:\n- **Documentos:**\n  - MI-106/1: Lista de verificación de las órdenes de cambio.\n  - MI-110F/1: Formato para generar las condiciones generales de subcontratación.\n  - MI-110G/1: Plantilla tabla de garantías y pruebas DIB/GA5.\n  - MI-110H/2: Plantilla tabla de garantías y pruebas Power.\n  - MI-111E/1: Identificación y cuantificación de riesgos.\n  - MI-113F/1: Contractual Logbook.\n  - MI-118E/1: Log Comunicaciones.\n  - MI-119E/1: Cierre de Proyecto.\n  - MI-120E/1: Lecciones aprendidas.\n  - MI-114E/1: Comentarios al contrato (tabla comparativa).",
       "nivel": "child",
-      "parent_id": "2c764a76-d5c5-4e02-a3b0-814de9907175",
+      "parent_id": "04f866bf-b2a3-4769-bc5e-250a9bafe5aa",
       "pagina_inicio": 14,
       "pagina_fin": 14,
       "seccion": "ANEXO I CONTRACT TIME LINE",
@@ -605,10 +605,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5e08a04e-1b17-4a6f-a237-e7cb231a29c8",
-      "texto": "- **MI-118E/7**: Cierre de proyecto.\n\n#### Jalones (Hitos):\n- **B/NB**\n- **Lanzamiento/Estrategia**\n- **Cierre**\n- **Bid**\n- **Award/NTP**\n- **PA**\n- **FA**\n\n#### Reuniones:\n- **Reunión B/NB**\n- **Reunión Contrato**\n- **Reunión Lanzamiento**\n- **Reunión Estrategia**\n- **Reunión Garantías**\n- **Reunión Riesgos**\n- **Negociación Subcontratos principales**\n- **Negociación Cliente**\n- **Reunión de Cierre**\n- **Reunión de Traspaso**\n- **Contract Awareness Session**\n\n#### Flechas y conexiones:\n- Conexiones que muestran el flujo entre documentos, reuniones y jalones.\n- Fechas y tiempos máximos, como \"7d max\" para ciertas actividades.",
+      "chunk_id": "0ef32a34-61e1-4cab-8f48-fb7fd36b1774",
+      "texto": "- MI-114E/1: Comentarios al contrato (tabla comparativa).\n  - MI-122F/1, MI-112F/1: Different documents for summaries and risk management.",
       "nivel": "child",
-      "parent_id": "2c764a76-d5c5-4e02-a3b0-814de9907175",
+      "parent_id": "04f866bf-b2a3-4769-bc5e-250a9bafe5aa",
       "pagina_inicio": 14,
       "pagina_fin": 14,
       "seccion": "ANEXO I CONTRACT TIME LINE",
@@ -620,10 +620,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "16fd86d9-e095-476f-8612-dd8e512502fe",
-      "texto": "### Notas adicionales:\n- Se menciona la necesidad de revisiones adicionales como el \"Libro de Proyecto-PILS\" y otras reuniones específicas relacionadas con garantías y cierres de proyectos.\n  \nEste diagrama detalla de manera secuencial los pasos necesarios en la gestión de contratos dentro de la empresa.]",
+      "chunk_id": "5638533a-a3ab-4ce7-b66a-2f04b244f502",
+      "texto": "- **Jalones:**\n  - B/NB (Inicio de contrato)\n  - Lanzamiento/Estrategia\n  - Cierre\n  - BID\n  - AWARD/NTP\n  - PA\n  - FA\n\n- **Reuniones:**\n  - Reunión B/NB\n  - Reunión garantías\n  - Reunión Riesgos\n  - Reunión de Cierre\n  - Negociación Cliente\n  - Reunión Lanzamiento\n  - Reunión Estrategia\n  - Negociación Subcontratistas\n  - Reunión de traspaso\n  - Contract Awareness Session\n  - Reuniones internas contractuales de ingeniería, procura, y construcción\n  - Reuniones cliente\n  - Reuniones con subcontratistas y suministradores\n  - Reunión Garantías (Para Disciplinas)\n  - Reunión Cierre Proyecto (PA y FA)\n\n### Notas adicionales:\n- Instrucciones específicas y listas de documentos deben ser revisadas a lo largo de la vida del contrato según notas en el diagrama.",
       "nivel": "child",
-      "parent_id": "2c764a76-d5c5-4e02-a3b0-814de9907175",
+      "parent_id": "04f866bf-b2a3-4769-bc5e-250a9bafe5aa",
       "pagina_inicio": 14,
       "pagina_fin": 14,
       "seccion": "ANEXO I CONTRACT TIME LINE",
@@ -635,7 +635,22 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "831339187c844481a40c618eda29b5ab",
+      "chunk_id": "8ede213c-cfe0-48e5-93a8-8a3cee5161e9",
+      "texto": "Esta información detalla los pasos y documentos involucrados en el ciclo de vida de un contrato dentro de la organización, proporcionando un marco para el seguimiento y gestión de proyectos.]",
+      "nivel": "child",
+      "parent_id": "04f866bf-b2a3-4769-bc5e-250a9bafe5aa",
+      "pagina_inicio": 14,
+      "pagina_fin": 14,
+      "seccion": "ANEXO I CONTRACT TIME LINE",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "edeef8953ced42778e68d3a669b78d43",
       "texto": "| MI-106   | Lista de verificación de órdenes de cambio                          |\n|----------|---------------------------------------------------------------------|\n| MI-110   | Formato para generar las condiciones generales de subcontratación   |\n| MI-111E  | Plantilla tabla de garantías y pruebas OIL&GAS                      |\n| MI-111E  | Plantilla tabla de garantías y pruebas POWER                        |\n| MI-112E  | Identificación y cuantificación de riesgos                          |\n| MI-113E  | Timeline Diagram                                                    |\n| MI-114E  | Comentarios al contrato                                             |\n| MI-115E  | Resumen Ejecutivo                                                   |\n| MI-116E  | Formato para generar la condiciones generales de compra de proyecto |\n| MI-117E  | Contractual Logbook                                                 |\n| MI-118E  | Log Comunicaciones                                                  |\n| MI-119E  | Cierre de Proyecto                                                  |\n| MI-120E  | Lecciones aprendidas                                                |\n| MI-121E  | Lista de suministradores con input de Contratos                     |",
       "nivel": "child",
       "parent_id": null,
@@ -650,7 +665,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "09f22b0b-f28c-4b52-9c7e-5cbfa946e73f",
+      "chunk_id": "2d7dd683-4d52-4959-9088-f2c6ed726b9f",
       "texto": "Nota: Todos estos formatos están accesibles mediante Word o Excel en la carpeta de formatos internos de la compañía.",
       "nivel": "parent",
       "parent_id": null,
@@ -665,8 +680,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "742c1bcf58304456852a69c2a6b0d073",
-      "texto": "| Reunión                                                                                                                                              | Organizado                | Frecuencia                                                            | Participantes Obligatorios                                                                                                               | Participantes Opcionales                       | Participantes Opcionales   | Documentos a utilizar                                                        |\n|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|----------------------------|------------------------------------------------------------------------------|\n| Contract Awareness Session, Value Engineering y Cost saving                                                                                          | IDN/AC                    | Una al comienzo del proyecto                                          | • Todo el equipo de proyecto asignado • Jefe de oferta • Jefe dpt. DN O&G                                                                | • Jefe dpt. Ofertas • COO • Director comercial | • • • • • • • •            | DN-CO-06 DN-CO-03 DN-CO-02 DN-CO-01 DN-OF-06 DN-OF-05 DN- OF-04A/B- DN-OF-07 |\n| Reunión Garantías (para disciplinas)                                                                                                                 | IDN/AC                    | Una inicial. El resto de dudas garantías en reunión interna garantías | • Todos los jefes de disciplina de ingeniería • Responsable compras • IDN/AC • Jefe dpt. proceso                                         | • Jefe dpt. DN O&G                             | • •                        | DN- OF-04A/B DN-OF-06                                                        |\n| Reunión de revisión de contrato, riesgos y oportunidades (a planificar, si es posible dentro de la reunión de proyecto. Sino, hacerla independiente) | Dirección de proyectos/AC | Semanal en la que participe:                                          | • Jefe de Proyecto/adjunt o • Jefe de ing. Proyecto • Jefe const. proyecto • Jefe Control de costes proyecto • Jefe HSE/Calidad proyecto | • Jefe dpt. DN O&G                             |                            | • DN-OF-05 • DN-CO-02                                                        |\n| Reunión de revisión de contrato, riesgos y oportunidades (a planificar, si es posible dentro de la reunión de proyecto. Sino, hacerla independiente) | Dirección de proyectos/AC | En una de cada dos (cada 15 días) participarán:                       | • Los anteriores más los líderes de disciplina e ingeniero de proyecto                                                                   | • Jefe dpt. DN O&G                             |                            | • DN-OF-05 • DN-CO-02                                                        |\n| Reunión Cierre Proyecto (PA y FA)                                                                                                                    | IDN/AC                    | Dos, una con PA y otra con FA                                         | • Jefe de Proyecto/adjunt o • Jefe de ing. Proyecto • Jefe const. proyecto • Jefe Control de costes proyecto • Jefe HSE/Calidad proyecto | • Jefe dpt. DN O&G                             |                            | • PR-18                                                                      |",
+      "chunk_id": "9703d26d5c3144318e3899aa10cc0e44",
+      "texto": "```markdown\n| Reunión                                                                         | Organizado           | Frecuencia                                                                                                                                 | Participantes Obligatorios                                                                                                                                                                                                       | Participantes Opcionales              | Documentos a utilizar           |\n|---------------------------------------------------------------------------------|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|---------------------------------|\n| Contract Awareness Session, Value Engineering y Cost saving                     | IDN/AC               | Una al comienzo del proyecto                                                                                                               | - Todo el equipo de proyecto asignado  - Jefe de oferta  - Jefe dpt. DN O&G                                                                                                                                                       | - Jefe dpt. Ofertas  - COO   - Director comercial | - DN-CO-06  - DN-CO-03  - DN-CO-02  - DN-CO-01  - DN-OF-06  - DN-OF-05  - DN-OF-04A/B  - DN-OF-07 |\n| Reunión Garantías (para disciplinas)                                            | IDN/AC               | Una inicial. El resto de dudas garantías en reunión interna garantías                                                                      | - Todos los jefes de disciplina de ingeniería  - Responsable compras  - IDN/AC  - Jefe dpt. proceso                                                                                                                            | - Jefe dpt. DN O&G      | - DN-OF-04A/B  - DN-OF-06        |\n| Reunión de revisión de contrato, riesgos y oportunidades (a planificar, si es posible dentro de la reunión de proyecto. Sino, hacerla independiente) | Dirección de proyectos/ AC | Semanal en la que participe:                                                                                                                 | - Jefe de Proyecto/adjunto  - Jefe de ing. Proyecto  - Jefe const. proyecto  - Jefe Control de costes proyecto  - Jefe HSE/Calidad proyecto                                                                                      | - Jefe dpt. DN O&G      | - DN-OF-05  - DN-CO-02          |\n|                                                                                 |                      | En una de cada dos (cada 15 días) participarán:                                                                                             | - Los anteriores más los líderes de disciplina e ingeniero de proyecto                                                                                                                                                           | - Jefe dpt. DN O&G      |                                   |\n| Reunión Cierre Proyecto (PA y FA)                                               | IDN/AC               | Dos, una con PA y otra con FA                                                                                                               | - Jefe de Proyecto/adjunto  - Jefe de ing. Proyecto  - Jefe const. proyecto  - Jefe Control de costes proyecto  - Jefe HSE/Calidad proyecto                                                                                       | - Jefe dpt. DN O&G      | - PR-18                         |\n```",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 18,
@@ -677,7 +692,7 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": true,
-      "tabla_degradada": true
+      "tabla_degradada": false
     }
   ]
 }

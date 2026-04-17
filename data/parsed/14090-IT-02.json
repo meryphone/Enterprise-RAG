@@ -1,5 +1,5 @@
 {
-  "doc_id": "9b2da4137b0e4e58b8d21160d5e0e77d",
+  "doc_id": "9eef0d569aef4e58aacecb402d22520f",
   "nombre_fichero": "14090-IT-02.pdf",
   "metadatos_admin": {
     "empresa": "interquisa",
@@ -13,11 +13,11 @@
     "edicion": "3",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-16T18:44:22+00:00",
+  "fecha_ingesta": "2026-04-17T18:33:05+00:00",
   "chunks": [
     {
-      "chunk_id": "aa8ee46e56154e6fa1b0a873458f1e33",
-      "texto": "| PVA/JAIL   | RRF    | 3       | 22/05/01   | INCLUIDOS COMENTARIOS DE PROYECTO   |\n|------------|--------|---------|------------|-------------------------------------|\n|            | RRF    | 2       | 21/05/01   | INCLUIDOS COMENTARIOS DE PROYECTO   |\n|            | RRF    | 1       | 9/4/2001   | EMISIÓN PARA COMENTARIOS            |\n| APROB.     | VERIF. | EDICION | FECHA      | DESCRIPCION DE LA EDICION           |",
+      "chunk_id": "77a2ae22282a4b6ab685bf3be7a62575",
+      "texto": "```markdown\n| APROB. | VERIF. | EDICION | FECHA    | DESCRIPCION DE LA EDICION           |\n|--------|--------|---------|----------|-------------------------------------|\n| PVA/JA | RRF    | 3       | 22/05/01 | INCLUIDOS COMENTARIOS DE PROYECTO   |\n|        | RRF    | 2       | 21/05/01 | INCLUIDOS COMENTARIOS DE PROYECTO   |\n|        | RRF    | 1       | 9/4/2001 | EMISIÓN PARA COMENTARIOS            |\n```",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 1,
@@ -28,10 +28,10 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": true
+      "tabla_degradada": false
     },
     {
-      "chunk_id": "d3522b88-96c5-4eac-9479-42b36855d8bc",
+      "chunk_id": "44e61cb9-16a0-41d4-93b2-53c2f88bc2a8",
       "texto": "Este   documento   tiene   por   objeto   describir   el   procedimiento   de   control   de   entrada   de documentos en el portal para el proyecto de INTERQUISA.",
       "nivel": "parent",
       "parent_id": null,
@@ -46,7 +46,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "79d60ee2-ed5a-46df-9619-41863678afde",
+      "chunk_id": "2006c1da-d1bf-4583-99b6-ad5c7667d3e9",
       "texto": "Una vez el especialista genera un documento para ser firmado por la dirección del proyecto, se procede del siguiente modo:\n\n-El encargado de introducir el documento y su rendición PDF  en el portal, lo incluye poniendo ' PTE DE FIRMA ' entre paréntesis en el número de documento (en el campo Documento de propiedades), para así indicar que aún no está aprobado.\n\n-Se envía el documento en papel para firma según el plan de calidad del proyecto.\n\nEl ingeniero de proyecto recibe el documento en papel, procediendo a su revisión sólo si el documento se encuentra en el portal.",
       "nivel": "parent",
       "parent_id": null,
@@ -62,7 +62,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "025ce848-9748-4972-a625-d6a320d48f15",
+      "chunk_id": "8cce560f-d031-47e6-a575-619ba4c45eb6",
       "texto": "El   administrador   del   proyecto   recibe   el   documento   firmado,   (primera   persona   que   es informada de la aprobación del documento) y realiza las siguientes acciones:\n\n Registra el documento en los programas de IUI (documento, fecha, edición, etc.).\n\n Busca   en   el   Porta   el   documento,   el   cual   abre   para   realizar   las   siguientes comprobaciones:\n\nEl número de documento del portal corresponde al del documento físico (exacto con guiones, puntos, etc.)\n\nLa fecha y edición son correctas.\n\nLas casillas de firma incluyen las siglas de los firmantes en la edición que se genera\n\nLos documentos tienen formato original y rendición PDF (Si el documento es en su formato original un PDF, no es necesario que tenga una rendición).\n\nNOTA: del resto de comprobaciones, como serían que el documento esté en la ubicación adecuada y con las propiedades y permisos adecuados se encargará Gestión del Conocimiento.\n\n En relación a las comprobaciones anteriores, si hay alguna incorrección, avisará al responsable del documento para realizar las correcciones pertinentes.\n\n Elimina ' PTE DE FIRMA ' del número de documento y termina la tarea, con lo que ya queda claro en el portal que el documento ha sido aprobado.\n\n Hace una copia del documento original y lo devuelve al especialista según el plan de calidad.\n\n Avisa por correo electrónico con el transmital a todos aquellos que deben enterarse de la nueva edición del documento (según la distribución propuesta).\n\n Envía el transmittal y los documentos en papel a aquellos a los que debe dirigirse una copia en papel.",
       "nivel": "parent",
       "parent_id": null,
@@ -78,10 +78,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c87b8f1a-0a7b-4d55-a336-4d346a73b11e",
+      "chunk_id": "eca15449-1a1d-4c0c-81e1-4a79e7a20361",
       "texto": "El   administrador   del   proyecto   recibe   el   documento   firmado,   (primera   persona   que   es informada de la aprobación del documento) y realiza las siguientes acciones:\n\n Registra el documento en los programas de IUI (documento, fecha, edición, etc.).\n\n Busca   en   el   Porta   el   documento,   el   cual   abre   para   realizar   las   siguientes comprobaciones:\n\nEl número de documento del portal corresponde al del documento físico (exacto con guiones, puntos, etc.)\n\nLa fecha y edición son correctas.\n\nLas casillas de firma incluyen las siglas de los firmantes en la edición que se genera\n\nLos documentos tienen formato original y rendición PDF (Si el documento es en su formato original un PDF, no es necesario que tenga una rendición).\n\nNOTA: del resto de comprobaciones, como serían que el documento esté en la ubicación adecuada y con las propiedades y permisos adecuados se encargará Gestión del Conocimiento.",
       "nivel": "child",
-      "parent_id": "025ce848-9748-4972-a625-d6a320d48f15",
+      "parent_id": "8cce560f-d031-47e6-a575-619ba4c45eb6",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "Caso 1:  el documento es aprobado",
@@ -94,10 +94,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "037d9e86-9ba1-4505-b2b2-8bd60f5f39fe",
+      "chunk_id": "5f7c5b60-4ee6-4ec9-9387-7beb177edeef",
       "texto": " En relación a las comprobaciones anteriores, si hay alguna incorrección, avisará al responsable del documento para realizar las correcciones pertinentes.\n\n Elimina ' PTE DE FIRMA ' del número de documento y termina la tarea, con lo que ya queda claro en el portal que el documento ha sido aprobado.\n\n Hace una copia del documento original y lo devuelve al especialista según el plan de calidad.\n\n Avisa por correo electrónico con el transmital a todos aquellos que deben enterarse de la nueva edición del documento (según la distribución propuesta).\n\n Envía el transmittal y los documentos en papel a aquellos a los que debe dirigirse una copia en papel.",
       "nivel": "child",
-      "parent_id": "025ce848-9748-4972-a625-d6a320d48f15",
+      "parent_id": "8cce560f-d031-47e6-a575-619ba4c45eb6",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "Caso 1:  el documento es aprobado",
@@ -110,8 +110,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4fa77028-19e4-4be8-bf85-a147696cdbb1",
-      "texto": "Una vez realizadas las correcciones sobre el documento, previamente a su envío en papel para   firma,   debe   ser   actualizado   (check-out   /   check-in)   (original   y   rendición   PDF), seleccionando como opción para ello 'misma versión', de modo que se sustituye la versión que no ha sido aceptada por la nueva que se envía para aprobación.\n\nNOTA: en este caso no es necesario mandar tarea ya que el ingeniero de proyecto y el administrador mantienen como pendiente  la tarea inicial que se les envió, en la cual se habrá actualizado el contenido del documento.\n\n[Descripción visual: La imagen es una captura de pantalla de una aplicación de gestión de documentos de ingeniería industrial (posiblemente de INTECSA/UHDE). Muestra una lista de documentos y sus respectivas propiedades. A continuación, se detallan los elementos técnicos recuperables:\n\n- **Aplicación Visible:** Sistema de gestión documental de INTECSA/UHDE.\n- **Documentos Enumerados:**\n  1. **Documento:** \"RM-2000-014-4101-1 (PTE DE FIRMA)\"\n     - **Departamento:** Civil y Arquitectura\n     - **OT:** INTERQUISA-PTA4\n     - **Edición:** 01\n     - **Fecha:** 06/2000\n  2. **Documento:** \"RM-2000-014-4106-01\"\n     - **Departamento:** Civil y Arquitectura\n     - **OT:** INTERQUISA-PTA4\n     - **Edición:** 02\n     - **Fecha:** 10/2000\n  3. **Documento:** \"RM-2000-014-4105-01\"\n     - **Departamento:** Civil y Arquitectura\n     - **OT:** INTERQUISA-PTA4\n     - **Edición:** 01\n     - **Fecha:** 11/2000\n  4. **Documento:** \"RM-2000-014-4108-01\"\n     - **Departamento:** Civil y Arquitectura\n     - **OT:** INTERQUISA-PTA4\n     - **Edición:** 01\n     - **Fecha:** 03/2001\n- **Acciones Disponibles para Cada Documento:** Propiedades, Acciones, Auditoría.\n\nNo hay configuraciones ni procedimientos adicionales visibles en la captura.]",
+      "chunk_id": "31e33c5b-eb51-4b18-b7b4-1e75cd94ba18",
+      "texto": "Una vez realizadas las correcciones sobre el documento, previamente a su envío en papel para   firma,   debe   ser   actualizado   (check-out   /   check-in)   (original   y   rendición   PDF), seleccionando como opción para ello 'misma versión', de modo que se sustituye la versión que no ha sido aceptada por la nueva que se envía para aprobación.\n\nNOTA: en este caso no es necesario mandar tarea ya que el ingeniero de proyecto y el administrador mantienen como pendiente  la tarea inicial que se les envió, en la cual se habrá actualizado el contenido del documento.\n\n[Descripción visual: La imagen es una captura de pantalla de una aplicación de gestión documental en el entorno corporativo de INTECSA UHDE. A continuación se detallan los elementos técnicos relevantes:\n\n- **Aplicación**: Sistema de gestión documental.\n- **Vista**: Lista de documentos relacionados con proyectos de ingeniería en el departamento de Civil y Arquitectura, para la OT (Orden de Trabajo) INTERQUISA-PTA4.\n- **Elementos listados**:\n  - **RM-2000-014-4101-1 (PTE DE FIRMA)**:\n    - Preparación del Terreno\n    - Fecha: 06/2000\n    - Edición: 01\n  - **RM-2000-014-4106-01**:\n    - Pilotaje Planta PTA-4\n    - Fecha: 10/2000\n    - Edición: 02\n  - **RM-2000-014-4105-01**:\n    - Obra Civil Planta PTA-4\n    - Fecha: 11/2000\n    - Edición: 01\n  - **RM-2000-014-4108-01**:\n    - Estructura Metálica PTA-4\n    - Fecha: 03/2001\n    - Edición: 01\n\n- **Opciones de acciones para cada documento**: Propiedades, Acciones, Auditoria.\n- **Organización de navegación**:\n  - Secciones de navegación: Inicio, Proyectos, Departamentos, Calidad, Buscar, Tareas, Logout.\n\nNo se muestran configuraciones o procesos internos, sólo se enumeran documentos y sus metadatos básicos.]",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 3,
@@ -125,10 +125,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6bf8f06f-3c30-473f-8e39-1e62505ad605",
-      "texto": "Una vez realizadas las correcciones sobre el documento, previamente a su envío en papel para   firma,   debe   ser   actualizado   (check-out   /   check-in)   (original   y   rendición   PDF), seleccionando como opción para ello 'misma versión', de modo que se sustituye la versión que no ha sido aceptada por la nueva que se envía para aprobación.\n\nNOTA: en este caso no es necesario mandar tarea ya que el ingeniero de proyecto y el administrador mantienen como pendiente  la tarea inicial que se les envió, en la cual se habrá actualizado el contenido del documento.\n\n[Descripción visual: La imagen es una captura de pantalla de una aplicación de gestión de documentos de ingeniería industrial (posiblemente de INTECSA/UHDE). Muestra una lista de documentos y sus respectivas propiedades. A continuación, se detallan los elementos técnicos recuperables:\n\n- **Aplicación Visible:** Sistema de gestión documental de INTECSA/UHDE.\n- **Documentos Enumerados:**\n  1.",
+      "chunk_id": "4a2a64dc-ff1f-4053-8c41-9dfe3753f5e0",
+      "texto": "Una vez realizadas las correcciones sobre el documento, previamente a su envío en papel para   firma,   debe   ser   actualizado   (check-out   /   check-in)   (original   y   rendición   PDF), seleccionando como opción para ello 'misma versión', de modo que se sustituye la versión que no ha sido aceptada por la nueva que se envía para aprobación.\n\nNOTA: en este caso no es necesario mandar tarea ya que el ingeniero de proyecto y el administrador mantienen como pendiente  la tarea inicial que se les envió, en la cual se habrá actualizado el contenido del documento.\n\n[Descripción visual: La imagen es una captura de pantalla de una aplicación de gestión documental en el entorno corporativo de INTECSA UHDE. A continuación se detallan los elementos técnicos relevantes:\n\n- **Aplicación**: Sistema de gestión documental.\n- **Vista**: Lista de documentos relacionados con proyectos de ingeniería en el departamento de Civil y Arquitectura, para la OT (Orden de Trabajo) INTERQUISA-PTA4.",
       "nivel": "child",
-      "parent_id": "4fa77028-19e4-4be8-bf85-a147696cdbb1",
+      "parent_id": "31e33c5b-eb51-4b18-b7b4-1e75cd94ba18",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "Caso 2: el documento no es aprobado",
@@ -140,10 +140,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "40c970d2-c33a-4f85-9214-63e18026b2ef",
-      "texto": "- **Documentos Enumerados:**\n  1. **Documento:** \"RM-2000-014-4101-1 (PTE DE FIRMA)\"\n     - **Departamento:** Civil y Arquitectura\n     - **OT:** INTERQUISA-PTA4\n     - **Edición:** 01\n     - **Fecha:** 06/2000\n  2. **Documento:** \"RM-2000-014-4106-01\"\n     - **Departamento:** Civil y Arquitectura\n     - **OT:** INTERQUISA-PTA4\n     - **Edición:** 02\n     - **Fecha:** 10/2000\n  3. **Documento:** \"RM-2000-014-4105-01\"\n     - **Departamento:** Civil y Arquitectura\n     - **OT:** INTERQUISA-PTA4\n     - **Edición:** 01\n     - **Fecha:** 11/2000\n  4.",
+      "chunk_id": "72f96d82-87b1-49df-af01-2bbd0c9e729c",
+      "texto": "- **Elementos listados**:\n  - **RM-2000-014-4101-1 (PTE DE FIRMA)**:\n    - Preparación del Terreno\n    - Fecha: 06/2000\n    - Edición: 01\n  - **RM-2000-014-4106-01**:\n    - Pilotaje Planta PTA-4\n    - Fecha: 10/2000\n    - Edición: 02\n  - **RM-2000-014-4105-01**:\n    - Obra Civil Planta PTA-4\n    - Fecha: 11/2000\n    - Edición: 01\n  - **RM-2000-014-4108-01**:\n    - Estructura Metálica PTA-4\n    - Fecha: 03/2001\n    - Edición: 01\n\n- **Opciones de acciones para cada documento**: Propiedades, Acciones, Auditoria.\n- **Organización de navegación**:\n  - Secciones de navegación: Inicio, Proyectos, Departamentos, Calidad, Buscar, Tareas, Logout.",
       "nivel": "child",
-      "parent_id": "4fa77028-19e4-4be8-bf85-a147696cdbb1",
+      "parent_id": "31e33c5b-eb51-4b18-b7b4-1e75cd94ba18",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "Caso 2: el documento no es aprobado",
@@ -155,10 +155,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "208cf8ec-0b10-4235-b044-5cea9f422b22",
-      "texto": "**Documento:** \"RM-2000-014-4108-01\"\n     - **Departamento:** Civil y Arquitectura\n     - **OT:** INTERQUISA-PTA4\n     - **Edición:** 01\n     - **Fecha:** 03/2001\n- **Acciones Disponibles para Cada Documento:** Propiedades, Acciones, Auditoría.\n\nNo hay configuraciones ni procedimientos adicionales visibles en la captura.]",
+      "chunk_id": "ecf488a3-2fff-4b9e-829d-f0a1fe5b6ec4",
+      "texto": "No se muestran configuraciones o procesos internos, sólo se enumeran documentos y sus metadatos básicos.]",
       "nivel": "child",
-      "parent_id": "4fa77028-19e4-4be8-bf85-a147696cdbb1",
+      "parent_id": "31e33c5b-eb51-4b18-b7b4-1e75cd94ba18",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "Caso 2: el documento no es aprobado",

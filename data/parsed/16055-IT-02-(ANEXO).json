@@ -1,5 +1,5 @@
 {
-  "doc_id": "8008bc5c67174bafae076df2dc3b8702",
+  "doc_id": "770af71d82f44477b110db50c5180631",
   "nombre_fichero": "16055-IT-02-(ANEXO).pdf",
   "metadatos_admin": {
     "empresa": "enip",
@@ -13,10 +13,10 @@
     "edicion": null,
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-16T19:08:36+00:00",
+  "fecha_ingesta": "2026-04-17T18:49:59+00:00",
   "chunks": [
     {
-      "chunk_id": "91961306-bbac-4018-a688-edc26319305d",
+      "chunk_id": "f8aacad6-107f-4ad9-b7d0-7235687d6ece",
       "texto": "1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a CLIENTE 1 reproducibles.\n\n3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista\n\n1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a CLIENTE 1 reproducibles.\n\n3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista",
       "nivel": "parent",
       "parent_id": null,
@@ -31,10 +31,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1a186935-ebc0-46ea-8241-2e2b67a6b8e3",
+      "chunk_id": "950754aa-3bab-4696-9f9f-ff76cc28e48f",
       "texto": "1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a CLIENTE 1 reproducibles.\n\n3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista\n\n1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a CLIENTE 1 reproducibles.",
       "nivel": "child",
-      "parent_id": "91961306-bbac-4018-a688-edc26319305d",
+      "parent_id": "f8aacad6-107f-4ad9-b7d0-7235687d6ece",
       "pagina_inicio": 1,
       "pagina_fin": 2,
       "seccion": "NOTAS:",
@@ -46,10 +46,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "84f4fccb-4063-4b83-af60-325fa9034d62",
+      "chunk_id": "93ce1b5b-79ef-4f69-9e06-a250a9f0e280",
       "texto": "3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista",
       "nivel": "child",
-      "parent_id": "91961306-bbac-4018-a688-edc26319305d",
+      "parent_id": "f8aacad6-107f-4ad9-b7d0-7235687d6ece",
       "pagina_inicio": 1,
       "pagina_fin": 2,
       "seccion": "NOTAS:",
@@ -61,8 +61,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "273694f2303341148b7be207d9f5f72c",
-      "texto": "| Hornos                    | B   | ESPECIFICACIONES Y HOJAS DE DATOS        |\n|---------------------------|-----|------------------------------------------|\n| Hornos                    | B   | STDS                                     |\n| Hornos                    | B   | PLANOS                                   |\n| Hornos                    | B   | RM. HORNOS                               |\n| Hornos                    | B   | RM. MISC.                                |\n| Hornos                    | B   | COMPARACION TECNICA OFERTAS              |\n| Tuberías                  | H   | STANDARDS                                |\n| Tuberías                  | H   | PLANOS PLANTA                            |\n| Tuberías                  | H   | PLANOS BANDEJA                           |\n| Tuberías                  | H   | TIPICOS REFRIG.FLUSH,VENTEO,TRAC.VAPOR   |\n| Tuberías                  | H   | ISOMETRICAS                              |\n| Tuberías                  | H   | MTO                                      |\n| Tuberías                  | H   | ESFUERZOS Y SOPORTES                     |\n| Tuberías                  | H   | CLASES DE TUBERIAS                       |\n| Tuberías                  | H   | LISTA DE MATERIALES                      |\n| Tuberías                  | H   | RM. EMITIDAS POR ESFUERZOS Y SOP.        |\n| Tuberías                  | H   | RM. EMITIDAS POR TUBERIAS                |\n| Tuberías                  | H   | RM. MISC.                                |\n| Tuberías                  | H   | COMPARACION TECNICA OFERTAS              |\n| Tuberías                  | H   | HD / ESPECIFICACIONES DE ITEMS \"H\"       |\n| Electricidad              | N   | ESPECIFICACIONES Y HOJAS DE DATOS        |\n| Electricidad              | N   | STANDARDS                                |\n| Electricidad              | N   | CLASIFICACION AREAS                      |\n| Electricidad              | N   | DIAGRAMAS UNIFILARES                     |\n| Electricidad              | N   | PLANIMETRIAS FUERZA / ALUMBRADO          |\n| Electricidad              | N   | PLANIMETRIA TIERRA                       |\n| Electricidad              | N   | SUBEST. FUERZA                           |\n| Electricidad              | N   | SUBEST. ALUMBRADO                        |\n| Electricidad              | N   | SUBEST. TIERRA                           |\n| Electricidad              | N   | ESQUEMAS CONTROL                         |\n| Electricidad              | N   | LISTA DE CABLES                          |\n| Electricidad              | N   | LISTA DE MOTORES                         |\n| Electricidad              | N   | CALCULOS CORTOCIRCUITO                   |\n| Electricidad              | N   | SELECTIVIDAD RELES                       |\n| Electricidad              | N   | MISC.                                    |\n| Electricidad              | N   | RM. MOTORES                              |\n| Electricidad              | N   | RM. TRAFOS RM. CONDENSADORES             |\n| Electricidad              | N   | RM. CUADROS MT.                          |\n| Electricidad              | N   |                                          |\n| Electricidad              | N   | RM. CCM RM. CUADROS                      |\n| Electricidad              | N   | ALUMBRADO DISPOSICION EQUIPOS            |\n| Electricidad              | N   | SUBESTACION                              |\n| Electricidad              | N   | RM. UNID. CC                             |\n| Electricidad Electricidad | N N | RM. LUMINARIAS RM. TOMAS F. A.           |\n| Electricidad              | N   | RM. CABLES                               |\n| Electricidad              | N   | RM. BANDEJAS                             |\n| Electricidad Electricidad | N N | RM. EST. MANIOBRA RM. CAJAS DISTRIBUCION |\n| Electricidad              | N   | RM SAI                                   |\n|                           |     | RC. PUESTA A TIERRA                      |\n| Electricidad Electricidad | N N | RC. MONTAJE                              |\n| Electricidad              | N   | RC. MISC.                                |\n| Electricidad              | N   | COMPARACION TECNICA DE OFERTAS           |",
+      "chunk_id": "c9051410a5804ef584339053ec8b57c7",
+      "texto": "```markdown\n| Categoría       | Código | Descripción                                      |\n|-----------------|--------|--------------------------------------------------|\n| Hornos          | B      | ESPECIFICACIONES Y HOJAS DE DATOS                |\n| Hornos          | B      | STDS                                             |\n| Hornos          | B      | PLANOS                                           |\n| Hornos          | B      | RM. HORNOS                                       |\n| Hornos          | B      | RM. MISC.                                        |\n| Hornos          | B      | COMPARACION TECNICA OFERTAS                      |\n| Tuberías        | H      | STANDARDS                                        |\n| Tuberías        | H      | PLANOS PLANTA                                    |\n| Tuberías        | H      | PLANOS BANDEJA                                   |\n| Tuberías        | H      | TIPICOS REFRIG.FLUSH,VENTEO,TRAC.VAP.            |\n| Tuberías        | H      | ISOMETRICAS                                      |\n| Tuberías        | H      | MTO                                              |\n| Tuberías        | H      | ESFUERZOS Y SOPORTES                             |\n| Tuberías        | H      | CLASES DE TUBERIAS                               |\n| Tuberías        | H      | LISTA DE MATERIALES                              |\n| Tuberías        | H      | RM. EMITIDAS POR ESFUERZOS Y SOP.                |\n| Tuberías        | H      | RM. EMITIDAS POR TUBERIAS                        |\n| Tuberías        | H      | RM. MISC.                                        |\n| Tuberías        | H      | COMPARACION TECNICA OFERTAS                      |\n| Tuberías        | H      | HD / ESPECIFICACIONES DE ITEMS \"H\"               |\n| Electricidad    | N      | ESPECIFICACIONES Y HOJAS DE DATOS                |\n| Electricidad    | N      | STANDARDS                                        |\n| Electricidad    | N      | CLASIFICACION AREAS                              |\n| Electricidad    | N      | DIAGRAMAS UNIFILARES                             |\n| Electricidad    | N      | PLANIMETRIAS FUERZA / ALUMBRADO                  |\n| Electricidad    | N      | PLANIMETRIA TIERRA                               |\n| Electricidad    | N      | SUBEST. FUERZA                                   |\n| Electricidad    | N      | SUBEST. ALUMBRADO                                |\n| Electricidad    | N      | SUBEST. TIERRA                                   |\n| Electricidad    | N      | ESQUEMAS CONTROL                                 |\n| Electricidad    | N      | LISTA DE CABLES                                  |\n| Electricidad    | N      | LISTA DE MOTORES                                 |\n| Electricidad    | N      | CALCULOS CORTOCIRCUITO                           |\n| Electricidad    | N      | SELECTIVIDAD RELES                               |\n| Electricidad    | N      | MISC.                                            |\n| Electricidad    | N      | RM. MOTORES                                      |\n| Electricidad    | N      | RM. TRAFOS                                       |\n| Electricidad    | N      | RM. CONDENSADORES                                |\n| Electricidad    | N      | RM. CUADROS MT.                                  |\n| Electricidad    | N      | RM. CCM                                          |\n| Electricidad    | N      | RM. CUADROS ALUMBRADO                            |\n| Electricidad    | N      | SUBESTACION DISPOSICION EQUIPOS                  |\n| Electricidad    | N      | RM. BARRAS                                       |\n| Electricidad    | N      | RM. UNID. CC                                     |\n| Electricidad    | N      | RM. LUMINARIAS                                   |\n| Electricidad    | N      | RM. TOMAS F. A.                                  |\n| Electricidad    | N      | RM. CABLES                                       |\n| Electricidad    | N      | RM. BANDEJAS                                     |\n| Electricidad    | N      | RM. EST. MANIOBRA                                |\n| Electricidad    | N      | RM. CAJAS DISTRIBUCION                           |\n| Electricidad    | N      | RM SAI                                           |\n| Electricidad    | N      | RC. PUESTA A TIERRA                              |\n| Electricidad    | N      | RC. MONTAJE                                      |\n| Electricidad    | N      | RC. MISC.                                        |\n| Electricidad    | N      | COMPARACION TECNICA DE OFERTAS                   |\n```",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 2,
@@ -73,10 +73,10 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": true,
-      "tabla_degradada": true
+      "tabla_degradada": false
     },
     {
-      "chunk_id": "5fdd4e8c4e114938af7dbe76fb63d8e1",
+      "chunk_id": "85f3cdbe68934bbaa54cef412f2c84ec",
       "texto": "| 1.- CLIENTE PARA APROBACION Ó INF. 3   | 2.- CLIENTE FINAL 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3   | 3.- GERENCIA UTE 4.- DIR. PROY. IUI 1 1   | 5.- JEFE INGENIERIA IUI   | 6.- ING. PROYECTO IUI 7.- PROGR.Y CONTROL COSTES IUI 1 1 1 1 1 1 1 1 1 1 1 1   | 8.- PROCESO 1 1 1 1*** 1 1   | 9.- CIVIL Y ARQUITECTURA 10.- TUBERIAS 2 2 1 2 2 1 2 1 2 2 2 1 2 2 2 1 1 1 2 1 2 1 2 1 2 1 1 1 1 1 1 1   | 11.- MTO 1 1 1 1 1 1 1 1 1 1 1 1   | 12.- ESFUERZOS Y SOPORTES 1 1 1 1 1 1 1 1 1   | 13.- EQUIPOS ESTATICOS 1 1 1   | 14.- EQUIPOS ROTATIVOS 1 1 1 1 1   | 15.- HORNOS 1 1 1 1 1 1   | 16.- DCI 1 1 1 1 1 1 1 1   | 17.- ELECTRICIDAD 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1   | 18.- INSTRUMENTOS 1 1* 1** 1 1 1* 1 1 1 1 1   | 19,- AIRE ACONDICIONADO   | 20.- COMPRAS ( RM´s PET. OFERTA) 1 2+$ 1 1 2+$ 2+$ 2+$ 1 1   | 21.- COMPRAS ( RM´s COMPRAS) 3 3 3 3 3   | 22.- CONSTRUCCION 23.- OBRA 1 1 1 1 1 1 1 1 1 1 #2 1 #2 1 #2 1 #2 1 #2 1 #1 1 1 1 1 1 1 1 1 1 1 1 1 1 #2 1 #2 1 #2 1 #2 1 #2 1 #2 1 #2 1 #2 1 #2 1 1   | 24.- ARCHIVO GENERAL 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1   | 25.- PREVENCION DE RIESGOS LABORALES 1   |\n|----------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------|---------------------------|--------------------------------------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------|-----------------------------------------------|--------------------------------|------------------------------------|---------------------------|----------------------------|-------------------------------------------------------|-----------------------------------------------|---------------------------|--------------------------------------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------|",
       "nivel": "child",
       "parent_id": null,
@@ -91,7 +91,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a4c1bd77-b98b-4193-8db1-ef1de808bd33",
+      "chunk_id": "7ff21b26-6b2f-4d8a-851c-c9a141b298ec",
       "texto": "1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a CLIENTE 1 reproducibles.\n\n3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista",
       "nivel": "parent",
       "parent_id": null,
@@ -106,8 +106,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4d32b9215b384fe0b421145844741ce5",
-      "texto": "| Instrument            | K           | ESPECIFICACIONES Y HOJAS DE DATOS                |\n|-----------------------|-------------|--------------------------------------------------|\n| Instrument            | K           | STDS                                             |\n| Instrument            | K           | CONEXIONES DE INSTRUMENTOS A RECIPIENTES         |\n| Instrument            | K           | LISTA INSTRUMENTACION                            |\n| Instrument            | K           | LISTA MATERIAL DE MONTAJE                        |\n| Instrument            | K           | LISTA CABLES Y MULTICABLES                       |\n| Instrument            | K           | RANGOS DE INSTRUMENTOS                           |\n| Instrument            | K           | ESQUEMAS DE CONTROL                              |\n| Instrument            | K           | ESQUEMAS LOGICOS                                 |\n| Instrument            | K           | ESQUEMAS DE MONTAJE                              |\n| Instrument            | K           | PLANIMETRIAS SALA DE CONTROL                     |\n| Instrument            | K           | PLANIMETRIAS CAMPO                               |\n| Instrument            | K           | PLANIMETRIAS SALA DE RACK                        |\n| Instrument            | K           | PANEL DISTRIB.                                   |\n| Instrument            | K           | CAJAS CONEXIÓN                                   |\n| Instrument            | K           | INTERCONEX. CCM                                  |\n| Instrument            | K           | RM. SISTEMA DE CONTROL DISTRIBUIDO               |\n| Instrument            | K           | RM. TRANSMISORES ELECTRICOS                      |\n| Instrument            | K           | RM. VALVULAS CONTROL ELECTRON.                   |\n| Instrument            | K           | RM. VALVULA DE SEGURIDAD                         |\n| Instrument            | K           | RM. CASETA DE ANALIZADORES                       |\n| Instrument            | K           | RM. PLACAS DE ORIFICIO/MIRILLAS CAUD.            |\n| Instrument            | K           | RM. MEDIDORES DE CAUDAL                          |\n| Instrument            | K           | RM. NIVELES DESPLAZADOR                          |\n| Instrument            | K           | RM. MANOMETROS                                   |\n| Instrument            | K           | RM. TERMOMETROS                                  |\n| Instrument            | K           | RM. TRASMISORES Y VAINAS                         |\n| Instrument            | K           | RM. PRESOSTATOS                                  |\n| Instrument            | K           | RM. INTERRUPTOR DE CAUDAL                        |\n| Instrument            | K           | RM. CABLES                                       |\n| Instrument            | K           | RM. CAJAS                                        |\n| Instrument Instrument | K K         | RM. MAT. MISC. RC. MONTAJE                       |\n| Instrument            | K           | COMPARACION TECNICA OFERTAS                      |\n| Instrument            | K           | PLANOS VENDEDORES INSTR. EN LINEA                |\n| Compras               | COMPR       | RM's para PETICION de OFERTA                     |\n| Compras               | COMPR       | PETICIONES de OFERTA                             |\n| Compras               | COMPR       | OFERTAS RECIBIDAS                                |\n| Compras               | COMPR       | COMPARACION de OFERTAS                           |\n| Compras               | COMPR       | DOCUMENTO DE COMPROMISO                          |\n| Compras               | COMPR       | RM's para PEDIDO                                 |\n| Compras               | COMPR       | PEDIDOS ( sin RM. ) (NOTA 6)                     |\n| Compras               | COMPR       | SUPLEMENTO DE PEDIDO (NOTA 6)                    |\n| Compras               | COMPR       | INFORMES INSPECCION                              |\n| Compras               | COMPR       |                                                  |\n| Compras               | COMPR       | FACTURAS APROBADAS PROVEEDORES                   |\n|                       |             | CORRESPONDENCIA PROVEEDORES                      |\n| Compras               | COMPR       | INFORME RECEP. MAT. OBRA                         |\n| Compras               | COMPR       | PLANOS FINALES                                   |\n| Subcn                 | SUBCN SUBCN | PETICIONES de OFERTA OFERTAS RECIBIDAS           |\n| Subcn                 | SUBCN       | COMPARACION de                                   |\n| Subcn                 |             | OFERTAS DOC. COMPROMISO (Fax Intención...)       |\n| Subcn Subcn           | SUBCN SUBCN | RC's para SUBCONTRATACION                        |\n| Subcn                 |             | SUBCONTRATOS (Sin RC) (NOTA 6)                   |\n|                       | SUBCN       |                                                  |\n| Subcn Subcn           | SUBCN SUBCN | SUPLEMENTO (NOTA 6) FACTURAS APROBADAS SUBCONTR. |\n| Subcn                 | SUBCN       | CORRESPONDENCIA SUBCONTR.                        |\n|                       |             | PLANOS AS BUILT                                  |\n| Subcn                 | SUBCN       |                                                  |",
+      "chunk_id": "f5ddf84f572d4bb7b2164c9e193a0b2d",
+      "texto": "```markdown\n|                  |       |                                         |\n|------------------|-------|-----------------------------------------|\n| Instrument       | K     | ESPECIFICACIONES Y HOJAS DE DATOS       |\n| Instrument       | K     | STDS                                    |\n| Instrument       | K     | CONEXIONES DE INSTRUMENTOS A RECIPIENTES|\n| Instrument       | K     | LISTA INSTRUMENTACION                   |\n| Instrument       | K     | LISTA MATERIAL DE MONTAJE               |\n| Instrument       | K     | LISTA CABLES Y MULTICABLES              |\n| Instrument       | K     | RANGOS DE INSTRUMENTOS                  |\n| Instrument       | K     | ESQUEMAS DE CONTROL                     |\n| Instrument       | K     | ESQUEMAS LOGICOS                        |\n| Instrument       | K     | ESQUEMAS DE MONTAJE                     |\n| Instrument       | K     | PLANIMETRIAS SALA DE CONTROL            |\n| Instrument       | K     | PLANIMETRIAS CAMPO                      |\n| Instrument       | K     | PLANIMETRIAS SALA DE RACK               |\n| Instrument       | K     | PANEL DISTRIB.                          |\n| Instrument       | K     | CAJAS CONEXIÓN                          |\n| Instrument       | K     | INTERCONEX. CCM                         |\n| Instrument       | K     | RM. SISTEMA DE CONTROL DISTRIBUIDO      |\n| Instrument       | K     | RM. TRANSMISORES ELECTRICOS             |\n| Instrument       | K     | RM. VALVULAS CONTROL ELECTRON.          |\n| Instrument       | K     | RM. VALVULA DE SEGURIDAD                |\n| Instrument       | K     | RM. CASETA DE ANALIZADORES              |\n| Instrument       | K     | RM. PLACAS DE ORIFICIO/MIRILLAS CAUD.   |\n| Instrument       | K     | RM. MEDIDORES DE CAUDAL                 |\n| Instrument       | K     | RM. NIVELES DESPLAZADOR                 |\n| Instrument       | K     | RM. MANOMETROS                          |\n| Instrument       | K     | RM. TERMOMETROS                         |\n| Instrument       | K     | RM. TRASMISORES Y VAINAS                |\n| Instrument       | K     | RM. PRESOSTATOS                         |\n| Instrument       | K     | RM. INTERRUPTOR DE CAUDAL               |\n| Instrument       | K     | RM. CABLES                              |\n| Instrument       | K     | RM. CAJAS                               |\n| Instrument       | K     | RM. MAT. MISC.                          |\n| Instrument       | K     | RC. MONTAJE                             |\n| Instrument       | K     | COMPARACION TECNICA OFERTAS             |\n| Instrument       | K     | PLANOS VENDEDORES INSTR. EN LINEA       |\n| Compras          | COMPR | RM's para PETICION de OFERTA            |\n| Compras          | COMPR | PETICIONES DE OFERTA                    |\n| Compras          | COMPR | OFERTAS RECIBIDAS                       |\n| Compras          | COMPR | COMPARACION de OFERTAS                  |\n| Compras          | COMPR | DOCUMENTO DE COMPROMISO                 |\n| Compras          | COMPR | RM's para PEDIDO                        |\n| Compras          | COMPR | PEDIDOS ( sin RM. )          (NOTA 6)   |\n| Compras          | COMPR | SUPLEMENTO DE PEDIDO          (NOTA 6)  |\n| Compras          | COMPR | INFORMES INSPECCION                     |\n| Compras          | COMPR | FACTURAS APROBADAS PROVEEDORES          |\n| Compras          | COMPR | CORRESPONDENCIA PROVEEDORES             |\n| Compras          | COMPR | INFORME RECEP. MAT. OBRA                |\n| Compras          | COMPR | PLANOS FINALES                          |\n| Subcn            | SUBCN | PETICIONES de OFERTA                    |\n| Subcn            | SUBCN | OFERTAS RECIBIDAS                       |\n| Subcn            | SUBCN | COMPARACION de OFERTAS                  |\n| Subcn            | SUBCN | DOC. COMPROMISO (Fax Intención...)      |\n| Subcn            | SUBCN | RC's para SUBCONTRATACION               |\n| Subcn            | SUBCN | SUBCONTRATOS (Sin RC)        (NOTA 6)   |\n| Subcn            | SUBCN | SUPLEMENTO                  (NOTA 6)    |\n| Subcn            | SUBCN | FACTURAS APROBADAS SUBCONTR.            |\n| Subcn            | SUBCN | CORRESPONDENCIA SUBCONTR.               |\n| Subcn            | SUBCN |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 3,
@@ -118,11 +118,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": true,
-      "tabla_degradada": true
+      "tabla_degradada": false
     },
     {
-      "chunk_id": "bf9585b0-9ffb-4569-87f0-d7208d32ac69",
-      "texto": "[Descripción visual: La imagen contiene una tabla con datos reales. A continuación, se transcribe la tabla:\n\n| N° | CLIENTE PARA APROBACIÓN O N/F. | CLIENTE FINAL | GERENTE UIL | DIR. PROY. UIL | JEFE INGENIERÍA UIL | ING. PROYECTO UIL | PROC. Y CONTROL COSTES UIL | PROC./ CIVIL Y ARQUITECTURA | TUBERÍAS | INSTRUM. | ESFUERZOS Y SOPORTES | EQUIPOS ESTÁTICOS | EQUIPOS ROTATIVOS | HORNOS | ELECTRICIDAD | INSTRUMENTOS | AIRE ACONDICIONADO | COMPRAS (MAT. ESPEC.",
+      "chunk_id": "60d944a2-58d8-4f87-b052-381162b3c6c8",
+      "texto": "[Descripción visual: La imagen contiene una tabla de responsabilidades o aprobaciones en un proyecto de ingeniería. Los encabezados de las columnas son los siguientes:\n\n1. CLIENTE PARA APROBACIÓN O INF.\n2. CLIENTE FINAL\n3. GERENCIA UTE\n4. DIR. PROY. UJI\n5. JEFE INGENIERÍA UJI\n6. ING. PROYECTO UJI\n7. PROGR. Y CONTROL COSTES UJI\n8. PROCESO\n9. CIVIL Y ARQUITECTURA\n10. CIVIL Y TUBERÍAS\n11. MTO\n12. ESFUERZOS Y SOPORTES\n13. EQUIPOS ESTÁTICOS\n14. EQUIPOS ROTATIVOS\n15. HORNOS\n16. DCI\n17. ELECTRICIDAD\n18. INSTRUMENTOS\n19. AIRE ACONDICIONADO\n20. COMPRAS (RM´S PET. OFERTA)\n21. COMPRAS (RM´S COMPRAS)\n22. CONSTRUCCIÓN\n23. OBRA\n24. ARCHIVO GENERAL\n25. PREVENCIÓN DE RIESGOS LABORALES\n\nLa tabla detalla la participación o responsabilidad de cada rol especificado en las columnas. Algunos cuadros están llenos con números, letras, o abreviaturas, como \"3\", \"1\", \"Esp\", \"#2\", \"O\", \"D\", entre otros. También hay símbolos diagonales que denotan aprobaciones compartidas o secuencias de responsabilidad.\n\nEl contenido está organizado de manera que se pueda deducir qué departamentos o roles están involucrados en cada aspecto del proyecto, lo que es crucial para el seguimiento y control de procesos en gestión de proyectos de ingeniería.]",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 3,
@@ -136,25 +136,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "texto": "ESPEC. OFERTA) | COMPRAS (RM’s COMPRAS) | CONSTRUCCIÓN | OBRA CIVIL | ARCHIVO GENERAL | PREVENCIÓN DE RIESGOS LABORALES |\n|---|---------------------------------|--------------|-------------|----------------|---------------------|-----------------|----------------------------|---------------------------|----------|----------|------------------|------------------|-----------------|--------|--------------|-------------|------------------|------------------------------|-----------------------|--------------|------------|----------------|-----------------------------|\n| 1 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          | 0                         | 2        | 2        | 1                | 1                |                 |        | 2            | 1           | 1                | #2                           | 1                     | 1            | 1          | 1              | 1                           |\n| 2 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          | 1                         | 1        | 1        | 1                | 1                |                 |        | 2            | 2           | 1                | #2                           | 1                     | 1            | 1          | 1              | 1                           |\n| 3 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          |                           | 1        | 1        | 1                | 1                |                 |        | 1            | 1           | 1                | #2                           | 1                     | 1            | 1          | 1              | 1                           |\n| 4 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          |                           | 1        | 1        | 1                | 1                |                 |        | 1            | 1           | 1                | #2                           | 1                     | 1            | 1          | 1              | 1                           |\n| 5 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          |                           | 1        | 1        | 1                | 1                |                 |        | 1            | 1           | 1                | #2                           | 1                     | 1            | 1          | 1              | 1                           |\n| 6 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          |                           | 1        | 1        | 1                | 1                |                 |        | 1            | 1           | 1                | 2+S                          | 3                     | 1            | 1          | 1              | 1                           |\n| 7 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          |                           | 1        | 1        | 1                | 1                |                 |        | 1            | 1           | 1                | 2+S                          | 3                     | 1            | 1          | 1              | 1                           |\n| 8 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          |                           | 1        | 1        | 1                | 1                |                 |        | 1            | 1           | 1                | 2+S                          | 3                     | 1            | 1          | 1              | 1                           |\n| 9 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          |                           | 1        | 1        |                  | 1                |]",
-      "nivel": "parent",
-      "parent_id": null,
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "72812679-81fe-4c4d-ba58-ff4ae701112d",
-      "texto": "ESPEC. OFERTA) | COMPRAS (RM’s COMPRAS) | CONSTRUCCIÓN | OBRA CIVIL | ARCHIVO GENERAL | PREVENCIÓN DE RIESGOS LABORALES |\n|---|---------------------------------|--------------|-------------|----------------|---------------------|-----------------|----------------------------|---------------------------|----------|----------|------------------|------------------|-----------------|--------|--------------|-------------|------------------|------------------------------|-----------------------|--------------|------------|----------------|-----------------------------|\n| 1 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          | 0",
+      "chunk_id": "c15f330c-a36d-45c7-95e9-eca39b319413",
+      "texto": "[Descripción visual: La imagen contiene una tabla de responsabilidades o aprobaciones en un proyecto de ingeniería. Los encabezados de las columnas son los siguientes:\n\n1. CLIENTE PARA APROBACIÓN O INF.\n2. CLIENTE FINAL\n3. GERENCIA UTE\n4. DIR. PROY. UJI\n5. JEFE INGENIERÍA UJI\n6. ING. PROYECTO UJI\n7. PROGR. Y CONTROL COSTES UJI\n8. PROCESO\n9. CIVIL Y ARQUITECTURA\n10. CIVIL Y TUBERÍAS\n11. MTO\n12. ESFUERZOS Y SOPORTES\n13. EQUIPOS ESTÁTICOS\n14. EQUIPOS ROTATIVOS\n15. HORNOS\n16. DCI\n17. ELECTRICIDAD\n18. INSTRUMENTOS\n19. AIRE ACONDICIONADO\n20. COMPRAS (RM´S PET. OFERTA)\n21.",
       "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
+      "parent_id": "60d944a2-58d8-4f87-b052-381162b3c6c8",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "NOTAS:",
@@ -166,10 +151,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "905dd6c4-92d0-401b-a3b7-02432b4568d9",
-      "texto": "| 0                         | 2        | 2        | 1                | 1                |                 |        | 2            | 1           | 1                | #2                           | 1                     | 1            | 1          | 1",
+      "chunk_id": "5f7255ab-35b7-42f6-b86c-a829b6ab3b36",
+      "texto": "COMPRAS (RM´S PET. OFERTA)\n21. COMPRAS (RM´S COMPRAS)\n22. CONSTRUCCIÓN\n23. OBRA\n24. ARCHIVO GENERAL\n25. PREVENCIÓN DE RIESGOS LABORALES\n\nLa tabla detalla la participación o responsabilidad de cada rol especificado en las columnas. Algunos cuadros están llenos con números, letras, o abreviaturas, como \"3\", \"1\", \"Esp\", \"#2\", \"O\", \"D\", entre otros. También hay símbolos diagonales que denotan aprobaciones compartidas o secuencias de responsabilidad.\n\nEl contenido está organizado de manera que se pueda deducir qué departamentos o roles están involucrados en cada aspecto del proyecto, lo que es crucial para el seguimiento y control de procesos en gestión de proyectos de ingeniería.]",
       "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
+      "parent_id": "60d944a2-58d8-4f87-b052-381162b3c6c8",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "NOTAS:",
@@ -181,218 +166,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6452cc9b-ccd8-4dcb-9881-c2d31d1a12ee",
-      "texto": "1          | 1              | 1                           |\n| 2 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          | 1                         | 1        | 1        | 1",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "a9c66a09-b277-4e08-a079-2b7f77f3b079",
-      "texto": "| 1        | 1                | 1                |                 |        | 2            | 2           | 1                | #2                           | 1                     | 1            | 1          | 1              | 1                           |\n| 3 | 3",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "7362ce1a-39b5-4b3c-8578-189fbb29ba38",
-      "texto": "|\n| 3 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          |                           | 1        | 1        | 1                | 1                |                 |",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "5796873d-97ee-43db-9b06-0bdf00cc89f3",
-      "texto": "|        | 1            | 1           | 1                | #2                           | 1                     | 1            | 1          | 1              | 1                           |\n| 4 | 3                               | 3            | 3",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "ca6895d3-09d0-43cb-b947-3575a08453bb",
-      "texto": "| 3           | 3              | 3                   | 3               | 3                          |                           | 1        | 1        | 1                | 1                |                 |        | 1            | 1           | 1                |",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "d50a58d4-7db8-473e-83e8-42ef625bd7ce",
-      "texto": "| 1                | #2                           | 1                     | 1            | 1          | 1              | 1                           |\n| 5 | 3                               | 3            | 3           | 3              | 3                   | 3",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "db67dde7-b762-4714-9cbf-5f32cda5f981",
-      "texto": "| 3               | 3                          |                           | 1        | 1        | 1                | 1                |                 |        | 1            | 1           | 1                | #2                           | 1",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "4a0e7265-e855-4aeb-88f6-fc4b6450dd2a",
-      "texto": "| 1            | 1          | 1              | 1                           |\n| 6 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          |",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "96b4f615-0252-43c9-b742-0a04d6e973bf",
-      "texto": "|                           | 1        | 1        | 1                | 1                |                 |        | 1            | 1           | 1                | 2+S                          | 3                     | 1            | 1          | 1              | 1",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "582f0e5c-5596-43e7-b3ae-dae2ae6ffa20",
-      "texto": "| 1                           |\n| 7 | 3                               | 3            | 3           | 3              | 3                   | 3               | 3                          |                           | 1        | 1        | 1                | 1",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "bc377005-590e-43ff-b393-62cd0ec67f4d",
-      "texto": "| 1                |                 |        | 1            | 1           | 1                | 2+S                          | 3                     | 1            | 1          | 1              | 1                           |\n| 8 | 3",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "af4bcd37-9a1c-40e7-9371-70093a023df2",
-      "texto": "| 3            | 3           | 3              | 3                   | 3               | 3                          |                           | 1        | 1        | 1                | 1                |                 |        | 1",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "64ee3051-36fe-4952-b69d-634d877c5453",
-      "texto": "|        | 1            | 1           | 1                | 2+S                          | 3                     | 1            | 1          | 1              | 1                           |\n| 9 | 3                               | 3            | 3           | 3",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "db5a2b9e-f633-4a8f-bfd8-2c4255bb0bbc",
-      "texto": "| 3              | 3                   | 3               | 3                          |                           | 1        | 1        |                  | 1                |]",
-      "nivel": "child",
-      "parent_id": "9d21da7b-f3e6-4caf-92bf-1e701e3f410a",
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "d08f08832e7040a3b931ae84708f290c",
-      "texto": "| 1.- CLIENTE PARA APROBACION Ó INF.   |   2.- CLIENTE FINAL 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 |   3.- GERENCIA UTE | 4.- DIR. PROY. IUI   | 5.- JEFE INGENIERIA IUI 6.- ING. PROYECTO IUI   | 7.- PROGR.Y CONTROL COSTES IUI 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1   | 8.- PROCESO 1 1 1 1 1 1   | 9.- CIVIL Y ARQUITECTURA 10.- TUBERIAS 2 2 2 2 2 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1   | 12.- ESFUERZOS Y SOPORTES 13.- EQUIPOS ESTATICOS 1   | 14.- EQUIPOS ROTATIVOS 1 1   |                 | 15.- HORNOS   | 16.- DCI 1 1 1 1 1 1 1   | 17.- ELECTRICIDAD   | 18.- INSTRUMENTOS   | 19,- AIRE ACONDICIONADO 1 1   | 20.- COMPRAS ( RM´s PET. OFERTA) 21.- COMPRAS ( RM´s COMPRAS) 2+$ 3 2+$ 3 2+$ 3 2+$ 3 2+$ 3 2+$ 3 3 2+$ 3 2+$ 3 2+$ 3 2+$ 3 2+$ 3 2+$ 3 2+$ 3 2+$ 3 2+$ 3 2+$ 3   | 22.- CONSTRUCCION #2 #2 #2 #2 #2 1 1 #2 #2 #2 #2 #2 #2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1   | 23.- OBRA 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1   | 24.- ARCHIVO GENERAL 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1   | 25.- PREVENCION DE RIESGOS LABORALES   |\n|--------------------------------------|-------------------------------------------------------------------------------------|--------------------|----------------------|-------------------------------------------------|--------------------------------------------------------------------------|---------------------------|--------------------------------------------------------------------------------------------|------------------------------------------------------|------------------------------|-----------------|---------------|--------------------------|---------------------|---------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------|\n| 1**                                  |                                                                                   3 |                  1 |                      |                                                 | 1 1                                                                      | Esp Esp Esp Esp Esp       | Esp Esp Esp Esp Esp Esp Esp                                                                | 1* Esp Esp Esp Esp Esp Esp Esp Esp                   | Esp Esp Esp Esp              | Esp Esp Esp Esp | Esp Esp       | Esp Esp Esp Esp          | Esp Esp Esp         | Esp Esp Esp         | 1 Esp O Esp O Esp 1 Esp O     | 3+&                                                                                                                                                               | 1 1                                                                                          |                                                                               | 1 1 1 1 1 1 1                                                                            |                                        |",
+      "chunk_id": "93802a0664d34b0fbdf6b9a3415c8ab1",
+      "texto": "```markdown\n|   | CLIENTE FINAL | CLIENTE PARA APROBACIÓN D INF. | GERENCIA UTE | DIR. PROY. UTE | JEFE INGENIERÍA UTE | ING. PROYECTO UTE | PROGR. Y CONTROL COSTES UTE | PROCESO | ARQUITECTURA | CIVIL Y ARQUITECTURA | CIVIL Y TUBERIAS | MTO | ESFUERZOS Y SOPORTES | EQUIPOS ESTÁTICOS | EQUIPOS ROTATIVOS | HORNOS | DCI | ELECTRICIDAD | INSTRUMENTOS | AIRE ACONDICIONADO | COMPRAS (RM S P ET. OFERTA) | COMPRAS (RM S COMPRAS) | CONSTRUCCION | OBRA | ARCHIVO GENERAL | PREVENCION DE RIESGOS LABORALES |\n|---|---------------|-------------------------------|--------------|---------------|---------------------|------------------|------------------------------|---------|--------------|---------------------|------------------|-----|-----------------------|------------------|-----------------|--------|-----|--------------|--------------|--------------------|-----------------------------|------------------------|--------------|------|-----------------|----------------------------|\n| 3 | 3             |                               |              |               |                     |                  |                              | 1       | 2            | 1                   | 2                | 1   | 1                     | 1                | 1               | 1      |     | 1            | #2           | 1                  | 1                           | 1                      |\n| 3 | 3             |                               |              |               |                     |                  |                              | 2       | 1            | 1                   | 1                | 1   | 1                     |                  | 1               |        |     | 1            | #2           | 1                  | 1                           | 1                      |\n| 3 | 3             |                               |              |               |                     |                  |                              | 2       | 1            | 1                   | 1                | 1   | 1                     |                  | 1               |        |     | 1            | #2           | 1                  | 1                           | 1                      |\n| 3 | 3             |                               |              |               |                     |                  |                              | 1       | 1            | 1                   | 1                | 1   | 1                     |                  | 1               |        |     | 1            | #2           | 1                  | 1                           | 1                      |\n| 3 | 3             |                               |              |               |                     |                  |                              | 1       | 1            | 1                   | 1                | 1   | 1                     |                  | 1               |        |     | 1            | #2           | 1                  | 1                           | 1                      |\n| 3 | 3             |                               |              |               |                     |                  |                              | 1       | 1            | 1                   | 1                | 1   | 1                     |                  | 1               |        |     | 1            | #2           | 1                  | 1                           | 1                      |\n| 3 | 3             |                               |              |               |                     |                  |                              | 1       | 1            | 1                   | 1                | 1   | 1                     |                  | 1               |        |     | 1            | #2           | 1                  | 1                           | 1                      |\n| 3 | 3             |                               |              |               |                     |                  |                              | 1       | 1            | 1                   | 1                | 1   | 1                     |                  | 1               |        |     | 1            | #2           | 1                  | 1                           | 1                      |\n| 3 | 3             |                               |              |               |                     |                  |                              | 2       | 1            | 1                   | 1                | 1   | 1                     |                  | 1               |        |     | 1            | #2           | 1                  | 1                           | 1                      |\n| 3 | 3             |                               |              |               |                     |                  |                              | 1       | 1            | 1                   | 1                | 1   | 1                     |                  | 1               |        |     | 1            | #2           | 1                  | 1                           | 1                      |\n| 3 | 3             |                               |              |               |                     |                  |                              | 2       | 1",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 3,
@@ -403,7 +178,7 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": true,
-      "tabla_degradada": true
+      "tabla_degradada": false
     }
   ]
 }
