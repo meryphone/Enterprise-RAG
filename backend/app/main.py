@@ -1,19 +1,35 @@
-"""Aplicación FastAPI — punto de entrada del backend.
+"""Aplicación FastAPI — punto de entrada del backend."""
+from __future__ import annotations
 
-Endpoints definidos en CLAUDE.md:
-    POST /query    — recibe pregunta, scope opcional e historial.
-                     Devuelve respuesta en streaming SSE.
-    GET  /projects — lista de proyectos disponibles.
-    POST /ingest   — recibe PDF + metadatos. Solo accesible por administrador.
-    GET  /health   — estado del sistema.
-
-TODO (Fase 1 → 4): implementar endpoints a medida que avanza el pipeline.
-"""
 from fastapi import FastAPI
+from fastapi.responses import StreamingResponse
+from pydantic import BaseModel
+
+from app.servicios.query import ejecutar_query
 
 app = FastAPI(title="IntecsaRAG", version="0.1.0")
+
+
+class QueryRequest(BaseModel):
+    query: str
+    proyecto_id: str | None = None
+    empresa: str = "intecsa"
+    tipo_doc: str | None = None
 
 
 @app.get("/health")
 def health() -> dict:
     return {"status": "ok"}
+
+
+@app.post("/query")
+async def query(req: QueryRequest) -> StreamingResponse:
+    return StreamingResponse(
+        ejecutar_query(
+            query=req.query,
+            proyecto_id=req.proyecto_id,
+            empresa=req.empresa,
+            tipo_doc=req.tipo_doc,
+        ),
+        media_type="text/event-stream",
+    )
