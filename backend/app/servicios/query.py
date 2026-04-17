@@ -141,4 +141,5 @@ async def ejecutar_query(
     chunks_expandidos = _expandir_parents(chunks, coleccion)
     contexto = _construir_contexto(chunks_expandidos)
     fuentes = _construir_fuentes(chunks_expandidos)
-    return _stream_respuesta(query, contexto, fuentes)
+    async for evento in _stream_respuesta(query, contexto, fuentes):
+        yield evento
