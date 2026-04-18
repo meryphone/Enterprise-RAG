@@ -71,13 +71,13 @@ def _expandir_parents(
 def _construir_contexto(chunks: list[ChunkRecuperado]) -> str:
     """Numera y formatea los chunks para el LLM.
 
-    Formato: [n] Documento: X | Sección: Y | Pág. Z
+    Formato: [n] Documento: X | Título: Y | Pág. Z
     """
     partes: list[str] = []
     for i, chunk in enumerate(chunks, start=1):
         meta = chunk.metadatos
         nombre = meta.get("nombre_fichero", "")
-        seccion = meta.get("seccion", "")
+        titulo = meta.get("titulo_documento", "")
         p_ini = meta.get("pagina_inicio", -1)
         p_fin = meta.get("pagina_fin", -1)
 
@@ -89,8 +89,8 @@ def _construir_contexto(chunks: list[ChunkRecuperado]) -> str:
             paginas = f"Pág. {p_ini}-{p_fin}"
 
         cabecera_partes = [f"Documento: {nombre}"]
-        if seccion:
-            cabecera_partes.append(f"Sección: {seccion}")
+        if titulo:
+            cabecera_partes.append(f"Título: {titulo}")
         if paginas:
             cabecera_partes.append(paginas)
 

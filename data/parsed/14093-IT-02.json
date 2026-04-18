@@ -1,5 +1,5 @@
 {
-  "doc_id": "9e5e524c3c3d4bcdbf26f44c55c0a61b",
+  "doc_id": "c4e758cab0394de99c9c6b2c672143c8",
   "nombre_fichero": "14093-IT-02.pdf",
   "metadatos_admin": {
     "empresa": "petresa",
@@ -13,10 +13,10 @@
     "edicion": "3",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T18:37:04+00:00",
+  "fecha_ingesta": "2026-04-17T20:42:59+00:00",
   "chunks": [
     {
-      "chunk_id": "3b20ff2a1f5047429cb45354e8310e3a",
+      "chunk_id": "db1a978023fa475bb3527ea949e9cb3c",
       "texto": "| AM     | RRF    | 3       | 30/05/2001   | MODIFICACIÓN GENERAL                      |\n|--------|--------|---------|--------------|-------------------------------------------|\n| AM     | RRF    | 2       | 9/4/2001     | INCLUIDOS COMENTARIOS DE JEFE DE PROYECTO |\n| AM     | RRF    | 1       | 5/4/2001     | EMISIÓN                                   |\n| APROB. | VERIF. | EDICION | FECHA        | DESCRIPCION DE LA EDICION                 |",
       "nivel": "child",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3185836b-bce4-46c8-a20e-3f9b2934cce6",
+      "chunk_id": "6dad6c82-6a05-4b01-9623-7e8973c79614",
       "texto": "Este   documento   tiene   por   objeto   describir   el   procedimiento   de   control   de   entrada   de documentos en el portal para el proyecto de PETRESA.",
       "nivel": "parent",
       "parent_id": null,
@@ -46,7 +46,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "890d77a6-ec30-4949-803f-eec3c690a541",
+      "chunk_id": "8ed7a599-4719-408d-9c55-e840d1dca658",
       "texto": "Una vez el especialista genera un documento para ser firmado por la dirección del proyecto, se procede del siguiente modo:\n\n-El encargado de introducir el documento y su rendición PDF  en el portal, lo incluye poniendo ' PTE DE FIRMA ' entre paréntesis en el número de documento (en el campo Documento de propiedades), para así indicar que aún no está aprobado.\n\n-Se envía el documento en papel para firma según el plan de calidad del proyecto.\n\nEl responsable de firmar el documento por parte de Dirección de Proyecto recibe dicho documento en papel, procediendo a su revisión sólo si el documento se encuentra en el portal.",
       "nivel": "parent",
       "parent_id": null,
@@ -62,7 +62,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "25851ffe-8430-45e8-a312-710a128b65df",
+      "chunk_id": "4fb22b99-00db-4a47-98fe-730fb692646e",
       "texto": "El   administrador   del   proyecto   recibe   el   documento   firmado,   (primera   persona   que   es informada de la aprobación del documento) y realiza las siguientes acciones:\n\n Registra el documento en los programas de IUI (documento, fecha, edición, etc.).\n\n Busca   en   el   Portal   el   documento,   el   cual   abre   para   realizar   las   siguientes comprobaciones:\n\nEl número de documento del portal corresponde al del documento físico (exacto con guiones, puntos, etc.)\n\nLa fecha y edición son correctas.\n\nLas casillas de firma incluyen las siglas de los firmantes en la edición que se genera\n\nLos documentos tienen formato original y rendición PDF (Si el documento es en su formato original un PDF, no es necesario que tenga una rendición).\n\nNOTA: del resto de comprobaciones, como serían que el documento esté en la ubicación adecuada y con las propiedades y permisos adecuados se encargará Gestión del Conocimiento.\n\n En relación a las comprobaciones anteriores, si hay alguna incorrección, avisará al responsable del documento para realizar las correcciones pertinentes.\n\n Elimina ' PTE DE FIRMA ' del número de documento y termina la tarea, con lo que ya queda claro en el portal que el documento ha sido aprobado.\n\n Hace una copia del documento original y lo devuelve al especialista según el plan de calidad.\n\n Avisa por correo electrónico con el transmital a todos aquellos que deben enterarse de la nueva edición del documento (según la distribución propuesta).\n\n Envía el transmittal y los documentos en papel a aquellos a los que debe dirigirse una copia en papel.",
       "nivel": "parent",
       "parent_id": null,
@@ -78,10 +78,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "084b22f3-79f8-4b93-9a9e-0275015b6d44",
+      "chunk_id": "41e974a3-184c-411f-8a13-dd33bb748e44",
       "texto": "El   administrador   del   proyecto   recibe   el   documento   firmado,   (primera   persona   que   es informada de la aprobación del documento) y realiza las siguientes acciones:\n\n Registra el documento en los programas de IUI (documento, fecha, edición, etc.).\n\n Busca   en   el   Portal   el   documento,   el   cual   abre   para   realizar   las   siguientes comprobaciones:\n\nEl número de documento del portal corresponde al del documento físico (exacto con guiones, puntos, etc.)\n\nLa fecha y edición son correctas.\n\nLas casillas de firma incluyen las siglas de los firmantes en la edición que se genera\n\nLos documentos tienen formato original y rendición PDF (Si el documento es en su formato original un PDF, no es necesario que tenga una rendición).\n\nNOTA: del resto de comprobaciones, como serían que el documento esté en la ubicación adecuada y con las propiedades y permisos adecuados se encargará Gestión del Conocimiento.",
       "nivel": "child",
-      "parent_id": "25851ffe-8430-45e8-a312-710a128b65df",
+      "parent_id": "4fb22b99-00db-4a47-98fe-730fb692646e",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "Caso 1:  el documento es aprobado",
@@ -94,10 +94,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3d80429d-acd2-443f-9c55-a9c2b47c717a",
+      "chunk_id": "1491daa5-28c7-418e-b91b-84b8f3011799",
       "texto": " En relación a las comprobaciones anteriores, si hay alguna incorrección, avisará al responsable del documento para realizar las correcciones pertinentes.\n\n Elimina ' PTE DE FIRMA ' del número de documento y termina la tarea, con lo que ya queda claro en el portal que el documento ha sido aprobado.\n\n Hace una copia del documento original y lo devuelve al especialista según el plan de calidad.\n\n Avisa por correo electrónico con el transmital a todos aquellos que deben enterarse de la nueva edición del documento (según la distribución propuesta).\n\n Envía el transmittal y los documentos en papel a aquellos a los que debe dirigirse una copia en papel.",
       "nivel": "child",
-      "parent_id": "25851ffe-8430-45e8-a312-710a128b65df",
+      "parent_id": "4fb22b99-00db-4a47-98fe-730fb692646e",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "Caso 1:  el documento es aprobado",
@@ -110,8 +110,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5e2a380c-6b6c-464e-aedd-154d6f34d1c2",
-      "texto": "Una vez realizadas las correcciones sobre el documento, previamente a su envío en papel para   firma,   debe   ser   actualizado   (check-out   /   check-in)   (original   y   rendición   PDF), seleccionando como opción para ello 'misma versión', de modo que se sustituye la versión que no ha sido aceptada por la nueva que se envía para aprobación.\n\n[Descripción visual: La imagen es una captura de pantalla de una aplicación de gestión documental de ingeniería. Contiene una lista de hojas de datos técnicas con sus respectivas características. A continuación, se transcriben los elementos técnicos relevantes:\n\n- **HD-14093-H-C2003**\n  - **Descripción:** Compresor Alternativo\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 02\n  - **Fecha:** 24/11/2000\n\n- **HD-14093-H-C2004**\n  - **Descripción:** Compresor de Tornillo\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 02\n  - **Fecha:** 09-05-2001\n\n- **HD-14093-H-G2001 (PTE DE FIRMA)**\n  - **Descripción:** Polipasto para Reactor\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 01\n  - **Fecha:** 24-05-2001\n\n- **HD-14093-H-J2001**\n  - **Descripción:** Eyector del Compresor de Hidrógeno\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 02\n  - **Fecha:** 27-04-2001\n\n- **HD-14093-H-P2001**\n  - **Descripción:** Bomba Centrífuga\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 02\n  - **Fecha:** 03/11/2000\n\n- **HD-14093-H-P2003**\n  - **Descripción:** Bomba Centrífuga\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 03\n  - **Fecha:** 15/02/2001\n\n- **HD-14093-H-P2004**\n  - **Descripción:** Bomba Centrífuga\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 03\n  - **Fecha:** 15/02/2001\n\nCada entrada proporciona el código de referencia, descripción del equipo, el departamento responsable, la orden de trabajo (OT), la edición del documento, y la fecha de su emisión. Esto es relevante para la gestión y ubicación de documentos en proyectos de ingeniería.]",
+      "chunk_id": "b2870bc4-2599-4fc6-9438-2377895a4c94",
+      "texto": "Una vez realizadas las correcciones sobre el documento, previamente a su envío en papel para   firma,   debe   ser   actualizado   (check-out   /   check-in)   (original   y   rendición   PDF), seleccionando como opción para ello 'misma versión', de modo que se sustituye la versión que no ha sido aceptada por la nueva que se envía para aprobación.\n\n[Descripción visual: La imagen es una captura de pantalla de una aplicación o sistema informático de INTECSA UHDE. Muestra un listado de documentos técnicos con ciertas especificaciones y detalles de auditoría. A continuación, se proporciona una transcripción de los elementos con información técnica recuperable:\n\n- **Documentos listados con detalles técnicos:**\n\n1. **HD-14093-H-C2003**\n   - **Descripción:** COMPRESOR ALTERNATIVO\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 02\n   - **Fecha:** 24/11/2000\n\n2. **HD-14093-H-C2004**\n   - **Descripción:** COMPRESOR DE TORNILLO\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 02\n   - **Fecha:** 09-05-2001\n\n3. **HD-14093-H-G2001 (PTE DE FIRMA)**\n   - **Descripción:** POLIPASTO PARA REACTOR\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 01\n   - **Fecha:** 24-05-2001\n\n4. **HD-14093-H-J2001**\n   - **Descripción:** EYECTOR DEL COMPRESOR DE HIDRÓGENO\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 02\n   - **Fecha:** 27-04-2001\n\n5. **HD-14093-H-P2001**\n   - **Descripción:** BOMBA CENTRÍFUGA\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 02\n   - **Fecha:** 03/11/2000\n\n6. **HD-14093-H-P2003**\n   - **Descripción:** BOMBA CENTRÍFUGA\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 03\n   - **Fecha:** 15/02/2001\n\n7. **HD-14093-H-P2004**\n   - **Descripción:** BOMBA CENTRÍFUGA\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 02\n   - **Fecha:** 15/02/2001\n\n- **Acciones relacionadas:**\n  - **Propiedades**\n  - **Acciones**\n  - **Auditoría**\n\nEstos documentos están organizados en un sistema que permite realizar acciones de seguimiento y auditoría, lo cual es vital para el control de calidad y gestión documental en proyectos de ingeniería industrial.]",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 3,
@@ -125,10 +125,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "922be130-395a-4fc3-a5ae-c10dffceb6dc",
-      "texto": "Una vez realizadas las correcciones sobre el documento, previamente a su envío en papel para   firma,   debe   ser   actualizado   (check-out   /   check-in)   (original   y   rendición   PDF), seleccionando como opción para ello 'misma versión', de modo que se sustituye la versión que no ha sido aceptada por la nueva que se envía para aprobación.\n\n[Descripción visual: La imagen es una captura de pantalla de una aplicación de gestión documental de ingeniería. Contiene una lista de hojas de datos técnicas con sus respectivas características. A continuación, se transcriben los elementos técnicos relevantes:\n\n- **HD-14093-H-C2003**\n  - **Descripción:** Compresor Alternativo\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 02\n  - **Fecha:** 24/11/2000\n\n- **HD-14093-H-C2004**\n  - **Descripción:** Compresor de Tornillo\n  - **Departamento:** Mecánica\n  - **OT:**",
+      "chunk_id": "1f6737bf-118f-40eb-a533-473fa1066a9a",
+      "texto": "Una vez realizadas las correcciones sobre el documento, previamente a su envío en papel para   firma,   debe   ser   actualizado   (check-out   /   check-in)   (original   y   rendición   PDF), seleccionando como opción para ello 'misma versión', de modo que se sustituye la versión que no ha sido aceptada por la nueva que se envía para aprobación.\n\n[Descripción visual: La imagen es una captura de pantalla de una aplicación o sistema informático de INTECSA UHDE. Muestra un listado de documentos técnicos con ciertas especificaciones y detalles de auditoría. A continuación, se proporciona una transcripción de los elementos con información técnica recuperable:\n\n- **Documentos listados con detalles técnicos:**\n\n1. **HD-14093-H-C2003**\n   - **Descripción:** COMPRESOR ALTERNATIVO\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 02\n   - **Fecha:** 24/11/2000\n\n2.",
       "nivel": "child",
-      "parent_id": "5e2a380c-6b6c-464e-aedd-154d6f34d1c2",
+      "parent_id": "b2870bc4-2599-4fc6-9438-2377895a4c94",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "Caso 2: el documento no es aprobado",
@@ -140,10 +140,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b1c4972d-61fd-4cf2-8d2d-813acab2c88f",
-      "texto": "Tornillo\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 02\n  - **Fecha:** 09-05-2001\n\n- **HD-14093-H-G2001 (PTE DE FIRMA)**\n  - **Descripción:** Polipasto para Reactor\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 01\n  - **Fecha:** 24-05-2001\n\n- **HD-14093-H-J2001**\n  - **Descripción:** Eyector del Compresor de Hidrógeno\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 02\n  - **Fecha:** 27-04-2001\n\n- **HD-14093-H-P2001**\n  - **Descripción:** Bomba Centrífuga\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 02\n  - **Fecha:**",
+      "chunk_id": "8c70890b-e3fd-4560-99c3-82f2df74f6b1",
+      "texto": "**HD-14093-H-C2004**\n   - **Descripción:** COMPRESOR DE TORNILLO\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 02\n   - **Fecha:** 09-05-2001\n\n3. **HD-14093-H-G2001 (PTE DE FIRMA)**\n   - **Descripción:** POLIPASTO PARA REACTOR\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 01\n   - **Fecha:** 24-05-2001\n\n4. **HD-14093-H-J2001**\n   - **Descripción:** EYECTOR DEL COMPRESOR DE HIDRÓGENO\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 02\n   - **Fecha:** 27-04-2001\n\n5.",
       "nivel": "child",
-      "parent_id": "5e2a380c-6b6c-464e-aedd-154d6f34d1c2",
+      "parent_id": "b2870bc4-2599-4fc6-9438-2377895a4c94",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "Caso 2: el documento no es aprobado",
@@ -155,10 +155,25 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "784a563d-bf61-47d0-8372-9298b7fdcbdc",
-      "texto": "PTRESA\n  - **Edición:** 02\n  - **Fecha:** 03/11/2000\n\n- **HD-14093-H-P2003**\n  - **Descripción:** Bomba Centrífuga\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 03\n  - **Fecha:** 15/02/2001\n\n- **HD-14093-H-P2004**\n  - **Descripción:** Bomba Centrífuga\n  - **Departamento:** Mecánica\n  - **OT:** PTRESA\n  - **Edición:** 03\n  - **Fecha:** 15/02/2001\n\nCada entrada proporciona el código de referencia, descripción del equipo, el departamento responsable, la orden de trabajo (OT), la edición del documento, y la fecha de su emisión. Esto es relevante para la gestión y ubicación de documentos en proyectos de ingeniería.]",
+      "chunk_id": "64ea8726-2000-4a66-bdba-b9cc206aabcd",
+      "texto": "**HD-14093-H-P2001**\n   - **Descripción:** BOMBA CENTRÍFUGA\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 02\n   - **Fecha:** 03/11/2000\n\n6. **HD-14093-H-P2003**\n   - **Descripción:** BOMBA CENTRÍFUGA\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 03\n   - **Fecha:** 15/02/2001\n\n7.",
       "nivel": "child",
-      "parent_id": "5e2a380c-6b6c-464e-aedd-154d6f34d1c2",
+      "parent_id": "b2870bc4-2599-4fc6-9438-2377895a4c94",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "Caso 2: el documento no es aprobado",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f4ebc4c9-b3bf-4fc3-a139-c72e3c19d0f6",
+      "texto": "**HD-14093-H-P2004**\n   - **Descripción:** BOMBA CENTRÍFUGA\n   - **Departamento:** Mecánica\n   - **OT:** PTRESA\n   - **Edición:** 02\n   - **Fecha:** 15/02/2001\n\n- **Acciones relacionadas:**\n  - **Propiedades**\n  - **Acciones**\n  - **Auditoría**\n\nEstos documentos están organizados en un sistema que permite realizar acciones de seguimiento y auditoría, lo cual es vital para el control de calidad y gestión documental en proyectos de ingeniería industrial.]",
+      "nivel": "child",
+      "parent_id": "b2870bc4-2599-4fc6-9438-2377895a4c94",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "Caso 2: el documento no es aprobado",

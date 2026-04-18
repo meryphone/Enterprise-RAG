@@ -181,7 +181,7 @@ def _es_fragmento_cabecera_puro(texto: str) -> bool:
 # ── API pública ──────────────────────────────────────────────────────────────
 
 
-def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
+def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -> list[ElementoProcesado]:
     """Recorre el DoclingDocument y produce la lista plana de elementos.
 
     Reglas aplicadas → "Procesado por tipo de elemento":
@@ -206,7 +206,7 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
     _titulo_norm = re.sub(r"\s+", " ", meta.titulo).upper() if meta.titulo else None
 
     seccion_actual: str | None = None
-    dentro_de_anexo = False
+    dentro_de_anexo = es_anexo_documento  # sticky: solo pasa de False → True
     dentro_de_indice = False
     pagina_anterior = 0
 
@@ -228,12 +228,13 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
             if texto_seccion and PATRON_PIE_PAGINA.match(texto_seccion):
                 continue
             # Ignorar el titulo de la cabecera que rompe la seccion actual
-            if _titulo_norm and _titulo_norm in texto_seccion:
+            if _titulo_norm and _titulo_norm in texto_seccion.upper():
                 continue
             # Docling a veces concatena número y título: "3.NOTAS" → "3. NOTAS"
             texto_seccion = PATRON_NUMERO_TITULO.sub(r"\1 \2", texto_seccion)
             seccion_actual = texto_seccion or seccion_actual
-            dentro_de_anexo = bool(seccion_actual and PATRON_ANEXO.search(seccion_actual))
+            if not dentro_de_anexo:
+                dentro_de_anexo = bool(seccion_actual and PATRON_ANEXO.search(seccion_actual))
             dentro_de_indice = bool(seccion_actual and PATRON_INDICE.match(seccion_actual))
             continue  # solo actualiza contexto, no genera chunk propio
 
@@ -272,12 +273,22 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
             continue
 
         # --- Tablas -----------------------------------------------------------
+        # La cabecera del documento aparece a veces detectada como primer TableItem de
+        # cada pagina, la ignoramos.
         if isinstance(item, TableItem):
+            if pagina is not None and pagina != pagina_anterior:
+                pagina_anterior = pagina
+                continue
             try:
                 md = item.export_to_markdown(doc=doc)
             except TypeError:
                 md = item.export_to_markdown()
             md = md.strip()
+            # Docling a veces envuelve la tabla en code fences (```markdown ... ```)
+            if md.startswith("```"):
+                md = re.sub(r"^```[a-z]*\n?", "", md)
+                md = re.sub(r"\n?```$", "", md)
+                md = md.strip()
 
             # Detectamos tablas degradadas con celdas fusionadas que rompen el Markdown.
             degradada = bool(PATRON_TABLA_DEGRADADA.search(md))
@@ -287,7 +298,6 @@ def procesar_documento(doc: DoclingDocument) -> list[ElementoProcesado]:
                 descripcion = mod_vision.describir_tabla(item, doc)
                 if descripcion:
                     md = descripcion
-                    degradada = False
 
             resultado.append(
                 ElementoProcesado(

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import base64
 import io
+import sys
 
 from docling_core.types.doc import DoclingDocument, TableItem
 from openai import OpenAI
@@ -23,6 +24,7 @@ def describir_tabla(item: TableItem, doc: DoclingDocument) -> str | None:
     """
     imagen = item.get_image(doc, prov_index=0)
     if imagen is None:
+        print("[vision] describir_tabla: get_image devolvió None (¿generate_page_images=True?)", file=sys.stderr)
         return None
 
     buf = io.BytesIO()
@@ -42,8 +44,13 @@ def describir_tabla(item: TableItem, doc: DoclingDocument) -> str | None:
             }],
             max_tokens=1024,
         )
-        return resp.choices[0].message.content.strip() or None
+        texto = resp.choices[0].message.content.strip()
+        if texto.startswith("```"):
+            import re
+            texto = re.sub(r"^```[a-z]*\n?", "", texto)
+            texto = re.sub(r"\n?```$", "", texto)
+            texto = texto.strip()
+        return texto or None
     except Exception as e:
-        import sys
         print(f"[vision] describir_tabla falló: {e}", file=sys.stderr)
         return None

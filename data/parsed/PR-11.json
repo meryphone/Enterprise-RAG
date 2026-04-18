@@ -1,5 +1,5 @@
 {
-  "doc_id": "d7b97a3c2967462bb2074b64ca8b31be",
+  "doc_id": "9c690ed6f9c84ccfb5246ba4e25c9f24",
   "nombre_fichero": "PR-11.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,10 +13,10 @@
     "edicion": "3",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T18:19:40+00:00",
+  "fecha_ingesta": "2026-04-17T20:22:08+00:00",
   "chunks": [
     {
-      "chunk_id": "bd1988feab8040f19d7151a8cac95545",
+      "chunk_id": "766b44cd74ea4e749bca1c9446ea5623",
       "texto": "| RLL      | APL    | 3       | Jun 07   | REVISADO POR CAMBIO DE RAZON SOCIAL             |\n|----------|--------|---------|----------|-------------------------------------------------|\n| H.G.K.R. | J.G.C. | 2       | Enero 02 | INTEGRADO SIG MEDIOAMBIENTAL Y REVISIÓN GENERAL |\n| A.K.     | E.L.   | 1       | Mayo 94  | EMISION                                         |\n| APROB.   | VERIF. | EDICION | FECHA    | DESCRIPCION DE LA EDICION                       |",
       "nivel": "child",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b10d7f9e-558c-484e-943f-7b994da08518",
+      "chunk_id": "af5d905a-c1ed-4159-8236-a83ef56f7d1e",
       "texto": "Este Procedimiento tiene por objeto ayudar a preparar el Plan de Calidad y Medio Ambiente de cada Proyecto en particular.\n\nEs aplicable a todos los Proyectos, sea cual sea su complejidad y tamaño.\n\nEste Procedimiento forma parte del Sistema Integrado de Gestión de la Calidad y Medioambiental de Intecsa Industrial y se ha elaborado teniendo presente las normas ISO 9001 y 14001.",
       "nivel": "parent",
       "parent_id": null,
@@ -46,7 +46,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "da463825-7255-4843-8c46-96088d323e14",
+      "chunk_id": "5a2e7365-e8e8-47da-89a8-6787fff33f2b",
       "texto": "Los trabajos de Intecsa Industrial se llevan a cabo en base a un SIG de Calidad y Medioambiental documentado, que cubre todos los servicios ofrecidos, asegurando que todas las actividades se realizan de acuerdo con la legislación vigente y según Procedimientos, Instrucciones de Trabajo, especificaciones y estándares propios, previstos   para   satisfacer   las   necesidades   de   los   Clientes   y   cumplir   con   los compromisos de Calidad y Medioambientales asumidos por Intecsa Industrial.\n\nPara cada Proyecto, se prepara un Plan de Calidad y Medio que recoge los principios de actuación, recursos y secuencias de las actividades ligadas a la gestión de la calidad y medioambiental, que se apartan o añaden a lo indicado en el SIG de la Calidad y Medioambiental de Intecsa Industrial.\n\nEstos Planes aseguran también la necesaria coordinación con los Clientes, y de todos los Departamentos y Servicios entre sí.",
       "nivel": "parent",
       "parent_id": null,
@@ -61,7 +61,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "83fd33bd-1b40-4862-822b-c499828b0852",
+      "chunk_id": "c2ca736f-87b1-4535-8487-c1c600f4535d",
       "texto": "Los Planes de Calidad y Medio Ambiente tienen siempre una estructura similar, pero menores o mayores detalles y profundidad, según lo requiera el contrato.\n\nEn aquellos   casos   en   los   que   existan   exigencias   contractuales   que   definan   el contenido, forma y alcance del correspondiente Plan de un proyecto, la redacción de éste se ajustará a aquellas exigencias, completándolo si procede con lo señalado en este Procedimiento.\n\nPara facilitar su elaboración, en los Anexos de este Procedimiento se ofrecen tres alternativas que en esencia son las siguientes:",
       "nivel": "parent",
       "parent_id": null,
@@ -76,8 +76,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "73a2a11d878343e7acdfa84319d46210",
-      "texto": "```markdown\n| CONTENIDO                         | SIMPLIFICADO | TIPICO | COMPLETO |\n|-----------------------------------|--------------|--------|----------|\n| 1. INTRODUCCION                   |              |        |          |\n| Sistema de Calidad                | -            | x      | x        |\n| Objeto y alcance del Plan         | x            | x      | x        |\n| Contenido                         | -            | -      | x        |\n| Responsabilidad                   | -            | -      | x        |\n| 2. DATOS BASICOS                  |              |        |          |\n| Descripción del Proyecto          | x            | x      | x        |\n| Información general               | x            | x      | x        |\n| Confidencialidad                  | -            | -      | x        |\n| Bases de diseño                   | -            | x      | x        |\n| Datos medioambientales            | x            | x      | x        |\n| Requisitos legales aplicables     | x            | x      | x        |\n| Códigos y normas aplicables       | -            | -      | x        |\n| Procedimientos del Cliente        | -            | -      | x        |\n| Procedimientos de Intecsa Industrial | -            | -      | x        |\n| Servicios a suministrar           | x            | x      | x        |\n| Garantía de Calidad y MA          | -            | -      | x        |\n| Prevención y Salud                | x            | x      | x        |\n| 3. COORDINACION                   |              |        |          |\n| Organización del Proyecto         | -            | -      | x        |\n| Comunicaciones con el Cliente     | x            | x      | x        |\n| Identificación de documentos      | x            | x      | x        |\n| Distribución de documentos        | -            | x      | x        |\n| Documentos de proveedores         | -            | x      | x        |\n| Verificación de documentos        | x            | x      | x        |\n| Aprobación de documentos          | -            | x      | x        |\n| Archivo de documentos             | -            | -      | x        |\n| Ordenes de cambio                 | x            | x      | x        |\n| Reuniones                         | -            | x      | x        |\n| Documentación final               | -            | -      | x        |\n```",
+      "chunk_id": "2cd0f1b450ad4d7aa242f3a9cc426bd7",
+      "texto": "| CONTENIDO                                  | SIMPLIFICADO | TIPICO | COMPLETO |\n|--------------------------------------------|--------------|--------|----------|\n| **1. INTRODUCCION**                        |              |        |          |\n| Sistema de Calidad                         | -            | x      | x        |\n| Objeto y alcance del Plan                  | x            | x      | x        |\n| Contenido                                  | -            | -      | x        |\n| Responsabilidad                            | -            | -      | x        |\n| **2. DATOS BASICOS**                       |              |        |          |\n| Descripción del Proyecto                   | x            | x      | x        |\n| Información general                        | x            | x      | x        |\n| Confidencialidad                           | -            | -      | x        |\n| Bases de diseño                            | -            | x      | x        |\n| Datos medioambientales                     | x            | x      | x        |\n| Requisitos legales aplicables              | x            | x      | x        |\n| Códigos y normas aplicables                | -            | -      | x        |\n| Procedimientos del Cliente                 | -            | -      | x        |\n| Procedimientos de Intecsa Industrial       | -            | -      | x        |\n| Servicios a suministrar                    | x            | x      | x        |\n| Garantía de Calidad y MA                   | -            | -      | x        |\n| Prevención y Salud                         | x            | x      | x        |\n| **3. COORDINACION**                        |              |        |          |\n| Organización del Proyecto                  | -            | -      | x        |\n| Comunicaciones con el Cliente              | x            | x      | x        |\n| Identificación de documentos               | x            | x      | x        |\n| Distribución de documentos                 | -            | x      | x        |\n| Documentos de proveedores                  | -            | x      | x        |\n| Verificación de documentos                 | x            | x      | x        |\n| Aprobación de documentos                   | -            | x      | x        |\n| Archivo de documentos                      | -            | -      | x        |\n| Ordenes de cambio                          | x            | x      | x        |\n| Reuniones                                  | -            | x      | x        |\n| Documentación final                        | -            | -      | x        |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 3,
@@ -88,11 +88,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "b7a344ab786848688c08407570d28545",
-      "texto": "```markdown\n| CONTENIDO                                                         | SIMPLIFICADO | TIPICO | COMPLETO |\n|-------------------------------------------------------------------|--------------|--------|----------|\n| 4. PLANIFICACION Y CONTROL                                        |              |        |          |\n| Planificación                                                     | x            | x      | x        |\n| Control de Costes                                                 | -            | x      | x        |\n| Control de documentos                                             | -            | x      | x        |\n| Informes de Progreso                                              | -            | x      | x        |\n|                                                                   |              |        |          |\n| 5. PROCEDIMIENTOS                                                 |              |        |          |\n| Procedimientos aplicables                                         | x            | x      | -        |\n| Procedimientos de Ingeniería                                      | -            | -      | x        |\n| Procedimiento de Compras                                          | -            | x      | x        |\n| Procedimiento de Subcontratación                                  | -            | x      | x        |\n| Procedimiento de Construcción                                     | -            | x      | x        |\n|                                                                   |              |        |          |\n| ANEXOS                                                            |              |        |          |\n| Formatos                                                          | -            | x      | x        |\n| Sellos de planos                                                  | x            | x      | x        |\n| Cuadros de distribución                                           | -            | x      | x        |\n| Ejemplos de informes                                              | -            | x      | x        |\n| Resumen de ciertos procedimientos (Cuentas, Identificación...)    | -            | x      | -        |\n|                                                                   |              |        |          |\n| SUPLEMENTO INTERNO                                                |              |        |          |\n| Formato y mecanografía                                            | -            | x      | x        |\n| Pautas de Diseño                                                  | -            | x      | x        |\n| Niveles de desarrollo                                             | -            | x      | x        |\n| Items                                                             | -            |        |          |\n```",
+      "chunk_id": "5e4a7f4588d84c32bcefab7059a4daf6",
+      "texto": "| CONTENIDO                                                           | SIMPLIFICADO | TIPICO | COMPLETO |\n|---------------------------------------------------------------------|--------------|--------|----------|\n| **4. PLANIFICACION Y CONTROL**                                      |              |        |          |\n| Planificación                                                       | x            | x      | x        |\n| Control de Costes                                                   | -            | x      | x        |\n| Control de documentos                                               | -            | x      | x        |\n| Informes de Progreso                                                | -            | x      | x        |\n| **5. PROCEDIMIENTOS**                                               |              |        |          |\n| Procedimientos aplicables                                           | x            | x      | -        |\n| Procedimientos de Ingeniería                                        | -            | -      | x        |\n| Procedimiento de Compras                                            | -            | x      | x        |\n| Procedimiento de Subcontratación                                    | -            | x      | x        |\n| Procedimiento de Construcción                                       | -            | x      | x        |\n| **ANEXOS**                                                          |              |        |          |\n| Formatos                                                            | -            | x      | x        |\n| Sellos de planos                                                    | x            | x      | x        |\n| Cuadros de distribución                                             | -            | x      | x        |\n| Ejemplos de informes                                                | -            | x      | x        |\n| Resumen de ciertos procedimientos (Cuentas, Identificación...)      | -            | x      | -        |\n| **SUPLEMENTO INTERNO**                                              |              |        |          |\n| Formato y mecanografía                                              | -            | x      | x        |\n| Pautas de Diseño                                                    | -            | x      | x        |\n| Niveles de desarrollo                                               | -            | x      | x        |\n| Ítems                                                               | -            | -      | -        |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 4,
@@ -103,10 +103,10 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "a2457d92-cf83-49c1-8748-8cde53d86fe1",
+      "chunk_id": "af39dc41-5f66-446f-8f99-437126823a64",
       "texto": "La preparación del Plan de Calidad y Medio Ambiente es responsabilidad del Jefe del Proyecto, con la colaboración de Calidad y Medio Ambiente si se requiere.\n\nEl Plan debe ser siempre verificado por el Jefe de Calidad y Medio Ambiente y aprobado por el Director de la División correspondiente. La verificación del Jefe  de Calidad y Medio Ambiente se referirá a la coherencia del Plan con el SIG de la Calidad y Medio Ambiental de Intecsa Industrial.",
       "nivel": "parent",
       "parent_id": null,
@@ -121,7 +121,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0aef4ed9-ce43-47f4-b962-413bbb8abf46",
+      "chunk_id": "38d3f69e-9b46-404f-8545-65493383625a",
       "texto": "Tanto el Plan como el Suplemento Interno deben incluirse entre la información correspondiente al Proyecto en el portal interno de Intecsa Industrial.\n\nEl Plan, sin el Suplemento Interno, se enviará al Cliente excepto en aquellos casos de Plan simplificado que, a juicio del Director de la División, no sea procedente.",
       "nivel": "parent",
       "parent_id": null,

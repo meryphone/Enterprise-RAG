@@ -1,5 +1,5 @@
 {
-  "doc_id": "52165f13fd93468ba312ef738da725e0",
+  "doc_id": "1e7aaf4d8d42438196f3e2427fd8b116",
   "nombre_fichero": "PR-08-ANEXO-III.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,11 +13,11 @@
     "edicion": null,
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T18:18:20+00:00",
+  "fecha_ingesta": "2026-04-17T20:20:37+00:00",
   "chunks": [
     {
-      "chunk_id": "70bc461099c04256a522a7cd5dcac785",
-      "texto": "```markdown\n|      | General |           | Construccion |           | Obra Civil |           | Procesos |           | Electricidad |           | Instrument |           | Seguridad |           | Compras |           | Calidad |           | Mecánica |           |\n|------|---------|-----------|--------------|-----------|------------|-----------|----------|-----------|--------------|-----------|------------|-----------|-----------|-----------|---------|-----------|---------|-----------|----------|-----------|\n|      | ESC     | LEC       | ESC          | LEC       | ESC        | LEC       | ESC      | LEC       | ESC          | LEC       | ESC        | LEC       | ESC       | LEC       | ESC     | LEC       | ESC     | LEC       | ESC      | LEC       |\n| JDAP | X       |           | X            |           | X          |           | X        |           | X            |           | X          |           | X         |           | X       |           | X       |           | X        |           |\n| ICR  | X       | X         | X            |           | X          |           | X        |           | X            |           | X          |           |           |           | X       |           | X       |           | X        |           |\n| JGH  | X       | X         | X            |           | X          |           | X        |           | X            |           | X          |           |           |           | X       |           | X       |           | X        | X         |\n| JMVT | X       | X         | X            |           | X          |           | X        |           | X            |           | X          |           |           |           | X       |           | X       |           | X        |           |\n| JMB  |         |           | X            |           | X          |           | X        |           | X            |           | X          |           |           |           | X       |           | X       |           | X        |           |\n| AGB  | X       |           | X            |           | X          |           |          |           | X            |           | X          |           |           |           | X       |           | X       |           | X        |           |\n| MMG  | X       | X         | X            |           | X          |           |          |           | X            |           | X          |           |           |           | X       |           | X       |           | X        |           |\n| ECM  |         |           | X            |           | X          |           | X        |           | X            |           | X          |           |           |           | X       |           | X       |           | X        |           |\n| FRA  |         |           |              |           | X          |           |          |           | X            |           | X          |           |           |           | X       |           | X       |           |          | X         |\n| JPS  |         |           |              |           | X          |           |          |           | X            |           | X          |           |           |           | X       |           | X       |           |          |           |\n| DRA  |         |           | X            |           | X          |           |          |           | X            |           | X          |           |           |           | X       |           | X       |           | X        |           |\n| ISM  |         |           |              |           | X          |           |          |           | X            |           | X          |           |           |           | X       |           | X       |           | X        |           |\n| PAQ  | X       |           | X            |           | X          |           | X        |           | X            |           | X          |           |           |           | X       |           | X       |           |          |           |\n```",
+      "chunk_id": "322e088d37144d68804af4f0c8d7a19a",
+      "texto": "|     | General |        | Construccion |        | Obra Civil |        | Procesos |        | Electricidad |        | Instrument |        | Seguridad |        | Compras |        | Calidad |        | Mecánica |        |\n|-----|---------|--------|--------------|--------|------------|--------|----------|--------|--------------|--------|------------|--------|-----------|--------|---------|--------|---------|--------|----------|--------|\n|     | ESC     | LEC    | ESC          | LEC    | ESC        | LEC    | ESC      | LEC    | ESC          | LEC    | ESC        | LEC    | ESC       | LEC    | ESC     | LEC    | ESC     | LEC    | ESC      | LEC    |\n| JDAP| X       |        | X            |        |            |        | X        |        | X            |        | X          |        | X         |        | X       |        |         | X      | X        |        |\n| ICR | X       | X      |              |        |            |        | X        |        | X            |        |            | X      | X         |        | X       |        | X       |        | X        |        |\n| JGH | X       | X      | X            |        |            |        |          |        |            |        |            |        | X         |        | X       |        |         | X      | X        | X      |\n| JMVT| X       | X      | X            | X      | X          |        |          |        | X            |        |            |        | X         |        | X       |        |         |        | X        | X      |\n| JMB |         | X      |              |        |            |        |          |        | X            |        |            |        |           |        |         |        |         |        | X        |        |\n| AGB |         | X      |              |        |            |        | X        |        |            |        |            |        | X         |        | X       | X      |         | X      | X        |        |\n| MMG | X       | X      |              |        |            |        | X        |        |          |        |            |        | X         |        | X       |        |         |        | X        | X      |\n| ECM |         |        |              |        |            |        |          |        |            |        |            |        |           |        | X       |        |         |        |          | X      |\n| FRA |         |        |              |        |            |        |          |        |            |        |            |        |           | X      | X       |        | X       |        | X        | X      |\n| JPS |         |        |              |        |            |        |          |        | X            |        |            |        |           |        | X       |        | X       |        | X        | X      |\n| DRA |         | X      |              |        |            |        |          |        |            |        |            |        | X         |        | X       |        | X       |        |          | X      |\n| ISM |         |        |              |        |            |        |          |        |            |        |            |        | X         |        | X       |        | X       |        | X        |        |\n| PAQ |         | X      |              |        |            |        |          | X      |            |        |            |        | X         |        | X       |        | X       |        | X        | X      |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 1,
@@ -28,11 +28,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": true,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "d09e37ed6bf342349fbbac7dacf51075",
-      "texto": "```markdown\n|                             | ISM | FRA | PAQ | JDAP | JGH | JMVT |\n|-----------------------------|-----|-----|-----|------|-----|------|\n| UNIDADES PAQUETE            | LEC |     |     |      | LEC | LEC  |\n| ELECTRICIDAD                | LEC | LEC | LEC | LEC  | LEC | LEC  |\n| INSTRUMENTACION             | LEC | LEC | LEC | LEC  | LEC | LEC  |\n| EQUIPOS                     | LEC |     |     |      | LEC | LEC  |\n| TUBERIAS                    | LEC |     |     |      | LEC | LEC  |\n| O.CIVIL+EEMM               | LEC |     |     |      | LEC | LEC  |\n| AISLAMIENTO                 | LEC |     |     |      | LEC | LEC  |\n| PINTURA                     | LEC |     |     |      | LEC | LEC  |\n```",
+      "chunk_id": "efe72f722ed1457f986dbfcac83d8f35",
+      "texto": "|                      | ISM | FRA | PAQ | JDAP | JGH | JMVT |\n|----------------------|-----|-----|-----|------|-----|------|\n| UNIDADES PAQUETE     | LEC |     |     |      | LEC | LEC  |\n| ELECTRICIDAD         | LEC | LEC |     | LEC  | LEC | LEC  |\n| INSTRUMENTACION      | LEC |     | LEC |      | LEC | LEC  |\n| EQUIPOS              | LEC |     |     |      |     | LEC  |\n| TUBERIAS             | LEC |     |     |      |     | LEC  |\n| O.CIVIL+EEMM         | LEC |     |     |      |     |      |\n| AISLAMIENTO          | LEC |     |     |      |     | LEC  |\n| PINTURA              | LEC |     |     |      |     | LEC  |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 1,
@@ -43,11 +43,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": true,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "b537b19dd80e43dd86104fa7ed322ba6",
-      "texto": "```markdown\n| PERMISOS DE DIRECTORIOS EN MECANICA | JMVT | JGH | ISM | DRA | JPS | ECM |\n|-------------------------------------|------|-----|-----|-----|-----|-----|\n| DCI                                 | ESC  |     |     |     |     |     |\n| EQUIPOS                             | ESC  | ESC |     |     |     |     |\n| TUBERIAS                            | ESC  |     | ESC |     |     |     |\n| TUB - PLANOS                        |      | ESC | ESC | ESC | ESC | ESC |\n```",
+      "chunk_id": "f2710f0457624548b1f8cdfebc34918d",
+      "texto": "| PERMISOS DE DIRECTORIOS EN MECANICA | JMVT | JGH | ISM | DRA | JPS | ECM |\n|-------------------------------------|------|-----|-----|-----|-----|-----|\n| DCI                                 | ESC  |     |     |     |     |     |\n| EQUIPOS                             | ESC  | ESC |     |     |     |     |\n| TUBERIAS                            | ESC  |     | ESC |     |     |     |\n| TUB - PLANOS                        |      | ESC | ESC | ESC | ESC | ESC |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 1,
@@ -58,11 +58,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": true,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "a181ea443c9648929fbfda5d6eb20bbd",
-      "texto": "```markdown\n| PERMISOS EN DIRECTORIO GENERAL | MMG |   |   |\n|--------------------------------|-----|---|---|\n| LIBRO FINAL PROYECTO           | ESC |   |   |\n| ORDENES DE CAMBIO              | ESC |   |   |\n```",
+      "chunk_id": "28b4abbf905447c7967edd4cd9801a8b",
+      "texto": "| PERMISOS EN DIRECTORIO GENERAL | MMG |   |   |\n|-------------------------------|-----|---|---|\n| LIBRO FINAL PROYECTO          | ESC |   |   |\n| ORDENES DE CAMBIO             | ESC |   |   |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 1,
@@ -73,10 +73,10 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": true,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "ba04ed22db2241b88adc7ec491e4df35",
+      "chunk_id": "1436a7fb05134a989e041182fe185094",
       "texto": "| USER                      | NOMBRE                                | ESPECIALIDAD   |\n|---------------------------|---------------------------------------|----------------|\n| Juan de Dios Aguado Pérez | Sist. de Información /Instrumentación | JDAP           |\n| Ignacio Cespedes Rivas    | Dirección Oficina Local               | ICR            |\n| Juan Luis Gomar Hoyos     | Obra Civil                            | JGH            |\n| Juan Manuel Vega Torres   | Obra Civil / Seguridad                | JMVT           |\n| Jose Miguel Bonmati Ñeco  | Administración / Compras              | JMB            |\n| Alberto Grande Brihuega   | Procesos / Seguridad                  | AGB            |\n| Macarena Mata Garcia      | Secretaria                            | MMG            |\n| Elisabet Cavada Montañes  | Tuberías / CAD                        | ECM            |\n| Francisco Ruiz Aguilar    | Electricidad / Instrumentación        | FRA            |\n| Javier Pérez Serrano      | Tuberías / CAD                        | JPS            |\n| Domingo Ruiz Aguilar      | Tuberías / CAD                        | DRA            |\n| Ismael Sánchez Monge      | Tuberías / Mecánica / Construcción    | ISM            |\n| Pedro Alvarez Quijano     | Electricidad / Instrumentación        | PAQ            |",
       "nivel": "child",
       "parent_id": null,

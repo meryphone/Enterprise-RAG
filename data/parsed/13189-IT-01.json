@@ -1,5 +1,5 @@
 {
-  "doc_id": "207c5c9d1f094a4295c181db7482f5d3",
+  "doc_id": "ccff54293e7341609fb74def4a30712f",
   "nombre_fichero": "13189-IT-01.pdf",
   "metadatos_admin": {
     "empresa": "dow",
@@ -13,10 +13,10 @@
     "edicion": "1",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T18:29:06+00:00",
+  "fecha_ingesta": "2026-04-17T20:32:22+00:00",
   "chunks": [
     {
-      "chunk_id": "77e8a1a5-f0cb-46ab-b60f-44f5aed5356c",
+      "chunk_id": "646ac74a-09a6-4dd5-9b62-2e855ee36749",
       "texto": "El objeto del presente documento es la descripción del procedimiento de uso del Portal de IUI en el proyecto 13189 - DOW Tarragona\n\nEn particular se incidirá en los siguientes aspectos:\n\n-Organización del archivo electrónico del proyecto en el portal.\n\n-Acceso a la información por parte de los distintos participantes en el proyecto: personal de IUI, colaboradores, proveedores y personal del cliente.\n\n-Introducción y control de los documentos.",
       "nivel": "parent",
       "parent_id": null,
@@ -32,7 +32,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "116e2cb4-72e5-47c0-a2e0-58d4ede960ad",
+      "chunk_id": "535ed242-534c-472c-a57c-c6b7082a8732",
       "texto": "IUI dispone de un Portal que constituye el punto de acceso a la información de la compañía. El portal de IUI está regido por Documentum 4i, un Sistema de Gestión Electrónica de Documentos que presenta las siguientes características y funcionalidades:\n\nSistema orientado a Intranet / Internet: permite crear, modificar y buscar documentos a través de un navegador estándar (Internet Explorer p.e.). El que se trate de un entorno web, permite facilitar el acceso a la información a través de Internet.\n\nCatalogación de la información: para cada documento se cumplimentan una serie de atributos o propiedades (número de documento, título, autor, etc.) que facilitan la rápida localización de los documentos deseados mediante utilidades de búsqueda.\n\nFácil acceso a la información: la aplicación está dotada de herramientas de búsqueda basadas en los atributos asociados a los documentos. Por otro lado, dentro de la estructura de directorios (carpetas) en la que está organizada la información, el sistema permite   realizar   enlaces   haciendo   que   un   mismo   documento   sea   accesible   desde distintas localizaciones (desde distintas carpetas) sin necesidad de duplicar archivos.\n\nIntegridad y seguridad de la información: el   sistema incorpora procedimientos de seguridad basados en listas de control de acceso (ACL: access control list), las cuales son aplicables individualmente a carpetas y documentos definiendo qué privilegios tiene cada usuario sobre ellos (ver, editar, borrar, etc.). De esta forma, se garantiza que cada usuario accede únicamente a la información a la que tiene derecho. Asimismo, se evita el riesgo de borrados involuntarios.",
       "nivel": "parent",
       "parent_id": null,
@@ -48,10 +48,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "087eb093-0d48-4d59-822e-57150c473b8f",
+      "chunk_id": "74b156ad-5782-4f32-aecd-55cba0b28b31",
       "texto": "IUI dispone de un Portal que constituye el punto de acceso a la información de la compañía. El portal de IUI está regido por Documentum 4i, un Sistema de Gestión Electrónica de Documentos que presenta las siguientes características y funcionalidades:\n\nSistema orientado a Intranet / Internet: permite crear, modificar y buscar documentos a través de un navegador estándar (Internet Explorer p.e.). El que se trate de un entorno web, permite facilitar el acceso a la información a través de Internet.\n\nCatalogación de la información: para cada documento se cumplimentan una serie de atributos o propiedades (número de documento, título, autor, etc.) que facilitan la rápida localización de los documentos deseados mediante utilidades de búsqueda.\n\nFácil acceso a la información: la aplicación está dotada de herramientas de búsqueda basadas en los atributos asociados a los documentos.",
       "nivel": "child",
-      "parent_id": "116e2cb4-72e5-47c0-a2e0-58d4ede960ad",
+      "parent_id": "535ed242-534c-472c-a57c-c6b7082a8732",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "2. INTRODUCCIÓN",
@@ -64,10 +64,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "77d257c6-0de4-45e3-8e10-875e0936aff0",
+      "chunk_id": "9ca9850a-c3e2-4b00-af62-1a54d8280795",
       "texto": "Por otro lado, dentro de la estructura de directorios (carpetas) en la que está organizada la información, el sistema permite   realizar   enlaces   haciendo   que   un   mismo   documento   sea   accesible   desde distintas localizaciones (desde distintas carpetas) sin necesidad de duplicar archivos.\n\nIntegridad y seguridad de la información: el   sistema incorpora procedimientos de seguridad basados en listas de control de acceso (ACL: access control list), las cuales son aplicables individualmente a carpetas y documentos definiendo qué privilegios tiene cada usuario sobre ellos (ver, editar, borrar, etc.). De esta forma, se garantiza que cada usuario accede únicamente a la información a la que tiene derecho. Asimismo, se evita el riesgo de borrados involuntarios.",
       "nivel": "child",
-      "parent_id": "116e2cb4-72e5-47c0-a2e0-58d4ede960ad",
+      "parent_id": "535ed242-534c-472c-a57c-c6b7082a8732",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "2. INTRODUCCIÓN",
@@ -80,7 +80,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e120f383-b7c2-41da-84e5-31631aa69266",
+      "chunk_id": "346bb499-91e4-41b1-9d35-07e985559483",
       "texto": "Mantenimiento y control de versiones: a   la   hora   de   modificar   un   documento   del sistema   existe   la   opción   de   sobrescribirlo   (perdiendo   el   documento   original)   o   de conservarlo, añadiendo el nuevo documento como versión del documento inicial. Ello posibilita el mantenimiento de un histórico de ediciones de los documentos, de modo que el sistema nos muestra la última versión pero nos permite acceder a las anteriores.\n\nMensajería electrónica : la aplicación permite el envío de mensajes entre usuarios con documentos del sistema asociados a dichos mensajes.\n\nGestión de ciclos de vida y de flujos de trabajo (workflows): el sistema permite atribuir ciclos de vida a los documentos entendidos éstos como una sucesión de estados por los que atraviesa el documento desde su creación hasta su publicación y distribución una vez aprobados. Asimismo, es posible la automatización de flujos documentales en los que se especifica por qué usuarios y en qué orden ha de pasar cada documento para su revisión, aprobación o simplemente para información. Las sucesivas revisiones y aprobaciones quedan registradas en el sistema.\n\nSoporte multiformato: el sistema permite incluir los documentos en el formato con que son creados. Adicionalmente, es posible guardar los documentos en varios formatos siendo de especial interés la publicación de documentos tanto en su formato original como en formato PDF, formato estándar que garantiza que cualquier usuario puede visualizar el documento sin necesidad de tener instalada la aplicación con la que ha sido generado.",
       "nivel": "parent",
       "parent_id": null,
@@ -95,10 +95,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9ae37499-40b5-40bd-86a6-23b6914ff205",
+      "chunk_id": "528b2eda-ba21-4123-bc76-cf0306133247",
       "texto": "Mantenimiento y control de versiones: a   la   hora   de   modificar   un   documento   del sistema   existe   la   opción   de   sobrescribirlo   (perdiendo   el   documento   original)   o   de conservarlo, añadiendo el nuevo documento como versión del documento inicial. Ello posibilita el mantenimiento de un histórico de ediciones de los documentos, de modo que el sistema nos muestra la última versión pero nos permite acceder a las anteriores.\n\nMensajería electrónica : la aplicación permite el envío de mensajes entre usuarios con documentos del sistema asociados a dichos mensajes.\n\nGestión de ciclos de vida y de flujos de trabajo (workflows): el sistema permite atribuir ciclos de vida a los documentos entendidos éstos como una sucesión de estados por los que atraviesa el documento desde su creación hasta su publicación y distribución una vez aprobados.",
       "nivel": "child",
-      "parent_id": "e120f383-b7c2-41da-84e5-31631aa69266",
+      "parent_id": "346bb499-91e4-41b1-9d35-07e985559483",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 13189 - DOW Tarragona",
@@ -110,10 +110,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fcb6eae7-6a9c-4bf8-a5c7-70b8b638b65f",
+      "chunk_id": "1b98cfc3-5062-47ff-a249-00e28bd01978",
       "texto": "Asimismo, es posible la automatización de flujos documentales en los que se especifica por qué usuarios y en qué orden ha de pasar cada documento para su revisión, aprobación o simplemente para información. Las sucesivas revisiones y aprobaciones quedan registradas en el sistema.\n\nSoporte multiformato: el sistema permite incluir los documentos en el formato con que son creados. Adicionalmente, es posible guardar los documentos en varios formatos siendo de especial interés la publicación de documentos tanto en su formato original como en formato PDF, formato estándar que garantiza que cualquier usuario puede visualizar el documento sin necesidad de tener instalada la aplicación con la que ha sido generado.",
       "nivel": "child",
-      "parent_id": "e120f383-b7c2-41da-84e5-31631aa69266",
+      "parent_id": "346bb499-91e4-41b1-9d35-07e985559483",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 13189 - DOW Tarragona",
@@ -125,7 +125,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f9a4ab08-7dcf-446b-82b8-c8e6db6743ec",
+      "chunk_id": "14d0e15c-2f57-4fd5-92a9-55389de68df4",
       "texto": "Todos los documentos del proyecto son incluidos en el Portal de Intranet de IUI, en el cual existe un área específica para la documentación asociada al proyecto.\n\nLas instrucciones para importar documentos las podemos encontrar en el manual editado por Gestión del Conocimiento: INCORPORAR DOCUMENTOS AL PORTAL\n\nNOTA: Para acceder directamente al documento a través de este enlace deberá estar previamente trabajando en el portal (Haber hecho log in previamente)",
       "nivel": "parent",
       "parent_id": null,
@@ -140,7 +140,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "36361fb3-512a-4c4a-94c7-a0452076e9d3",
+      "chunk_id": "ecc865ce-a9df-435f-9522-783464f3b8b8",
       "texto": "Como documentos del proyecto serán incluidos en el portal:",
       "nivel": "parent",
       "parent_id": null,
@@ -155,7 +155,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3dafa58e-c71b-4f0e-94b5-50f1f7040e76",
+      "chunk_id": "eefb8620-6b42-4d60-9496-bf65192f3ca5",
       "texto": "o Técnicos. Ingeniería   básica,   especificaciones   y   estándares,   planos   de   las instalaciones existentes, etc.\n\no Documentos de compras y de subcontratos de construcción: peticiones de oferta, tabulaciones económicas, pedidos, etc.",
       "nivel": "parent",
       "parent_id": null,
@@ -170,7 +170,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0e541b95-152d-479c-b90b-60ee3e7b2270",
+      "chunk_id": "dc08cb0c-5e56-464a-8f49-649625bcedb0",
       "texto": "o Documentos de ingeniería: planos, especificaciones, hojas de datos, etc\n\no Material   Supplies   (Requisiciones   de   Materiales)   y   Requisiciones   de Construcción. Parte técnica de los documentos de compra\n\no  Documentos de planificación y control del proyecto: planificaciones, curvas de avance, informes de costes, etc.\n\no Documentos generales: informes   de   progreso,   actas   de   reunión,   plan   de calidad, etc.\n\n-Documentos provenientes de los proveedores.\n\nLos documentos son introducidos en el Portal de Intranet por personal de  IUI, quedando disponibles para su uso en toda la organización siendo posible definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad.\n\nPeriódicamente, en principio una vez al día, es realizada una copia de contenidos de la Intranet a Internet, para hacerlos accesibles a través de la página web de IUI en Internet . De esta manera, clientes, proveedores e incluso personal de IUI desplazado de las oficinas   pueden   acceder   a   aquellos   documentos   del   proyecto   que   se   determinen   en cualquier momento y desde cualquier lugar, siempre y cuando dispongan de conexión a Internet.",
       "nivel": "parent",
       "parent_id": null,
@@ -186,10 +186,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "46fa3d4a-ddfb-4c52-9cfb-ed289eb885b6",
+      "chunk_id": "3710e43d-ebc4-4a6c-b2dd-16fe9de268be",
       "texto": "o Documentos de ingeniería: planos, especificaciones, hojas de datos, etc\n\no Material   Supplies   (Requisiciones   de   Materiales)   y   Requisiciones   de Construcción. Parte técnica de los documentos de compra\n\no  Documentos de planificación y control del proyecto: planificaciones, curvas de avance, informes de costes, etc.\n\no Documentos generales: informes   de   progreso,   actas   de   reunión,   plan   de calidad, etc.\n\n-Documentos provenientes de los proveedores.\n\nLos documentos son introducidos en el Portal de Intranet por personal de  IUI, quedando disponibles para su uso en toda la organización siendo posible definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad.\n\nPeriódicamente, en principio una vez al día, es realizada una copia de contenidos de la Intranet a Internet, para hacerlos accesibles a través de la página web de IUI en Internet .",
       "nivel": "child",
-      "parent_id": "0e541b95-152d-479c-b90b-60ee3e7b2270",
+      "parent_id": "dc08cb0c-5e56-464a-8f49-649625bcedb0",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "-Documentos generados por IUI:",
@@ -202,10 +202,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "089ed814-84b6-4166-816e-023bf5007ec7",
+      "chunk_id": "6356a948-99a8-4c76-9c37-9507a1b5c5b6",
       "texto": "De esta manera, clientes, proveedores e incluso personal de IUI desplazado de las oficinas   pueden   acceder   a   aquellos   documentos   del   proyecto   que   se   determinen   en cualquier momento y desde cualquier lugar, siempre y cuando dispongan de conexión a Internet.",
       "nivel": "child",
-      "parent_id": "0e541b95-152d-479c-b90b-60ee3e7b2270",
+      "parent_id": "dc08cb0c-5e56-464a-8f49-649625bcedb0",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "-Documentos generados por IUI:",
@@ -218,7 +218,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a1c8f693-e4a6-4f50-93d3-9d8a91c475c5",
+      "chunk_id": "c0877c3d-3532-4623-91a0-212b0ae47298",
       "texto": "Existen dos posibilidades de acceso a la documentación por parte del cliente a través de:\n\n Página Web de IUI en Internet El   cliente   podrá   acceder   a   la   documentación   del proyecto , desde la zona de proyecto en colaboración. Se trata de un área únicamente",
       "nivel": "parent",
       "parent_id": null,
@@ -234,7 +234,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e19e05c0-1fe9-4811-a219-33c5df63debd",
+      "chunk_id": "9be77e7f-35cc-48c0-90f4-2f826c02806a",
       "texto": "de consulta y descarga, no existiendo posibilidad de modificación de los documentos allí publicados.\n\nEl cliente únicamente tendrá acceso a los documentos una vez éstos hayan sido aprobados por IUI de manera que para un determinado documento que no esté aprobado no tendrán posibilidad de abrirlo pero sí acceder a la última edición aprobada.\n\n Intranet de IUI Con carácter especial el personal del cliente residente en Intecsa Uhde tendrá acceso a toda la documentación del proyecto independientemente de su estado   de   aprobación   así   como   podrá   participar   en   este   circuito   de   aprobación electrónica (workflow)",
       "nivel": "parent",
       "parent_id": null,
@@ -250,7 +250,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "df2706e8-301b-46d1-95ba-43f6bfcdbde5",
+      "chunk_id": "ff1b44ba-325f-4938-a386-851cd491d628",
       "texto": "Los proveedores podrán acceder a través del Centro de Negocios de IUI en Internet a aquellos documentos asociados a las requisiciones de material (Material Supplies) del proyecto en las que están involucrados , tanto en la fase de petición de oferta como una vez adjudicado el pedido. La información publicada en el Centro de Negocios queda restringida   a   los   proveedores   seleccionados   para   la   petición   de   oferta   y   al adjudicatario si nos encontramos en la fase de pedido . Ello queda garantizado por un sistema de contraseñas que gestiona el Administrador de Proyecto .",
       "nivel": "parent",
       "parent_id": null,
@@ -265,7 +265,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6ba813ad-634c-487b-af33-ba92218e5b4c",
+      "chunk_id": "7204ad89-f826-49f3-8443-bd80d0249321",
       "texto": "La introducción de la documentación en el portal de IUI será llevada a cabo por quien genere el documento y será aprobada y distribuida electrónicamente. Los documentos proporcionados por el cliente serán introducidos por el administrador del proyecto , quien será el responsable de la gestión del archivo electrónico del proyecto en el portal. En cuanto a documentos proporcionados por los proveedores, el encargado de su Administrador introducción en el sistema tanto a la llegada a IUI como a su salida será el de Proyecto (concretamente en PDF).",
       "nivel": "parent",
       "parent_id": null,
@@ -280,7 +280,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f5e59744-587c-4ecf-981b-9dc3a962658f",
+      "chunk_id": "2a191876-9667-44de-87e1-7e63b89d8180",
       "texto": "Como responsable del archivo  electrónico   del   proyecto   se   determinará   una   figura   de administrador del proyecto, que tendrá entre otras misiones:\n\n-Distribución electrónica de los documentos.\n\n-Introducción de aquellos documentos proporcionados por el cliente.\n\n-Agrupación de los documentos asociados a las requisiciones de material (Material Supplies) para propiciar el acceso a ellos por parte de los proveedores.\n\n-Gestión de las contraseñas de los Proveedores para el Centro de Negocios.\n\n-Seguimiento de la introducción de los documentos: detectar y activar la corrección de fallos como puedan ser errores a la hora de cumplimentar las propiedades y sobre todo a la hora de fijar los permisos.\n\n-Registro de la devolución de los documentos por el cliente.\n\n-Realización de tareas que requieren una manipulación masiva de documentos, como la introducción y extracción masiva de documentos.",
       "nivel": "parent",
       "parent_id": null,
@@ -296,7 +296,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "efdd0943-07ea-4436-8918-7b3b2aed2b3c",
+      "chunk_id": "b285d90b-4661-4ca5-8e02-001f1c690d9f",
       "texto": "El Administrador de Proyectos será el encargado de:\n\n-Activar la llegada de los documentos en la fecha requerida.\n\n-Introducción de los documentos en el Portal a su llegada a IUI.\n\n-Distribución de los documentos a los especialistas implicados.\n\n-Introducción en el sistema de los documentos una vez comentados para que puedan ser consultados por el proyecto, el cliente y el proveedor implicado.",
       "nivel": "parent",
       "parent_id": null,
@@ -312,7 +312,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1460f682-a829-4d76-8720-a9ab3b2f9745",
+      "chunk_id": "edc84098-4e98-47b1-aede-c98ca78b5699",
       "texto": "En el Portal de IUI, la información se estructura buscando lograr un doble objetivo: el fácil acceso a la misma y la simplicidad a la hora de gestionar los permisos de acceso y modificación.",
       "nivel": "parent",
       "parent_id": null,
@@ -327,7 +327,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c4adb68c-7452-4e80-98fa-6cb2f70a9bc0",
+      "chunk_id": "f8da8b38-fc3a-409f-b649-c1d9eadd7333",
       "texto": "En este sentido, la información se estructura atendiendo a la naturaleza de la misma (documentos proporcionados por el cliente, correspondencia, etc.) y en segundo término por especialidades o actividades En el caso concreto de aquellas especialidades que emiten  requisiciones   de   material\n\n(Material   Supplies),   la   documentación   estará   organizada   matricialmente,   es   decir, atendiendo al tipo de documento (hoja de datos, especificación, etc.) y atendiendo a la requisición de material (MS) a la que está asociada.",
       "nivel": "parent",
       "parent_id": null,
@@ -342,7 +342,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e22d1da2-cda1-4ce5-b267-dd77569770ac",
+      "chunk_id": "bdb80223-7c6f-47f2-bf47-9097a5762581",
       "texto": "En Documentum ,   los   usuarios   están   organizados   según   grupos   de   manera   que   los permisos (ACL'S) consisten en asignar a cada grupo de usuarios los privilegios que se les desee conceder. En cuanto a la actualización de los usuarios participantes en el proyecto será la dirección del mismo quien comunique a Gestión del Conocimiento si se producen altas o bajas dentro del proyecto, indicando en el caso de las altas la amplitud del acceso que debe tener el usuario, es decir, en qué grupo debe ser incluido. Asimismo la dirección de proyecto se pondrá en contacto con Gestión del Conocimiento ante necesidades de nuevos permisos o de modificación de los existentes.",
       "nivel": "parent",
       "parent_id": null,
@@ -357,7 +357,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0429622d-5684-43b6-bce3-7a1ca0583585",
+      "chunk_id": "80b9e166-f973-48c3-befc-ec4a9eb400bf",
       "texto": "-Proy_dow_lectura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR únicamente al propietario del documento y al administrador del proyecto. -Proy_dow_dirección: aplicable a los documentos solamente accesibles a la dirección del proyecto. Desde la intranet permite LEER a la dirección del proyecto y MODIFICAR al propietario del documento.",
       "nivel": "parent",
       "parent_id": null,
@@ -372,7 +372,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d3a51cfb-d0ad-4681-aaae-cc9bd2bbc568",
+      "chunk_id": "fce77365-1358-416a-9922-a0f33162c95c",
       "texto": "-Proy_dow_escritura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR a cualquier integrante del proyecto. -Proy_dow_privado: aplicable a documentos únicamente accesibles por la dirección del proyecto y por el responsable de costes del proyecto. Desde la intranet permite LEER al responsable de costes del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_dow_plan_privado: aplicable a documentos relativos a resúmenes de costes, órdenes de cambio y curvas económicas. Desde la intranet permite LEER a la dirección de proyectos y al grupo de contratos y permite MODIFICAR al grupo de planificación. -Proy_dow_plan_restringido: aplicable   a   documentos   relativos   a   la   situación   del proyecto (SIPO). Desde la intranet permite LEER a la dirección del proyecto así como a los jefes de departamento y permite MODIFICAR al grupo de planificación. -Proy_dow_plan_scsi: aplicable a documentos relativos a los sistemas de control de servicios de ingeniería. Desde la intranet permite LEER a la dirección proyecto, responsables de cuenta y jefes de departamento y permite MODIFICAR al propietario del documento. -Proy_dow_restringido: aplicable a documentos únicamente accesibles a los responsables de cuenta, a la dirección del proyecto y a los jefes de departamento. Desde la intranet permite LEER a los responsables de cuenta del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_dow_operaciones: aplicable a documentos generales que introducirá, o bien el grupo de operaciones o bien el Administrador de documentos. Desde la intranet permite LEER a todos los usuarios de IUI y MODIFICAR al grupo de operaciones y al Administrador de Documentos. Se   han   habilitado   unos   permisos   por   especialidad   que   permitan   INTRODUCIR   y MODIFICAR los documentos a todos los componentes de dicha especialidad y permitan\n\nLEER al resto de los componentes de IUI\n\n-Proy_dow_civil: aplicable a documentos generados por los componentes de civil y accesibles a toda IUI. Desde la Intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de civil. -Proy_dow_compras: aplicable   a   documentos   no   restringidos   generados   por   los componentes de compras y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_dow_compras_rest: aplicable a documentos generados por los componentes de compras de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_dow_construc: aplicable   a   documentos   no   restringidos   generados   por   los componentes de construcción y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_dow_construc_rest: aplicable a documentos generados por los componentes de construcción de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_dow_dinamicos : aplicable a documentos generados por los componentes de equipos dinámicos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos dinámicos. -Proy_dow_elecinst  : aplicable   a   documentos   generados   por   los   componentes   de electricidad e instrumentación y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de electricidad e instrumentación.",
       "nivel": "parent",
       "parent_id": null,
@@ -388,10 +388,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6a8768f1-bf43-4a9c-8fb5-6d19bfb2c970",
+      "chunk_id": "b3052530-56a0-4bda-9689-709fc630f219",
       "texto": "-Proy_dow_escritura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR a cualquier integrante del proyecto. -Proy_dow_privado: aplicable a documentos únicamente accesibles por la dirección del proyecto y por el responsable de costes del proyecto. Desde la intranet permite LEER al responsable de costes del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_dow_plan_privado: aplicable a documentos relativos a resúmenes de costes, órdenes de cambio y curvas económicas. Desde la intranet permite LEER a la dirección de proyectos y al grupo de contratos y permite MODIFICAR al grupo de planificación. -Proy_dow_plan_restringido: aplicable   a   documentos   relativos   a   la   situación   del proyecto (SIPO).",
       "nivel": "child",
-      "parent_id": "d3a51cfb-d0ad-4681-aaae-cc9bd2bbc568",
+      "parent_id": "fce77365-1358-416a-9922-a0f33162c95c",
       "pagina_inicio": 8,
       "pagina_fin": 10,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 13189 - DOW Tarragona",
@@ -404,10 +404,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3ca65937-047b-41ae-957f-b5f178d1c846",
+      "chunk_id": "bd6c1b98-ae14-44bd-b09b-7435a106d6ba",
       "texto": "Desde la intranet permite LEER a la dirección del proyecto así como a los jefes de departamento y permite MODIFICAR al grupo de planificación. -Proy_dow_plan_scsi: aplicable a documentos relativos a los sistemas de control de servicios de ingeniería. Desde la intranet permite LEER a la dirección proyecto, responsables de cuenta y jefes de departamento y permite MODIFICAR al propietario del documento. -Proy_dow_restringido: aplicable a documentos únicamente accesibles a los responsables de cuenta, a la dirección del proyecto y a los jefes de departamento. Desde la intranet permite LEER a los responsables de cuenta del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_dow_operaciones: aplicable a documentos generales que introducirá, o bien el grupo de operaciones o bien el Administrador de documentos. Desde la intranet permite LEER a todos los usuarios de IUI y MODIFICAR al grupo de operaciones y al Administrador de Documentos.",
       "nivel": "child",
-      "parent_id": "d3a51cfb-d0ad-4681-aaae-cc9bd2bbc568",
+      "parent_id": "fce77365-1358-416a-9922-a0f33162c95c",
       "pagina_inicio": 8,
       "pagina_fin": 10,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 13189 - DOW Tarragona",
@@ -420,10 +420,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "795b853b-aa20-406c-87f4-7e340dddc2e0",
+      "chunk_id": "d1d1ac0c-fe2e-49ee-94ba-dd2a99364257",
       "texto": "Se   han   habilitado   unos   permisos   por   especialidad   que   permitan   INTRODUCIR   y MODIFICAR los documentos a todos los componentes de dicha especialidad y permitan\n\nLEER al resto de los componentes de IUI\n\n-Proy_dow_civil: aplicable a documentos generados por los componentes de civil y accesibles a toda IUI. Desde la Intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de civil. -Proy_dow_compras: aplicable   a   documentos   no   restringidos   generados   por   los componentes de compras y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_dow_compras_rest: aplicable a documentos generados por los componentes de compras de carácter restringido por ejemplo pedidos y tabulaciones.",
       "nivel": "child",
-      "parent_id": "d3a51cfb-d0ad-4681-aaae-cc9bd2bbc568",
+      "parent_id": "fce77365-1358-416a-9922-a0f33162c95c",
       "pagina_inicio": 8,
       "pagina_fin": 10,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 13189 - DOW Tarragona",
@@ -436,10 +436,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "561001ed-bf1d-4b08-a8fe-be744582dc5f",
+      "chunk_id": "c24aa664-0eef-4fe7-bcc5-67e0e4a5216e",
       "texto": "Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_dow_construc: aplicable   a   documentos   no   restringidos   generados   por   los componentes de construcción y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_dow_construc_rest: aplicable a documentos generados por los componentes de construcción de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_dow_dinamicos : aplicable a documentos generados por los componentes de equipos dinámicos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos dinámicos.",
       "nivel": "child",
-      "parent_id": "d3a51cfb-d0ad-4681-aaae-cc9bd2bbc568",
+      "parent_id": "fce77365-1358-416a-9922-a0f33162c95c",
       "pagina_inicio": 8,
       "pagina_fin": 10,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 13189 - DOW Tarragona",
@@ -452,10 +452,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f9fa0154-70aa-4ff8-9a70-46afb0082376",
+      "chunk_id": "f6949189-0625-430a-b7a9-741faf249bd8",
       "texto": "-Proy_dow_elecinst  : aplicable   a   documentos   generados   por   los   componentes   de electricidad e instrumentación y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de electricidad e instrumentación.",
       "nivel": "child",
-      "parent_id": "d3a51cfb-d0ad-4681-aaae-cc9bd2bbc568",
+      "parent_id": "fce77365-1358-416a-9922-a0f33162c95c",
       "pagina_inicio": 8,
       "pagina_fin": 10,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 13189 - DOW Tarragona",
@@ -468,7 +468,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "cd9bebc5-5e16-495b-9a49-08c9f19c6f38",
+      "chunk_id": "c09c6f6f-67b0-4dc4-85cc-0fb5ea230b00",
       "texto": "-Proy_dow_estaticos: aplicable   a   documentos   generados   por   los   componentes   de equipos estáticos  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos estáticos.\n\n-Proy_dow_hvac: aplicable a documentos generados por los componentes de HVAC (Heating, Ventilation and Air Conditioning)  y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de hvac.\n\n-Proy_dow_materiales: aplicable a documentos generados por los componentes de materiales y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de materiales.\n\n-Proy_dow_procesos : aplicable a documentos generados por los componentes de procesos y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de procesos.\n\n-Proy_dow_sci : aplicable  a   documentos generados por los componentes de (SCI) Sistemas Contra Incendios y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de sistemas contra incendios.\n\n-Proy_dow_soportes : aplicable  a   documentos   generados  por  los   componentes   de Esfuerzos y Soportes y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Esfuerzos y Soportes.\n\n-Proy_dow_tuberías : aplicable   a   documentos   generados   por   los   componentes   de tuberías y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de tuberías.\n\nLa   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc\n\nLos permisos del cliente los comentamos anteriormente en el punto de Acceso por parte del Cliente",
       "nivel": "parent",
       "parent_id": null,
@@ -484,10 +484,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a11e3a45-928c-4035-8322-23a20720c5f1",
+      "chunk_id": "1bd831cf-ea9a-4e34-8f8e-f4b5bb93121e",
       "texto": "-Proy_dow_estaticos: aplicable   a   documentos   generados   por   los   componentes   de equipos estáticos  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos estáticos.\n\n-Proy_dow_hvac: aplicable a documentos generados por los componentes de HVAC (Heating, Ventilation and Air Conditioning)  y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de hvac.\n\n-Proy_dow_materiales: aplicable a documentos generados por los componentes de materiales y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de materiales.\n\n-Proy_dow_procesos : aplicable a documentos generados por los componentes de procesos y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de procesos.",
       "nivel": "child",
-      "parent_id": "cd9bebc5-5e16-495b-9a49-08c9f19c6f38",
+      "parent_id": "c09c6f6f-67b0-4dc4-85cc-0fb5ea230b00",
       "pagina_inicio": 8,
       "pagina_fin": 10,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 13189 - DOW Tarragona",
@@ -500,10 +500,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e6e12654-8798-41c7-98a2-4a2b7f3f0cf6",
+      "chunk_id": "097ae87d-1803-44ff-8bd8-73d9107f944f",
       "texto": "-Proy_dow_sci : aplicable  a   documentos generados por los componentes de (SCI) Sistemas Contra Incendios y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de sistemas contra incendios.\n\n-Proy_dow_soportes : aplicable  a   documentos   generados  por  los   componentes   de Esfuerzos y Soportes y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Esfuerzos y Soportes.\n\n-Proy_dow_tuberías : aplicable   a   documentos   generados   por   los   componentes   de tuberías y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de tuberías.",
       "nivel": "child",
-      "parent_id": "cd9bebc5-5e16-495b-9a49-08c9f19c6f38",
+      "parent_id": "c09c6f6f-67b0-4dc4-85cc-0fb5ea230b00",
       "pagina_inicio": 8,
       "pagina_fin": 10,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 13189 - DOW Tarragona",
@@ -516,10 +516,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "46a7fc1c-3bb7-4f89-9050-6b43204c710d",
+      "chunk_id": "bc30c2a8-97f4-4502-bce5-9e1ef3b05175",
       "texto": "La   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc\n\nLos permisos del cliente los comentamos anteriormente en el punto de Acceso por parte del Cliente",
       "nivel": "child",
-      "parent_id": "cd9bebc5-5e16-495b-9a49-08c9f19c6f38",
+      "parent_id": "c09c6f6f-67b0-4dc4-85cc-0fb5ea230b00",
       "pagina_inicio": 8,
       "pagina_fin": 10,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 13189 - DOW Tarragona",
@@ -532,7 +532,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7a47878c-edda-4eb7-9364-b6b31d2d2ecf",
+      "chunk_id": "263f5bb7-dd29-4405-ba9b-dd0b839f750d",
       "texto": "ESTRUCTURA DEL ARCHIVO ELECTRÓNICO DEL PROYECTO 13189 - DOW Tarragona EN EL PORTAL DE IUI\n\nA  continuación   se   recoge   el   directorio   de   carpetas   en   el   que   será   estructurada   la documentación generada a lo largo del proyecto en el portal de IUI. Asimismo, se indica quién   tiene   acceso   a   los   contenidos   de   las   carpetas   y   a   determinados   documentos, empleando para ello el siguiente código:\n\ncte: cliente usuario con acceso a toda la documentación.\n\ndp: dirección de proyecto de IUI.\n\n: responsable de control de costes del proyecto.\n\nrc: conjunto de responsables de cuenta del proyecto\n\njdpto: conjunto de jefes de departamento de IUI\n\niui: conjunto de todo el personal de IUI\n\nAsí por ejemplo, dp + cost + jdpto indica que a los contenidos de la carpeta referida tienen acceso la dirección del proyecto, el responsable de costes y los jefes de departamento de IUI.",
       "nivel": "parent",
       "parent_id": null,
@@ -548,7 +548,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "90b26eda-0787-4583-a844-5b01d0c110ba",
+      "chunk_id": "09faf777-e8f7-4b00-b8bf-03b8e7a1961e",
       "texto": "-Se refiere a carpetas generales.\n\n-Se refiere a carpetas de Material Supplies (RMs) o Subcontracts (RC).",
       "nivel": "parent",
       "parent_id": null,
@@ -563,8 +563,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e0a27b7854214055ac4ece9aa60d8ce6",
-      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO   | PERMISOS DE ACCESO |\n|---------------------------------------|---------------------|\n| 📂 13189 – DOW Tarragona              |                     |\n| 📂 01. INFORMATION FROM DOW           |                     |\n| 📂 AWARD PACKAGE                      |                     |\n| 📂 1 – GENERAL                        | cte +iui            |\n| 📂 2 – CIVIL                          | cte +iui            |\n| 📂 3 – BUILDINGS                      | cte +iui            |\n| 📂 4 – PIPING and FIRE PROTECTION     | cte +iui            |\n| 📂 5 – EQUIPMENT                      | cte +iui            |\n| 📂 6 – INSTRUMENTS                    | cte +iui            |\n| 📂 7 – ELECTRICAL                     | cte +iui            |\n| 📂 8 – INSULATION COATING and FIRE PROOFING | cte +iui      |\n| 📂 9 – APPENDIX                       | cte +iui            |\n|                                       |                     |\n| 📂 DESIGN INFORMATION                 |                     |\n| 📂 DRAWINGS                           |                     |\n| 📂 CIVIL AND ARCHITECTURAL            | cte +iui            |\n| 📂 P&ID’s                             | cte +iui            |\n| 📂 EQUIPMENT                          |                     |\n| 📂 EQUIPMENT DATA SHEETS              | cte +iui            |\n| 📂 EQUIPMENT LIST                     | cte +iui            |\n| 📂 GEOTECHNICAL STUDY                 | cte +iui            |\n| 📂 INSTRUMENTS                        |                     |\n| 📂 INSTRUMENTS JUNCTION BOXES         | cte +iui            |\n| 📂 PIPING                             | cte +iui            |\n| 📂 PROCESS SPECIFICATION (PRELIMINARY)| cte +iui            |\n```",
+      "chunk_id": "78c84f8c8853460aa78435f5c7aa05ce",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                    | PERMISOS DE ACCESO |\n|--------------------------------------------------------|--------------------|\n| **13189 – DOW Tarragona**                              |                    |\n| 📁 **01. INFORMATION FROM DOW**                        |                    |\n| 📁 **AWARD PACKAGE**                                   |                    |\n| 📁 1 – GENERAL                                         | cte +iui           |\n| 📁 2 – CIVIL                                           | cte +iui           |\n| 📁 3 – BUILDINGS                                       | cte +iui           |\n| 📁 4 – PIPING and  FIRE PROTECTION                     | cte +iui           |\n| 📁 5 – EQUIPMENT                                       | cte +iui           |\n| 📁 6 – INSTRUMENTS                                     | cte +iui           |\n| 📁 7 – ELECTRICAL                                      | cte +iui           |\n| 📁 8 – INSULATION COATING and FIRE PROOFING            | cte +iui           |\n| 📁 9 – APPENDIX                                        | cte +iui           |\n|                                                        |                    |\n| 📁 **DESIGN INFORMATION**                              |                    |\n| 📁 DRAWINGS                                            |                    |\n| 📁  CIVIL AND ARCHITECTURAL                            | cte +iui           |\n| 📁  P&ID’s                                             | cte +iui           |\n| 📁 EQUIPMENT                                           |                    |\n| 📁  EQUIPMENT DATA SHEETS                              |                    |\n| 📁  EQUIPMENT LIST                                     | cte +iui           |\n| 📁 GEOTECHNICAL STUDY                                  | cte +iui           |\n| 📁 INSTRUMENTS                                         |                    |\n| 📁  INSTRUMENTS JUNCTION BOXES                         | cte +iui           |\n| 📁 PIPING                                              | cte +iui           |\n| 📁 PROCESS SPECIFICATION (PRELIMINARY)                 | cte +iui           |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 12,
@@ -575,11 +575,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "0b61eb648e434e139c9a1bc30dbe2c70",
-      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO   | PERMISOS DE ACCESO                  |\n|---------------------------------------|-------------------------------------|\n| ![ícono carpeta](folder_icon) ENGINEERING PRACTICES |                                     |\n| ![ícono carpeta](folder_icon) G15 – INSULATION       | cte +iui                            |\n| ![ícono carpeta](folder_icon) G 16 – PAINTING        | cte +iui                            |\n| ![ícono carpeta](folder_icon) G2 – CIVIL AND ARCHITECTURAL | cte +iui                      |\n| ![ícono carpeta](folder_icon) G4 – PIPING            | cte +iui                            |\n| ![ícono carpeta](folder_icon) G5 – ROTATING EQUIPMENT | cte +iui                           |\n| ![ícono carpeta](folder_icon) G6 – INSTRUMENTATION   | cte +iui                            |\n| ![ícono carpeta](folder_icon) G60 – ANALYTICAL INSTRUMENTS | cte +iui                        |\n| ![ícono carpeta](folder_icon) G7 – ELECTRICAL        | cte +iui                            |\n| ![ícono carpeta](folder_icon) G8 – MATERIALS         | cte +iui                            |\n| ![ícono carpeta](folder_icon) G9 – PROCESS CONTAINMENT | cte +iui                          |\n| ![ícono carpeta](folder_icon) 02. GENERAL            |                                     |\n| ![ícono carpeta](folder_icon) PERMITTING             |                                     |\n| ![ícono carpeta](folder_icon) CIVIL AND STRUCTURAL PROJECT | cte +iui                        |\n| ![ícono carpeta](folder_icon) MECHANICAL AND INSTALLATION PROJECTS | cte +iui               |\n| ![ícono carpeta](folder_icon) _ELECTRICAL INSTALLATION PROJECT | cte +iui                    |\n| ![ícono carpeta](folder_icon) PROJECT MANAGEMENT AND CONTROL |                             |\n| ![ícono carpeta](folder_icon) 1.0. COORDINATION PROCEDURE | cte +iui                         |\n| ![ícono carpeta](folder_icon) 2.0. PROJECT INSTRUCTIONS | cte +iui                          |\n| ![ícono carpeta](folder_icon) 3.0 MINUTES OF MEETINGS | cte + dp + rc + cost + jdpto       |\n| ![ícono carpeta](folder_icon) 4.0. SCHEDULES         | cte + iui                           |\n| ![ícono carpeta](folder_icon) 5.0. PROGRESS REPORTS  | cte +iui                            |\n| ![ícono carpeta](folder_icon) 6.0. CHANGE ORDERS     | cte + dp + cost + jdpto             |\n```",
+      "chunk_id": "80f675b65c634f168d2b3d1681bcea0c",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                    | PERMISOS DE ACCESO               |\n|--------------------------------------------------------|---------------------------------|\n| ![folder](folder) ENGINEERING PRACTICES                 |                                 |\n| ![folder](folder) G15 – INSULATION                      | cte +iui                        |\n| ![folder](folder) G16 – PAINTING                        | cte +iui                        |\n| ![folder](folder) G2 – CIVIL AND ARCHITECTURAL          | cte +iui                        |\n| ![folder](folder) G4 – PIPING                           | cte +iui                        |\n| ![folder](folder) G5 – ROTATING EQUIPMENT               | cte +iui                        |\n| ![folder](folder) G6 – INSTRUMENTATION                  | cte +iui                        |\n| ![folder](folder) G60 – ANALYTICAL INSTRUMENTS          | cte +iui                        |\n| ![folder](folder) G7 – ELECTRICAL                       | cte +iui                        |\n| ![folder](folder) G8 – MATERIALS                        | cte +iui                        |\n| ![folder](folder) G9 – PROCESS CONTAINMENT              | cte +iui                        |\n| ![folder](folder) 02. GENERAL                           |                                 |\n| ![folder](folder) PERMITTING                            |                                 |\n| ![folder](folder) CIVIL AND STRUCTURAL PROJECT          | cte +iui                        |\n| ![folder](folder) MECHANICAL AND INSTALLATION PROJECTS  | cte +iui                        |\n| ![folder](folder) _ELECTRICAL INSTALLATION PROJECT      | cte +iui                        |\n| ![folder](folder) PROJECT MANAGEMENT AND CONTROL        |                                 |\n| ![folder](folder) 1.0. COORDINATION PROCEDURE           | cte +iui                        |\n| ![folder](folder) 2.0. PROJECT INSTRUCTIONS             | cte +iui                        |\n| ![folder](folder) 3.0 MINUTES OF MEETINGS               | cte + dp + rc + cost + jdpto    |\n| ![folder](folder) 4.0. SCHEDULES                        | cte + iui                       |\n| ![folder](folder) 5.0. PROGRESS REPORTS                 | cte +iui                        |\n| ![folder](folder) 6.0. CHANGE ORDERS                    | cte + dp + cost + jdpto         |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 13,
@@ -590,11 +590,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "974dd9769e2a41a2a5032645bce754e7",
-      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO     | PERMISOS DE ACCESO |\n|-----------------------------------------|--------------------|\n| **03. CIVIL AND ARCHITECTURAL**         |                    |\n| 📁 1.0. CALCULATIONS                     | cte + iui          |\n| 📁 2.0. TECHNICAL BID ANALYSIS           | cte + iui          |\n| 📁 3.0. DESIGN CRITERIA                  | cte + iui          |\n| 📁 4.0. SPECIFICATIONS                   | cte + iui          |\n| 📁 5.0. MEASURINGS AND BOQ’s             | cte + iui          |\n| 📁 6.0. DRAWINGS                         | cte + iui          |\n| **04. ELECTRICAL**                      |                    |\n| 📁 _ELECTRICAL INSTALLATION PROJECT     | cte + iui          |\n| 📁 1.0. CALCULATIONS                     | cte + iui          |\n| 📁 2.0. TECHNICAL BID ANALYSIS           | cte + iui          |\n| 📁 3.0. SPECIFICATIONS and STANDARDS     | cte + iui          |\n| 📁 4.0. DATA SHEETS                      | cte + iui          |\n| 📁 4.1. LISTS and MEASURINGS             | cte + iui          |\n| 📁 5.0. DRAWINGS                         | cte + iui          |\n| 📁 6.0. MATERIAL SUPPLIES (MS)           | cte + iui          |\n| 📁 7.0. MATERIAL SUPPLIES and RELATED DOCUMENTS | cte + iui  |\n| 📄 MS-.........                          |                    |\n| 📁 MSs DOCUMENTS : MS-….                 | cte + iui          |\n| 📁 REQUEST FOR QUOTATION DOCUMENTS : MS-…. | cte + iui        |\n| 📁 SUPPLIERS DOCUMENTS: MS-....          | cte + iui          |\n| **05. INSTRUMENTATION**                 |                    |\n| 📁 1.0. CALCULATIONS                     | cte + iui          |\n| 📁 2.0. TECHNICAL BID ANALYSIS           | cte + iui          |\n```",
+      "chunk_id": "a08f2fd23b0843b7a4de606201b89bd9",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                       | PERMISOS DE ACCESO |\n|---------------------------------------------------------------------------|--------------------|\n| ![folder] 03. CIVIL AND ARCHITECTURAL                                      |                    |\n| ![folder] 1.0. CALCULATIONS                                               | cte + iui          |\n| ![folder] 2.0. TECHNICAL BID ANALYSIS                                     | cte + iui          |\n| ![folder] 3.0. DESIGN CRITERIA                                            | cte + iui          |\n| ![folder] 4.0. SPECIFICATIONS                                             | cte + iui          |\n| ![folder] 5.0. MEASURINGS AND BOQ’s                                       | cte + iui          |\n| ![folder] 6.0. DRAWINGS                                                   | cte + iui          |\n| ![folder] 04. ELECTRICAL                                                  |                    |\n| ![folder] _ELECTRICAL INSTALLATION PROJECT                                | cte + iui          |\n| ![folder] 1.0. CALCULATIONS                                               | cte + iui          |\n| ![folder] 2.0. TECHNICAL BID ANALYSIS                                     | cte + iui          |\n| ![folder] 3.0. SPECIFICATIONS and STANDARDS                               | cte + iui          |\n| ![folder] 4.0. DATA SHEETS                                                | cte + iui          |\n| ![folder] 4.1. LISTS and MEASURINGS                                       | cte + iui          |\n| ![folder] 5.0. DRAWINGS                                                   | cte + iui          |\n| ![folder] 6.0. MATERIAL SUPPLIES (MS)                                     | cte + iui          |\n| ![folder] 7.0. MATERIAL SUPPLIES and RELATED DOCUMENTS                    | cte + iui          |\n| ![folder] MS-.........                                                     |                    |\n| ![folder] MSs DOCUMENTS : MS-….                                           | cte + iui          |\n| ![folder] REQUEST FOR QUOTATION DOCUMENTS : MS-….                         | cte + iui          |\n| ![folder] SUPPLIERS DOCUMENTS: MS-....                                    | cte + iui          |\n| ![folder] 05. INSTRUMENTATION                                             |                    |\n| ![folder] 1.0. CALCULATIONS                                               | cte + iui          |\n| ![folder] 2.0. TECHNICAL BID ANALYSIS                                     | cte + iui          |\n```\n(Note: \"![folder]\" is used to represent folder icons in the original table.)",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 14,
@@ -605,11 +605,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "1e95cec0971c404e8c5ae51a30c79b83",
-      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO                                     | PERMISOS DE ACCESO |\n|------------------------------------------------------------------------|--------------------|\n| ![Carpeta](folder.png) 3.0. SPECIFICATIONS and STANDARDS               | cte +iui           |\n| ![Carpeta](folder.png) 4.0. DATA SHEETS                                | cte +iui           |\n| ![Carpeta](folder.png) 4.1. LISTS and MEASURINGS                       | cte +iui           |\n| ![Carpeta](folder.png) 5.0. DRAWINGS and DIAGRAMS                      |                    |\n| ![Carpeta](folder.png) ASSEMBLY DIAGRAMS                               | cte +iui           |\n| ![Carpeta](folder.png) CONTROL LOGIC DIAGRAMS                          | cte +iui           |\n| ![Carpeta](folder.png) CONTROL LOOP DIAGRAMS                           | cte +iui           |\n| ![Carpeta](folder.png) JUNCTION BOXES and INTERCONEXIONS               | cte +iui           |\n| ![Carpeta](folder.png) 6.0. MATERIAL SUPPLIES (MS)                     | cte +iui           |\n| ![Carpeta](folder.png) 7.0. MATERIAL SUPPLIES and RELATED DOCUMENTS    | cte +iui           |\n| ![Carpeta](folder.png) 06.1. MECHANICAL – ROTATING EQUIPMENT           |                    |\n| ![Carpeta](folder.png) 1.0. CALCULATIONS                               | cte +iui           |\n| ![Carpeta](folder.png) 2.0. TECHNICAL BID ANALYSIS                     | cte +iui           |\n| ![Carpeta](folder.png) 2.0. SPECIFICATIONS                             | cte +iui           |\n| ![Carpeta](folder.png) 3.0. DATA SHEETS                                | cte +iui           |\n| ![Carpeta](folder.png) 4.0. DRAWINGS and SKETCHES                      | cte +iui           |\n| ![Carpeta](folder.png) 5.0. MATERIAL SUPPLIES (MS)                     | cte +iui           |\n| ![Carpeta](folder.png) 6.0. MATERIAL SUPPLIES and RELATED DOCUMENTS    | cte +iui           |\n| ![Carpeta](folder.png) 06.2. MECHANICAL – STATIC EQUIPMENT             |                    |\n| ![Carpeta](folder.png) 1.0. CALCULATIONS                               | cte +iui           |\n| ![Carpeta](folder.png) 2.0. TECHNICAL BID ANALYSIS                     | cte +iui           |\n| ![Carpeta](folder.png) 3.0. SPECIFICATIONS and  STANDARDS              | cte +iui           |\n| ![Carpeta](folder.png) 4.0. DATA SHEETS                                | cte +iui           |\n```",
+      "chunk_id": "4dcc9d1a6a054dddbe970514e2a5bcf6",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                          | PERMISOS DE ACCESO |\n|--------------------------------------------------------------|--------------------|\n| ![icono carpeta](emoji-folder.png) 3.0. SPECIFICATIONS and STANDARDS | cte +iui           |\n| ![icono carpeta](emoji-folder.png) 4.0. DATA SHEETS               | cte +iui           |\n| ![icono carpeta](emoji-folder.png) 4.1. LISTS and MEASURINGS      | cte +iui           |\n| ![icono carpeta](emoji-folder.png) 5.0. DRAWINGS and DIAGRAMS     |                    |\n| ![icono carpeta](emoji-folder.png) &nbsp; ASSEMBLY DIAGRAMS       | cte +iui           |\n| ![icono carpeta](emoji-folder.png) &nbsp; CONTROL LOGIC DIAGRAMS  | cte +iui           |\n| ![icono carpeta](emoji-folder.png) &nbsp; CONTROL LOOP DIAGRAMS   | cte +iui           |\n| ![icono carpeta](emoji-folder.png) &nbsp; JUNCTION BOXES and INTERCONEXIONS | cte +iui      |\n| ![icono carpeta](emoji-folder.png) 6.0. MATERIAL SUPPLIES (MS)    | cte +iui           |\n| ![icono carpeta](emoji-folder.png) 7.0. MATERIAL SUPPLIES and RELATED DOCUMENTS | cte +iui |\n| ![icono carpeta](emoji-folder.png) **06.1. MECHANICAL – ROTATING EQUIPMENT** |           |\n| ![icono carpeta](emoji-folder.png) &nbsp; 1.0. CALCULATIONS       | cte +iui           |\n| ![icono carpeta](emoji-folder.png) &nbsp; 2.0. TECHNICAL BID ANALYSIS | cte +iui           |\n| ![icono carpeta](emoji-folder.png) &nbsp; 2.0. SPECIFICATIONS     | cte +iui           |\n| ![icono carpeta](emoji-folder.png) &nbsp; 3.0. DATA SHEETS        | cte +iui           |\n| ![icono carpeta](emoji-folder.png) &nbsp; 4.0. DRAWINGS and SKETCHES | cte +iui           |\n| ![icono carpeta](emoji-folder.png) &nbsp; 5.0. MATERIAL SUPPLIES (MS) | cte +iui           |\n| ![icono carpeta](emoji-folder.png) &nbsp; 6.0. MATERIAL SUPPLIES and RELATED DOCUMENTS | cte +iui |\n| ![icono carpeta](emoji-folder.png) **06.2. MECHANICAL – STATIC EQUIPMENT** |            |\n| ![icono carpeta](emoji-folder.png) &nbsp; 1.0. CALCULATIONS       | cte +iui           |\n| ![icono carpeta](emoji-folder.png) &nbsp; 2.0. TECHNICAL BID ANALYSIS | cte +iui           |\n| ![icono carpeta](emoji-folder.png) &nbsp; 3.0. SPECIFICATIONS and STANDARDS | cte +iui   |\n| ![icono carpeta](emoji-folder.png) &nbsp; 4.0. DATA SHEETS        | cte +iui           |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 15,
@@ -620,11 +620,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "265e012e98944e46bc1dbbeb3b087d9e",
-      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO                                     | PERMISOS DE ACCESO |\n|-------------------------------------------------------------------------|--------------------|\n| ![carpeta](symbol) 5.0. DRAWINGS                                        | cte +iui           |\n| ![carpeta](symbol) 6.0. MATERIAL SUPPLIES (MS)                          | cte +iui           |\n| ![carpeta](symbol) 7.0. MATERIAL SUPPLIES and RELATED DOCUMENTS         | cte +iui           |\n| ![carpeta](symbol) **06.3. MECHANICAL – PIPING MATERIALS**              |                    |\n| ![carpeta](symbol) 1.0. CALCULATIONS                                    | cte +iui           |\n| ![carpeta](symbol) 2.0. TECHNICAL BID ANALYSIS                          | cte +iui           |\n| ![carpeta](symbol) 3.0. SPECIFICATIONS and STANDARDS                    | cte +iui           |\n| ![carpeta](symbol) 4.0. DATA SHEETS                                     | cte +iui           |\n| ![carpeta](symbol) 5.0. LISTS                                           | cte +iui           |\n| ![carpeta](symbol) 6.0. MATERIAL SUPPLIES (MS)                          | cte +iui           |\n| ![carpeta](symbol) 7.0. MATERIAL SUPPLIES and RELATED DOCUMENTS         | cte +iui           |\n| ![carpeta](symbol) **06.4. MECHANICAL – STRESS & PIPING SUPPORTS**      |                    |\n| ![carpeta](symbol) 1.0. CALCULATIONS                                    | cte +iui           |\n| ![carpeta](symbol) 2.0. TECHNICAL BID ANALYSIS                          | cte +iui           |\n| ![carpeta](symbol) 3.0. SPECIFICATIONS                                  | cte +iui           |\n| ![carpeta](symbol) 4.0. DATA SHEETS                                     | cte +iui           |\n| ![carpeta](symbol) 5.0. DRAWINGS                                        | cte +iui           |\n| ![carpeta](symbol) 6.0. MATERIAL SUPPLIES (MS)                          | cte +iui           |\n| ![carpeta](symbol) 6.0. MATERIAL SUPPLIES and RELATED DOCUMENTS         | cte +iui           |\n| ![carpeta](symbol) **06.5. MECHANICAL – FIRE PROTECTION**               |                    |\n| ![carpeta](symbol) 1.0. CALCULATIONS                                    | cte +iui           |\n| ![carpeta](symbol) 2.0. TECHNICAL BID ANALYSIS                          | cte +iui           |\n```\n\n(Note: The \"![carpeta](symbol)\" represents a generic symbol for a folder or an icon, which is depicted as such in the markdown as the image text interpretation.)",
+      "chunk_id": "6f714468d2d74f818be63f75a05df3eb",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                            | PERMISOS DE ACCESO |\n|----------------------------------------------------------------|--------------------|\n| ![folder icon](folder-icon.png) 5.0. DRAWINGS                  | cte +iui           |\n| ![folder icon](folder-icon.png) 6.0. MATERIAL SUPPLIES (MS)    | cte +iui           |\n| ![folder icon](folder-icon.png) 7.0. MATERIAL SUPPLIES and RELATED DOCUMENTS | cte +iui           |\n| ![folder icon](folder-icon.png) **06.3. MECHANICAL – PIPING MATERIALS** |                    |\n| ![folder icon](folder-icon.png) 1.0. CALCULATIONS              | cte +iui           |\n| ![folder icon](folder-icon.png) 2.0. TECHNICAL BID ANALYSIS    | cte +iui           |\n| ![folder icon](folder-icon.png) 3.0. SPECIFICATIONS and STANDARDS | cte +iui         |\n| ![folder icon](folder-icon.png) 4.0. DATA SHEETS               | cte +iui           |\n| ![folder icon](folder-icon.png) 5.0. LISTS                     | cte +iui           |\n| ![folder icon](folder-icon.png) 6.0. MATERIAL SUPPLIES (MS)    | cte +iui           |\n| ![folder icon](folder-icon.png) 7.0. MATERIAL SUPPLIES and RELATED DOCUMENTS | cte +iui       |\n| ![folder icon](folder-icon.png) **06.4. MECHANICAL – STRESS & PIPING SUPPORTS** |               |\n| ![folder icon](folder-icon.png) 1.0. CALCULATIONS              | cte +iui           |\n| ![folder icon](folder-icon.png) 2.0. TECHNICAL BID ANALYSIS    | cte +iui           |\n| ![folder icon](folder-icon.png) 3.0. SPECIFICATIONS            | cte +iui           |\n| ![folder icon](folder-icon.png) 4.0. DATA SHEETS               | cte +iui           |\n| ![folder icon](folder-icon.png) 5.0. DRAWINGS                  | cte +iui           |\n| ![folder icon](folder-icon.png) 6.0. MATERIAL SUPPLIES (MS)    | cte +iui           |\n| ![folder icon](folder-icon.png) 6.0. MATERIAL SUPPLIES and RELATED DOCUMENTS | cte +iui       |\n| ![folder icon](folder-icon.png) **06.5. MECHANICAL – FIRE PROTECTION** |                  |\n| ![folder icon](folder-icon.png) 1.0. CALCULATIONS              | cte +iui           |\n| ![folder icon](folder-icon.png) 2.0. TECHNICAL BID ANALYSIS    | cte +iui           |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 16,
@@ -635,11 +635,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "f81c453cf4e547b493ad6e4193e4d9ce",
-      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO                             | PERMISOS DE ACCESO      |\n|-----------------------------------------------------------------|-------------------------|\n| ![carpeta](folder_icon) 3.0. SPECIFICATIONS                     | cte + iui               |\n| ![carpeta](folder_icon) 4.0. METERINGS                          | cte + iui               |\n| ![carpeta](folder_icon) 5.0. DRAWINGS                           | cte + iui               |\n| ![carpeta](folder_icon) 6.0. MATERIAL SUPPLIES (MS)             | cte + iui               |\n| ![carpeta](folder_icon) 7.0. MATERIAL SUPPLIES and RELATED DOCUMENTS | cte + iui           |\n|                                                                 |                         |\n| **07. PIPING DESIGN**                                           |                         |\n| ![carpeta](folder_icon) 1.0. STANDARDS                          | cte + iui               |\n| ![carpeta](folder_icon) 2.0. ISOMETRIC DRAWINGS                 | cte + iui               |\n| ![carpeta](folder_icon) 3.0. TIE-IN’s                           | cte + iui               |\n| ![carpeta](folder_icon) 4.0. PLOT PLANS                         | cte + iui               |\n| ![carpeta](folder_icon) 5.0. LAYOUT DRAWINGS                    | cte + iui               |\n| ![carpeta](folder_icon) 6.0. RACK DRAWINGS                      | cte + iui               |\n|                                                                 |                         |\n| **08. PROCESS**                                                 |                         |\n| ![carpeta](folder_icon) 1.0. DESIGN CRITERIA AND CALCULATIONS   | cte + iui               |\n| ![carpeta](folder_icon) 2.0. DATA SHEETS                        | cte + iui               |\n| ![carpeta](folder_icon) 3.0. LISTS                              | cte + iui               |\n| ![carpeta](folder_icon) 4.0. PROCESS FLOW DIAGRAM (PFDs)        | cte + iui               |\n| ![carpeta](folder_icon) 5.0. PIPING & INSTRUMENT DIAGRAMS (P&IDs)| cte + iui              |\n|                                                                 |                         |\n| **09. PROCUREMENT**                                             |                         |\n| ![carpeta](folder_icon) 1.0. GENERAL                            | cte + iui               |\n| ![carpeta](folder_icon) 2.0. COMERCIAL EVALUATIONS              | cte + dp + rc + jdpt    |\n| ![carpeta](folder_icon) 3.0. ORDERS                             | cte + dp + rc + jdpt    |\n| ![carpeta](folder_icon) 4.0. INSPECTION                         | cte + iui               |\n|                                                                 |                         |\n| **10. CONSTRUCTION**                                            |                         |\n```",
+      "chunk_id": "0d620e0cb5104233b48adf4206fcb27c",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                          | PERMISOS DE ACCESO    |\n|--------------------------------------------------------------|-----------------------|\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 3.0. SPECIFICATIONS                  | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 4.0. METERINGS                       | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 5.0. DRAWINGS                        | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 6.0. MATERIAL SUPPLIES (MS)          | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 7.0. MATERIAL SUPPLIES and RELATED DOCUMENTS | cte +iui        |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) **07. PIPING DESIGN**               |                       |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 1.0. STANDARDS                       | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 2.0. ISOMETRIC DRAWINGS              | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 3.0. TIE-IN's                        | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 4.0. PLOT PLANS                      | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 5.0. LAYOUT DRAWINGS                 | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 6.0. RACK DRAWINGS                   | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) **08. PROCESS**                     |                       |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 1.0. DESIGN CRITERIA AND CALCULATIONS | cte +iui             |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 2.0. DATA SHEETS                     | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 3.0. LISTS                           | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 4.0. PROCESS FLOW DIAGRAM (PFDs)     | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 5.0. PIPING & INSTRUMENT DIAGRAMS (P&IDs) | cte +iui          |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) **09. PROCUREMENT**                 |                       |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 1.0. GENERAL                         | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 2.0. COMERCIAL EVALUATIONS           | cte + dp + rc + jdpt  |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 3.0. ORDERS                          | cte + dp + rc + jdpt  |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) 4.0. INSPECTION                      | cte +iui              |\n| ![Carpeta](https://via.placeholder.com/15/000000?text=+) **10. CONSTRUCTION**                |                       |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 17,
@@ -650,11 +650,11 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "b8fa1b71e9ca4a13b71666569f51b3c1",
-      "texto": "```markdown\n| ESTRUCTURA DE CARPETAS DEL PROYECTO                          | PERMISOS DE ACCESO        |\n|-------------------------------------------------------------|---------------------------|\n| ![icono_carpeta](folder_icon) 1.0. SPECIFICATIONS           | cte +iui                  |\n| ![icono_carpeta](folder_icon) 2.0. COMERCIAL EVALUATIONS    | cte + dp + rc + jdpt      |\n| ![icono_carpeta](folder_icon) 3.0. ORDERS                   | cte + dp + rc + jdpt      |\n| ![icono_carpeta](folder_icon) 4.0. SUBCONTRACTS (RC)        | cte +iui                  |\n| ![icono_carpeta](folder_icon) 5.0. SUBCONTRACTS and RELATED DOCUMENTS | cte +iui         |\n| ![icono_carpeta_azul](blue_folder_icon) RC-………              |                           |\n| ![icono_carpeta](folder_icon) RCs DOCUMENTS : RC :…..       | cte +iui                  |\n| ![icono_carpeta](folder_icon) REQUEST FOR QUOTATION DOCUMENTS : RC-… | cte +iui        |\n| ![icono_carpeta](folder_icon) SUPPLIERS DOCUMENTS: RC-...   | cte +iui                  |\n\n```\nNote: Please replace `[folder_icon]` and `[blue_folder_icon]` with actual paths or representations of the icons if needed.",
+      "chunk_id": "d9f2ebf662774a988914fb72f7d22e77",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                              | PERMISOS DE ACCESO      |\n|------------------------------------------------------------------|-------------------------|\n| ![icono_carpeta](carpeta.png) 1.0. SPECIFICATIONS                | cte +iui                |\n| ![icono_carpeta](carpeta.png) 2.0. COMERCIAL EVALUATIONS         | cte + dp + rc + jdpt    |\n| ![icono_carpeta](carpeta.png) 3.0. ORDERS                        | cte + dp + rc + jdpt    |\n| ![icono_carpeta](carpeta.png) 4.0. SUBCONTRACTS (RC)             | cte +iui                |\n| ![icono_carpeta](carpeta.png) 5.0. SUBCONTRACTS and RELATED DOCUMENTS | cte +iui            |\n| ![icono_carpeta_azul](carpeta_azul.png) RC-........              |                         |\n| ![icono_carpeta](carpeta.png) RCs DOCUMENTS : RC :…..            | cte +iui                |\n| ![icono_carpeta](carpeta.png) REQUEST FOR QUOTATION DOCUMENTS : RC-… | cte +iui            |\n| ![icono_carpeta](carpeta.png) SUPPLIERS DOCUMENTS: RC-...        | cte +iui                |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 18,
@@ -665,7 +665,7 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": false,
-      "tabla_degradada": false
+      "tabla_degradada": true
     }
   ]
 }

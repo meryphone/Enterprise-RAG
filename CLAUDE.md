@@ -360,8 +360,65 @@ Azure Static Web Apps con conexión directa a la API en Azure Container Apps.
 
 - `ingest_test.py`: 7 documentos representativos que cubren todos los casos del pipeline (tablas, imágenes, anexos, multiidioma). Uso para validación antes de indexar el corpus completo.
 - `ingest_all.py`: ingesta del corpus completo con descubrimiento automático vía manifesto. Auto-detecta idioma (inglés/francés en el nombre de fichero), tipo anexo (ANEXO en el nombre), y proyecto (carpeta `{proyecto_id}_{empresa}/`). Soporta modo `--dry-run` para validar sin subir a ChromaDB y salida JSON para inspección manual.
-- `ingest_one.py`: ingesta de un único documento por índice.
+- `ingest_one.py`: ingesta de un único documento pasando la ruta directa al PDF. Los metadatos (tipo, idioma, empresa, proyecto) se infieren del nombre del fichero o se especifican con flags (`--tipo`, `--idioma`, `--empresa`, `--proyecto`, `--anexo-de`).
 - `inspect_docling.py`: herramienta de debug que muestra el resultado del parseo de Docling con salida coloreada por tipo de elemento.
+
+---
+
+## Evaluación con TruLens
+
+Script `scripts/eval_trulens.py` — evalúa la calidad del sistema RAG usando la tríada RAG estándar.
+
+### Instalación
+
+```bash
+pip install trulens trulens-providers-openai
+```
+
+### Métricas evaluadas
+
+| Métrica | Descripción |
+|---|---|
+| **Context Relevance** | ¿Es el contexto recuperado relevante para la pregunta? |
+| **Answer Relevance** | ¿Es la respuesta relevante para la pregunta? |
+| **Groundedness** | ¿Está la respuesta fundamentada en el contexto recuperado? |
+
+Las tres métricas las evalúa GPT-4o automáticamente. Cada query del banco cuesta ~3× llamadas adicionales a la API.
+
+### Uso
+
+```bash
+# Evaluar corpus global Intecsa + dashboard en http://localhost:8501
+python scripts/eval_trulens.py
+
+# Sin dashboard (solo imprime resultados en terminal)
+python scripts/eval_trulens.py --no-dashboard
+
+# Borrar evaluaciones anteriores y re-evaluar
+python scripts/eval_trulens.py --reset
+
+# Evaluar scope de proyecto
+python scripts/eval_trulens.py --proyecto 13187 --empresa repsol
+```
+
+### Banco de queries
+
+Definido en `QUERIES` dentro del script. Cubre:
+- Preguntas factuales sobre procedimientos generales
+- Preguntas que requieren consultar tablas de permisos
+- Preguntas sobre estructura de proyectos EPC
+- Preguntas en scope de proyecto cliente (Repsol 13187)
+
+Para añadir queries al banco, editar la lista `QUERIES` en el script siguiendo el formato `{pregunta, proyecto_id, empresa}`.
+
+### Arquitectura de instrumentación
+
+TruLens instrumenta la clase `RAGPipeline` (en el script) que envuelve el pipeline real:
+- `recuperar_contexto()` → llama a `retrieval.recuperar()` + `_expandir_parents()`
+- `generar_respuesta()` → llama a OpenAI con el mismo SYSTEM_PROMPT que el endpoint `/query`
+- `query()` → orquesta ambos (punto de entrada)
+
+El endpoint SSE (`/query`) no se instrumenta directamente porque TruLens requiere funciones síncronas y respuesta completa (no streaming).
 
 ---
 

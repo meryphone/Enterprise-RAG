@@ -6,8 +6,19 @@ import re
 
 # ── Estructura del documento ─────────────────────────────────────────────────
 
-# Secciones de tipo anexo (marcan el contenido como penalizable en reranker)
-PATRON_ANEXO = re.compile(r"\b(ANEXO|APPENDIX|ANNEX)\b", re.IGNORECASE)
+# Secciones de tipo anexo (marcan el contenido como penalizable en reranker).
+# Requiere que ANEXO/ANNEX aparezca al inicio del título (con número opcional
+# delante) o sea el título completo — evita activarse en títulos que solo
+# mencionan un anexo de pasada ("Ver ANEXO para detalles") y en códigos de
+# documento compuestos ("PR-02 – ANEXO").
+PATRON_ANEXO = re.compile(
+    r"(?:"
+    r"^\s*(?:\d+[\.\s]+)?(?:ANEXOS?|APPENDIX|ANNEX(?:ES?)?)\b"   # inicio del título
+    r"|"
+    r"(?:ANEXO|ANNEX|APPENDIX)\s+(?:[IVX]+|\d+[a-z]?)\s*$"       # final con identificador
+    r")",
+    re.IGNORECASE,
+)
 
 # Secciones de índice/tabla de contenidos — su contenido se descarta
 PATRON_INDICE = re.compile(
@@ -116,7 +127,7 @@ PATRON_SOLO_NUMERO = re.compile(r"^\d+$")
 # ── Tablas degradadas ────────────────────────────────────────────────────────
 
 # Celdas fusionadas en Markdown: columnas con espacios excesivos entre pipes.
-PATRON_TABLA_DEGRADADA = re.compile(r"\|\s{10,}\|")
+PATRON_TABLA_DEGRADADA = re.compile(r"\|\s{6,}\|")
 
 # ── Tokens de cabecera de página ─────────────────────────────────────────────
 

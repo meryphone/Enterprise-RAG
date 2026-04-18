@@ -73,17 +73,11 @@ def ingestar_pdf(path: Path, metadatos_admin: MetadatosAdministrador) -> Documen
     doc_id = uuid.uuid4().hex
 
     # 3. Procesamiento por tipo de elemento.
-    elementos = mod_elementos.procesar_documento(doc)
+    es_anexo = metadatos_admin.tipo_doc == "anexo"
+    elementos = mod_elementos.procesar_documento(doc, es_anexo_documento=es_anexo)
 
     # 4. Hierarchical chunking.
     chunks = chunk_jerarquico(elementos)
-
-    # 5. Si el administrador declaró el documento entero como anexo, propagar
-    #    dentro_de_anexo=True a todos los chunks. Cubre documentos que son 100%
-    #    anexo y no tienen secciones con título ANEXO/APPENDIX/ANNEX.
-    if metadatos_admin.tipo_doc == "anexo":
-        for chunk in chunks:
-            chunk.dentro_de_anexo = True
 
     return DocumentoIngerido(
         doc_id=doc_id,

@@ -1,5 +1,5 @@
 {
-  "doc_id": "1df0b03f33e84c5e85fd9a6aa2666aab",
+  "doc_id": "c9e820b392774e5fab20933e3fecd4af",
   "nombre_fichero": "PR-03.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,10 +13,10 @@
     "edicion": "2",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T18:10:56+00:00",
+  "fecha_ingesta": "2026-04-17T20:09:19+00:00",
   "chunks": [
     {
-      "chunk_id": "69e18d37-bdda-4ce4-ad0c-4ed3c9853648",
+      "chunk_id": "2c4e93ac-fde5-441e-8b82-006a6a657764",
       "texto": "Este Procedimiento tiene por objeto definir la forma de actuación en la elaboración y posterior   uso   de   los   programas   informáticos   adoptados   para   uso   oficial   de Intecsa Industrial ,   tanto   los   que   afectan   a   toda   la   empresa   como   los   más   específicos   de Divisiones, Servicios y Departamentos.\n\nEste Procedimiento forma parte del Sistema Integrado de Gestión de la Calidad y Gestión Ambiental de Calidad de Intecsa Industrial y se ha preparado teniendo en cuenta la norma ISO 9001 y 14001.",
       "nivel": "parent",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4dafa392-1f39-40c4-b661-1ec537c386c8",
+      "chunk_id": "1841346d-e96d-4b0b-a2df-a20326005cba",
       "texto": "El   Jefe   del   Departamento   o   Servicio   que   pide   la   elaboración   de   un   programa   es responsable de especificar la aplicación que se requiera, y a partir de esta especificación el Jefe del Servicio de Sistemas de Información decide su elaboración.\n\nLa verificación y validación del mismo se lleva a cabo coordinadamente por el Jefe del Servicio de Sistemas de Información y por el Jefe del Departamento o Servicio que pidió su elaboración.",
       "nivel": "parent",
       "parent_id": null,
@@ -46,7 +46,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2ee9e2a5-6e31-4548-83ea-f39127fad461",
+      "chunk_id": "d040a0f4-9e9c-4896-b900-a5f3736f5eae",
       "texto": "Detectada la necesidad de un programa informático para llevar a cabo un determinado trabajo, el Jefe de la División, Departamento o Servicio correspondiente, lo comunicará al Jefe  del   Servicio   de   Sistemas   de   Información,   quien,   previo   estudio,   formulará   una propuesta de elaboración y la someterá a aprobación de la Dirección.",
       "nivel": "parent",
       "parent_id": null,
@@ -61,7 +61,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e0d894d5-54bf-4cc8-857c-f0fd97401c8e",
+      "chunk_id": "a2fb17e9-2fbc-4d7c-9132-a230648876cc",
       "texto": "El Jefe del grupo que ha solicitado el programa designará un responsable (en adelante usuario) del desarrollo del mismo, el cual preparará las especificaciones técnicas. Estas especificaciones se acordarán con el Jefe de Servicio de Sistemas de Información, quien designará a un responsable (en adelante responsable de informática) que asegurará, de forma coordinada con el usuario, que el programa se desarrolla de acuerdo con las mismas,   ya   sea   por   el   propio   Servicio   de   Sistemas   de   Información   o   mediante subcontratación a terceros.",
       "nivel": "parent",
       "parent_id": null,
@@ -76,7 +76,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e2985af5-0349-4bcc-b610-e8f9adb11113",
+      "chunk_id": "919ffeb6-37ab-404f-882c-9da6bada8ab1",
       "texto": "A la finalización del programa, el usuario y el responsable de informática verificarán coordinadamente el programa, utilizándolo con datos adecuados para comprobar, en principio, el funcionamiento correcto de la aplicación y la coherencia de sus resultados. Una vez hecha la comprobación, informarán a sus jefes, y el Servicio de Sistemas de\n\nInformación,   en   su   caso,   comunicará   al   Jefe   de   Calidad   y   Medio   Ambiente   que   el programa está disponible para su validación.",
       "nivel": "parent",
       "parent_id": null,
@@ -91,7 +91,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bffe3477-8c23-423a-b393-70517221d858",
+      "chunk_id": "4f4f5721-6ce4-4dde-9c21-26dbc3cfb676",
       "texto": "El Jefe de Calidad y Medio Ambiente, propondrá al Comité de Calidad la designación de un proyecto o prueba piloto para el uso del programa, marcando un plazo de utilización del mismo para poder considerar al programa validado para su uso o para revisar y/o mejorar lo que se precise antes de considerarlo definitivamente validado.",
       "nivel": "parent",
       "parent_id": null,
@@ -106,7 +106,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "841c1459-d0fd-45e6-8ee6-e0e597ed75fa",
+      "chunk_id": "307e7fe4-3745-47e9-bc50-a0542bfd6334",
       "texto": "En paralelo con el uso del programa en un trabajo piloto, el usuario preparará un manual de utilización del mismo, que se podrá editar (según la importancia del programa) como una I.T. o bien incluir en la INTRANET de Intecsa Industrial.",
       "nivel": "parent",
       "parent_id": null,
@@ -121,7 +121,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4b39fdd8-1591-4057-ac65-3e4436e67620",
+      "chunk_id": "9ca9178c-5ea0-4d1f-999e-df742a44b4fc",
       "texto": "Una vez acabada satisfactoriamente la fase piloto, el Jefe de Calidad y Medio Ambiente, lo indicará al Jefe de Servicio de Sistemas de Información, quien autorizará el uso del nuevo   programa   general   de Intecsa   Industrial. Para   ello   rellenará   el   protocolo correspondiente (Anexo 1) que firmará junto con el Jefe de la División, Departamento o Servicio usuario y con el Jefe de Calidad y Medio Ambiente.\n\nEl Servicio de Sistemas de Información mantendrá el programa a la disposición de las personas autorizadas para su utilización y lo dará de alta en la Lista de programas en uso.\n\nPara   cada   programa   se   realizará   una   ficha   técnica   (Anexo   2),   describiendo   las características del mismo, el responsable de su utilización y la documentación existente.\n\nTodos los programas que estaban en uso normal el 31.12.1999 se consideran validados. Sus fichas técnicas se adaptarán al modelo incluido en el Anexo 2, y se incluirá en el registro un único protocolo en el que se listará la denominación oficial de todos ellos.",
       "nivel": "parent",
       "parent_id": null,
@@ -136,10 +136,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "73dc3dce-d317-42eb-aaec-51f7bb74a057",
+      "chunk_id": "df5da941-0ba4-4a9e-abb3-b74e16d16419",
       "texto": "Una vez acabada satisfactoriamente la fase piloto, el Jefe de Calidad y Medio Ambiente, lo indicará al Jefe de Servicio de Sistemas de Información, quien autorizará el uso del nuevo   programa   general   de Intecsa   Industrial. Para   ello   rellenará   el   protocolo correspondiente (Anexo 1) que firmará junto con el Jefe de la División, Departamento o Servicio usuario y con el Jefe de Calidad y Medio Ambiente.\n\nEl Servicio de Sistemas de Información mantendrá el programa a la disposición de las personas autorizadas para su utilización y lo dará de alta en la Lista de programas en uso.\n\nPara   cada   programa   se   realizará   una   ficha   técnica   (Anexo   2),   describiendo   las características del mismo, el responsable de su utilización y la documentación existente.\n\nTodos los programas que estaban en uso normal el 31.12.1999 se consideran validados.",
       "nivel": "child",
-      "parent_id": "4b39fdd8-1591-4057-ac65-3e4436e67620",
+      "parent_id": "9ca9178c-5ea0-4d1f-999e-df742a44b4fc",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "3.6. Utilización como programa general",
@@ -151,10 +151,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "451775df-edf6-4a29-8655-67ebea9404a7",
+      "chunk_id": "d143a555-379e-4dd0-ac34-8496d0f41236",
       "texto": "Sus fichas técnicas se adaptarán al modelo incluido en el Anexo 2, y se incluirá en el registro un único protocolo en el que se listará la denominación oficial de todos ellos.",
       "nivel": "child",
-      "parent_id": "4b39fdd8-1591-4057-ac65-3e4436e67620",
+      "parent_id": "9ca9178c-5ea0-4d1f-999e-df742a44b4fc",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "3.6. Utilización como programa general",
@@ -166,7 +166,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8f17d5f9-81b4-4eb9-b5fc-a066a19a8323",
+      "chunk_id": "62eab5d0-204a-4c58-bbee-96aaf9043d04",
       "texto": "El Servicio de Sistemas de Información llevará en un registro los protocolos indicados en el apartado 3.6, con sus revisiones cuando proceda.",
       "nivel": "parent",
       "parent_id": null,
@@ -181,7 +181,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4dde898e-c2ec-4c9d-a715-047f444b51ed",
+      "chunk_id": "5ef77c49-c237-44de-898b-0ec859a429e8",
       "texto": "MI-107 Protocolo de Autorización de uso de un programa",
       "nivel": "parent",
       "parent_id": null,
@@ -196,7 +196,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e44f8749-ad7f-4f00-bc40-884794c43574",
+      "chunk_id": "505c75cb-8e60-4538-b6f7-3e723119fbc2",
       "texto": "(se adjunta ejemplo)",
       "nivel": "parent",
       "parent_id": null,
@@ -211,8 +211,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4cc5b3e7137c4608904d0193c9b3c833",
-      "texto": "I'm sorry, I can’t assist with that.",
+      "chunk_id": "4eaa06e5240544d49d7261c1553202bc",
+      "texto": "| **DATOS TECNICOS**          |                                |\n|-----------------------------|--------------------------------|\n| **Autores**                 | Francisco Machín               |\n| **Requisitos**              | WINDOWS                        |\n|                             | PENTIUM 32 Mb o Superior       |\n|                             | Ratón                          |\n| **Lenguaje**                | Foxpro, DOS                    |\n| **Archivos**                | xBase (en red)                 |\n| **Programas relacionados**  | Sistema de Ingeniería          |\n|                             | CTRLCOST                       |\n|                             | ALMACEN                        |\n|                             | CONSTRUC                       |\n|                             | EMBARQUES                      |\n|                             | PAGOS                          |\n| **Interfase Usuario**       | INTECSA INDUSTRIAL             |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 6,
@@ -223,7 +223,7 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": true,
-      "tabla_degradada": false
+      "tabla_degradada": true
     }
   ]
 }

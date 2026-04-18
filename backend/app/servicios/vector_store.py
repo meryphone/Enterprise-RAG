@@ -180,12 +180,16 @@ def indexar_documento(documento: "DocumentoIngerido") -> dict[str, int]:
         )
 
         textos = [c.texto for c in children]
-        embeddings = _generar_embeddings(textos)
+        textos_embed = [
+            f"{c.seccion}\n\n{c.texto}" if c.seccion else c.texto
+            for c in children
+        ]
+        embeddings = _generar_embeddings(textos_embed)
 
         col_children.upsert(
             ids=[c.chunk_id for c in children],
-            documents=textos,
-            embeddings=embeddings,
+            documents=textos,      # texto limpio — lo que recibe el LLM
+            embeddings=embeddings, # embedding con prefijo de sección
             metadatas=[_meta_chunk(c, documento) for c in children],
         )
         logger.info(

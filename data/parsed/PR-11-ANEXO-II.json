@@ -1,5 +1,5 @@
 {
-  "doc_id": "3a0be65672444f8daf0ced06d4c4b35a",
+  "doc_id": "ef84d5a547fb411e931ebfdec32c1f68",
   "nombre_fichero": "PR-11-ANEXO-II.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,10 +13,10 @@
     "edicion": "3",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T18:20:14+00:00",
+  "fecha_ingesta": "2026-04-17T20:22:54+00:00",
   "chunks": [
     {
-      "chunk_id": "b7d25863-0072-42ad-bcbc-be999126d04c",
+      "chunk_id": "0a50c1b0-e24a-4847-9996-5f5514f22627",
       "texto": "Plan de Calidad y Medio Ambiente típico\n\n1.1. Sistema Integrado de Gestión de la Calidad y Medioambiental\n\n1.2. Objeto y alcance del Plan\n\n2.1. Descripción del Proyecto\n\n2.2. Información general\n\n2.3. Bases de diseño\n\n2.4. Requisitos medioambientales\n\n2.5. otros requisitos legales\n\n2.6. Prevención de Riesgos Laborales\n\n2.7. Servicios a suministrar\n\n3.1. Comunicaciones con ( Cliente)\n\n3.2. Identificación de documentos\n\n3.3. Distribución de documentos\n\n3.4. Documentos de proveedores\n\n3.5. Verificación de documentos\n\n3.6. Aprobación de documentos\n\n3.7. Ordenes de Cambio\n\nPLANIFICACION Y CONTROL\n\n4.2. Control de Costes\n\n4.3. Control de documentos\n\n4.4. Informes de Progreso\n\n5.1. Procedimientos aplicables\n\n5.2. Procedimiento de Compras\n\n5.3. Procedimiento de Subcontratación\n\n5.4. Procedimientos de Construcción",
       "nivel": "parent",
       "parent_id": null,
@@ -32,10 +32,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ec5d0ce7-48cc-4682-9ba9-d42aeec4329f",
+      "chunk_id": "6c7274b2-4424-4df6-bd50-9b3f5dfe6c42",
       "texto": "Plan de Calidad y Medio Ambiente típico\n\n1.1. Sistema Integrado de Gestión de la Calidad y Medioambiental\n\n1.2. Objeto y alcance del Plan\n\n2.1. Descripción del Proyecto\n\n2.2. Información general\n\n2.3. Bases de diseño\n\n2.4. Requisitos medioambientales\n\n2.5. otros requisitos legales\n\n2.6. Prevención de Riesgos Laborales\n\n2.7. Servicios a suministrar\n\n3.1. Comunicaciones con ( Cliente)\n\n3.2. Identificación de documentos\n\n3.3. Distribución de documentos\n\n3.4. Documentos de proveedores\n\n3.5. Verificación de documentos\n\n3.6. Aprobación de documentos\n\n3.7. Ordenes de Cambio\n\nPLANIFICACION Y CONTROL\n\n4.2. Control de Costes\n\n4.3. Control de documentos\n\n4.4. Informes de Progreso\n\n5.1. Procedimientos aplicables\n\n5.2.",
       "nivel": "child",
-      "parent_id": "b7d25863-0072-42ad-bcbc-be999126d04c",
+      "parent_id": "0a50c1b0-e24a-4847-9996-5f5514f22627",
       "pagina_inicio": 1,
       "pagina_fin": 2,
       "seccion": "ANEXO II",
@@ -48,10 +48,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9e4cb7ae-431b-4a55-91a0-eaba1b34ab83",
+      "chunk_id": "f12df3c1-93ec-4451-a374-7a18a72a83d8",
       "texto": "Procedimientos aplicables\n\n5.2. Procedimiento de Compras\n\n5.3. Procedimiento de Subcontratación\n\n5.4. Procedimientos de Construcción",
       "nivel": "child",
-      "parent_id": "b7d25863-0072-42ad-bcbc-be999126d04c",
+      "parent_id": "0a50c1b0-e24a-4847-9996-5f5514f22627",
       "pagina_inicio": 1,
       "pagina_fin": 2,
       "seccion": "ANEXO II",
@@ -64,7 +64,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a99a6527-e449-4bc0-a043-0b8cc9d633b6",
+      "chunk_id": "5f0d2739-d17b-4393-876e-a8f06b214597",
       "texto": "Cuadros de distribución\n\nEjemplos de Informes\n\nProcedimientos resumidos ( Si procede)",
       "nivel": "parent",
       "parent_id": null,
@@ -79,7 +79,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "cf648793-1dea-4d8d-8bb0-b29099d329be",
+      "chunk_id": "e5a58351-5c6b-41a6-90ae-0608b8d28358",
       "texto": "Intecsa   Industrial tiene   implementado   un   SIG   de   la   Calidad   y   Medioambiental siguiendo las directrices de las normas ISO 9001 y 14001.\n\nEste Sistema cubre todas las actividades y servicios, asegurando que se realizan según pautas documentadas que se recogen en:\n\n-Manual de Calidad y Medio Ambiente\n\n-Procedimientos Generales\n\n-Instrucciones de Trabajo de los Departamentos\n\n-Programas informáticos de cálculo, gestión y diseño\n\n-Otros documentos de trabajo\n\nPara cada Proyecto, se prepara un Plan de Calidad y Medio Ambiente, que recoge todo lo que se aparta o se añade al Sistema y es aplicable a su caso.\n\nAdemás Intecsa Industrial tiene establecido un programa de Auditorías internas para comprobar la efectiva aplicación del Sistema a los Proyectos y corregir las desviaciones que eventualmente puedan presentarse.",
       "nivel": "parent",
       "parent_id": null,
@@ -95,7 +95,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4999f214-253e-45b8-87ef-c9044c73d0c1",
+      "chunk_id": "085cda27-ff4a-47b5-870d-64f4e3c534f3",
       "texto": "Este Plan tiene por objeto establecer las pautas por las que se guiará el desarrollo del Proyecto ( Nombre del Proyecto) que ( Cliente) ha encomendado a Intecsa Industrial de forma que se asegure el pleno cumplimiento de los compromisos contractuales, a plena satisfacción de ( Cliente).",
       "nivel": "parent",
       "parent_id": null,
@@ -110,7 +110,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f396aa74-7863-4553-8b4b-3649d67c7ac6",
+      "chunk_id": "adef8956-2a20-4542-bb59-cc3ff68ef57b",
       "texto": "(Somera descripción que deje bien establecidos los \"límites de batería\").",
       "nivel": "parent",
       "parent_id": null,
@@ -125,7 +125,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9b35a008-abf1-4414-b9c1-2c7806433ea9",
+      "chunk_id": "5337fbfd-2ab6-441e-a9cc-4807666ad4e2",
       "texto": "Título Oficial del Proyecto:\n\nNº de Contrato de ( Cliente):\n\nNº de O.T. de Intecsa Industrial.\n\nNombre abreviado del Proyecto:\n\nNombre del Jefe del Proyecto de ( Cliente):\n\nNombre del Jefe del Proyecto de Intecsa Industrial :",
       "nivel": "parent",
       "parent_id": null,
@@ -140,7 +140,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a77f390a-873b-4241-993e-f239bea09902",
+      "chunk_id": "86952bf1-591b-444f-9b64-8d82c72a7c3f",
       "texto": "Idioma de los documentos ( Si procede):\n\nInformación recibida de ( Cliente):\n\n(Relacionar documentos y sus ediciones)",
       "nivel": "parent",
       "parent_id": null,
@@ -155,7 +155,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "279beb34-d6f7-40de-ac74-444084afc9b4",
+      "chunk_id": "ec736f23-448a-47f7-8b68-f7f42c9c21e3",
       "texto": "Las bases de diseño son las recogidas en el Documento ( nombrar).\n\nSe utilizará el Sistema Internacional de unidades excepto en ( concretar: tuberías , quizá diagramas de proceso, etc).\n\nSerán de aplicación los siguientes Procedimientos de (Cliente):\n\n(Relacionar, si existen)\n\ny, en todo lo que no contradigan los anteriores, los Procedimientos, Instrucciones de Trabajo, Especificaciones y Estándares de Intecsa Industrial .\n\nSe seguirán las normas:\n\n(relacionar las extranjeras que sean de aplicación)\n\ny las normas y reglamentos oficiales españoles.",
       "nivel": "parent",
       "parent_id": null,
@@ -170,7 +170,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6a69e38e-f242-4d8b-b01e-1992371b8fb7",
+      "chunk_id": "abd66872-8f6f-4a3a-a5ed-964cadb3c3b9",
       "texto": "La identificación, evaluación y registro de aspectos medioambientales y el Plan de emergencia medioambiental y capacidad de respuesta se llevarán a cabo de acuerdo con el Anexo III.\n\nEste apartado incluirá además un listado de disposiciones legales medioambientales aplicables relacionados no sólo con la ubicación del proyecto, sino con las actividades particulares de éste.\n\nCuando un determinado proyecto se lleve a cabo fuera de España, se recogerán bajo la denominación genérica 'Requisitos Legales medioambientales', todos los requisitos que se deriven de la legislación del país concreto del que se trate.",
       "nivel": "parent",
       "parent_id": null,
@@ -185,7 +185,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "30c401e3-f52b-42fe-93a1-fd31afaee72e",
+      "chunk_id": "80108e30-129c-461c-b9c1-9768e301db9f",
       "texto": "Serán   de   aplicación   las   siguientes   disposiciones   legales   ( listar   en   cada   caso, suprimiendo o añadiendo especialidades según proceda ):\n\nEstructuras, obra civil y edificación",
       "nivel": "parent",
       "parent_id": null,
@@ -200,7 +200,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bcd7f62f-c01a-44a5-bb91-27e7e80b7f5a",
+      "chunk_id": "f42b0170-fec9-4ad3-bd2b-644b554f74f9",
       "texto": "Aislamiento Pintura y revestimientos",
       "nivel": "parent",
       "parent_id": null,
@@ -215,7 +215,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "21822f1c-f854-4d2a-ae52-dce1074b879d",
+      "chunk_id": "605cdc1a-1563-4a4c-94a6-6afda71cc456",
       "texto": "En lo relativo a Prevención de riesgos laborales, se estará a lo indicado en el Sistema de gestión de la Prevención.",
       "nivel": "parent",
       "parent_id": null,
@@ -230,7 +230,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "697830e0-fa5f-4bc2-a7ff-6cb4ff2dd99d",
+      "chunk_id": "6a05c595-2d0a-41c3-b65d-bd059d8da45b",
       "texto": "Intecsa Industrial suministrará los siguientes servicios:\n\n(concretar todo lo que haga falta; si es preciso, aclarar si se hacen o no isométricas, que los planos de estructuras no incluyen planos de detalles, etc).\n\nDirección de Proyecto\n\nPlanificación Control de Costes Ingeniería de proceso Ingeniería y diseño mecánico Diseño de tuberías Ingeniería civil y Arquitectura Ingeniería y diseño de estructuras Ingeniería y diseño de instalaciones termomecánicas Ingeniería y diseño de electricidad Ingeniería y diseño de instrumentación y control Compras Subcontratos Supervisión de Construcción Documentación para tramitación de Licencias y permisos (si procede)\n\n(Cliente) suministrará lo siguiente (dejar también muy claro)\n\nGeotécnia Tramitación de Licencias y permisos",
       "nivel": "parent",
       "parent_id": null,
@@ -245,7 +245,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0145741e-1afe-4a8e-ad2e-fdd9c17f15a8",
+      "chunk_id": "3b257703-78b7-4a80-a3cd-0b9f83554ec0",
       "texto": "Toda la correspondencia entre ( Cliente) e Intecsa Industrial relacionada con el contrato tendrá lugar entre los respectivos Jefes del Proyecto excepto la correspondencia con la Planta en su momento, para la que se darán normas complementarias. Todos los envíos de documentos irán acompañados por una carta que los relacione.\n\nToda la correspondencia se escribirá en español ( o lo que proceda)\n\nLas conversaciones telefónicas, los correos electrónicos y los fax serán confirmados por carta   siempre   que   afecten   al   contrato,   bases   de   diseño,   decisiones   de   compra   o programa de trabajos.",
       "nivel": "parent",
       "parent_id": null,
@@ -260,7 +260,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ec76bccc-5adf-4a61-8401-50a398c7f5a3",
+      "chunk_id": "7dd47edf-bc62-49e7-9846-34c404ab329c",
       "texto": "Cartas. Todas las cartas llevarán en su cabecera los números de referencia de (Cliente) (N º de Cliente) y de Intecsa Industrial (O.T. nº) .\n\nLas  cartas   de   cada   originario   se   numerarán   correlativamente,   y   a   la   numeración precederán dos códigos de letras identificando remitente y destinatario (precisamente por este orden) separados por una barra. Los códigos serán ( Código) para (Cliente) e Intecsa para Intecsa Industrial . Así: (Código Cliente)/ IUI-035 será la carta n 35 de las que envía ( Cliente) a Intecsa Industrial .\n\nCorreos electrónicos Todos los correos electrónicos incluirán en el asunto los números de referencia del Cliente y de Intecsa-Industrial (OT nº), separados por una barra, y el objeto del escrito. En el texto se incluirá siempre un encabezamiento y una firma, que Proyecto puede preparar en una plantilla y distribuir entre el personal que tenga que usarla.\n\nEn el encabezamiento se incluirá siempre el nombre y la empresa del destinatario, el nombre del proyecto o contrato, y si se dirige al Cliente un número (semejante al usado para las cartas) que se usará correlativamente. La firma incluirá el nombre del remitente (eventualmente su cargo en el proyecto), el nombre de Intecsa-Industrial, la dirección, el teléfono directo del remitente y nuestra dirección en Internet.",
       "nivel": "parent",
       "parent_id": null,
@@ -275,10 +275,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a4971210-d04b-4910-a4dd-908ee4168e55",
+      "chunk_id": "f77f2a10-fedd-423c-9046-a8d5712e99a1",
       "texto": "Cartas. Todas las cartas llevarán en su cabecera los números de referencia de (Cliente) (N º de Cliente) y de Intecsa Industrial (O.T. nº) .\n\nLas  cartas   de   cada   originario   se   numerarán   correlativamente,   y   a   la   numeración precederán dos códigos de letras identificando remitente y destinatario (precisamente por este orden) separados por una barra. Los códigos serán ( Código) para (Cliente) e Intecsa para Intecsa Industrial . Así: (Código Cliente)/ IUI-035 será la carta n 35 de las que envía ( Cliente) a Intecsa Industrial .\n\nCorreos electrónicos Todos los correos electrónicos incluirán en el asunto los números de referencia del Cliente y de Intecsa-Industrial (OT nº), separados por una barra, y el objeto del escrito.",
       "nivel": "child",
-      "parent_id": "ec76bccc-5adf-4a61-8401-50a398c7f5a3",
+      "parent_id": "7dd47edf-bc62-49e7-9846-34c404ab329c",
       "pagina_inicio": 6,
       "pagina_fin": 6,
       "seccion": "3.2. Identificación de los documentos",
@@ -290,10 +290,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0dbc24b5-ad6f-4973-ba38-6e5122f3e5d7",
+      "chunk_id": "1150e449-1932-4335-90fa-67f0cfc69758",
       "texto": "En el texto se incluirá siempre un encabezamiento y una firma, que Proyecto puede preparar en una plantilla y distribuir entre el personal que tenga que usarla.\n\nEn el encabezamiento se incluirá siempre el nombre y la empresa del destinatario, el nombre del proyecto o contrato, y si se dirige al Cliente un número (semejante al usado para las cartas) que se usará correlativamente. La firma incluirá el nombre del remitente (eventualmente su cargo en el proyecto), el nombre de Intecsa-Industrial, la dirección, el teléfono directo del remitente y nuestra dirección en Internet.",
       "nivel": "child",
-      "parent_id": "ec76bccc-5adf-4a61-8401-50a398c7f5a3",
+      "parent_id": "7dd47edf-bc62-49e7-9846-34c404ab329c",
       "pagina_inicio": 6,
       "pagina_fin": 6,
       "seccion": "3.2. Identificación de los documentos",
@@ -305,7 +305,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1c73a2f6-f2cc-4497-94f8-80e026391b76",
+      "chunk_id": "5fb14a6e-3eec-4add-972f-47bccf20cc4b",
       "texto": "Los documentos técnicos se identificarán con los siguientes códigos:",
       "nivel": "parent",
       "parent_id": null,
@@ -320,8 +320,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e49a04275f9a4097ac162500c664a14a",
-      "texto": "```markdown\n|               | z   | a  | b   | c    | d     | e    |\n|---------------|-----|----|-----|------|-------|------|\n| Planos        | -   | OT | Cta | n^os | -     | -    |\n| Isométricas   | -   | OT | Cta | n^os | letras| n^os |\n| Escritos      | letras | OT | Cta | n^os | - | - |\n```",
+      "chunk_id": "9293131433f545b49754308f85de883b",
+      "texto": "|                | z | a  | b   | c  | d     | e  |\n|----------------|---|----|-----|----|-------|----|\n| Planos         | - | OT | Cta | nᵒˢ | -     | -  |\n| Isométricas    | - | OT | Cta | nᵒˢ | letras| nᵒˢ |\n| Escritos       |   | OT | Cta | nᵒˢ | -     | -  |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 6,
@@ -332,10 +332,10 @@
       ],
       "es_imagen": false,
       "dentro_de_anexo": true,
-      "tabla_degradada": false
+      "tabla_degradada": true
     },
     {
-      "chunk_id": "c6ab67ed-bfe4-4750-8b31-69b455ea9bd7",
+      "chunk_id": "f2ad7c03-11a6-4c42-8456-e287d5de99a8",
       "texto": "donde OT es el número de encargo ( nº) , Cta es la cuenta según Anexo V y los n os c indican (cuando procede) el Area o Unidad y (siempre) la numeración correlativa dentro del Area o Unidad y Cuenta.",
       "nivel": "parent",
       "parent_id": null,
@@ -350,7 +350,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b94181f0-0406-4a89-a65f-569758e5ce51",
+      "chunk_id": "b9c5b1f0-e1e4-40eb-ad5f-0a901af0968c",
       "texto": "Las letras  z  identifican   el   tipo   de   documento   escrito   (E   =   especificación,   RM   = Relación de Material) y las letras  d  y n os e  de las isométricas dan sobre ellas información adicional tal como se indica en el Anexo V.\n\nLas   ediciones   sucesivas   de   un   documento   se   numerarán   con   cifras   arábigas correlativas, comenzando con 1 para la emisión. Estas cifras irán en el lugar previsto para ello en el documento. Cuando este lugar no exista, o al hacer referencia escrita a un documento, el nº de edición se situará tras el número de orden, separado por una barra.",
       "nivel": "parent",
       "parent_id": null,
@@ -365,7 +365,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9bee669f-aa38-4bc3-9ed1-5fd3d87b24a5",
+      "chunk_id": "2fa8e064-a3d1-4520-95b5-02d4782bb0af",
       "texto": "Los sellos de los planos serán como se indica en el Anexo II.",
       "nivel": "parent",
       "parent_id": null,
@@ -380,7 +380,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0cfd1b90-f7c1-4de2-b523-5eb3e493da81",
+      "chunk_id": "250824ca-4100-472c-9ba5-080b4cb0a831",
       "texto": "En el Anexo III figuran los cuadros de distribución de documentos.",
       "nivel": "parent",
       "parent_id": null,
@@ -395,7 +395,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1683af2a-7d2d-49e2-92d2-50b3777ed4ae",
+      "chunk_id": "bcf055ee-2012-403f-b87a-7313e0d9faf6",
       "texto": "Los vendedores enviarán sus planos y documentos a Intecsa Industrial de acuerdo con las condiciones que marque el pedido, para comentarios o aprobación cuando proceda.\n\nLa distribución interna en Intecsa Industrial para aquellos planos que deban ser comentados por más de una Especialidad viene reflejada en el correspondiente cuadro del Anexo III. Los planos finales de los vendedores serán recogidos por Intecsa Industrial y entregados a (Cliente) en su momento.",
       "nivel": "parent",
       "parent_id": null,
@@ -410,7 +410,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1c761be8-fd74-4230-8fcf-0d18024342fd",
+      "chunk_id": "bd25666f-5e68-426a-93e3-d5558a04c2e6",
       "texto": "Los documentos del Proyecto serán verificados de acuerdo con el correspondiente Procedimiento de Verificación  de Intecsa Industrial y  con   las   Instrucciones   de Trabajo especificas de cada uno de los Departamentos, registrando esta verificación con la firma correspondiente del responsable de la misma.\n\nSe verificarán todos los documentos en todas y cada una de sus ediciones.",
       "nivel": "parent",
       "parent_id": null,
@@ -425,7 +425,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "21446bda-9038-4e86-9798-790f00d3734b",
+      "chunk_id": "1d55c2d2-c90b-441d-ad50-354337f31050",
       "texto": "Cada   uno   de   los   documentos   técnicos   será   aprobado   técnicamente   por   el Especialista responsable de la Cuenta a que corresponda.\n\nTodos los documentos serán aprobados además por el Jefe del Proyecto.\n\nLos documentos que requieren aprobación previa de ( Cliente) le serán sometidos por el Jefe del Proyecto antes de su propia aprobación, que es la que finalmente autoriza la difusión y uso del documento.\n\nLos documentos que deban ser aprobados por (Cliente) le serán remitidos en edición interna (sistema de la \"burbuja\") provisional y sólo una vez aprobados será registrada su nueva edición oficial.",
       "nivel": "parent",
       "parent_id": null,
@@ -440,7 +440,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ed99bb88-600a-46d0-8de2-ce83690ba5bf",
+      "chunk_id": "83365978-7759-48f7-bd0a-8f083c0bc173",
       "texto": "Los documentos que debe aprobar ( Cliente) son los siguientes:\n\n(Relacionar, si procede)",
       "nivel": "parent",
       "parent_id": null,
@@ -455,7 +455,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c9154af0-a0b8-420d-97a5-32504150d574",
+      "chunk_id": "867fcd65-0f3e-439e-8a29-bbae1f8bed59",
       "texto": "Los cambios que se produzcan en el curso del trabajo, fundamentalmente por cambio de instrucciones o cambios de alcance, le serán sometidos por escrito a ( Cliente) con su valoración, para que proceda a su aprobación o rechazo, en los correspondientes formatos \"Ordenes de Cambio\" que se incluyen en el Anexo I. Intecsa Industrial no acometerá ningún cambio sin la aprobación y firma de ( Cliente).",
       "nivel": "parent",
       "parent_id": null,
@@ -470,7 +470,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "62d621d2-7a64-4235-91dc-d2fe44b4e526",
+      "chunk_id": "525b2475-de52-4bd8-952c-cd5b35775538",
       "texto": "Los miembros del Equipo de Proyecto de Intecsa Industrial mantendrán cuantas reuniones sean precisas entre ellos y los vendedores, pero nunca para acordar nada que afecte al Contrato, el coste, el programa o los pedidos.\n\nTodo aquello que haga relación a esto último se tratará en reuniones convocadas por los Jefes del Proyecto y en presencia de ellos.\n\nLas reuniones se convocarán con el plazo necesario y con un Orden del Día, indicando también, día, lugar y hora, asistentes y duración prevista.\n\nDe cada reunión se levantará un Acta que ha de ser aprobada por el Jefe del Proyecto de Intecsa Industrial quien la enviará al Jefe del Proyecto de ( Cliente) para su aprobación o reparos en el plazo de ( n º ) días laborables, tras los cuales el Acta se considerará aprobada por ( Cliente) .\n\nLas reuniones, y en consecuencia las Actas, se numerarán correlativamente a partir de la primera (01).\n\nEn las Actas de reunión figurarán claramente las acciones acordadas y quien es el responsable de llevar a efecto cada una.",
       "nivel": "parent",
       "parent_id": null,
@@ -485,10 +485,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "82cdd7ab-1692-423c-8ee7-a01b4e6757ac",
+      "chunk_id": "8c495036-39c6-45fa-a41f-a0ad8a75e2d7",
       "texto": "Los miembros del Equipo de Proyecto de Intecsa Industrial mantendrán cuantas reuniones sean precisas entre ellos y los vendedores, pero nunca para acordar nada que afecte al Contrato, el coste, el programa o los pedidos.\n\nTodo aquello que haga relación a esto último se tratará en reuniones convocadas por los Jefes del Proyecto y en presencia de ellos.\n\nLas reuniones se convocarán con el plazo necesario y con un Orden del Día, indicando también, día, lugar y hora, asistentes y duración prevista.\n\nDe cada reunión se levantará un Acta que ha de ser aprobada por el Jefe del Proyecto de Intecsa Industrial quien la enviará al Jefe del Proyecto de ( Cliente) para su aprobación o reparos en el plazo de ( n º ) días laborables, tras los cuales el Acta se considerará aprobada por ( Cliente) .\n\nLas reuniones, y en consecuencia las Actas, se numerarán correlativamente a partir de la primera (01).",
       "nivel": "child",
-      "parent_id": "62d621d2-7a64-4235-91dc-d2fe44b4e526",
+      "parent_id": "525b2475-de52-4bd8-952c-cd5b35775538",
       "pagina_inicio": 8,
       "pagina_fin": 8,
       "seccion": "3.8. Reuniones",
@@ -500,10 +500,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8fba894f-f2c8-4b27-8458-78ca8866174a",
+      "chunk_id": "27e69d1c-3958-4936-96b4-4e24cdaf3709",
       "texto": "En las Actas de reunión figurarán claramente las acciones acordadas y quien es el responsable de llevar a efecto cada una.",
       "nivel": "child",
-      "parent_id": "62d621d2-7a64-4235-91dc-d2fe44b4e526",
+      "parent_id": "525b2475-de52-4bd8-952c-cd5b35775538",
       "pagina_inicio": 8,
       "pagina_fin": 8,
       "seccion": "3.8. Reuniones",
@@ -515,7 +515,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "666ca398-e5da-4e0a-863c-025d44c23ada",
+      "chunk_id": "e3f3969e-9647-4944-8b45-f6755201586a",
       "texto": "Al comenzar el Proyecto, Intecsa Industrial realizará la Planificación del mismo de acuerdo con su Procedimiento y utilizando sus programas informáticos.\n\nLa información que está previsto dar a ( Cliente) es el documento cuyo ejemplo se encuentra en el Anexo IV.\n\nSe trata de un diagrama de barras conteniendo los hitos contractuales, indicando el comienzo   y   terminación   de   cada   una   de   las   Especialidades   que   interviene,   y destacando   aquellas   actividades   críticas   que   condicionan   el   plazo   global   del Proyecto.\n\nEn cada una de las ediciones de esta Planificación se indica la situación del Proyecto mediante una línea vertical quebrada indicando progresos previstos y alcanzados a la fecha del informe.",
       "nivel": "parent",
       "parent_id": null,
@@ -530,7 +530,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "92fdb697-9d79-4afb-9834-b28e7cfc6f91",
+      "chunk_id": "5a3d4545-9660-47e6-ada3-85295eca31c2",
       "texto": "El Control de Costes de la inversión se realizará de acuerdo con el Procedimiento de Intecsa Industrial y mediante sus programas informáticos.\n\nLos conceptos contemplados son:\n\n-Estimación original\n\n-Estimación original revisada\n\n-Estimado para completar\n\n-Coste final esperado\n\nTodo   ello   se   realizará   a   partir   de   la   relación   de   actividades,   suministros   y subcontratos previstos por ( Cliente) y su estimación original, preparada por ( Cliente) con la colaboración de Intecsa Industrial .\n\nEl desglose de cada uno de los conceptos a controlar será objeto de acuerdo entre (Cliente) e Intecsa Industrial , así como su agrupación por Cuentas, Areas, etc.\n\nUn ejemplo de Informe de Control de Costes se incluye en el Anexo IV.",
       "nivel": "parent",
       "parent_id": null,
@@ -546,7 +546,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d70b059d-0683-4d94-873b-6e9761c3a1de",
+      "chunk_id": "bd748aa9-05d5-4609-9523-bc725238ef9f",
       "texto": "El Control de los principales documentos (especialmente planos y Relaciones de material), su estado y su avance con respecto a la planificación prevista, será objeto también de un documento que se incorporará a los Informes periódicos y tendrá el contenido que se muestra en el ejemplo del Anexo IV.",
       "nivel": "parent",
       "parent_id": null,
@@ -561,7 +561,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ce994faa-aab6-45c7-abda-b5538a5a98ae",
+      "chunk_id": "51e634bf-019c-4544-bbfb-a30ff4c23683",
       "texto": "Con todos los documentos reseñados, más los correspondientes a la Gestión de Compra, Intecsa Industrial enviará un Informe mensual a (Cliente) para facilitarle el seguimiento de los trabajos.\n\nEl Indice de los Informes será el siguiente:",
       "nivel": "parent",
       "parent_id": null,
@@ -576,7 +576,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f9e37dab-049a-4e55-94af-faa7d5eaa114",
+      "chunk_id": "57147690-cb72-4009-a80e-b171b776c986",
       "texto": "(Se incluye a continuación una serie de procedimientos, cuyo uso, en el caso de contratos \"llave en mano\" es discrecional, a criterio del Jefe de proyecto).",
       "nivel": "parent",
       "parent_id": null,
@@ -591,7 +591,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7d91f9e4-4699-46f5-9253-d2faed825c74",
+      "chunk_id": "73d9404c-78f1-4d8e-81b5-4df13c56bd5a",
       "texto": "Además de los procedimientos que regulan la actuación de los miembros del Equipo del Proyecto y el funcionamiento interno de Intecsa Industrial , serán de aplicación los siguientes Procedimientos Generales:\n\nPR-31 Procedimiento de Cuentas (v. Anexo V)\n\nPR-32 Procedimiento de identificación de equipos y documentos (v. Anexo V)\n\nPR-34 Procedimiento de verificación de documentos\n\nPR-35 Procedimiento de documentos de Fabricantes\n\nPR-37 Procedimiento de delineación\n\nPR-38 Procedimiento de realización de planos en PC",
       "nivel": "parent",
       "parent_id": null,
@@ -607,7 +607,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9b5e9c25-8f15-40cd-b1dd-f4371f30f4b1",
+      "chunk_id": "6909345a-c561-4fc7-aace-96e2fd0f9859",
       "texto": "La entidad compradora es:\n\n(Cliente)  ó (Intecsa Ingenieria Industrial S.A.) (Domicilio) (N.I.F.)\n\nEn nombre y por cuenta de (Cliente) actúa Intecsa Industrial como agente de compras.",
       "nivel": "parent",
       "parent_id": null,
@@ -622,7 +622,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4676a13a-fc34-49e1-a1a7-324b59daa2bc",
+      "chunk_id": "d3a69f95-f2a1-4dd0-a2a9-a01ed2b2c4b6",
       "texto": "Para   cada   una   de   las   RR.MM   (Relaciones   de   Material)   producidas   por   los Especialistas de Intecsa Industrial , el Jefe del Proyecto someterá a (Cliente) una relación de un mínimo de tres y un máximo de cinco posibles proveedores para que sea aceptada o modificada.",
       "nivel": "parent",
       "parent_id": null,
@@ -637,7 +637,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "212a4e7b-11cd-40b0-8421-19c87ad0d30d",
+      "chunk_id": "288ec88f-8373-452e-83b7-96393befd59d",
       "texto": "Sobre la base de las Condiciones Generales de Compra de Intecsa Industrial , (Cliente) establecerá las Condiciones Particulares para cada RR.MM o grupos de",
       "nivel": "parent",
       "parent_id": null,
@@ -652,7 +652,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4985b723-e3d7-46b7-ac28-46567d5a54f8",
+      "chunk_id": "fbce30b7-501a-4884-9c9b-f56233b3ef6e",
       "texto": "RR.MM, de acuerdo con el Coordinador de compras de Intecsa Industrial , de forma que queden concretados:\n\n-Forma de dar los precios con la oferta, incluso el de personal que pueda ser preciso en la puesta en marcha y los repuestos.\n\n-Mediciones (para los pedidos que lo precisen, forma de medir el número de elementos suministrados, las dimensiones, etc.)\n\n-Forma en que, en su día, habrá de hacerse la planificación detallada cuando se trate de obras, montaje o instalaciones.\n\n-Penalidades   (por   retraso   de   envío   de   documentación,   por   retraso   en   el suministro, por defectos del suministro) y límite total de la penalidad máxima.\n\n-Condiciones de facturación, certificación y pago.\n\n-Garantías (de materiales, de prestaciones).",
       "nivel": "parent",
       "parent_id": null,
@@ -668,7 +668,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "47af8128-be6e-433d-96fd-cebce9847035",
+      "chunk_id": "2ad00f98-1bd5-45d0-a4f4-2f89ecf0ee07",
       "texto": "Las peticiones de oferta serán enviadas por Intecsa Industrial quien las activará para  recibirlas   en   el   plazo   establecido.   Este   plazo   no   se   prorrogará   salvo   que expresamente lo solicite (Cliente).\n\nLas ofertas se abrirán al vencer el plazo, en presencia de una persona de (Cliente) cuando éste así lo haya indicado.",
       "nivel": "parent",
       "parent_id": null,
@@ -683,7 +683,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8a43f221-4dbc-4c0f-8197-631257edc7c1",
+      "chunk_id": "c1ce45ad-7d26-4f02-860c-8a3af5e2cad2",
       "texto": "Intecsa   Industrial realizará   el   estudio   comparativo   de   las   ofertas   y   hará   una recomendación   de   Compra. (Cliente) tomará   la   decisión   de   adjudicación   que proceda, comunicándola a Intecsa Industrial por escrito, para que prepare y envíe la RM \"para compra\" y el Pedido.",
       "nivel": "parent",
       "parent_id": null,
@@ -698,7 +698,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "897868e1-b710-4570-9558-c401da628951",
+      "chunk_id": "b3bb1292-8879-4140-8742-476d53c42279",
       "texto": "Intecsa   Industrial realizará   la   activación   de   los   pedidos   y   las   inspecciones necesarias y dará en su momento la Autorización de Envío de los equipos.\n\nDe cada una de las inspecciones se hará un informe que se entregará a ( Cliente) .",
       "nivel": "parent",
       "parent_id": null,
@@ -713,7 +713,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8ff3236e-b430-4ee6-bb92-4f2ea07566fb",
+      "chunk_id": "edcf3795-49d4-445c-874b-55f45d4341c8",
       "texto": "Las facturas de los proveedores serán visadas por Intecsa Industrial quien deberá comprobar   previamente   si   se   han   cumplido   todos   los   requisitos   del   Pedido,   o procede, en su caso, alguna penalización. Los pagos serán realizados por ( Cliente) .",
       "nivel": "parent",
       "parent_id": null,
@@ -728,7 +728,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a3d358fd-6e07-427c-a0d4-815fe0df84e9",
+      "chunk_id": "4fa4c241-bcfb-455d-a620-23e8642f06d3",
       "texto": "En los Informes de progreso que Intecsa Industrial entregará periódicamente a (Cliente) se incluirá la información sobre toda la gestión de Compras, con la forma que se indica en el Anexo IV.\n\nNota: en el Anexo V, \"Procedimientos reducidos\" está previsto incluir, al menos, la relación de Cuentas y la Identificación de equipos, líneas e instrumentos).",
       "nivel": "parent",
       "parent_id": null,
@@ -743,7 +743,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a4739b8f-d02d-488e-9f6b-d4deac26b2e1",
+      "chunk_id": "34319b48-b48b-41f6-939e-b56b5a9e0329",
       "texto": "La entidad subcontratante es:\n\n(Intecsa Ingenieria Industrial, S.A.)\n\nEn nombre y por cuenta de (Cliente) actúa Intecsa Industrial como agente de subcontratación.",
       "nivel": "parent",
       "parent_id": null,
@@ -758,7 +758,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ac78f34e-ae22-4c6c-8793-4966f17ed00c",
+      "chunk_id": "a285eaa1-d9a7-4c3b-9a61-012ade2fea9d",
       "texto": "Para   cada   una   de   las   RR.MM   (Relaciones   de   Material)   producidas   por   los Especialistas de Intecsa Industrial , el Jefe del Proyecto someterá a (Cliente) una relación de un mínimo de tres y un máximo de cinco posibles proveedores para que sea aceptada o modificada.",
       "nivel": "parent",
       "parent_id": null,
@@ -773,7 +773,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "94815a7e-1d37-41de-9487-5b65f2b59593",
+      "chunk_id": "847e0fab-e7c3-474a-9cf9-f4094ae54da1",
       "texto": "Sobre   la   base   de   las   Condiciones   Generales   de   Subcontratación   de Intecsa Industrial , (Cliente) establecerá las Condiciones Particulares para cada RR.MM o grupos de RR.MM, de acuerdo con el coordinador de subcontratación de Intecsa Industrial , de forma que queden concretados:\n\n-Forma de dar los precios con la oferta, incluso el de personal que pueda ser preciso en la puesta en marcha y los repuestos.\n\n-Definición de las unidades de medida\n\n-Mediciones (para los pedidos que lo precisen, forma de medir el número de elementos suministrados, las dimensiones, etc.)",
       "nivel": "parent",
       "parent_id": null,
@@ -789,7 +789,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "450a2fcf-718b-40bc-a5fb-57048ade7584",
+      "chunk_id": "36e8432e-7b68-4e74-8a6b-db860a5acd52",
       "texto": "-Forma en que, en su día, habrá de hacerse la planificación detallada de la obra, montaje o instalaciones.\n\n-Penalidades   (por   retraso   de   envío   de   documentación,   por   retraso   en   el suministro, si lo hay, por retraso en el montaje) y límite total de la penalidad máxima.\n\n-Condiciones de facturación, certificación y pago.\n\n-Garantías (de materiales, de prestaciones).",
       "nivel": "parent",
       "parent_id": null,
@@ -804,7 +804,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b7a5b48e-9cf7-49eb-851d-eb9e3755e3ae",
+      "chunk_id": "cce1ea30-37c7-4c36-9c78-6475bdcf9be4",
       "texto": "Las peticiones de oferta serán enviadas por Intecsa Industrial quien las activará para  recibirlas   en   el   plazo   establecido.   Este   plazo   no   se   prorrogará   salvo   que expresamente lo solicite (Cliente).\n\nLas ofertas se abrirán al vencer el plazo, en presencia de una persona de (Cliente) cuando éste así lo haya indicado.",
       "nivel": "parent",
       "parent_id": null,
@@ -819,7 +819,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0c51f0f4-6275-4a60-b735-fcc61263eeda",
+      "chunk_id": "5340ecf6-3d1a-46e6-af6c-ebafc1039ffe",
       "texto": "Intecsa   Industrial realizará   el   estudio   comparativo   de   las   ofertas   y   hará   una recomendación de Subcontratación. (Cliente) tomará la decisión de adjudicación que proceda, comunicándola a Intecsa Industrial por escrito, para que prepare y envíe la RM \"para compra\" y el Subcontrato.",
       "nivel": "parent",
       "parent_id": null,
@@ -834,7 +834,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e7ba002e-e46c-4d95-a414-20a31759d424",
+      "chunk_id": "a9effac4-e149-4256-bb2f-8ba40d5c5404",
       "texto": "Intecsa Industrial realizará la activación de los subcontratos hasta la incorporación a obra del subcontratista.\n\nDe cada una de las inspecciones se hará un informe que se entregará a ( Cliente) .",
       "nivel": "parent",
       "parent_id": null,
@@ -849,7 +849,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "add62479-8221-4cb1-97ce-cfe50343bc80",
+      "chunk_id": "05a5f369-34f7-493b-970b-54a039c7a7ab",
       "texto": "Las facturas de los proveedores serán visadas por Intecsa Industrial quien deberá comprobar   previamente   si   se   han   cumplido   todos   los   requisitos   del   Pedido,   o procede, en su caso, alguna penalización. Los pagos serán realizados por ( Cliente) .",
       "nivel": "parent",
       "parent_id": null,
@@ -864,7 +864,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "15b58df2-0888-4e8e-9b69-c034f5ecb5b4",
+      "chunk_id": "09c4be33-aa30-4a11-ab1b-97c677119e62",
       "texto": "En los Informes de progreso que Intecsa Industrial entregará periódicamente a (Cliente) se incluirá la información sobre toda la gestión de Subcontratos, con la forma que se indica en el Anexo IV.\n\nNota: en el Anexo V, \"Procedimientos reducidos\" está previsto incluir, al menos, la relación de Cuentas y la Identificación de equipos, líneas e instrumentos).",
       "nivel": "parent",
       "parent_id": null,
@@ -879,7 +879,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "07b0bd54-965b-45e0-8e17-1a8a049ffa23",
+      "chunk_id": "e9aa25c9-834d-4126-8921-b5f6e8a5a9e0",
       "texto": "(Se incluirá el organigrama y/o una descripción, con nombres de los responsables; puede incluirse como anexo).",
       "nivel": "parent",
       "parent_id": null,
@@ -894,7 +894,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "050cd3a6-200e-4578-b7ed-c87b69f771e1",
+      "chunk_id": "1a693547-de24-4c63-b0c9-7577113046c2",
       "texto": "Las relaciones en obra con la propiedad se mantendrán a través del Jefe de obra de Intecsa Industrial (nombrar) (y de la persona que así se acuerde, en su caso: nombrar)\n\nLa   identificación   de   las   cartas   y   otros   escritos   se   indica   en   el   apartado   3.3 Identificación de los documentos.",
       "nivel": "parent",
       "parent_id": null,
@@ -909,7 +909,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "eefed61b-faf9-4807-bbd2-3f0f16a8aaca",
+      "chunk_id": "65beb573-6a79-49f6-aa43-d6221a326594",
       "texto": "(La   inclusión   o   no   de   este   apartado   depende   de   si   existe   alguna   función   o responsabilidad que no esté contenida en el PR-55 Supervisión de construcción).",
       "nivel": "parent",
       "parent_id": null,
@@ -924,7 +924,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6dbdf254-c933-4f5e-a285-dfec3fe66bc1",
+      "chunk_id": "2f287670-7036-4815-a571-4fafc473e277",
       "texto": "(Este apartado se incluirá en el Plan interno en el caso de contrato \"llave en mano\". El texto que se incluya adaptará en cada caso lo indicado en el PR-55 Supervisión de construcción, apartado 5).",
       "nivel": "parent",
       "parent_id": null,
@@ -939,7 +939,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9efd9ca0-5f51-46b6-8b92-067658fc2128",
+      "chunk_id": "c00009eb-d833-4287-be29-cfc7db65ff60",
       "texto": "(Este apartado se incluirá en el Plan interno)\n\nCuando algún Contratista ejecute un trabajo no conforme con los especificado, cuya aceptación o rechazo ha de ser decidida por el Especialista responsable de Cuenta, el Supervisor correspondiente preparará una No Conformidad de acuerdo con el PR-72 de Intecsa Industrial \"Procedimiento de no conformidades\".\n\nAsí   mismo,   cuando   la   Supervisión   detecte   defectos   en   el   Proyecto   (soluciones constructivas inadecuadas, interferencias, etc.) que   obliguen a realizar modificaciones de lo construido según proyecto, se producirá generalmente una OTS (orden de trabajo suplementaria) que tendrá carácter de una No Conformidad aún cuando la solución pueda ser adoptada en obra sin intervención del Especialista responsable de Cuenta.",
       "nivel": "parent",
       "parent_id": null,
@@ -954,7 +954,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "848f651a-f149-4977-ba91-add205c2e69d",
+      "chunk_id": "5619a5dd-372d-47a0-a33f-a6f615c37ebe",
       "texto": "(Este apartado se incluirá en el Plan interno en el caso de contrato \"Llave en mano\". El texto que se incluya adaptará en cada caso lo indicado en el PR-55 Supervisión de construcción, apartado 7).",
       "nivel": "parent",
       "parent_id": null,
@@ -969,7 +969,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6e884a02-fb62-46ba-bcb3-403998578f2a",
+      "chunk_id": "0165d231-f7b0-45d7-8e97-84df22200b69",
       "texto": "(La extensión y el contenido de este apartado se adaptará a cada caso).",
       "nivel": "parent",
       "parent_id": null,
@@ -984,7 +984,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ff74f492-5d10-4965-aa53-c929e79fac53",
+      "chunk_id": "1bdc83d1-8e30-4d12-bfba-5c59e12ca2cf",
       "texto": "La  identificación,   la   evaluación   y   el   registro   de   aspectos   medioambientales   se recogen en el Documento (nombrar o  incluir modelo de formato en un anexo).\n\nEl control y seguimiento de operaciones se recoge en el Documento (nombrar).\n\nEl plan de gestión de residuos se recoge en el Documento (nombrar) (que se realiza de acuerdo con IT-CA-09 Guía para la elaboración del Plan de gestión de residuos).\n\nEl Plan de emergencia medioambiental y capacidad de respuesta se recoge en el Documento (nombrar) (elaborado de acuerdo con el índice orientativo incluido en el anexo I del PR-22 Planes de emergencia medioambiental).\n\nLos registros de construcción que se listan a continuación, se recopilan por los diferentes   supervisores   de   obra   (que   los   requerirán   a   los   correspondientes subcontratistas,   cuando proceda) con la colaboración del responsable de medio ambiente en la obra, quien es el encargado de su custodia:\n\nLas disposiciones legales medioambientales aplicables se listan a continuación, bajo las siguientes denominaciones:\n\n-Legislación Internacional, Europea, Nacional y Autonómica:\n\n(listar, indicando la denominación de la disposición)\n\n-Legislación local y de otros organismos:\n\n(listar, indicando la denominación de la disposición)",
       "nivel": "parent",
       "parent_id": null,
@@ -1000,10 +1000,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3b273dea-4776-4c49-908a-b037a9f4a89f",
+      "chunk_id": "7b75eac6-ab27-40cc-9f2d-f604d5acde84",
       "texto": "La  identificación,   la   evaluación   y   el   registro   de   aspectos   medioambientales   se recogen en el Documento (nombrar o  incluir modelo de formato en un anexo).\n\nEl control y seguimiento de operaciones se recoge en el Documento (nombrar).\n\nEl plan de gestión de residuos se recoge en el Documento (nombrar) (que se realiza de acuerdo con IT-CA-09 Guía para la elaboración del Plan de gestión de residuos).\n\nEl Plan de emergencia medioambiental y capacidad de respuesta se recoge en el Documento (nombrar) (elaborado de acuerdo con el índice orientativo incluido en el anexo I del PR-22 Planes de emergencia medioambiental).",
       "nivel": "child",
-      "parent_id": "ff74f492-5d10-4965-aa53-c929e79fac53",
+      "parent_id": "1bdc83d1-8e30-4d12-bfba-5c59e12ca2cf",
       "pagina_inicio": 15,
       "pagina_fin": 15,
       "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
@@ -1016,10 +1016,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3c764898-2453-44f7-952a-f841ef89745d",
+      "chunk_id": "11ab2b4a-6067-4eb3-9d13-7b3354cf6000",
       "texto": "Los registros de construcción que se listan a continuación, se recopilan por los diferentes   supervisores   de   obra   (que   los   requerirán   a   los   correspondientes subcontratistas,   cuando proceda) con la colaboración del responsable de medio ambiente en la obra, quien es el encargado de su custodia:\n\nLas disposiciones legales medioambientales aplicables se listan a continuación, bajo las siguientes denominaciones:\n\n-Legislación Internacional, Europea, Nacional y Autonómica:\n\n(listar, indicando la denominación de la disposición)\n\n-Legislación local y de otros organismos:\n\n(listar, indicando la denominación de la disposición)",
       "nivel": "child",
-      "parent_id": "ff74f492-5d10-4965-aa53-c929e79fac53",
+      "parent_id": "1bdc83d1-8e30-4d12-bfba-5c59e12ca2cf",
       "pagina_inicio": 15,
       "pagina_fin": 15,
       "seccion": "PLAN DE CALIDAD Y MEDIO AMBIENTE (Nombre del Proyecto)",
@@ -1032,7 +1032,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bdf1a344-de3a-4ad5-a71d-a927b3732f49",
+      "chunk_id": "9e386c83-d8ad-410c-af48-5a3ecb79a754",
       "texto": "Otros requisitos legales aplicables (si proceden) se listan en el Documento (nombrar) (o en su caso, en un anexo al presente Procedimiento).",
       "nivel": "parent",
       "parent_id": null,
@@ -1047,7 +1047,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3d16cce1-a4f7-4955-8d02-b9ecb199b9cc",
+      "chunk_id": "7c470cb3-e5b6-43de-9e4d-9d2dfb519cd6",
       "texto": "La documentación relativa a prevención de riesgos laborales se recoge en los siguientes documentos:",
       "nivel": "parent",
       "parent_id": null,
@@ -1062,7 +1062,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4fe296fe-46ba-4ad7-8676-2934009ccf14",
+      "chunk_id": "5246f6c2-3fa7-4d98-b129-590f19c03479",
       "texto": "Se dispone en obra de los siguientes:\n\n-Libro de Ordenes y Asistencias\n\n-Libro de Incidencias\n\n(según lo indicado en el PR-55 Supervisión de construcción)\n\nAdemás el Jefe de Obra dispone de un Libro diario (idem, indicando si es en papel o informático)",
       "nivel": "parent",
       "parent_id": null,
@@ -1078,7 +1078,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f2a66be3-6428-47bf-8f40-d443b5a59abd",
+      "chunk_id": "cec916b5-1ee2-4379-bd8d-f23460a1f6f9",
       "texto": "(La inclusión o no de este apartado, depende de si se modifica lo indicado en el PR-55 Supervisión de construcción; además en contratos \"llave en mano\" en todo caso se incluirá en un suplemento interno).",
       "nivel": "parent",
       "parent_id": null,
@@ -1093,7 +1093,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c681d132-e62c-4d10-b394-bc13f40ffc55",
+      "chunk_id": "62b6a94c-a41d-4e1a-b545-d854db67e1de",
       "texto": "(Se listará su contenido, teniendo en cuenta que buena parte de la información será para uso interno en el caso de un \"llave en mano\" y no en se incluirá tanto por confidencialidad frente al cliente como por estar disponible en línea).",
       "nivel": "parent",
       "parent_id": null,
@@ -1108,7 +1108,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6961711b-2dde-4cb5-8635-a94aa1b66354",
+      "chunk_id": "6149bbb2-9691-47ea-b2f2-a87754fd8e3f",
       "texto": "-organigrama ( si procede )",
       "nivel": "parent",
       "parent_id": null,
@@ -1123,7 +1123,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b4928c22-1f88-4315-b227-029a026ce2b6",
+      "chunk_id": "728761eb-8f25-4675-b06b-b9f959808305",
       "texto": "(Convendrá fijar formatos, instrucciones de mecanografía, pautas de diseño, niveles de desarrollo, ítems, etc.)",
       "nivel": "parent",
       "parent_id": null,

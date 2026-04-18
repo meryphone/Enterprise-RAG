@@ -1,5 +1,5 @@
 {
-  "doc_id": "4912de6356014b39acbc0f9675254eef",
+  "doc_id": "3fecf7d4bb9449fba22124e2c5aa1ba5",
   "nombre_fichero": "PR-02.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,10 +13,10 @@
     "edicion": "8",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T18:04:03+00:00",
+  "fecha_ingesta": "2026-04-17T20:00:41+00:00",
   "chunks": [
     {
-      "chunk_id": "d2f3c6f8b5bc44eaaea4d3415e0db734",
+      "chunk_id": "41d1c6bb63564698ae455859a81378ad",
       "texto": "| RLL    | APL    | 8       | Jun 07   | REVISADO POR CAMBIO DE RAZON SOCIAL   |\n|--------|--------|---------|----------|---------------------------------------|\n| D.D.   | A.I.   | 7       | Ene. 99  | REVISADO EN LO MARCADO *              |\n| D.D.   | A.I.   | 6       | Sept. 98 | REVISADO LO MARCADO *                 |\n| A.K.   | E.L.   | 5       | Nov. 95  | CAMBIADO 4.4. DISTRIBUCION            |\n| A.K.   | E.L.   | 4       | Febr. 95 | CORRECCION DE ERRATA                  |\n| A.K.   | E.L.   | 3       | Abril 94 | CAMBIADA LA IDENTIFICACION            |\n| A.K.   | E.L.   | 2       | Sept. 93 | CAMBIO TOTAL Y CAMBIO DE TITULO       |\n| A.K    | E.L.   | 1       | Agos. 92 | EMISION COMO PR-210                   |\n| APROB. | VERIF. | EDICION | FECHA    | DESCRIPCION DE LA EDICION             |",
       "nivel": "child",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6b879625-7ead-480c-9467-aebee4644de3",
+      "chunk_id": "45a27851-5643-4381-a628-accca85c536b",
       "texto": "Este Procedimiento tiene por objeto definir la forma de actuación en la elaboración y posterior uso de los documentos técnicos oficiales de Intecsa Industrial , tanto los que afectan   a   toda   la   empresa   como   los   más   específicos   de   Divisiones,   Servicios   y Departamentos. Se trata, pues, de los documentos de aplicación general, y no de los que se elaboran para Contratos singulares.\n\nEste Procedimiento forma parte del Sistema de Calidad de Intecsa Industrial y se ha preparado teniendo en cuenta la norma ISO 9001.",
       "nivel": "parent",
       "parent_id": null,
@@ -46,7 +46,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "65970479-055b-407f-a9b3-8df2e8ac8189",
+      "chunk_id": "7f4e43c3-cd2f-4487-bfe0-cb4d4651bb0d",
       "texto": "Los documentos a que se refiere este Procedimiento son:",
       "nivel": "parent",
       "parent_id": null,
@@ -61,7 +61,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4bd93244-973c-4c58-8022-51df623b0e4d",
+      "chunk_id": "ec07b002-35ef-4f62-8e66-180c4af7565f",
       "texto": "Es el documento que describe el Sistema de Calidad de Intecsa Industrial ,   y   nunca puede adaptarse a ofertas o contratos específicos.",
       "nivel": "parent",
       "parent_id": null,
@@ -76,7 +76,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "61a36083-03ab-4c0e-9c31-e1520f454888",
+      "chunk_id": "3eaa1c49-0091-4598-9b9c-64c5e9b42454",
       "texto": "Son los Procedimientos que recogen la manera en que deben realizarse en Intecsa Industrial las   actividades   principales,   comunes   a   la   generalidad   de   los   trabajos   y contratos. Pueden ser complementados por requerimientos de contratos específicos, pero los complementos no pueden nunca afectar a las exigencias en ellos establecidas sino solamente a la forma material de cumplirlas.",
       "nivel": "parent",
       "parent_id": null,
@@ -91,7 +91,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b5ce9eac-6094-43cf-a590-6afa824c23ec",
+      "chunk_id": "10beb391-c906-4fda-9b25-0327269694ff",
       "texto": "Son los documentos que describen la forma de realizar el trabajo en actividades o especialidades concretas, o en determinadas unidades estructurales de la empresa.\n\nRevisten   la   forma,   generalmente,   de   Instrucciones   o   Guías,   y   son   susceptibles   de modificación solamente cuando los contratos así lo exijan explícitamente.",
       "nivel": "parent",
       "parent_id": null,
@@ -106,7 +106,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3797bf2b-5436-4965-aea6-fe6fbf75a4bb",
+      "chunk_id": "14268318-18fc-46a8-98e9-9551b2df4da6",
       "texto": "Son los documentos que describen las características técnicas generales que han de cumplir   los   equipos,   obras   e   instalaciones   en   los   contratos   que   desarrolla Intecsa Industrial .   Son   adaptables   a   las   necesidades   y   características   de   cada   Proyecto concreto.",
       "nivel": "parent",
       "parent_id": null,
@@ -121,7 +121,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "525d25e6-7a02-4fde-b6d2-d44a539bda74",
+      "chunk_id": "34ba9904-d72e-470d-88b0-6304d30f1d2e",
       "texto": "Son aquellos cuya utilización es preceptiva para toda la empresa, o para una unidad estructural de la misma (División, Servicio o Departamento).",
       "nivel": "parent",
       "parent_id": null,
@@ -136,7 +136,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e22d4fbe-bbba-49f2-a40f-317ac34e81d7",
+      "chunk_id": "c4f0a7c3-7881-4be6-acdb-d56512b648ae",
       "texto": "El Responsable de Calidad es quien elabora el Manual y la Dirección General quien lo aprueba.",
       "nivel": "parent",
       "parent_id": null,
@@ -151,7 +151,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5c6dd0ab-b3a9-47fe-bd63-1b33a2341a3b",
+      "chunk_id": "229d4dcc-aa7d-4d33-9e73-59046ad76cf4",
       "texto": "La elaboración corresponde al Responsable de Calidad o a otras personas dirigidas por éste. El Responsable de Calidad verifica el documento y la Dirección General lo aprueba.",
       "nivel": "parent",
       "parent_id": null,
@@ -166,7 +166,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4bf445d8-0e79-4b1c-ac1b-53991095d72a",
+      "chunk_id": "5b536fb5-b181-466e-a060-d6948ad53ecb",
       "texto": "Se   elaboran   por   personas   designadas   por   los   Jefes   de   las   unidades   afectadas (Divisiones,   Servicios   o   Departamentos),   las   verifica   la   persona   designada   como responsable de su elaboración, y el Responsable de Calidad de la empresa en lo relativo a su coherencia con el Sistema de Calidad, y las aprueba el Jefe del Departamento o del Servicio afectado.",
       "nivel": "parent",
       "parent_id": null,
@@ -181,7 +181,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "52d321c6-b7cd-4b23-a631-2d7def344afc",
+      "chunk_id": "bb1dac1a-fc84-446c-81e5-2520b9b90b1c",
       "texto": "Se desarrollan en los Departamentos y son verificadas por su autor, y aprobadas por el Jefe correspondiente.",
       "nivel": "parent",
       "parent_id": null,
@@ -196,7 +196,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f6d98f3d-485f-430f-a7c6-e02e3c2f3844",
+      "chunk_id": "57fdd1bc-7aae-42f5-b56b-610a64b5924f",
       "texto": "Los de ámbito general son realizados por el Departamento de Personal y Organización y revisados   por   el   Responsable   de   Calidad.   Los   restantes   son   asimilables   a   las Instrucciones de Trabajo, en cuanto a su elaboración",
       "nivel": "parent",
       "parent_id": null,
@@ -211,7 +211,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c43e6219-89af-48fa-bedf-ebcd420a90c0",
+      "chunk_id": "befe189a-dc94-4df8-880a-f80a036d1fe8",
       "texto": "En la elaboración o corrección de los documentos normalizados, se redactarán y editarán primeramente borradores (ediciones A, B ..., 2A, 2B ...) que se pasarán a comentarios a las   personas   afectadas   (a   todas   o   a   aquellas   que   indique   el   responsable   de   la aprobación). La inclusión o no de los comentarios queda supeditada en cada caso al criterio de quien ha de aprobar el documento.\n\nTodos los documentos se editarán en formatos normalizados, numerados por ediciones 1, 2, .... (edición 1 será la Emisión oficial).",
       "nivel": "parent",
       "parent_id": null,
@@ -226,7 +226,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c24cf15e-2a8d-4a1e-9f1a-7575d60767bc",
+      "chunk_id": "105710ff-cd6a-4e26-ab6f-bc36033f74ca",
       "texto": "Se estará a lo indicado en el PR-32 \"Procedimiento de identificación de equipos y documentos\".",
       "nivel": "parent",
       "parent_id": null,
@@ -241,7 +241,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d57090b5-0eb0-4aaa-af6c-9d7632c21339",
+      "chunk_id": "076ce2be-4a1a-48bb-871d-1e3ea3aa3392",
       "texto": "Cualquier persona de la empresa puede promover la modificación de un documento normalizado, planteándolo, directamente o a través de su Jefe, a la persona que ha aprobado la edición vigente, quien en definitiva deberá aprobar la modificación.\n\nEn   el   caso   del   Manual   de   Calidad   y   Procedimientos   Generales   se   informará simultáneamente al Responsable de Calidad.\n\nLos responsables de los documentos revisarán anualmente éstos, a principios de los años naturales, para emitir las nuevas ediciones que sean precisas.\n\nLa numeración de las nuevas ediciones se reflejará en todas las páginas del documento. Los anexos podrán llevar su propia edición y paginación cuando el volumen de su contenido lo justifique, o cuando se trate de documentos que se usan propiamente como tales, con independencia del principal. En este último caso se reflejará, en el índice de control de las ediciones, las correspondientes de los anexos.\n\nSi la modificación es puntual y urgente puede emitirse un addendum a la edición vigente, posponiendo la nueva edición completa hasta la revisión anual.",
       "nivel": "parent",
       "parent_id": null,
@@ -257,10 +257,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2330f241-af29-4ab2-9c39-20b5d3cb0656",
+      "chunk_id": "956ad773-ec82-44a1-ab4b-749e3190d7d3",
       "texto": "Cualquier persona de la empresa puede promover la modificación de un documento normalizado, planteándolo, directamente o a través de su Jefe, a la persona que ha aprobado la edición vigente, quien en definitiva deberá aprobar la modificación.\n\nEn   el   caso   del   Manual   de   Calidad   y   Procedimientos   Generales   se   informará simultáneamente al Responsable de Calidad.\n\nLos responsables de los documentos revisarán anualmente éstos, a principios de los años naturales, para emitir las nuevas ediciones que sean precisas.\n\nLa numeración de las nuevas ediciones se reflejará en todas las páginas del documento. Los anexos podrán llevar su propia edición y paginación cuando el volumen de su contenido lo justifique, o cuando se trate de documentos que se usan propiamente como tales, con independencia del principal. En este último caso se reflejará, en el índice de control de las ediciones, las correspondientes de los anexos.",
       "nivel": "child",
-      "parent_id": "d57090b5-0eb0-4aaa-af6c-9d7632c21339",
+      "parent_id": "076ce2be-4a1a-48bb-871d-1e3ea3aa3392",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "4.3. Modificación",
@@ -273,10 +273,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6ced800a-d71c-4647-b17d-a3494e87c49a",
+      "chunk_id": "26db1bcf-6ea6-4e67-ab8c-444f3e872eb8",
       "texto": "Si la modificación es puntual y urgente puede emitirse un addendum a la edición vigente, posponiendo la nueva edición completa hasta la revisión anual.",
       "nivel": "child",
-      "parent_id": "d57090b5-0eb0-4aaa-af6c-9d7632c21339",
+      "parent_id": "076ce2be-4a1a-48bb-871d-1e3ea3aa3392",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "4.3. Modificación",
@@ -289,7 +289,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "074ea669-2f56-41b8-9f98-227010dcc893",
+      "chunk_id": "8548c643-9a39-44b0-b7a0-048b0a722dc3",
       "texto": "La distribución de un documento es fijada, en general,  por quien ha de aprobarlo, quien mantendrá al día los listados de distribución.\n\nAl   editar   y   distribuir   un   nuevo   documento   o   una   nueva   edición,   las   Divisiones, Departamentos o Servicios actualizarán el propio control de ediciones, accesible para consulta de todo su personal.",
       "nivel": "parent",
       "parent_id": null,
@@ -304,7 +304,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0261d262-d630-4a55-91cc-51e8f0ae08fb",
+      "chunk_id": "d62ee8ac-d22f-4fd9-8a17-603bf2594efe",
       "texto": "El   Manual   de   Calidad   se   introducirá   en   Intranet,   lo   cual   será   notificado   por   el Responsable de Calidad al personal de la empresa.\n\nSe distribuirá siempre copia a la Dirección General, Directores de División y a los Jefes de Departamento y Servicios.",
       "nivel": "parent",
       "parent_id": null,
@@ -319,7 +319,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b33c7371-83e9-4520-9ba3-8d76c38216a3",
+      "chunk_id": "44fad2dc-255c-4a3d-8c70-36033c5e9f7e",
       "texto": "Se establecen los siguientes grupos para la distribución de Procedimientos Generales al personal fijo de la empresa:",
       "nivel": "parent",
       "parent_id": null,
@@ -334,7 +334,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "75822d683edd479480303c96b18327a8",
+      "chunk_id": "08408fd16224456b9c7e4c153ac90727",
       "texto": "| Grupo A:   | Directores, Jefes de Servicio y Jefes de Departamento: TODOS LOS PROCEDIMIENTOS              |\n|------------|----------------------------------------------------------------------------------------------|\n| Grupo B:   | Jefes de Proyecto TODOS LOS PROCEDIMIENTOS EXCEPTO PR-37, 38, 51, 70, 74, 77 y 78.           |\n| Grupo C:   | Comercial PR-01, 02, 05, 06, 10, 11, 14, 16, 17, 30, 50, 55, 75 y 76.                        |\n| Grupo D:   | Especialistas y Jefes de Diseño TODOS LOS PROCEDIMIENTOS EXCEPTO PR-70, 74, 77 y 78.         |\n| Grupo E:   | Jefes de Grupo de Diseño PR-01, 02, 12, 13, 14, 30, 31, 32, 33, 34, 35, 37, 38, 39, 50 y 55. |\n| Grupo F:   | Delineantes PR-01, 12, 37, 38 y 39                                                           |\n| Grupo G:   | Secretarias PR-01 y 17                                                                       |\n| Grupo H:   | Personal PR-01, 02, 17, 74 y 76                                                              |\n| Grupo I:   | Administradores de documentos PR-01, 13, 17, 18 y 35                                         |\n| Grupo J:   | Administración PR-01                                                                         |",
       "nivel": "child",
       "parent_id": null,
@@ -349,7 +349,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "79151f25-cd9f-46b1-ae8f-7e0a9e11a766",
+      "chunk_id": "cc7b2034-cbb5-4456-add9-1a7918e95567",
       "texto": "Los Procedimientos que reciba el personal contratado y de nuevo ingreso será a criterio de su jefe inmediato (Directores, Jefes de Departamento o Jefes de Servicios), el cual le hará entrega de los mismos, y enviará copia de la nota de entrega al Responsable de Calidad para su registro correspondiente.\n\nCuando un contratado pase a fijo, su jefe inmediato le facilitará los Procedimientos adicionales, de acuerdo con los grupos establecidos anteriormente, y se lo comunicará asimismo al Responsable de Calidad.",
       "nivel": "parent",
       "parent_id": null,
@@ -364,7 +364,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6431771e-234a-4a8e-9fe1-c1dc652f7dcb",
+      "chunk_id": "8c118f4b-3199-4ed8-b3c1-4033aa61bdd8",
       "texto": "Al modificarse un Procedimiento, el Responsable de Calidad distribuirá copia del mismo al personal fijo y contratado que le corresponda según los grupos establecidos, y a todos la relación actualizada de ediciones.",
       "nivel": "parent",
       "parent_id": null,
@@ -379,7 +379,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fdea652a-ae4b-45a6-b720-60d5525ecc0f",
+      "chunk_id": "c54a03f3-72d3-4a05-99db-05836614ac81",
       "texto": "Cada División, Servicio o Departamento ha de hacer y registrar su propia distribución de ejemplares al personal fijo y contratado, según su criterio.\n\nSiempre se enviarán 4 copias al Responsable de Calidad, que se encargará de hacer la distribución física de las mismas: Dirección General, Directores de División y él mismo.\n\nLos Servicios de Planificación y Control de Gestión, Informática, Compras, Comercial y Administración,   enviarán   también   copia   de   sus   Instrucciones   de   Trabajo   al   Jefe   de Servicio de Personal y Organización.",
       "nivel": "parent",
       "parent_id": null,
@@ -394,7 +394,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bc22a3d3-a653-4624-b0ce-e2aefa349797",
+      "chunk_id": "07718daa-5802-4796-a59f-40d043e169d6",
       "texto": "La custodia de los originales (copias en papel en que está físicamente recogida la firma de   aprobación)   corresponde   en   el   caso   del   Manual   de   Calidad   y   Procedimientos Generales al Responsable de Calidad. En los demás casos a las personas que aprobaron los documentos.",
       "nivel": "parent",
       "parent_id": null,
@@ -409,7 +409,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "317b89fd-f264-4c0a-bc81-6437db4fb256",
+      "chunk_id": "86bfd906-218d-4f28-929e-ec3439e347b5",
       "texto": "El Responsable de Calidad en el caso de los Procedimientos Generales, el Servicio de Personal y Organización en el caso de formatos de uso general y las personas que aprueban los documentos en los demás casos, llevarán un registro de documentos normalizados vigentes con su número de edición.\n\nAnualmente enviarán copia de este registro al Responsable de Calidad para la puesta al día del Anexo de este Procedimiento.",
       "nivel": "parent",
       "parent_id": null,
@@ -424,7 +424,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "65b67e48-13fb-40a0-b19d-9083e2307ea8",
+      "chunk_id": "f1d3e5e7-753f-4c4f-9732-331ff38596c3",
       "texto": "Un ejemplar del Anexo de este Procedimiento está en poder de todos los Directores de División, y Jefes de Departamento y Servicio, para ser consultado por quien lo precise.\n\nEl Anexo consta de los siguientes capítulos:\n\nPERSONAL Y ORGANIZACION\n\nCOMPRAS Y SUBCONTRATOS\n\nPLANIFICACION Y CONTROL DE GESTION\n\nADMINISTRACION Y FINANZAS\n\nCIVIL Y ARQUITECTURA",
       "nivel": "parent",
       "parent_id": null,

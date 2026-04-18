@@ -1,5 +1,5 @@
 {
-  "doc_id": "04882a278c14490b935f340e22e72495",
+  "doc_id": "f9285cce11924db4af7447360a7749f4",
   "nombre_fichero": "16055-IT-03.pdf",
   "metadatos_admin": {
     "empresa": "enip",
@@ -13,10 +13,10 @@
     "edicion": "1",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T18:50:33+00:00",
+  "fecha_ingesta": "2026-04-17T20:56:01+00:00",
   "chunks": [
     {
-      "chunk_id": "430fd2e4-3abb-46d4-9018-ffc2059083c0",
+      "chunk_id": "67c7000f-856c-4792-9e98-cc245d3af67d",
       "texto": "EMISIÓN PARA COMENTARIOS\n\nDESCRIPCION DE LA EDICION",
       "nivel": "parent",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "731a8129-e7e3-4a40-957c-352cd608119a",
+      "chunk_id": "08d02a48-a046-4693-b1d1-99aa6a8d639d",
       "texto": "El objeto del presente documento es especificar el modo de intercambio de documentos entre IUI y sus proveedores vía Internet aprovechando las funcionalidades del Portal de IUI y de su Centro de Negocios .\n\nEste sistema de Comercio Electrónico es aplicable principalmente a las peticiones de oferta y al intercambio de documentos de fabricante , persiguiéndose con su utilización los siguientes objetivos:\n\n-La integración del proveedor en los flujos de información de IUI : comenzando por la fase de petición de oferta y siguiendo con el ciclo completo del pedido, se trata de que el proveedor acceda prácticamente en tiempo real a las actualizaciones de la documentación de proyecto de IUI asociada a sus pedidos y peticiones de oferta, así como acceder a sus documentos de fabricante una vez comentados por IUI.\n\n-Acortar   el   ciclo   petición-recepción   de   ofertas: el   establecimiento   de   una comunicación en tiempo real con los proveedores permite hacer ir llegando a los ofertantes documentación actualizada para la elaboración de sus ofertas sin necesidad de estar completamente definida la requisición de material (RM en adelante). Con ello se pretende trabajar en continuo y así acortar el periodo transcurrido entre que se edita la RM para petición de oferta y se reciben las ofertas.\n\n-Simplificar el estudio de las ofertas : incluyendo en las peticiones de oferta Libros de Oferta estandarizados en formato electrónico a cumplimentar por los ofertantes, se favorece que éstos concreten su oferta en aquellos aspectos claves para su evaluación. Además, la recepción de las ofertas en formato electrónico posibilita la automatización de la tabulación de las mismas.",
       "nivel": "parent",
       "parent_id": null,
@@ -47,10 +47,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "83db6f6b-9392-4797-a63d-56c7d2fb2083",
+      "chunk_id": "c09a3bcd-c3fa-44a1-a2ad-530e3e95f452",
       "texto": "El objeto del presente documento es especificar el modo de intercambio de documentos entre IUI y sus proveedores vía Internet aprovechando las funcionalidades del Portal de IUI y de su Centro de Negocios .\n\nEste sistema de Comercio Electrónico es aplicable principalmente a las peticiones de oferta y al intercambio de documentos de fabricante , persiguiéndose con su utilización los siguientes objetivos:\n\n-La integración del proveedor en los flujos de información de IUI : comenzando por la fase de petición de oferta y siguiendo con el ciclo completo del pedido, se trata de que el proveedor acceda prácticamente en tiempo real a las actualizaciones de la documentación de proyecto de IUI asociada a sus pedidos y peticiones de oferta, así como acceder a sus documentos de fabricante una vez comentados por IUI.",
       "nivel": "child",
-      "parent_id": "731a8129-e7e3-4a40-957c-352cd608119a",
+      "parent_id": "08d02a48-a046-4693-b1d1-99aa6a8d639d",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "1.- OBJETO",
@@ -63,10 +63,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "726ec3ec-5d32-4980-b1e7-305e54fde4f3",
+      "chunk_id": "db6d512e-9661-439b-b4f7-2383b94a4dbe",
       "texto": "-Acortar   el   ciclo   petición-recepción   de   ofertas: el   establecimiento   de   una comunicación en tiempo real con los proveedores permite hacer ir llegando a los ofertantes documentación actualizada para la elaboración de sus ofertas sin necesidad de estar completamente definida la requisición de material (RM en adelante). Con ello se pretende trabajar en continuo y así acortar el periodo transcurrido entre que se edita la RM para petición de oferta y se reciben las ofertas.\n\n-Simplificar el estudio de las ofertas : incluyendo en las peticiones de oferta Libros de Oferta estandarizados en formato electrónico a cumplimentar por los ofertantes, se favorece que éstos concreten su oferta en aquellos aspectos claves para su evaluación. Además, la recepción de las ofertas en formato electrónico posibilita la automatización de la tabulación de las mismas.",
       "nivel": "child",
-      "parent_id": "731a8129-e7e3-4a40-957c-352cd608119a",
+      "parent_id": "08d02a48-a046-4693-b1d1-99aa6a8d639d",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "1.- OBJETO",
@@ -79,7 +79,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e9f05b86-74e2-468a-ae7b-392288741f08",
+      "chunk_id": "a9cd282a-9191-4cd2-b21a-bf7534c0f3de",
       "texto": "Definimos aquí algunos conceptos que se manejarán en este documento:\n\nDOCUMENTUM : sistema de gestión documental sobre el que se basa el Portal de IUI.\n\nIUI PORTAL : parte de la base de datos de Documentum que incluye los documentos que se generan en IUI. Está situada en la zona de Intranet, con lo que sus contenidos son únicamente accesibles al personal de IUI.\n\nIUI BUSINESS CENTER (CENTRO DE NEGOCIOS) :   parte   de   la   base   de   datos   de Documentum que incluye aquellos documentos accesibles a través de Internet. Sus contenidos en principio serán copias de contenidos seleccionados de IUI PORTAL.\n\nREPLICACIÓN :   operación   automática mediante la cual se copian los contenidos de IUI PORTAL que seleccionemos al IUI BUSINESS CENTER, haciéndolos accesibles vía Internet a aquellos usuarios dados de alta en el IUI BUSINESS CENTER, proveedores y clientes en principio.\n\nCARPETAS TIPO RM ( ) : carpetas de IUIPortal en las cuales se depositarán aquellos documentos que queramos que se repliquen al Centro de Negocios y que sean accesibles a los proveedores. Dichas carpetas permiten dar acceso a los proveedores que se desee mediante la inclusión en una de sus propiedades de una serie de códigos, cada uno de los cuales se\n\ncorresponde unívocamente con un proveedor (realmente consisten en el nombre de usuario con el que cada proveedor accede al sistema).\n\nENLACE :   operación   mediante   la   que   en   IUI   PORTAL   hacemos   que   un   documento inicialmente introducido en una determinada carpeta pueda ser accesible también desde otra (la carpeta a la que se enlaza).\n\nLIBROS DE OFERTAS :   Hojas   de   Cálculo   de   Petición   de   Ofertas   en   Microsoft   Excel   a cumplimentar por los ofertantes y que se incluyen en IUI PORTAL dentro de la carpeta RM que corresponda.\n\nCOORDINADOR  DE   COMERCIO   ELECTRÓNICO :   figura   que,   designada   por   el Departamento de Compras, se encarga de coordinar las relaciones de Comercio Electrónico entre IUI y los proveedores, comunicando a los proveedores la operativa a seguir y atendiendo eventuales problemas que puedan surgir en el acceso al Centro de Negocios y a la información en él disponible. Asimismo, se encarga de recibir y distribuir las ofertas que llegan vía e-mail a través de la dirección:\n\neprocurement@intecsauhde.com",
       "nivel": "parent",
       "parent_id": null,
@@ -94,10 +94,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6cc229eb-e7d0-4bdc-968a-57734c9ae361",
+      "chunk_id": "2472ad9f-6fb0-4041-825e-050129407122",
       "texto": "Definimos aquí algunos conceptos que se manejarán en este documento:\n\nDOCUMENTUM : sistema de gestión documental sobre el que se basa el Portal de IUI.\n\nIUI PORTAL : parte de la base de datos de Documentum que incluye los documentos que se generan en IUI. Está situada en la zona de Intranet, con lo que sus contenidos son únicamente accesibles al personal de IUI.\n\nIUI BUSINESS CENTER (CENTRO DE NEGOCIOS) :   parte   de   la   base   de   datos   de Documentum que incluye aquellos documentos accesibles a través de Internet. Sus contenidos en principio serán copias de contenidos seleccionados de IUI PORTAL.\n\nREPLICACIÓN :   operación   automática mediante la cual se copian los contenidos de IUI PORTAL que seleccionemos al IUI BUSINESS CENTER, haciéndolos accesibles vía Internet a aquellos usuarios dados de alta en el IUI BUSINESS CENTER, proveedores y clientes en principio.",
       "nivel": "child",
-      "parent_id": "e9f05b86-74e2-468a-ae7b-392288741f08",
+      "parent_id": "a9cd282a-9191-4cd2-b21a-bf7534c0f3de",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "1. DEFINICIONES",
@@ -109,10 +109,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "03548551-7fac-49d0-847b-c0dc6f517db7",
+      "chunk_id": "1cf65e64-43b7-451b-b571-c54c5438fb05",
       "texto": "CARPETAS TIPO RM ( ) : carpetas de IUIPortal en las cuales se depositarán aquellos documentos que queramos que se repliquen al Centro de Negocios y que sean accesibles a los proveedores. Dichas carpetas permiten dar acceso a los proveedores que se desee mediante la inclusión en una de sus propiedades de una serie de códigos, cada uno de los cuales se\n\ncorresponde unívocamente con un proveedor (realmente consisten en el nombre de usuario con el que cada proveedor accede al sistema).\n\nENLACE :   operación   mediante   la   que   en   IUI   PORTAL   hacemos   que   un   documento inicialmente introducido en una determinada carpeta pueda ser accesible también desde otra (la carpeta a la que se enlaza).\n\nLIBROS DE OFERTAS :   Hojas   de   Cálculo   de   Petición   de   Ofertas   en   Microsoft   Excel   a cumplimentar por los ofertantes y que se incluyen en IUI PORTAL dentro de la carpeta RM que corresponda.",
       "nivel": "child",
-      "parent_id": "e9f05b86-74e2-468a-ae7b-392288741f08",
+      "parent_id": "a9cd282a-9191-4cd2-b21a-bf7534c0f3de",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "1. DEFINICIONES",
@@ -124,10 +124,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c8e8171b-5277-404e-8aab-fb23257ce3c4",
+      "chunk_id": "56d5b7b8-965d-45b2-8f08-ccc35b81c87a",
       "texto": "COORDINADOR  DE   COMERCIO   ELECTRÓNICO :   figura   que,   designada   por   el Departamento de Compras, se encarga de coordinar las relaciones de Comercio Electrónico entre IUI y los proveedores, comunicando a los proveedores la operativa a seguir y atendiendo eventuales problemas que puedan surgir en el acceso al Centro de Negocios y a la información en él disponible. Asimismo, se encarga de recibir y distribuir las ofertas que llegan vía e-mail a través de la dirección:\n\neprocurement@intecsauhde.com",
       "nivel": "child",
-      "parent_id": "e9f05b86-74e2-468a-ae7b-392288741f08",
+      "parent_id": "a9cd282a-9191-4cd2-b21a-bf7534c0f3de",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "1. DEFINICIONES",
@@ -139,7 +139,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ee2a13d9-5cb3-4688-b210-c7060467c412",
+      "chunk_id": "236ca21b-3df2-44ef-8375-02d91543ed2a",
       "texto": "La documentación a intercambiar con los proveedores, tanto la documentación de IUI (RM's, sus adjuntos y otros documentos) como los documentos de fabricante, está organizada por especialidades, de modo que dentro de las carpetas propias de cada especialidad tendremos una carpeta que se denomina:",
       "nivel": "parent",
       "parent_id": null,
@@ -154,7 +154,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "aaedf89d-5685-4683-aa31-f839beb86aec",
+      "chunk_id": "4850d601-5c84-4eaf-b3a2-13485d9decfe",
       "texto": "Dentro de esta carpeta, para cada RM tendremos a su vez una carpeta tipo RM ( ) cuyo contenido es accesible desde Internet por los proveedores autorizados (por los ofertantes si se trata de una petición de oferta o por el adjudicatario si nos encontramos ya en la fase de pedido).\n\nPara cada carpeta tipo RM tendremos a su vez 3 subcarpetas, atendiendo a la información que contendrá cada una:\n\nDocumentos de la RM: XXXX-XX (1)\n\nDocumentos de Petición de Oferta: XXXX-XX (2)\n\nDocumentos del Suministrador: XXXX-XX (3)\n\nCarpeta destinada a albergar el documento de la RM y sus adjuntos, documentos que serán enlazados por el administrador de documentos a esta carpeta desde las carpetas donde se han introducido originalmente cada uno\n\nCarpeta destinada a contener los documentos comerciales que se adjuntan en la petición de oferta, es decir, la carta de petición de oferta y el libro de oferta comercial a cumplimentar por los ofertantes.\n\nCarpeta en la que se introducirán los documentos del suministrador en la fase de pedido de la RM.\n\nPara cada requisición de material el ciclo que sigue la carpeta es el siguiente: inicialmente alberga la RM y sus adjuntos para petición de oferta para una vez adjudicado el pedido albergar no sólo dicha documentación actualizada de la RM sino también los documentos de fabricante comentados por los especialistas; además, el especialista podrá incluir otra documentación de proyecto que considere interesante hacer llegar al suministrador.",
       "nivel": "parent",
       "parent_id": null,
@@ -170,10 +170,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "be3853f1-af72-4f09-8f68-c68fffa8d586",
+      "chunk_id": "2591357f-959b-4715-beeb-4bfe07c56a19",
       "texto": "Dentro de esta carpeta, para cada RM tendremos a su vez una carpeta tipo RM ( ) cuyo contenido es accesible desde Internet por los proveedores autorizados (por los ofertantes si se trata de una petición de oferta o por el adjudicatario si nos encontramos ya en la fase de pedido).\n\nPara cada carpeta tipo RM tendremos a su vez 3 subcarpetas, atendiendo a la información que contendrá cada una:\n\nDocumentos de la RM: XXXX-XX (1)\n\nDocumentos de Petición de Oferta: XXXX-XX (2)\n\nDocumentos del Suministrador: XXXX-XX (3)\n\nCarpeta destinada a albergar el documento de la RM y sus adjuntos, documentos que serán enlazados por el administrador de documentos a esta carpeta desde las carpetas donde se han introducido originalmente cada uno\n\nCarpeta destinada a contener los documentos comerciales que se adjuntan en la petición de oferta, es decir, la carta de petición de oferta y el libro de oferta comercial a cumplimentar por los ofertantes.",
       "nivel": "child",
-      "parent_id": "aaedf89d-5685-4683-aa31-f839beb86aec",
+      "parent_id": "4850d601-5c84-4eaf-b3a2-13485d9decfe",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "7.0 DOCUMENTOS ASOCIADOS A RM'S",
@@ -186,10 +186,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "664e2e7c-35ab-41d3-b4ee-5c8946da7a87",
+      "chunk_id": "a08ece03-2981-4f63-a2ed-f70465644a54",
       "texto": "Carpeta en la que se introducirán los documentos del suministrador en la fase de pedido de la RM.\n\nPara cada requisición de material el ciclo que sigue la carpeta es el siguiente: inicialmente alberga la RM y sus adjuntos para petición de oferta para una vez adjudicado el pedido albergar no sólo dicha documentación actualizada de la RM sino también los documentos de fabricante comentados por los especialistas; además, el especialista podrá incluir otra documentación de proyecto que considere interesante hacer llegar al suministrador.",
       "nivel": "child",
-      "parent_id": "aaedf89d-5685-4683-aa31-f839beb86aec",
+      "parent_id": "4850d601-5c84-4eaf-b3a2-13485d9decfe",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "7.0 DOCUMENTOS ASOCIADOS A RM'S",
@@ -202,7 +202,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c058e3b8-8ec1-407f-ae74-2174dfe478d5",
+      "chunk_id": "99b665cc-961c-430b-8531-8272ecf610fa",
       "texto": "Al comienzo del proyecto, una vez conocida la lista preliminar de requisiciones de material, el administrador   de   documentos   creará   por   cada   RM   prevista   una   carpeta   tipo   RM   y   sus subcarpetas correspondientes.\n\nAsimismo, a medida que vayan surgiendo nuevas RM'S a lo largo del proyecto, será el administrador de documentos quien se encargue de la creación de las carpetas correspondientes.",
       "nivel": "parent",
       "parent_id": null,
@@ -217,7 +217,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f11d865e-eb73-44a6-8ac0-453fa16bb029",
+      "chunk_id": "f551adf8-2b49-4c84-ae43-e6b4aa2e131e",
       "texto": "Las peticiones de oferta se realizarán publicando en Internet (en el Centro de Negocios de IUI) los documentos que componen la petición de oferta, es decir, haciendo accesible la carpeta tipo RM que contiene la petición de oferta a los proveedores seleccionados.",
       "nivel": "parent",
       "parent_id": null,
@@ -232,7 +232,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "87118c65893b4763b942b12eb202a142",
+      "chunk_id": "352d5e4a9d6745439e70c93473893b26",
       "texto": "|   ACCIONES | ACCIONES                                                                                                                                                                                                                                                                           | RESPONSABLE                  |\n|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|\n|          1 | Introducción en el Portal del documento de la RM y de los documentos adjuntos que procedan, cada uno en la carpeta que corresponda.                                                                                                                                                | ESPECIALISTA                 |\n|          2 | Envío de la RMpara aprobación por la Dirección de Proyecto                                                                                                                                                                                                                         | ESPECIALISTA                 |\n|          3 | Aprobación por la Dirección de Proyecto, a partir de lo cual pasa al administrador de documentos para que proceda a componer la RMyadistribuirla.                                                                                                                                  | DIRECCIÓN PROYECTO           |\n|          4 | Enlace del documento de la RMyde sus adjuntos a la carpeta correspondiente a dicha RM(Documentos de la RM: XXXX-XX dentro de la carpeta RM-XXXX-XX)                                                                                                                                | ADMINISTRADO R DE DOCUMENTOS |\n|          5 | Distribución de la RMsegún el cuadro de distribución propuesto y envío al cliente para su aprobación.                                                                                                                                                                              | ADMINISTRADO R DE DOCUMENTOS |\n|          6 | Revisada la RMpor el cliente, ésta llega al administrador de documentos, siendo indicado el estado de aprobación de la misma y los comentarios (si los hubiere). El administrador de documentos reenvía dicha comunicación al coordinador de compras y a la dirección de proyecto. | ADMINISTRADO R DE DOCUMENTOS |\n|          7 | Si la RM es aprobada, comunicación al comprador para realizar                                                                                                                                                                                                                      | COORDINADOR                  |",
       "nivel": "child",
       "parent_id": null,
@@ -247,7 +247,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b01832ec5d03438aa8de43804c09326c",
+      "chunk_id": "79af376c776b4b7aa509e6efa8a81a62",
       "texto": "| la petición de oferta.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | COMPRAS   |\n|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|\n| 8. Comprobación de si los proveedores seleccionados están familiarizados con el Centro de Negocios. Si no es así, enviaría un e-mail informativo indicando nombre de usuario y contraseña y solicitando la designación de una persona de contacto para el comercio electrónico con IUI.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | COMPRADOR |\n| 9. El comprador recibe emprende las siguientes acciones: a) Edición de los documentos comerciales de la petición de oferta (carta de petición de oferta y libro de oferta comercial). b) Incorporación a dicha carpeta de los documentos comerciales (se generará rendición PDF para la carta de petición de oferta pero NO para el libro de oferta). c) Introducción en las palabras clave de la carpeta RM de los códigos de los proveedores seleccionados separados por comas. d) Envío de un e-mail a los proveedores dando aviso de la disponibilidad de la petición de oferta en el Centro de Negocios. En dicho e-mail se indicará la fecha límite para la presentación de las ofertas por los proveedores y se solicitará el acuse de recibo de dicho e-mail mediante la respuesta al mismo. | COMPRADOR |",
       "nivel": "child",
       "parent_id": null,
@@ -262,7 +262,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d0cd0000-a3f0-40d4-8f8b-585ec2b6d1fb",
+      "chunk_id": "270be7e4-1c76-4b9f-8ac8-85cf3baff58e",
       "texto": "Con carácter   general,   las   ofertas   se   presentarán   en   formato   electrónico   mediante   correo electrónico, a una única dirección designada para el proyecto de 'eprocurement', no siendo necesaria su recepción en papel.",
       "nivel": "parent",
       "parent_id": null,
@@ -277,7 +277,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a04b13ae4f444e32bf89c11da4025eba",
+      "chunk_id": "d8cfb48095024c36839f71855f6afb63",
       "texto": "|   ACCIONES | ACCIONES                                                                                                                                                                      | RESPONSABLE                         |\n|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|\n|          1 | Cuando lleguen las ofertas se envían al coordinador de compras del proyecto, procediendo a mantener una copia electrónica de las mismas                                       | COORDINADOR DE COMERCIO ELECTRÓNICO |\n|          2 | Las ofertas (técnica y económica) se distribuirán por correo electrónico al Cliente y Jefatura de Proyecto. La oferta técnica se distribuirá al especialista correspondiente. | COORDINADOR COMPRAS                 |",
       "nivel": "child",
       "parent_id": null,
@@ -292,7 +292,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0dea9d10-cd61-4a63-baad-c1b64e12dc16",
+      "chunk_id": "ccdfae25-f453-4255-9d38-811625c0093a",
       "texto": "Una vez el comprador es consciente del adjudicatario del pedido, es decir, una vez toma forma el documento de compromiso (fax de intención o pedido) se procede del siguiente modo:",
       "nivel": "parent",
       "parent_id": null,
@@ -307,7 +307,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e6835deb77d7416d9f18dd3d88b86ac9",
+      "chunk_id": "59925b55cd6f4d4899b56ba7ef05a53b",
       "texto": "| ACCIONES                                                                                                                                                                                                                              | RESPONSABLE   |\n|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|\n| 3. En las palabras clave de la carpeta RM asociada al pedido se borran los códigos de los proveedores a excepción de aquel asociado al adjudicatario , dejando así acceso únicamente a éste último a la documentación allí contenida. | COMPRADOR     |\n| 4. Cambio de la propiedad 'Fase' de la carpeta tipo RM de 'Petición de Oferta' a 'Pedido'.                                                                                                                                            | COMPRADOR     |",
       "nivel": "child",
       "parent_id": null,
@@ -322,7 +322,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ecb86c2a-d3f9-4222-99ce-f64d020bcf9a",
+      "chunk_id": "859d0ca8-4e5a-4b75-9cec-26d53d16dd07",
       "texto": "En el presente documento se describirán una serie de pasos pero la distribución interna y el mecanismo de control de los documentos por el EDF son objeto de otro documento que se elaborará a tal efecto.\n\nLos documentos se exigirán en formato electrónico (preferiblemente PDF) llegando a través de e-mail si bien las copias finales además deberán llegar en papel en el número de copias que se especifique.\n\nPara algún tipo de documento, debido a sus características, se autorizará el envío en papel. Estas excepciones vendrán reflejadas en la RM.",
       "nivel": "parent",
       "parent_id": null,
@@ -337,7 +337,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6032362e90e94a1db9b93ba4fcb7cbf2",
+      "chunk_id": "243855e922e842228acb2cbbbb1ea22c",
       "texto": "| 1. Los documentos de fabricante los recibe vía e-mail el Encargado de Documentos de Fabricante (EDF).                                                                                                                                 | EDF                      |\n|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|\n| 2. Incorporación de los documentos al Portal, en la carpeta del pedido correspondiente, registrando la fecha de llegada y la fecha en la que se requiere al especialista. Distribución al especialista responsable de los documentos. | EDF                      |\n| 3. Distribución a través del portal a los especialistas que deban comentar los documentos                                                                                                                                             | ESPECIALISTA RESPONSABLE |\n| 4. Las especialidades implicadas comentan los planos on-line .                                                                                                                                                                        | ESPECIALISTAS            |\n| 5. Una vez comentados los documentos , el especialista responsable los encamina al EDF .                                                                                                                                              | ESPECIALISTA RESPONSABLE |\n| 6. Envío de un e-mail al suministrador , indicando que los documentos comentados se encuentran disponibles en el Centro de Negocios.                                                                                                  | EDF                      |",
       "nivel": "child",
       "parent_id": null,
