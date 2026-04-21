@@ -2,7 +2,7 @@
 
 import { Sidebar } from "@/components/Sidebar";
 import { ChatArea } from "@/components/ChatArea";
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import type { Scope } from "@/lib/types";
 
 export default function Home() {
@@ -12,12 +12,17 @@ export default function Home() {
     empresa: "intecsa",
     label: "Intecsa (Global)",
   });
+  const [chatKey, setChatKey] = useState(0);
+
+  const handleNewChat = useCallback(() => {
+    setChatKey((k) => k + 1);
+  }, []);
 
   return (
-    <div className="flex h-screen bg-background">
-      <Sidebar activeScope={scope} onScopeChange={setScope} />
-      <main className="flex-1 overflow-hidden">
-        <ChatArea scope={scope} />
+    <div style={{ display: "flex", height: "100vh", overflow: "hidden", background: "var(--canvas)" }}>
+      <Sidebar activeScope={scope} onScopeChange={setScope} onNewChat={handleNewChat} />
+      <main style={{ flex: 1, display: "flex", flexDirection: "column", minWidth: 0, minHeight: 0, overflow: "hidden" }}>
+        <ChatArea key={chatKey} scope={scope} />
       </main>
     </div>
   );

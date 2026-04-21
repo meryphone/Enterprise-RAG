@@ -165,52 +165,144 @@ VECTOR: <reformulación semántica completa en lenguaje natural, que capture la 
 añadiendo contexto implícito, sinónimos conceptuales y el dominio al que pertenece>
 BM25: <bolsa de palabras con sinónimos y variantes léxicas de los conceptos clave, solo para búsqueda léxica>
 
-Reglas para BM25:
-- Expande verbos de acción con sus sinónimos en contexto documental:
-  "aprueba/aprobación" → "aprueba firma autoriza valida ratifica"
-  "verifica/verificación" → "verifica comprueba revisa supervisa"
-  "elabora/elaboración" → "elabora redacta prepara emite"
-  "gestiona/gestión" → "gestiona administra coordina controla"
-  "almacena/almacenamiento" → "almacena guarda archiva servidor carpeta"
-  "accede/acceso" → "accede permiso usuario rol autorización"
-- Expande roles organizativos:
-  "Dirección General" → "Dirección General director gerencia alta dirección"
-  "Responsable de Calidad" → "Responsable Calidad quality manager calidad"
-  "Jefe de Proyecto" → "Jefe Proyecto project manager director proyecto"
-- Genera variantes léxicas de los demás conceptos (ej: "edición" → "revisión versión edition release")
-- PRESERVA códigos y nombres propios exactos (PR-01, JDAP, IT-02, ACC, ASC, etc.)
+==========================================
+REGLAS PARA BM25
+==========================================
 
-Reglas para VECTOR:
-- Reformula como pregunta o afirmación en lenguaje natural completo
-- Añade el dominio implícito (empresa ingeniería, gestión documental, permisos de usuario, etc.)
-- Mantén la intención original sin inventar restricciones nuevas\
+OBJETIVO: Maximizar el recall léxico generando una bolsa de palabras que cubra todas las formas \
+en las que un concepto puede aparecer escrito en la documentación técnica.
+
+Para CADA concepto relevante de la query (verbos, sustantivos, adjetivos, roles, procesos), \
+aplica SISTEMÁTICAMENTE estas estrategias de expansión:
+
+1. **Flexión morfológica completa**: genera todas las formas de la misma raíz léxica
+   - Verbo ↔ sustantivo deverbal: "aprueba ↔ aprobación", "verifica ↔ verificación", "instala ↔ instalación"
+   - Participios y adjetivos derivados: "aprobado, aprobador, aprobatorio"
+   - Género y número cuando aporte: "responsable/responsables", "encargado/encargada"
+
+2. **Sinónimos directos**: palabras con significado equivalente en el dominio
+   - Ejemplo: "aprueba" → "firma, autoriza, valida, ratifica, sanciona, refrenda"
+   - Ejemplo: "documento" → "registro, archivo, fichero, escrito"
+
+3. **Hiperónimos e hipónimos**: términos más generales o más específicos
+   - Ejemplo: "válvula" → "válvula componente elemento accesorio dispositivo"
+   - Ejemplo: "procedimiento" → "procedimiento norma protocolo instrucción proceso método"
+
+4. **Variantes terminológicas del dominio**: formas alternativas usadas en ingeniería industrial
+   - Ejemplo: "plano" → "plano esquema diagrama dibujo croquis"
+   - Ejemplo: "medición" → "medición medida lectura registro valor"
+
+5. **Términos en inglés y traducciones**: MUCHOS DOCUMENTOS ESTÁN EN INGLÉS. \
+   Siempre que haya un término en español, INCLUYE ESTRICTAMENTE su traducción o sinónimo en \
+   inglés para que el motor de búsqueda léxica (BM25) pueda encontrar documentos no traducidos.
+   - Ejemplo: "Jefe de Proyecto" → "project manager PM"
+   - Ejemplo: "hoja de datos" → "datasheet data sheet"
+   - Ejemplo: "revisión, calidad" → "revision review edition quality"
+   - Ejemplo: "tabla, válvulas, equipo" → "table valves equipment"
+
+6. **Conceptos relacionados contextualmente**: palabras que suelen aparecer en el mismo contexto documental
+   - Ejemplo: "acceso" → "acceso permiso usuario rol autorización credencial"
+   - Ejemplo: "almacenamiento" → "almacenamiento guardar archivo servidor carpeta repositorio ubicación"
+   - Ejemplo: "responsables de la intranet/web proyecto" → "RWP responsable web proyecto integrante asignado encargado lista actividad"
+   - Ejemplo: "integrantes/equipo" → "integrantes miembros equipo asignados participantes responsables lista tabla"
+
+7. **Formas nominales de acciones**: cuando se pregunta por un verbo, incluir el sustantivo de la acción y viceversa
+   - Ejemplo: "¿quién distribuye?" → "distribuye distribución envía envío entrega entrega notifica notificación"
+
+8. **Roles organizativos**: expandir con equivalentes jerárquicos, funcionales y en inglés
+   - Ejemplo: "Responsable de X" → "responsable encargado jefe director coordinador líder manager head of"
+   - Ejemplo: "Departamento" → "departamento área sección unidad división servicio"
+
+APLICA ESTAS REGLAS A TODOS LOS CONCEPTOS de la query, no solo a los que aparecen como ejemplo. \
+Si la query menciona "calibración de sensores", expande tanto "calibración" (ajuste, regulación, \
+verificación, tarado, calibrado, calibrate) como "sensores" (sensor transductor detector medidor \
+instrumento sonda).
+
+REGLA DE PRESERVACIÓN (CRÍTICA):
+- NO modifiques ni expandas códigos alfanuméricos, identificadores, nombres propios o siglas: \
+  PR-01, JDAP, IT-02, ACC, ASC, P&ID, MTO, ISO-9001, nombres de proyectos, nombres de empresas, \
+  referencias normativas. Cópialos EXACTAMENTE como aparecen.
+- Si no estás seguro de si algo es un código o un término común, prefiere preservarlo.
+
+REGLA DE DENSIDAD:
+- Genera entre 5 y 12 variantes por concepto clave (suficiente cobertura sin ruido excesivo).
+- No repitas palabras idénticas.
+- No incluyas stopwords sueltas ("el", "de", "para") ni conectores, solo términos con carga semántica.
+
+==========================================
+REGLAS PARA VECTOR
+==========================================
+
+- Reformula como pregunta o afirmación en lenguaje natural completo y bien construido.
+- Añade el dominio implícito cuando aporte desambiguación (ej: "en una empresa de ingeniería \
+  industrial", "dentro de un sistema de gestión documental", "en el contexto de permisos de usuario").
+- Incorpora sinónimos conceptuales de forma fluida, no como lista: si la pregunta original dice \
+  "¿quién aprueba?", puedes reformular como "¿qué rol o responsable firma, valida o autoriza…?".
+- MULTILINGÜISMO (CRÍTICO): La documentación puede estar en español o en inglés. \
+  SIEMPRE incluye los conceptos clave en AMBOS idiomas dentro de la reformulación vectorial, \
+  de forma fluida y natural. No separes los idiomas con paréntesis si fluye mejor integrado. \
+  Ejemplo: "¿qué responsable o manager aprueba, authorizes or validates el procedimiento PR-01 \
+  de calibración de equipos (equipment calibration procedure)?". \
+  Esto es OBLIGATORIO independientemente de si la pregunta está en español o en inglés.
+- Mantén la intención original. NO inventes restricciones, entidades ni contextos que no estén \
+  implícitos en la pregunta.
+- Preserva códigos y nombres propios tal cual.
+
+==========================================
+EJEMPLO
+==========================================
+
+Pregunta original: "¿Quién aprueba el procedimiento PR-01 de calibración?"
+
+VECTOR: ¿Qué rol o responsable dentro de la organización firma, valida o autoriza formalmente el \
+procedimiento PR-01 relativo a calibración de equipos, en el contexto de un sistema de gestión \
+documental de ingeniería industrial?
+BM25: aprueba aprobación firma autoriza autorización valida validación ratifica responsable \
+encargado jefe director manager procedimiento norma protocolo instrucción PR-01 calibración \
+ajuste regulación tarado verificación calibrado calibrate equipo instrumento
 """
 
 SYSTEM_PROMPT = """\
 Eres un asistente técnico especializado en documentación de ingeniería industrial de INTECSA.
 
-El contexto contiene fragmentos de documentos con el formato \
-<fuente id="N" doc="NOMBRE">...</fuente>. El atributo 'doc' indica el documento de origen; \
-úsalo para identificar la fuente correcta cuando la pregunta sea sobre un documento específico.
+El contexto puede contener fragmentos de documentos con el formato \
+<fuente id="N" doc="NOMBRE">...</fuente>. El atributo 'doc' indica el documento de origen.
 
 INSTRUCCIONES:
-1. Extrae y sintetiza la información del contexto para responder directamente a la pregunta.
-2. Responde de forma concisa. Máximo 120 palabras salvo que la pregunta requiera más detalle.
-3. Preserva códigos técnicos exactos (procedimientos, equipos, roles) tal como aparecen.
-4. Si el contexto no contiene la respuesta, di exactamente: \
-   "No encuentro esa información en la documentación proporcionada."
+1. Si el contexto está vacío o indica que no hay documentación disponible:
+   - Saludo o mensaje conversacional → responde de forma breve y natural, sin citar fuentes.
+   - Pregunta técnica → di exactamente: \
+     "No encuentro esa información en la documentación proporcionada."
+2. Extrae y sintetiza la información del contexto para responder directamente a la pregunta. \
+   Sintetiza aunque la información no sea completamente explícita; \
+   solo rechaza si el contexto es claramente irrelevante para la pregunta.
+3. Responde con el detalle que la pregunta requiera. No recortes la información disponible \
+   en el contexto: si hay datos relevantes, inclúyelos todos. \
+   Para listas de personas, elementos o pasos, enumera todos sin omitir ninguno. \
+   Evita frases como "entre otros" o "etc." si el contexto los lista explícitamente.
+4. Preserva códigos técnicos exactos (procedimientos, equipos, roles) tal como aparecen.
 5. NO inventes datos, especificaciones ni valores que no aparezcan en el contexto.
 6. NO menciones el documento, sección, edición ni página de origen en tu respuesta, \
-   salvo que la pregunta lo pida explícitamente (ej: "¿de qué documento?", "¿en qué sección?", \
-   "¿qué edición?"). En ese caso, usa los atributos de la etiqueta <fuente> correspondiente.
-7. Al final de cada afirmación que proceda de una fuente concreta, añade [N] donde N es el \
-   id de la etiqueta <fuente> correspondiente. Si una afirmación usa varias fuentes, \
-   añade todos los ids: [1][2]. No añadas citas si dices "No encuentro esa información".
+   salvo que la pregunta lo pida explícitamente. En ese caso, usa los atributos de <fuente>.
+7. Responde SIEMPRE en el mismo idioma en que está formulada la pregunta del usuario, \
+   independientemente del idioma en que esté redactado el contexto.
+8. Al final de cada afirmación que proceda de una fuente concreta, añade [N] donde N es el \
+   id de la etiqueta <fuente>. Si usa varias fuentes: [1][2]. \
+   No añadas citas en respuestas conversacionales ni cuando digas "No encuentro esa información".
 
 FORMATO:
 - Sin preámbulos. Responde directamente.
-- Usa listas numeradas para procedimientos paso a paso.
-- Prioriza documentos principales sobre anexos cuando ambos contengan información similar.\
+- Usa listas numeradas para procedimientos o enumeraciones. Cada ítem en su propia línea.
+- Cuando el contexto contiene datos en formato tabla, extrae la información relevante \
+  y preséntala de forma legible (lista con guiones o texto estructurado). \
+  Añade la cita [N] al final del bloque de información de la tabla.
+- Prioriza documentos principales sobre anexos cuando ambos contengan información similar.
+- Si te piden mostrar o generar una estructura de carpetas o directorios, utiliza SIEMPRE el formato de árbol ASCII, por ejemplo:
+  enterprise-rag/
+  ├── backend/
+  │   ├── app/
+  │   └── main.py
+  └── frontend/\
 """
 
 # Prompt para evaluación con TruLens — sin marcadores de cita [N] porque TruLens los
@@ -234,6 +326,6 @@ INSTRUCCIONES:
 
 FORMATO:
 - Sin preámbulos. Responde directamente.
-- Usa listas numeradas para procedimientos paso a paso.
+- Usa listas numeradas para procedimientos o enumeraciones. Cada ítem en su propia línea.
 - Prioriza documentos principales sobre anexos cuando ambos contengan información similar.\
 """

@@ -215,8 +215,6 @@ data: {"type": "error",   "message": "..."}    ← solo si falla el LLM
 
 **Filtro por documento para queries explícitas** — cuando la query menciona un código de documento (PR-01, IT-02), pre-filtrar ChromaDB por `nombre_fichero` antes del retrieval vectorial. Mitiga el problema de secciones homólogas para este tipo de queries.
 
-**Citas filtradas** — mostrar solo los chips de las fuentes que el LLM usó realmente. Requiere añadir marcadores `[N]` al SYSTEM_PROMPT de producción (desacoplado del prompt de evaluación para no afectar a Groundedness).
-
 ### Fuera del alcance de la beta
 
 - GPT-4o vision para todas las imágenes (actualmente solo tablas degradadas).
@@ -225,3 +223,4 @@ data: {"type": "error",   "message": "..."}    ← solo si falla el LLM
 - Documentos escaneados con OCR.
 - Diagramas P&ID completos procesados como imagen.
 - Contratos con deduplicación semántica.
+- Historial conversacional

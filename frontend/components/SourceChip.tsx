@@ -1,15 +1,28 @@
 "use client";
 
-import * as Tooltip from "@radix-ui/react-tooltip";
 import type { SourceRef } from "@/lib/types";
-import { cn } from "@/lib/utils";
+
+const ILink = () => (
+  <svg width="11" height="11" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6">
+    <path d="M6 10a3 3 0 0 0 4 0l2-2a3 3 0 0 0-4-4"/>
+    <path d="M10 6a3 3 0 0 0-4 0L4 8a3 3 0 0 0 4 4"/>
+  </svg>
+);
+const ICopy = () => (
+  <svg width="11" height="11" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <rect x="5" y="5" width="9" height="9" rx="1"/><path d="M11 5V3H2v9h2"/>
+  </svg>
+);
 
 interface Props {
   source: SourceRef;
+  index: number;
 }
 
-export function SourceChip({ source }: Props) {
-  const label = source.doc.replace(/\.pdf$/i, "");
+export function SourceChip({ source, index }: Props) {
+  const code = source.doc.replace(/\.pdf$/i, "");
+  const isAnnex = source.es_anexo;
+
   const pages =
     source.pagina_inicio === -1
       ? null
@@ -17,42 +30,89 @@ export function SourceChip({ source }: Props) {
         ? `p. ${source.pagina_inicio}`
         : `pp. ${source.pagina_inicio}–${source.pagina_fin}`;
 
-  const tooltipLines = [
-    source.titulo || label,
-    source.version ? `Ed. ${source.version}` : null,
-    source.seccion || null,
-    pages,
-  ]
+  const citaText = [source.titulo || code, source.version ? `Ed. ${source.version}` : null, source.seccion || null, pages]
     .filter(Boolean)
     .join(" · ");
 
   return (
-    <Tooltip.Provider delayDuration={200}>
-      <Tooltip.Root>
-        <Tooltip.Trigger asChild>
-          <span
-            className={cn(
-              "inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium cursor-default select-none",
-              source.es_anexo
-                ? "border-amber-300 bg-amber-50 text-amber-700"
-                : "border-blue-200 bg-blue-50 text-blue-700",
-            )}
+    <span className="tt">
+      {/* Chip button */}
+      <span style={{
+        display: "inline-flex", alignItems: "center", gap: 6,
+        padding: "3px 8px 3px 6px",
+        fontFamily: "'JetBrains Mono', monospace",
+        fontSize: 11, fontWeight: 500,
+        color: isAnnex ? "#5A3F00" : "var(--navy-700)",
+        background: isAnnex ? "var(--gold-050)" : "#EEF1FB",
+        border: `1px solid ${isAnnex ? "var(--gold-500)" : "#C7D0EA"}`,
+        borderRadius: 4, cursor: "default", lineHeight: 1.3,
+        userSelect: "none",
+      }}>
+        <span style={{
+          fontSize: 9.5,
+          color: isAnnex ? "var(--gold-600)" : "var(--navy-500)",
+          fontWeight: 600, minWidth: 14, textAlign: "right",
+        }}>
+          {String(index).padStart(2, "0")}
+        </span>
+        <span>[{code}]</span>
+        {pages && (
+          <span style={{ opacity: 0.65, fontSize: 10 }}>{pages}</span>
+        )}
+      </span>
+
+      {/* CSS Tooltip */}
+      <div className="tt-body">
+        <div style={{
+          display: "flex", alignItems: "center", gap: 6,
+          fontSize: 10, letterSpacing: 1.2, textTransform: "uppercase",
+          color: isAnnex ? "var(--gold-500)" : "#9BA4C5",
+          fontWeight: 600, marginBottom: 4,
+        }}>
+          {isAnnex ? "Anexo" : "Documento base"} · {code}
+        </div>
+        <div style={{ fontSize: 13, fontWeight: 600, color: "#fff", marginBottom: 6 }}>
+          {source.titulo || code}
+        </div>
+        <div style={{ display: "flex", flexDirection: "column", gap: 3, color: "#B8BED6", fontSize: 11.5 }}>
+          {source.version && (
+            <div>
+              <span style={{ color: "#7B82A0" }}>Edición: </span>
+              <span style={{ fontFamily: "'JetBrains Mono', monospace" }}>{source.version}</span>
+            </div>
+          )}
+          {source.seccion && (
+            <div>
+              <span style={{ color: "#7B82A0" }}>Sección: </span>
+              {source.seccion}
+            </div>
+          )}
+          {pages && (
+            <div>
+              <span style={{ color: "#7B82A0" }}>Páginas: </span>
+              <span style={{ fontFamily: "'JetBrains Mono', monospace" }}>{pages}</span>
+            </div>
+          )}
+        </div>
+        <div style={{
+          marginTop: 10, display: "flex", gap: 6,
+          paddingTop: 8, borderTop: "1px solid #2A2F40",
+        }}>
+          <button
+            onClick={() => navigator.clipboard.writeText(citaText)}
+            style={{
+              fontSize: 11, color: "#B8BED6",
+              display: "inline-flex", alignItems: "center", gap: 5,
+              padding: "4px 8px", border: "1px solid #2A2F40", borderRadius: 4,
+              background: "none", cursor: "pointer", fontFamily: "inherit",
+            }}
+            onMouseEnter={(e) => { e.currentTarget.style.color = "#fff"; e.currentTarget.style.borderColor = "#3B4780"; }}
+            onMouseLeave={(e) => { e.currentTarget.style.color = "#B8BED6"; e.currentTarget.style.borderColor = "#2A2F40"; }}
           >
-            <span className="opacity-50">[{source.ref}]</span>
-            {label}
-            {pages && <span className="opacity-60">{pages}</span>}
-          </span>
-        </Tooltip.Trigger>
-        <Tooltip.Portal>
-          <Tooltip.Content
-            className="z-50 max-w-xs rounded-md bg-gray-900 px-3 py-1.5 text-xs text-white shadow-md"
-            sideOffset={4}
-          >
-            {tooltipLines}
-            <Tooltip.Arrow className="fill-gray-900" />
-          </Tooltip.Content>
-        </Tooltip.Portal>
-      </Tooltip.Root>
-    </Tooltip.Provider>
+            <ICopy /> Copiar cita
+          </button>
+        </div>
+      </div>
+    </span>
   );
 }

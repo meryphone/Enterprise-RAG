@@ -56,7 +56,7 @@ class Settings:
             chroma_database=os.getenv("CHROMA_DATABASE", "default"),
             cohere_api_key=os.getenv("COHERE_API_KEY") or None,
             cohere_rerank_model=os.getenv("COHERE_RERANK_MODEL", "rerank-multilingual-v3.0"),
-            retrieval_top_k=int(os.getenv("RETRIEVAL_TOP_K", "20")),
+            retrieval_top_k=int(os.getenv("RETRIEVAL_TOP_K", "30")),
             retrieval_top_n=int(os.getenv("RETRIEVAL_TOP_N", "5")),
             retrieval_peso_vector=float(os.getenv("RETRIEVAL_PESO_VECTOR", "0.5")),
             retrieval_peso_bm25=float(os.getenv("RETRIEVAL_PESO_BM25", "0.5")),

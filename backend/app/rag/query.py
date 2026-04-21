@@ -68,6 +68,56 @@ def _expandir_parents(
     return resultado + tablas
 
 
+def _fusionar_partes_tabla(chunks: list[ChunkRecuperado]) -> list[ChunkRecuperado]:
+    """Fusiona chunks del mismo documento y sección que son partes de una tabla dividida.
+
+    Cuando el chunker parte una tabla grande en varios chunks, todos comparten
+    nombre_fichero y seccion. Aquí los concatenamos para que el LLM vea la tabla
+    completa. Chunks que no son tabla (no empiezan por '|') no se fusionan.
+    """
+    tablas: dict[str, list[ChunkRecuperado]] = {}
+    resto: list[ChunkRecuperado] = []
+
+    for chunk in chunks:
+        meta = chunk.metadatos
+        es_tabla = chunk.texto.strip().startswith("|")
+        nombre = (meta or {}).get("nombre_fichero", "")
+        seccion = (meta or {}).get("seccion", "")
+
+        if es_tabla and nombre and seccion:
+            clave = f"{nombre}||{seccion}"
+            tablas.setdefault(clave, []).append(chunk)
+        else:
+            resto.append(chunk)
+
+    resultado: list[ChunkRecuperado] = list(resto)
+    for partes in tablas.values():
+        if len(partes) == 1:
+            resultado.append(partes[0])
+            continue
+
+        partes.sort(key=lambda c: c.metadatos.get("pagina_inicio", 0))
+        texto_unido = "\n".join(p.texto.rstrip() for p in partes)
+        meta_merged = dict(partes[0].metadatos)
+        p_fin = max(p.metadatos.get("pagina_fin", -1) for p in partes)
+        if p_fin != -1:
+            meta_merged["pagina_fin"] = p_fin
+        resultado.append(ChunkRecuperado(
+            chunk_id=partes[0].chunk_id,
+            texto=texto_unido,
+            metadatos=meta_merged,
+            score=max(p.score for p in partes),
+        ))
+        logger.info(
+            "Fusionados %d chunks de tabla '%s' § '%s'",
+            len(partes),
+            partes[0].metadatos.get("nombre_fichero", ""),
+            partes[0].metadatos.get("seccion", ""),
+        )
+
+    return resultado
+
+
 def _construir_contexto(chunks: list[ChunkRecuperado]) -> str:
     """Envuelve cada chunk en XML con id numérico y nombre de documento.
 
@@ -173,12 +223,13 @@ async def ejecutar_query(
     chunks = recuperar(query, proyecto_id, empresa, tipo_doc)
 
     if not chunks:
-        yield f"data: {json.dumps({'type': 'token', 'content': 'No he encontrado documentación relevante para esta consulta.'})}\n\n"
-        yield f"data: {json.dumps({'type': 'sources', 'sources': []})}\n\n"
-        yield f"data: {json.dumps({'type': 'done'})}\n\n"
+        contexto_vacio = "(No se han encontrado fragmentos relevantes en la documentación indexada.)"
+        async for evento in _stream_respuesta(query, contexto_vacio, []):
+            yield evento
         return
 
     chunks_expandidos = _expandir_parents(chunks, coleccion)
+    chunks_expandidos = _fusionar_partes_tabla(chunks_expandidos)
     contexto = _construir_contexto(chunks_expandidos)
     fuentes = _construir_fuentes(chunks_expandidos)
     async for evento in _stream_respuesta(query, contexto, fuentes):

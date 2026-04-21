@@ -1,50 +1,62 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { streamQuery } from "@/lib/api";
 import type { Message, Scope, SourceRef } from "@/lib/types";
 import { ChatMessage } from "./ChatMessage";
-import { Send } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { Topbar, type SystemStatus } from "./Topbar";
+import { Composer } from "./Composer";
+import { EmptyState } from "./EmptyState";
 
 interface Props {
   scope: Scope;
+}
+
+function nowStr(): string {
+  return new Date().toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" });
 }
 
 export function ChatArea({ scope }: Props) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [streaming, setStreaming] = useState(false);
+  const [status, setStatus] = useState<SystemStatus>("connected");
   const bottomRef = useRef<HTMLDivElement>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
 
-  // Scroll al último mensaje
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  // Al cambiar de scope, limpiar el chat
   useEffect(() => {
     setMessages([]);
   }, [scope.coleccion]);
 
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    const query = input.trim();
-    if (!query || streaming) return;
+  const runQuery = useCallback(async (query: string) => {
+    const effectiveScope: Scope = scope;
 
-    const userMsg: Message = { id: crypto.randomUUID(), role: "user", content: query };
+    const userMsg: Message = {
+      id: crypto.randomUUID(),
+      role: "user",
+      content: query,
+      timestamp: nowStr(),
+    };
     const assistantId = crypto.randomUUID();
-    const assistantMsg: Message = { id: assistantId, role: "assistant", content: "", streaming: true };
+    const assistantMsg: Message = {
+      id: assistantId,
+      role: "assistant",
+      content: "",
+      streaming: true,
+      timestamp: nowStr(),
+    };
 
     setMessages((prev) => [...prev, userMsg, assistantMsg]);
-    setInput("");
     setStreaming(true);
+    setStatus("processing");
 
     try {
       await streamQuery(
         query,
-        scope,
+        effectiveScope,
         (token) => {
           setMessages((prev) =>
             prev.map((m) => m.id === assistantId ? { ...m, content: m.content + token } : m),
@@ -60,18 +72,21 @@ export function ChatArea({ scope }: Props) {
             prev.map((m) => m.id === assistantId ? { ...m, streaming: false } : m),
           );
           setStreaming(false);
-          inputRef.current?.focus();
+          setStatus("connected");
         },
         (error) => {
           setMessages((prev) =>
             prev.map((m) =>
-              m.id === assistantId ? { ...m, content: `Error: ${error}`, streaming: false } : m,
+              m.id === assistantId
+                ? { ...m, content: `Error: ${error}`, streaming: false }
+                : m,
             ),
           );
           setStreaming(false);
+          setStatus("connected");
         },
       );
-    } catch (err) {
+    } catch {
       setMessages((prev) =>
         prev.map((m) =>
           m.id === assistantId
@@ -80,60 +95,78 @@ export function ChatArea({ scope }: Props) {
         ),
       );
       setStreaming(false);
+      setStatus("offline");
+      setTimeout(() => setStatus("connected"), 3000);
     }
-  }
+  }, [scope]);
+
+  const handleSend = useCallback((text: string) => {
+    if (!text.trim() || streaming) return;
+    setInput("");
+    runQuery(text, false);
+  }, [streaming, runQuery]);
+
+  const handleSuggest = useCallback((q: string) => {
+    setInput(q);
+  }, []);
 
   return (
-    <div className="flex flex-col h-full">
-      {/* Topbar */}
-      <div className="flex items-center gap-2 border-b px-4 py-3 text-sm text-muted-foreground bg-background">
-        <span className="font-medium text-foreground">{scope.label}</span>
-      </div>
+    <div style={{ display: "flex", flexDirection: "column", height: "100%", minHeight: 0, overflow: "hidden" }}>
+      <Topbar scope={scope} status={status} />
 
-      {/* Mensajes */}
-      <div className="flex-1 overflow-y-auto px-4 py-6 space-y-4">
-        {messages.length === 0 && (
-          <div className="flex flex-col items-center justify-center h-full text-center text-muted-foreground gap-2">
-            <p className="text-lg font-medium">IntecsaRAG</p>
-            <p className="text-sm">Haz una pregunta sobre la documentación técnica de {scope.label}.</p>
-          </div>
-        )}
-        {messages.map((msg) => (
-          <ChatMessage key={msg.id} message={msg} />
-        ))}
-        <div ref={bottomRef} />
-      </div>
-
-      {/* Input */}
-      <div className="border-t px-4 py-3 bg-background">
-        <form onSubmit={handleSubmit} className="flex gap-2">
-          <input
-            ref={inputRef}
-            type="text"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            placeholder="Escribe tu pregunta..."
-            disabled={streaming}
-            className={cn(
-              "flex-1 rounded-lg border px-3 py-2 text-sm outline-none transition-colors",
-              "placeholder:text-muted-foreground bg-background",
-              "focus:ring-2 focus:ring-primary/30 focus:border-primary",
-              "disabled:opacity-50 disabled:cursor-not-allowed",
-            )}
+      {/* Messages scroll area */}
+      <div style={{
+        flex: 1, overflow: "auto", minHeight: 0,
+        background: "var(--canvas)",
+        paddingTop: 8, paddingBottom: 4,
+      }}>
+        {messages.length === 0 ? (
+          <EmptyState 
+            label={scope.label} 
+            scopeId={scope.coleccion} 
+            empresa={scope.empresa} 
+            onSuggest={handleSuggest} 
           />
-          <button
-            type="submit"
-            disabled={!input.trim() || streaming}
-            className={cn(
-              "flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium transition-colors",
-              "bg-primary text-primary-foreground hover:bg-primary/90",
-              "disabled:opacity-50 disabled:cursor-not-allowed",
-            )}
-          >
-            <Send className="h-4 w-4" />
-          </button>
-        </form>
+        ) : (
+          <>
+            {/* Thread date separator */}
+            <div style={{
+              padding: "8px 22px 4px",
+              display: "flex", alignItems: "center", gap: 10,
+              fontSize: 11, color: "var(--ink-400)",
+            }}>
+              <div style={{ flex: 1, height: 1, background: "var(--ink-100)" }} />
+              <span style={{
+                fontFamily: "'JetBrains Mono', monospace",
+                textTransform: "uppercase", letterSpacing: 1.2,
+              }}>
+                {new Date().toLocaleDateString("es-ES", { day: "numeric", month: "short", year: "numeric" })}
+              </span>
+              <div style={{ flex: 1, height: 1, background: "var(--ink-100)" }} />
+            </div>
+
+            {messages.map((msg) => (
+              <ChatMessage
+                key={msg.id}
+                message={msg}
+              />
+            ))}
+            <div ref={bottomRef} style={{ height: 4 }} />
+          </>
+        )}
       </div>
+
+      <Composer
+        value={input}
+        onChange={setInput}
+        onSend={handleSend}
+        disabled={streaming}
+        scopeLabel={
+          scope.proyecto_id !== null && scope.empresa
+            ? `${scope.label} · ${scope.empresa.charAt(0).toUpperCase() + scope.empresa.slice(1)}`
+            : scope.label
+        }
+      />
     </div>
   );
 }

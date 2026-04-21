@@ -101,6 +101,11 @@ def _get_indice_bm25(coleccion: str) -> _IndiceBM25:
         tokens = []
         for texto, meta in zip(textos, metadatas):
             partes = []
+            # Incluir nombre_fichero (sin extensión) para que queries con
+            # código explícito (PR-02, IT-05) hagan hit directo en BM25.
+            nombre = (meta or {}).get("nombre_fichero", "") or ""
+            if nombre:
+                partes.append(nombre.replace(".pdf", "").replace("_", " "))
             titulo = (meta or {}).get("titulo_documento", "") or ""
             seccion = (meta or {}).get("seccion", "") or ""
             if titulo:
@@ -283,18 +288,15 @@ def recuperar(
     if indice.ids:
         puntuaciones_bm25 = indice.bm25.get_scores(_tokenizar(query_bm25))
 
-        # Crear lista de (posición, puntuación) solo con chunks que pasan el filtro
-        chunks_con_puntuacion = []
-        for posicion in range(len(indice.ids)):
-            if _pasa_filtro(posicion):
-                chunks_con_puntuacion.append((posicion, puntuaciones_bm25[posicion]))
-
-            # Ordenar de mayor a menor puntuación y quedarnos con los top_k mejores
-            chunks_con_puntuacion.sort(key=lambda x: x[1], reverse=True)
-            candidatos_bm25 = chunks_con_puntuacion[:top_k]
+        chunks_con_puntuacion = [
+            (posicion, puntuaciones_bm25[posicion])
+            for posicion in range(len(indice.ids))
+            if _pasa_filtro(posicion)
+        ]
+        chunks_con_puntuacion.sort(key=lambda x: x[1], reverse=True)
+        candidatos_bm25 = chunks_con_puntuacion[:top_k]
 
     else:
-        # No hay documentos en el índice
         candidatos_bm25 = []
 
     ids_bm25 = [indice.ids[i] for i, _ in candidatos_bm25]
@@ -330,7 +332,22 @@ def recuperar(
     if not SETTINGS.cohere_api_key:
         raise RuntimeError("COHERE_API_KEY no configurada.")
 
-    textos_rerank = [cache_docs[cid][0] for cid, *_ in fusion]
+    # Prefijamos cada chunk con su documento y sección para que Cohere entienda
+    # el contexto, especialmente crítico en tablas cuyo contenido bruto (pipes y
+    # nombres) no revela de qué tratan sin encabezado.
+    def _texto_para_rerank(cid: str) -> str:
+        texto, meta = cache_docs[cid]
+        doc = (meta or {}).get("nombre_fichero", "").removesuffix(".pdf")
+        seccion = (meta or {}).get("seccion", "") or ""
+        partes = []
+        if doc:
+            partes.append(doc)
+        if seccion:
+            partes.append(seccion)
+        prefix = f"[{' — '.join(partes)}]\n" if partes else ""
+        return f"{prefix}{texto}"
+
+    textos_rerank = [_texto_para_rerank(cid) for cid, *_ in fusion]
 
     co = cohere.Client(api_key=SETTINGS.cohere_api_key)
     # Rerank usa la query original para máxima fidelidad a la intención del usuario
@@ -356,6 +373,41 @@ def recuperar(
                 score_fusion=score_fusion,
             )
         )
+
+    # ── 5. Recuperar partes de tabla descartadas por Cohere ──────────────
+    # Si Cohere seleccionó un chunk de tabla, incluimos todos sus hermanos
+    # del mismo doc+sección aunque no llegaran al top_n. Así _fusionar_partes_tabla
+    # en query.py puede reconstruir la tabla completa.
+    ids_seleccionados = {r.chunk_id for r in resultados}
+    tablas_seleccionadas: set[str] = set()
+    for r in resultados:
+        meta = r.metadatos or {}
+        if r.texto.strip().startswith("|"):
+            nombre = meta.get("nombre_fichero", "")
+            seccion = meta.get("seccion", "")
+            if nombre and seccion:
+                tablas_seleccionadas.add(f"{nombre}||{seccion}")
+
+    if tablas_seleccionadas:
+        for cid, score_fusion, sv, sb in fusion:
+            if cid in ids_seleccionados:
+                continue
+            texto, meta = cache_docs.get(cid, ("", {}))
+            if not texto.strip().startswith("|"):
+                continue
+            nombre = (meta or {}).get("nombre_fichero", "")
+            seccion = (meta or {}).get("seccion", "")
+            if f"{nombre}||{seccion}" in tablas_seleccionadas:
+                resultados.append(ChunkRecuperado(
+                    chunk_id=cid,
+                    texto=texto,
+                    metadatos=meta,
+                    score=0.0,
+                    score_vector=sv,
+                    score_bm25=sb,
+                    score_fusion=score_fusion,
+                ))
+                logger.debug("Parte de tabla añadida post-rerank: %s § %s", nombre, seccion)
 
     logger.info(
         "recuperar(q=%r, scope=%s, tipo_doc=%s) → %d chunks",
