@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.api.health import router as health_router
 from app.api.projects import router as projects_router
 from app.api.query import router as query_router
-from app.servicios.retrieval import invalidar_cache_bm25
+from app.rag.retrieval import invalidar_cache_bm25
 
 logger = logging.getLogger(__name__)
 

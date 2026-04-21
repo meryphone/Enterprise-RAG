@@ -24,7 +24,7 @@ from docling.datamodel.pipeline_options import (
     PictureDescriptionApiOptions,
 )
 
-from app.procesamiento.prompts import PROMPT_DESCRIPCION_IMAGEN
+from app.ingestion.prompts import PROMPT_DESCRIPCION_IMAGEN
 
 
 # Docling tarda varios segundos en inicializar sus modelos.

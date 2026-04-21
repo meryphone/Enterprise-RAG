@@ -28,12 +28,12 @@ BACKEND_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import PARSED_DIR, SETTINGS  # noqa: E402
-from app.procesamiento.pipeline import (  # noqa: E402
+from app.ingestion.pipeline import (  # noqa: E402
     MetadatosAdministrador,
     documento_a_dict,
     ingestar_pdf,
 )
-from app.servicios.vector_store import indexar_documento  # noqa: E402
+from app.rag.vector_store import indexar_documento  # noqa: E402
 
 
 def _inferir_tipo(nombre: str) -> str:

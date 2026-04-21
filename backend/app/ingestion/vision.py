@@ -11,7 +11,7 @@ from docling_core.types.doc import DoclingDocument, TableItem
 from openai import OpenAI
 
 from app.config import SETTINGS
-from app.procesamiento.prompts import PROMPT_TABLA_DEGRADADA, PROMPT_TABLA_SIN_SECCION, PROMPT_TITULO_CABECERA
+from app.ingestion.prompts import PROMPT_TABLA_DEGRADADA, PROMPT_TABLA_SIN_SECCION, PROMPT_TITULO_CABECERA
 
 if TYPE_CHECKING:
     from PIL import Image as PILImage

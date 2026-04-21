@@ -24,7 +24,7 @@ from docling_core.types.doc import (
 )
 
 from app.config import SETTINGS
-from app.procesamiento.patrones import (
+from app.ingestion.patterns import (
     PATRON_ANEXO,
     PATRON_CABECERA,
     PATRON_CODIGO_DOC,
@@ -205,7 +205,7 @@ def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -
 
     meta = extraer_metadatos_documento(doc)
     if meta.titulo is None and SETTINGS.enable_vision:
-        from app.procesamiento import vision as mod_vision
+        from app.ingestion import vision as mod_vision
         meta.titulo = mod_vision.extraer_titulo_cabecera(doc)
     _titulo_norm = re.sub(r"\s+", " ", meta.titulo).upper() if meta.titulo else None
 
@@ -303,7 +303,7 @@ def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -
             seccion_tabla = seccion_actual  # puede sobreescribirse con el título extraído por visión
 
             if SETTINGS.enable_vision:
-                from app.procesamiento import vision as mod_vision
+                from app.ingestion import vision as mod_vision
                 if seccion_actual is None:
                     # Sin sección de contexto: visión extrae título propio de la tabla + contenido.
                     descripcion, titulo_tabla = mod_vision.describir_tabla_sin_seccion(item, doc)

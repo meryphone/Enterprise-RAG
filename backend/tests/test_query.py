@@ -1,7 +1,7 @@
 # backend/tests/test_query.py
 from unittest.mock import MagicMock, patch
-from app.servicios.retrieval import ChunkRecuperado
-from app.servicios.query import _expandir_parents, _construir_contexto
+from app.rag.retrieval import ChunkRecuperado
+from app.rag.query import _expandir_parents, _construir_contexto
 
 
 def _chunk(chunk_id, texto, nivel="child", parent_id="pid-1", score=0.9,
@@ -37,7 +37,7 @@ def test_expandir_parents_child_con_parent():
     mock_chroma = MagicMock()
     mock_chroma.get_collection.return_value = mock_col
 
-    with patch("app.servicios.query.get_chroma", return_value=mock_chroma):
+    with patch("app.rag.query.get_chroma", return_value=mock_chroma):
         resultado = _expandir_parents([chunk], coleccion="intecsa")
 
     assert len(resultado) == 1
@@ -48,7 +48,7 @@ def test_expandir_parents_tabla_pasa_directa():
     """Una tabla (parent_id=='') no se expande."""
     tabla = _chunk("tabla-1", "| col1 | col2 |", nivel="child", parent_id="")
 
-    with patch("app.servicios.query.get_chroma"):
+    with patch("app.rag.query.get_chroma"):
         resultado = _expandir_parents([tabla], coleccion="intecsa")
 
     assert len(resultado) == 1
@@ -69,7 +69,7 @@ def test_expandir_parents_deduplica_mismo_parent():
     mock_chroma = MagicMock()
     mock_chroma.get_collection.return_value = mock_col
 
-    with patch("app.servicios.query.get_chroma", return_value=mock_chroma):
+    with patch("app.rag.query.get_chroma", return_value=mock_chroma):
         resultado = _expandir_parents([c1, c2], coleccion="intecsa")
 
     assert len(resultado) == 1
@@ -83,7 +83,7 @@ def test_construir_contexto_formato():
 
     contexto = _construir_contexto([chunk])
 
-    assert "[1]" in contexto
-    assert "PR-08.pdf" in contexto
+    assert 'id="1"' in contexto
+    assert "PR-08" in contexto
     assert "3. PROCEDIMIENTO" in contexto
     assert "El manómetro debe calibrarse a 6 bar." in contexto

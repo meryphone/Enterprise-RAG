@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from app.servicios.vector_store import colecciones_disponibles
+from app.rag.vector_store import colecciones_disponibles
 
 router = APIRouter()
 

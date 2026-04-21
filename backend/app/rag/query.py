@@ -8,9 +8,9 @@ from typing import AsyncGenerator
 from openai import AsyncOpenAI
 
 from app.config import SETTINGS
-from app.procesamiento.prompts import SYSTEM_PROMPT
-from app.servicios.retrieval import ChunkRecuperado, recuperar
-from app.servicios.vector_store import coleccion_parents, get_chroma, nombre_coleccion
+from app.ingestion.prompts import SYSTEM_PROMPT
+from app.rag.retrieval import ChunkRecuperado, recuperar
+from app.rag.vector_store import coleccion_parents, get_chroma, nombre_coleccion
 
 logger = logging.getLogger(__name__)
 

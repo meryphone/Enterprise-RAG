@@ -18,7 +18,7 @@ from __future__ import annotations
 import logging
 from typing import TYPE_CHECKING
 
-from app.procesamiento.pipeline import DocumentoIngerido  
+from app.ingestion.pipeline import DocumentoIngerido  
 
 import chromadb
 from openai import OpenAI
@@ -26,7 +26,7 @@ from openai import OpenAI
 from app.config import SETTINGS
 
 if TYPE_CHECKING:
-    from app.procesamiento.pipeline import DocumentoIngerido
+    from app.ingestion.pipeline import DocumentoIngerido
 
 logger = logging.getLogger(__name__)
 

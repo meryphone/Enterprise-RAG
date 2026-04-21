@@ -35,7 +35,7 @@ from llama_index.core.node_parser.relational.hierarchical import (
 from llama_index.core.schema import Document, NodeRelationship, TextNode
 
 from app.config import SETTINGS
-from app.procesamiento.elementos import ElementoProcesado
+from app.ingestion.elements import ElementoProcesado
 
 # Longitud mínima de texto (caracteres) para que un elemento de prosa entre al
 # chunker. Elimina fragmentos de ruido cortos que escaparon a los filtros de

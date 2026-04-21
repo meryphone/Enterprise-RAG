@@ -21,10 +21,10 @@ from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 
-from app.procesamiento import elementos as mod_elementos
-from app.procesamiento import parser as mod_parser
-from app.procesamiento.chunker import Chunk, chunk_jerarquico
-from app.procesamiento.elementos import MetadatosDocumento
+from app.ingestion import elements as mod_elements
+from app.ingestion import parser as mod_parser
+from app.ingestion.chunker import Chunk, chunk_jerarquico
+from app.ingestion.elements import MetadatosDocumento
 
 
 # ---------------------------------------------------------------------------
@@ -67,14 +67,14 @@ def ingestar_pdf(path: Path, metadatos_admin: MetadatosAdministrador) -> Documen
 
     # 2. Metadatos desde la cabecera del documento (texto digital, gratis).
     #    Extrae título y edición mediante regex sobre los primeros ítems.
-    metadatos_documento = mod_elementos.extraer_metadatos_documento(doc)
+    metadatos_documento = mod_elements.extraer_metadatos_documento(doc)
 
     # doc_id: siempre un UUID generado — no se extrae del documento.
     doc_id = uuid.uuid4().hex
 
     # 3. Procesamiento por tipo de elemento.
     es_anexo = metadatos_admin.tipo_doc == "anexo"
-    elementos = mod_elementos.procesar_documento(doc, es_anexo_documento=es_anexo)
+    elementos = mod_elements.procesar_documento(doc, es_anexo_documento=es_anexo)
 
     # 4. Hierarchical chunking.
     chunks = chunk_jerarquico(elementos)

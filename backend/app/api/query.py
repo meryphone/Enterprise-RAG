@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
-from app.servicios.query import ejecutar_query
+from app.rag.query import ejecutar_query
 
 router = APIRouter()
 

@@ -41,7 +41,7 @@ from docling_core.types.doc import (  # noqa: E402
     TextItem,
 )
 
-from app.procesamiento.parser import parse_pdf  # noqa: E402
+from app.ingestion.parser import parse_pdf  # noqa: E402
 
 
 # ── Colores ANSI ──────────────────────────────────────────────────────────────

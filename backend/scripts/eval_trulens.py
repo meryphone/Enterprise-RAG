@@ -43,10 +43,10 @@ os.environ["TRULENS_OTEL_TRACING"] = "0"
 from openai import OpenAI  # noqa: E402
 
 from app.config import SETTINGS  # noqa: E402
-from app.procesamiento.prompts import SYSTEM_PROMPT_EVAL as SYSTEM_PROMPT  # noqa: E402
-from app.servicios.query import _construir_contexto, _expandir_parents  # noqa: E402
-from app.servicios.retrieval import recuperar  # noqa: E402
-from app.servicios.vector_store import nombre_coleccion  # noqa: E402
+from app.ingestion.prompts import SYSTEM_PROMPT_EVAL as SYSTEM_PROMPT  # noqa: E402
+from app.rag.query import _construir_contexto, _expandir_parents  # noqa: E402
+from app.rag.retrieval import recuperar  # noqa: E402
+from app.rag.vector_store import nombre_coleccion  # noqa: E402
 
 # ── Banco de queries de prueba ────────────────────────────────────────────────
 
@@ -160,7 +160,7 @@ class RAGPipeline:
         if chunks:
             contexto_fmt = _construir_contexto(chunks)
         else:
-            from app.servicios.retrieval import ChunkRecuperado
+            from app.rag.retrieval import ChunkRecuperado
             contexto_fmt = _construir_contexto([
                 ChunkRecuperado(chunk_id=str(i), texto=t, score=1.0, metadatos={})
                 for i, t in enumerate(contextos)
@@ -337,7 +337,7 @@ def main() -> int:
             handlers=[_logging.StreamHandler()],
         )
         # Solo módulos propios para no inundar con logs de Chroma/OpenAI/TruLens
-        for _mod in ("app.servicios.retrieval", "app.servicios.query", "app.procesamiento.prompts"):
+        for _mod in ("app.rag.retrieval", "app.rag.query", "app.ingestion.prompts"):
             _logging.getLogger(_mod).setLevel(_logging.DEBUG)
 
     ejecutar_evaluacion(

@@ -41,7 +41,7 @@ BACKEND_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import DOCS_DIR, PARSED_DIR, SETTINGS  # noqa: E402
-from app.procesamiento.pipeline import (  # noqa: E402
+from app.ingestion.pipeline import (  # noqa: E402
     MetadatosAdministrador,
     documento_a_dict,
     ingestar_pdf,

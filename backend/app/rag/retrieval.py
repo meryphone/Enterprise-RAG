@@ -29,8 +29,8 @@ from openai import OpenAI
 from rank_bm25 import BM25Okapi
 
 from app.config import SETTINGS
-from app.procesamiento.prompts import PROMPT_REESCRITURA_QUERY
-from app.servicios.vector_store import get_chroma, nombre_coleccion
+from app.ingestion.prompts import PROMPT_REESCRITURA_QUERY
+from app.rag.vector_store import get_chroma, nombre_coleccion
 
 logger = logging.getLogger(__name__)
 
