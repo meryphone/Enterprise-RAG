@@ -69,34 +69,35 @@ def _expandir_parents(
 
 
 def _construir_contexto(chunks: list[ChunkRecuperado]) -> str:
-    """Numera y formatea los chunks para el LLM.
+    """Envuelve cada chunk en XML con id numérico y nombre de documento.
 
-    Formato: [n] Documento: X | Título: Y | Pág. Z
+    El atributo 'doc' permite al LLM identificar la procedencia de cada fuente
+    cuando la pregunta es específica sobre un documento concreto.
+    Los metadatos de sección/versión/páginas viajan en el payload 'sources' del SSE.
     """
     partes: list[str] = []
     for i, chunk in enumerate(chunks, start=1):
         meta = chunk.metadatos
         nombre = meta.get("nombre_fichero", "")
-        titulo = meta.get("titulo_documento", "")
+        doc_id = nombre.removesuffix(".pdf") if nombre else f"fuente-{i}"
+
+        attrs = f'id="{i}" doc="{doc_id}"'
+
+        edicion = meta.get("version", "") or ""
+        if edicion:
+            attrs += f' edicion="{edicion}"'
+
+        seccion = meta.get("seccion", "") or ""
+        if seccion:
+            attrs += f' seccion="{seccion}"'
+
         p_ini = meta.get("pagina_inicio", -1)
         p_fin = meta.get("pagina_fin", -1)
+        if p_ini != -1:
+            paginas = str(p_ini) if p_fin == p_ini or p_fin == -1 else f"{p_ini}-{p_fin}"
+            attrs += f' paginas="{paginas}"'
 
-        if p_ini == -1 or p_fin == -1:
-            paginas = ""
-        elif p_ini == p_fin:
-            paginas = f"Pág. {p_ini}"
-        else:
-            paginas = f"Pág. {p_ini}-{p_fin}"
-
-        cabecera_partes = [f"Documento: {nombre}"]
-        if titulo:
-            cabecera_partes.append(f"Título: {titulo}")
-        if paginas:
-            cabecera_partes.append(paginas)
-
-        cabecera = " | ".join(cabecera_partes)
-        partes.append(f"[{i}] {cabecera}\n{chunk.texto}")
-
+        partes.append(f'<fuente {attrs}>\n{chunk.texto}\n</fuente>')
     return "\n\n".join(partes)
 
 
@@ -108,6 +109,7 @@ def _construir_fuentes(chunks: list[ChunkRecuperado]) -> list[dict]:
             "ref": i,
             "doc": meta.get("nombre_fichero", ""),
             "titulo": meta.get("titulo_documento", ""),
+            "version": meta.get("version", ""),
             "seccion": meta.get("seccion", ""),
             "pagina_inicio": meta.get("pagina_inicio", -1),
             "pagina_fin": meta.get("pagina_fin", -1),
@@ -143,6 +145,7 @@ async def _stream_respuesta(
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": f"Contexto:\n\n{contexto}\n\nPregunta: {query}"},
         ],
+        temperature=0.0,
         stream=True,
     )
 

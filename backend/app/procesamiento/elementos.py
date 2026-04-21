@@ -91,6 +91,7 @@ def extraer_metadatos_documento(doc: DoclingDocument) -> MetadatosDocumento:
                 meta.titulo is None
                 and " " in texto
                 and not PATRON_PIE_PAGINA.match(texto)
+                and not PATRON_INDICE.match(texto)
                 and PATRON_TITULO.match(texto)
             ):
                 meta.titulo = re.sub(r"\s+", " ", texto)
@@ -203,6 +204,9 @@ def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -
     resultado: list[ElementoProcesado] = []
 
     meta = extraer_metadatos_documento(doc)
+    if meta.titulo is None and SETTINGS.enable_vision:
+        from app.procesamiento import vision as mod_vision
+        meta.titulo = mod_vision.extraer_titulo_cabecera(doc)
     _titulo_norm = re.sub(r"\s+", " ", meta.titulo).upper() if meta.titulo else None
 
     seccion_actual: str | None = None
@@ -289,21 +293,35 @@ def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -
                 md = re.sub(r"^```[a-z]*\n?", "", md)
                 md = re.sub(r"\n?```$", "", md)
                 md = md.strip()
+            # Docling embebe imágenes como data URIs base64 en celdas de tabla.
+            # Conservamos solo el alt text (nombre del símbolo que Docling reconoció).
+            md = re.sub(r"!\[([^\]]*)\]\(data:[^)]+\)", r"\1", md)
 
             # Detectamos tablas degradadas con celdas fusionadas que rompen el Markdown.
             degradada = bool(PATRON_TABLA_DEGRADADA.search(md))
 
-            if degradada and SETTINGS.enable_vision:
+            seccion_tabla = seccion_actual  # puede sobreescribirse con el título extraído por visión
+
+            if SETTINGS.enable_vision:
                 from app.procesamiento import vision as mod_vision
-                descripcion = mod_vision.describir_tabla(item, doc)
-                if descripcion:
-                    md = descripcion
+                if seccion_actual is None:
+                    # Sin sección de contexto: visión extrae título propio de la tabla + contenido.
+                    descripcion, titulo_tabla = mod_vision.describir_tabla_sin_seccion(item, doc)
+                    if descripcion:
+                        md = descripcion
+                    if titulo_tabla:
+                        seccion_tabla = titulo_tabla
+                elif degradada:
+                    # Con sección conocida pero tabla degradada: solo mejorar el contenido.
+                    descripcion = mod_vision.describir_tabla(item, doc)
+                    if descripcion:
+                        md = descripcion
 
             resultado.append(
                 ElementoProcesado(
                     texto=md,
                     pagina=pagina,
-                    seccion=seccion_actual,
+                    seccion=seccion_tabla,
                     tipo_elemento="Table",
                     dentro_de_anexo=dentro_de_anexo,
                     indivisible=True,

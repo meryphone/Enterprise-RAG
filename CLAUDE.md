@@ -1,446 +1,227 @@
 # CLAUDE.md — IntecsaRAG Beta
 
-Fichero de contexto del proyecto para asistencia con IA. Versión beta del sistema RAG — alcance reducido para validar el pipeline base antes de añadir complejidad.
+Sistema RAG corporativo para Intecsa (ingeniería industrial). Permite a los empleados consultar en lenguaje natural los procedimientos generales de la empresa y documentos de proyectos con clientes. TFG de Ingeniería Informática — despliegue final en Azure (licencia Microsoft).
 
 ---
 
-## Contexto del proyecto
+## Stack
 
-**Proyecto:** Sistema RAG corporativo para Intecsa (empresa de ingeniería industrial)  
-**Objetivo:** Permitir a los empleados consultar en lenguaje natural los procedimientos generales de la empresa y los documentos de proyectos con clientes.  
-**Tipo:** TFG de Ingeniería Informática  
-**Empresa:** Intecsa — tiene licencia Microsoft, el despliegue final es en Azure.
-
-### Alcance de la beta
-
-Esta versión beta tiene un alcance deliberadamente reducido para validar el pipeline base con documentos simples antes de añadir complejidad:
-
-- El corpus se limita a dos tipos: **procedimientos generales de Intecsa** y **documentos de proyectos con clientes**.
-- Las imágenes se procesan si `ENABLE_VISION=1` (GPT-4o vision). Si está desactivado, las imágenes sin texto adyacente se descartan silenciosamente.
-- No incluye comparativa con fuentes externas mediante búsqueda web.
-- No incluye normativas externas.
-- No incluye contratos.
-
-Las funcionalidades excluidas están documentadas como trabajo futuro en la versión completa.
-
-### Características de la beta
-- Búsqueda semántica sobre procedimientos generales de Intecsa y documentos de proyectos con clientes
-- Organización por scopes: corpus global de Intecsa + corpus por proyecto
-- Query Router automático que infiere el scope sin que el usuario lo indique explícitamente
-- Citación de fuentes en cada respuesta (documento, sección, página)
-- Respuesta en el idioma de la pregunta; los documentos pueden estar en cualquier idioma, aunque no habrá documentos con versiones en distintos idiomas.
-
-### Idioma de los documentos
-Los documentos indexados pueden estar en **cualquier idioma** — se han identificado documentos en español, inglés y francés. El modelo de embeddings es multilingüe. El LLM responde en el idioma en que el usuario formula la pregunta, independientemente del idioma del documento fuente.
-
----
-
-## Fases de desarrollo de la beta
-
-| # | Fase | Duración estimada |
-|---|------|-------------------|
-| 1 | RAG base — ingestión y búsqueda | ~2 semanas |
-| 2 | Scopes y organización por proyecto | ~1.5 semanas |
-| 3 | Query Router automático | ~2 semanas |
-| 4 | Migración a Azure y despliegue | ~1 semana |
-
----
-
-## Stack tecnológico
-
-### Principio guía
-**"Dev local → Azure sin reescribir."** Todos los clientes (LLM, embeddings, vector store) se abstraen detrás de una capa de configuración. Un flag `ENV=local|production` en `.env` determina qué implementación se instancia. El código de negocio nunca sabe dónde está corriendo.
-
-### Tabla de stack por entorno
-
-| Componente | Desarrollo local | Producción (Azure) |
+| Componente | Dev local | Producción (Azure) |
 |---|---|---|
-| LLM | OpenAI API directa | Azure OpenAI Service (GPT-4o en tenant Intecsa) |
-| Embeddings | `text-embedding-3-small` vía OpenAI API | Azure OpenAI Embeddings (`text-embedding-3-small`) |
-| Vector store | ChromaDB cloud, API KEY: ck-KpwgS9zBfSx3XC8s7ckZjK9HNtxs2jSBuZuhP9vXPug TENANT ID: a66be815-8e1b-456e-bd68-c7137590d7ec | Azure AI Search (vector + filtros de metadatos) |
-| Documentos | Sistema de archivos local | Azure Blob Storage |
-| Framework | LlamaIndex + FastAPI | LlamaIndex + FastAPI (igual) |
-| Frontend | Next.js + shadcn/ui | Azure Static Web Apps |
-| Parser de documentos | Docling | Docling |
-| Vision (opcional) | GPT-4o vía OpenAI API (`ENABLE_VISION=1`) | GPT-4o vía Azure OpenAI |
-| BM25 léxico | `rank-bm25` en memoria por colección | `rank-bm25` o BM25 nativo de Azure AI Search |
-| Reranker | Cohere Rerank API (`rerank-multilingual-v3.0`) | Cohere Rerank API (igual) |
-| Demo sin despliegue | ngrok | — |
+| LLM | OpenAI GPT-4o (API directa) | Azure OpenAI Service |
+| Embeddings | `text-embedding-3-large` (3072 dims) | Azure OpenAI Embeddings |
+| Vector store | ChromaDB Cloud | Azure AI Search |
+| Parser | Docling (IBM, 2024) | Docling |
+| Reranker | Cohere `rerank-multilingual-v3.0` | Cohere (igual) |
+| BM25 | `rank-bm25` en memoria | `rank-bm25` o BM25 nativo Azure AI Search |
+| Backend | FastAPI + uvicorn | Azure Container Apps |
+| Frontend | Next.js 14 + shadcn/ui | Azure Static Web Apps |
 
-### Decisiones clave
-
-**Mismo modelo de embeddings en dev y producción:** Se usa `text-embedding-3-small` en ambos entornos. Esto elimina la necesidad de reindexar al migrar ya que los vectores son compatibles. Dimensión: 1536. Llamadas en lotes de 100 textos por petición a la API.
-
-**LlamaIndex sobre LangChain:** Elegido por su foco específico en RAG, el concepto de `Node` con metadatos encaja con el modelo de documentos por proyecto, y el `RouterQueryEngine` es la base natural del Query Router.
-
-**Streaming SSE:** El endpoint de query expone la respuesta como stream (Server-Sent Events) para que el frontend muestre los tokens progresivamente.
-
-**ChromaDB → Azure AI Search:** Chroma cloud para dev. Azure AI Search en prod. LlamaIndex tiene wrappers con interfaz idéntica para ambos.
-
-**ngrok para demos sin despliegue:** Para mostrar la beta a la empresa sin necesidad de desplegar en Azure, ngrok crea un túnel desde internet hasta la aplicación corriendo en local. Genera una URL pública temporal que cualquier persona puede abrir desde su navegador. Solo requiere tener la aplicación arrancada en local y ejecutar ngrok apuntando al puerto de FastAPI y al de Next.js.
-
-**Docling como parser principal:** Docling es una librería open source de IBM (2024) especializada en parseo de documentos para RAG. Exporta tablas directamente en Markdown y detecta bien la estructura de secciones. Configuración en uso: `do_picture_images=True`, `do_picture_description=true` (la descripción se hace con GPT-4o, integrandolo con docling), `images_scale=2.0`, `do_ocr=True`, `TableFormerMode.ACCURATE`. El `DocumentConverter` se instancia como singleton por proceso (inicialización costosa).
-
-
-**CPU para modelos de Docling en dev local:** La GTX 960M (CUDA CC 5.0) no es compatible con PyTorch 2.6+ (mínimo CC 7.5 en las wheels oficiales). Downgrade a PyTorch 2.0.x requeriría Python ≤ 3.11, incompatible con el entorno. Se fuerza CPU con `os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")` en `parser.py` antes de importar Docling. Esta línea se elimina al desplegar en Azure. Los modelos de layout y TableFormer corren en CPU; GPT-4o vision se llama por API, sin GPU local.
-
-**Dos colecciones paralelas por namespace en ChromaDB:** Los child chunks (con embeddings) se indexan en `{nombre}` y los parent chunks (sin embeddings, solo recuperación por ID) en `{nombre}__parents`. Métrica de distancia: coseno (`hnsw:space=cosine`).
-
----
-
-## Arquitectura del sistema
-
-```
-Usuario
-  │
-  ▼
-Query Router
-  ├── Extractor de entidades (¿proyecto? ¿cliente? ¿tipo doc?)
-  ├── Clasificador de intención → {scope, tipo, confianza}
-  └── Si confianza < umbral → pregunta de clarificación al usuario
-  │
-  ├──► Scope: Global Intecsa   ─┐
-  ├──► Scope: Proyecto/cliente ─┤──► Retrieval Engine
-  └──► Scope: Multi-scope      ─┘        │
-                                         ├── Hybrid search (vector + BM25)
-                                         ├── Filtro de metadatos (tipo_doc, ...)
-                                         ├── Reranker (Cohere Rerank)
-                                         └── Construcción de contexto con citas
-                                                     │
-                                                     ▼
-                                         LLM + Generación de respuesta
-                                                     │
-                                                     ▼
-                                 Respuesta + chips de fuente (doc, sección, página)
-```
-
----
-
-## Corpus de la beta
-
-### Documentos incluidos
-
-**Corpus global Intecsa** — procedimientos generales de la empresa aplicables a todos los proyectos. Colección `intecsa`.
-
-**Corpus por proyecto** — documentos generados en proyectos con clientes: especificaciones técnicas, instrucciones de trabajo, informes. Una colección por proyecto: `{proyecto_id}_{empresa}`.
-
-### Criterios de selección de documentos para la beta
-
-Solo se incluyen documentos que cumplan todos estos criterios:
-
-- Formato PDF con texto extraíble digitalmente — sin documentos escaneados.
-- Contenido principalmente textual — se admiten tablas y, si `ENABLE_VISION=1`, imágenes con descripción automática.
-- Idioma identificable — español, inglés o francés.
-- Los documentos que son el mismo contenido en distintos idiomas se eliminan antes de la ingestión, conservando únicamente la versión en el idioma principal.
+Mismo modelo de embeddings en dev y producción: los vectores son compatibles y no hay que reindexar al migrar.
 
 ---
 
 ## Pipeline de ingestión
 
-El pipeline recibe un PDF y los metadatos del administrador y produce chunks indexados en el vector store.
-
-### Flujo general
-
-Pasos secuenciales:
-
-1. **Parseo:** Docling convierte el PDF en `DoclingDocument` con elementos tipificados.
-2. **Extracción de metadatos de cabecera (texto, sin coste):** regex sobre los primeros 35 items del documento para extraer título (primer `SectionHeaderItem` que supera los filtros de longitud y charset) y edición (patrón `EDICION/EDITION`). Ninguna llamada a API.
-3. **Procesado de elementos:** cada item del `DoclingDocument` se transforma en `ElementoProcesado` aplicando las reglas por tipo.
-4. **Chunking:** los elementos procesados se segmentan y pasan por `HierarchicalNodeParser`.
-5. **Indexación:** los chunks se serializan con metadatos aplanados y se suben a ChromaDB.
-
-Los metadatos tienen tres orígenes: extraídos del documento con regex sobre la cabecera, introducidos por el administrador al subir el documento, y generados por el pipeline (fecha de ingesta, IDs).
-
-### Arquitectura del pipeline (pipes and filters)
+**Ficheros:** `procesamiento/parser.py` → `elementos.py` → `chunker.py` → `servicios/vector_store.py`
 
 ```
 PDF → DoclingDocument → [ElementoProcesado] → [Chunk] → ChromaDB
 ```
 
-- `parser.py`: convierte el PDF con Docling y extrae metadatos de cabecera.
-- `vision.py`: describe imágenes y extrae metadatos de portada vía GPT-4o.
-- `elementos.py`: recorre los items del `DoclingDocument` y produce una lista plana de `ElementoProcesado`. Decide qué hacer con cada tipo (texto tal cual, tabla a Markdown, imagen descrita) y aplica la regla de fusión texto-imagen.
-- `chunker.py`: recibe la lista de `ElementoProcesado`, pre-segmenta por tipo y sección, aplica `HierarchicalNodeParser` y produce la lista de `Chunk` lista para indexar.
-- `vector_store.py`: serializa y sube los chunks a ChromaDB, gestionando las dos colecciones paralelas.
-- El código de negocio (pipeline, retrieval) solo ve `Chunk` — nunca sabe qué hizo Docling internamente.
+### Parser — Docling
 
-### Filtrado de cabeceras, pies y tabla de contenidos
+**Por qué Docling:** exporta tablas a Markdown (3-4× más eficiente en tokens que HTML) y detecta bien la estructura de secciones en PDFs de ingeniería. El `DocumentConverter` se instancia como singleton por proceso — la inicialización cuesta ~30s.
 
-Antes de procesar el contenido, `elementos.py` descarta:
+**Cómo:** `parser.py` llama a `DocumentConverter` de Docling con `do_ocr=True`, `images_scale=2.0`, `TableFormerMode.ACCURATE`. Extrae el título del documento con regex sobre los primeros 35 items (primer `SectionHeaderItem` que supera filtros de longitud y charset) y la edición con el patrón `EDICION/EDITION`. Sin llamadas a API en esta fase.
 
-- **Bloques de cabecera completos** (patrón `PATRON_CABECERA`): líneas del tipo `EDICION 6  HOJA 7 DE 10` que aparecen repetidas en todas las páginas.
-- **Fragmentos de cabecera aislados** (`PATRON_PIE_PAGINA`, `_es_fragmento_cabecera_puro`): componentes individuales cuando Docling los extrae en items separados.
-- **Secciones de índice** (patrón `PATRON_INDICE`): el contenido de secciones cuyo título contiene patrones de tabla de contenidos se descarta completamente — un índice no aporta nada al retrieval.
+La GTX 960M (CUDA CC 5.0) no es compatible con PyTorch 2.6+. Se fuerza CPU con `os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")` antes de importar Docling. En Azure no hay esta restricción.
 
-Este filtrado es multilingual (español, inglés, francés).
+### Procesado de elementos
 
-### Procesado por tipo de elemento
+**Por qué:** cada tipo de elemento (texto, tabla, imagen, cabecera) necesita tratamiento diferente antes de llegar al chunker.
 
-**SectionHeaderItem:** no genera `ElementoProcesado`. Solo actualiza `seccion_actual`, el flag `dentro_de_anexo` (si el título contiene ANEXO/APPENDIX/ANNEX) y el flag `dentro_de_indice`. Normaliza el formato: "3.NOTAS" → "3. NOTAS". Esto evita que secciones sin cuerpo produzcan segmentos de un solo título, que LlamaIndex no puede subdividir y que generan pares parent==child idénticos.
+**Cómo:** `elementos.py` recorre el `DoclingDocument` y produce una lista plana de `ElementoProcesado`:
 
-**NarrativeText, ListItem:** el texto se usa directamente tras limpiar espacios. Se filtra si está vacío, si coincide con los patrones de cabecera/pie, o si reproduce el título del documento.
+- **Cabeceras de sección:** no generan elemento. Actualizan `seccion_actual` y el flag `dentro_de_anexo` (si el título contiene ANEXO/APPENDIX/ANNEX). Se filtran también los bloques repetidos del tipo `EDICION 6  HOJA 7 DE 10` (regex `PATRON_CABECERA`) y las secciones de índice completas.
+- **Texto y listas:** se usa directamente tras limpiar espacios.
+- **Tablas:** se exportan a Markdown con `export_to_markdown()`. Se eliminan los code fences que añade Docling, los data URIs base64 de símbolos (se conserva solo el alt text), y se detectan tablas degradadas con `\|\s{6,}\|`. Si `tabla_degradada=True` y `ENABLE_VISION=1`, se llama a `vision.describir_tabla()` con la imagen más enfocada disponible (crop de Docling → crop manual con bbox → página completa).
+- **Imágenes:** la primera imagen del documento se descarta siempre (logo corporativo). El resto se describe con GPT-4o si `ENABLE_VISION=1`. Si la imagen está en la misma página que el elemento anterior, su descripción se fusiona en ese texto (`es_imagen=True`); si no, se emite como chunk standalone.
 
-**Table:** exportado a Markdown con `export_to_markdown()`. Se eligió Markdown sobre HTML porque es 3-4× más eficiente en tokens y produce el mismo resultado para el LLM y los embeddings. Las tablas con celdas fusionadas (merged cells) se marcan con `tabla_degradada=True` detectando el patrón `\|\s{10,}\|` en el Markdown resultante. Si la tabla está degradada y `ENABLE_VISION=1`, se llama a GPT-4o para obtener una descripción más fiel de la tabla. Las tablas son siempre `indivisible=True` — el chunker no las subdivide.
+### Chunking jerárquico
 
-**PictureItem:** la primera imagen de cada documento se descarta siempre (logo corporativo de Intecsa). Para el resto, cadena de fallback para obtener descripción:
-1. `DescriptionAnnotation` de Docling (si Docling usó `PictureDescriptionApiOptions` — actualmente desactivado).
-2. GPT-4o vision (si `ENABLE_VISION=1`): prompt `PROMPT_IMAGEN_CONTENIDO` para imágenes de contenido general; `PROMPT_IMAGEN_EJEMPLO` para imágenes donde el texto adyacente sugiere "ejemplo/example".
-3. Si ninguna opción disponible → imagen descartada silenciosamente.
+**Por qué:** un chunk de 128 tokens es preciso para retrieval pero demasiado corto como contexto para el LLM. El modelo padre-hijo combina precisión en la búsqueda con contexto amplio en la respuesta.
 
-Regla de fusión: si la imagen está en la misma página que el `ElementoProcesado` anterior (NarrativeText o ListItem), su descripción se añade al texto anterior como `[Descripción visual: ...]` y se marca `es_imagen=True`. Si no hay elemento anterior en la misma página y `ENABLE_VISION=1`, se emite como chunk standalone de tipo `Image`.
+**Cómo:** `chunker.py` pre-segmenta los elementos por tipo y sección (para evitar que un parent mezcle una tabla con prosa de otra sección), luego aplica `HierarchicalNodeParser` de LlamaIndex:
 
-### Penalización de chunks de anexos
+- **Child (~128 tokens):** indexado con embeddings en la colección principal. Usado para retrieval.
+- **Parent (~1024 tokens):** almacenado sin embeddings en la colección `__parents`. Recuperado por ID cuando se encuentra un child relevante, para dar contexto ampliado al LLM.
+- **Tablas:** siempre un único chunk con `parent_id=""`. La tabla completa es su propio contexto — no tiene sentido subdividirla.
+- **Parents huérfanos:** si el texto es < 128 tokens y LlamaIndex no puede generar un child distinto, se indexa solo el parent (con embeddings) en la colección principal, con `parent_id=""`.
 
-Pendiente de implementación: los chunks con `dentro_de_anexo=True` recibirán un factor de penalización de 0.7 aplicado post-rerank sobre el score de Cohere. No se excluyen del retrieval pero son menos competitivos frente a chunks del cuerpo principal. El valor es calibrable con el banco de queries de prueba.
+Se eligió 1024 tokens para el parent (probado con 512): con 512 el Context Relevance cayó significativamente — los fragmentos eran demasiado cortos para preguntas que requieren contexto de sección completa.
 
-El system prompt incluirá la instrucción de indicarle al usuario cuando la información procede de un anexo.
+### Indexación en ChromaDB
 
-### Hierarchical chunking
+**Por qué dos colecciones:** los parents más largos contaminarían el espacio vectorial y distorsionarían el ranking de similitud si se indexaran junto a los children.
 
-Pre-segmentación antes del parser: `chunker.py` agrupa los `ElementoProcesado` en segmentos respetando dos fronteras — cambio de tipo (prosa vs. tabla) y cambio de sección. Esto impide que un parent mezcle secciones distintas y trata los elementos indivisibles (tablas) por separado.
+**Cómo:** `vector_store.py` crea dos colecciones por scope:
+- `{nombre}` — children con embeddings (métrica coseno). También recibe parents huérfanos.
+- `{nombre}__parents` — parents sin embeddings, solo para recuperación por ID.
 
-**Chunking de prosa:** se aplica `HierarchicalNodeParser` de LlamaIndex con solapamiento de 20 tokens:
+El texto embebido es distinto del texto almacenado. El embedding incluye prefijos de contexto:
+```
+{tipo_doc}\n\n{codigo_doc}\n\n{titulo_documento}\n\n{seccion}\n\n{texto_chunk}
+```
+El texto almacenado en ChromaDB es solo `chunk.texto`. Esta separación es clave: el embedding captura contexto del documento completo, el texto almacenado es lo que lee el LLM.
 
-- **Child chunks (~128 tokens):** indexados con embeddings, usados para retrieval preciso.
-- **Parent chunks (~512 tokens):** recuperados por ID cuando se encuentra un child relevante, proporcionan contexto ampliado para la respuesta.
-- Los tamaños son configurables vía `CHILD_CHUNK_TOKENS` y `PARENT_CHUNK_TOKENS` en `.env`.
-- Si LlamaIndex no puede subdividir un segmento (texto < 128 tokens), el child idéntico al parent se descarta — solo se indexa el parent.
-- Los parents se emiten antes que sus hijos en la salida JSON para mantener orden narrativo.
+- **`codigo_doc`** (ej: `PR-02`): embebe el código del fichero. Mejora el retrieval para queries que mencionan códigos explícitos.
+- **`titulo_documento`**: ancla el chunk al documento. Reduce el problema de secciones homólogas (OBJETO, FUNCIONES, RESPONSABILIDADES aparecen en todos los procedimientos con embeddings casi idénticos).
+- **`tipo_doc`**: diferencia procedimientos de instrucciones con secciones del mismo nombre.
 
-**Tablas:** se emiten como un único chunk de nivel `child` con `parent_id=None`. No tienen parent porque la tabla completa es su propio contexto — un parent idéntico no aportaría nada al LLM. Cuando el retrieval recupera un chunk de tabla con `parent_id=None`, lo pasa directamente al LLM sin expansión.
+Requiere reingesta cuando se modifica este formato.
 
-**Propagación de metadatos:** los metadatos de sección, flags de tipo y páginas se adjuntan al `Document` de LlamaIndex y se excluyen del conteo de tokens del LLM y los embeddings (`excluded_llm_metadata_keys`, `excluded_embed_metadata_keys`). Se propagan automáticamente a todos los nodos (parents e hijos).
+ChromaDB Cloud limita `col.get()` a 300 items por llamada. La indexación y el índice BM25 paginan en bloques de 300 — sin paginación el índice solo cubría el 41% del corpus.
 
 ---
 
-## Modelo de metadatos
+## Pipeline de retrieval
 
-Cada chunk indexado en ChromaDB lleva 20 metadatos. ChromaDB requiere tipos primitivos (str/int/float/bool) — las listas se serializan como strings separados por comas; los campos ausentes usan -1 (enteros) o "" (strings). La serialización se hace en `vector_store.py → _meta_chunk()`.
-
-| Campo | Tipo | Origen | Descripción |
-|---|---|---|---|
-| `doc_id` | str | Pipeline | UUID generado en el momento de la ingesta — identificador interno único del documento |
-| `nombre_fichero` | str | Pipeline | Nombre del fichero PDF original |
-| `titulo_documento` | str | Docling (regex cabecera) | Título extraído del primer `SectionHeaderItem` que supera los filtros de longitud y charset. `""` si no se detectó. Mapeado desde `metadatos_documento.titulo` |
-| `version` | str | Docling (regex cabecera) | Edición del documento extraída por regex del texto de cabecera. `""` si no se detectó. Mapeado desde `metadatos_documento.edicion` |
-| `fecha_emision` | str | — | Campo reservado. Actualmente siempre `""` — no se extrae en la beta |
-| `fecha_ingesta` | str | Pipeline | Fecha de procesado en ISO 8601 |
-| `empresa` | str | Administrador | `"intecsa"` o nombre del cliente (e.g. `"repsol"`) |
-| `proyecto_id` | str | Administrador | Código del proyecto (e.g. `"13187"`). `""` si es corpus global |
-| `tipo_doc` | str | Administrador / Pipeline | `procedimiento`, `instruccion_trabajo`, `especificacion`, `informe`, `anexo`. `"anexo"` lo asigna el administrador o el pipeline cuando detecta sección ANEXO/APPENDIX/ANNEX |
-| `idioma` | str | Administrador | Código ISO 639-1 del idioma principal del documento — `"es"`, `"en"`, `"fr"` |
-| `anexo_de` | str | Administrador | Nombre del documento padre si `tipo_doc=="anexo"` (e.g. `"PR-08"`, `"14090-IT-01"`). `""` si no es anexo |
-| `nivel` | str | Pipeline | `"child"` o `"parent"` |
-| `parent_id` | str | Pipeline | UUID del chunk padre. `""` para chunks padre y para tablas |
-| `pagina_inicio` | int | Pipeline | Primera página de los elementos que componen el chunk. `-1` si desconocida |
-| `pagina_fin` | int | Pipeline | Última página de los elementos que componen el chunk. `-1` si desconocida |
-| `seccion` | str | Docling | Título de la sección actual cuando se procesó el elemento. `""` si no hay sección |
-| `tipos_elemento` | str | Pipeline | Tipos de elementos que componen el chunk, separados por coma (`"NarrativeText,ListItem"`, `"Table"`, `"Image"`) |
-| `es_imagen` | bool | Pipeline | `true` si el chunk incorpora una descripción visual (fusión texto+imagen o chunk standalone de imagen) |
-| `dentro_de_anexo` | bool | Pipeline | `true` si el chunk pertenece a una sección cuyo título contiene ANEXO/APPENDIX/ANNEX, o si el administrador declaró `tipo_doc="anexo"` |
-| `tabla_degradada` | bool | Pipeline | `true` si la tabla tiene celdas fusionadas que Docling no pudo separar correctamente. Candidata a re-procesar con vision |
-
-### Nota sobre `empresa` y scopes
-
-El campo `empresa` define el scope. El filtrado multi-scope se expresa como `empresa IN ["intecsa", "nombre_empresa_cliente"]`.
-
-### Organización de colecciones en ChromaDB
-
-- **Corpus global Intecsa:** colección `intecsa` (child) + `intecsa__parents` (parent).
-- **Corpus por proyecto:** colección `{proyecto_id}_{empresa}` (child) + `{proyecto_id}_{empresa}__parents` (parent).
-- Los child chunks llevan embeddings y son los que se buscan por similitud vectorial.
-- Los parent chunks no tienen embeddings — se recuperan por ID para expandir el contexto antes de pasarlo al LLM.
-- El retrieval filtra siempre por colección **antes** de la búsqueda vectorial.
-
----
-
-## Pipeline de retrieval (Fase 1)
-
-Implementado en `backend/app/servicios/retrieval.py`. Función pública única: `recuperar(query, proyecto_id, empresa, tipo_doc, ...)`.
-
-### Pipeline MVP
+**Fichero:** `servicios/retrieval.py` — función pública `recuperar(query, proyecto_id, empresa, ...)`
 
 ```
-query + scope (proyecto_id)
-  │
-  ├── 1. Vector search (ChromaDB, cosine, top-k=20)        ─┐
-  ├── 2. BM25 search   (rank-bm25, en memoria, top-k=20)   ─┤
-  │                                                          │
-  └──►  3. Fusión ponderada (min-max + 0.5/0.5)  ◄──────────┘
-             │
-             ├── 4. Filtro metadatos: scope (colección) + tipo_doc opcional
-             │
-             └──► 5. Rerank con Cohere (rerank-multilingual-v3.0) → top-n=5
-                         │
-                         ▼
-                    list[ChunkRecuperado]
+query → rewriting dual → vector search + BM25 → fusión → rerank Cohere → [ChunkRecuperado]
 ```
 
-### Hybrid search
+### Query rewriting dual
 
-- **Vector:** embeddings `text-embedding-3-small` sobre children; distancia coseno; `col.query(n_results=top_k)`.
-- **BM25:** índice `rank-bm25` construido en memoria la primera vez que se consulta cada colección. Se cachea como singleton por proceso (`_cache_bm25`). Tokenización multilingüe: `\w+` en minúsculas. Tras indexar nuevos documentos hay que llamar a `invalidar_cache_bm25(coleccion)`.
-- **Fusión:** cada retriever normaliza sus scores min-max → [0,1] y se combinan con los pesos `RETRIEVAL_PESO_VECTOR` y `RETRIEVAL_PESO_BM25` del `.env` (default 0.5/0.5). Se conservan las top-k combinadas para pasar al rerank.
+**Por qué:** vector y BM25 se benefician de tipos de expansión distintos. Usar la misma query expandida para ambos dilata el espacio vectorial.
 
-### Filtrado por metadatos
+**Cómo:** `_reescribir_query()` llama a GPT-4o-mini con `PROMPT_REESCRITURA_QUERY` y parsea dos líneas:
+- `VECTOR: <reformulación semántica>` — añade contexto implícito, mejora recall semántico.
+- `BM25: <bolsa de palabras>` — sinónimos léxicos expandidos (ej: `aprueba firma autoriza valida Dirección General`), mejora recall léxico.
 
-- **Scope obligatorio** — el scope (corpus global Intecsa o proyecto concreto) se expresa como la elección de colección ChromaDB; no es un filtro `where` sino la colección sobre la que se busca. Si `proyecto_id=None`, la colección es `intecsa`; si no, `{proyecto_id}_{empresa}`.
-- **`tipo_doc` opcional** — se aplica como cláusula `where` de Chroma en la consulta vectorial y como filtro post-hoc sobre los resultados de BM25. Casos típicos: `tipo_doc="procedimiento"` o `tipo_doc="anexo"`.
+Cohere rerank siempre usa la query **original** para máxima fidelidad a la intención del usuario.
 
-### Reranking
+### Búsqueda híbrida
 
-- **Modelo:** `rerank-multilingual-v3.0` (configurable vía `COHERE_RERANK_MODEL`). Soporta ES/EN/FR nativamente, necesario porque el corpus es multilingüe.
-- **Input:** `query` + los top-k textos fusionados (hasta 20).
-- **Output:** top-n chunks (default 5) con `relevance_score` entre 0 y 1 que sustituye al score de fusión.
+**Por qué:** vector captura semántica, BM25 captura códigos técnicos literales (PR-01, JDAP, IT-02) que el modelo de embeddings puede diluir.
 
-### Parámetros configurables (`.env`)
+**Cómo:**
+1. **Vector:** embedding de `query_vector` con `text-embedding-3-large`, `col.query(n_results=top_k)` sobre la colección del scope. Distancia coseno.
+2. **BM25:** índice `BM25Okapi` construido lazy la primera vez, cacheado en memoria por colección. Tokenización preserva códigos con guión (`PR-01`, `IT-02`). El índice tokeniza `titulo_documento + seccion + texto` por chunk. `_reescribir_query` produce `query_bm25` para este paso.
+3. **Fusión:** scores normalizados min-max [0,1], combinados con pesos `VECTOR=0.7 / BM25=0.3`. Top-K candidatos pasan al rerank.
 
-| Variable | Default | Descripción |
-|---|---|---|
-| `RETRIEVAL_TOP_K` | 20 | Candidatos tras la fusión, antes del rerank |
-| `RETRIEVAL_TOP_N` | 5 | Chunks finales devueltos al orquestador |
-| `RETRIEVAL_PESO_VECTOR` | 0.5 | Peso de la señal vectorial en la fusión |
-| `RETRIEVAL_PESO_BM25` | 0.5 | Peso de la señal BM25 en la fusión |
-| `COHERE_API_KEY` | — | Clave de Cohere (obligatoria si se usa rerank) |
-| `COHERE_RERANK_MODEL` | `rerank-multilingual-v3.0` | Modelo de rerank |
+Pesos calibrados: el corpus técnico de Intecsa tiene terminología consistente — el vector domina. BM25 complementa para identificadores literales.
+
+### Rerank con Cohere
+
+**Por qué:** los scores de fusión híbrida no son comparables entre sí ni reflejan bien la relevancia real. Cohere reordena según relevancia semántica a la query original.
+
+**Cómo:** `co.rerank(model="rerank-multilingual-v3.0", query=query_original, documents=textos_top_k, top_n=3)`. Devuelve `ChunkRecuperado` con `score=relevance_score` de Cohere.
+
+`RETRIEVAL_TOP_N=3` (reducido de 5): con 5 chunks el LLM veía contexto de documentos incorrectos y mezclaba respuestas.
 
 ### Expansión a parents
 
-No está en el módulo de retrieval. Los `ChunkRecuperado` devueltos son children y exponen `parent_id` en sus metadatos; el orquestador de `/query` se encargará de hacer `get(ids=[parent_id])` sobre la colección `{nombre}__parents` para expandir el contexto antes de pasarlo al LLM. Los chunks de tabla (`parent_id=""`) se pasan tal cual al LLM sin expansión.
+**Por qué:** el retrieval encuentra children precisos pero el LLM necesita más contexto para responder.
 
-### Fase 2 (pospuesta)
-
-Las siguientes técnicas se evaluarán tras medir la baseline y no están implementadas:
-
-- **Query rewriting** con GPT-4o-mini para clarificar queries vagas.
-- **Sentence window retrieval** para añadir contexto adyacente al chunk recuperado.
-- **Penalización de anexos** con factor × 0.7 sobre el score post-rerank.
-
-### Evaluación
-
-- **Métricas:** Recall@5, MRR, nDCG@5.
-- **Test set:** 50–100 pares `(query, ground_truth)` construidos a partir del corpus Intecsa.
-- **Enfoque:** baseline vector-only → añadir BM25 → añadir rerank → medir delta en cada paso para justificar cada técnica.
+**Cómo:** `query.py → _expandir_parents()` hace `col.get(ids=[parent_ids])` sobre la colección `__parents` y sustituye cada child por su parent. Tablas (`parent_id=""`) se pasan directamente sin expansión. La expansión ocurre en el orquestador, no en el módulo de retrieval.
 
 ---
 
-## API (FastAPI)
+## Generación de respuesta
 
-### Endpoints planificados
+**Fichero:** `servicios/query.py`
 
-- `POST /query` — recibe la pregunta, el scope opcional y el historial. Devuelve respuesta en streaming SSE con la respuesta, las fuentes, el scope inferido y la confianza.
-- `GET /projects` — lista de proyectos disponibles para el usuario.
-- `POST /ingest` — recibe un PDF y los metadatos del administrador (empresa, proyecto_id, tipo_doc, idioma). Solo accesible por el administrador.
-- `GET /health` — estado del sistema.
+### Contexto XML
 
-### Estado actual de implementación
+**Por qué XML:** GPT-4o está entrenado masivamente con XML y lo reconoce como delimitador estructural, no como texto citable. El atributo `doc=` permite al LLM identificar la procedencia sin que los metadatos contaminen el texto recuperable.
 
-Solo `GET /health` está implementado (`{"status": "ok"}`). El resto se implementa a medida que avanzan las fases del pipeline. Título de la app FastAPI: "IntecsaRAG" v0.1.0.
+**Cómo:** `_construir_contexto()` envuelve cada chunk:
+```xml
+<fuente id="1" doc="PR-02" edicion="8" seccion="Procedimientos Generales" paginas="3">
+texto del chunk
+</fuente>
+```
 
-### Notas de implementación
-- `/query` usa streaming SSE con `StreamingResponse` de FastAPI.
-- El clasificador del router devuelve un JSON con scope, tipo y confianza. Si la confianza está por debajo del umbral, se devuelve una pregunta de clarificación al usuario.
+Los metadatos completos (doc, título, versión, sección, páginas, score, es_anexo) viajan por separado en el evento `sources` del SSE. El frontend usa ese payload para renderizar los chips — el LLM nunca escribe metadatos en su respuesta.
+
+**Sin marcadores de cita `[N]`:** TruLens penaliza `[1]`, `(PR-01)` como afirmaciones no verificables contra el contexto, hundiendo la métrica Groundedness. La trazabilidad al usuario se resuelve en el frontend.
+
+### Streaming SSE
+
+**Por qué:** el usuario ve tokens progresivamente en lugar de esperar la respuesta completa.
+
+**Cómo:** `_stream_respuesta()` usa `client.chat.completions.create(stream=True)` y emite eventos SSE:
+```
+data: {"type": "token",   "content": "..."}   ← uno por token de GPT-4o
+data: {"type": "sources", "sources": [...]}    ← tras el último token
+data: {"type": "done"}                         ← cierre del stream
+data: {"type": "error",   "message": "..."}    ← solo si falla el LLM
+```
 
 ---
 
-## Frontend (Next.js + shadcn/ui)
+## API — FastAPI
 
-### Layout principal
-- **Sidebar:** lista de scopes disponibles (Global Intecsa + proyectos). Permite selección manual como fallback al router.
-- **Topbar:** muestra el scope inferido y la confianza. El usuario puede corregirlo.
-- **Chat:** mensajes con streaming. Cada respuesta incluye chips de fuente clicables (documento · sección · página).
-- **Caja de clarificación:** cuando el router no tiene suficiente confianza, se muestra un bloque con opciones para que el usuario elija el scope.
+**Estructura:** routers separados en `app/api/` (health.py, projects.py, query.py). `main.py` solo registra routers y configura CORS. Permite `localhost:3000–3009` en dev.
 
-### Despliegue
-Azure Static Web Apps con conexión directa a la API en Azure Container Apps.
+**`GET /projects`:** llama a `colecciones_disponibles()` de `vector_store.py` y parsea los nombres: `intecsa` → scope global; `{proyecto_id}_{empresa}` → scope de proyecto. Filtra colecciones `__parents`.
+
+**`POST /query`:** recibe `{query, proyecto_id, empresa, tipo_doc}` y devuelve `StreamingResponse` con `media_type="text/event-stream"`.
 
 ---
 
-## Scripts de ingesta
+## Frontend — Next.js 14
 
-- `ingest_test.py`: 7 documentos representativos que cubren todos los casos del pipeline (tablas, imágenes, anexos, multiidioma). Uso para validación antes de indexar el corpus completo.
-- `ingest_all.py`: ingesta del corpus completo con descubrimiento automático vía manifesto. Auto-detecta idioma (inglés/francés en el nombre de fichero), tipo anexo (ANEXO en el nombre), y proyecto (carpeta `{proyecto_id}_{empresa}/`). Soporta modo `--dry-run` para validar sin subir a ChromaDB y salida JSON para inspección manual.
-- `ingest_one.py`: ingesta de un único documento pasando la ruta directa al PDF. Los metadatos (tipo, idioma, empresa, proyecto) se infieren del nombre del fichero o se especifican con flags (`--tipo`, `--idioma`, `--empresa`, `--proyecto`, `--anexo-de`).
-- `inspect_docling.py`: herramienta de debug que muestra el resultado del parseo de Docling con salida coloreada por tipo de elemento.
+**Ficheros:** `app/page.tsx`, `components/Sidebar.tsx`, `components/ChatArea.tsx`, `components/ChatMessage.tsx`, `components/SourceChip.tsx`, `lib/api.ts`
+
+### Decisiones de implementación
+
+**Babel en lugar de SWC:** Node.js 18.19.1 en dev local es incompatible con el binario SWC de Next.js 14 (SIGBUS al cargar el `.node` nativo). Se usa Babel (`next/babel` en `.babelrc`) con `@babel/runtime` instalado localmente para evitar que webpack resuelva la versión del sistema en `/usr/share/nodejs/`. En producción (Azure, Node 20+) se puede eliminar `.babelrc`.
+
+**`fetch` en lugar de `EventSource`:** `EventSource` no admite POST con body. El streaming SSE se lee con `ReadableStreamDefaultReader` en `lib/api.ts::streamQuery()`, parseando líneas `data: {...}` del buffer.
+
+**Estado de scope en `page.tsx`:** el scope activo se gestiona en el componente raíz para que Sidebar y ChatArea compartan la misma fuente de verdad. Al cambiar scope, ChatArea limpia el historial de mensajes (via `useEffect` sobre `scope.coleccion`).
+
+**Chips de fuente:** badge azul para fuentes normales, ámbar para `es_anexo=true`. Tooltip con `titulo · seccion · páginas` al hover usando Radix UI Tooltip (sin `EventSource`). Los chips se muestran al recibir el evento `sources`, una vez finalizado el streaming.
+
+**Sidebar:** llama a `GET /projects` al montar. Agrupa scopes por empresa (sección "General" para el corpus global, sección `{Empresa}` para proyectos). Usa `Building2` y `FolderOpen` de lucide-react para diferenciar visualmente.
 
 ---
 
 ## Evaluación con TruLens
 
-Script `scripts/eval_trulens.py` — evalúa la calidad del sistema RAG usando la tríada RAG estándar.
+**Fichero:** `scripts/eval_trulens.py`
 
-### Instalación
+**Por qué TruLens:** evalúa automáticamente la tríada RAG (Context Relevance, Answer Relevance, Groundedness) usando GPT-4o como juez, sin necesidad de ground truth manual.
 
-```bash
-pip install trulens trulens-providers-openai
-```
+**Cómo:** `RAGPipeline` es una clase síncrona instrumentada por TruLens que envuelve el pipeline real. El endpoint SSE no se puede instrumentar directamente (TruLens requiere funciones síncronas y respuesta completa). `recuperar_contexto()` guarda los chunks completos en `self._last_chunks` antes de devolver `list[str]` a TruLens — `generar_respuesta()` los usa para construir el contexto XML con metadatos correctos.
 
-### Métricas evaluadas
+**Banco de 10 queries** basadas en datos concretos de los documentos (no secciones genéricas). 7 del corpus global Intecsa + 3 del proyecto Repsol. Queries sobre secciones homólogas (OBJETO, FUNCIONES) se excluyen porque deprimen AR artificialmente.
 
-| Métrica | Descripción |
-|---|---|
-| **Context Relevance** | ¿Es el contexto recuperado relevante para la pregunta? |
-| **Answer Relevance** | ¿Es la respuesta relevante para la pregunta? |
-| **Groundedness** | ¿Está la respuesta fundamentada en el contexto recuperado? |
+**Rate limit:** 30k TPM (tier 1 OpenAI). Cada query consume ~15-20k tokens (respuesta + 3 feedbacks) → 1 query cada 18s. `eval_trulens.py --reset` para borrar evaluaciones anteriores.
 
-Las tres métricas las evalúa GPT-4o automáticamente. Cada query del banco cuesta ~3× llamadas adicionales a la API.
-
-### Uso
-
-```bash
-# Evaluar corpus global Intecsa + dashboard en http://localhost:8501
-python scripts/eval_trulens.py
-
-# Sin dashboard (solo imprime resultados en terminal)
-python scripts/eval_trulens.py --no-dashboard
-
-# Borrar evaluaciones anteriores y re-evaluar
-python scripts/eval_trulens.py --reset
-
-# Evaluar scope de proyecto
-python scripts/eval_trulens.py --proyecto 13187 --empresa repsol
-```
-
-### Banco de queries
-
-Definido en `QUERIES` dentro del script. Cubre:
-- Preguntas factuales sobre procedimientos generales
-- Preguntas que requieren consultar tablas de permisos
-- Preguntas sobre estructura de proyectos EPC
-- Preguntas en scope de proyecto cliente (Repsol 13187)
-
-Para añadir queries al banco, editar la lista `QUERIES` en el script siguiendo el formato `{pregunta, proyecto_id, empresa}`.
-
-### Arquitectura de instrumentación
-
-TruLens instrumenta la clase `RAGPipeline` (en el script) que envuelve el pipeline real:
-- `recuperar_contexto()` → llama a `retrieval.recuperar()` + `_expandir_parents()`
-- `generar_respuesta()` → llama a OpenAI con el mismo SYSTEM_PROMPT que el endpoint `/query`
-- `query()` → orquesta ambos (punto de entrada)
-
-El endpoint SSE (`/query`) no se instrumenta directamente porque TruLens requiere funciones síncronas y respuesta completa (no streaming).
+**GR cae con marcadores de cita:** TruLens penaliza `[1]`, `(PR-01)` como afirmaciones no verificables. El SYSTEM_PROMPT de producción no usa marcadores.
 
 ---
 
-## Notas para el desarrollo
+## Pendiente de implementar
 
-- Validar el pipeline con `ingest_test.py` (7 docs) antes de lanzar `ingest_all.py` sobre el corpus completo.
-- Documentar el umbral de confianza del router: hiperparámetro a calibrar con un banco de 20-30 queries con scope esperado.
-- El reranker usa Cohere Rerank (`rerank-multilingual-v3.0`) sobre los top-K fragmentos fusionados. La penalización × 0.7 para chunks con `dentro_de_anexo=True` aún no está implementada — pendiente tras medir la baseline.
-- Para activar descripción de imágenes y extracción de metadatos de portada: `ENABLE_VISION=1` en `.env`. Requiere `OPENAI_API_KEY` válida.
-- Para demos sin despliegue: arrancar FastAPI y Next.js en local y exponer con ngrok para generar una URL pública accesible desde cualquier navegador.
-- La GTX 960M no puede ejecutar los modelos PyTorch de Docling (CUDA CC 5.0 < CC 7.5 mínimo). Docling corre en CPU. Esta restricción no existe en Azure.
+**Query Router** — infiere automáticamente el scope (corpus global vs proyecto) a partir de la pregunta. Incluye extractor de entidades, clasificador con umbral de confianza, pregunta de clarificación cuando la confianza es baja, y topbar en el frontend mostrando el scope inferido con opción de corrección manual.
 
----
+**POST /ingest** — endpoint de administrador para subir PDFs desde la UI con validación de metadatos (empresa, proyecto_id, tipo_doc, idioma).
 
-## Trabajo futuro (versión completa)
+**Filtro por documento para queries explícitas** — cuando la query menciona un código de documento (PR-01, IT-02), pre-filtrar ChromaDB por `nombre_fichero` antes del retrieval vectorial. Mitiga el problema de secciones homólogas para este tipo de queries.
 
-Las siguientes funcionalidades están excluidas de la beta y se implementarán en la versión completa:
+**Citas filtradas** — mostrar solo los chips de las fuentes que el LLM usó realmente. Requiere añadir marcadores `[N]` al SYSTEM_PROMPT de producción (desacoplado del prompt de evaluación para no afectar a Groundedness).
 
-- Procesado sistemático de imágenes y diagramas con GPT-4o vision en todos los documentos.
-- Comparativa con fuentes externas mediante búsqueda web (Tavily).
-- Indexación de normativas externas (ISO, EN, UNE, ASME).
-- Tratamiento de contratos con deduplicación semántica.
-- Soporte para documentos escaneados con OCR.
-- Corpus ampliado: contratos, normativas, presentaciones, planos.
-- Re-procesado de tablas degradadas (`tabla_degradada=True`) con GPT-4o vision.
+### Fuera del alcance de la beta
+
+- GPT-4o vision para todas las imágenes (actualmente solo tablas degradadas).
+- Búsqueda web externa (Tavily).
+- Normativas externas (ISO, EN, UNE, ASME).
+- Documentos escaneados con OCR.
+- Diagramas P&ID completos procesados como imagen.
+- Contratos con deduplicación semántica.

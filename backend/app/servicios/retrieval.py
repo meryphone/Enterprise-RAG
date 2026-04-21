@@ -29,6 +29,7 @@ from openai import OpenAI
 from rank_bm25 import BM25Okapi
 
 from app.config import SETTINGS
+from app.procesamiento.prompts import PROMPT_REESCRITURA_QUERY
 from app.servicios.vector_store import get_chroma, nombre_coleccion
 
 logger = logging.getLogger(__name__)
@@ -51,8 +52,12 @@ _cache_bm25: dict[str, _IndiceBM25] = {}
 
 
 def _tokenizar(texto: str) -> list[str]:
-    """Tokenización multilingüe: lowercase + word-boundary."""
-    return re.findall(r"\w+", texto.lower(), flags=re.UNICODE)
+    """Tokenización multilingüe que preserva códigos técnicos con guión.
+
+    Primero captura patrones tipo PR-01, IT-02, JDAP (letras+guión+dígitos),
+    luego palabras normales. Esto evita que BM25 parta 'PR-01' en 'pr' y '01'.
+    """
+    return re.findall(r"[A-Za-z]{1,6}-\d+|[A-Za-z0-9_\u00C0-\u017E]+", texto.lower())
 
 
 def _get_indice_bm25(coleccion: str) -> _IndiceBM25:
@@ -61,23 +66,49 @@ def _get_indice_bm25(coleccion: str) -> _IndiceBM25:
     Se hace singleton por proceso. Si se indexan nuevos documentos en la
     colección después de construir el índice, hay que invalidar con
     `invalidar_cache_bm25(coleccion)`.
+
+    ChromaDB Cloud limita col.get() a 300 items por llamada. Se pagina
+    en bloques de 300 hasta cargar todos los chunks.
     """
     if coleccion in _cache_bm25:
         return _cache_bm25[coleccion]
 
     chroma = get_chroma()
     col = chroma.get_collection(name=coleccion)
-    data = col.get()  # ids, documents, metadatas
 
-    ids = data.get("ids") or []
-    textos = data.get("documents") or []
-    metadatas = data.get("metadatas") or [{} for _ in ids]
+    _PAGE = 300
+    ids: list[str] = []
+    textos: list[str] = []
+    metadatas: list[dict] = []
+    offset = 0
+    while True:
+        data = col.get(limit=_PAGE, offset=offset)
+        batch_ids = data.get("ids") or []
+        if not batch_ids:
+            break
+        ids.extend(batch_ids)
+        textos.extend(data.get("documents") or [])
+        metas = data.get("metadatas") or [{} for _ in batch_ids]
+        metadatas.extend(metas)
+        if len(batch_ids) < _PAGE:
+            break
+        offset += _PAGE
 
     if not textos:
         # Colección vacía — devolver índice trivial para evitar errores
         bm25 = BM25Okapi([[""]])
     else:
-        tokens = [_tokenizar(t or "") for t in textos]
+        tokens = []
+        for texto, meta in zip(textos, metadatas):
+            partes = []
+            titulo = (meta or {}).get("titulo_documento", "") or ""
+            seccion = (meta or {}).get("seccion", "") or ""
+            if titulo:
+                partes.append(titulo)
+            if seccion:
+                partes.append(seccion)
+            partes.append(texto or "")
+            tokens.append(_tokenizar(" ".join(partes)))
         bm25 = BM25Okapi(tokens)
 
     indice = _IndiceBM25(ids=ids, textos=textos, metadatas=metadatas, bm25=bm25)
@@ -105,6 +136,46 @@ def _embedding_query(texto: str) -> list[float]:
     client = OpenAI(api_key=SETTINGS.openai_api_key)
     resp = client.embeddings.create(input=[texto], model=SETTINGS.embedding_model)
     return resp.data[0].embedding
+
+
+# ---------------------------------------------------------------------------
+# Query rewriting
+# ---------------------------------------------------------------------------
+
+
+def _reescribir_query(query: str) -> tuple[str, str]:
+    """Produce dos variantes de la query vía GPT-4o-mini.
+
+    Devuelve (query_vector, query_bm25):
+    - query_vector: reformulación semántica para embedding.
+    - query_bm25: bolsa de palabras con sinónimos para búsqueda léxica.
+    Ambas caen back a la query original si la llamada falla o el formato es inesperado.
+    """
+    try:
+        client = OpenAI(api_key=SETTINGS.openai_api_key)
+        resp = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": PROMPT_REESCRITURA_QUERY},
+                {"role": "user", "content": query},
+            ],
+            max_tokens=180,
+            temperature=0.0,
+        )
+        texto = resp.choices[0].message.content.strip()
+        q_vector = query
+        q_bm25 = query
+        for line in texto.splitlines():
+            if line.startswith("VECTOR:"):
+                q_vector = line[len("VECTOR:"):].strip() or query
+            elif line.startswith("BM25:"):
+                q_bm25 = line[len("BM25:"):].strip() or query
+        logger.info("Query vector: %r", q_vector)
+        logger.info("Query BM25:   %r", q_bm25)
+        return q_vector, q_bm25
+    except Exception as e:
+        logger.warning("Query rewriting falló, usando query original: %s", e)
+    return query, query
 
 
 # ---------------------------------------------------------------------------
@@ -171,11 +242,15 @@ def recuperar(
     coleccion = nombre_coleccion(empresa, proyecto_id)
     where = {"tipo_doc": tipo_doc} if tipo_doc else None
 
+    # Vector usa la reformulación semántica; BM25 usa la bolsa de palabras.
+    # Rerank usa la query original para máxima fidelidad a la intención.
+    query_vector, query_bm25 = _reescribir_query(query)
+
     chroma = get_chroma()
     col = chroma.get_collection(name=coleccion)
 
-    # ── 1. Búsqueda vectorial ────────────────────────────────────────────
-    emb = _embedding_query(query)
+    # ── 1. Búsqueda vectorial (reformulación semántica) ──────────────────
+    emb = _embedding_query(query_vector)
     res_vec = col.query(
         query_embeddings=[emb],
         n_results=top_k,
@@ -206,8 +281,7 @@ def recuperar(
         return True
 
     if indice.ids:
-        # Calcular puntuación BM25 para cada chunk de la coleccion respecto a la query
-        puntuaciones_bm25 = indice.bm25.get_scores(_tokenizar(query))
+        puntuaciones_bm25 = indice.bm25.get_scores(_tokenizar(query_bm25))
 
         # Crear lista de (posición, puntuación) solo con chunks que pasan el filtro
         chunks_con_puntuacion = []
@@ -259,6 +333,7 @@ def recuperar(
     textos_rerank = [cache_docs[cid][0] for cid, *_ in fusion]
 
     co = cohere.Client(api_key=SETTINGS.cohere_api_key)
+    # Rerank usa la query original para máxima fidelidad a la intención del usuario
     resp = co.rerank(
         model=SETTINGS.cohere_rerank_model,
         query=query,
@@ -286,4 +361,13 @@ def recuperar(
         "recuperar(q=%r, scope=%s, tipo_doc=%s) → %d chunks",
         query[:60], coleccion, tipo_doc, len(resultados),
     )
+    for i, r in enumerate(resultados, 1):
+        logger.debug(
+            "  [%d] score=%.3f  doc=%s  sec=%s  texto=%r",
+            i,
+            r.score,
+            r.metadatos.get("nombre_fichero", "?"),
+            r.metadatos.get("seccion", "?")[:50],
+            r.texto[:80],
+        )
     return resultados

@@ -1,5 +1,5 @@
 {
-  "doc_id": "1761260bd6aa42ca970d491cf5432743",
+  "doc_id": "bdd8748ca6e94b12bed28c246e37f4a0",
   "nombre_fichero": "16055-IT-01.pdf",
   "metadatos_admin": {
     "empresa": "enip",
@@ -13,10 +13,10 @@
     "edicion": null,
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T20:53:56+00:00",
+  "fecha_ingesta": "2026-04-20T22:11:55+00:00",
   "chunks": [
     {
-      "chunk_id": "f9e51e13-f72e-4895-876d-e520e0788681",
+      "chunk_id": "f3220f46-432e-424f-8810-c8f58ea0c993",
       "texto": "El objeto del presente documento es la descripción del procedimiento de uso del Portal de IUI en el proyecto 16055 - ENIP ARGELIA.\n\nEn particular se incidirá en los siguientes aspectos:\n\n-Organización del archivo electrónico del proyecto en el portal.\n\n-Acceso a la información por parte de los distintos participantes en el proyecto: (personal de las oficinas de IUI, cliente, socios, proveedores, obra).\n\n-Responsabilidades en la introducción de los documentos.",
       "nivel": "parent",
       "parent_id": null,
@@ -32,7 +32,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "086635eb-e4db-45da-bff9-9d4b712c0e18",
+      "chunk_id": "b14a80df-96a9-47b2-8f42-ca02de705933",
       "texto": "IUI dispone de un Portal que constituye el punto de acceso a la información de la compañía. El portal de IUI está regido por Documentum 4i, un Sistema de Gestión Electrónica de Documentos que presenta las siguientes características y funcionalidades:\n\nSistema orientado a Intranet / Internet: permite crear, modificar y buscar documentos a través de un navegador estándar (Internet Explorer p.e.). El que se trate de un entorno web, permite facilitar el acceso a la información a través de Internet.\n\nCatalogación de la información: para cada documento se cumplimentan una serie de atributos o propiedades (número de documento, título, autor, etc.) que facilitan la rápida localización de los documentos deseados mediante utilidades de búsqueda.\n\nFácil acceso a la información: la aplicación está dotada de herramientas de búsqueda basadas en los atributos asociados a los documentos. Por otro lado, dentro de la estructura de directorios (carpetas) en la que está organizada la información, el sistema permite   realizar   enlaces   haciendo   que   un   mismo   documento   sea   accesible   desde distintas localizaciones (desde distintas carpetas) sin necesidad de duplicar archivos.\n\nIntegridad y seguridad de la información: el   sistema incorpora procedimientos de seguridad basados en listas de control de acceso (ACL: access control list), las cuales son aplicables individualmente a carpetas y documentos definiendo qué privilegios tiene cada usuario sobre ellos (ver, editar, borrar, etc.). De esta forma, se garantiza que cada usuario accede únicamente a la información a la que tiene derecho. Asimismo, se evita el riesgo de borrados involuntarios.\n\nMantenimiento y control de versiones: a   la   hora   de   modificar   un   documento   del sistema   existe   la   opción   de   sobrescribirlo   (perdiendo   el   documento   original)   o   de conservarlo, añadiendo el nuevo documento como versión del documento inicial. Ello\n\nposibilita el mantenimiento de un histórico de ediciones de los documentos, de modo que el sistema nos muestra la última versión pero nos permite acceder a las anteriores.\n\nMensajería electrónica : la aplicación permite el envío de mensajes entre usuarios con documentos del sistema asociados a dichos mensajes.\n\nGestión de ciclos de vida y de flujos de trabajo (workflows): el sistema permite atribuir ciclos de vida a los documentos entendidos éstos como una sucesión de estados por los que atraviesa el documento desde su creación hasta su publicación y distribución una vez aprobados. Asimismo, es posible la automatización de flujos documentales en los que se especifica por qué usuarios y en qué orden ha de pasar cada documento para su revisión, aprobación o simplemente para información. Las sucesivas revisiones y aprobaciones quedan registradas en el sistema.\n\nSoporte multiformato: el sistema permite incluir los documentos en el formato con que son creados. Adicionalmente, es posible guardar los documentos en varios formatos siendo de especial interés la publicación de documentos tanto en su formato original como en formato PDF, formato estándar que garantiza que cualquier usuario puede visualizar el documento sin necesidad de tener instalada la aplicación con la que ha sido generado.",
       "nivel": "parent",
       "parent_id": null,
@@ -48,10 +48,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3cddb9ad-86e0-4147-ade0-5bcd7984889d",
+      "chunk_id": "6f364924-1e5e-4d1b-88a4-1d34512a92e5",
       "texto": "IUI dispone de un Portal que constituye el punto de acceso a la información de la compañía. El portal de IUI está regido por Documentum 4i, un Sistema de Gestión Electrónica de Documentos que presenta las siguientes características y funcionalidades:\n\nSistema orientado a Intranet / Internet: permite crear, modificar y buscar documentos a través de un navegador estándar (Internet Explorer p.e.). El que se trate de un entorno web, permite facilitar el acceso a la información a través de Internet.\n\nCatalogación de la información: para cada documento se cumplimentan una serie de atributos o propiedades (número de documento, título, autor, etc.) que facilitan la rápida localización de los documentos deseados mediante utilidades de búsqueda.\n\nFácil acceso a la información: la aplicación está dotada de herramientas de búsqueda basadas en los atributos asociados a los documentos.",
       "nivel": "child",
-      "parent_id": "086635eb-e4db-45da-bff9-9d4b712c0e18",
+      "parent_id": "b14a80df-96a9-47b2-8f42-ca02de705933",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. INTRODUCCIÓN",
@@ -64,10 +64,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4b97aac4-4d7f-4c33-bd0f-1dfe97b4f4f1",
+      "chunk_id": "6500b7ca-7d67-4784-94b1-842163f373e4",
       "texto": "Por otro lado, dentro de la estructura de directorios (carpetas) en la que está organizada la información, el sistema permite   realizar   enlaces   haciendo   que   un   mismo   documento   sea   accesible   desde distintas localizaciones (desde distintas carpetas) sin necesidad de duplicar archivos.\n\nIntegridad y seguridad de la información: el   sistema incorpora procedimientos de seguridad basados en listas de control de acceso (ACL: access control list), las cuales son aplicables individualmente a carpetas y documentos definiendo qué privilegios tiene cada usuario sobre ellos (ver, editar, borrar, etc.). De esta forma, se garantiza que cada usuario accede únicamente a la información a la que tiene derecho. Asimismo, se evita el riesgo de borrados involuntarios.\n\nMantenimiento y control de versiones: a   la   hora   de   modificar   un   documento   del sistema   existe   la   opción   de   sobrescribirlo   (perdiendo   el   documento   original)   o   de conservarlo, añadiendo el nuevo documento como versión del documento inicial.",
       "nivel": "child",
-      "parent_id": "086635eb-e4db-45da-bff9-9d4b712c0e18",
+      "parent_id": "b14a80df-96a9-47b2-8f42-ca02de705933",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. INTRODUCCIÓN",
@@ -80,10 +80,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "92693573-70d1-42ad-9bf3-d6c09942e9eb",
+      "chunk_id": "1e87c5ed-5976-4b6e-bd05-1f509d70e3ed",
       "texto": "Ello\n\nposibilita el mantenimiento de un histórico de ediciones de los documentos, de modo que el sistema nos muestra la última versión pero nos permite acceder a las anteriores.\n\nMensajería electrónica : la aplicación permite el envío de mensajes entre usuarios con documentos del sistema asociados a dichos mensajes.\n\nGestión de ciclos de vida y de flujos de trabajo (workflows): el sistema permite atribuir ciclos de vida a los documentos entendidos éstos como una sucesión de estados por los que atraviesa el documento desde su creación hasta su publicación y distribución una vez aprobados. Asimismo, es posible la automatización de flujos documentales en los que se especifica por qué usuarios y en qué orden ha de pasar cada documento para su revisión, aprobación o simplemente para información. Las sucesivas revisiones y aprobaciones quedan registradas en el sistema.\n\nSoporte multiformato: el sistema permite incluir los documentos en el formato con que son creados.",
       "nivel": "child",
-      "parent_id": "086635eb-e4db-45da-bff9-9d4b712c0e18",
+      "parent_id": "b14a80df-96a9-47b2-8f42-ca02de705933",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. INTRODUCCIÓN",
@@ -96,10 +96,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f5ffb78d-47a9-4526-a45f-8b1244e6ff23",
+      "chunk_id": "e18aca0b-5f52-460e-81df-6f42d98ed611",
       "texto": "Adicionalmente, es posible guardar los documentos en varios formatos siendo de especial interés la publicación de documentos tanto en su formato original como en formato PDF, formato estándar que garantiza que cualquier usuario puede visualizar el documento sin necesidad de tener instalada la aplicación con la que ha sido generado.",
       "nivel": "child",
-      "parent_id": "086635eb-e4db-45da-bff9-9d4b712c0e18",
+      "parent_id": "b14a80df-96a9-47b2-8f42-ca02de705933",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. INTRODUCCIÓN",
@@ -112,7 +112,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "529a48f4-e89f-42c6-aea5-651d4729c929",
+      "chunk_id": "34d9b06d-f0a5-4ffb-9886-51175b8642fa",
       "texto": "Todos los documentos del proyecto son incluidos en el Portal de Intranet de IUI, en el cual existe un área específica para la documentación asociada al proyecto.\n\nComo documentos del proyecto serán incluidos en el portal:\n\n-Documentos proporcionados por el cliente: especificaciones y estándares, planos de las instalaciones pre-existentes, etc.",
       "nivel": "parent",
       "parent_id": null,
@@ -128,7 +128,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "29542b06-9892-4598-8cb8-46743ed5c9c0",
+      "chunk_id": "01c347ac-dd08-418d-9ce5-aa210b891f73",
       "texto": "o Documentos de ingeniería: planos, especificaciones, hojas de datos, etc\n\no  Documentos de compras y de subcontratos de construcción: peticiones de oferta, tabulaciones económicas, pedidos, etc.\n\no  Documentos de planificación y control del proyecto: planificaciones, curvas de avance, informes de costes, etc.\n\no Documentos generales: informes   de   progreso,   actas   de   reunión,   plan   de calidad, etc.\n\n-Documentos provenientes de los proveedores enviados para la aprobación y los comentarios de IUI .\n\nLos documentos son introducidos en el Portal de Intranet por personal de  IUI, quedando disponibles para su uso en toda la organización siendo posible definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad. Periódicamente, en principio una vez al día, es realizada una copia de contenidos de Internet la Intranet a Internet, para hacerlos accesibles a través de la página web de IUI en . De esta manera, clientes, proveedores e incluso personal de IUI desplazado de las oficinas   pueden   acceder   a   aquellos   documentos   del   proyecto   que   se   determinen   en cualquier momento y desde cualquier lugar, siempre y cuando dispongan de conexión a Internet.",
       "nivel": "parent",
       "parent_id": null,
@@ -144,10 +144,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "37e0fdfa-d1fe-4881-a3df-8d835f92dc05",
+      "chunk_id": "4f450f51-966e-4653-846e-52c4a207bdf1",
       "texto": "o Documentos de ingeniería: planos, especificaciones, hojas de datos, etc\n\no  Documentos de compras y de subcontratos de construcción: peticiones de oferta, tabulaciones económicas, pedidos, etc.\n\no  Documentos de planificación y control del proyecto: planificaciones, curvas de avance, informes de costes, etc.\n\no Documentos generales: informes   de   progreso,   actas   de   reunión,   plan   de calidad, etc.\n\n-Documentos provenientes de los proveedores enviados para la aprobación y los comentarios de IUI .\n\nLos documentos son introducidos en el Portal de Intranet por personal de  IUI, quedando disponibles para su uso en toda la organización siendo posible definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad. Periódicamente, en principio una vez al día, es realizada una copia de contenidos de Internet la Intranet a Internet, para hacerlos accesibles a través de la página web de IUI en .",
       "nivel": "child",
-      "parent_id": "29542b06-9892-4598-8cb8-46743ed5c9c0",
+      "parent_id": "01c347ac-dd08-418d-9ce5-aa210b891f73",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "-Documentos generados por IUI:",
@@ -160,10 +160,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f04c4072-5e2d-47df-bda5-b8800b2d9ad2",
+      "chunk_id": "ac21fad0-ec80-444f-bd50-72fcb70092fc",
       "texto": "De esta manera, clientes, proveedores e incluso personal de IUI desplazado de las oficinas   pueden   acceder   a   aquellos   documentos   del   proyecto   que   se   determinen   en cualquier momento y desde cualquier lugar, siempre y cuando dispongan de conexión a Internet.",
       "nivel": "child",
-      "parent_id": "29542b06-9892-4598-8cb8-46743ed5c9c0",
+      "parent_id": "01c347ac-dd08-418d-9ce5-aa210b891f73",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "-Documentos generados por IUI:",
@@ -176,7 +176,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ce7b2e7a-8a00-4ac3-9e77-cce45e8e0903",
+      "chunk_id": "07c208e0-b676-434a-94aa-6761c77d88e4",
       "texto": "Administrador de proyecto. Como responsable del archivo  electrónico   del   proyecto   se   determinará   una   figura   de administrador del proyecto, que tendrá entre otras misiones:\n\n-Distribución electrónica de los documentos.\n\n-Introducción de aquellos documentos provenientes del exterior (no generados en las oficinas de IUI): proporcionados por el cliente, por los proveedores, etc.\n\n-Agrupamiento de los documentos asociados a las requisiciones de material para propiciar el acceso a ellos por parte de los proveedores.\n\n-Seguimiento de la introducción de los documentos: detectar y activar la corrección de fallos como puedan ser errores a la hora de cumplimentar las propiedades.\n\n-Realización de tareas que requieren una importación o extracción masiva de documentos .\n\nDocumentos de Ingeniería. La introducción de la documentación en el portal de IUI será llevada a cabo por el responsable de cuenta correspondiente. El   administrador por   su   parte registrará   electrónicamente   la   aprobación   de   los documentos y realizará las distribuciones de los mismos, ya se trate de distribuciones electrónicas o ya se trate de distribuciones en soporte papel. Documentos de Proveedores En cuanto a documentos proporcionados por los proveedores, el Administrador de Proyecto será el encargado de su introducción en el sistema y de la distribución , tanto a la llegada de los documentos a IUI como a su salida una vez comentados.",
       "nivel": "parent",
       "parent_id": null,
@@ -192,10 +192,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5aa89d0d-7dfe-4870-96ae-c5f2fc015d99",
+      "chunk_id": "fea5ea89-3616-484e-b160-d46c370a7491",
       "texto": "Administrador de proyecto. Como responsable del archivo  electrónico   del   proyecto   se   determinará   una   figura   de administrador del proyecto, que tendrá entre otras misiones:\n\n-Distribución electrónica de los documentos.\n\n-Introducción de aquellos documentos provenientes del exterior (no generados en las oficinas de IUI): proporcionados por el cliente, por los proveedores, etc.\n\n-Agrupamiento de los documentos asociados a las requisiciones de material para propiciar el acceso a ellos por parte de los proveedores.\n\n-Seguimiento de la introducción de los documentos: detectar y activar la corrección de fallos como puedan ser errores a la hora de cumplimentar las propiedades.\n\n-Realización de tareas que requieren una importación o extracción masiva de documentos .\n\nDocumentos de Ingeniería. La introducción de la documentación en el portal de IUI será llevada a cabo por el responsable de cuenta correspondiente.",
       "nivel": "child",
-      "parent_id": "ce7b2e7a-8a00-4ac3-9e77-cce45e8e0903",
+      "parent_id": "07c208e0-b676-434a-94aa-6761c77d88e4",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "4. INTRODUCCIÓN Y CONTROL DE LA DOCUMENTACIÓN",
@@ -208,10 +208,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2dd7c49e-644c-4a96-a012-a706c6e8e175",
+      "chunk_id": "1b1016df-bdaa-4f75-a01c-10463180a2d4",
       "texto": "El   administrador por   su   parte registrará   electrónicamente   la   aprobación   de   los documentos y realizará las distribuciones de los mismos, ya se trate de distribuciones electrónicas o ya se trate de distribuciones en soporte papel. Documentos de Proveedores En cuanto a documentos proporcionados por los proveedores, el Administrador de Proyecto será el encargado de su introducción en el sistema y de la distribución , tanto a la llegada de los documentos a IUI como a su salida una vez comentados.",
       "nivel": "child",
-      "parent_id": "ce7b2e7a-8a00-4ac3-9e77-cce45e8e0903",
+      "parent_id": "07c208e0-b676-434a-94aa-6761c77d88e4",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "4. INTRODUCCIÓN Y CONTROL DE LA DOCUMENTACIÓN",
@@ -224,8 +224,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9f9755d4-99fd-4dde-b948-9fb6c14b6b81",
-      "texto": "En el Portal de IUI, la información se estructura buscando lograr un doble objetivo: el fácil acceso a la misma y la simplicidad a la hora de gestionar los permisos de acceso y modificación.\n\nEn este sentido, la información se estructura atendiendo a especialidades o actividades , quedando la documentación de carácter general (documentos de la dirección de proyecto, documentación proporcionada por el cliente, etc.) en el apartado 'GENERAL'.\n\nEn el caso concreto de aquellas especialidades que emiten Requisiciones de Material (RMs) , la documentación estará organizada matricialmente , es decir:\n\n atendiendo al tipo de documento : (hoja de datos, especificación, etc.)\n\n atendiendo a la Requisición de Material (RM) a la que está asociada.\n\nEs decir, una misma hoja de datos se encontrará en su carpeta correspondiente de 'Hojas de Datos', así como se tendrá acceso a la misma hoja de datos desde la carpeta de la RM a la que la hoja de datos va adjunta.\n\n[Descripción visual: La imagen muestra una estructura de carpetas y documentos utilizada en un entorno de proyectos de ingeniería. Detalla un sistema de organización por especialidades y documentos específicos asociados. \n\n### Tipo de contenido: Diagrama o esquema técnico de organización documental\n\n#### Organización por especialidades:\n1. **GENERAL** - Documentación general del proyecto.\n2. **CIVIL Y ARQUITECTURA** - Documentos de CIVIL y ARQUITECTURA.\n3. **ELECTRICIDAD** - Documentos de ELECTRICIDAD.\n4. **INSTRUMENTACIÓN** - Documentos de INSTRUMENTACIÓN.\n5. **MECÁNICA**:\n    - **5.1 EQUIPOS DINÁMICOS** - Documentos sobre equipos dinámicos.\n    - **5.2 EQUIPOS ESTÁTICOS** - Documentos sobre equipos estáticos.\n    - **5.3 MATERIALES DE TUBERÍAS** - Documentos de materiales de tuberías.\n6. **TUBERÍAS** - Documentos de TUBERÍAS.\n7. **PROCESOS** - Documentos de PROCESOS.\n8. **COMPRAS** - Documentos de COMPRAS.\n9. **CONSTRUCCIÓN** - Documentos de CONSTRUCCIÓN.\n\n#### Detalle de una especialidad (Equipos Dinámicos):\n- **1. CÁLCULOS**\n- **2. COMPARACIONES TÉCNICAS DE OFERTAS**\n- **3. ESPECIFICACIONES Y ESTÁNDARES DE EQUIPOS DINÁMICOS**\n- **4. HOJAS DE DATOS**\n- **5. PLANOS**\n- **6. DOCUMENTACIÓN DE MATERIAL**\n- **7. DOCUMENTOS ASOCIADOS A RM DE EQUIPOS DINÁMICOS**:\n  - Incluye RMs, sus adjuntos y documentos del suministrador.\n\n#### Ejemplo de documento asociado:\n- **3300C-HD-05D005-N01**\n  - **Título:** \"AGITATEUR DU BAC ENCOUBER\"\n  - **OT:** 16055-ENIP\n  - **Edición:** 03\n  - **Fecha:** 17/10/2002\n  - **Editado para:** Compra\n\nUna misma hoja de datos puede estar tanto en la carpeta de \"Hojas de datos\" como en la carpeta de la RM a la que está asociada.\n\nEsto muestra cómo se organiza la información técnica en un proyecto, permitiendo la recuperación y asociación eficiente de documentos.]\n\nCada una de las carpetas de RM contendrá tanto la documentación emitida por IUI como la documentación que el proveedor genera para esa RM en la fase de pedido , de modo que cada una de ellas contiene las siguientes subcarpetas:\n\n[Descripción visual: La imagen muestra una estructura de carpetas perteneciente a un sistema de gestión de documentos de ingeniería. La descripción técnica recuperable es la siguiente:\n\n### Tipo de contenido:\nDirectorio de carpetas para documentos del sistema de gestión de proyectos.",
+      "chunk_id": "48100c17-058b-4995-8170-412d1e5c3480",
+      "texto": "En el Portal de IUI, la información se estructura buscando lograr un doble objetivo: el fácil acceso a la misma y la simplicidad a la hora de gestionar los permisos de acceso y modificación.\n\nEn este sentido, la información se estructura atendiendo a especialidades o actividades , quedando la documentación de carácter general (documentos de la dirección de proyecto, documentación proporcionada por el cliente, etc.) en el apartado 'GENERAL'.\n\nEn el caso concreto de aquellas especialidades que emiten Requisiciones de Material (RMs) , la documentación estará organizada matricialmente , es decir:\n\n atendiendo al tipo de documento : (hoja de datos, especificación, etc.)\n\n atendiendo a la Requisición de Material (RM) a la que está asociada.\n\nEs decir, una misma hoja de datos se encontrará en su carpeta correspondiente de 'Hojas de Datos', así como se tendrá acceso a la misma hoja de datos desde la carpeta de la RM a la que la hoja de datos va adjunta.\n\n[Descripción visual: ### Estructura de Carpeta Técnica\n\nLa imagen muestra la estructura de una carpeta técnica en un sistema de gestión documental para un proyecto específico (16055 - ENIP). Esta organización está dividida por especialidades y cada especialidad contiene diferentes categorías de documentos técnicos:\n\n#### Especialidades y Documentos\n1. **General**\n   - Documentación general del proyecto.\n2. **Civil y Arquitectura**\n   - Documentos de civil y arquitectura.\n3. **Electricidad**\n   - Documentos de electricidad.\n4. **Instrumentación**\n   - Documentos de instrumentación.\n5. **Mecánica - Equipos Dinámicos**\n   - Documentos de equipos dinámicos.\n   - Incluye subcategorías:\n     1. Cálculos\n     2. Comparaciones técnicas de ofertas\n     3. Especificaciones y estándares de equipos dinámicos\n     4. Hojas de datos\n     5. Planos\n     6. Requisiciones de material\n     7. Documentos asociados a RMs de equipos dinámicos\n6. **Mecánica - Equipos Estáticos**\n   - Documentos de equipos estáticos.\n7. **Mecánica - Materiales de Tuberías**\n   - Documentos de materiales de tuberías.\n8. **Tuberías**\n   - Documentos de tuberías.\n9. **Procesos**\n   - Documentos de procesos.\n10. **Compras**\n    - Documentos de compras.\n11. **Construcción**\n    - Documentos de construcción.\n\n### Detalle de Documentos Asociados\n\n- **3300C-HD-05D005-N01**\n  - Título: AGITATEUR DU BAC ENROBEUR\n  - OT: 16055-ENIP\n  - Edición: 03\n  - Fecha: 17/10/2002\n  - Editado para: Compra\n\n### Procedimiento de Organización\n\nUna misma hoja de datos está tanto en la carpeta de \"Hojas de datos\" como en la carpeta de la RM a la que está asociada. Esto indica una práctica de duplicación para facilitar el acceso según el contexto en el que se necesiten los documentos.\n\nLas **RMs** mencionadas:\n- RM-16055-C-01: Titulo AGITATEURS\n- RM-16055-C-02: Titulo TURBES MELANGEURS\n- RM-16055-C-03: (sin título visible)\n- RM-16055-G-01A: Titulo BOMBAS CENTRIFUGES HORIZONTALES\n\nCada RM tiene una descripción específica relacionada con el proyecto \"36055-CLORO SOSA ARGE\".\n\nEsta estructura respalda el manejo eficiente de documentos técnicos por especialidad en proyectos de ingeniería industrial.]\n\nCada una de las carpetas de RM contendrá tanto la documentación emitida por IUI como la documentación que el proveedor genera para esa RM en la fase de pedido , de modo que cada una de ellas contiene las siguientes subcarpetas:\n\n[Descripción visual: Imagen sin contenido técnico recuperable para el sistema RAG.]",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 5,
@@ -241,10 +241,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2b12855f-2a6e-46e8-9719-bfdd60b025b5",
+      "chunk_id": "1e107d67-2793-43bf-bd83-91ac21ec27d9",
       "texto": "En el Portal de IUI, la información se estructura buscando lograr un doble objetivo: el fácil acceso a la misma y la simplicidad a la hora de gestionar los permisos de acceso y modificación.\n\nEn este sentido, la información se estructura atendiendo a especialidades o actividades , quedando la documentación de carácter general (documentos de la dirección de proyecto, documentación proporcionada por el cliente, etc.) en el apartado 'GENERAL'.\n\nEn el caso concreto de aquellas especialidades que emiten Requisiciones de Material (RMs) , la documentación estará organizada matricialmente , es decir:\n\n atendiendo al tipo de documento : (hoja de datos, especificación, etc.)\n\n atendiendo a la Requisición de Material (RM) a la que está asociada.\n\nEs decir, una misma hoja de datos se encontrará en su carpeta correspondiente de 'Hojas de Datos', así como se tendrá acceso a la misma hoja de datos desde la carpeta de la RM a la que la hoja de datos va adjunta.",
       "nivel": "child",
-      "parent_id": "9f9755d4-99fd-4dde-b948-9fb6c14b6b81",
+      "parent_id": "48100c17-058b-4995-8170-412d1e5c3480",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "5. ESTRUCTURA DE LA DOCUMENTACIÓN",
@@ -258,10 +258,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d4dc0da7-c23c-4130-b423-b555696c995e",
-      "texto": "[Descripción visual: La imagen muestra una estructura de carpetas y documentos utilizada en un entorno de proyectos de ingeniería. Detalla un sistema de organización por especialidades y documentos específicos asociados. \n\n### Tipo de contenido: Diagrama o esquema técnico de organización documental\n\n#### Organización por especialidades:\n1. **GENERAL** - Documentación general del proyecto.\n2. **CIVIL Y ARQUITECTURA** - Documentos de CIVIL y ARQUITECTURA.\n3. **ELECTRICIDAD** - Documentos de ELECTRICIDAD.\n4. **INSTRUMENTACIÓN** - Documentos de INSTRUMENTACIÓN.\n5. **MECÁNICA**:\n    - **5.1 EQUIPOS DINÁMICOS** - Documentos sobre equipos dinámicos.\n    - **5.2 EQUIPOS ESTÁTICOS** - Documentos sobre equipos estáticos.\n    - **5.3 MATERIALES DE TUBERÍAS** - Documentos de materiales de tuberías.\n6. **TUBERÍAS** - Documentos de TUBERÍAS.\n7.",
+      "chunk_id": "f58858fa-fcce-44a5-b22c-5a562cfed12b",
+      "texto": "[Descripción visual: ### Estructura de Carpeta Técnica\n\nLa imagen muestra la estructura de una carpeta técnica en un sistema de gestión documental para un proyecto específico (16055 - ENIP). Esta organización está dividida por especialidades y cada especialidad contiene diferentes categorías de documentos técnicos:\n\n#### Especialidades y Documentos\n1. **General**\n   - Documentación general del proyecto.\n2. **Civil y Arquitectura**\n   - Documentos de civil y arquitectura.\n3. **Electricidad**\n   - Documentos de electricidad.\n4. **Instrumentación**\n   - Documentos de instrumentación.\n5. **Mecánica - Equipos Dinámicos**\n   - Documentos de equipos dinámicos.\n   - Incluye subcategorías:\n     1. Cálculos\n     2. Comparaciones técnicas de ofertas\n     3. Especificaciones y estándares de equipos dinámicos\n     4. Hojas de datos\n     5. Planos\n     6.",
       "nivel": "child",
-      "parent_id": "9f9755d4-99fd-4dde-b948-9fb6c14b6b81",
+      "parent_id": "48100c17-058b-4995-8170-412d1e5c3480",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "5. ESTRUCTURA DE LA DOCUMENTACIÓN",
@@ -275,10 +275,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ff73ecc5-6e48-4961-aa38-8edf26e9f826",
-      "texto": "**TUBERÍAS** - Documentos de TUBERÍAS.\n7. **PROCESOS** - Documentos de PROCESOS.\n8. **COMPRAS** - Documentos de COMPRAS.\n9. **CONSTRUCCIÓN** - Documentos de CONSTRUCCIÓN.\n\n#### Detalle de una especialidad (Equipos Dinámicos):\n- **1. CÁLCULOS**\n- **2. COMPARACIONES TÉCNICAS DE OFERTAS**\n- **3. ESPECIFICACIONES Y ESTÁNDARES DE EQUIPOS DINÁMICOS**\n- **4. HOJAS DE DATOS**\n- **5. PLANOS**\n- **6. DOCUMENTACIÓN DE MATERIAL**\n- **7. DOCUMENTOS ASOCIADOS A RM DE EQUIPOS DINÁMICOS**:\n  - Incluye RMs, sus adjuntos y documentos del suministrador.",
+      "chunk_id": "ccffae17-cffb-41c2-a301-edf54eeac2cc",
+      "texto": "Hojas de datos\n     5. Planos\n     6. Requisiciones de material\n     7. Documentos asociados a RMs de equipos dinámicos\n6. **Mecánica - Equipos Estáticos**\n   - Documentos de equipos estáticos.\n7. **Mecánica - Materiales de Tuberías**\n   - Documentos de materiales de tuberías.\n8. **Tuberías**\n   - Documentos de tuberías.\n9. **Procesos**\n   - Documentos de procesos.\n10. **Compras**\n    - Documentos de compras.\n11. **Construcción**\n    - Documentos de construcción.",
       "nivel": "child",
-      "parent_id": "9f9755d4-99fd-4dde-b948-9fb6c14b6b81",
+      "parent_id": "48100c17-058b-4995-8170-412d1e5c3480",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "5. ESTRUCTURA DE LA DOCUMENTACIÓN",
@@ -292,10 +292,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c7799369-0c65-4737-8a54-00bb5411de04",
-      "texto": "#### Ejemplo de documento asociado:\n- **3300C-HD-05D005-N01**\n  - **Título:** \"AGITATEUR DU BAC ENCOUBER\"\n  - **OT:** 16055-ENIP\n  - **Edición:** 03\n  - **Fecha:** 17/10/2002\n  - **Editado para:** Compra\n\nUna misma hoja de datos puede estar tanto en la carpeta de \"Hojas de datos\" como en la carpeta de la RM a la que está asociada.\n\nEsto muestra cómo se organiza la información técnica en un proyecto, permitiendo la recuperación y asociación eficiente de documentos.]\n\nCada una de las carpetas de RM contendrá tanto la documentación emitida por IUI como la documentación que el proveedor genera para esa RM en la fase de pedido , de modo que cada una de ellas contiene las siguientes subcarpetas:\n\n[Descripción visual: La imagen muestra una estructura de carpetas perteneciente a un sistema de gestión de documentos de ingeniería.",
+      "chunk_id": "ad63eff6-cfab-40d5-9fe5-d89ac3994786",
+      "texto": "11. **Construcción**\n    - Documentos de construcción.\n\n### Detalle de Documentos Asociados\n\n- **3300C-HD-05D005-N01**\n  - Título: AGITATEUR DU BAC ENROBEUR\n  - OT: 16055-ENIP\n  - Edición: 03\n  - Fecha: 17/10/2002\n  - Editado para: Compra\n\n### Procedimiento de Organización\n\nUna misma hoja de datos está tanto en la carpeta de \"Hojas de datos\" como en la carpeta de la RM a la que está asociada. Esto indica una práctica de duplicación para facilitar el acceso según el contexto en el que se necesiten los documentos.",
       "nivel": "child",
-      "parent_id": "9f9755d4-99fd-4dde-b948-9fb6c14b6b81",
+      "parent_id": "48100c17-058b-4995-8170-412d1e5c3480",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "5. ESTRUCTURA DE LA DOCUMENTACIÓN",
@@ -309,10 +309,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2793eda3-ef47-4a2b-8bd7-c08554d34a4c",
-      "texto": "La descripción técnica recuperable es la siguiente:\n\n### Tipo de contenido:\nDirectorio de carpetas para documentos del sistema de gestión de proyectos.",
+      "chunk_id": "894f71dc-ab44-4200-b43d-7499cd69885e",
+      "texto": "Las **RMs** mencionadas:\n- RM-16055-C-01: Titulo AGITATEURS\n- RM-16055-C-02: Titulo TURBES MELANGEURS\n- RM-16055-C-03: (sin título visible)\n- RM-16055-G-01A: Titulo BOMBAS CENTRIFUGES HORIZONTALES\n\nCada RM tiene una descripción específica relacionada con el proyecto \"36055-CLORO SOSA ARGE\".\n\nEsta estructura respalda el manejo eficiente de documentos técnicos por especialidad en proyectos de ingeniería industrial.]\n\nCada una de las carpetas de RM contendrá tanto la documentación emitida por IUI como la documentación que el proveedor genera para esa RM en la fase de pedido , de modo que cada una de ellas contiene las siguientes subcarpetas:\n\n[Descripción visual: Imagen sin contenido técnico recuperable para el sistema RAG.]",
       "nivel": "child",
-      "parent_id": "9f9755d4-99fd-4dde-b948-9fb6c14b6b81",
+      "parent_id": "48100c17-058b-4995-8170-412d1e5c3480",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "5. ESTRUCTURA DE LA DOCUMENTACIÓN",
@@ -326,8 +326,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4b36feb1-1394-4f91-9cb5-aaa8a1139cab",
-      "texto": "### Información técnica:\n**Carpeta principal:**\n- **RM-16055-C-01**\n  - **Tipo:** Carpeta de RM\n  - **Ruta:** `/Proyectos/16055 - ENIP/5.1 MECÁNICA- EQUIPOS DINÁMICOS/7.0 DOCUMENTOS ASOCIADOS A RMs DE EQUIPOS DINÁMICOS/RM-16055-C-01`\n\n**Subcarpetas:**\n1. **Documentos de la RM: 16055-C-01**\n2. **Documentos de Petición de oferta: 16055-C-01**\n3. **Documentos del Proveedor: 16055-C-01**\n\n**Categoría:**\n- **AGITATEURS**\n\nEsta estructura de carpetas es utilizada para la organización y acceso a documentos relacionados con un registro maestro específico (RM) en proyectos mecánicos de equipos dinámicos.]\n\nCarpeta destinada a albergar el documento de la RM y sus adjuntos, documentos que serán   enlazados   a   esta   carpeta   desde   las   carpetas   donde   se   han   introducido originalmente cada uno\n\nCarpeta destinada   a   contener   los   documentos   comerciales   que   se   adjuntan   en   la petición de oferta.\n\nCarpeta en la que se introducirán los documentos del suministrador en la fase de pedido de la RM.\n\nEn el ANEXO 1 se recoge la estructura completa de carpetas",
+      "chunk_id": "754a7a60-09b8-4bbe-af51-e28481b28b39",
+      "texto": "Carpeta destinada a albergar el documento de la RM y sus adjuntos, documentos que serán   enlazados   a   esta   carpeta   desde   las   carpetas   donde   se   han   introducido originalmente cada uno\n\nCarpeta destinada   a   contener   los   documentos   comerciales   que   se   adjuntan   en   la petición de oferta.\n\nCarpeta en la que se introducirán los documentos del suministrador en la fase de pedido de la RM.\n\nEn el ANEXO 1 se recoge la estructura completa de carpetas",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 5,
@@ -343,41 +343,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f8becc26-82dd-4e99-82ac-731ee1fc7947",
-      "texto": "### Información técnica:\n**Carpeta principal:**\n- **RM-16055-C-01**\n  - **Tipo:** Carpeta de RM\n  - **Ruta:** `/Proyectos/16055 - ENIP/5.1 MECÁNICA- EQUIPOS DINÁMICOS/7.0 DOCUMENTOS ASOCIADOS A RMs DE EQUIPOS DINÁMICOS/RM-16055-C-01`\n\n**Subcarpetas:**\n1. **Documentos de la RM: 16055-C-01**\n2. **Documentos de Petición de oferta: 16055-C-01**\n3. **Documentos del Proveedor: 16055-C-01**\n\n**Categoría:**\n- **AGITATEURS**\n\nEsta estructura de carpetas es utilizada para la organización y acceso a documentos relacionados con un registro maestro específico (RM) en proyectos mecánicos de equipos dinámicos.]",
-      "nivel": "child",
-      "parent_id": "4b36feb1-1394-4f91-9cb5-aaa8a1139cab",
-      "pagina_inicio": 5,
-      "pagina_fin": 7,
-      "seccion": "5. ESTRUCTURA DE LA DOCUMENTACIÓN",
-      "tipos_elemento": [
-        "NarrativeText",
-        "ListItem",
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": false,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "b59d926a-586a-4ef2-b047-5c8fbe43c589",
-      "texto": "Carpeta destinada a albergar el documento de la RM y sus adjuntos, documentos que serán   enlazados   a   esta   carpeta   desde   las   carpetas   donde   se   han   introducido originalmente cada uno\n\nCarpeta destinada   a   contener   los   documentos   comerciales   que   se   adjuntan   en   la petición de oferta.\n\nCarpeta en la que se introducirán los documentos del suministrador en la fase de pedido de la RM.\n\nEn el ANEXO 1 se recoge la estructura completa de carpetas",
-      "nivel": "child",
-      "parent_id": "4b36feb1-1394-4f91-9cb5-aaa8a1139cab",
-      "pagina_inicio": 5,
-      "pagina_fin": 7,
-      "seccion": "5. ESTRUCTURA DE LA DOCUMENTACIÓN",
-      "tipos_elemento": [
-        "NarrativeText",
-        "ListItem",
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": false,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "a1d42ed2-adfc-4f72-8dbb-d4f26db8e388",
+      "chunk_id": "b9fef3cc-e72a-47fe-809e-3d86b6a6dc1c",
       "texto": "En Documentum ,   los   usuarios   están   organizados   según   grupos   de   manera   que   los permisos (ACL'S) consisten   en   asignar   a   cada grupo   de   usuarios   determinados derechos (Lectura, Escritura, Borrado, etc.).",
       "nivel": "parent",
       "parent_id": null,
@@ -392,7 +358,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d074e374-4123-4de8-9bd2-7f4ee83c7ff7",
+      "chunk_id": "e92601ee-a1e1-4e8e-a3c0-ab5f3128089c",
       "texto": "proy_enip_escritura:\n\naplicable a las carpetas del proyecto. Permite:\n\nLEER a cualquier usuario de IUI\n\nESCRIBIR (incluir documentos) a los componentes del proyecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -407,7 +373,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a4eb8d61-ec61-4d22-9eab-15982c2ba12b",
+      "chunk_id": "c1e90a7d-46f7-47ba-8ffd-0b66032576c2",
       "texto": "Los documentos que se incluyan en una carpeta por primera vez, heredan el permiso de dicha carpeta (proy_enip_escritura) por lo que es preciso que los usuarios que introduzcan documentos elijan el permiso (ACL) adecuado de entre la siguiente lista de permisos (ACLs) disponibles:\n\naplicable a documentos de carácter no confidencial. Permite:\n\nLEER a cualquier usuario de IUI\n\nESCRIBIR (modificar) únicamente al propietario del documento (aquel que lo introduce).\n\nproy_enip_restringido:\n\naplicable a documentos de acceso restringido (pedidos). Permite:\n\nLEER a la dirección de proyecto, a los componentes de compras y construcción del proyecto, a los responsables de cuenta del proyecto y a los jefes de departamento de IUI. ESCRIBIR (modificar) únicamente al propietario del documento (aquel que lo introduce) -   proy_enip_privado: aplicable   a   documentos   de   carácter   privado   (tabulaciones económicas). Permite: LEER a la dirección de proyecto, al responsable de costes del proyecto, a los componentes de compras y construcción del proyecto y a los jefes de departamento de IUI.\n\nESCRIBIR (modificar) únicamente al propietario del documento (aquel que lo introduce)\n\nLa figura del administrador del proyecto y el grupo de administradores del sistema tendrán todos los permisos sobre los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc",
       "nivel": "parent",
       "parent_id": null,
@@ -423,10 +389,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "350cd762-c9ef-4368-8191-93416dc01483",
+      "chunk_id": "d16a5333-59b3-4023-bb33-7f7a938a90bb",
       "texto": "Los documentos que se incluyan en una carpeta por primera vez, heredan el permiso de dicha carpeta (proy_enip_escritura) por lo que es preciso que los usuarios que introduzcan documentos elijan el permiso (ACL) adecuado de entre la siguiente lista de permisos (ACLs) disponibles:\n\naplicable a documentos de carácter no confidencial. Permite:\n\nLEER a cualquier usuario de IUI\n\nESCRIBIR (modificar) únicamente al propietario del documento (aquel que lo introduce).\n\nproy_enip_restringido:\n\naplicable a documentos de acceso restringido (pedidos). Permite:\n\nLEER a la dirección de proyecto, a los componentes de compras y construcción del proyecto, a los responsables de cuenta del proyecto y a los jefes de departamento de IUI. ESCRIBIR (modificar) únicamente al propietario del documento (aquel que lo introduce) -   proy_enip_privado: aplicable   a   documentos   de   carácter   privado   (tabulaciones económicas).",
       "nivel": "child",
-      "parent_id": "a4eb8d61-ec61-4d22-9eab-15982c2ba12b",
+      "parent_id": "c1e90a7d-46f7-47ba-8ffd-0b66032576c2",
       "pagina_inicio": 7,
       "pagina_fin": 8,
       "seccion": "Aplicables a documentos",
@@ -439,10 +405,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "eb1549fb-8ef1-4865-9405-3a8e9236127f",
+      "chunk_id": "341cd3e3-2e95-46e3-aef0-9f3ef056664a",
       "texto": "Permite: LEER a la dirección de proyecto, al responsable de costes del proyecto, a los componentes de compras y construcción del proyecto y a los jefes de departamento de IUI.\n\nESCRIBIR (modificar) únicamente al propietario del documento (aquel que lo introduce)\n\nLa figura del administrador del proyecto y el grupo de administradores del sistema tendrán todos los permisos sobre los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc",
       "nivel": "child",
-      "parent_id": "a4eb8d61-ec61-4d22-9eab-15982c2ba12b",
+      "parent_id": "c1e90a7d-46f7-47ba-8ffd-0b66032576c2",
       "pagina_inicio": 7,
       "pagina_fin": 8,
       "seccion": "Aplicables a documentos",
@@ -455,7 +421,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5c8a2ff3-c080-4764-80f8-0e2caf5a327a",
+      "chunk_id": "11db8ecb-c023-416f-a75b-7412ca5fe3c4",
       "texto": "En cuanto a la actualización de los usuarios participantes en el proyecto será la dirección del mismo quien comunique a Gestión del Conocimiento si se producen altas o bajas dentro del proyecto , indicando en el caso de las altas la amplitud del acceso que debe tener el usuario, es decir, en qué grupo debe ser incluido. Asimismo la dirección de proyecto se pondrá en contacto con Gestión del Conocimiento ante necesidades de nuevos permisos o de modificación de los existentes.",
       "nivel": "parent",
       "parent_id": null,
@@ -470,7 +436,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "695d8b2e-71e3-460a-a334-a36d42d7c4a5",
+      "chunk_id": "78de3c55-2860-4ea5-9da1-464a7abb0a94",
       "texto": "Los contenidos del proyecto son publicados en Internet para que queden disponibles para aquellos participantes en el proyecto sin acceso a la Intranet de IUI (no ubicados en las oficinas de IUI) ( Ver ANEXO 2).",
       "nivel": "parent",
       "parent_id": null,
@@ -485,7 +451,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "072a70c0-587f-46c8-8abc-702fe4800ec4",
+      "chunk_id": "9257de1a-f77b-4c41-9fc6-59ac775a3d5a",
       "texto": "Los proveedores podrán acceder a través del Centro de Negocios de IUI en Internet a aquellos documentos asociados a las requisiciones de material del proyecto en las que están involucrados ,   tanto en la fase de petición de oferta como una vez adjudicado el pedido. La información publicada en el Centro de Negocios queda restringida a los proveedores   seleccionados   para   la   petición   de   oferta   y   al   adjudicatario   si   nos\n\nencontramos en la fase de pedido . Ello queda garantizado por un sistema de contraseñas que gestiona el departamento de Compras de IUI.",
       "nivel": "parent",
       "parent_id": null,
@@ -500,7 +466,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a0c87b24-9fb9-42d1-9b6b-fec27cbfe385",
+      "chunk_id": "9afd81dc-d845-4e22-8a69-214a1337274a",
       "texto": "El personal de obra accederá a la documentación del proyecto a través de la página Web de IUI en Internet, desde la zona de proyecto en colaboración.\n\nSe trata de un área únicamente de consulta y descarga, no existiendo posibilidad de modificación de los documentos allí publicados.\n\nEl acceso a los documentos estará sujeto a las siguientes condiciones:\n\n-Planos   de   IUI  :   no   serán   accesibles   a   no   ser   que   estén   aprobados   para construcción.\n\n-Planos de Proveedores  :   no   serán   accesibles   a   no   ser   que   se   encuentren   en situación A ó B (aprobados para construcción).",
       "nivel": "parent",
       "parent_id": null,
@@ -516,7 +482,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0a65b7b3-0587-4190-952f-e2d64813ad51",
+      "chunk_id": "f62d1736-4554-4e29-924d-ac474e7eb892",
       "texto": "_DIRECCIÓN DE PROYECTO\n\n3. CONTRATO Y ANEXOS TÉCNICOS\n\nINSTRUCCIONES PARTICULARES DEL PROYECTO\n\n6.0. RAPPORT D'AVANCEMENT\n\n6.1. INFORME DE PROGRESO IUI\n\n_PLANIFICACIÓN Y CONTROL DE COSTES\n\nANÁLISIS DE CONTRATOS\n\nRAPPORT D'AVANCEMENT\n\nCONSULTAS A BASES DE DATOS\n\nESPECIFICACIONES, NORMATIVAS Y ESTÁNDARES ARGELIA\n\nDOCUMENTACIÓN DE SNCPA\n\nDOCUMENTACIÓN KRUPP UHDE\n\nESPECIFICACIONES, NORMAS Y ESTÁNDARES\n\n2. CIVIL Y ARQUITECTURA\n\n1.0. COMPARACIONES TÉCNICAS\n\n2.0. ESPECIFICACIONES Y BASES DE DISEÑO DE CIVIL\n\n3.0. ESTUDIOS Y CÁLCULOS\n\n4.0. LISTAS DE CANTIDADES (BOQs)\n\n6.0. PLANOS Y ESTÁNDARES\n\n7.0. REQUISICIONES DE MATERIALES (RMs)\n\n8.0. DOCUMENTOS ASOCIADOS A RM'S DE CIVIL\n\n1.0. COMPARACIONES TÉCNICAS DE OFERTAS\n\n2.0. ESPECIFICACIONES DE ELECTRICIDAD\n\n4.0. PLANOS Y ESTÁNDARES\n\n5.0. REQUISICIONES DE MATERIALES (RM'S)\n\n6.0. DOCUMENTOS ASOCIADOS A RM'S DE ELECTRICIDAD\n\n1.0. COMPARACIONES TÉCNICAS DE OFERTAS\n\n2.0. ESPECIFICACIONES Y ESTÁNDARES INSTRUMENTACIÓN\n\n3.2. MEDICIONES 8888\n\n4.0. PLANOS Y ESQUEMAS\n\n5.0. REQUISICIONES DE MATERIALES (RM'S)\n\n6.0. DOCUMENTOS ASOCIADOS A RM'S DE INSTRUMENTACIÓN\n\n5.1. MECÁNICA - EQUIPOS DINÁMICOS\n\n2.0. COMPARACIONES TÉCNICAS DE OFERTAS\n\n3.0. ESPECIFICACIONES EQUIPOS DINÁMICOS\n\n5.0. PLANOS Y ESQUEMAS\n\n6.0. REQUISICIONES DE MATERIALES (RM'S)\n\n7.0. DOCUMENTOS ASOCIADOS A RM'S DE EQUIPOS DINÁMICOS\n\n5.2. MECÁNICA - EQUIPOS ESTÁTICOS\n\n2.0. COMPARACIONES TÉCNICAS DE OFERTAS\n\n3.0. ESPECIFICACIONES Y ESTÁNDARES DE EQUIPOS ESTÁTICOS\n\n6.0. REQUISICIONES DE MATERIALES (RM'S)\n\n7.0. DOCUMENTOS ASOCIADOS A RM'S DE EQUIPOS ESTÁTICOS 8\n\n5.3. MECÁNICA - MATERIALES DE TUBERÍAS\n\n2.0. COMPARACIONES TÉCNICAS DE OFERTAS\n\n3.0. ESPECIFICACIONES Y ESTÁNDARES DE MATERIALES\n\n5.0. LISTAS DE MATERIALES (BMs)\n\n6.0. REQUISICIONES DE MATERIALES (RM'S)\n\n7.0. DOCUMENTOS ASOCIADOS A RM'S DE MATERIALES\n\n1.0. ESTÁNDARES DE TUBERÍAS\n\n3.0. PLANOS AUXILIARES\n\n4.0. PLANOS DE IMPLANTACIÓN\n\n5.0. PLANOS DE PLANTA\n\n10.0. REQUISICIONES DE PROCESOS\n\n11.0. DOCUMENTOS ASOCIADOS A REQUISICIONES DE PROCESOS\n\n2.0. DATOS DE PROCESO PARA EQUIPOS\n\n4.0. PLANOS DE IMPLANTACIÓN\n\n5.0. DIAGRAMAS DE FLUJO\n\n7.0. DESMERCURIZACIÓN\n\n8.0. ESPECIFICACIONES DE PROCESO\n\n9.0. DATOS DE PROCESO PARA INSTRUMENTOS\n\n2.0. TABULACIONES ECONÓMICAS\n\n3.0.",
       "nivel": "parent",
       "parent_id": null,
@@ -528,14 +494,14 @@
         "ListItem"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": false
     },
     {
-      "chunk_id": "19527b40-ea65-4e73-9bd3-afe2a9e36c76",
+      "chunk_id": "c43a1f66-e6c0-40a8-8f12-c1c843d56078",
       "texto": "_DIRECCIÓN DE PROYECTO\n\n3. CONTRATO Y ANEXOS TÉCNICOS\n\nINSTRUCCIONES PARTICULARES DEL PROYECTO\n\n6.0. RAPPORT D'AVANCEMENT\n\n6.1. INFORME DE PROGRESO IUI\n\n_PLANIFICACIÓN Y CONTROL DE COSTES\n\nANÁLISIS DE CONTRATOS\n\nRAPPORT D'AVANCEMENT\n\nCONSULTAS A BASES DE DATOS\n\nESPECIFICACIONES, NORMATIVAS Y ESTÁNDARES ARGELIA\n\nDOCUMENTACIÓN DE SNCPA\n\nDOCUMENTACIÓN KRUPP UHDE\n\nESPECIFICACIONES, NORMAS Y ESTÁNDARES\n\n2. CIVIL Y ARQUITECTURA\n\n1.0. COMPARACIONES TÉCNICAS\n\n2.0. ESPECIFICACIONES Y BASES DE DISEÑO DE CIVIL\n\n3.0. ESTUDIOS Y CÁLCULOS\n\n4.0. LISTAS DE CANTIDADES (BOQs)\n\n6.0.",
       "nivel": "child",
-      "parent_id": "0a65b7b3-0587-4190-952f-e2d64813ad51",
+      "parent_id": "f62d1736-4554-4e29-924d-ac474e7eb892",
       "pagina_inicio": 10,
       "pagina_fin": 14,
       "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
@@ -544,14 +510,14 @@
         "ListItem"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ce12d923-0b97-41e4-abcb-20cbe6fc73d1",
+      "chunk_id": "982a8f32-a4cd-4dc2-8d5e-fa6fd055a330",
       "texto": "LISTAS DE CANTIDADES (BOQs)\n\n6.0. PLANOS Y ESTÁNDARES\n\n7.0. REQUISICIONES DE MATERIALES (RMs)\n\n8.0. DOCUMENTOS ASOCIADOS A RM'S DE CIVIL\n\n1.0. COMPARACIONES TÉCNICAS DE OFERTAS\n\n2.0. ESPECIFICACIONES DE ELECTRICIDAD\n\n4.0. PLANOS Y ESTÁNDARES\n\n5.0. REQUISICIONES DE MATERIALES (RM'S)\n\n6.0. DOCUMENTOS ASOCIADOS A RM'S DE ELECTRICIDAD\n\n1.0. COMPARACIONES TÉCNICAS DE OFERTAS\n\n2.0. ESPECIFICACIONES Y ESTÁNDARES INSTRUMENTACIÓN\n\n3.2. MEDICIONES 8888\n\n4.0. PLANOS Y ESQUEMAS\n\n5.0. REQUISICIONES DE MATERIALES (RM'S)\n\n6.0.",
       "nivel": "child",
-      "parent_id": "0a65b7b3-0587-4190-952f-e2d64813ad51",
+      "parent_id": "f62d1736-4554-4e29-924d-ac474e7eb892",
       "pagina_inicio": 10,
       "pagina_fin": 14,
       "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
@@ -560,14 +526,14 @@
         "ListItem"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9c34f871-4b3c-490e-902e-e396fe354cb8",
+      "chunk_id": "f273084a-6074-4d19-b220-f31a3af3189c",
       "texto": "REQUISICIONES DE MATERIALES (RM'S)\n\n6.0. DOCUMENTOS ASOCIADOS A RM'S DE INSTRUMENTACIÓN\n\n5.1. MECÁNICA - EQUIPOS DINÁMICOS\n\n2.0. COMPARACIONES TÉCNICAS DE OFERTAS\n\n3.0. ESPECIFICACIONES EQUIPOS DINÁMICOS\n\n5.0. PLANOS Y ESQUEMAS\n\n6.0. REQUISICIONES DE MATERIALES (RM'S)\n\n7.0. DOCUMENTOS ASOCIADOS A RM'S DE EQUIPOS DINÁMICOS\n\n5.2. MECÁNICA - EQUIPOS ESTÁTICOS\n\n2.0. COMPARACIONES TÉCNICAS DE OFERTAS\n\n3.0. ESPECIFICACIONES Y ESTÁNDARES DE EQUIPOS ESTÁTICOS\n\n6.0. REQUISICIONES DE MATERIALES (RM'S)\n\n7.0. DOCUMENTOS ASOCIADOS A RM'S DE EQUIPOS ESTÁTICOS 8\n\n5.3.",
       "nivel": "child",
-      "parent_id": "0a65b7b3-0587-4190-952f-e2d64813ad51",
+      "parent_id": "f62d1736-4554-4e29-924d-ac474e7eb892",
       "pagina_inicio": 10,
       "pagina_fin": 14,
       "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
@@ -576,14 +542,14 @@
         "ListItem"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3e748d9b-d1e6-426d-a4d6-8df415f09270",
+      "chunk_id": "c02316b7-f3a1-4ea5-aa63-2d4215576aef",
       "texto": "MECÁNICA - MATERIALES DE TUBERÍAS\n\n2.0. COMPARACIONES TÉCNICAS DE OFERTAS\n\n3.0. ESPECIFICACIONES Y ESTÁNDARES DE MATERIALES\n\n5.0. LISTAS DE MATERIALES (BMs)\n\n6.0. REQUISICIONES DE MATERIALES (RM'S)\n\n7.0. DOCUMENTOS ASOCIADOS A RM'S DE MATERIALES\n\n1.0. ESTÁNDARES DE TUBERÍAS\n\n3.0. PLANOS AUXILIARES\n\n4.0. PLANOS DE IMPLANTACIÓN\n\n5.0. PLANOS DE PLANTA\n\n10.0. REQUISICIONES DE PROCESOS\n\n11.0. DOCUMENTOS ASOCIADOS A REQUISICIONES DE PROCESOS\n\n2.0. DATOS DE PROCESO PARA EQUIPOS\n\n4.0. PLANOS DE IMPLANTACIÓN\n\n5.0. DIAGRAMAS DE FLUJO\n\n7.0.",
       "nivel": "child",
-      "parent_id": "0a65b7b3-0587-4190-952f-e2d64813ad51",
+      "parent_id": "f62d1736-4554-4e29-924d-ac474e7eb892",
       "pagina_inicio": 10,
       "pagina_fin": 14,
       "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
@@ -592,14 +558,14 @@
         "ListItem"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f55b2453-fa3b-4a0f-b011-5ca6aad84bca",
+      "chunk_id": "39e84f6d-c2b0-4b87-ad93-82156db02486",
       "texto": "DIAGRAMAS DE FLUJO\n\n7.0. DESMERCURIZACIÓN\n\n8.0. ESPECIFICACIONES DE PROCESO\n\n9.0. DATOS DE PROCESO PARA INSTRUMENTOS\n\n2.0. TABULACIONES ECONÓMICAS\n\n3.0.",
       "nivel": "child",
-      "parent_id": "0a65b7b3-0587-4190-952f-e2d64813ad51",
+      "parent_id": "f62d1736-4554-4e29-924d-ac474e7eb892",
       "pagina_inicio": 10,
       "pagina_fin": 14,
       "seccion": "ESTRUCTURA DE CARPETAS DEL PROYECTO",
@@ -608,11 +574,11 @@
         "ListItem"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7d591963-b651-40f4-9fff-76a8c5f13a57",
+      "chunk_id": "43696006-62fa-404b-8a81-63ce1be223b2",
       "texto": "TABULACIONES ECONÓMICAS\n\n3.0. PEDIDOS E INSPECCIÓN\n\nIMPORTACIÓN-EXPORTACIÓN\n\n_ESPECIFICACIONES DE CONSTRUCCIÓN\n\n4.0. REQUISICIONES DE CONSTRUCCIÓN (RCs)\n\n5.0. DOCUMENTOS ASOCIADOS A RC'S\n\n6.0. HOJAS DE VERIFICACIÓN",
       "nivel": "parent",
       "parent_id": null,
@@ -624,44 +590,14 @@
         "ListItem"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": false
     },
     {
-      "chunk_id": "95a93cfe-7d81-48b1-ab40-261940426070",
-      "texto": "[Descripción visual: Diagrama o esquema técnico:\n\n- **Tipo de diagrama**: Diagrama de flujo de comunicación entre sistemas en una red.\n- **Componentes y etiquetas**:\n  - **INTRANET**:\n    - Computadoras de: INGENIERÍA, COMPRAS, CONSTRUCCIÓN.\n    - **EXPLORADOR WEB**: Interfaz central para acceso.\n    - **Documentos**: Sistema de almacenamiento y gestión de documentos interno.\n    - **Documento m**: Nodo representando documentos individuales interconectados.\n  - **INTERNET**:\n    - **Centro de Negocios**: Nodo de integración con servicios externos o terceros.\n    - Dos computadoras: OBRA, PROVEEDORES.\n    - **EXPLORADOR WEB**: Acceso externo a través de Internet.\n    - **Documentos**: Sistema de almacenamiento y gestión de documentos accesible desde internet.\n    - **Documento m**: Nodo representando documentos individuales interconectados.\n- **Conexiones y relaciones**:\n  - Flechas **bidireccionales** indicando flujos de datos entre componentes internos (INTRANET) y externos (INTERNET).\n  - **Dotted/dashed** line conectando \"Documento m\" entre el sistema interno y el externo.\n  - Todas las computadoras y el Centro de Negocios están conectados a través de exploradores web, lo que indica intercambio de datos/documentos mediante este medio.\n\nEste diagrama representa la estructura y flujo de comunicación entre distintos departamentos internos (Ingeniería, Compras, Construcción) y externos (Obra, Proveedores) mediante una plataforma de gestión de documentos, combinando acceso intranet e internet.]",
+      "chunk_id": "f7c9e3c6-07dd-41f3-a4df-1918f9a2f53d",
+      "texto": "[Descripción visual: Diagrama de flujo mostrando un sistema de gestión de documentos en una intranet. \n\n### Elementos y estructura:\n\n- **INTRANET:**\n  - **Ingeniería, Compras, Construcción:** Usuarios acceden a través de un \"Explorador Web\".\n  - **Documentos:** Almacenamiento centralizado, accesible a través del \"Explorador Web\".\n\n- **INTERNET:**\n  - **Centro de Negocios:** Conecta con el sistema de documentos.\n  - **Obra y Proveedores:** Acceden al sistema mediante el \"Explorador Web\".\n  - **Documento m:** Conexiones entre almacenamiento documental interno y externo, enlaza con el Centro de Negocios.\n\n### Conexiones:\n- Flechas indican flujo de información entre componentes internos (Intranet) y externos (Internet).\n- Destaca la interoperabilidad entre intranet e internet para gestión documental. \n\nEste diagrama representa cómo diferentes departamentos y usuarios externos interactúan dentro de un sistema de gestión de documentos a través de la intranet e internet.]",
       "nivel": "parent",
       "parent_id": null,
-      "pagina_inicio": 15,
-      "pagina_fin": 15,
-      "seccion": "ANEXO 2 : ACCESO A LA DOCUMENTACIÓN VÍA INTRANET-INTERNET",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "e4bc278c-4ddd-4771-931e-69e0360f3a5e",
-      "texto": "[Descripción visual: Diagrama o esquema técnico:\n\n- **Tipo de diagrama**: Diagrama de flujo de comunicación entre sistemas en una red.\n- **Componentes y etiquetas**:\n  - **INTRANET**:\n    - Computadoras de: INGENIERÍA, COMPRAS, CONSTRUCCIÓN.\n    - **EXPLORADOR WEB**: Interfaz central para acceso.\n    - **Documentos**: Sistema de almacenamiento y gestión de documentos interno.\n    - **Documento m**: Nodo representando documentos individuales interconectados.\n  - **INTERNET**:\n    - **Centro de Negocios**: Nodo de integración con servicios externos o terceros.\n    - Dos computadoras: OBRA, PROVEEDORES.\n    - **EXPLORADOR WEB**: Acceso externo a través de Internet.\n    - **Documentos**: Sistema de almacenamiento y gestión de documentos accesible desde internet.\n    - **Documento m**: Nodo representando documentos individuales interconectados.",
-      "nivel": "child",
-      "parent_id": "95a93cfe-7d81-48b1-ab40-261940426070",
-      "pagina_inicio": 15,
-      "pagina_fin": 15,
-      "seccion": "ANEXO 2 : ACCESO A LA DOCUMENTACIÓN VÍA INTRANET-INTERNET",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "35b54628-2e8a-4faa-bab2-2e82ec88a353",
-      "texto": "- **Documento m**: Nodo representando documentos individuales interconectados.\n- **Conexiones y relaciones**:\n  - Flechas **bidireccionales** indicando flujos de datos entre componentes internos (INTRANET) y externos (INTERNET).\n  - **Dotted/dashed** line conectando \"Documento m\" entre el sistema interno y el externo.\n  - Todas las computadoras y el Centro de Negocios están conectados a través de exploradores web, lo que indica intercambio de datos/documentos mediante este medio.\n\nEste diagrama representa la estructura y flujo de comunicación entre distintos departamentos internos (Ingeniería, Compras, Construcción) y externos (Obra, Proveedores) mediante una plataforma de gestión de documentos, combinando acceso intranet e internet.]",
-      "nivel": "child",
-      "parent_id": "95a93cfe-7d81-48b1-ab40-261940426070",
       "pagina_inicio": 15,
       "pagina_fin": 15,
       "seccion": "ANEXO 2 : ACCESO A LA DOCUMENTACIÓN VÍA INTRANET-INTERNET",

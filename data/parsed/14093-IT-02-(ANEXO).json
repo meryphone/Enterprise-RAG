@@ -1,5 +1,5 @@
 {
-  "doc_id": "62084b2bafb6486d83422ba4a1d25f2e",
+  "doc_id": "c44aabeec27740b5bad19b94d734d5c0",
   "nombre_fichero": "14093-IT-02-(ANEXO).pdf",
   "metadatos_admin": {
     "empresa": "petresa",
@@ -13,55 +13,10 @@
     "edicion": null,
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T20:42:38+00:00",
+  "fecha_ingesta": "2026-04-20T22:00:59+00:00",
   "chunks": [
     {
-      "chunk_id": "a6aa9dfb-4c0e-48a7-8efa-fbff5ff687ed",
-      "texto": "Llegan los documentos al EDF Suministrador Llegan los documentos al EDF Suministrador Registro de llegada EDF Registro de llegada EDF Envío a ERC EDF 1 Envío a ERC EDF 1 Recepción y distribución a impli ERC 1 Recepción y distribución a impli ERC 1 Realización de comentarios Especialista 4 Realización de comentarios Especialista 4 Recepción de comentarios ERC 1 Recepción de comentarios ERC 1 Preparación de 1 MASTER ERC 1 Preparación de 1 MASTER ERC 1 Copia color (1) ERC 1 1.200 Copia B/N (3) ERC 405 Envió a EDF ERC 1 Envió a EDF ERC 1 250 Scaneado EDF 1 Registro de salida EDF Registro de salida EDF Preparación de envío courier EDF 1 Envío courier (4 planos de mediaEDF 4 300 Envío e-mail EDF Recepción proveedor Courier Suministrador 15 1.905 10 250\n\nTotal RM 40 Equipos por RM 5 Planos por equipo 5 Total planos 1.000 Revisiones por plano 3 Número de transacciones 3.000\n\nCoste sistema tradicional 5.715.000 Coste sistema porpuesto 750.000",
-      "nivel": "parent",
-      "parent_id": null,
-      "pagina_inicio": 1,
-      "pagina_fin": 1,
-      "seccion": "PROCEDIMIENTO ACTUAL PROCEDIMIENTO PROPUESTO Acción por Tiempo Coste Acción por Tiempo Coste",
-      "tipos_elemento": [
-        "NarrativeText"
-      ],
-      "es_imagen": false,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "7b14d0c5-0c52-41cf-9820-eeeda781557d",
-      "texto": "Llegan los documentos al EDF Suministrador Llegan los documentos al EDF Suministrador Registro de llegada EDF Registro de llegada EDF Envío a ERC EDF 1 Envío a ERC EDF 1 Recepción y distribución a impli ERC 1 Recepción y distribución a impli ERC 1 Realización de comentarios Especialista 4 Realización de comentarios Especialista 4 Recepción de comentarios ERC 1 Recepción de comentarios ERC 1 Preparación de 1 MASTER ERC 1 Preparación de 1 MASTER ERC 1 Copia color (1) ERC 1 1.200 Copia B/N (3) ERC 405 Envió a EDF ERC 1 Envió a EDF ERC 1 250 Scaneado EDF 1 Registro de salida EDF Registro de salida EDF Preparación de envío courier EDF 1 Envío courier (4 planos de mediaEDF 4 300 Envío e-mail EDF Recepción proveedor Courier Suministrador 15 1.",
-      "nivel": "child",
-      "parent_id": "a6aa9dfb-4c0e-48a7-8efa-fbff5ff687ed",
-      "pagina_inicio": 1,
-      "pagina_fin": 1,
-      "seccion": "PROCEDIMIENTO ACTUAL PROCEDIMIENTO PROPUESTO Acción por Tiempo Coste Acción por Tiempo Coste",
-      "tipos_elemento": [
-        "NarrativeText"
-      ],
-      "es_imagen": false,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "72921ee9-6f05-4376-9c81-0eea5ddb45b5",
-      "texto": "905 10 250\n\nTotal RM 40 Equipos por RM 5 Planos por equipo 5 Total planos 1.000 Revisiones por plano 3 Número de transacciones 3.000\n\nCoste sistema tradicional 5.715.000 Coste sistema porpuesto 750.000",
-      "nivel": "child",
-      "parent_id": "a6aa9dfb-4c0e-48a7-8efa-fbff5ff687ed",
-      "pagina_inicio": 1,
-      "pagina_fin": 1,
-      "seccion": "PROCEDIMIENTO ACTUAL PROCEDIMIENTO PROPUESTO Acción por Tiempo Coste Acción por Tiempo Coste",
-      "tipos_elemento": [
-        "NarrativeText"
-      ],
-      "es_imagen": false,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "583458eb-3416-45f1-96e5-0f7211fd76eb",
+      "chunk_id": "e4202271-26af-4714-aef8-6f2e3fbfddbf",
       "texto": "1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a PETRESA 1 reproducibles.\n\n3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista\n\n1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a PETRESA 1 reproducibles.\n\n3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista",
       "nivel": "parent",
       "parent_id": null,
@@ -76,10 +31,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6fe53ac5-b823-4197-a872-fc3ce300f5b3",
+      "chunk_id": "f29cb172-fcc9-4ab3-be02-dff82b64d224",
       "texto": "1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a PETRESA 1 reproducibles.\n\n3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista\n\n1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a PETRESA 1 reproducibles.",
       "nivel": "child",
-      "parent_id": "583458eb-3416-45f1-96e5-0f7211fd76eb",
+      "parent_id": "e4202271-26af-4714-aef8-6f2e3fbfddbf",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "NOTAS:",
@@ -91,10 +46,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "67be722d-1036-4106-bc41-81388f60730c",
+      "chunk_id": "05d12eb4-54ce-427a-adf5-51e2446805cf",
       "texto": "3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista",
       "nivel": "child",
-      "parent_id": "583458eb-3416-45f1-96e5-0f7211fd76eb",
+      "parent_id": "e4202271-26af-4714-aef8-6f2e3fbfddbf",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "NOTAS:",
@@ -106,22 +61,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b7d71e453c5f47608d49ba796b1b6f5b",
-      "texto": "| Categoría       | Código | Descripción                                      |\n|-----------------|--------|--------------------------------------------------|\n| Hornos          | B      | ESPECIFICACIONES Y HOJAS DE DATOS                |\n| Hornos          | B      | STDS                                             |\n| Hornos          | B      | PLANOS                                           |\n| Hornos          | B      | RM. HORNOS                                       |\n| Hornos          | B      | RM. MISC.                                        |\n| Hornos          | B      | COMPARACION TECNICA OFERTAS                      |\n| Tuberías        | H      | STANDARDS                                        |\n| Tuberías        | H      | PLANOS PLANTA                                    |\n| Tuberías        | H      | PLANOS BANDEJA                                   |\n| Tuberías        | H      | TIPICOS REFRIG.FLUSH,VENTEO,TRAC.VAP             |\n| Tuberías        | H      | ISOMETRICAS                                      |\n| Tuberías        | H      | MTO                                              |\n| Tuberías        | H      | ESFUERZOS Y SOPORTES                             |\n| Tuberías        | H      | CLASES DE TUBERIAS                               |\n| Tuberías        | H      | LISTA DE MATERIALES                              |\n| Tuberías        | H      | RM. EMITIDAS POR ESFUERZOS Y SOP.                |\n| Tuberías        | H      | RM. EMITIDAS POR TUBERIAS                        |\n| Tuberías        | H      | RM. MISC.                                        |\n| Tuberías        | H      | COMPARACION TECNICA OFERTAS                      |\n| Tuberías        | H      | HD / ESPECIFICACIONES DE ITEMS \"H\"               |\n| Electricidad    | N      | ESPECIFICACIONES Y HOJAS DE DATOS                |\n| Electricidad    | N      | STANDARDS                                        |\n| Electricidad    | N      | CLASIFICACION AREAS                              |\n| Electricidad    | N      | DIAGRAMAS UNIFILARES                             |\n| Electricidad    | N      | PLANIMETRIAS FUERZA / ALUMBRADO                  |\n| Electricidad    | N      | PLANIMETRIA TIERRA                               |\n| Electricidad    | N      | SUBEST. FUERZA                                   |\n| Electricidad    | N      | SUBEST. ALUMBRADO                                |\n| Electricidad    | N      | SUBEST. TIERRA                                   |\n| Electricidad    | N      | ESQUEMAS CONTROL                                 |\n| Electricidad    | N      | LISTA DE CABLES                                  |\n| Electricidad    | N      | LISTA DE MOTORES                                 |\n| Electricidad    | N      | CALCULOS CORTOCIRCUITO                           |\n| Electricidad    | N      | SELECTIVIDAD RELES                               |\n| Electricidad    | N      | MISC.                                            |\n| Electricidad    | N      | RM. MOTORES                                      |\n| Electricidad    | N      | RM. TRAFOS                                       |\n| Electricidad    | N      | RM. CONDENSADORES                                |\n| Electricidad    | N      | RM. CUADROS MT.                                  |\n| Electricidad    | N      | RM. CCM                                          |\n| Electricidad    | N      | RM. CUADROS ALUMBRADO                            |\n| Electricidad    | N      | SUBESTACION DISPOSICION EQUIPOS                  |\n| Electricidad    | N      | RM. BARRAS                                       |\n| Electricidad    | N      | RM. UNID. CC                                     |\n| Electricidad    | N      | RM. LUMINARIAS                                   |\n| Electricidad    | N      | RM. TOMAS F. A.                                  |\n| Electricidad    | N      | RM. CABLES                                       |\n| Electricidad    | N      | RM. BANDEJAS                                     |\n| Electricidad    | N      | RM. EST. MANIOBRA                                |\n| Electricidad    | N      | RM. CAJAS DISTRIBUCION                           |\n| Electricidad    | N      | RM SAI                                           |\n| Electricidad    | N      | RC. PUESTA A TIERRA                              |\n| Electricidad    | N      | RC. MONTAJE                                      |\n| Electricidad    | N      | RC. MISC.                                        |\n| Electricidad    | N      | COMPARACION TECNICA DE OFERTAS                   |",
-      "nivel": "child",
-      "parent_id": null,
-      "pagina_inicio": 3,
-      "pagina_fin": 3,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Table"
-      ],
-      "es_imagen": false,
-      "dentro_de_anexo": true,
-      "tabla_degradada": true
-    },
-    {
-      "chunk_id": "b85eed45e5654e599f2ea1ca483ed8c3",
+      "chunk_id": "bd3d8d86944a4f3a921147027b3b590d",
       "texto": "| 1.- PETRESA PARA APROBACION Ó INF. 3   | 2.- PETRESA FINAL 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3   | 3.- GERENCIA UTE 4.- DIR. PROY. IUI 1 1   | 5.- JEFE INGENIERIA IUI   | 6.- ING. PROYECTO IUI 7.- PROGR.Y CONTROL COSTES IUI 1 1 1 1 1 1 1 1 1 1 1   | 8.- PROCESO 1 1 1 1   | 9.- CIVIL Y ARQUITECTURA 10.- TUBERIAS 2 2 1 2 2 1 2 1 2 2 1*** 2 1 2 2 2 1 1 1 2 1 2 1 2 1 2 1 1 1 1 1 1   | 11.- MTO 1 1 1 1 1 1 1 1 1 1 1 1   | 12.- ESFUERZOS Y SOPORTES 13.- EQUIPOS ESTATICOS 1 1 1 1 1 1 1 1 1 1 1 1   | 14.- EQUIPOS ROTATIVOS 1 1 1 1   | 15.- HORNOS 1 1 1 1 1 1   | 16.- DCI 1 1 1 1 1 1 1 1   | 17.- ELECTRICIDAD 1 1 1 1 1 1 1 1 1 1 1 1 1 1   | 18.- INSTRUMENTOS 1 1* 1** 1 1 1* 1 1 1 1 1   | 19,- AIRE ACONDICIONADO   | 20.- COMPRAS ( RM´s PET. OFERTA) 1 2+$ 1 1 2+$ 2+$ 2+$ 1 1   | 21.- COMPRAS ( RM´s COMPRAS) 3 3 3 3 3   | 22.- CONSTRUCCION 1 1 1 1 #2 #2 #2 #2 #2 #1 1 1 #2 #2 #2 #2 #2 #2 #2   | 24.- ARCHIVO GENERAL 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1   | 25.- PREVENCION DE RIESGOS LABORALES 1   |\n|----------------------------------------|-----------------------------------------------------------------------|-------------------------------------------|---------------------------|------------------------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------|----------------------------------------------------------------------------|----------------------------------|---------------------------|----------------------------|-------------------------------------------------|-----------------------------------------------|---------------------------|--------------------------------------------------------------|------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------|",
       "nivel": "child",
       "parent_id": null,
@@ -136,23 +76,344 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "98cb05f3-6413-40d8-a4ac-b575c645b3f9",
-      "texto": "1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a PETRESA 1 reproducibles.\n\n3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista",
+      "chunk_id": "6edd636e-b077-4f76-8d4e-41aa54e0a444",
+      "texto": "[Descripción visual: ```markdown\n| Disciplina      | Tipo | Descripción                           | PEITERSA PARA APROBACIÓN Nº_LIM | PEITERSA FINAL | CERTECSA | JAP. JV. UL | DIR. PROY UHDE | RAC. PG. UHDE | PROY. CONTROL COSTES UHDE | CIVIL-ARQUITECTURA | HVAC | MURO SOPORTES | EQUIPOS SOPORTES | EQUIPOS ROTATIVOS | EQUIPOS ESTÁTICOS | ELECTRICIDAD | INSTRUMENTADO | PIP-HIDRAULICO | PLANO CONSTRUCCIÓN | COMPRAS EQUIPO COMPRA/S | COMPRAS (MIC) COMPRA/S | ZOI, CMAYORÍA (REP. REF. OBTEN.) | OTH. COMPRAS/ NEGOCIACIÓN | SOP. CONSULT. UHDE/GA |\n|-----------------|------|---------------------------------------|------------------------|------------|----------|----------|--------------|---------------|---------------------|------------------|------|---------------|-----------------|------------------|------------------|--------------|----------------|----------------|-----------------|------------------------|----------------------|-------------------------------|---------------------|--------------------|\n| Hornos          | B    | ESPECIFICACIONES Y HOJAS DE DATOS     | 3                      |            |          |          |              | 3             |                     | 1                |      |               | 1               | 1                |                  | 1            | 1              | 1              | 1               | 1                      | 1                    | #2                            | 1                   | 1                  |\n| Hornos          | B    | STDS                                  | 3                      |            |          |          |              | 3             |                     | 1                |      |               |                 |                  |                  | 1            |                |                | 1               | 1                      | 1                    | #2                            | 1                   | 1                  |\n| Hornos          | B    | PLANOS                                | 3                      |            |          |          |              | 2             |                     | 3                |      |               |                 |                  |                  | 1            |                |                |                 | 1                      | 1                    | #2                            | 1                   | 1                  |\n| Hornos          | B    | RM. HORNOS                            | 3                      |            |          |          |              |               | 3                   |                  | 1    |               | 3               | 3                |                  |              | 1              | 1              | 1               | 1                      | 1                    | _ORG                         | 1                   | 1                  |\n| Hornos          | B    | RM. MISC.",
       "nivel": "parent",
       "parent_id": null,
-      "pagina_inicio": 4,
+      "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "NOTAS:",
       "tipos_elemento": [
+        "Image",
         "NarrativeText"
       ],
-      "es_imagen": false,
+      "es_imagen": true,
       "dentro_de_anexo": true,
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8c9d3ccae07e4f89b43c38a9c86d40e7",
-      "texto": "|             |       |                                                  |\n|-------------|-------|--------------------------------------------------|\n| Instrument  | K     | ESPECIFICACIONES Y HOJAS DE DATOS                |\n| Instrument  | K     | STDS                                             |\n| Instrument  | K     | CONEXIONES DE INSTRUMENTOS A RECIPIENTES         |\n| Instrument  | K     | LISTA INSTRUMENTACION                            |\n| Instrument  | K     | LISTA MATERIAL DE MONTAJE                        |\n| Instrument  | K     | LISTA CABLES Y MULTICABLES                       |\n| Instrument  | K     | RANGOS DE INSTRUMENTOS                           |\n| Instrument  | K     | ESQUEMAS DE CONTROL                              |\n| Instrument  | K     | ESQUEMAS LOGICOS                                 |\n| Instrument  | K     | ESQUEMAS DE MONTAJE                              |\n| Instrument  | K     | PLANIMETRIAS SALA DE CONTROL                     |\n| Instrument  | K     | PLANIMETRIAS CAMPO                               |\n| Instrument  | K     | PLANIMETRIAS SALA DE RACK                        |\n| Instrument  | K     | PANEL DISTRIB.                                   |\n| Instrument  | K     | CAJAS CONEXIÓN                                   |\n| Instrument  | K     | INTERCONEX. CCM                                  |\n| Instrument  | K     | RM. SISTEMA DE CONTROL DISTRIBUIDO               |\n| Instrument  | K     | RM. TRANSMISORES ELECTRICOS                      |\n| Instrument  | K     | RM. VALVULAS CONTROL ELECTRON.                   |\n| Instrument  | K     | RM. VALVULA DE  SEGURIDAD                        |\n| Instrument  | K     | RM. CASETA DE ANALIZADORES                       |\n| Instrument  | K     | RM. PLACAS  DE ORIFICIO/MIRILLAS CAUD.           |\n| Instrument  | K     | RM. MEDIDORES DE CAUDAL                          |\n| Instrument  | K     | RM. NIVELES DESPLAZADOR                          |\n| Instrument  | K     | RM. MANOMETROS                                   |\n| Instrument  | K     | RM. TERMOMETROS                                  |\n| Instrument  | K     | RM. TRASMISORES Y VAINAS                         |\n| Instrument  | K     | RM. PRESOSTATOS                                  |\n| Instrument  | K     | RM. INTERRUPTOR DE CAUDAL                        |\n| Instrument  | K     | RM. CABLES                                       |\n| Instrument  | K     | RM. CAJAS                                        |\n| Instrument  | K     | RM. MAT. MISC.                                   |\n| Instrument  | K     | RC. MONTAJE                                      |\n| Instrument  | K     | COMPARACION TECNICA OFERTAS                      |\n| Instrument  | K     | PLANOS VENDEDORES INSTR. EN LINEA                |\n| Compras     | COMPR | RM's para PETICION de OFERTA                     |\n| Compras     | COMPR | PETICIONES de OFERTA                             |\n| Compras     | COMPR | OFERTAS RECIBIDAS                                |\n| Compras     | COMPR | COMPARACION de OFERTAS                           |\n| Compras     | COMPR | DOCUMENTO DE COMPROMISO                          |\n| Compras     | COMPR | RM's para PEDIDO                                 |\n| Compras     | COMPR | PEDIDOS ( sin RM. )          (NOTA 6)            |\n| Compras     | COMPR | SUPLEMENTO DE PEDIDO         (NOTA 6)            |\n| Compras     | COMPR | INFORMES INSPECCION                              |\n| Compras     | COMPR | FACTURAS APROBADAS PROVEEDORES                   |\n| Compras     | COMPR | CORRESPONDENCIA PROVEEDORES                      |\n| Compras     | COMPR | INFORME RECEP. MAT. OBRA                         |\n| Compras     | COMPR | PLANOS FINALES                                   |\n| Subcn       | SUBCN | PETICIONES DE OFERTA                             |\n| Subcn       | SUBCN | OFERTAS RECIBIDAS                                |\n| Subcn       | SUBCN | COMPARACION de OFERTAS                           |\n| Subcn       | SUBCN | DOC. COMPROMISO (Fax Intención...)               |\n| Subcn       | SUBCN | RC's para SUBCONTRACTACION                       |\n| Subcn       | SUBCN | SUBCONTRATOS (Sin RC)         (NOTA 6)           |\n| Subcn       | SUBCN | SUPLEMENTO                     (NOTA 6)          |\n| Subcn       | SUBCN | FACTURAS APROBADAS SUBCONTR.                     |\n| Subcn       | SUBCN | CORRESPONDENCIA SUBCONTR.                        |\n| Subcn       | SUBCN",
+      "chunk_id": "5819eca3-45db-426c-a16b-519206a8d87b",
+      "texto": "[Descripción visual: ```markdown\n| Disciplina      | Tipo | Descripción                           | PEITERSA PARA APROBACIÓN Nº_LIM | PEITERSA FINAL | CERTECSA | JAP. JV. UL | DIR. PROY UHDE | RAC. PG. UHDE | PROY. CONTROL COSTES UHDE | CIVIL-ARQUITECTURA | HVAC | MURO SOPORTES | EQUIPOS SOPORTES | EQUIPOS ROTATIVOS | EQUIPOS ESTÁTICOS | ELECTRICIDAD | INSTRUMENTADO | PIP-HIDRAULICO | PLANO CONSTRUCCIÓN | COMPRAS EQUIPO COMPRA/S | COMPRAS (MIC) COMPRA/S | ZOI, CMAYORÍA (REP. REF. OBTEN.) | OTH. COMPRAS/ NEGOCIACIÓN | SOP. CONSULT. UHDE/GA",
+      "nivel": "child",
+      "parent_id": "6edd636e-b077-4f76-8d4e-41aa54e0a444",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9fe55e14-8485-4ea7-93d7-724659d7a79f",
+      "texto": "COMPRAS/ NEGOCIACIÓN | SOP. CONSULT. UHDE/GA |\n|-----------------|------|---------------------------------------|------------------------|------------|----------|----------|--------------|---------------|---------------------|------------------|------|---------------|-----------------|------------------|------------------|--------------|----------------|----------------|-----------------|------------------------|----------------------|-------------------------------|---------------------|--------------------|\n| Hornos          | B    | ESPECIFICACIONES Y HOJAS DE DATOS     | 3                      |            |          |          |              | 3             |                     | 1                |      |",
+      "nivel": "child",
+      "parent_id": "6edd636e-b077-4f76-8d4e-41aa54e0a444",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f91e4c07-6471-4faa-aba9-537dcc9fc19c",
+      "texto": "|      |               | 1               | 1                |                  | 1            | 1              | 1              | 1               | 1                      | 1                    | #2                            | 1                   | 1",
+      "nivel": "child",
+      "parent_id": "6edd636e-b077-4f76-8d4e-41aa54e0a444",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "17130c80-5ee6-4174-82da-18b5965fb39a",
+      "texto": "| 1                  |\n| Hornos          | B    | STDS                                  | 3                      |            |          |          |              | 3             |                     | 1                |      |               |                 |",
+      "nivel": "child",
+      "parent_id": "6edd636e-b077-4f76-8d4e-41aa54e0a444",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b5d12cf3-469d-45ab-8ea4-e89e61017ce2",
+      "texto": "|                  |                  | 1            |                |                | 1               | 1                      | 1                    | #2                            | 1                   | 1                  |\n| Hornos          | B    | PLANOS",
+      "nivel": "child",
+      "parent_id": "6edd636e-b077-4f76-8d4e-41aa54e0a444",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e727389d-4b60-4bad-8bdd-0a10c6b45144",
+      "texto": "| PLANOS                                | 3                      |            |          |          |              | 2             |                     | 3                |      |               |                 |                  |                  | 1            |",
+      "nivel": "child",
+      "parent_id": "6edd636e-b077-4f76-8d4e-41aa54e0a444",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "41199826-329e-4ae2-a57b-4ef321da6a1d",
+      "texto": "1            |                |                |                 | 1                      | 1                    | #2                            | 1                   | 1                  |\n| Hornos          | B    | RM.",
+      "nivel": "child",
+      "parent_id": "6edd636e-b077-4f76-8d4e-41aa54e0a444",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ef9ae9d4-ce7d-4962-af79-f8d08fffe7ea",
+      "texto": "Hornos          | B    | RM. HORNOS                            | 3                      |            |          |          |              |               | 3                   |                  | 1    |               | 3               | 3                |                  |              | 1              | 1              | 1               | 1                      | 1                    | _ORG                         | 1                   | 1                  |\n| Hornos          | B    | RM. MISC.",
+      "nivel": "child",
+      "parent_id": "6edd636e-b077-4f76-8d4e-41aa54e0a444",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "texto": "MISC.                             | 3                      |            |          |          |              | 2             |                     | 3                |      |               |                 |                  |                  | 1            | 1              | 1              | 1               | 1                      | 1                    | _ORG                         | 1                   | 1                  |\n| Hornos          | H    | COMPARACIÓN TÉCNICA OFERTAS           | 3                      |            |          |          |              | 2             |                     | 3                |      |               | 2               | 3                |                  |              | 1              | 1              | 1               | 1                      | 1                    | _ORG                         |                     | 1                  |\n| Tuberías        | H    | STANDARDS                             | 3                      |            |          |          |              | 3             |                     | 3                |      |               | 1               |                  |                  | 1            | 1              | 1              |                 | 1                      | 1                    | _ORG                         |                     | 1                  |\n| Tuberías        | H    | PLANOS PLANTA                         | 2                      |            | 2        |          |              | 3             |                     |                  | 3    |               | 2               |                  |                  | 1            |                |                |                 |                        | 1                    | _ORG                         | 1                   | 1                  |\n| Tuberías        | H    | PLANOS BANDAJES                       | 3                      |            |          |          |              | 3             |                     |                  | 2    |               |                 |                  |                  | 1            |                |                |                 |                        | 1                    | #2                            | 1                   | 1                  |\n| Tuberías        | H    | ISOMÉTRICO                            | 3                      |            | 2        | 3        |              | 2             |                     |                  | 3    |]\n\n1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a PETRESA 1 reproducibles.\n\n3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista",
+      "nivel": "parent",
+      "parent_id": null,
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d2b5d226-7162-4ca9-9549-6988152fd607",
+      "texto": "MISC.                             | 3                      |            |          |          |              | 2             |                     | 3                |      |               |                 |                  |                  | 1            | 1              | 1              | 1",
+      "nivel": "child",
+      "parent_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "22327703-c29d-4ff1-a611-de770bf155c9",
+      "texto": "| 1               | 1                      | 1                    | _ORG                         | 1                   | 1                  |\n| Hornos          | H    | COMPARACIÓN TÉCNICA OFERTAS           | 3                      |            |          |          |              | 2",
+      "nivel": "child",
+      "parent_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a762b891-f315-4263-88de-4a6bcea78607",
+      "texto": "|              | 2             |                     | 3                |      |               | 2               | 3                |                  |              | 1              | 1              | 1               | 1                      | 1                    | _ORG",
+      "nivel": "child",
+      "parent_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "37762342-6b4e-42c5-904f-c990ed9584d9",
+      "texto": "| _ORG                         |                     | 1                  |\n| Tuberías        | H    | STANDARDS                             | 3                      |            |          |          |              | 3             |                     | 3",
+      "nivel": "child",
+      "parent_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2a262ebd-03b2-440c-b739-f20fd035f0eb",
+      "texto": "| 3                |      |               | 1               |                  |                  | 1            | 1              | 1              |                 | 1                      | 1                    | _ORG                         |                     | 1",
+      "nivel": "child",
+      "parent_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "470158a8-6f84-459b-acab-4d8cb89fd263",
+      "texto": "| 1                  |\n| Tuberías        | H    | PLANOS PLANTA                         | 2                      |            | 2        |          |              | 3             |                     |                  | 3    |               | 2               |",
+      "nivel": "child",
+      "parent_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "70044e14-8b66-464a-8981-07e29720b2f0",
+      "texto": "|                  |                  | 1            |                |                |                 |                        | 1                    | _ORG                         | 1                   | 1                  |\n| Tuberías        | H    | PLANOS BANDAJES",
+      "nivel": "child",
+      "parent_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "77f7a1ee-d7f7-4622-b25e-f9d128b0006a",
+      "texto": "| PLANOS BANDAJES                       | 3                      |            |          |          |              | 3             |                     |                  | 2    |               |                 |                  |                  | 1            |",
+      "nivel": "child",
+      "parent_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "796dcb89-2077-45f2-b3fd-7b3f5a663b3d",
+      "texto": "|                |                |                 |                        | 1                    | #2                            | 1                   | 1                  |\n| Tuberías        | H    | ISOMÉTRICO                            | 3                      |",
+      "nivel": "child",
+      "parent_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9aa87ce6-59e9-4669-bc12-0fb089c816f1",
+      "texto": "|            | 2        | 3        |              | 2             |                     |                  | 3    |]\n\n1)   Los originales  los archiva el responsable de cuenta y aparecen en sombreado\n\n2)   De los planos finales se enviará a PETRESA 1 reproducibles.",
+      "nivel": "child",
+      "parent_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ec24626f-f6af-445c-82cb-24734df8840f",
+      "texto": "De los planos finales se enviará a PETRESA 1 reproducibles.\n\n3)   Las RM´s/RC's se envian sin los documentos adjuntos, excepto compras/construcción\n\n5)   Los doc para construc y obra se envían una vez aprobados para construcción\n\n6) Los subcontratos y suplementos se distribuyen a Administarción de la UTE\n\n$ = Número de ofertantes\n\n& = Las requeridas por el especialista",
+      "nivel": "child",
+      "parent_id": "eaed41aa-471c-4c1e-b954-894b0770b5c4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2a094ee4fd66480a9d8ab1f69613c2fa",
+      "texto": "|               |     |                                        |\n|---------------|-----|----------------------------------------|\n| Instrument    | K   | ESPECIFICACIONES Y HOJAS DE DATOS      |\n| Instrument    | K   | STDS                                   |\n| Instrument    | K   | CONEXIONES DE INSTRUMENTOS A RECIPIENTES|\n| Instrument    | K   | LISTA INSTRUMENTACION                  |\n| Instrument    | K   | LISTA MATERIAL DE MONTAJE              |\n| Instrument    | K   | LISTA CABLES Y MULTICABLES             |\n| Instrument    | K   | RANGOS DE INSTRUMENTOS                 |\n| Instrument    | K   | ESQUEMAS DE CONTROL                    |\n| Instrument    | K   | ESQUEMAS LOGICOS                       |\n| Instrument    | K   | ESQUEMAS DE MONTAJE                    |\n| Instrument    | K   | PLANIMETRIAS SALA DE CONTROL           |\n| Instrument    | K   | PLANIMETRIAS CAMPO                     |\n| Instrument    | K   | PLANIMETRIAS SALA DE RACK              |\n| Instrument    | K   | PANEL DISTRIB.                         |\n| Instrument    | K   | CAJAS CONEXIÓN                         |\n| Instrument    | K   | INTERCONEX. CCM                        |\n| Instrument    | K   | RM. SISTEMA DE CONTROL DISTRIBUIDO     |\n| Instrument    | K   | RM. TRANSMISORES ELECTRICOS            |\n| Instrument    | K   | RM. VALVULAS CONTROL ELECTRON.         |\n| Instrument    | K   | RM. VALVULA DE  SEGURIDAD              |\n| Instrument    | K   | RM. CASETA DE ANALIZADORES             |\n| Instrument    | K   | RM. PLACAS  DE ORIFICIO/MIRILLAS CAUD. |\n| Instrument    | K   | RM. MEDIDORES DE CAUDAL                |\n| Instrument    | K   | RM. NIVELES DESPLAZADOR                |\n| Instrument    | K   | RM. MANOMETROS                         |\n| Instrument    | K   | RM. TERMOMETROS                        |\n| Instrument    | K   | RM. TRASMISORES Y VAINAS               |\n| Instrument    | K   | RM. PRESOSTATOS                        |\n| Instrument    | K   | RM. INTERRUPTOR DE CAUDAL              |\n| Instrument    | K   | RM. CABLES                             |\n| Instrument    | K   | RM. CAJAS                              |\n| Instrument    | K   | RM. MAT. MISC.                         |\n| Instrument    | K   | RC. MONTAJE                            |\n| Instrument    | K   | COMPARACION TECNICA OFERTAS            |\n| Instrument    | K   | PLANOS VENDEDORES INSTR. EN LINEA      |\n| Compras       | COMPR| RM's para PETICION de OFERTA          |\n| Compras       | COMPR| PETICIONES DE OFERTA                  |\n| Compras       | COMPR| OFERTAS RECIBIDAS                     |\n| Compras       | COMPR| COMPARACION de OFERTAS                |\n| Compras       | COMPR| DOCUMENTO DE COMPROMISO               |\n| Compras       | COMPR| RM's para PEDIDO                      |\n| Compras       | COMPR| PEDIDOS ( sin RM. )             (NOTA 6)|\n| Compras       | COMPR| SUPLEMENTO DE PEDIDO            (NOTA 6)|\n| Compras       | COMPR| INFORMES INSPECCION                   |\n| Compras       | COMPR| FACTURAS APROBADAS PROVEEDORES        |\n| Compras       | COMPR| CORRESPONDENCIA PROVEEDORES           |\n| Compras       | COMPR| INFORME RECEP. MAT. OBRA              |\n| Compras       | COMPR| PLANOS FINALES                        |\n| Subcn         | SUBCN| PETICIONES DE OFERTA                  |\n| Subcn         | SUBCN| OFERTAS RECIBIDAS                     |\n| Subcn         | SUBCN| COMPARACION DE OFERTAS                |\n| Subcn         | SUBCN| DOC. COMPROMISO (Fax Intención...)    |\n| Subcn         | SUBCN| RC's para SUBCONTRATACION             |\n| Subcn         | SUBCN| SUBCONTRATOS (Sin RC)          (NOTA 6)|\n| Subcn         | SUBCN| SUPLEMENTO                     (NOTA 6)|\n| Subcn         | SUBCN| FACTURAS APROBADAS SUBCONTR.          |\n| Subcn         | SUBCN| CORRESPONDENCIA SUBCONTR.             |\n| Subcn         | SUBCN| PLANOS AS BUIL",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 4,
@@ -166,8 +427,8 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "6eb43942-e277-4d14-8104-ac1014e6e92a",
-      "texto": "[Descripción visual: ```markdown\n| 1. PETRESA PARA APROBACIÓN O I.n.F. | 2. PETRESA FINAL | 3. GERENCIA UTE | 4. DIR. PROY. JLL | 5. JEFE INGENIERÍA JLL | 6. ING. PROYECTO JLL | 7. PROGR. Y CONTROL COSTES JLL | 8. PROC. Y ARQUITECTURA | 9. CIVIL Y ARQUITECTURA | 10. MTO | 11. MTTO | 12. ESFUERZOS Y SOPORTES | 13. EQUIPOS ESTÁTICOS | 14. EQUIPOS ROTATIVOS | 15. HORNOS | 16. DCI | 17. ELECTRICIDAD | 18. INSTRUMENTOS | 19. AIRE ACONDICIONADO | 20. COMPRAS (RM.$ PET. OFERTA) | 21. COMPRAS (RM.$ COMPRAS) | 22. CONSTRUCCION | 23. OBRA | 24. ARCHIVO GENERAL | 25.",
+      "chunk_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "texto": "[Descripción visual: La imagen contiene una tabla con datos organizados en filas y columnas. A continuación, se transcribe la información:\n\n| PETRESA PARA APROBACIÓN Y NF: | PETRESA FINAL | GERENCIA UTE | DIR. PROY. UTE | JEFE INGENIERIA UTE | ING. PROYECTO UTE | PROGR. Y CONTROL COSTES UTE | PROC. Y ARQUITECTURA | CIVIL Y ARQUITECTURA | MT0 | TUBERIAS | ESFUERZOS Y SOPORTES | EQUIPOS ESTÁTICOS | EQUIPOS ROTATIVOS | HORNOS | DCI | ELECTRICIDAD | INSTRUMENTOS | AIRE ACONDICIONADO | COMPRAS (RM´S PET. OFERTA) | COMPRAS (RM´S COMPRAS) | CONSTRUCCION | OBRA | ARCHIVO GENERAL | PREVENCIÓN DE RIESGOS LABORALES |\n|-------------------------------|--------------|--------------|----------------|--------------------|------------------|--------------------------|--------------------|---------------------|-----|----------|---------------------|-------------------|-----------------|--------|-----|--------------|-------------|-------------------|----------------------------|----------------------|--------------|------|-----------------|------------------------------|\n| 1                             | 3            | 2            | 3              |                    |                  |                          | 2                  | 2                   |     |          | 1                   | 1                 | 1               | 1      | 1   |              | 1           | 1*                | #2                         | 1                    | 1            | 1    | 1               | 1                            |\n| 3                             | 3            | 3            | 3              |                    | 1                |                          |                    |                     |     | 1        | 2                   | 1                 |                 |        | 1   |              | 1           | 1*                | #2                         | 1                    | 1            | 1    | 1               | 1                            |\n| 3                             | 3            | 3            | 3              |                    | 1                |                          |                    |                     |     | 1        | 2                   | 1                 |                 |        | 1   |              | 1           | 1*                | #2                         | 1                    | 1            | 1    | 1               | 1                            |\n| 3                             | 3            | 3            | 3              |                    | 1                |                          |                    |                     |     |          | 1                   | 1                 | 1               | 1      | 1   |              | 1           | 1*                | 3+&                        | 1                    | 1            | 1    | 1               |                              |\n| 3                             | 3            |              |                |                    |                  |                          |                    |                     |     |          |                     |                   |                 |        |     |              |             |                   |                            |                      |              |      |                 |                              |\n| 3                             | 1**          | Esp.         | Esp.           | Esp.               | Esp.             | Esp.                     | Esp.               | Esp.                | Esp.| Esp.      | Esp.                 | Esp.              | Esp.            | Esp.   | Esp.| O            | 1           | 1                 |                            | 1                    | 1            |      |                 | 1                            |\n| 1                             | Esp.         | Esp.         | Esp.           |                    | Esp.             | Esp.                     |                    | Esp.                |     |          | Esp.                 | Esp.              | Esp.            | Esp.   | Esp.| O            |             |                   |                            |                      |              |      |                 |                              |\n| 3                             |              |              |                |                    |                  |                          |                    |                     |     |          |                     |                   |                 |        | 1   |              |             |                   |                            |                      |              |      | 1               | 1                            |\n| 1**                           |              | Esp.         | Esp.           | Esp.               | Esp.             | Esp.                     | Esp.               | Esp.                | Esp.| Esp.      | Esp.                 | Esp.              | Esp.            | Esp.   | Esp.| O            | 1           | 1                 |                            | 1                    | 1            | 1    |                 |                              |\n| 3**                           |              | Esp.         | Esp.           | Esp.",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 4,
@@ -181,8 +442,188 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "texto": "OBRA | 24. ARCHIVO GENERAL | 25. PREVENCIÓN DE RIESGOS LABORALES |\n|------------------------------------|------------------|----------------|------------------|-------------------|-----------------|--------------------------|-------------------|-------------------|--------|---------|-------------------|-------------------|-------------------|---------|---------|--------------|--------------|------------------|------------------------|------------------------|-----------------|---------|------------------|----------------------------------|\n| 3                                  | 3                |                |                  |                   |                 |                          |                   |                   |        |         |                   |                   |                   |         |         |              |              |                  |                        |                        |                 |         |                  | 1                                |\n| 3                                  | 3                |                |                  |                   |                 |                          |                   |                   |        |         | 1                 |                   |                   | 1       |         |              |              |                  |                        |                        | 1               |         |                  | 1                                |\n| 3                                  | 3                |                |                  |                   |                 | 1                        |                   |                   |        |         | 1                 | 1                 |                   |         |         |              |              |                  | #2                     |                        | 1               | 1       |                  | 1                                |\n| 3                                  | 3                |                |                  |                   |                 | 1                        |                   |                   |        | 1       |                   | 1                 | 1                 |         |         |              |              |                  | #2                     |                        | 1               | 1       |                  | 1                                |\n| 3                                  | 3                |                |                  |                   |                 | 1                        | 1                 |                   |        | 1       |                   | 1                 |                   |         |         |              |              |                  | #2                     |                        | 1               | 1       |                  | 1                                |\n| 3                                  | 3                |                |                  |                   |                 | 1                        | 1                 |                   | 1      | 1       |                   |                   |                   |         |         |              |              |                  | #2                     |                        | 1               | 1       |                  | 1                                |\n| 3                                  |                  |                |                  |                   |                 |                          |                   |                   |        |         |                   |                   |                   |         |         |              |              |                  |                        |                        |                 |         |                  |                                  |\n| 3                                  | 1                |                |                  |                   |                 |                          |                   |                   |        |         |                   |                   |                   |         |         |              |              |                  |                        |                        |                 |         |                  |                                  |\n| 3                                  | 1                |                |                  |                   |                 |                          | 1                 |                   |        |         |                   |                   |                   | 1       |         |              |              |                  |                        |                        |                 |         |                  | 1                                |\n| 3                                  | 1                |                |                  |                   |                 |                          | 1                 |                   | 1      |         |                   |                   |                   |         |         |              |              |                  |                        |                        | 1               |         |                  | 1                                |\n| 3                                  | 1                |                |                  |                   |                 |                          | 1                 | 1                 |        |         |                   |                   |                   |         |         | 1            |              |                  |                        |                        | 1               |         |                  | 1                                |\n| 3                                  |]",
+      "chunk_id": "4ff827eb-f480-41e8-9c97-32309af3d43f",
+      "texto": "[Descripción visual: La imagen contiene una tabla con datos organizados en filas y columnas. A continuación, se transcribe la información:\n\n| PETRESA PARA APROBACIÓN Y NF: | PETRESA FINAL | GERENCIA UTE | DIR. PROY. UTE | JEFE INGENIERIA UTE | ING. PROYECTO UTE | PROGR. Y CONTROL COSTES UTE | PROC. Y ARQUITECTURA | CIVIL Y ARQUITECTURA | MT0 | TUBERIAS | ESFUERZOS Y SOPORTES | EQUIPOS ESTÁTICOS | EQUIPOS ROTATIVOS | HORNOS | DCI | ELECTRICIDAD | INSTRUMENTOS | AIRE ACONDICIONADO | COMPRAS (RM´S PET. OFERTA) | COMPRAS (RM´S COMPRAS) | CONSTRUCCION | OBRA | ARCHIVO GENERAL | PREVENCIÓN DE RIESGOS LABORALES",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c5c0968d-776b-46bd-a312-34bdd51c0c95",
+      "texto": "| OBRA | ARCHIVO GENERAL | PREVENCIÓN DE RIESGOS LABORALES |\n|-------------------------------|--------------|--------------|----------------|--------------------|------------------|--------------------------|--------------------|---------------------|-----|----------|---------------------|-------------------|-----------------|--------|-----|--------------|-------------|-------------------|----------------------------|----------------------|--------------|------|-----------------|------------------------------|\n| 1                             | 3            | 2            | 3              |                    |                  |                          | 2                  | 2",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1224e668-cd9e-4e93-8512-374bb86455e2",
+      "texto": "| 2                   |     |          | 1                   | 1                 | 1               | 1      | 1   |              | 1           | 1*                | #2                         | 1                    | 1            | 1    | 1               | 1",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8af685ef-efc0-45e2-9b0f-1506acc3386b",
+      "texto": "| 1                            |\n| 3                             | 3            | 3            | 3              |                    | 1                |                          |                    |                     |     | 1        | 2                   |",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7cd07070-33f0-424f-86cf-bf5cf0b187a8",
+      "texto": "| 1                 |                 |        | 1   |              | 1           | 1*                | #2                         | 1                    | 1            | 1    | 1               | 1                            |\n| 3",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "4e0b4ee7-d599-4c78-89de-f07d30744f16",
+      "texto": "| 3            | 3            | 3              |                    | 1                |                          |                    |                     |     | 1        | 2                   | 1                 |                 |        |",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "cd1ad2c1-f842-4541-a47b-1798ed63d05b",
+      "texto": "|        | 1   |              | 1           | 1*                | #2                         | 1                    | 1            | 1    | 1               | 1                            |\n| 3                             | 3            | 3            | 3",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9fbed13f-4173-4873-9c9a-9cfb92ca2c1d",
+      "texto": "| 3              |                    | 1                |                          |                    |                     |     |          | 1                   | 1                 | 1               | 1      | 1   |              | 1           | 1*",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "530cc567-2181-43de-88cc-81e01fa257df",
+      "texto": "| 1*                | 3+&                        | 1                    | 1            | 1    | 1               |                              |\n| 3                             | 3            |              |                |                    |",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fd94b73c-1b42-476c-8e53-a11c42af1a8b",
+      "texto": "|                  |                          |                    |                     |     |          |                     |                   |                 |        |     |              |             |                   |                            |",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "80d340a6-2f27-4dcf-bdfa-077e74f878a3",
+      "texto": "|                      |              |      |                 |                              |\n| 3                             | 1**          | Esp.         | Esp.           | Esp.               | Esp.             | Esp.                     | Esp.               | Esp.                | Esp.| Esp.      | Esp.                 | Esp.              | Esp.            | Esp.   | Esp.| O            | 1           | 1                 |                            | 1                    | 1            |      |                 | 1                            |\n| 1                             | Esp.         | Esp.         | Esp.           |                    | Esp.             | Esp.",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ad7dc572-e4d5-4ab6-a951-82e031453821",
+      "texto": "| Esp.         | Esp.           |                    | Esp.             | Esp.                     |                    | Esp.                |     |          | Esp.                 | Esp.              | Esp.            | Esp.   | Esp.| O            |             |                   |                            |                      |              |      |                 |                              |\n| 3                             |              |              |                |                    |                  |                          |                    |                     |     |          |                     |                   |                 |        | 1   |              |             |                   |                            |                      |              |      | 1               | 1                            |\n| 1**                           |              | Esp.         | Esp.           | Esp.               | Esp.             | Esp.                     | Esp.               | Esp.                | Esp.| Esp.      | Esp.                 | Esp.              | Esp.            | Esp.   | Esp.| O            | 1           | 1                 |                            | 1                    | 1            | 1    |                 |                              |\n| 3**                           |              | Esp.         | Esp.           | Esp.",
+      "nivel": "child",
+      "parent_id": "3b460c6a-d44d-43dc-88f4-ca6e94c2e6cc",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "NOTAS:",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "51dc6237-0424-43d9-9920-d94bcf576345",
+      "texto": "| Esp.           | Esp.               | Esp.             | Esp.                     | Esp.               | Esp.                | Esp.| Esp.      |]",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 4,
@@ -196,338 +637,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c093427e-d026-4895-b926-05f90d00ec16",
-      "texto": "OBRA | 24. ARCHIVO GENERAL | 25. PREVENCIÓN DE RIESGOS LABORALES |\n|------------------------------------|------------------|----------------|------------------|-------------------|-----------------|--------------------------|-------------------|-------------------|--------|---------|-------------------|-------------------|-------------------|---------|---------|--------------|--------------|------------------|------------------------|------------------------|-----------------|---------|------------------|----------------------------------|\n| 3                                  | 3                |                |                  |                   |                 |                          |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "1e8b7c3a-45a0-42f8-8226-c18540707f27",
-      "texto": "|                   |                   |        |         |                   |                   |                   |         |         |              |              |                  |                        |                        |                 |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "c6a03c02-12be-4cb6-a266-e3807330590b",
-      "texto": "|         |                  | 1                                |\n| 3                                  | 3                |                |                  |                   |                 |                          |                   |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "38d05667-fd65-4341-a4be-7f6f6c23b14a",
-      "texto": "|                   |        |         | 1                 |                   |                   | 1       |         |              |              |                  |                        |                        | 1               |         |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "bba129e3-5a3b-4637-8b6e-2e891d881e33",
-      "texto": "|                  | 1                                |\n| 3                                  | 3                |                |                  |                   |                 | 1                        |                   |                   |        |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "f0a4e7f5-5136-4424-957e-928d793f1aee",
-      "texto": "|        |         | 1                 | 1                 |                   |         |         |              |              |                  | #2                     |                        | 1               | 1       |                  | 1",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "b81367d6-8f42-4320-87fe-9179d219405e",
-      "texto": "| 1                                |\n| 3                                  | 3                |                |                  |                   |                 | 1                        |                   |                   |        | 1       |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "e9851236-f978-4e37-b483-f2aa3504f51b",
-      "texto": "|                   | 1                 | 1                 |         |         |              |              |                  | #2                     |                        | 1               | 1       |                  | 1                                |\n| 3",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "11f414ba-7563-42ed-861c-2d60fb12ff7a",
-      "texto": "|\n| 3                                  | 3                |                |                  |                   |                 | 1                        | 1                 |                   |        | 1       |                   | 1",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "abd90e60-3c03-403f-92f5-6626b5e5a2ad",
-      "texto": "| 1                 |                   |         |         |              |              |                  | #2                     |                        | 1               | 1       |                  | 1                                |\n| 3",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "9abd8d5d-7db2-4c91-b528-5d525ce478ec",
-      "texto": "| 3                |                |                  |                   |                 | 1                        | 1                 |                   | 1      | 1       |                   |                   |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "159151f8-b466-46c1-8963-53daded1b2bc",
-      "texto": "|                   |         |         |              |              |                  | #2                     |                        | 1               | 1       |                  | 1                                |\n| 3                                  |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "8960e5da-04a6-4198-84bd-bcf5d226b52c",
-      "texto": "|                  |                |                  |                   |                 |                          |                   |                   |        |         |                   |                   |                   |         |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "dcc4bd43-2a58-4674-ae2d-f4974dd48961",
-      "texto": "|         |         |              |              |                  |                        |                        |                 |         |                  |                                  |\n| 3                                  | 1                |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "a24e72ec-bf1c-434f-867e-35b56bf03212",
-      "texto": "|                |                  |                   |                 |                          |                   |                   |        |         |                   |                   |                   |         |         |              |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "b3615983-7645-43b8-af5e-923201bfee6a",
-      "texto": "|              |              |                  |                        |                        |                 |         |                  |                                  |\n| 3                                  | 1                |                |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "b79b0cf7-02f6-4596-892b-f41562e54ac9",
-      "texto": "|                  |                   |                 |                          | 1                 |                   |        |         |                   |                   |                   | 1       |         |              |              |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "9f3a6787-40e0-4ff2-9b6e-b2a8c5fcd6c0",
-      "texto": "|                  |                        |                        |                 |         |                  | 1                                |\n| 3                                  | 1                |                |                  |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "f8bd5cc9-58ae-4a4b-b4c5-9219f15ada7a",
-      "texto": "|                   |                 |                          | 1                 |                   | 1      |         |                   |                   |                   |         |         |              |              |                  |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "46b56cae-24a5-41d3-ae70-6a38ef58d088",
-      "texto": "|                        |                        | 1               |         |                  | 1                                |\n| 3                                  | 1                |                |                  |                   |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "a881525f-2b84-446f-8842-ef16b51d700e",
-      "texto": "|                 |                          | 1                 | 1                 |        |         |                   |                   |                   |         |         | 1            |              |                  |                        |",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "900c8145-7e4e-48d4-aca9-403e0c077456",
-      "texto": "|                        | 1               |         |                  | 1                                |\n| 3                                  |]",
-      "nivel": "child",
-      "parent_id": "cbb23427-c53c-44c0-8d31-384ac428e0b9",
-      "pagina_inicio": 4,
-      "pagina_fin": 4,
-      "seccion": "NOTAS:",
-      "tipos_elemento": [
-        "Image"
-      ],
-      "es_imagen": true,
-      "dentro_de_anexo": true,
-      "tabla_degradada": false
-    },
-    {
-      "chunk_id": "9a22c885667c46809dfc90327a03723a",
-      "texto": "|     | 1.- PETRESA PARA APROBACION O INF. | 2.- | PETRESA FINAL | 3.- | GERENCIA UTE | 4.- | DIR. PROY. UJI | 5.- | JEFE INGENIERIA UJI | 6.- | ING. PROYECTO UJI | 7.- | PROGR Y CONTROL COSTES UJI | 8.- | PROCESO | 9.- | CIVIL Y ARQUITECTURA | 10.- | CIVIL Y TUBERIAS | 11.- | MTO | 12.- | ESFUERZOS Y SOPORTES | 13.- | EQUIPOS ESTATICOS | 14.- | EQUIPOS ROTATIVOS | 15.- | HORNOS | 16.- | DCI | 17.- | ELECTRICIDAD | 18.- | INSTRUMENTOS | 19.- | AIRE ACONDICIONADO | 20.- | COMPRAS (RM'S PET. OFERTA) | 21.- | COMPRAS (RM'S COMPRAS) | 22.- | CONSTRUCCION | 23.- | OBRA | 24.- | ARCHIVO GENERAL | 25.- | PREVENCION DE RIESGOS LABORALES |\n|-----|-------------------------------------|-----|---------------|-----|--------------|-----|---------------|-----|-------------------|-----|----------------|-----|-----------------------|-----|---------|-----|------------------------|-----|----------|-----|-------------------|-----|-----------------|-----|-----------------|-----|-------|-----|-----|-----|-------------|-----|--------------------|-----|---------------------|-----|----------|-----|-----|----------------|-----|--------------------------|\n|     | 3                                   |     |               |     |              |     |               |     |                   |     |                |     |                       |     |         |     |                        |     |          |     |                   |     |                 |     |                 |     |       |     |     |     |             |     |                    | 1   | 1                   |\n|     | 3                                   |     |               |     |              |     |               |     |                   |     |                |     |                       |     |         |     |                        |     |          |     |                   |     |                 |     |                 |     |       |     |     |     |             |     |                    | 1   | 1                   |\n|     | 3                                   |     |               |     |              |     |               |     |                   |     |                |     |                       |     |         |     |                        |     |          |     |                   |     |                 |     |                 |     |       |     |     |     | #2          | 1   | 1                   |\n|     | 3                                   |     |               |     |              |     |               |     |                   |     |                |     |                       |     |         |     |                        |     | 1        |     |                   |     |                 |     |                 |     |       |     |     |     | #2          | 1   | 1                   |\n|     | 3                                   |     |               |     |              |     |               |     |                   |     |                |     |                       |     |         |     |                        |     |          |     |                   |     |                 |     |                 |     |       |     |     |     | #2          | 1   | 1                   |\n|     | 3                                   |     |               |     |              |     |               |     |                   |     |                |     |                       |     |         |     |                        |     |          |     |                   |     |                 |     |                 | 1   |       | #2  | 1   |             | 1   | 1                   |\n|     | 3                                   |     |               |     |              |     |               |     |                   |     |                |     |                       |     |         |     |                        |     |          |     |                   |     |                 |     |                 |     |       | 1   | 1   |             | 1   | 1                   |\n|     | 3                                   |     |               |     |              |     |               |     |                   |     |                |     |                       |     |         |     |                        | 1   |          |     |                   |     |                 |     |                 |     |       |     | 1   |             | 1   | 1                   |\n|     | 1                                   |     |               |     |              |     |               |     |                   |     |                |",
+      "chunk_id": "609d6ac93fbb4a74979dbf006afe3814",
+      "texto": "|   | 1.- PETRESA PARA APROBACIÓN O I.N.F. | 2.- PETRESA FINAL | 3.- GERENCIA UTE | 4.- DIR. PROY. IUI | 5.- JEFE INGENIERIA IUI | 6.- ING. PROYECTO IUI | 7.- PROGR. Y CONTROL COSTES IUI | 8.- PROC Y ARQUITECTURA | 9.- CIVIL Y ARQUITECTURA | 10.- TUBERIAS | 11.- ITO | 12.- ESFUERZOS Y SOPORTES | 13.- EQUIPOS ESTATICOS | 14.- EQUIPOS ROTATIVOS | 15.- HORNOS | 16.- DCI | 17.- ELECTRICIDAD | 18.- INSTRUMENTOS | 19.- AIRE ACONDICIONADO | 20.- COMPRAS (RM'S PET. OFERTA) | 21.- COMPRAS (RM'S COMPRAS) | 22.- CONSTRUCCION | 23.- OBRA | 24.- ARCHIVO GENERAL | 25.- PREVENCION DE RIESGOS LABORALES |\n|---|------------------------------------|------------------|-----------------|------------------|---------------------|----------------|------------------------|-------------------|-------------------|-----------|-------|------------------|------------------|-------------------|--------|--------|--------------|----------------|---------------------------|----------------------|----------------|---------|-----------------|------------------------------|\n| 3 |                                    |                  |                 |                  |                     |                |                        |                   |                   |           |       |                  |                  |                   |        | 1      | 1            | 1              |                           | 1                    |                |         |                 | 1                            |\n| 3 |                                    |                  |                 |                  |                     |                |                        |                   |                   |           |       |                  |                  |                   |        | 1      | 1            | 1              |                           | 1                    |                |         |                 | 1                            |\n| 3 |                                    |                  |                 |                  |                     | 1              | 1                      | 1                 |                   |           | 1     |                  | 1                |                   |        | 1      | 1            | 1              |                           | #2                   | 1              | 1       | 1               | 1                            |\n| 3 |                                    |                  |                 |                  |                     |                |                        | 2                 |                   |           | 1     |                  |                  |                   |        | 1      | 1            | 1              |                           | #2                   | 1              | 1       | 1               | 1                            |\n| 3 |                                    |                  |                 |                  |                     |                | 2                      | 1                 |                   |           | 1     |                  |                  |                   |        | 1      | 1            | 1              |                           | #2                   | 1              | 1       | 1               | 1                            |\n| 3 |                                    |                  |                 |                  |                     |                |                        |                   | 2                 |           |       |                  |                  |                   |        | 1      | 1            | 1              |                           | #2                   | 1              | 1       | 1               | 1                            |\n| 3 |                                    |                  |                 |                  |                     |                |                        |                   |                   |           |       |                  |                  |                   | 1      | 1      | 1            | 1              |                           | 1                    | 1              | 1       | 1               | 1                            |\n| 3 |                                    |                  |                 |                  |                     |                | 2                      | 1                 |                   |           | 1     |                  |                  | 2                 |        |        |              |                |                           |                      |                |         |                 |                              |\n| 3 |                                    |                  |                 |                  |                     |                |                        |                   |                   |           |       |                  |                  |                   | 1      |        |              |                |                           |                      |                |         |                 |                              |\n| 3 |                                    |                  |                 |                  |                     |                |                        |                   |                   |           |       |                  |                  |                   |        |        |              |                |                           |                      |                |         |                 |                              |\n| 3 |                                    |                  |                 |                  |                     |                |                        |                   |                   |           |       |                  |                  |                   |        |        |              | 1              |                           |                      |                |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 4,

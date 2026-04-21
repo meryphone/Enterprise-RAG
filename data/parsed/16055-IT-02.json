@@ -1,5 +1,5 @@
 {
-  "doc_id": "a2168c543d904625b51e8463ebb46148",
+  "doc_id": "69bcfc1594d342e896254020518e86e5",
   "nombre_fichero": "16055-IT-02.pdf",
   "metadatos_admin": {
     "empresa": "enip",
@@ -13,10 +13,10 @@
     "edicion": null,
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T20:55:43+00:00",
+  "fecha_ingesta": "2026-04-20T22:13:44+00:00",
   "chunks": [
     {
-      "chunk_id": "88cb8fd4-2570-4f7d-a3a4-6af02a611078",
+      "chunk_id": "5f652daf-e4e3-4ec5-8f31-9e43b843f6b0",
       "texto": "Este documento tiene por objeto describir el procedimiento de control de entrada y publicación en el portal de IUI de los documentos generados para el proyecto 16055 ENIP Argelia.\n\nPara   una   consulta   en   detalle   de   cómo   se   incluyen   los   documentos   en   el   Portal   se recomienda acudir al manual MN-GC-I-02: Acciones Básicas Incorporación de documentos al Portal , editado por Gestión del Conocimiento.",
       "nivel": "parent",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8ff65984-383b-4acc-836a-4e783a831c56",
+      "chunk_id": "479a744c-e027-43c4-98d7-9c84e6df1107",
       "texto": "Los documentos son incluidos en el portal de IUI antes de su envío al Jefe de Proyecto para su firma, después de haber recibido sus comentarios para así garantizar que cuando se distribuyan una vez aprobados estén ya inmediatamente disponibles en el Portal (Ver apartado 3 de Instrucciones).\n\nEste modo de proceder exige establecer un mecanismo para distinguir documentos aprobados y documentos pendientes de aprobación .\n\nEl   Portal   de   IUI   permite   registrar   la aprobación de los documentos, asignándoles una etiqueta ' aprobado ', etiqueta visible en el Portal a la derecha del nombre del documento.\n\nEl registro de la aprobación de los documentos también permite lograr:\n\n Integridad de la información: una vez aprobado un documento no será posible borrarlo o sobrescribirlo pero sí introducir una nueva edición conservando las anteriores.\n\n Control de la publicación en Internet: es posible utilizar como una de las condiciones de publicación (control de acceso) en Internet que el documento esté etiquetado como aprobado.",
       "nivel": "parent",
       "parent_id": null,
@@ -47,7 +47,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6dc1745b-1873-4e28-8a14-cb01d1cc2557",
+      "chunk_id": "3d075285-4eca-4b0e-94d3-891c6161100e",
       "texto": "A continuación se describe el proceso a seguir con un documento en formato electrónico desde que el documento es generado hasta que es aprobado y publicado en el portal.",
       "nivel": "parent",
       "parent_id": null,
@@ -62,7 +62,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "89f57149b1914da0b787bc3e176cfe79",
+      "chunk_id": "c35507663497408797e8173f38d26817",
       "texto": "| ACCIONES                                                                                                                                                                                                                                                                                                                                                                                  | RESPONSABLE             |\n|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|\n| 1) Realización de las siguientes comprobaciones previas sobre el contenido del documento: - Contiene el número , la fecha y el objeto de la edición. - El documento es imprimible , es decir, si en ese momento decidiéramos imprimirlo, el contenido del documento se ajustaría al área de impresión. - No contiene ni macros ni vínculos (aplicable principalmente a documentos Excel). | GENERADOR DEL DOCUMENTO |\n| 2) CASO PARTICULAR: si se trata de un plano en formato dwg ó dgn se creará una versión PDF del documento (rendición PDF) para su posterior introducción en el Portal junto al documento en formato original como rendición del mismo.                                                                                                                                                     | GENERADOR DEL DOCUMENTO |\n| 3) En caso de que el responsable de cuenta no sea el generador del documento, lo enviará al Responsable de Cuenta para que éste lo incorpore al Portal.                                                                                                                                                                                                                                   | GENERADOR DEL DOCUMENTO |\n| 4) VERIFICACIÓN/APROBACION DE DOCUMENTOS - El especialista envía el documento en papel al Jefe de Proyecto para comentarios. - Una vez comentados los documentos, el especialista se asegura de que el plano está correctamente incluido en el Portal y lo envía al Jefe de Proyecto para su aprobación.                                                                                  | RESPONSABLE DE CUENTA   |",
       "nivel": "child",
       "parent_id": null,
@@ -77,7 +77,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3da8d52965b84e8dad57f2ded27729ed",
+      "chunk_id": "a0a716ba04214ed79bca43c74ae9e2ce",
       "texto": "| ACCIONES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | RESPONSABLE               |\n|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|\n| 5) INCORPORACIÓN DEL DOCUMENTO AL PORTAL: - CASO 1: Se trata de la primera edición del documento  Localización de la carpeta apropiada donde ubicar el documento.  Importación del documento en dicha carpeta.  Cumplimentación adecuada de las propiedades (ver ANEXO 1) - CASO 2: Se trata de una nueva edición (el documento está en el portal en una edición anterior)  Localización del documento en el portal  Inclusión del documento como una nueva versión sobre la existente (check-out / check-in)                                                                                                       | RESPONSABLE DE CUENTA     |\n| 6) Si el documento no fuese aprobado por el Jefe de Proyecto, una vez realizadas las correcciones sobre el documento, previamente a su envío en papel para firma, debe ser actualizado en el portal (check-out / check-in), seleccionando como opción para ello 'misma versión', de modo que se sustituye la versión que no ha sido aceptada por la nueva que se envía para aprobación.                                                                                                                                                                                                                                  | RESPONSABLE DE CUENTA     |\n| 7) Registro de la aprobación . Una vez el administrador recibe el documento firmado en papel, procede del siguiente modo: 7.1. Localiza el documento en el portal. Caso de que no se encuentre en el portal lo comunicará al responsable de cuenta correspondiente, no procediendo a la distribución del documento hasta que éste no esté incluido en el portal. 7.2. Registra que el documento está aprobado. Para ello: - entra en 'acciones' del documento y después en 'seleccionar workflow'. - comienza el workflow disponible para el proyecto, tras lo cual, dicho workflow etiqueta el documento como aprobado. | ADMINISTRADOR DE PROYECTO |",
       "nivel": "child",
       "parent_id": null,
@@ -92,7 +92,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1b860e5c-12da-47e0-82ba-761699a8f99c",
+      "chunk_id": "b0a00b3c-f407-40bd-802a-7247cddb18b8",
       "texto": "IMPORTANTE: la cumplimentación correcta de las propiedades es muy importante. En particular, es necesario prestar atención a la propiedad ' editado para' ya que en función del valor de la misma el documento será público o no a determinados usuarios; así, en obra, sólo serán accesibles planos aprobados para construcción, es decir,   que   en   el   portal   tengan   la   etiqueta   ' aprobado' y   en   ' editado   para' , ' construcción'.",
       "nivel": "parent",
       "parent_id": null,
@@ -107,7 +107,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1d2cdcda-7f44-4e5a-8edb-82e76a1285c2",
+      "chunk_id": "97a65bb7-8ada-4140-baf6-8f053899dbe2",
       "texto": "IMPORTANTE: Siempre que se importe un documento en el proyecto se seleccionará como tipo de documento: IUI_Documento_de_Proyecto\n\nAtributos o propiedades del documento a rellenar durante la incorporación:\n\nCaso 1ª edición (importación) . Se rellenan todas las propiedades.\n\nCaso   nueva   edición   (check-out   /   check-in) :   se   modifican   las   propiedades sombreadas.",
       "nivel": "parent",
       "parent_id": null,
@@ -123,7 +123,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "cc4d59a8f8ef4772aff2105d507f499a",
+      "chunk_id": "1fcfc22f3d014c5183bc01161011fbec",
       "texto": "| Propiedad                                                                    | Descripción                                                                                                                                                                   | Ejemplo                                          |\n|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|\n| DOCUMENTO Máx 255 caracteres                                                 | Número del documento.                                                                                                                                                         | 3300C-105-X-PL-901                               |\n| TITULO Máx 255 caracteres                                                    | Título que aparece en el documento físico.                                                                                                                                    | PLAN D'IMPLANTATION UNITS 05, 06 ET 07           |\n| EDICION Máx 3 caracteres                                                     | Número de la edición del documento.                                                                                                                                           | 02                                               |\n| FECHA Máx 32 caracteres                                                      | Fecha de la edición del documento físico. (Formato aconsejado: dd/mm/aaaa)                                                                                                    | 16/10/2002                                       |\n| EDITADO PARA Lista desplegable                                               | El objeto para el cual se edita el documento                                                                                                                                  | Diseño                                           |\n| AUTORES Máx 32 caracteres por autor, separados por comas                     | Iniciales del autor o autores del documento                                                                                                                                   | JCG                                              |\n| OT Lista deplegable                                                          | Designación del Proyecto                                                                                                                                                      | 16055 - ENIP                                     |\n| DEPARTAMENTO Lista deplegable                                                | Departamento que genera el documento.                                                                                                                                         | Mecánica                                         |\n| CLASE Lista deplegable                                                       | Clase de documento.                                                                                                                                                           | Planos en general                                |\n| ACTIVIDAD Lista deplegable                                                   | Actividad con la que está relacionada el documento                                                                                                                            | 36 - DISEÑO TUBERIAS                             |\n| IDIOMA Lista deplegable                                                      | Idioma en el que está escrito el documento. (Por defecto español)                                                                                                             | Francés                                          |\n| DESCRIPCION Máx 255 caracteres                                               | Es una descripción del contenido del documento                                                                                                                                | Plano de implantación de las unidades 05,06 y 07 |\n| PALABRAS CLAVE Máx 32 caracteres por palabra o concepto, separados por comas | Palabras que servirán para buscar el documento (palabras o conceptos separados por comas ','). Se rellenan siempre que completen lo especificado en título, descripción, etc. | Plot,plan                                        |",
       "nivel": "child",
       "parent_id": null,

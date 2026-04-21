@@ -33,6 +33,7 @@ from app.procesamiento.pipeline import (  # noqa: E402
     documento_a_dict,
     ingestar_pdf,
 )
+from app.servicios.vector_store import indexar_documento  # noqa: E402
 
 
 def _inferir_tipo(nombre: str) -> str:
@@ -107,6 +108,11 @@ def main() -> int:
         f"tablas={tablas} con_imagen={con_imagen} anexo={anexo}"
     )
     print(f"       → {out_path}")
+
+    t1 = time.perf_counter()
+    conteo = indexar_documento(documento)
+    dt_idx = time.perf_counter() - t1
+    print(f"[IDX ] ChromaDB  ({dt_idx:.1f}s)  +{conteo['children']} children  +{conteo['parents']} parents")
     return 0
 
 

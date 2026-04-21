@@ -27,21 +27,23 @@ Métricas evaluadas (tríada RAG):
 from __future__ import annotations
 
 import argparse
-import asyncio
 import json
 import os
 import sys
+import time
 from pathlib import Path
 
 BACKEND_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")
+# Desactivar OTEL tracing experimental — incompatible con la API Lens/Feedback
+os.environ["TRULENS_OTEL_TRACING"] = "0"
 
 from openai import OpenAI  # noqa: E402
 
 from app.config import SETTINGS  # noqa: E402
-from app.procesamiento.prompts import SYSTEM_PROMPT  # noqa: E402
+from app.procesamiento.prompts import SYSTEM_PROMPT_EVAL as SYSTEM_PROMPT  # noqa: E402
 from app.servicios.query import _construir_contexto, _expandir_parents  # noqa: E402
 from app.servicios.retrieval import recuperar  # noqa: E402
 from app.servicios.vector_store import nombre_coleccion  # noqa: E402
@@ -49,55 +51,66 @@ from app.servicios.vector_store import nombre_coleccion  # noqa: E402
 # ── Banco de queries de prueba ────────────────────────────────────────────────
 
 QUERIES: list[dict] = [
-    # Corpus global Intecsa
+    # ── Corpus global Intecsa (7 queries) ────────────────────────────────────
+    # PR-01: organización matricial, Jefe de Proyecto
     {
-        "pregunta": "¿Cuál es el objetivo del procedimiento de gestión de proyectos?",
+        "pregunta": "¿Qué tipo de organización se usa para gestionar proyectos?",
         "proyecto_id": None,
         "empresa": "intecsa",
     },
+    # PR-02: aprobación por Dirección General, distribución grupos A-J
     {
-        "pregunta": "¿Cómo se estructura la documentación de un proyecto EPC?",
+        "pregunta": "¿Quién aprueba los Procedimientos Generales?",
         "proyecto_id": None,
         "empresa": "intecsa",
     },
+    # PR-05: umbral 5 millones de pesetas para firma de Dirección General
     {
-        "pregunta": "¿Qué permisos de directorio tiene el rol JDAP en Mecánica?",
+        "pregunta": "¿A partir de qué coste de preparación de oferta se necesita la firma de Dirección General?",
         "proyecto_id": None,
         "empresa": "intecsa",
     },
+    # PR-08: umbral 12.000 € / 1.200.000 € para aprobación, servidor DATOSPR
     {
-        "pregunta": "¿Cuáles son las fases del ciclo de vida de un proyecto?",
+        "pregunta": "¿Dónde se almacenan los ficheros de los proyectos en las oficinas locales?",
         "proyecto_id": None,
         "empresa": "intecsa",
     },
+    # PR-08-ANEXO-III: permisos por rol
     {
-        "pregunta": "¿Qué documentos se requieren para la evaluación de una oferta comercial?",
+        "pregunta": "¿Qué permisos tiene DRA en la disciplina de Mecánica?",
         "proyecto_id": None,
         "empresa": "intecsa",
     },
+    # PR-09: residuos, fluorescentes máximo 6 meses, pilas hasta 30 kg
     {
-        "pregunta": "¿Cuál es el procedimiento para la revisión de documentos técnicos?",
+        "pregunta": "¿Cuánto tiempo pueden almacenarse los fluorescentes antes de su retirada?",
         "proyecto_id": None,
         "empresa": "intecsa",
     },
+    # PR-09: variación consumo eléctrico
     {
-        "pregunta": "¿Qué edición es el procedimiento PR-01?",
+        "pregunta": "¿Qué variación en el consumo eléctrico obliga a investigar su causa?",
         "proyecto_id": None,
         "empresa": "intecsa",
     },
+
+    # ── Proyecto Repsol 13187 (3 queries) ────────────────────────────────────
+    # IT-01: acceso Intranet equipo / Internet proveedores, copia diaria
     {
-        "pregunta": "¿Cómo se gestionan los cambios en el alcance de un proyecto?",
-        "proyecto_id": None,
-        "empresa": "intecsa",
-    },
-    # Proyecto Repsol 13187
-    {
-        "pregunta": "¿Cuáles son las especificaciones técnicas de la instrucción de trabajo 13187?",
+        "pregunta": "¿Qué usuarios acceden al portal por Internet y cuáles por Intranet?",
         "proyecto_id": "13187",
         "empresa": "repsol",
     },
+    # IT-02: estados ASC, ACC, No Aprobado
     {
-        "pregunta": "¿Qué materiales se especifican en la instrucción de trabajo?",
+        "pregunta": "¿Qué significa que un documento tiene el estado ACC?",
+        "proyecto_id": "13187",
+        "empresa": "repsol",
+    },
+    # IT-02: documentos Tipiel Colombia auto-aprobados
+    {
+        "pregunta": "¿Cuándo se auto-aprueba un documento sin necesidad de aprobación del cliente?",
         "proyecto_id": "13187",
         "empresa": "repsol",
     },
@@ -107,11 +120,13 @@ QUERIES: list[dict] = [
 # ── Pipeline instrumentable ───────────────────────────────────────────────────
 
 try:
-    from trulens.apps.custom import instrument
+    from trulens.apps.app import instrument
 except ImportError:
-    # Fallback: decorador vacío si TruLens no está instalado
-    def instrument(func):  # type: ignore[misc]
-        return func
+    try:
+        from trulens.apps.custom import instrument  # versiones antiguas
+    except ImportError:
+        def instrument(func):  # type: ignore[misc]
+            return func
 
 
 class RAGPipeline:
@@ -127,9 +142,11 @@ class RAGPipeline:
         """Recupera y expande parents. Devuelve lista de textos de contexto."""
         chunks = recuperar(query, self.proyecto_id, self.empresa)
         if not chunks:
+            self._last_chunks: list = []
             return []
         coleccion = nombre_coleccion(self.empresa, self.proyecto_id)
         chunks_exp = _expandir_parents(chunks, coleccion)
+        self._last_chunks = chunks_exp  # conservar metadatos para generar_respuesta
         return [c.texto for c in chunks_exp]
 
     @instrument
@@ -138,21 +155,16 @@ class RAGPipeline:
         if not contextos:
             return "No he encontrado documentación relevante para esta consulta."
 
-        # Reutilizamos el mismo formato que usa el endpoint /query
-        from app.servicios.retrieval import ChunkRecuperado
-        chunks_mock = [
-            ChunkRecuperado(
-                chunk_id=str(i),
-                texto=texto,
-                score=1.0,
-                metadatos={},
-                score_vector=1.0,
-                score_bm25=0.0,
-                score_fusion=1.0,
-            )
-            for i, texto in enumerate(contextos)
-        ]
-        contexto_fmt = _construir_contexto(chunks_mock)
+        # Usar los chunks completos (con metadatos doc/sección/páginas) si están disponibles
+        chunks = getattr(self, "_last_chunks", None)
+        if chunks:
+            contexto_fmt = _construir_contexto(chunks)
+        else:
+            from app.servicios.retrieval import ChunkRecuperado
+            contexto_fmt = _construir_contexto([
+                ChunkRecuperado(chunk_id=str(i), texto=t, score=1.0, metadatos={})
+                for i, t in enumerate(contextos)
+            ])
 
         resp = self._openai.chat.completions.create(
             model=SETTINGS.llm_model,
@@ -160,6 +172,7 @@ class RAGPipeline:
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": f"Contexto:\n\n{contexto_fmt}\n\nPregunta: {query}"},
             ],
+            temperature=0.0,
         )
         return resp.choices[0].message.content or ""
 
@@ -170,6 +183,29 @@ class RAGPipeline:
         return self.generar_respuesta(pregunta, contextos)
 
 
+# ── Rate limit helpers ────────────────────────────────────────────────────────
+
+# Con 30k TPM y ~15-20k tokens por query (respuesta + 3 feedbacks de TruLens),
+# solo cabe 1 query a la vez. El sleep deja que la ventana de 1 min se renueve.
+_N_WORKERS = 1
+_DELAY_ENTRE_QUERIES = 18  # segundos
+
+
+def _ejecutar_con_retry(func, *args, max_reintentos: int = 5, **kwargs):
+    """Ejecuta func con reintentos exponenciales si hay RateLimitError."""
+    import openai
+    espera = 15
+    for intento in range(max_reintentos):
+        try:
+            return func(*args, **kwargs)
+        except openai.RateLimitError as e:
+            if intento == max_reintentos - 1:
+                raise
+            print(f"    [rate limit] esperando {espera}s... ({e})")
+            time.sleep(espera)
+            espera *= 2
+
+
 # ── Evaluación ────────────────────────────────────────────────────────────────
 
 def ejecutar_evaluacion(
@@ -178,12 +214,19 @@ def ejecutar_evaluacion(
     reset: bool,
     dashboard: bool,
 ) -> None:
+    import warnings
     try:
         from trulens.core import TruSession
-        from trulens.apps.custom import TruCustomApp
-        from trulens.core.feedback import Feedback
+        from trulens.core.schema.select import Select
         from trulens.providers.openai import OpenAI as TruOpenAI
         import numpy as np
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore", DeprecationWarning)
+            from trulens.core.feedback import Feedback
+            try:
+                from trulens.apps.custom import TruCustomApp
+            except ImportError:
+                from trulens.apps.app import TruApp as TruCustomApp
     except ImportError as e:
         print(
             f"[ERROR] TruLens no instalado: {e}\n"
@@ -199,35 +242,46 @@ def ejecutar_evaluacion(
 
     proveedor = TruOpenAI(api_key=SETTINGS.openai_api_key, model_engine=SETTINGS.llm_model)
 
-    # Tríada RAG
-    f_context_rel = (
-        Feedback(proveedor.context_relevance, name="Context Relevance")
-        .on_input()
-        .on(TruCustomApp.select_context())
-        .aggregate(np.mean)
-    )
-    f_answer_rel = (
-        Feedback(proveedor.relevance, name="Answer Relevance")
-        .on_input()
-        .on_output()
-    )
-    f_groundedness = (
-        Feedback(proveedor.groundedness_measure_with_cot_reasons, name="Groundedness")
-        .on(TruCustomApp.select_context().collect())
-        .on_output()
-        .aggregate(np.mean)
-    )
+    # Selector del contexto: salida de recuperar_contexto()
+    contexto_selector = Select.RecordCalls.recuperar_contexto.rets[:]
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", DeprecationWarning)
+        f_context_rel = (
+            Feedback(proveedor.context_relevance, name="Context Relevance")
+            .on_input()
+            .on(contexto_selector)
+            .aggregate(np.mean)
+        )
+        f_answer_rel = (
+            Feedback(proveedor.relevance, name="Answer Relevance")
+            .on_input()
+            .on_output()
+        )
+        f_groundedness = (
+            Feedback(proveedor.groundedness_measure_with_cot_reasons, name="Groundedness")
+            .on(contexto_selector.collect())
+            .on_output()
+            .aggregate(np.mean)
+        )
 
     pipeline = RAGPipeline(proyecto_id=proyecto_id, empresa=empresa)
 
     scope_label = f"{empresa}" + (f"/{proyecto_id}" if proyecto_id else "")
     app_name = f"IntecsaRAG-{scope_label}"
 
+    try:
+        from trulens.core.schema.feedback import FeedbackMode
+        feedback_mode = FeedbackMode.WITH_APP_THREAD
+    except ImportError:
+        feedback_mode = "with_app_thread"
+
     tru_app = TruCustomApp(
         pipeline,
         app_name=app_name,
         app_version="beta",
         feedbacks=[f_context_rel, f_answer_rel, f_groundedness],
+        feedback_mode=feedback_mode,
     )
 
     queries_scope = [
@@ -241,10 +295,20 @@ def ejecutar_evaluacion(
 
     print(f"\nEvaluando {len(queries_scope)} queries para scope '{scope_label}'...\n")
 
-    with tru_app as recording:
-        for q in queries_scope:
-            print(f"  → {q['pregunta'][:70]}...")
-            pipeline.query(q["pregunta"])
+    for idx, q in enumerate(queries_scope):
+        print(f"  [{idx+1}/{len(queries_scope)}] {q['pregunta'][:70]}...")
+        try:
+            with tru_app as recording:
+                _ejecutar_con_retry(pipeline.query, q["pregunta"])
+        except Exception as exc:
+            print(f"  [ERROR] '{q['pregunta'][:60]}': {exc}", file=sys.stderr)
+        if idx < len(queries_scope) - 1:
+            time.sleep(_DELAY_ENTRE_QUERIES)
+
+    # Esperar a que todos los feedbacks en background terminen antes de leer resultados
+    if hasattr(session, "wait_for_evaluations"):
+        print("Esperando evaluaciones pendientes...")
+        session.wait_for_evaluations()
 
     # Resumen de resultados
     leaderboard = session.get_leaderboard(app_ids=[tru_app.app_id])
@@ -262,7 +326,19 @@ def main() -> int:
     parser.add_argument("--empresa",       default="intecsa")
     parser.add_argument("--reset",         action="store_true", help="Borrar evaluaciones previas")
     parser.add_argument("--no-dashboard",  action="store_true", help="No lanzar dashboard web")
+    parser.add_argument("--debug",         action="store_true", help="Mostrar queries reescritas, chunks y contexto")
     args = parser.parse_args()
+
+    if args.debug:
+        import logging as _logging
+        _logging.basicConfig(
+            level=_logging.DEBUG,
+            format="%(name)s | %(levelname)s | %(message)s",
+            handlers=[_logging.StreamHandler()],
+        )
+        # Solo módulos propios para no inundar con logs de Chroma/OpenAI/TruLens
+        for _mod in ("app.servicios.retrieval", "app.servicios.query", "app.procesamiento.prompts"):
+            _logging.getLogger(_mod).setLevel(_logging.DEBUG)
 
     ejecutar_evaluacion(
         proyecto_id=args.proyecto,

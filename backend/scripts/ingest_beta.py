@@ -180,6 +180,21 @@ def _manifiesto_procedimientos(max_principales: int) -> list[EntradaManifiesto]:
     return entradas
 
 
+def _manifiesto_instrucciones_intecsa() -> list[EntradaManifiesto]:
+    """Instrucciones de trabajo del corpus global Intecsa."""
+    return [
+        EntradaManifiesto(
+            ruta_pdf=DOCS_DIR / "intecsa" / "instrucciones_trabajo" / "TU" / "LIBRERÍA-DE-CÉLULAS-DIAGRAMAS-DE-INGENIERÍA.pdf",
+            metadatos=MetadatosAdministrador(
+                empresa="intecsa",
+                proyecto_id=None,
+                tipo_doc="instruccion_trabajo",
+                idioma="es",
+            ),
+        ),
+    ]
+
+
 def _manifiesto_proyectos() -> list[EntradaManifiesto]:
     """Todos los PDFs de proyectos de clientes (sin duplicados de idioma)."""
     carpeta_raiz = DOCS_DIR / "proyectos_clientes"
@@ -265,13 +280,15 @@ def main() -> int:
 
     # ── 2. Construir manifiesto ───────────────────────────────────────────
     procedimientos = _manifiesto_procedimientos(max_proc)
+    instrucciones = _manifiesto_instrucciones_intecsa()
     proyectos = _manifiesto_proyectos()
-    manifiesto = procedimientos + proyectos
+    manifiesto = procedimientos + instrucciones + proyectos
 
     print(f"ENV={SETTINGS.env}  vision={'ON' if SETTINGS.enable_vision else 'OFF'}")
     print(f"Modo={'DRY-RUN (sin indexar)' if dry_run else 'COMPLETO (parseo + indexado)'}")
-    print(f"Procedimientos: {len(procedimientos)} PDFs (primeros {max_proc} + anexos)")
-    print(f"Proyectos:      {len(proyectos)} PDFs (todos los clientes)")
+    print(f"Procedimientos:     {len(procedimientos)} PDFs (primeros {max_proc} + anexos)")
+    print(f"Instrucciones (IT): {len(instrucciones)} PDFs (corpus global Intecsa)")
+    print(f"Proyectos:          {len(proyectos)} PDFs (todos los clientes)")
     print(f"Total:          {len(manifiesto)} documentos")
     print(f"Salida JSON ->  {PARSED_DIR}")
     print("-" * 72)

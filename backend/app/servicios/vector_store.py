@@ -30,8 +30,8 @@ if TYPE_CHECKING:
 
 logger = logging.getLogger(__name__)
 
-# Dimensionalidad fija de text-embedding-3-large.
-_EMBEDDING_DIM = 1536
+# Dimensionalidad de text-embedding-3-large.
+_EMBEDDING_DIM = 3072
 # Tamaño de lote para las llamadas a la API de embeddings.
 _BATCH_SIZE = 100
 
@@ -172,28 +172,58 @@ def indexar_documento(documento: "DocumentoIngerido") -> dict[str, int]:
     children = [c for c in documento.chunks if c.nivel == "child"]
     parents = [c for c in documento.chunks if c.nivel == "parent"]
 
-    # ── Indexar children con embeddings ────────────────────────────────────
-    if children:
+    # Parents sin hijos: el chunker no pudo subdividirlos (texto demasiado corto).
+    # Se indexan en la colección de children con embeddings para que sean recuperables
+    # por búsqueda semántica. Su parent_id es "" (como las tablas), así el orquestador
+    # los pasa directamente al LLM sin intentar expansión.
+    # Mínimo de palabras para que el embedding sea útil: textos más cortos producen
+    # representaciones vectoriales de baja calidad que contaminan el retrieval.
+    _MIN_PALABRAS_ORPHAN = 15
+    child_parent_ids = {c.parent_id for c in children if c.parent_id}
+    orphan_parents = [
+        p for p in parents
+        if p.chunk_id not in child_parent_ids
+        and len(p.texto.split()) >= _MIN_PALABRAS_ORPHAN
+    ]
+
+    # Conjunto efectivo a indexar con embeddings: children + parents huérfanos
+    a_indexar = children + orphan_parents
+
+    # ── Indexar children (+ orphan parents) con embeddings ─────────────────
+    if a_indexar:
         col_children = chroma.get_or_create_collection(
             name=col_nombre,
             metadata={"hnsw:space": "cosine"},
         )
 
-        textos = [c.texto for c in children]
-        textos_embed = [
-            f"{c.seccion}\n\n{c.texto}" if c.seccion else c.texto
-            for c in children
-        ]
+        textos = [c.texto for c in a_indexar]
+        titulo_doc = documento.metadatos_documento.titulo or ""
+        tipo_doc_label = documento.metadatos_admin.tipo_doc or ""
+        codigo_doc = documento.nombre_fichero.removesuffix(".pdf") if documento.nombre_fichero else ""
+        textos_embed = []
+        for c in a_indexar:
+            partes = []
+            if tipo_doc_label:
+                partes.append(tipo_doc_label)
+            if codigo_doc:
+                partes.append(codigo_doc)
+            if titulo_doc:
+                partes.append(titulo_doc)
+            if c.seccion:
+                partes.append(c.seccion)
+            partes.append(c.texto)
+            textos_embed.append("\n\n".join(partes))
         embeddings = _generar_embeddings(textos_embed)
 
         col_children.upsert(
-            ids=[c.chunk_id for c in children],
-            documents=textos,      # texto limpio — lo que recibe el LLM
-            embeddings=embeddings, # embedding con prefijo de sección
-            metadatas=[_meta_chunk(c, documento) for c in children],
+            ids=[c.chunk_id for c in a_indexar],
+            documents=textos,
+            embeddings=embeddings,
+            metadatas=[_meta_chunk(c, documento) for c in a_indexar],
         )
         logger.info(
-            "Indexados %d children en colección '%s'", len(children), col_nombre
+            "Indexados %d chunks (%d children + %d orphan parents) en '%s'",
+            len(a_indexar), len(children), len(orphan_parents), col_nombre,
         )
 
     # ── Almacenar parents (sin embeddings — solo para recuperación por ID) ─
@@ -213,7 +243,7 @@ def indexar_documento(documento: "DocumentoIngerido") -> dict[str, int]:
             _coleccion_parents(col_nombre),
         )
 
-    return {"children": len(children), "parents": len(parents)}
+    return {"children": len(a_indexar), "parents": len(parents)}
 
 
 def precrear_colecciones(nombres: list[str]) -> None:

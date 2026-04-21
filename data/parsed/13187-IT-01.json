@@ -1,5 +1,5 @@
 {
-  "doc_id": "c69dd7d5374848f8a3ef6e2cdde0f714",
+  "doc_id": "26b12320c8ef4378887ab154473e19bc",
   "nombre_fichero": "13187-IT-01.pdf",
   "metadatos_admin": {
     "empresa": "repsol",
@@ -13,10 +13,10 @@
     "edicion": null,
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T20:29:23+00:00",
+  "fecha_ingesta": "2026-04-20T21:51:20+00:00",
   "chunks": [
     {
-      "chunk_id": "6f1f6a9a-b6b1-4bfc-83ff-a99d1b0b9bc6",
+      "chunk_id": "6a12ddba-6374-4023-bf81-ed6d994d24b4",
       "texto": "Este documento tiene por objeto describir el procedimiento de aportación y acceso de documentos de proyecto al portal de IUI para el proyecto de 13187 - REPSOL YPF LA PAMPILLA.",
       "nivel": "parent",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "99d2d731-e2b6-4a97-a23b-8b122b5bbd97",
+      "chunk_id": "15f7d07f-141b-426f-9ef0-2853b3db4c67",
       "texto": "Intecsa-Uhde dispone de un Portal de Intranet en el que se aporten contenidos para su uso en toda la organización permitiéndonos definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad .\n\nSe ha creado una Intranet del proyecto donde se compartirán todos los documentos e información del proyecto. En esta Intranet existe, para cada actividad, un área gestionada por el responsable de cada actividad",
       "nivel": "parent",
       "parent_id": null,
@@ -46,7 +46,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "628e4c32-5d0d-4e79-99db-e362526b6a62",
+      "chunk_id": "40b11592-fe5e-4d98-b5e5-5c339cfa3f2c",
       "texto": "Para poder incluir documentos al portal, el usuario debe tener los permisos adecuados gestionados   por Gestión del   Conocimiento .   De   este   modo   se   garantiza   que   los contenidos se hagan con control y garantía de calidad.",
       "nivel": "parent",
       "parent_id": null,
@@ -61,7 +61,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a9f25742-e2a6-4fc7-b691-ef7712923d26",
+      "chunk_id": "407eb860-0bb1-461b-ab4f-74e480f61584",
       "texto": "La idea básica de un portal está centrada en compartir conocimiento con toda la organización y por tanto, el acceso debe ser lo más amplio posible .   No obstante, queda garantizada la confidencialidad de los documentos con total flexibilidad según requisitos que especifique el proyecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -76,8 +76,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3c13d815-7f86-41b4-8efe-9d2847a8ae89",
-      "texto": "Como vimos anteriormente la inclusión de documentos del Proyecto se hace a través del Portal de IUI al cual tendrá acceso a través de la Intranet el equipo de proyecto, en este caso la Joint Venture constituida a tal efecto.\n\nSin embargo para el acceso a esta información tenemos una estructura más amplia en función de las necesidades del proyecto:\n\n Acceso vía Intranet : además de aportar contenidos a la base documental la estructura de permisos permite tener un acceso selectivo a los documentos del proyecto protegiendo la confidencialidad de los documentos de carácter privado o restringido. Este punto quedará más claro al explicar la estructura de permisos.\n\n Acceso vía Internet : la organización de Intecsa Uhde para el comercio electrónico define dos accesos diferenciados:\n\no Centro de Negocios. Es un acceso para que los proveedores autorizados accedan a las peticiones de oferta generadas o bien a las ofertas ya adjudicadas de manera que tengan un acceso rápido y actualizado a la documentación necesria para sus ofertas.\n\no Proyecto en Colaboración. Se pone a disposición a través de Internet la información que sea necesaria con una estructura de permisos que permite el acceso a los documentos ya aprobados.\n\n[Descripción visual: Diagrama de proceso de acceso a contenidos para un proyecto en colaboración:\n\n- **Acceso vía INTRANET**:\n  - **Equipo de Proyecto**: Acceso directo.\n  - **Joint Venture**: Acceso directo.\n\n- **Procedimiento de Contenidos**:\n  - **Copia diaria de contenidos**: Desde INTRANET hacia INTERNET.\n\n- **Acceso vía INTERNET**:\n  - **Proyecto en Colaboración**: Interactivo/central.\n  - **Proveedores**: Acceso disponible.\n  - **Socios**: Acceso disponible.\n  - **Cliente**: Acceso disponible.\n  - **Obra**: Acceso disponible.\n  - **Joint Venture**: Acceso disponible.\n\nEl diagrama muestra un flujo de datos desde una intranet hacia un sistema accesible vía internet, indicando las distintas entidades que pueden acceder a los datos del proyecto de colaboración.]",
+      "chunk_id": "8f26d908-525d-4344-9e73-8d7fd08c48e8",
+      "texto": "Como vimos anteriormente la inclusión de documentos del Proyecto se hace a través del Portal de IUI al cual tendrá acceso a través de la Intranet el equipo de proyecto, en este caso la Joint Venture constituida a tal efecto.\n\nSin embargo para el acceso a esta información tenemos una estructura más amplia en función de las necesidades del proyecto:\n\n Acceso vía Intranet : además de aportar contenidos a la base documental la estructura de permisos permite tener un acceso selectivo a los documentos del proyecto protegiendo la confidencialidad de los documentos de carácter privado o restringido. Este punto quedará más claro al explicar la estructura de permisos.\n\n Acceso vía Internet : la organización de Intecsa Uhde para el comercio electrónico define dos accesos diferenciados:\n\no Centro de Negocios. Es un acceso para que los proveedores autorizados accedan a las peticiones de oferta generadas o bien a las ofertas ya adjudicadas de manera que tengan un acceso rápido y actualizado a la documentación necesria para sus ofertas.\n\no Proyecto en Colaboración. Se pone a disposición a través de Internet la información que sea necesaria con una estructura de permisos que permite el acceso a los documentos ya aprobados.\n\n[Descripción visual: Diagrama de flujo describe un sistema de acceso a proyectos colaborativos mediante internet e intranet. Elementos y conexiones:\n\n- **Acceso vía INTRANET:**\n  - Conectado al \"EQUIPO DE PROYECTO\" y \"JOINT VENTURE\".\n  \n- **Copia diaria de contenidos:** \n  - Proceso de transferencia desde el sistema de intranet al de internet.\n\n- **Acceso vía INTERNET:**\n  - Integrado con el \"PROYECTO EN COLABORACIÓN\".\n  \n  Conexiones a:\n  - \"PROVEEDORES\"\n  - \"SOCIOS JOINT VENTURE\"\n  - \"CLIENTE JOINT VENTURE\"\n  - \"OBRA JOINT VENTURE\"\n\nFlechado muestra el flujo de información y el acceso de diversas entidades al sistema colaborativo.]",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 3,
@@ -92,10 +92,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8845d3a6-69de-4117-ad9e-1be2747511a0",
+      "chunk_id": "20d77041-da94-4f8e-8b4a-54491935a2cb",
       "texto": "Como vimos anteriormente la inclusión de documentos del Proyecto se hace a través del Portal de IUI al cual tendrá acceso a través de la Intranet el equipo de proyecto, en este caso la Joint Venture constituida a tal efecto.\n\nSin embargo para el acceso a esta información tenemos una estructura más amplia en función de las necesidades del proyecto:\n\n Acceso vía Intranet : además de aportar contenidos a la base documental la estructura de permisos permite tener un acceso selectivo a los documentos del proyecto protegiendo la confidencialidad de los documentos de carácter privado o restringido. Este punto quedará más claro al explicar la estructura de permisos.\n\n Acceso vía Internet : la organización de Intecsa Uhde para el comercio electrónico define dos accesos diferenciados:\n\no Centro de Negocios. Es un acceso para que los proveedores autorizados accedan a las peticiones de oferta generadas o bien a las ofertas ya adjudicadas de manera que tengan un acceso rápido y actualizado a la documentación necesria para sus ofertas.\n\no Proyecto en Colaboración.",
       "nivel": "child",
-      "parent_id": "3c13d815-7f86-41b4-8efe-9d2847a8ae89",
+      "parent_id": "8f26d908-525d-4344-9e73-8d7fd08c48e8",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "3. ESTRUCTURA DE ACCESO A LOS DOCUMENTOS DEL PROYECTO 13187 REPSOL YPF LA PAMPILLA",
@@ -108,10 +108,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c72f6fe3-9329-4084-8901-b478384fb799",
-      "texto": "o Proyecto en Colaboración. Se pone a disposición a través de Internet la información que sea necesaria con una estructura de permisos que permite el acceso a los documentos ya aprobados.\n\n[Descripción visual: Diagrama de proceso de acceso a contenidos para un proyecto en colaboración:\n\n- **Acceso vía INTRANET**:\n  - **Equipo de Proyecto**: Acceso directo.\n  - **Joint Venture**: Acceso directo.\n\n- **Procedimiento de Contenidos**:\n  - **Copia diaria de contenidos**: Desde INTRANET hacia INTERNET.\n\n- **Acceso vía INTERNET**:\n  - **Proyecto en Colaboración**: Interactivo/central.\n  - **Proveedores**: Acceso disponible.\n  - **Socios**: Acceso disponible.\n  - **Cliente**: Acceso disponible.\n  - **Obra**: Acceso disponible.\n  - **Joint Venture**: Acceso disponible.\n\nEl diagrama muestra un flujo de datos desde una intranet hacia un sistema accesible vía internet, indicando las distintas entidades que pueden acceder a los datos del proyecto de colaboración.]",
+      "chunk_id": "9ff28f76-cee4-4714-8e01-92606fd65df5",
+      "texto": "o Proyecto en Colaboración. Se pone a disposición a través de Internet la información que sea necesaria con una estructura de permisos que permite el acceso a los documentos ya aprobados.\n\n[Descripción visual: Diagrama de flujo describe un sistema de acceso a proyectos colaborativos mediante internet e intranet. Elementos y conexiones:\n\n- **Acceso vía INTRANET:**\n  - Conectado al \"EQUIPO DE PROYECTO\" y \"JOINT VENTURE\".\n  \n- **Copia diaria de contenidos:** \n  - Proceso de transferencia desde el sistema de intranet al de internet.\n\n- **Acceso vía INTERNET:**\n  - Integrado con el \"PROYECTO EN COLABORACIÓN\".\n  \n  Conexiones a:\n  - \"PROVEEDORES\"\n  - \"SOCIOS JOINT VENTURE\"\n  - \"CLIENTE JOINT VENTURE\"\n  - \"OBRA JOINT VENTURE\"\n\nFlechado muestra el flujo de información y el acceso de diversas entidades al sistema colaborativo.]",
       "nivel": "child",
-      "parent_id": "3c13d815-7f86-41b4-8efe-9d2847a8ae89",
+      "parent_id": "8f26d908-525d-4344-9e73-8d7fd08c48e8",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "3. ESTRUCTURA DE ACCESO A LOS DOCUMENTOS DEL PROYECTO 13187 REPSOL YPF LA PAMPILLA",
@@ -124,7 +124,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3e316d38-be23-4fc9-acbe-f93008a57856",
+      "chunk_id": "270d618e-984b-4293-8fd5-7cc2af1e567f",
       "texto": "Toda la documentación de proyecto deberá formar parte del Portal sin excepciones.\n\nEstá incluirá, pero no se limitará, a: Especificaciones, Estándares, RM's, Hojas de datos, Planos, etc.\n\nLas instrucciones para importar documentos las podemos encontrar en el manual editado por Gestión del Conocimiento: INCORPORAR DOCUMENTOS AL PORTAL\n\nNOTA: Para acceder directamente al documento a través de este enlace deberá estar previamente trabajando en el portal (Haber hecho log in previamente)\n\nUn documento de proyecto que se edite (en papel) deberá ser firmado de acuerdo al plan de calidad del proyecto. Previamente al envío del documento para su aprobación en papel se incluirá éste en el portal por el especialista que lo genera y lanzará el WORKFLOW de registro   de   aprobación (Ver 13187-IT-02 INSTRUCCIONES   DE   CONTROL   DE DOCUMENTOS EN EL PORTAL PARA EL PROYECTO 13187 - REPSOL La Pampilla )",
       "nivel": "parent",
       "parent_id": null,
@@ -139,7 +139,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7d3d6d5f-1cd7-4699-8e8e-f825972d88a8",
+      "chunk_id": "e8e57188-ec5e-42e1-bae6-de2a48097a44",
       "texto": "En Documentum ,   los   usuarios   están   organizados   según   grupos   de   manera   que   los permisos (ACL'S) consisten en asignar a cada grupo de usuarios los privilegios que se les desee conceder.\n\nEn cuanto a la actualización de los usuarios participantes en el proyecto será la dirección del mismo quien comunique a Gestión del Conocimiento si se producen altas o bajas dentro del proyecto, indicando en el caso de las altas la amplitud del acceso que debe tener el usuario, es decir, en qué grupo debe ser incluido.\n\nAsimismo la dirección de proyecto se pondrá en contacto con Gestión del Conocimiento ante necesidades de nuevos permisos o de modificación de los existentes.",
       "nivel": "parent",
       "parent_id": null,
@@ -154,7 +154,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "185b0edd-2c14-4978-a500-0f5962434b92",
+      "chunk_id": "7cd76062-837f-4d45-8010-7753f8f1b19d",
       "texto": " proy_pampilla_civil, aplicable   a   documentos   generados   por   el   departamento   de arquitectura y civil.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de arquitectura y civil.\n\n proy_pampilla_compras, aplicable a documentos generados en compras de carácter no restringido.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de compras.\n\n proy_pampilla_compras_priv, aplicable a documento generados en el departamento de compras de carácter privado, es decir, las tabulaciones económicas.\n\nDesde la intranet permite  LEER  a la dirección de proyecto, los jefes de departamento y al responsable de costes y MODIFICAR al departamento de compras\n\n proy_pampilla_compras_rest, aplicable a los documentos generados en compras de carácter restringido, es decir, los relativos a pedidos.\n\nDesde la intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta y MODIFICAR al departamento de compras.\n\n proy_pampilla_construc, aplicable   a   documentos   generados   en   construcción   de carácter no restringido.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de construcción.\n\n proy_pampilla_construc_priv, aplicable a documento generados en el departamento de construcción de carácter privado, es decir, las tabulaciones económicas.\n\nDesde la intranet permite  LEER  a la dirección de proyecto, los jefes de departamento y al responsable de costes y MODIFICAR al departamento de construcción\n\n proy_pampilla_construc_rest, aplicable a los documentos generados en construcción de carácter restringido, es decir, los relativos a pedidos.\n\nDesde la intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta y MODIFICAR al departamento de construcción.\n\n proy_pampilla_dinamicos, aplicable a documentos generados en el departamento de equipos dinámicos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de equipos dinámicos\n\n proy_pampilla_elecinstr, aplicable a documentos generados en los departamentos de electricidad e instrumentación\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de los departamentos de electricidad e instrumentación\n\n proy_pampilla_estaticos, aplicable a documentos generados en el departamento de equipos estáticos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de equipos estáticos.\n\n proy_pampilla_hornos, aplicable a documentos generados en el equipo de hornos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del equipo de hornos.\n\n proy_pampilla_interno_iui, aplicable   a   documentos   generados   en   el   proyecto   que solamente son accesibles por el grupo de proyecto de Intecsa Uhde, s.a.\n\nDesde la Intranet permite LEER al grupo de proyecto de IUI y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_interno_jv, aplicable a documentos generados en el proyecto que son accesibles a todo el grupo de la Joint Venture\n\nDesde la Intranet permite LEER a todo el grupo de la Joint Venture y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_lectura, aplicable a documentos accesibles para todos los usuarios del proyecto que sólo modifica el propietario.\n\nDesde la Intranet permite LEER a toda IUI y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_materiales, aplicable a documentos generados en el departamento de materiales.",
       "nivel": "parent",
       "parent_id": null,
@@ -170,10 +170,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3f5f6589-76a9-4db3-868b-84fe92ed8b19",
+      "chunk_id": "deb8361b-289b-4917-bd28-86c0dc253952",
       "texto": " proy_pampilla_civil, aplicable   a   documentos   generados   por   el   departamento   de arquitectura y civil.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de arquitectura y civil.\n\n proy_pampilla_compras, aplicable a documentos generados en compras de carácter no restringido.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de compras.\n\n proy_pampilla_compras_priv, aplicable a documento generados en el departamento de compras de carácter privado, es decir, las tabulaciones económicas.",
       "nivel": "child",
-      "parent_id": "185b0edd-2c14-4978-a500-0f5962434b92",
+      "parent_id": "7cd76062-837f-4d45-8010-7753f8f1b19d",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -186,10 +186,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9c5aa83d-c060-470c-8537-2ac3a4761b4f",
+      "chunk_id": "c5115c74-4ac9-46e2-975c-6686b3406037",
       "texto": "Desde la intranet permite  LEER  a la dirección de proyecto, los jefes de departamento y al responsable de costes y MODIFICAR al departamento de compras\n\n proy_pampilla_compras_rest, aplicable a los documentos generados en compras de carácter restringido, es decir, los relativos a pedidos.\n\nDesde la intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta y MODIFICAR al departamento de compras.\n\n proy_pampilla_construc, aplicable   a   documentos   generados   en   construcción   de carácter no restringido.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de construcción.\n\n proy_pampilla_construc_priv, aplicable a documento generados en el departamento de construcción de carácter privado, es decir, las tabulaciones económicas.",
       "nivel": "child",
-      "parent_id": "185b0edd-2c14-4978-a500-0f5962434b92",
+      "parent_id": "7cd76062-837f-4d45-8010-7753f8f1b19d",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -202,10 +202,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2f75ae92-f4dd-4d91-8f7e-7a67082c3bfc",
+      "chunk_id": "4b829269-8d78-4638-8dfc-f4c72b86d389",
       "texto": "Desde la intranet permite  LEER  a la dirección de proyecto, los jefes de departamento y al responsable de costes y MODIFICAR al departamento de construcción\n\n proy_pampilla_construc_rest, aplicable a los documentos generados en construcción de carácter restringido, es decir, los relativos a pedidos.\n\nDesde la intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta y MODIFICAR al departamento de construcción.\n\n proy_pampilla_dinamicos, aplicable a documentos generados en el departamento de equipos dinámicos.",
       "nivel": "child",
-      "parent_id": "185b0edd-2c14-4978-a500-0f5962434b92",
+      "parent_id": "7cd76062-837f-4d45-8010-7753f8f1b19d",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -218,10 +218,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0dd65ec4-a1f1-41c2-bae6-e48025776b72",
+      "chunk_id": "237b3159-36f5-4102-8919-98c900fdbe9f",
       "texto": "Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de equipos dinámicos\n\n proy_pampilla_elecinstr, aplicable a documentos generados en los departamentos de electricidad e instrumentación\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de los departamentos de electricidad e instrumentación\n\n proy_pampilla_estaticos, aplicable a documentos generados en el departamento de equipos estáticos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de equipos estáticos.\n\n proy_pampilla_hornos, aplicable a documentos generados en el equipo de hornos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del equipo de hornos.",
       "nivel": "child",
-      "parent_id": "185b0edd-2c14-4978-a500-0f5962434b92",
+      "parent_id": "7cd76062-837f-4d45-8010-7753f8f1b19d",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -234,10 +234,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f54ca748-f09b-4e7e-9353-75badb1ae0d5",
+      "chunk_id": "3737cb29-7cc8-4e1d-b7bb-8482442284fc",
       "texto": " proy_pampilla_interno_iui, aplicable   a   documentos   generados   en   el   proyecto   que solamente son accesibles por el grupo de proyecto de Intecsa Uhde, s.a.\n\nDesde la Intranet permite LEER al grupo de proyecto de IUI y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_interno_jv, aplicable a documentos generados en el proyecto que son accesibles a todo el grupo de la Joint Venture\n\nDesde la Intranet permite LEER a todo el grupo de la Joint Venture y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_lectura, aplicable a documentos accesibles para todos los usuarios del proyecto que sólo modifica el propietario.\n\nDesde la Intranet permite LEER a toda IUI y MODIFICAR únicamente al propietario del documento.\n\n proy_pampilla_materiales, aplicable a documentos generados en el departamento de materiales.",
       "nivel": "child",
-      "parent_id": "185b0edd-2c14-4978-a500-0f5962434b92",
+      "parent_id": "7cd76062-837f-4d45-8010-7753f8f1b19d",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -250,7 +250,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "08a4609e-8ce6-41c2-9741-626b3fbed861",
+      "chunk_id": "23421e40-5770-45a1-a537-9309564b8c39",
       "texto": "Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de materiales.\n\n proy_pampilla_operaciones, aplicable   a   documentos   incorporados   por   operaciones (p.e. la Ingeniería Básica, especificaciones de repsol,...)\n\nDesde la Intranet permite LEER a toda IUI y MODIFICAR únicamente al grupo de operaciones.\n\n proy_pampilla_privado, aplicable a documentos relativos a costes.\n\nDesde la Intranet permite LEER a la dirección de proyecto, los jefes de departamento y el responsable de costes.\n\n proy_pampilla_procesos, aplicable a documentos generados en el departamento de procesos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de procesos.\n\n proy_pampilla_restringido, aplicable a documentos relativos a pedidos o informes de progreso.\n\nDesde la Intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta.\n\n proy_pampilla_sci, aplicable a documentos generados en el equipo de Sistemas Contra Incendios\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del grupo de Sistemas Contra Incendios.\n\n proy_pampilla_soportes, aplicable a documentos generados en el grupo de Esfuerzos y Soportes\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del grupo de Esfuerzos y Soportes.\n\n proy_pampilla_tuberías, aplicable a documentos generados en el departamento de tuberías.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de tuberías.\n\nLa   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc",
       "nivel": "parent",
       "parent_id": null,
@@ -266,10 +266,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7da02750-11cf-4f24-a01c-8c064e633467",
+      "chunk_id": "e741525f-e65b-4c5a-afa1-d9373bd78176",
       "texto": "Desde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de materiales.\n\n proy_pampilla_operaciones, aplicable   a   documentos   incorporados   por   operaciones (p.e. la Ingeniería Básica, especificaciones de repsol,...)\n\nDesde la Intranet permite LEER a toda IUI y MODIFICAR únicamente al grupo de operaciones.\n\n proy_pampilla_privado, aplicable a documentos relativos a costes.\n\nDesde la Intranet permite LEER a la dirección de proyecto, los jefes de departamento y el responsable de costes.\n\n proy_pampilla_procesos, aplicable a documentos generados en el departamento de procesos.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de procesos.\n\n proy_pampilla_restringido, aplicable a documentos relativos a pedidos o informes de progreso.",
       "nivel": "child",
-      "parent_id": "08a4609e-8ce6-41c2-9741-626b3fbed861",
+      "parent_id": "23421e40-5770-45a1-a537-9309564b8c39",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -282,10 +282,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "73d107ea-0afb-4fb7-9871-8f8fc2180051",
+      "chunk_id": "a62cad63-9a8c-443b-be7e-5ad4af743e37",
       "texto": "Desde la Intranet permite LEER a la dirección de proyecto, los jefes de departamento y los responsables de cuenta.\n\n proy_pampilla_sci, aplicable a documentos generados en el equipo de Sistemas Contra Incendios\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del grupo de Sistemas Contra Incendios.\n\n proy_pampilla_soportes, aplicable a documentos generados en el grupo de Esfuerzos y Soportes\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes del grupo de Esfuerzos y Soportes.\n\n proy_pampilla_tuberías, aplicable a documentos generados en el departamento de tuberías.\n\nDesde   la Intranet permite   LEER   a   toda   IUI   y   MODIFICAR   únicamente   a   los componentes de tuberías.",
       "nivel": "child",
-      "parent_id": "08a4609e-8ce6-41c2-9741-626b3fbed861",
+      "parent_id": "23421e40-5770-45a1-a537-9309564b8c39",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -298,10 +298,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8491f0bc-5142-4cfb-baee-1d55e81c8654",
+      "chunk_id": "e8da2bfb-a869-4f9e-9b76-9e81d8fd391e",
       "texto": "La   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc",
       "nivel": "child",
-      "parent_id": "08a4609e-8ce6-41c2-9741-626b3fbed861",
+      "parent_id": "23421e40-5770-45a1-a537-9309564b8c39",
       "pagina_inicio": 5,
       "pagina_fin": 7,
       "seccion": "PERMISOS DISPONIBLES PARA EL PROYECTO",
@@ -314,8 +314,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6f6bf0cd-21a3-480c-bf51-3862e910211a",
-      "texto": "Debido a la estructura organizativa del proyecto se han creado diferentes tipos de acceso a través de Internet como explicamos en el punto 3. Estructura de Acceso a los documentos.\n\nVimos el siguiente esquema:\n\n[Descripción visual: Diagrama de proceso de gestión de proyectos colaborativos mediante intranet e internet:\n\n- **Acceso vía INTRANET**: Usado por el equipo de proyecto y joint venture.\n- **Copia diaria de contenidos**: Se transfiere desde la intranet al acceso vía internet.\n- **Acceso vía INTERNET**: Conectado al proyecto en colaboración.\n  - **Usuarios del proyecto en colaboración**:\n    - Proveedores\n    - Socios\n    - Cliente\n    - Obra\n- Flechas indican el acceso de los diferentes usuarios hacia el proyecto en colaboración a través de internet. \n\nEste diagrama describe un proceso de sincronización de datos y acceso en un entorno de colaboración empresarial, utilizando una estructura híbrida de intranet e internet.]\n\nEntonces   para   el   acceso   vía   Internet   desde Proyecto en colaboración tenemos los siguientes usuarios:\n\n Usuario del cliente que accede desde la refinería. (Repsol YPF La Pampilla.)\n\n Usuario del cliente a usar por los residentes y por la central de ingeniería (Repsol YPF)\n\n Usuario de Tipiel , socio colombiano de IUI en el proyecto\n\n Usuario de Technip , socio francés del proyecto\n\n Usuario empleado por Dyctel , empresa encargada de la reprografía para la refinería.",
+      "chunk_id": "a04ea3c8-ced6-4455-aa57-5401c0d47056",
+      "texto": "Debido a la estructura organizativa del proyecto se han creado diferentes tipos de acceso a través de Internet como explicamos en el punto 3. Estructura de Acceso a los documentos.\n\nVimos el siguiente esquema:\n\n[Descripción visual: **DIAGRAMA O ESQUEMA TÉCNICO**\n\n- **Tipo de Diagrama**: Esquema de flujo de acceso a datos o información en red.\n  \n- **Componentes y Conexiones**:\n  - **Acceso vía INTRANET**:\n    - Conectado al \"EQUIPO DE PROYECTO\" y \"JOINT VENTURE\".\n    - Realiza una \"Copia diaria de contenidos\" hacia el acceso vía INTERNET.\n  \n  - **Acceso vía INTERNET**:\n    - Permite interacción con:\n      - **PROVEEDORES**\n      - **SOCIOS**\n      - **CLIENTE**\n      - **OBRA**\n  \n- **Áreas de Proyecto**:\n  - \"PROYECTO EN COLABORACIÓN\" bajo acceso vía INTERNET, accesible por todas las conexiones mencionadas y etiquetadas.\n\n- **Notas y Especificaciones**:\n  - Indica procedimientos de copia diaria de contenidos entre intranet e internet para el proyecto colaborativo.\n  \nEste diagrama ilustra la estructura de acceso y la compartición de información en un entorno de colaboración entre diferentes actores (internos y externos) de un proyecto.]\n\nEntonces   para   el   acceso   vía   Internet   desde Proyecto en colaboración tenemos los siguientes usuarios:\n\n Usuario del cliente que accede desde la refinería. (Repsol YPF La Pampilla.)\n\n Usuario del cliente a usar por los residentes y por la central de ingeniería (Repsol YPF)\n\n Usuario de Tipiel , socio colombiano de IUI en el proyecto\n\n Usuario de Technip , socio francés del proyecto\n\n Usuario empleado por Dyctel , empresa encargada de la reprografía para la refinería.",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 8,
@@ -330,10 +330,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e88144c5-dd10-4f0f-ad63-1b40f3f8302c",
-      "texto": "Debido a la estructura organizativa del proyecto se han creado diferentes tipos de acceso a través de Internet como explicamos en el punto 3. Estructura de Acceso a los documentos.\n\nVimos el siguiente esquema:\n\n[Descripción visual: Diagrama de proceso de gestión de proyectos colaborativos mediante intranet e internet:\n\n- **Acceso vía INTRANET**: Usado por el equipo de proyecto y joint venture.\n- **Copia diaria de contenidos**: Se transfiere desde la intranet al acceso vía internet.\n- **Acceso vía INTERNET**: Conectado al proyecto en colaboración.\n  - **Usuarios del proyecto en colaboración**:\n    - Proveedores\n    - Socios\n    - Cliente\n    - Obra\n- Flechas indican el acceso de los diferentes usuarios hacia el proyecto en colaboración a través de internet. \n\nEste diagrama describe un proceso de sincronización de datos y acceso en un entorno de colaboración empresarial, utilizando una estructura híbrida de intranet e internet.]",
+      "chunk_id": "ff808224-cfe4-4738-b28a-e40177bb7f74",
+      "texto": "Debido a la estructura organizativa del proyecto se han creado diferentes tipos de acceso a través de Internet como explicamos en el punto 3. Estructura de Acceso a los documentos.\n\nVimos el siguiente esquema:\n\n[Descripción visual: **DIAGRAMA O ESQUEMA TÉCNICO**\n\n- **Tipo de Diagrama**: Esquema de flujo de acceso a datos o información en red.\n  \n- **Componentes y Conexiones**:\n  - **Acceso vía INTRANET**:\n    - Conectado al \"EQUIPO DE PROYECTO\" y \"JOINT VENTURE\".\n    - Realiza una \"Copia diaria de contenidos\" hacia el acceso vía INTERNET.\n  \n  - **Acceso vía INTERNET**:\n    - Permite interacción con:\n      - **PROVEEDORES**\n      - **SOCIOS**\n      - **CLIENTE**\n      - **OBRA**\n  \n- **Áreas de Proyecto**:\n  - \"PROYECTO EN COLABORACIÓN\" bajo acceso vía INTERNET, accesible por todas las conexiones mencionadas y etiquetadas.",
       "nivel": "child",
-      "parent_id": "6f6bf0cd-21a3-480c-bf51-3862e910211a",
+      "parent_id": "a04ea3c8-ced6-4455-aa57-5401c0d47056",
       "pagina_inicio": 8,
       "pagina_fin": 8,
       "seccion": "Permisos a través de Internet.",
@@ -346,10 +346,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "822cd4e2-3124-41b0-8bb7-451ad4f4e032",
-      "texto": "Entonces   para   el   acceso   vía   Internet   desde Proyecto en colaboración tenemos los siguientes usuarios:\n\n Usuario del cliente que accede desde la refinería. (Repsol YPF La Pampilla.)\n\n Usuario del cliente a usar por los residentes y por la central de ingeniería (Repsol YPF)\n\n Usuario de Tipiel , socio colombiano de IUI en el proyecto\n\n Usuario de Technip , socio francés del proyecto\n\n Usuario empleado por Dyctel , empresa encargada de la reprografía para la refinería.",
+      "chunk_id": "3629c5f9-82d8-4d78-af5b-1663adec5d2a",
+      "texto": "- **Notas y Especificaciones**:\n  - Indica procedimientos de copia diaria de contenidos entre intranet e internet para el proyecto colaborativo.\n  \nEste diagrama ilustra la estructura de acceso y la compartición de información en un entorno de colaboración entre diferentes actores (internos y externos) de un proyecto.]\n\nEntonces   para   el   acceso   vía   Internet   desde Proyecto en colaboración tenemos los siguientes usuarios:\n\n Usuario del cliente que accede desde la refinería. (Repsol YPF La Pampilla.)\n\n Usuario del cliente a usar por los residentes y por la central de ingeniería (Repsol YPF)\n\n Usuario de Tipiel , socio colombiano de IUI en el proyecto\n\n Usuario de Technip , socio francés del proyecto\n\n Usuario empleado por Dyctel , empresa encargada de la reprografía para la refinería.",
       "nivel": "child",
-      "parent_id": "6f6bf0cd-21a3-480c-bf51-3862e910211a",
+      "parent_id": "a04ea3c8-ced6-4455-aa57-5401c0d47056",
       "pagina_inicio": 8,
       "pagina_fin": 8,
       "seccion": "Permisos a través de Internet.",
@@ -362,7 +362,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3e463c56-3920-45b4-8280-eea1c520ed9c",
+      "chunk_id": "bb2da206-cbdd-4fcb-a398-54fbb3b8bbfc",
       "texto": "A  continuación   se   recoge   el   directorio   de   carpetas   en   el   que   será   estructurada   la documentación generada a lo largo del proyecto en el portal de IUI. Asimismo, se indica quién   tiene   acceso   a   los   contenidos   de   las   carpetas   y   a   determinados   documentos, empleando para ello el siguiente código:\n\nusr: usuario con acceso a vía internet a la documentación una vez aprobada.\n\ndp: dirección de proyecto de IUI.\n\ncost : responsable de control de costes del proyecto.\n\nrc: conjunto de responsables de cuenta del proyecto\n\njdpto: conjunto de jefes de departamento de IUI\n\niui: conjunto de todo el personal de IUI\n\nAsí por ejemplo, dp + cost + jdpto indica que a los contenidos de la carpeta referida tienen acceso la dirección del proyecto, el responsable de costes y los jefes de departamento de IUI.",
       "nivel": "parent",
       "parent_id": null,
@@ -374,11 +374,11 @@
         "ListItem"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": false
     },
     {
-      "chunk_id": "da757cd6-91e6-4995-a073-e1f18fc624cf",
+      "chunk_id": "25422e4a-b295-4405-b994-7a2a125a8bb5",
       "texto": "Se refiere a carpetas generales.\n\nSe refiere a carpetas de RM.\n\nEl Proyecto está dividido en varias áreas:\n\n Área 00: OFFSITES E INTERCONEXIONES\n\n Área 04: V-II. Unidad de vacío II\n\n Área 19: MEROX unidad de merox\n\n Área 24: V-B . Unidad de visbreaking\n\n Área 47: SISTEMA ELÉCTRICO. Unidad de sistema de recepción y distribución eléctrica\n\n Área 51: STRIPPER. Stripper de aguas ácidas\n\nEn la estructura que aparece a continuación solamente está desarrollada el área 04. V-II (Unidad de Vacío) por ser la más general El resto de las áreas tienen una estructura muy parecida, y si alguna de las especialidades no tiene aplicación (hornos, ing. básica...) no aparecerá carpeta específica de esa especialidad en ese área.\n\nTambién en esta área (04. V-II) se almacenan los documentos que serían comunes para varias áreas",
       "nivel": "parent",
       "parent_id": null,
@@ -390,12 +390,12 @@
         "NarrativeText"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": false
     },
     {
-      "chunk_id": "25f84c57610a4374ab99eb3676070c1c",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                           | PERMISOS DE ACCESO   |\n|--------------------------------------------------------------|----------------------|\n| **13187 – REPSOL YPF La Pampilla**                           |                      |\n| ![folder](folder-icon) _DOCUMENTACIÓN GENERAL                |                      |\n| ![folder](folder-icon) _DIRECCIÓN DE PROYECTO                |                      |\n| ![folder](folder-icon) &nbsp;&nbsp;&nbsp;ACTAS DE REUNIÓN    |                      |\n| ![folder](folder-icon) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REPSOL  | usr + dp + rc + jdp   |\n| &nbsp;&nbsp;&nbsp;INFORME DE PROGRESO                        | usr + iui            |\n| ![folder](folder-icon) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLAN DE CALIDAD DE IUI| usr + iui            |\n| ![folder](folder-icon) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROCEDIMIENTOS DE COORDINACIÓN DE REPSOL | usr + iui            |\n| ![folder](folder-icon) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROCEDIMIENTOS DE PROYECTO DE LA JOINT VENTURE | usr + iui            |\n| ![folder](folder-icon) _PLANIFICACIÓN Y CONTROL              |                      |\n| ![folder](folder-icon) &nbsp;&nbsp;&nbsp;CURVAS DE AVANCE    | usr + iui            |\n| ![folder](folder-icon) &nbsp;&nbsp;&nbsp;PLANIFICACIÓN       | usr + iui            |\n| ![folder](folder-icon) DOCUMENTACIÓN DE RELAPASA PARA EL PROYECTO | usr + iui       |\n| ![folder](folder-icon) ESPECIFICACIONES DE REPSOL Y UOP      | usr + iui            |\n| ![folder](folder-icon) ESTUDIOS Y PROYECTOS OFICIALES        | usr + iui            |\n| ![folder](folder-icon) FOTOGRAFÍAS                           | usr + iui            |\n| ![folder](folder-icon) PROCEDIMIENTOS DE SEGURIDAD Y RIESGOS LABORALES | usr + iui        |\n| ![folder](folder-icon) REGLAMENTOS PERUANOS                  | usr + iui            |\n| ![folder](folder-icon) 00. OFFSITES E INTERCONEXIONES        |                      |\n| ![folder](folder-icon) 02. UDP II                            |                      |\n```\n\n(Note: \"![folder](folder-icon)\" is used to indicate a folder icon and would ideally reference an icon image in your Markdown viewer or converter, hence this notation is merely illustrative for visual representation purposes.)",
+      "chunk_id": "facaa946660a4108abbed9c0ac21414b",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                    | PERMISOS DE ACCESO      |\n|-----------------------------------------------------------------------|-------------------------|\n| **13187 – REPSOL YPF La Pampilla**                                    |                         |\n| ![carpeta] DOCUMENTACIÓN GENERAL                                      |                         |\n| ![carpeta] DIRECCIÓN DE PROYECTO                                      |                         |\n| ![carpeta] ![carpeta] ACTAS DE REUNIÓN                                |                         |\n| ![carpeta] ![carpeta] ![carpeta] REPSOL                               | usr + dp + rc + jdppto  |\n| ![carpeta] ![carpeta] INFORME DE PROGRESO                             | usr + iui               |\n| ![carpeta] ![carpeta] PLAN DE CALIDAD DE IUI                          | usr + iui               |\n| ![carpeta] ![carpeta] PROCEDIMIENTOS DE COORDINACIÓN DE REPSOL        | usr + iui               |\n| ![carpeta] ![carpeta] PROCEDIMIENTOS DE PROYECTO DE LA JOINT VENTURE  | usr + iui               |\n| ![carpeta] PLANIFICACIÓN Y CONTROL                                    |                         |\n| ![carpeta] ![carpeta] CURVAS DE AVANCE                                | usr + iui               |\n| ![carpeta] ![carpeta] PLANIFICACIÓN                                   | usr + iui               |\n| ![carpeta] DOCUMENTACIÓN DE RELAPASA PARA EL PROYECTO                 | usr + iui               |\n| ![carpeta] ESPECIFICACIONES DE REPSOL Y UOP                           | usr + iui               |\n| ![carpeta] ESTUDIOS Y PROYECTOS OFICIALES                             | usr + iui               |\n| ![carpeta] FOTOGRAFÍAS                                                | usr + iui               |\n| ![carpeta] PROCEDIMIENTOS DE SEGURIDAD Y RIESGOS LABORALES            | usr + iui               |\n| ![carpeta] REGLAMENTOS PERUANOS                                       | usr + iui               |\n| ![carpeta] 00. OFFSITES E INTERCONEXIONES                             |                         |\n| ![carpeta] 02. UDP II                                                 |                         |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 11,
@@ -405,12 +405,12 @@
         "Table"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": true
     },
     {
-      "chunk_id": "b5a55544ae03433cb78dbe0aa41abdbe",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO            | PERMISOS DE ACCESO |\n|------------------------------------------------|--------------------|\n| **04. V-II**                                   |                    |\n| **1. CIVIL Y ARQUITECTURA**                    |                    |\n| 📁 1.0. COMPARACIONES TÉCNICAS DE OFERTAS      | usr + iui          |\n| 📁 2.0 ESPECIFICACIONES Y BASES DE DISEÑO DE CIVIL Y ARQUITECTURA | usr + iui          |\n| 📁 3.0.ESTUDIOS Y CÁLCULOS                      | usr + iui          |\n| 📁 4.0. LISTAS DE CANTIDADES (BOQ’S)           | usr + iui          |\n| 📁 5.0. MEDICIONES                             | usr + iui          |\n| 📁 6.0. PLANOS Y ESTÁNDARES                    | usr + iui          |\n| 📁 7.0. REQUISICIONES DE MATERIALES            | usr + iui          |\n| **2. ELECTRICIDAD**                            |                    |\n| 📁 1.0. COMPARACIONES TÉCNICAS DE OFERTAS      | usr + iui          |\n| 📁 2.0 ESPECIFICACIONES DE ELECTRICIDAD        | usr + iui          |\n| 📁 3.0.HOJAS DE DATOS                          | usr + iui          |\n| 📁 3.1. LISTAS                                 | usr + iui          |\n| 📁 3.2. MEDICIONES                             | usr + iui          |\n| 📁 4.0. PLANOS Y ESTÁNDARES                    | usr + iui          |\n| 📁 5.0. REQUISICIONES DE MATERIALES (RM'S)     | usr + iui          |\n| 📁 6.0. DOCUMENTOS ASOCIADOS A RM'S DE ELECTRICIDAD | usr + iui          |\n| **3. INSTRUMENTACIÓN**                         |                    |\n| 📁 1.0. COMPARACIONES TÉCNICAS DE OFERTAS      | usr + iui          |",
+      "chunk_id": "2ee1fe507d89442aa8d53251fe3029af",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                  | PERMISOS DE ACCESO |\n|----------------------------------------------------------------------|-------------------|\n| ![símbolo de carpeta] 04. V-II                                       |                   |\n| ![símbolo de carpeta] 1. CIVIL Y ARQUITECTURA                        |                   |\n| ![símbolo de carpeta] 1.0. COMPARACIONES TÉCNICAS DE OFERTAS         | usr + iui         |\n| ![símbolo de carpeta] 2.0 ESPECIFICACIONES Y BASES DE DISEÑO DE CIVIL Y ARQUITECTURA | usr + iui         |\n| ![símbolo de carpeta] 3.0.ESTUDIOS Y CÁLCULOS                        | usr + iui         |\n| ![símbolo de carpeta] 4.0. LISTAS DE CANTIDADES (BOQ’S)              | usr + iui         |\n| ![símbolo de carpeta] 5.0. MEDICIONES                                | usr + iui         |\n| ![símbolo de carpeta] 6.0. PLANOS Y ESTÁNDARES                       | usr + iui         |\n| ![símbolo de carpeta] 7.0. REQUISICIONES DE MATERIALES               | usr + iui         |\n| ![símbolo de carpeta] 2. ELECTRICIDAD                                |                   |\n| ![símbolo de carpeta] 1.0. COMPARACIONES TÉCNICAS DE OFERTAS         | usr + iui         |\n| ![símbolo de carpeta] 2.0 ESPECIFICACIONES DE ELECTRICIDAD           | usr + iui         |\n| ![símbolo de carpeta] 3.0.HOJAS DE DATOS                             | usr + iui         |\n| ![símbolo de carpeta] 3.1. LISTAS                                    | usr + iui         |\n| ![símbolo de carpeta] 3.2. MEDICIONES                                | usr + iui         |\n| ![símbolo de carpeta] 4.0. PLANOS Y ESTÁNDARES                       | usr + iui         |\n| ![símbolo de carpeta] 5.0. REQUISICIONES DE MATERIALES (RM’S)        | usr + iui         |\n| ![símbolo de carpeta] 6.0. DOCUMENTOS ASOCIADOS A RM’S DE ELECTRICIDAD | usr + iui       |\n| ![símbolo de carpeta] 3. INSTRUMENTACIÓN                             |                   |\n| ![símbolo de carpeta] 1.0. COMPARACIONES TÉCNICAS DE OFERTAS         | usr + iui         |\n```\n(Note: \"![símbolo de carpeta]\" is used to represent the folder icon as a placeholder, since Markdown does not display images).",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 12,
@@ -420,12 +420,12 @@
         "Table"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": true
     },
     {
-      "chunk_id": "30e93e6a39f84193928ad1dcca7dfdf8",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                              | PERMISOS DE ACCESO |\n|----------------------------------------------------------------------------------|--------------------|\n| ![icono_carpeta](icono_carpeta.png) 2.0 ESPECIFICACIONES DE INSTRUMENTACIÓN      | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 3.0.HOJAS DE DATOS                           | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 3.1. LISTAS                                  | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 3.2. MEDICIONES                              | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 4.0. PLANOS Y DIAGRAMAS                      | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 5.0. REQUISICIONES DE MATERIALES (RM’S)      | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 6.0. DOCUMENTOS ASOCIADOS A RM’S DE INSTRUMENTACIÓN | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) **4.1. MECÁNICA – EQUIPOS DINÁMICOS**         |                    |\n| ![icono_carpeta](icono_carpeta.png) 1.0. COMPARACIONES TÉCNICAS DE OFERTAS        | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 2.0 ESPECIFICACIONES DE EQUIPOS DINÁMICOS     | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 3.0.HOJAS DE DATOS                            | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 4.0. PLANOS                                   | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 5.0. REQUISICIONES DE MATERIALES (RM’S)       | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 6.0. DOCUMENTOS ASOCIADOS A RM’S DE EQUIPOS DINÁMICOS | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) **4.2. MECÁNICA – EQUIPOS ESTÁTICOS**          |                    |\n| ![icono_carpeta](icono_carpeta.png) 1.0. COMPARACIONES TÉCNICAS DE OFERTAS        | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 2.0 ESPECIFICACIONES DE EQUIPOS ESTÁTICOS     | usr + iui          |\n| ![icono_carpeta](icono_carpeta.png) 3.0.HOJAS DE DATOS                            | usr + iui          |",
+      "chunk_id": "4e70afd80f8346978a98e8c0a0f9b4ef",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                      | PERMISOS DE ACCESO |\n|----------------------------------------------------------|--------------------|\n| 📁 2.0 ESPECIFICACIONES DE INSTRUMENTACIÓN               | usr + iui          |\n| 📁 3.0. HOJAS DE DATOS                                   | usr + iui          |\n| 📁 3.1. LISTAS                                           | usr + iui          |\n| 📁 3.2. MEDICIONES                                       | usr + iui          |\n| 📁 4.0. PLANOS Y DIAGRAMAS                               | usr + iui          |\n| 📁 5.0. REQUISICIONES DE MATERIALES (RM’S)               | usr + iui          |\n| 📁 6.0. DOCUMENTOS ASOCIADOS A RM’S DE INSTRUMENTACIÓN   | usr + iui          |\n| 📁 4.1. MECÁNICA – EQUIPOS DINÁMICOS                     |                    |\n| 📁 1.0. COMPARACIONES TÉCNICAS DE OFERTAS               | usr + iui          |\n| 📁 2.0 ESPECIFICACIONES DE EQUIPOS DINÁMICOS             | usr + iui          |\n| 📁 3.0. HOJAS DE DATOS                                   | usr + iui          |\n| 📁 4.0. PLANOS                                           | usr + iui          |\n| 📁 5.0. REQUISICIONES DE MATERIALES (RM’S)               | usr + iui          |\n| 📁 6.0. DOCUMENTOS ASOCIADOS A RM’S DE EQUIPOS DINÁMICOS | usr + iui          |\n| 📁 4.2. MECÁNICA – EQUIPOS ESTÁTICOS                     |                    |\n| 📁 1.0. COMPARACIONES TÉCNICAS DE OFERTAS               | usr + iui          |\n| 📁 2.0 ESPECIFICACIONES DE EQUIPOS ESTÁTICOS             | usr + iui          |\n| 📁 3.0. HOJAS DE DATOS                                   | usr + iui          |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 13,
@@ -435,12 +435,12 @@
         "Table"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": true
     },
     {
-      "chunk_id": "a36b07f993c8476eb471baefad9c01f9",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                           | PERMISOS DE ACCESO |\n|---------------------------------------------------------------|--------------------|\n| ![carpeta](path/to/icon) 4.0. PLANOS                          | usr + iui          |\n| ![carpeta](path/to/icon) 5.0. REQUISICIONES DE MATERIALES (RM'S) | usr + iui          |\n| ![carpeta](path/to/icon) 6.0. DOCUMENTOS ASOCIADOS A RM'S DE EQUIPOS ESTÁTICOS | usr + iui          |\n| **4.3. MECÁNICA – MATERIALES DE TUBERÍAS**                    |                    |\n| ![carpeta](path/to/icon) 1.0. COMPARACIONES TÉCNICAS DE OFERTAS | usr + iui          |\n| ![carpeta](path/to/icon) 2.0 ESPECIFICACIONES Y ESTÁNDARES DE MATERIALES | usr + iui          |\n| ![carpeta](path/to/icon) 3.0. HOJAS DE DATOS                  | usr + iui          |\n| ![carpeta](path/to/icon) 4.0. LISTA DE MATERIALES (BM'S)     | usr + iui          |\n| ![carpeta](path/to/icon) 5.0. REQUISICIONES DE MATERIALES (RM'S) | usr + iui          |\n| ![carpeta](path/to/icon) 6.0. DOCUMENTOS ASOCIADOS A RM'S DE MATERIALES | usr + iui          |\n| **4.4. MECÁNICA – ESFUERZOS Y SOPORTES**                      |                    |\n| ![carpeta](path/to/icon) 1.0. COMPARACIONES TÉCNICAS DE OFERTAS | usr + iui          |\n| ![carpeta](path/to/icon) 2.0 ESPECIFICACIONES DE ESFUERZOS Y SOPORTES | usr + iui          |\n| ![carpeta](path/to/icon) 3.0. HOJAS DE DATOS                  | usr + iui          |\n| ![carpeta](path/to/icon) 4.0. PLANOS                          | usr + iui          |\n| ![carpeta](path/to/icon) 5.0. REQUISICIONES DE MATERIALES (RM'S) | usr + iui          |\n| ![carpeta](path/to/icon) 6.0. DOCUMENTOS ASOCIADOS A RM'S DE ESFUERZOS Y SOPORTES | usr + iui          |",
+      "chunk_id": "8674d9ffb67047cf804978bcdf2f2b13",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                       | PERMISOS DE ACCESO |\n|-----------------------------------------------------------|--------------------|\n| ![ícono de carpeta] 4.0. PLANOS                           | usr + iui          |\n| ![ícono de carpeta] 5.0. REQUISICIONES DE MATERIALES (RM’S) | usr + iui          |\n| ![ícono de carpeta] 6.0. DOCUMENTOS ASOCIADOS A RM’S DE EQUIPOS ESTÁTICOS | usr + iui          |\n| ![ícono de carpeta] 4.3. MECÁNICA – MATERIALES DE TUBERÍAS |                    |\n| ![ícono de carpeta] 1.0. COMPARACIONES TÉCNICAS DE OFERTAS | usr + iui          |\n| ![ícono de carpeta] 2.0 ESPECIFICACIONES Y ESTÁNDARES DE MATERIALES | usr + iui          |\n| ![ícono de carpeta] 3.0.HOJAS DE DATOS                    | usr + iui          |\n| ![ícono de carpeta] 4.0. LISTA DE MATERIALES (BM’S)       | usr + iui          |\n| ![ícono de carpeta] 5.0. REQUISICIONES DE MATERIALES (RM’S) | usr + iui          |\n| ![ícono de carpeta] 6.0. DOCUMENTOS ASOCIADOS A RM’S DE MATERIALES | usr + iui          |\n| ![ícono de carpeta] 4.4. MECÁNICA – ESFUERZOS Y SOPORTES  |                    |\n| ![ícono de carpeta] 1.0. COMPARACIONES TÉCNICAS DE OFERTAS | usr + iui          |\n| ![ícono de carpeta] 2.0 ESPECIFICACIONES DE ESFUERZOS Y SOPORTES | usr + iui          |\n| ![ícono de carpeta] 3.0.HOJAS DE DATOS                    | usr + iui          |\n| ![ícono de carpeta] 4.0. PLANOS                           | usr + iui          |\n| ![ícono de carpeta] 5.0. REQUISICIONES DE MATERIALES (RM’S) | usr + iui          |\n| ![ícono de carpeta] 6.0. DOCUMENTOS ASOCIADOS A RM’S DE ESFUERZOS Y SOPORTES | usr + iui          |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 14,
@@ -450,12 +450,12 @@
         "Table"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": true
     },
     {
-      "chunk_id": "d402ad973b0142b58217cccc9d956650",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                          | PERMISOS DE ACCESO |\n|-------------------------------------------------------------|--------------------|\n| ![folder](https://example.com/folder-icon) **4.5. MECÁNICA – SISTEMAS CONTRA INCENDIOS** |                    |\n| ![folder](https://example.com/folder-icon) 1.0. COMPARACIONES TÉCNICAS DE OFERTAS        | usr + iui          |\n| ![folder](https://example.com/folder-icon) 2.0 ESPECIFICACIONES DE S.C.I.                | usr + iui          |\n| ![folder](https://example.com/folder-icon) 3.0. PLANOS                                    | usr + iui          |\n| ![folder](https://example.com/folder-icon) 4.0. REQUISICIONES DE MATERIALES (RM’S)      | usr + iui          |\n| ![folder](https://example.com/folder-icon) 5.0. DOCUMENTOS ASOCIADOS A RM’S DE S.C.I.   | usr + iui          |\n| ![folder](https://example.com/folder-icon) **4.6. MECÁNICA – HORNOS**                   |                    |\n| ![folder](https://example.com/folder-icon) 1.0. COMPARACIONES TÉCNICAS DE OFERTAS       | usr + iui          |\n| ![folder](https://example.com/folder-icon) 2.0 ESPECIFICACIONES DE HORNOS               | usr + iui          |\n| ![folder](https://example.com/folder-icon) 3.0.HOJAS DE DATOS                            | usr + iui          |\n| ![folder](https://example.com/folder-icon) 4.0. PLANOS                                  | usr + iui          |\n| ![folder](https://example.com/folder-icon) 5.0. REQUISICIONES DE MATERIALES (RM’S)      | usr + iui          |\n| ![folder](https://example.com/folder-icon) 6.0. DOCUMENTOS ASOCIADOS A RM’S DE HORNOS   | usr + iui          |\n| ![folder](https://example.com/folder-icon) **5. TUBERÍAS**                              |                    |\n| ![folder](https://example.com/folder-icon) 1.0. ESTÁNDARES DE TUBERÍAS                  | usr + iui          |\n| ![folder](https://example.com/folder-icon) 2.0. ISOMÉTRICAS                             | usr + iui          |\n| ![folder](https://example.com/folder-icon) 3.0. PLANOS AUXILIARES                       | usr + iui          |\n| ![folder](https://example.com/folder-icon) 4.0. PLANOS DE IMPLANTACIÓN                  | usr + iui          |\n| ![folder](https://example.com/folder-icon) 5.0. PLANOS DE PLANTA                        | usr + iui          |\n| ![folder](https://example.com/folder-icon) 6.0. PLANOS DE RACK                          | usr + iui          |\n```\n\nNote: The \"![folder](https://example.com/folder-icon)\" represents folder icons that were present in the image. Replace the URL with the actual path to folder icons if necessary.",
+      "chunk_id": "5771b97b1eac460f9bb3a31ed5f62a5b",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                  | PERMISOS DE ACCESO |\n|------------------------------------------------------|--------------------|\n| **4.5. MECÁNICA – SISTEMAS CONTRA INCENDIOS**        |                    |\n|  📁 1.0. COMPARACIONES TÉCNICAS DE OFERTAS           | usr + iui          |\n|  📁 2.0 ESPECIFICACIONES DE S.C.I.                   | usr + iui          |\n|  📁 3.0. PLANOS                                      | usr + iui          |\n|  📁 4.0. REQUISICIONES DE MATERIALES (RM’S)          | usr + iui          |\n|  📁 5.0. DOCUMENTOS ASOCIADOS A RM’S DE S.C.I.       | usr + iui          |\n| **4.6. MECÁNICA – HORNOS**                           |                    |\n|  📁 1.0. COMPARACIONES TÉCNICAS DE OFERTAS           | usr + iui          |\n|  📁 2.0 ESPECIFICACIONES DE HORNOS                   | usr + iui          |\n|  📁 3.0.HOJAS DE DATOS                               | usr + iui          |\n|  📁 4.0. PLANOS                                      | usr + iui          |\n|  📁 5.0. REQUISICIONES DE MATERIALES (RM’S)          | usr + iui          |\n|  📁 6.0. DOCUMENTOS ASOCIADOS A RM’S DE HORNOS       | usr + iui          |\n| **5. TUBERÍAS**                                      |                    |\n|  📁 1.0. ESTÁNDARES DE TUBERÍAS                      | usr + iui          |\n|  📁 2.0. ISOMÉTRICAS                                 | usr + iui          |\n|  📁 3.0. PLANOS AUXILIARES                           | usr + iui          |\n|  📁 4.0. PLANOS DE IMPLANTACIÓN                      | usr + iui          |\n|  📁 5.0. PLANOS DE PLANTA                            | usr + iui          |\n|  📁 6.0. PLANOS DE RACK                              | usr + iui          |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 15,
@@ -465,12 +465,12 @@
         "Table"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": true
     },
     {
-      "chunk_id": "13f4b0e8876b45cf9dfe5db2c492ed7a",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO    | PERMISOS DE ACCESO       |\n|----------------------------------------|--------------------------|\n| **6. PROCESOS**                        |                          |\n| 📁 1.0. BASES DE DISEÑO                | usr + iui                |\n| 📁 2.0. DATOS DE PROCESO PARA EQUIPOS  | usr + iui                |\n| (HOJAS DE DATOS)                       |                          |\n| 📁 3.0. LISTAS                         | usr + iui                |\n| 📁 4.0. PLANOS DE IMPLANTACIÓN         | usr + iui                |\n| 📁 5.0. DIAGRAMAS DE FLUJO             | usr + iui                |\n| 📁 6.0. P&ID’s                         | usr + iui                |\n| **7. COMPRAS**                         |                          |\n| 📁 1.0. GENERAL                        | usr + iui                |\n| 📁 2.0. TABULACIONES ECONÓMICAS        | dp + cost + jdppto       |\n| 📁 3.0. PEDIDOS E INSPECCIÓN           | dp + rc + jdppto         |\n| **8. CONSTRUCCIÓN**                    |                          |\n| 📜 _ESPECIFICACIONES DE CONSTRUCCIÓN_  | usr + iui                |\n| 📁 1.0. GENERAL                        | usr + iui                |\n| 📁 2.0. TABULACIONES                   | dp + cost + jdppto       |\n| 📁 3.0. PEDIDOS DE CONSTRUCCIÓN        | dp + rc + jdppto         |\n| 📁 4.0. REQUISICIONES DE CONSTRUCCIÓN  | usr + iui                |\n| (RC’s)                                 |                          |\n| 📁 5.0. DOCUMENTOS ASOCIADOS A RC’s    | usr + iui                |\n| 📁 19. MEROX                           |                          |\n| 📁 24. V-B                             |                          |\n| 📁 47. SISTEMA ELÉCTRICO               |                          |\n| 📁 51. STRIPPER                        |                          |",
+      "chunk_id": "423e18e4f54c47b3967008c53f6b6d5a",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                  | PERMISOS DE ACCESO     |\n|---------------------------------------------------------------------|------------------------|\n| **6. PROCESOS**                                                     |                        |\n| ![ícono de carpeta](símbolo de carpeta) 1.0. BASES DE DISEÑO                    | usr + iui              |\n| ![ícono de carpeta](símbolo de carpeta) 2.0. DATOS DE PROCESO PARA EQUIPOS (HOJAS DE DATOS) | usr + iui              |\n| ![ícono de carpeta](símbolo de carpeta) 3.0. LISTAS                            | usr + iui              |\n| ![ícono de carpeta](símbolo de carpeta) 4.0. PLANOS DE IMPLANTACIÓN            | usr + iui              |\n| ![ícono de carpeta](símbolo de carpeta) 5.0. DIAGRAMAS DE FLUJO                | usr + iui              |\n| ![ícono de carpeta](símbolo de carpeta) 6.0. P&ID's                            | usr + iui              |\n| **7. COMPRAS**                                                      |                        |\n| ![ícono de carpeta](símbolo de carpeta) 1.0. GENERAL                           | usr + iui              |\n| ![ícono de carpeta](símbolo de carpeta) 2.0. TABULACIONES ECONÓMICAS          | dp + cost + jdppto     |\n| ![ícono de carpeta](símbolo de carpeta) 3.0. PEDIDOS E INSPECCIÓN              | dp + rc + jdppto       |\n| **8. CONSTRUCCIÓN**                                                |                        |\n| ![ícono de carpeta](símbolo de carpeta) _ESPECIFICACIONES DE CONSTRUCCIÓN      | usr + iui              |\n| ![ícono de carpeta](símbolo de carpeta) 1.0. GENERAL                           | usr + iui              |\n| ![ícono de carpeta](símbolo de carpeta) 2.0. TABULACIONES                      | dp + cost + jdppto     |\n| ![ícono de carpeta](símbolo de carpeta) 3.0. PEDIDOS DE CONSTRUCCIÓN           | dp + rc + jdppto       |\n| ![ícono de carpeta](símbolo de carpeta) 4.0. REQUISICIONES DE CONSTRUCCIÓN (RC’s)| usr + iui             |\n| ![ícono de carpeta](símbolo de carpeta) 5.0. DOCUMENTOS ASOCIADOS A RC’s       | usr + iui              |\n| ![ícono de carpeta](símbolo de carpeta) 19. MEROX                             |                        |\n| ![ícono de carpeta](símbolo de carpeta) 24. V-B                               |                        |\n| ![ícono de carpeta](símbolo de carpeta) 47. SISTEMA ELÉCTRICO                |                        |\n| ![ícono de carpeta](símbolo de carpeta) 51. STRIPPER                          |                        |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 16,
@@ -480,7 +480,7 @@
         "Table"
       ],
       "es_imagen": false,
-      "dentro_de_anexo": false,
+      "dentro_de_anexo": true,
       "tabla_degradada": true
     }
   ]

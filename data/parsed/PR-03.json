@@ -1,5 +1,5 @@
 {
-  "doc_id": "c9e820b392774e5fab20933e3fecd4af",
+  "doc_id": "d4582c7dab864aaaab1b3c56447235e2",
   "nombre_fichero": "PR-03.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,10 +13,10 @@
     "edicion": "2",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T20:09:19+00:00",
+  "fecha_ingesta": "2026-04-20T21:27:13+00:00",
   "chunks": [
     {
-      "chunk_id": "2c4e93ac-fde5-441e-8b82-006a6a657764",
+      "chunk_id": "39863c5d-cf51-4f4d-b5d6-d26b5eb497a2",
       "texto": "Este Procedimiento tiene por objeto definir la forma de actuación en la elaboración y posterior   uso   de   los   programas   informáticos   adoptados   para   uso   oficial   de Intecsa Industrial ,   tanto   los   que   afectan   a   toda   la   empresa   como   los   más   específicos   de Divisiones, Servicios y Departamentos.\n\nEste Procedimiento forma parte del Sistema Integrado de Gestión de la Calidad y Gestión Ambiental de Calidad de Intecsa Industrial y se ha preparado teniendo en cuenta la norma ISO 9001 y 14001.",
       "nivel": "parent",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1841346d-e96d-4b0b-a2df-a20326005cba",
+      "chunk_id": "8e830778-19d8-4716-9820-a760ce24ac96",
       "texto": "El   Jefe   del   Departamento   o   Servicio   que   pide   la   elaboración   de   un   programa   es responsable de especificar la aplicación que se requiera, y a partir de esta especificación el Jefe del Servicio de Sistemas de Información decide su elaboración.\n\nLa verificación y validación del mismo se lleva a cabo coordinadamente por el Jefe del Servicio de Sistemas de Información y por el Jefe del Departamento o Servicio que pidió su elaboración.",
       "nivel": "parent",
       "parent_id": null,
@@ -46,7 +46,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d040a0f4-9e9c-4896-b900-a5f3736f5eae",
+      "chunk_id": "29688030-e5d5-4e6c-aa95-f9b8e0860470",
       "texto": "Detectada la necesidad de un programa informático para llevar a cabo un determinado trabajo, el Jefe de la División, Departamento o Servicio correspondiente, lo comunicará al Jefe  del   Servicio   de   Sistemas   de   Información,   quien,   previo   estudio,   formulará   una propuesta de elaboración y la someterá a aprobación de la Dirección.",
       "nivel": "parent",
       "parent_id": null,
@@ -61,7 +61,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a2fb17e9-2fbc-4d7c-9132-a230648876cc",
+      "chunk_id": "864fd496-9e56-4ee1-ba1d-c46fa0b8d4fd",
       "texto": "El Jefe del grupo que ha solicitado el programa designará un responsable (en adelante usuario) del desarrollo del mismo, el cual preparará las especificaciones técnicas. Estas especificaciones se acordarán con el Jefe de Servicio de Sistemas de Información, quien designará a un responsable (en adelante responsable de informática) que asegurará, de forma coordinada con el usuario, que el programa se desarrolla de acuerdo con las mismas,   ya   sea   por   el   propio   Servicio   de   Sistemas   de   Información   o   mediante subcontratación a terceros.",
       "nivel": "parent",
       "parent_id": null,
@@ -76,7 +76,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "919ffeb6-37ab-404f-882c-9da6bada8ab1",
+      "chunk_id": "c6b78e3e-211f-48a1-b61c-b9aa386f08d0",
       "texto": "A la finalización del programa, el usuario y el responsable de informática verificarán coordinadamente el programa, utilizándolo con datos adecuados para comprobar, en principio, el funcionamiento correcto de la aplicación y la coherencia de sus resultados. Una vez hecha la comprobación, informarán a sus jefes, y el Servicio de Sistemas de\n\nInformación,   en   su   caso,   comunicará   al   Jefe   de   Calidad   y   Medio   Ambiente   que   el programa está disponible para su validación.",
       "nivel": "parent",
       "parent_id": null,
@@ -91,7 +91,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4f4f5721-6ce4-4dde-9c21-26dbc3cfb676",
+      "chunk_id": "442a0d09-d577-46a6-bb96-fb9f23d9b9b7",
       "texto": "El Jefe de Calidad y Medio Ambiente, propondrá al Comité de Calidad la designación de un proyecto o prueba piloto para el uso del programa, marcando un plazo de utilización del mismo para poder considerar al programa validado para su uso o para revisar y/o mejorar lo que se precise antes de considerarlo definitivamente validado.",
       "nivel": "parent",
       "parent_id": null,
@@ -106,7 +106,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "307e7fe4-3745-47e9-bc50-a0542bfd6334",
+      "chunk_id": "c6830e35-0574-422f-a105-17653fe477d2",
       "texto": "En paralelo con el uso del programa en un trabajo piloto, el usuario preparará un manual de utilización del mismo, que se podrá editar (según la importancia del programa) como una I.T. o bien incluir en la INTRANET de Intecsa Industrial.",
       "nivel": "parent",
       "parent_id": null,
@@ -121,7 +121,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9ca9178c-5ea0-4d1f-999e-df742a44b4fc",
+      "chunk_id": "b32af3dc-ed0e-4885-908c-5006afc53655",
       "texto": "Una vez acabada satisfactoriamente la fase piloto, el Jefe de Calidad y Medio Ambiente, lo indicará al Jefe de Servicio de Sistemas de Información, quien autorizará el uso del nuevo   programa   general   de Intecsa   Industrial. Para   ello   rellenará   el   protocolo correspondiente (Anexo 1) que firmará junto con el Jefe de la División, Departamento o Servicio usuario y con el Jefe de Calidad y Medio Ambiente.\n\nEl Servicio de Sistemas de Información mantendrá el programa a la disposición de las personas autorizadas para su utilización y lo dará de alta en la Lista de programas en uso.\n\nPara   cada   programa   se   realizará   una   ficha   técnica   (Anexo   2),   describiendo   las características del mismo, el responsable de su utilización y la documentación existente.\n\nTodos los programas que estaban en uso normal el 31.12.1999 se consideran validados. Sus fichas técnicas se adaptarán al modelo incluido en el Anexo 2, y se incluirá en el registro un único protocolo en el que se listará la denominación oficial de todos ellos.",
       "nivel": "parent",
       "parent_id": null,
@@ -136,10 +136,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "df5da941-0ba4-4a9e-abb3-b74e16d16419",
+      "chunk_id": "1366c5ec-7c46-46b8-b91f-5c3c419b438d",
       "texto": "Una vez acabada satisfactoriamente la fase piloto, el Jefe de Calidad y Medio Ambiente, lo indicará al Jefe de Servicio de Sistemas de Información, quien autorizará el uso del nuevo   programa   general   de Intecsa   Industrial. Para   ello   rellenará   el   protocolo correspondiente (Anexo 1) que firmará junto con el Jefe de la División, Departamento o Servicio usuario y con el Jefe de Calidad y Medio Ambiente.\n\nEl Servicio de Sistemas de Información mantendrá el programa a la disposición de las personas autorizadas para su utilización y lo dará de alta en la Lista de programas en uso.\n\nPara   cada   programa   se   realizará   una   ficha   técnica   (Anexo   2),   describiendo   las características del mismo, el responsable de su utilización y la documentación existente.\n\nTodos los programas que estaban en uso normal el 31.12.1999 se consideran validados.",
       "nivel": "child",
-      "parent_id": "9ca9178c-5ea0-4d1f-999e-df742a44b4fc",
+      "parent_id": "b32af3dc-ed0e-4885-908c-5006afc53655",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "3.6. Utilización como programa general",
@@ -151,10 +151,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d143a555-379e-4dd0-ac34-8496d0f41236",
+      "chunk_id": "480c59c7-cdb2-4fb1-ba75-df85d75cdeb5",
       "texto": "Sus fichas técnicas se adaptarán al modelo incluido en el Anexo 2, y se incluirá en el registro un único protocolo en el que se listará la denominación oficial de todos ellos.",
       "nivel": "child",
-      "parent_id": "9ca9178c-5ea0-4d1f-999e-df742a44b4fc",
+      "parent_id": "b32af3dc-ed0e-4885-908c-5006afc53655",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "3.6. Utilización como programa general",
@@ -166,7 +166,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "62eab5d0-204a-4c58-bbee-96aaf9043d04",
+      "chunk_id": "19523c40-388d-4139-a03b-3830aecf1f94",
       "texto": "El Servicio de Sistemas de Información llevará en un registro los protocolos indicados en el apartado 3.6, con sus revisiones cuando proceda.",
       "nivel": "parent",
       "parent_id": null,
@@ -181,7 +181,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5ef77c49-c237-44de-898b-0ec859a429e8",
+      "chunk_id": "33c50ae7-465f-4c2b-b0ad-30ee9d272290",
       "texto": "MI-107 Protocolo de Autorización de uso de un programa",
       "nivel": "parent",
       "parent_id": null,
@@ -196,7 +196,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "505c75cb-8e60-4538-b6f7-3e723119fbc2",
+      "chunk_id": "e71f1edd-ba89-4fd6-b2c4-92b96648a159",
       "texto": "(se adjunta ejemplo)",
       "nivel": "parent",
       "parent_id": null,
@@ -211,8 +211,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4eaa06e5240544d49d7261c1553202bc",
-      "texto": "| **DATOS TECNICOS**          |                                |\n|-----------------------------|--------------------------------|\n| **Autores**                 | Francisco Machín               |\n| **Requisitos**              | WINDOWS                        |\n|                             | PENTIUM 32 Mb o Superior       |\n|                             | Ratón                          |\n| **Lenguaje**                | Foxpro, DOS                    |\n| **Archivos**                | xBase (en red)                 |\n| **Programas relacionados**  | Sistema de Ingeniería          |\n|                             | CTRLCOST                       |\n|                             | ALMACEN                        |\n|                             | CONSTRUC                       |\n|                             | EMBARQUES                      |\n|                             | PAGOS                          |\n| **Interfase Usuario**       | INTECSA INDUSTRIAL             |",
+      "chunk_id": "89120e627d254f7d8f54e8ec9067a144",
+      "texto": "| Anexo II | COMPRAS |                                                 |\n|----------|---------|-------------------------------------------------|\n| Programa:| SISTEMA INTEGRADO DE GESTIÓN DE COMPRAS | Fecha: Junio 2007 |\n\n| AREA:    | Compras y Subcontratos    |                                       |\n|----------|---------------------------|---------------------------------------|\n| Descripción | Da soporte informático a toda la actividad de Compras, desde la petición de ofertas hasta el control de recepción del material en obra. Las funciones principales que resuelve son: |                                       |\n|      | - Gestión de proveedores homologados. Asignación de Proveedores a un proyecto. |                                       |\n|      | - Incorporación automática de los ITEMS a comprar desde las bases de datos de Ingeniería. Gestión de RM's y variaciones en los items (cantidades). |                                       |\n|      | - Petición de ofertas (en disquete) y comparación. Gestión del estado de las ofertas. |                                       |\n|      | - Fax de intención. Pedidos y suplementos. Gestión del estado de los pedidos. |                                       |\n|      | - Previsión de pagos. |                                       |\n|      | - Control de facturas de proveedor. |                                       |\n|      | - Control de documentos de proveedor. Indice del Libro Fin de Proyecto. |                                       |\n|      | - Activación e inspección. |                                       |\n|      | - Seguimiento del estado de compras. |                                       |\n|      | - Cálculo del avance de la actividad de compras. |                                       |\n|      | - Proporcionar el coste comprometido al sistema de COSTES. |                                       |\n|      | - Comunicar al almacén de obra los materiales a recibir y fecha prevista de entrega. |                                       |\n|      | - Recepción del almacén de obra de los materiales ya recibidos. |                                       |\n|      | - Valoración de presupuestos a partir de la base histórica de precios (Mat. Tuberías). |                                       |\n\n| Las características principales son |                                      |                                          |\n|-------------------------------------|--------------------------------------|------------------------------------------|\n| - Incorporación automática de datos (RM's de Ingeniería, precios y fechas de entrega de proveedores). | |                                          |\n| - Seguimiento de los cambios en los ITEMS a comprar. |                 |                                          |\n| - Integración total con los sistemas de COSTES, ALMACEN, ANALISIS DE CONSTRUCTIBILIDAD y EMBARQUES. | |                                          |\n| - Multimoneda. Permite informes en cada moneda y la agregación en la moneda de proyecto. | |                                          |\n\n| Informes: | Todos los necesarios para soportar las funciones mencionadas. |                                       |\n|-----------|---------------------------------------------------------------|---------------------------------------|\n| Se pueden obtener en castellano, inglés y francés. |                       |                                       |\n\n| Datos     | Los de ITEMS a comprar se incorporan de las bases de datos de ingeniería (automáticamente) y los precios |                                       |\n|           | de los ofertantes y fechas de entrega (automáticamente desde disquete). Llegada de materiales a obra (automáticamente desde el programa Almacén) Resto de datos (manualmente) | |\n| PREVISTO: | - Datos de documentos de proveedor (automático en disquete). |                                       |\n\n| Periodicidad | Es un sistema on line que está permanentemente actualizado. | Algunos informes (previsiones de pago, etc) son de ciclo mensual. |\n|--------------|-------------------------------------------------------------|-----------------------------------------| \n| Potenciales Usuarios | Jefes de proyecto (a partir de los informes producidos por Compras). |                   |\n| Autorizan el uso   | El servicio de Compras y Subcontratos. |                   |\n\n| Manual de uso y formación | Lo proporciona el servicio de Compras y Subcontratos. |                                      |\n|-------------------------|--------------------------------------------------------|--------------------------------------|\n\n| Responsable Informático | Francisco Machín | DATOS TECNICOS                         |\n|-------------------------|------------------|----------------------------------------|\n| Autores                 | Francisco Machín | Requisitos                             |\n|-------------------------|------------------|----------------------------------------|\n| Lenguaje                | Foxpro, DOS      | WINDOWS PENTIUM 32 Mb o Superior Ratón |\n\n| Archivos   | xBase (en red) |                                          |\n|------------|----------------|------------------------------------------|\n| Programas relacionados |    |                                          |\n| SISTEMAS DE INGENIERÍA     CTRLCC         | |                            |\n\n| INTERFASE USUARIO | INTECSA INDUSTRIAL |                                |\n|-------------------|--------------------|--------------------------------|\n\n\n| **AUTORIZADO SU USO** |                    |                               |\n|-----------------------|--------------------|-------------------------------|\n| POR:                  | **FECHA:**         |                               |\n|                       |                    |                               |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 6,

@@ -1,5 +1,5 @@
 {
-  "doc_id": "e580461637d848b9acd9c24bedf83c39",
+  "doc_id": "95ee6c3ddf9b461ba901d6cc9332058a",
   "nombre_fichero": "14090-IT-03.pdf",
   "metadatos_admin": {
     "empresa": "interquisa",
@@ -13,10 +13,10 @@
     "edicion": "2",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T20:38:12+00:00",
+  "fecha_ingesta": "2026-04-20T21:58:17+00:00",
   "chunks": [
     {
-      "chunk_id": "d488489a-8cf1-4e46-b897-d855fbd385d6",
+      "chunk_id": "6e6118bc-8e29-4c51-9d15-0c1aac00a392",
       "texto": "Este   documento   tiene   por   objeto   describir   el   procedimiento   de   recepción   y   envío   de documentos de fabricante para el proyecto de INTERQUISA.",
       "nivel": "parent",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "97c4ad31-d672-4133-9812-fd9def1ac42a",
+      "chunk_id": "f1f55456-a2af-4e88-b5f5-a33e0a180d6c",
       "texto": " Que los especialistas no se encarguen de realizar, ni gestionar, copias.\n\n Que los documentos de fabricantes estén accesibles a todo el proyecto.\n\n Que los comentarios de todas las especialidades estén accesibles.\n\n Reducción de los costes de manejo y envío de comentarios",
       "nivel": "parent",
       "parent_id": null,
@@ -46,7 +46,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c84b0844-d9f7-4185-909f-c5230fefad91",
+      "chunk_id": "b72d7eac-0cb0-43f3-9e1d-6ba555b78e91",
       "texto": "Los documentos son recibidos por el EDF (Encargado de Documentos de Fabricante) que registra la llegada en el programa de Documentos de fabricante.\n\nEl EDF distribuye copias del documento al ERC (Especialista Responsable de Cuenta), a los especialistas a los que pueda afectar y a INTERQUISA según cuadro de distribución del proyecto.\n\nEl ERC, una vez recibidos los comentarios de las otras especialidades y de INTERQUISA, recopila todos ellos en una única copia master. (IMPORTANTE: los comentarios sobre la copia master se realizarán en ROJO e indicando con una nube su situación donde están los comentarios para su mejor visualización)\n\nEl ERC envía esta única copia al EDF.\n\nEl EDF escanea y realiza las copias necesarias (1 copia para inspección y 1 copia para el suministrador que lo necesite) de los documentos comentados, tras lo cual:\n\n Enviará los documentos por correo electrónico al fabricante registrando su salida en el programa de control de documentos de fabricante. Dicho correo electrónico irá con copia al   ERC   y   al   responsable   de   inspección,   con   objeto   de   informar   del   envío   de   los documentos comentados al suministrador, así como de su inminente inclusión en el portal. (IMPORTANTE: los e-mail en principio no deberán ocupar más de 300 kb para no saturar los servidores de correo de los suministradores).\n\n Incluirá en el portal el documento escaneado (ver anexo). De este modo, todos los documentos de fabricante quedarán en el portal para su consulta por parte del proyecto. El   ERC   avisará   mediante   tareas   al   Ingeniero   de   proyecto,   al   ERC   y   aquellas especialidades implicadas .\n\n Devuelve la copia master al ERC.",
       "nivel": "parent",
       "parent_id": null,
@@ -62,10 +62,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8ee0915f-e1c4-4480-8bd4-24b70e37c491",
+      "chunk_id": "0e4d0f13-525b-4675-a9a7-60494068f8b2",
       "texto": "Los documentos son recibidos por el EDF (Encargado de Documentos de Fabricante) que registra la llegada en el programa de Documentos de fabricante.\n\nEl EDF distribuye copias del documento al ERC (Especialista Responsable de Cuenta), a los especialistas a los que pueda afectar y a INTERQUISA según cuadro de distribución del proyecto.\n\nEl ERC, una vez recibidos los comentarios de las otras especialidades y de INTERQUISA, recopila todos ellos en una única copia master. (IMPORTANTE: los comentarios sobre la copia master se realizarán en ROJO e indicando con una nube su situación donde están los comentarios para su mejor visualización)\n\nEl ERC envía esta única copia al EDF.\n\nEl EDF escanea y realiza las copias necesarias (1 copia para inspección y 1 copia para el suministrador que lo necesite) de los documentos comentados, tras lo cual:\n\n Enviará los documentos por correo electrónico al fabricante registrando su salida en el programa de control de documentos de fabricante.",
       "nivel": "child",
-      "parent_id": "c84b0844-d9f7-4185-909f-c5230fefad91",
+      "parent_id": "b72d7eac-0cb0-43f3-9e1d-6ba555b78e91",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "2. INSTRUCCIONES",
@@ -78,10 +78,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e4685640-67cd-421e-9ddf-3eaeb677b345",
+      "chunk_id": "3d6c04fb-c65a-41cb-9694-e90f4b1124bd",
       "texto": "Dicho correo electrónico irá con copia al   ERC   y   al   responsable   de   inspección,   con   objeto   de   informar   del   envío   de   los documentos comentados al suministrador, así como de su inminente inclusión en el portal. (IMPORTANTE: los e-mail en principio no deberán ocupar más de 300 kb para no saturar los servidores de correo de los suministradores).\n\n Incluirá en el portal el documento escaneado (ver anexo). De este modo, todos los documentos de fabricante quedarán en el portal para su consulta por parte del proyecto. El   ERC   avisará   mediante   tareas   al   Ingeniero   de   proyecto,   al   ERC   y   aquellas especialidades implicadas .\n\n Devuelve la copia master al ERC.",
       "nivel": "child",
-      "parent_id": "c84b0844-d9f7-4185-909f-c5230fefad91",
+      "parent_id": "b72d7eac-0cb0-43f3-9e1d-6ba555b78e91",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "2. INSTRUCCIONES",
@@ -94,7 +94,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "123b60d3-2803-4125-b678-64a0079ed3e2",
+      "chunk_id": "3b74e050-50c0-4b04-9c09-4430af5c03b5",
       "texto": "Los documentos de fabricante estarán ubicados en el área de compras, ordenados por pedidos.\n\nEn cada carpeta de pedido se encuentra:\n\n-Pedidos y sus suplementos\n\n-Informes de inspección y fotografías de inspección\n\n-Planos y documentos de fabricantes",
       "nivel": "parent",
       "parent_id": null,
@@ -110,8 +110,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "37af1d33-3a06-465a-b20f-b1d19d2bb5df",
-      "texto": "Nota: El tipo documental es IUI_documento_Proyecto y la clase \"Documento de fabricante\". No confundir con el tipo documental IUI_documento_Fabricante que no es de uso en el proyecto.\n\n[Descripción visual: La imagen es una captura de pantalla de un sistema informático de gestión de documentos técnicos. Contiene configuraciones y parámetros específicos relacionados con un documento.\n\n**Nombre del sistema:** No especificado\n\n**Configuraciones visibles:**\n\n- **Documento:** V-34093-D-03-019\n- **Título:** LISTA DE MATERIALES (A)\n- **Edición:** 02\n- **Fecha:** 26/03/2001 (campo de fecha)\n- **Autores:** IDESA (campo de texto)\n- **OT (Orden de trabajo):** INTERQUISA-TA3 (campo de texto)\n- **Departamento:** Mecánica (menú desplegable)\n- **Clase:** Documento de Fabricante (menú desplegable)\n- **Actividad:** 32 - EQUIPOS ESTATICOS (menú desplegable)\n- **Idioma:** Español (menú desplegable)\n- **Descripción:** (campo de texto)\n- **Palabras clave:** (campo de texto)\n\n**Opciones de configuración:**\n\n- Botones para \"Guardar cambios\" y \"Deshacer cambios\".\n\n**Datos adicionales:**\n\n- **Formato del documento:** Acrobat PDF\n- **Versión:** 1.0, CURRENT\n- **Ciclo de vida del documento:** Ninguno\n- **Estado:** Ninguno\n- **Tamaño:** 108001 bytes\n- **Tipo:** IUI - Documento de Proyecto\n\n**Propiedad y permisos:**\n\n- ACL_Interquisa_Lectura.]\n\nFecha de devolución de ese plano al fabricante (En su edición final aparecerá el del plano)",
+      "chunk_id": "9839cf1a-4a00-4578-9614-792735dfc144",
+      "texto": "Nota: El tipo documental es IUI_documento_Proyecto y la clase \"Documento de fabricante\". No confundir con el tipo documental IUI_documento_Fabricante que no es de uso en el proyecto.\n\n[Descripción visual: #### Plantilla de Documento\n\n**Nombre de la plantilla:** Propiedades del Documento\n\n**Campos y tipo de dato esperado:**\n\n- **Documento:** Texto libre\n- **Título:** Texto libre\n- **Edición:** Texto libre\n- **Fecha:** Fecha\n- **Autores:** Texto libre (separar ítems con comas)\n- **OT (Orden de Trabajo):** Texto libre\n- **Departamento:** Selección (lista desplegable)\n- **Clase:** Selección (lista desplegable)\n- **Actividad:** Selección (lista desplegable)\n- **Idioma:** Selección (lista desplegable)\n- **Descripción:** Texto libre\n- **Palabras clave:** Texto libre (separar ítems con comas)\n\n**Contexto y propósito:**\n\nEl formulario sirve para registrar y gestionar propiedades de documentos de proyecto dentro de un sistema RAG corporativo, en un entorno de ingeniería industrial.\n\nTiene secciones para especificar detalles del documento como el título, autores, y características del mismo (ej: idioma, clase). Incluye opciones para seleccionar elementos predefinidos como el departamento, clase y actividad.\n\n**Notas adicionales:**\n\n- Se menciona un formato especificado: \"Acrobat PDF\".\n- Estado, tipo y tamaño del documento aparecen especificados en la parte inferior.\n- Hay referencias a ACL (Control de Acceso) y permisos (ej: \"ACL_Interquisa_Lectura\").]\n\nFecha de devolución de ese plano al fabricante (En su edición final aparecerá el del plano)",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 3,
@@ -125,10 +125,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f15ec353-8c93-4a6b-a745-1b63597dbfa5",
-      "texto": "Nota: El tipo documental es IUI_documento_Proyecto y la clase \"Documento de fabricante\". No confundir con el tipo documental IUI_documento_Fabricante que no es de uso en el proyecto.\n\n[Descripción visual: La imagen es una captura de pantalla de un sistema informático de gestión de documentos técnicos. Contiene configuraciones y parámetros específicos relacionados con un documento.",
+      "chunk_id": "44b74895-608d-40f8-a16e-8a123d2192a6",
+      "texto": "Nota: El tipo documental es IUI_documento_Proyecto y la clase \"Documento de fabricante\". No confundir con el tipo documental IUI_documento_Fabricante que no es de uso en el proyecto.",
       "nivel": "child",
-      "parent_id": "37af1d33-3a06-465a-b20f-b1d19d2bb5df",
+      "parent_id": "9839cf1a-4a00-4578-9614-792735dfc144",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "ANEXO. PROPIEDADES  DE LOS DOCUMENTOS DE FABRICANTE",
@@ -140,10 +140,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9b872dbd-054f-46fa-9453-ac7f2f051fef",
-      "texto": "Contiene configuraciones y parámetros específicos relacionados con un documento.\n\n**Nombre del sistema:** No especificado\n\n**Configuraciones visibles:**\n\n- **Documento:** V-34093-D-03-019\n- **Título:** LISTA DE MATERIALES (A)\n- **Edición:** 02\n- **Fecha:** 26/03/2001 (campo de fecha)\n- **Autores:** IDESA (campo de texto)\n- **OT (Orden de trabajo):** INTERQUISA-TA3 (campo de texto)\n- **Departamento:** Mecánica (menú desplegable)\n- **Clase:** Documento de Fabricante (menú desplegable)\n- **Actividad:** 32 - EQUIPOS ESTATICOS (menú desplegable)\n- **Idioma:** Español (menú desplegable)\n- **Descripción:** (campo de texto)\n- **Palabras clave:** (campo de texto)\n\n**Opciones de configuración:**\n\n- Botones para \"Guardar cambios\" y \"Deshacer cambios\".",
+      "chunk_id": "df1d1070-1933-4276-9d1d-42d67ada900f",
+      "texto": "[Descripción visual: #### Plantilla de Documento\n\n**Nombre de la plantilla:** Propiedades del Documento\n\n**Campos y tipo de dato esperado:**\n\n- **Documento:** Texto libre\n- **Título:** Texto libre\n- **Edición:** Texto libre\n- **Fecha:** Fecha\n- **Autores:** Texto libre (separar ítems con comas)\n- **OT (Orden de Trabajo):** Texto libre\n- **Departamento:** Selección (lista desplegable)\n- **Clase:** Selección (lista desplegable)\n- **Actividad:** Selección (lista desplegable)\n- **Idioma:** Selección (lista desplegable)\n- **Descripción:** Texto libre\n- **Palabras clave:** Texto libre (separar ítems con comas)\n\n**Contexto y propósito:**\n\nEl formulario sirve para registrar y gestionar propiedades de documentos de proyecto dentro de un sistema RAG corporativo, en un entorno de ingeniería industrial.\n\nTiene secciones para especificar detalles del documento como el título, autores, y características del mismo (ej: idioma, clase).",
       "nivel": "child",
-      "parent_id": "37af1d33-3a06-465a-b20f-b1d19d2bb5df",
+      "parent_id": "9839cf1a-4a00-4578-9614-792735dfc144",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "ANEXO. PROPIEDADES  DE LOS DOCUMENTOS DE FABRICANTE",
@@ -155,10 +155,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a1cef1d1-14c6-4cd9-ac38-9009ced6af1a",
-      "texto": "**Datos adicionales:**\n\n- **Formato del documento:** Acrobat PDF\n- **Versión:** 1.0, CURRENT\n- **Ciclo de vida del documento:** Ninguno\n- **Estado:** Ninguno\n- **Tamaño:** 108001 bytes\n- **Tipo:** IUI - Documento de Proyecto\n\n**Propiedad y permisos:**\n\n- ACL_Interquisa_Lectura.]\n\nFecha de devolución de ese plano al fabricante (En su edición final aparecerá el del plano)",
+      "chunk_id": "b91d0410-27ff-4848-ad39-a303ee9713af",
+      "texto": "Incluye opciones para seleccionar elementos predefinidos como el departamento, clase y actividad.\n\n**Notas adicionales:**\n\n- Se menciona un formato especificado: \"Acrobat PDF\".\n- Estado, tipo y tamaño del documento aparecen especificados en la parte inferior.\n- Hay referencias a ACL (Control de Acceso) y permisos (ej: \"ACL_Interquisa_Lectura\").]\n\nFecha de devolución de ese plano al fabricante (En su edición final aparecerá el del plano)",
       "nivel": "child",
-      "parent_id": "37af1d33-3a06-465a-b20f-b1d19d2bb5df",
+      "parent_id": "9839cf1a-4a00-4578-9614-792735dfc144",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "ANEXO. PROPIEDADES  DE LOS DOCUMENTOS DE FABRICANTE",

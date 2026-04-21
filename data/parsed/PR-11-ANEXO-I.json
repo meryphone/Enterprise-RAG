@@ -1,5 +1,5 @@
 {
-  "doc_id": "406e293dd9d4425780281a88223bab34",
+  "doc_id": "b2929bef90cb4147b52a02230175e7cf",
   "nombre_fichero": "PR-11-ANEXO-I.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,10 +13,10 @@
     "edicion": "3",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T20:22:14+00:00",
+  "fecha_ingesta": "2026-04-20T21:37:51+00:00",
   "chunks": [
     {
-      "chunk_id": "11a95a57-a86f-4faf-a7c0-f945b7551a06",
+      "chunk_id": "bded712b-3215-4f10-9b9c-45c27fd0a22b",
       "texto": "Este Plan tiene por objeto marcar las líneas a seguir por Intecsa Industrial en el Proyecto de referencia con el fin de asegurar la debida coordinación y el cumplimiento, en   lo   que   es   aplicable,   de   su   Sistema   Integrado   de   Gestión   de   la   Calidad   y Medioambiental.",
       "nivel": "parent",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "713b9b46-c51d-41c9-a11b-371d1229269d",
+      "chunk_id": "99f7dda1-5c47-4ae3-83e5-929224cc5bf9",
       "texto": "(Descripción somera)",
       "nivel": "parent",
       "parent_id": null,
@@ -46,7 +46,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2b675236-c9b0-4958-ad38-df93bffc56c9",
+      "chunk_id": "b6110ac8-6d87-48cc-a474-33ccaf4a843e",
       "texto": "Nombre del Cliente: Jefe de Proyecto de Intecsa Industrial: Información recibida del Cliente:",
       "nivel": "parent",
       "parent_id": null,
@@ -61,7 +61,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "61b71848-52f8-426b-9261-70b56d4fcac2",
+      "chunk_id": "b7fb8f01-85c0-490b-bc54-be228ca7fea6",
       "texto": "(Descripción somera)",
       "nivel": "parent",
       "parent_id": null,
@@ -76,7 +76,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3c3e2d82-3cba-4132-9a83-2cff360c77a6",
+      "chunk_id": "47fc1ce2-0079-42bb-859a-6a634d872e7f",
       "texto": "Todas las comunicaciones se mantendrán a través del Jefe del Proyecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -91,7 +91,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "aa16115c-4a23-43ca-aa8e-bcef2fdd3bc7",
+      "chunk_id": "bf6ad84c-de4b-47c5-a27c-912331fc8c2e",
       "texto": "La identificación de documentos se hará según el Procedimiento de Intecsa Industrial . El sello de los planos es el que se acompaña como Anexo.",
       "nivel": "parent",
       "parent_id": null,
@@ -106,7 +106,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ecf1d78c-9b08-4d16-95f7-79d63d4e4a47",
+      "chunk_id": "4deecbe9-766d-4766-b11b-74d6250395a2",
       "texto": "Todos los documentos serán verificados según el Procedimiento y las Instrucciones de Trabajo de los Departamentos.",
       "nivel": "parent",
       "parent_id": null,
@@ -121,7 +121,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bc001192-7645-4b01-b0c5-aeadf1dea550",
+      "chunk_id": "2219ea7f-eefb-44b2-9002-923b4bbcaf1e",
       "texto": "Para la gestión de los Cambios se seguirá el correspondiente Procedimiento de Intecsa Industrial .",
       "nivel": "parent",
       "parent_id": null,
@@ -136,7 +136,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "256d6cd7-792a-4e77-93aa-60fed9e1d696",
+      "chunk_id": "aa445df1-2d4d-4d2f-8b6e-10ca7df26382",
       "texto": "Están previstas las siguientes fechas para las entregas de lo que se indica: (Documentos y fechas)",
       "nivel": "parent",
       "parent_id": null,
@@ -151,7 +151,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "19a3a9d9-9ce2-4701-9e7d-443c4e55c5bb",
+      "chunk_id": "da06f4d9-5afa-4886-8999-f63b393e09ea",
       "texto": "En general se utilizarán todos los demás Procedimientos e Instrucciones de Trabajo aplicables de Intecsa Industrial .",
       "nivel": "parent",
       "parent_id": null,
@@ -166,7 +166,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "92d05979-39d7-4ca8-a6df-c5100089ae5f",
+      "chunk_id": "dccdf5c7-4147-4060-bde4-ff8d2cbdcbb9",
       "texto": "ANEXO. Sellos de los planos",
       "nivel": "parent",
       "parent_id": null,
@@ -181,7 +181,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5d24a0f3-9476-46d7-be5e-9a986da1a963",
+      "chunk_id": "e739d8aa-83c3-4b86-bb54-64c87a3e7594",
       "texto": "(Sólo si se precisa)\n\n(En ocasiones convendrá fijar un índice de la documentación a producir, formatos, instrucciones de mecanografía y dibujo, niveles de desarrollo, etc)",
       "nivel": "parent",
       "parent_id": null,

@@ -1,5 +1,5 @@
 {
-  "doc_id": "c9d45c2ad0e846e2a2fdbaf24da296f2",
+  "doc_id": "6276936e1d6f44bbb9f676d4221bced0",
   "nombre_fichero": "PR-10.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,10 +13,10 @@
     "edicion": null,
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-17T20:21:34+00:00",
+  "fecha_ingesta": "2026-04-20T21:37:04+00:00",
   "chunks": [
     {
-      "chunk_id": "250a2f4d-035d-4d60-bac5-47ad8b68a922",
+      "chunk_id": "2554ef13-096f-4691-8027-e136dcbd6721",
       "texto": "4.1. Apertura de encargos\n\n4.2. Cierre de encargos\n\n4.3. Control de gestión de ingeniería de un encargo\n\n4.4. Facturación y cobro\n\n4.5. Cambios en el Proyecto\n\n4.7. Encuestas al Cliente\n\n4.8. Visado de proyectos\n\nHoja \"Orden de Trabajo\" (MI-83)\n\nHoja \"Orden de Facturación\"  (MI90)",
       "nivel": "parent",
       "parent_id": null,
@@ -32,7 +32,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "481cf759ee0b4639bf214c196811b183",
+      "chunk_id": "21909aa0879d4f8386e6966fd0654842",
       "texto": "| RLL      | APL    | 9       | Jun 07    | REVISADO POR CAMBIO DE RAZON SOCIAL                      |\n|----------|--------|---------|-----------|----------------------------------------------------------|\n| H.G.K.R. | J.G.C. | 8       | Sept. 02  | REVISADO LO MARCADO *                                    |\n| H.G.K.R  | J.G.C. | 7       | Enero 02  | INTEGRADO EN EL SG MEDIOAMBIENTAL(Revisado lo marcado *) |\n| A.K.     | A.I.   | 6       | Agost. 97 | REVISADO LO MARCADO *                                    |\n| A.K.     | E.L.   | 5       | Nov. 95   | CAMBIO EN LAS HOJAS 7 Y 14                               |\n| A.K.     | E.L.   | 4       | Febr. 95  | CAMBIOS VARIOS                                           |\n| A.K.     | E.L.   | 3       | Abril 94  | CAMBIO DE IDENTIFICACION                                 |\n| A.K.     | E.L.   | 2       | Abril 93  | REVISION GENERAL                                         |\n| A.K..    | J.R.B. | 1       | Marzo 92  | EMISION COMO PR-110                                      |\n| APROB.   | VERIF. | EDICION | FECHA     | DESCRIPCION DE LA EDICION                                |",
       "nivel": "child",
       "parent_id": null,
@@ -47,7 +47,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9d1cd7da-e3e3-46b3-bd99-e072b49c1531",
+      "chunk_id": "235124b6-9daf-4e83-ad77-f7408a3e332b",
       "texto": "Este Procedimiento tiene por objeto fijar las líneas fundamentales de la actuación de los Jefes de Proyecto en los contratos. Alcanza a todos los Proyectos, sea cual sea su tamaño, forma parte del Sistema Integrado de Gestión de Calidad y Medioambiental de Intecsa Industrial y ha sido redactado de acuerdo con las normas ISO 9001 y 14001.",
       "nivel": "parent",
       "parent_id": null,
@@ -62,7 +62,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "31c76b12-8883-43b0-899f-8587249654ff",
+      "chunk_id": "6f55078b-78ff-4320-adf0-751e85b501ef",
       "texto": "2.1. Cada vez que se obtenga un encargo, la Dirección General, a propuesta del Director de la División de Operaciones, nombrará a un Jefe del Proyecto.\n\nEn la medida de lo posible se procurará que este nombramiento se haga antes de la elaboración   del   Contrato   con   el   Cliente,   con   el   fin   de   que   pueda   participar   en   su preparación.\n\n2.2. A partir de su nombramiento el Jefe del Proyecto, como responsable del conjunto del trabajo que se realiza con destino a su Proyecto, responde directamente de su gestión ante el Director de su División y la Dirección General.\n\nSu misión fundamental será la de dirigir el encargo de forma tal que, cumpliendo los requisitos del Contrato y sus suplementos, a la aceptación final del trabajo por el Cliente, el balance entre los costes imputados y las remuneraciones obtenidas garanticen, como mínimo, los márgenes porcentuales establecidos y aprobados en la hoja de valoración de Oferta (Hoja roja), (con las modificaciones introducidas en la negociación, si las hubiera), o en su caso en el Acta de inicio de control de gestión, establecida como se indica en el PR-77 .\n\nEl Jefe del Proyecto como consecuencia de su responsabilidad en el resultado del mismo, es quien toma y/o en cualquier caso aprueba las decisiones que dentro de su campo de atribuciones puedan afectar a la ejecución de su Proyecto, proponiendo aquellas decisiones o medidas que a su juicio deban ser tomadas a los niveles superiores antes citados.\n\n2.3. Entre las principales funciones del Jefe del Proyecto, figuran las siguientes:\n\n-Elaborar el correspondiente Contrato con el Cliente (si no lo estuviera con anterioridad) y someterlo a la revisión de la Asesoría Jurídica, tras cuya conformidad lo presentará a la firma de los representantes de Intecsa Industrial y el Cliente. Gestionará también los sucesivos suplementos al citado Contrato que sean necesarios y enviará todos los originales al Servicio de Control de Gestión para su custodia.\n\n-Constituir con el Director de su División y el Jefe del Servicio de Planificación y Control de Proyectos el Grupo de Proyecto que eventualmente resulte necesario, en función de las actividades o procesos a desarrollar coordinadamente para la realización del\n\nContrato   (Ingenieros   de   Proyecto,   responsables   de   Planificación,   Estimación, Administración de documentos, etc.)\n\n-Aprobar, a propuesta de los Jefes de los Departamentos técnicos, de Compras y de Construcción, el nombramiento de los Especialistas del Equipo básico del Proyecto, asignando funciones y determinando los medios para realizarlas.\n\n-Acordar con el Promotor, un Coordinador en materia de seguridad y salud durante la elaboración del proyecto, y en su caso un Coordinador en materia de seguridad y salud durante la ejecución de la construcción .\n\n-Confeccionar el Plan de Calidad y Medio Ambiente del Proyecto, ajustados a sus características específicas.\n\n-Establecer las normas para preparar, convocar, mantener y documentar (Actas) las reuniones que sean necesarias tanto con el Cliente, los Proveedores y Subcontratistas como con el Equipo del Proyecto (al menos una mensual).\n\n-Obtener, preparar y distribuir la documentación básica del trabajo y fijar los criterios fundamentales para su desarrollo\n\n-Aprobar, para su difusión, toda la documentación producida.\n\n-Definir, planificar y coordinar las actividades y procesos a realizar para la ejecución del encargo.\n\n-Controlar las horas y los costes derivados de la ejecución del encargo.\n\n-Establecer y vigilar   la   correcta   y   pronta   distribución   de   la   información   relativa   al encargo, de forma que se agilice el trabajo y se eviten repeticiones y demoras.\n\n-Establecer y llevar, o regular, las relaciones de las personas y Servicios de Intecsa Industrial con el Cliente, con las Empresas asociadas y con los Proveedores, en todo lo referente al encargo. En lo relativo a reclamaciones de clientes y comunicaciones externas, seguirá en su caso lo indicado en el PR-75 Reclamaciones de Clientes y comunicaciones externas.",
       "nivel": "parent",
       "parent_id": null,
@@ -78,10 +78,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6c27d784-7a2f-41d8-896f-4b85b65d696a",
+      "chunk_id": "139b21f2-07ee-42ae-af75-93368e9f4e2f",
       "texto": "2.1. Cada vez que se obtenga un encargo, la Dirección General, a propuesta del Director de la División de Operaciones, nombrará a un Jefe del Proyecto.\n\nEn la medida de lo posible se procurará que este nombramiento se haga antes de la elaboración   del   Contrato   con   el   Cliente,   con   el   fin   de   que   pueda   participar   en   su preparación.\n\n2.2. A partir de su nombramiento el Jefe del Proyecto, como responsable del conjunto del trabajo que se realiza con destino a su Proyecto, responde directamente de su gestión ante el Director de su División y la Dirección General.",
       "nivel": "child",
-      "parent_id": "31c76b12-8883-43b0-899f-8587249654ff",
+      "parent_id": "6f55078b-78ff-4320-adf0-751e85b501ef",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -94,10 +94,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "55180e49-c52b-4d53-9005-f4650f581379",
+      "chunk_id": "1f28d282-7c2c-414e-8501-cc4f45e55c6f",
       "texto": "Su misión fundamental será la de dirigir el encargo de forma tal que, cumpliendo los requisitos del Contrato y sus suplementos, a la aceptación final del trabajo por el Cliente, el balance entre los costes imputados y las remuneraciones obtenidas garanticen, como mínimo, los márgenes porcentuales establecidos y aprobados en la hoja de valoración de Oferta (Hoja roja), (con las modificaciones introducidas en la negociación, si las hubiera), o en su caso en el Acta de inicio de control de gestión, establecida como se indica en el PR-77 .\n\nEl Jefe del Proyecto como consecuencia de su responsabilidad en el resultado del mismo, es quien toma y/o en cualquier caso aprueba las decisiones que dentro de su campo de atribuciones puedan afectar a la ejecución de su Proyecto, proponiendo aquellas decisiones o medidas que a su juicio deban ser tomadas a los niveles superiores antes citados.\n\n2.3.",
       "nivel": "child",
-      "parent_id": "31c76b12-8883-43b0-899f-8587249654ff",
+      "parent_id": "6f55078b-78ff-4320-adf0-751e85b501ef",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -110,10 +110,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7363a3a9-1f57-4afb-b6db-0a237c961c3c",
+      "chunk_id": "813e1ab7-1c48-41d8-9b66-a9e370884ca0",
       "texto": "2.3. Entre las principales funciones del Jefe del Proyecto, figuran las siguientes:\n\n-Elaborar el correspondiente Contrato con el Cliente (si no lo estuviera con anterioridad) y someterlo a la revisión de la Asesoría Jurídica, tras cuya conformidad lo presentará a la firma de los representantes de Intecsa Industrial y el Cliente. Gestionará también los sucesivos suplementos al citado Contrato que sean necesarios y enviará todos los originales al Servicio de Control de Gestión para su custodia.\n\n-Constituir con el Director de su División y el Jefe del Servicio de Planificación y Control de Proyectos el Grupo de Proyecto que eventualmente resulte necesario, en función de las actividades o procesos a desarrollar coordinadamente para la realización del\n\nContrato   (Ingenieros   de   Proyecto,   responsables   de   Planificación,   Estimación, Administración de documentos, etc.)",
       "nivel": "child",
-      "parent_id": "31c76b12-8883-43b0-899f-8587249654ff",
+      "parent_id": "6f55078b-78ff-4320-adf0-751e85b501ef",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -126,10 +126,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8f29e071-2367-4091-b050-cf8ceb0e3acc",
+      "chunk_id": "fe8a2bdf-c11e-4c3f-bd59-869a3662563c",
       "texto": "-Aprobar, a propuesta de los Jefes de los Departamentos técnicos, de Compras y de Construcción, el nombramiento de los Especialistas del Equipo básico del Proyecto, asignando funciones y determinando los medios para realizarlas.\n\n-Acordar con el Promotor, un Coordinador en materia de seguridad y salud durante la elaboración del proyecto, y en su caso un Coordinador en materia de seguridad y salud durante la ejecución de la construcción .\n\n-Confeccionar el Plan de Calidad y Medio Ambiente del Proyecto, ajustados a sus características específicas.\n\n-Establecer las normas para preparar, convocar, mantener y documentar (Actas) las reuniones que sean necesarias tanto con el Cliente, los Proveedores y Subcontratistas como con el Equipo del Proyecto (al menos una mensual).\n\n-Obtener, preparar y distribuir la documentación básica del trabajo y fijar los criterios fundamentales para su desarrollo\n\n-Aprobar, para su difusión, toda la documentación producida.",
       "nivel": "child",
-      "parent_id": "31c76b12-8883-43b0-899f-8587249654ff",
+      "parent_id": "6f55078b-78ff-4320-adf0-751e85b501ef",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -142,10 +142,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "949199d6-ba2f-499f-a783-46671f82c802",
+      "chunk_id": "64724b94-551a-47b1-afeb-ce42cb2a0027",
       "texto": "-Definir, planificar y coordinar las actividades y procesos a realizar para la ejecución del encargo.\n\n-Controlar las horas y los costes derivados de la ejecución del encargo.\n\n-Establecer y vigilar   la   correcta   y   pronta   distribución   de   la   información   relativa   al encargo, de forma que se agilice el trabajo y se eviten repeticiones y demoras.\n\n-Establecer y llevar, o regular, las relaciones de las personas y Servicios de Intecsa Industrial con el Cliente, con las Empresas asociadas y con los Proveedores, en todo lo referente al encargo. En lo relativo a reclamaciones de clientes y comunicaciones externas, seguirá en su caso lo indicado en el PR-75 Reclamaciones de Clientes y comunicaciones externas.",
       "nivel": "child",
-      "parent_id": "31c76b12-8883-43b0-899f-8587249654ff",
+      "parent_id": "6f55078b-78ff-4320-adf0-751e85b501ef",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -158,7 +158,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "cceba51a-4e8a-42e1-b9e5-bf6834ab5322",
+      "chunk_id": "bc933634-a7c0-4c39-8937-75f5b5d07bcc",
       "texto": "-Preparar o aprobar la regularización técnica y económica de las modificaciones o ampliaciones (cambios) que surjan y gestionarlas con el Cliente, si procede (PR-12).\n\n-Establecer   y   vigilar   el   control   y   archivo   de   documentos   de   forma   que   toda   la documentación se encuentre ordenada y accesible durante el trabajo y correctamente archivada al finalizarlo, siguiendo el PR-17, PR-13 y la normativa complementaria de su División.\n\n-Redactar   o   aprobar   todos   los   informes   del   Proyecto,   incluyendo   el   mensual   de progreso para el Cliente cuando proceda .\n\n-Ordenar y controlar la facturación y cobro de los trabajos, incluyendo los suplementos del Contrato y las Ordenes de Cambio aprobadas.\n\n-Revisar y aprobar todos los cargos al Proyecto que procedan.\n\n-Preparar la documentación necesaria, puesta al día, para la reunión mensual de progreso de los proyectos, que se mantendrá con la Dirección General.\n\n-Recibir del Cliente (y en su caso devolver en su día), registrar y controlar:\n\n la documentación original dada para su uso, modificación o adaptación;\n\n el suelo para la construcción de la nueva planta o la reforma de otra existente;\n\n el   suelo   para   las   instalaciones   provisionales   (oficinas,   almacenes   y   zonas   de prefabricación en obra de Intecsa Industrial y sus subcontratistas);\n\n los equipos y materiales prestados o entregados para su instalación, conexión o uso,\n\nTodo ello como parte del alcance del Contrato.\n\n-Registrar, informar y acordar con el Cliente las medidas a tomar en caso de pérdida, daño o uso inadecuado de lo indicado, y si procede informar inmediatamente al seguro (apartado 3.13.)\n\n-Delegar si lo estima oportuno, en un responsable del Proyecto (Ingeniero de proyecto u otro) la recepción, registro y control indicados para entregas por el Cliente en la oficina;   salvo   mención   expresa   en   el   Plan   de   Calidad   del   Proyecto,   esta responsabilidad está delegada en el Jefe de Obra para las entregas por el Cliente en ésta.\n\n2.4. A propuesta del Jefe del Proyecto, el Director de Operaciones designará, si a su juicio es necesario, a un Coordinador del Proyecto que se integrará en el Grupo del mismo (si existe) y cuyas principales funciones serán:\n\n-Asegurar los flujos de información, propiciando el contacto de unos Especialistas con otros   (reuniones   informales,   reuniones   en   torno   a   un   plano,   etc.),   y   cuidando especialmente de informar de los cambios que ocurran durante el desarrollo del proyecto.\n\n-Cuidar especialmente la preparación y seguimiento de la DRF y los cuadros de distribución de documentos.\n\n-Procurar que se cumpla la ordenación secuencial de actividades de Ingeniería.\n\n-Mantener el contacto permanente con obra para evitar problemas de comunicación con Ingeniería y el Departamento de Compras.\n\n-Controlar el cumplimiento de la programación, asegurando que cada Especialista dispone de la información, correcta y en tiempo, para el desarrollo del proyecto.\n\n-Controlar el cumplimiento de fechas de entrega y recepción de planos de vendedores.\n\n2.5. En el desempeño de sus funciones, el Jefe del Proyecto ha de usar adecuadamente los servicios   y   medios   de   la   Empresa,   a   medida   que   los   considere   necesarios.   Estos básicamente son:\n\n-El propio Grupo de Proyecto (Ingenieros de Proyecto, etc.) en cuyos miembros deberá delegar aquellas de las funciones descritas anteriormente que considere pertinentes sin menoscabo de las responsabilidades que le incumban.\n\n-El Servicio de Planificación y Control de Proyecto para la elaboración y el seguimiento de los programas de trabajo, y para la estimación de los cambios y el control de las inversiones, cuando sea preciso.",
       "nivel": "parent",
       "parent_id": null,
@@ -174,10 +174,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b6868895-c508-4173-89aa-31cad55836e1",
+      "chunk_id": "4129e0a2-6a08-40b1-ba76-3b548cd1dd60",
       "texto": "-Preparar o aprobar la regularización técnica y económica de las modificaciones o ampliaciones (cambios) que surjan y gestionarlas con el Cliente, si procede (PR-12).\n\n-Establecer   y   vigilar   el   control   y   archivo   de   documentos   de   forma   que   toda   la documentación se encuentre ordenada y accesible durante el trabajo y correctamente archivada al finalizarlo, siguiendo el PR-17, PR-13 y la normativa complementaria de su División.\n\n-Redactar   o   aprobar   todos   los   informes   del   Proyecto,   incluyendo   el   mensual   de progreso para el Cliente cuando proceda .\n\n-Ordenar y controlar la facturación y cobro de los trabajos, incluyendo los suplementos del Contrato y las Ordenes de Cambio aprobadas.\n\n-Revisar y aprobar todos los cargos al Proyecto que procedan.",
       "nivel": "child",
-      "parent_id": "cceba51a-4e8a-42e1-b9e5-bf6834ab5322",
+      "parent_id": "bc933634-a7c0-4c39-8937-75f5b5d07bcc",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -190,10 +190,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "cb42d9b8-05ba-4c07-bbce-2f28952c77c8",
+      "chunk_id": "461375d3-f6de-4c22-9916-31e0b0b72e92",
       "texto": "-Revisar y aprobar todos los cargos al Proyecto que procedan.\n\n-Preparar la documentación necesaria, puesta al día, para la reunión mensual de progreso de los proyectos, que se mantendrá con la Dirección General.\n\n-Recibir del Cliente (y en su caso devolver en su día), registrar y controlar:\n\n la documentación original dada para su uso, modificación o adaptación;\n\n el suelo para la construcción de la nueva planta o la reforma de otra existente;\n\n el   suelo   para   las   instalaciones   provisionales   (oficinas,   almacenes   y   zonas   de prefabricación en obra de Intecsa Industrial y sus subcontratistas);\n\n los equipos y materiales prestados o entregados para su instalación, conexión o uso,\n\nTodo ello como parte del alcance del Contrato.",
       "nivel": "child",
-      "parent_id": "cceba51a-4e8a-42e1-b9e5-bf6834ab5322",
+      "parent_id": "bc933634-a7c0-4c39-8937-75f5b5d07bcc",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -206,10 +206,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f46fa562-edb7-42c0-9ed1-5ace69eb7ef9",
+      "chunk_id": "050c8173-4181-4fd9-809b-0653cedd0f7b",
       "texto": "-Registrar, informar y acordar con el Cliente las medidas a tomar en caso de pérdida, daño o uso inadecuado de lo indicado, y si procede informar inmediatamente al seguro (apartado 3.13.)\n\n-Delegar si lo estima oportuno, en un responsable del Proyecto (Ingeniero de proyecto u otro) la recepción, registro y control indicados para entregas por el Cliente en la oficina;   salvo   mención   expresa   en   el   Plan   de   Calidad   del   Proyecto,   esta responsabilidad está delegada en el Jefe de Obra para las entregas por el Cliente en ésta.\n\n2.4.",
       "nivel": "child",
-      "parent_id": "cceba51a-4e8a-42e1-b9e5-bf6834ab5322",
+      "parent_id": "bc933634-a7c0-4c39-8937-75f5b5d07bcc",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -222,10 +222,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9ec401e1-8b7c-4678-8a2d-beb7c0a47bf7",
+      "chunk_id": "437b7ca6-93f6-4d1a-9c8d-ed0289f95925",
       "texto": "2.4. A propuesta del Jefe del Proyecto, el Director de Operaciones designará, si a su juicio es necesario, a un Coordinador del Proyecto que se integrará en el Grupo del mismo (si existe) y cuyas principales funciones serán:\n\n-Asegurar los flujos de información, propiciando el contacto de unos Especialistas con otros   (reuniones   informales,   reuniones   en   torno   a   un   plano,   etc.),   y   cuidando especialmente de informar de los cambios que ocurran durante el desarrollo del proyecto.\n\n-Cuidar especialmente la preparación y seguimiento de la DRF y los cuadros de distribución de documentos.\n\n-Procurar que se cumpla la ordenación secuencial de actividades de Ingeniería.\n\n-Mantener el contacto permanente con obra para evitar problemas de comunicación con Ingeniería y el Departamento de Compras.\n\n-Controlar el cumplimiento de la programación, asegurando que cada Especialista dispone de la información, correcta y en tiempo, para el desarrollo del proyecto.",
       "nivel": "child",
-      "parent_id": "cceba51a-4e8a-42e1-b9e5-bf6834ab5322",
+      "parent_id": "bc933634-a7c0-4c39-8937-75f5b5d07bcc",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -238,10 +238,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "599ff412-e83e-407d-86ca-f5409820d840",
+      "chunk_id": "70f1a7bd-9165-4e35-a227-975981113597",
       "texto": "-Controlar el cumplimiento de fechas de entrega y recepción de planos de vendedores.\n\n2.5. En el desempeño de sus funciones, el Jefe del Proyecto ha de usar adecuadamente los servicios   y   medios   de   la   Empresa,   a   medida   que   los   considere   necesarios.   Estos básicamente son:\n\n-El propio Grupo de Proyecto (Ingenieros de Proyecto, etc.) en cuyos miembros deberá delegar aquellas de las funciones descritas anteriormente que considere pertinentes sin menoscabo de las responsabilidades que le incumban.\n\n-El Servicio de Planificación y Control de Proyecto para la elaboración y el seguimiento de los programas de trabajo, y para la estimación de los cambios y el control de las inversiones, cuando sea preciso.",
       "nivel": "child",
-      "parent_id": "cceba51a-4e8a-42e1-b9e5-bf6834ab5322",
+      "parent_id": "bc933634-a7c0-4c39-8937-75f5b5d07bcc",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -254,7 +254,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "970191fd-d7ca-4bb5-9864-548ba1b408e0",
+      "chunk_id": "49737a37-7eb2-4e69-be77-575c7e1a0522",
       "texto": "-La Asesoría Jurídica, a través del Asesor gestionado por el Director de su División para todas las cuestiones contractuales que se susciten y que a su juicio merezcan tal tratamiento.\n\n-El Servicio de Sistemas de Información, para la adecuada utilización de los medios informáticos y resolución de las necesidades.\n\n-Los Departamentos de Compras y de Construcción para la compra, activación e inspección de equipos y materiales y las subcontrataciones de montajes, obras e instalaciones.\n\n-El Departamento de Construcción para la supervisión de obras y montajes y apoyo técnico en las subcontrataciones.\n\n-Los Departamentos Técnicos, para la realización de los documentos técnicos.\n\n-Calidad y Medio Ambiente para clarificar los requisitos medioambientales, a cumplir tanto durante el desarrollo de la ingeniería y diseño del Proyecto como durante la construcción y el montaje, y en su caso la puesta en marcha de la nueva instalación.\n\n-El Servicio de Prevención de Riesgos Laborales para la realización de los documentos exigidos por la normativa de Prevención de Riesgos Laborales (estudios de Seguridad y Salud, etc.) y la designación de los coordinadores y los técnicos de Seguridad que sean necesarios.\n\n-El   Servicio   de   RR.HH   y   Organización,   para   las   relaciones   laborales,   dotación   y organización de medios de trabajo adecuados.\n\n-El Servicio de Administración y Finanzas, para la facturación, cobro y pagos.\n\nEl grado de utilización por el Proyecto de estos medios dependerá de la organización que se establezca para cumplir los objetivos del Contrato.",
       "nivel": "parent",
       "parent_id": null,
@@ -270,10 +270,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4d942e72-3457-48fe-8544-26f7bd923d72",
+      "chunk_id": "5a5eb620-15ea-47c7-8aa4-2f667b30f2d0",
       "texto": "-La Asesoría Jurídica, a través del Asesor gestionado por el Director de su División para todas las cuestiones contractuales que se susciten y que a su juicio merezcan tal tratamiento.\n\n-El Servicio de Sistemas de Información, para la adecuada utilización de los medios informáticos y resolución de las necesidades.\n\n-Los Departamentos de Compras y de Construcción para la compra, activación e inspección de equipos y materiales y las subcontrataciones de montajes, obras e instalaciones.\n\n-El Departamento de Construcción para la supervisión de obras y montajes y apoyo técnico en las subcontrataciones.\n\n-Los Departamentos Técnicos, para la realización de los documentos técnicos.\n\n-Calidad y Medio Ambiente para clarificar los requisitos medioambientales, a cumplir tanto durante el desarrollo de la ingeniería y diseño del Proyecto como durante la construcción y el montaje, y en su caso la puesta en marcha de la nueva instalación.",
       "nivel": "child",
-      "parent_id": "970191fd-d7ca-4bb5-9864-548ba1b408e0",
+      "parent_id": "49737a37-7eb2-4e69-be77-575c7e1a0522",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -286,10 +286,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "cc726780-1e4e-43fc-9944-6b073bd625ff",
+      "chunk_id": "a40464b5-de6f-402f-9a4d-7971332517ad",
       "texto": "-El Servicio de Prevención de Riesgos Laborales para la realización de los documentos exigidos por la normativa de Prevención de Riesgos Laborales (estudios de Seguridad y Salud, etc.) y la designación de los coordinadores y los técnicos de Seguridad que sean necesarios.\n\n-El   Servicio   de   RR.HH   y   Organización,   para   las   relaciones   laborales,   dotación   y organización de medios de trabajo adecuados.\n\n-El Servicio de Administración y Finanzas, para la facturación, cobro y pagos.\n\nEl grado de utilización por el Proyecto de estos medios dependerá de la organización que se establezca para cumplir los objetivos del Contrato.",
       "nivel": "child",
-      "parent_id": "970191fd-d7ca-4bb5-9864-548ba1b408e0",
+      "parent_id": "49737a37-7eb2-4e69-be77-575c7e1a0522",
       "pagina_inicio": 2,
       "pagina_fin": 6,
       "seccion": "2. DESCRIPCION GENERAL DE FUNCIONES Y MEDIOS",
@@ -302,7 +302,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ffcc2e71-9a72-44d0-80ad-2b69441c36ff",
+      "chunk_id": "85375d5d-8b12-404c-88c2-47788d23a4f0",
       "texto": "Al inicio del trabajo el Jefe del Proyecto debe:\n\n-Abrir el Encargo con el Servicio de Planificación y Control de Gestión, acordando los datos a incluir en el Acta de inicio de Control de gestión, que se cita en 2.2.\n\n-Estudiar la Oferta aceptada y el Contrato para conocerlos en profundidad.\n\n-Estudiar la documentación aportada por el Cliente y compararla con la suministrada con la Petición de Oferta, para detectar si ha habido variaciones.\n\n-Establecer el organigrama (gráfico o listado) necesario para el Proyecto y someterlo al Director de su División.\n\n-Establecer   la   distribución   de   la   información   que   ha   de   ser   precisa   para   cada Departamento (y sólo la precisa), confeccionando los cuadros correspondientes para incluir en el  Plan de Calidad y Medio Ambiente Medio Ambiente (PR-11).\n\n-Estudiar la planificación básica y la estimación de costes de la Oferta como ayuda para establecer las propias del Proyecto.\n\n-Fijar   el   nivel   de   desarrollo   (grado   de   detalle   del   trabajo)   en   función   de   la   Oferta aceptada.\n\n-Constituir el Equipo de Proyecto.\n\n-Preparar y mantener una reunión de inicio del Contrato con el Cliente, en la que participen   tanto   como   sea   necesario   los   miembros   del   Grupo   y   del   Equipo   del Proyecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -318,10 +318,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d641a9a4-4431-41ad-9714-f0b0ad7f4914",
+      "chunk_id": "272724f4-abc0-4e9e-8670-565385cd0d20",
       "texto": "Al inicio del trabajo el Jefe del Proyecto debe:\n\n-Abrir el Encargo con el Servicio de Planificación y Control de Gestión, acordando los datos a incluir en el Acta de inicio de Control de gestión, que se cita en 2.2.\n\n-Estudiar la Oferta aceptada y el Contrato para conocerlos en profundidad.\n\n-Estudiar la documentación aportada por el Cliente y compararla con la suministrada con la Petición de Oferta, para detectar si ha habido variaciones.\n\n-Establecer el organigrama (gráfico o listado) necesario para el Proyecto y someterlo al Director de su División.\n\n-Establecer   la   distribución   de   la   información   que   ha   de   ser   precisa   para   cada Departamento (y sólo la precisa), confeccionando los cuadros correspondientes para incluir en el  Plan de Calidad y Medio Ambiente Medio Ambiente (PR-11).\n\n-Estudiar la planificación básica y la estimación de costes de la Oferta como ayuda para establecer las propias del Proyecto.",
       "nivel": "child",
-      "parent_id": "ffcc2e71-9a72-44d0-80ad-2b69441c36ff",
+      "parent_id": "85375d5d-8b12-404c-88c2-47788d23a4f0",
       "pagina_inicio": 6,
       "pagina_fin": 6,
       "seccion": "3.1. Iniciación del Proyecto",
@@ -334,10 +334,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "642eea41-e5a3-4f0c-b167-bf6d28f15375",
+      "chunk_id": "ab86383f-c66a-4eb0-b734-100d16640e58",
       "texto": "-Fijar   el   nivel   de   desarrollo   (grado   de   detalle   del   trabajo)   en   función   de   la   Oferta aceptada.\n\n-Constituir el Equipo de Proyecto.\n\n-Preparar y mantener una reunión de inicio del Contrato con el Cliente, en la que participen   tanto   como   sea   necesario   los   miembros   del   Grupo   y   del   Equipo   del Proyecto.",
       "nivel": "child",
-      "parent_id": "ffcc2e71-9a72-44d0-80ad-2b69441c36ff",
+      "parent_id": "85375d5d-8b12-404c-88c2-47788d23a4f0",
       "pagina_inicio": 6,
       "pagina_fin": 6,
       "seccion": "3.1. Iniciación del Proyecto",
@@ -350,7 +350,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8dffb865-809f-432d-bfc4-1e8d70641eb9",
+      "chunk_id": "5beb2831-a994-4db0-8cd7-ed8a8fe2ffe2",
       "texto": "Antes de las reuniones iniciales con los Socios (en su caso) y el Cliente, el Jefe del Proyecto debe convocar una reunión con los Jefes de Departamento, de Calidad y Medio Ambiente y de Prevención de Riesgos Laborales, y posteriormente otras con el Equipo de Proyecto (su propio Grupo de Proyecto, si existe, los Especialistas responsables de Cuentas, el Coordinador de Compras, el coordinador de Subcontratación y el Jefe de Obra) y con los Jefes de Diseño.\n\nDe las actas de las reuniones con los Jefes de Departamento y con el Equipo de Proyecto se enviará copia a los Directores de División y al Servicio de Planificación y Control de Proyectos.",
       "nivel": "parent",
       "parent_id": null,
@@ -365,7 +365,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "44ad406b-6844-4cf5-a1d9-ccb569aa2317",
+      "chunk_id": "5f2023b1-d152-4a3d-931f-b4a2f581bdc6",
       "texto": "El objetivo es asignar los recursos necesarios a la organización para el desarrollo del Proyecto, por lo que se deben analizar, fundamentalmente:\n\n. El alcance del trabajo y las condiciones contractuales.\n\n. Directrices para la elaboración del Plan de Calidad y Medio Ambiente del proyecto.\n\n. Programa básico y estimación inicial de costes (Hoja roja).\n\n. Organigrama (gráfico o listado)\n\n. Nivel de desarrollo fijado para el Proyecto.\n\n. Niveles de verificación previstos\n\ny se deben nominar a los Especialistas responsables de Cuentas, al Coordinador de Compras, al Coordinador de Subcontratación y al Jefe de Obra, así como dimensionar sus respectivos equipos de trabajo, de acuerdo con las necesidades de planificación y costes. Se analizará si existen recursos disponibles o va a ser necesario recurrir a Subcontratos.\n\nPosteriormente, cada Jefe de Departamento con sus Especialistas o Coordinadores responsables procederá a la nominación de las restantes personas de sus equipos.\n\nEn la asignación de Especialistas o Coordinadores responsables para el Proyecto, los Jefes de Proyecto y los de Departamento deberán ponerse de acuerdo, teniendo en cuenta los siguientes aspectos:\n\na) Características específicas del trabajo, en función de las actividades o procesos a desarrollar,  y en especial la estructura e importe de los costes previstos en la Oferta aceptada.\n\nPreferencias del Cliente\n\nPrevisión de otros Proyectos inmediatos y sus necesidades.\n\nEstructura   eficaz   mínima   que   debe   tener   el   Departamento   para   preparación   de Ofertas, ejecución de pequeños Proyectos y supervisión de todos los que están en ejecución.\n\nSi no se llega a un acuerdo sobre las personas a asignar, la decisión la tomarán el Director de la División de Operaciones y el de Ingeniería o en su caso los Jefes de los Departamentos de Compras o de Construcción; en caso de desacuerdo, la Dirección General decidirá.\n\nA  partir   de   la   asignación   del   Especialista   o   Coordinador   responsable,   su   Jefe   de Departamento delegará en él sus funciones, manteniendo la supervisión necesaria para asegurarse   de   su   eficiencia   y   rendimiento   y   de   su   cumplimiento   de   los   plazos comprometidos y para responder de la calidad técnica de los trabajos.",
       "nivel": "parent",
       "parent_id": null,
@@ -381,10 +381,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "45374e21-0faa-48f2-afb5-71b71e887dac",
+      "chunk_id": "934923f0-97df-434f-8957-d8c6a5f64eb3",
       "texto": "El objetivo es asignar los recursos necesarios a la organización para el desarrollo del Proyecto, por lo que se deben analizar, fundamentalmente:\n\n. El alcance del trabajo y las condiciones contractuales.\n\n. Directrices para la elaboración del Plan de Calidad y Medio Ambiente del proyecto.\n\n. Programa básico y estimación inicial de costes (Hoja roja).\n\n. Organigrama (gráfico o listado)\n\n. Nivel de desarrollo fijado para el Proyecto.\n\n. Niveles de verificación previstos\n\ny se deben nominar a los Especialistas responsables de Cuentas, al Coordinador de Compras, al Coordinador de Subcontratación y al Jefe de Obra, así como dimensionar sus respectivos equipos de trabajo, de acuerdo con las necesidades de planificación y costes. Se analizará si existen recursos disponibles o va a ser necesario recurrir a Subcontratos.\n\nPosteriormente, cada Jefe de Departamento con sus Especialistas o Coordinadores responsables procederá a la nominación de las restantes personas de sus equipos.",
       "nivel": "child",
-      "parent_id": "44ad406b-6844-4cf5-a1d9-ccb569aa2317",
+      "parent_id": "5f2023b1-d152-4a3d-931f-b4a2f581bdc6",
       "pagina_inicio": 7,
       "pagina_fin": 8,
       "seccion": "Reunión con Jefes de Departamento",
@@ -397,10 +397,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "937812ff-b94d-49f7-88a2-3e250e14b437",
+      "chunk_id": "3b2856bd-be05-4393-ace4-67a9108c196c",
       "texto": "En la asignación de Especialistas o Coordinadores responsables para el Proyecto, los Jefes de Proyecto y los de Departamento deberán ponerse de acuerdo, teniendo en cuenta los siguientes aspectos:\n\na) Características específicas del trabajo, en función de las actividades o procesos a desarrollar,  y en especial la estructura e importe de los costes previstos en la Oferta aceptada.\n\nPreferencias del Cliente\n\nPrevisión de otros Proyectos inmediatos y sus necesidades.\n\nEstructura   eficaz   mínima   que   debe   tener   el   Departamento   para   preparación   de Ofertas, ejecución de pequeños Proyectos y supervisión de todos los que están en ejecución.\n\nSi no se llega a un acuerdo sobre las personas a asignar, la decisión la tomarán el Director de la División de Operaciones y el de Ingeniería o en su caso los Jefes de los Departamentos de Compras o de Construcción; en caso de desacuerdo, la Dirección General decidirá.",
       "nivel": "child",
-      "parent_id": "44ad406b-6844-4cf5-a1d9-ccb569aa2317",
+      "parent_id": "5f2023b1-d152-4a3d-931f-b4a2f581bdc6",
       "pagina_inicio": 7,
       "pagina_fin": 8,
       "seccion": "Reunión con Jefes de Departamento",
@@ -413,10 +413,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5d2e9bab-d7db-48d8-afc0-e5206d3307ec",
+      "chunk_id": "1508d215-179c-409d-85e1-8a23ba251082",
       "texto": "A  partir   de   la   asignación   del   Especialista   o   Coordinador   responsable,   su   Jefe   de Departamento delegará en él sus funciones, manteniendo la supervisión necesaria para asegurarse   de   su   eficiencia   y   rendimiento   y   de   su   cumplimiento   de   los   plazos comprometidos y para responder de la calidad técnica de los trabajos.",
       "nivel": "child",
-      "parent_id": "44ad406b-6844-4cf5-a1d9-ccb569aa2317",
+      "parent_id": "5f2023b1-d152-4a3d-931f-b4a2f581bdc6",
       "pagina_inicio": 7,
       "pagina_fin": 8,
       "seccion": "Reunión con Jefes de Departamento",
@@ -429,7 +429,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ca37e84a-35d1-4409-96fc-39e4d6c2d886",
+      "chunk_id": "6e77fd6f-1e21-4ebe-aa42-fcfc25155692",
       "texto": "(Reunión de inicio, de arranque, \"kick-off meeting\")\n\nCon el Equipo de Proyecto se debe mantener a continuación otra reunión (a ser posible con envío previo de documentación) para tratar de:\n\n. Alcance del trabajo y características generales del Proyecto.\n\n. Documentación disponible sobre el trabajo y condiciones contractuales.\n\n. Organigrama (gráfico o listado)\n\n. Distribución de trabajo y límites del mismo.\n\n. Nivel de desarrollo fijado para el Proyecto\n\n. Niveles de verificación previstos.\n\n. Planificación del Proyecto y estimación inicial de costes.\n\n. Colaboraciones precisas para la redacción del Plan de Calidad y Medio Ambiente, y del Estudio de Seguridad y Salud.",
       "nivel": "parent",
       "parent_id": null,
@@ -445,7 +445,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4690df1e-58ad-4c30-ac8e-c1a597e8819f",
+      "chunk_id": "3233e100-1594-43f4-9980-f1ce729d4c0c",
       "texto": "El Jefe del Proyecto debe propiciar a continuación una breve reunión de los Jefes de diseño   de   las   especialidades   participantes   con   el   fin   de   unificar   criterios   (norte, coordenadas, sellos, escalas, planos de referencia, etc.),   de   acuerdo   con   el   PR-38 Procedimiento de realización de planos en PC. Del Acta de esta reunión se enviará copia a todo el Grupo de Proyecto y a todos los Especialistas y Jefes de grupo de diseño asignados al Proyecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -460,7 +460,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8d78c276-9dd6-467f-8926-d1551d9e2a9d",
+      "chunk_id": "ee76fa7c-413d-4876-a77e-aa14e4708e94",
       "texto": "Asímismo,   se   asegurará   de   que   en   cuanto   sea   posible   se   celebre   la   reunión   de determinación temprana de esfuerzos en tuberías, convocada si es preciso con su ayuda por el Responsable de cuenta de Obra civil en el proyecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -475,7 +475,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ab93566e-df6e-4dac-88fe-9309778c2987",
+      "chunk_id": "b8f09b4a-57ff-4417-8f5b-6827de0c18f5",
       "texto": "Los recursos asignados al 100% a un Proyecto no podrán destinarse a otros trabajos, a menos que lo autorice el Jefe del Proyecto correspondiente.\n\nLos Jefes de Departamento distribuirán los recursos compartidos en varios Proyectos. Las asignaciones de recursos se revisarán en las reuniones mensuales de progreso de los Proyectos con la Dirección General, fijándose las prioridades para los Proyectos con Especialista o Coordinador compartido.\n\nDurante el trabajo, el Jefe del Proyecto a la vista de las previsiones que, al menos con una semana de antelación, le presenten los Especialistas responsables de Cuenta (v. PR-30), estudiará con ellos las modificaciones convenientes de personal asignado, de modo que pueda proponer los cambios,  con   la   misma   antelación,   a   los   Jefes   de Departamento afectados, y éstos puedan buscar el personal necesario o recolocar el saliente.\n\nNo se efectuarán cambios de personal técnico entre Proyectos, sin previo acuerdo con los Jefes de Departamento.\n\nEn caso de suspensión de un Encargo, el  personal   quedará   a   disposición   de   su Departamento   respectivo.   Al   reanudarse   el   trabajo   deberán   repetirse   los   pasos necesarios para la constitución del Equipo del Proyecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -490,10 +490,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3321aa3e-e0c2-4243-b855-17cd13fde9a7",
+      "chunk_id": "72b5d5ff-5683-40c0-9d1c-29e2859e5ef2",
       "texto": "Los recursos asignados al 100% a un Proyecto no podrán destinarse a otros trabajos, a menos que lo autorice el Jefe del Proyecto correspondiente.\n\nLos Jefes de Departamento distribuirán los recursos compartidos en varios Proyectos. Las asignaciones de recursos se revisarán en las reuniones mensuales de progreso de los Proyectos con la Dirección General, fijándose las prioridades para los Proyectos con Especialista o Coordinador compartido.\n\nDurante el trabajo, el Jefe del Proyecto a la vista de las previsiones que, al menos con una semana de antelación, le presenten los Especialistas responsables de Cuenta (v. PR-30), estudiará con ellos las modificaciones convenientes de personal asignado, de modo que pueda proponer los cambios,  con   la   misma   antelación,   a   los   Jefes   de Departamento afectados, y éstos puedan buscar el personal necesario o recolocar el saliente.\n\nNo se efectuarán cambios de personal técnico entre Proyectos, sin previo acuerdo con los Jefes de Departamento.",
       "nivel": "child",
-      "parent_id": "ab93566e-df6e-4dac-88fe-9309778c2987",
+      "parent_id": "b8f09b4a-57ff-4417-8f5b-6827de0c18f5",
       "pagina_inicio": 9,
       "pagina_fin": 9,
       "seccion": "3.3. Modificación del Equipo de Proyecto",
@@ -505,10 +505,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "432a60aa-db41-4ce5-a4d0-be7ad4f5b06e",
+      "chunk_id": "5342de8d-57ec-4288-b1a0-54bce2a42338",
       "texto": "En caso de suspensión de un Encargo, el  personal   quedará   a   disposición   de   su Departamento   respectivo.   Al   reanudarse   el   trabajo   deberán   repetirse   los   pasos necesarios para la constitución del Equipo del Proyecto.",
       "nivel": "child",
-      "parent_id": "ab93566e-df6e-4dac-88fe-9309778c2987",
+      "parent_id": "b8f09b4a-57ff-4417-8f5b-6827de0c18f5",
       "pagina_inicio": 9,
       "pagina_fin": 9,
       "seccion": "3.3. Modificación del Equipo de Proyecto",
@@ -520,7 +520,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b1f55bb9-6262-47c6-af7b-2c34c4f8f5d3",
+      "chunk_id": "0d5041e0-30bd-443f-936c-0eeb50d42e3f",
       "texto": "Dentro del primer mes desde el inicio del trabajo, el Jefe de Proyecto debe preparar y editar   el   Plan   de   Calidad   y   Medio   Ambiente del   Proyecto,   siguiendo   para   ello   las instrucciones del PR-11, las directrices que se hayan fijado en la reunión con Jefes de Departamento, y teniendo a la vista el Contrato. Deberá asegurarse de que la difusión de este documento sea la adecuada.",
       "nivel": "parent",
       "parent_id": null,
@@ -535,7 +535,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bddedf43-ce82-4934-98cf-795ad9ba80c4",
+      "chunk_id": "219aea92-fa15-4eab-805c-cd9653104135",
       "texto": "El Jefe de Proyecto coordinará con el Servicio de Prevención de Riesgos Laborales la preparación   de   los   documentos   necesarios,   de   acuerdo   con   el   Manual   y   los Procedimientos de Riesgos Laborales.",
       "nivel": "parent",
       "parent_id": null,
@@ -550,7 +550,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "de546538-70fa-4755-8162-2eddbddf8919",
+      "chunk_id": "c12f4033-98a1-4d8f-8612-d55f4fce78d3",
       "texto": "El Jefe del Proyecto debe cuidar de que él mismo y todos los que intervienen en el Encargo sigan los   Procedimientos   de Intecsa   Industrial y  usen   los   documentos   y formatos normalizados, con las excepciones que, requeridas por un Contrato concreto, vengan reflejadas en el Plan de Calidad y Medio Ambiente. En caso de duda consultarán con el Jefe de Calidad y Medio Ambiente .",
       "nivel": "parent",
       "parent_id": null,
@@ -565,7 +565,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b9a06307-2c39-43c7-9b54-0a310df279f4",
+      "chunk_id": "9e701153-dafa-47b0-8b2a-63df6661918e",
       "texto": "Las reuniones que convoque el Jefe del Proyecto deberán hacerse, a ser posible, con un \"orden del día\" claro y concreto, con la duración fijada aproximadamente, y cuidando especialmente la puntualidad.\n\nDe todas las reuniones con Socios y Clientes debe levantar acta el Jefe del Proyecto y en las reuniones con Proveedores él mismo o la persona en quien delegue.\n\nEs aconsejable que antes y durante la reunión, se vaya tomando nota manual de los acuerdos, de forma que al terminar puede llevarse cada participante una copia. El Jefe del Proyecto procurará que su copia sea firmada por el Socio, Cliente o Proveedor.\n\nEl Jefe del Proyecto mantendrá mensualmente una reunión de coordinación y avance con el Equipo de Proyecto, en la que, con independencia de otras cuestiones a que hubiera lugar, se tratará de:\n\n. Información sobre la marcha del Proyecto.\n\n. Problemas de coordinación. Planteamiento y solución de los mismos.\n\n. Programación y costes. Avances, desviaciones y acciones a tomar.\n\n. Hitos alcanzados y consecución de objetivos.\n\nDe estas reuniones también debe hacerse siempre un acta con las conclusiones y acciones previstas.",
       "nivel": "parent",
       "parent_id": null,
@@ -581,10 +581,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a7a87d73-2a76-43df-9d84-2fff1ece1656",
+      "chunk_id": "bc9d7488-8851-49b3-b67a-c61f69898f09",
       "texto": "Las reuniones que convoque el Jefe del Proyecto deberán hacerse, a ser posible, con un \"orden del día\" claro y concreto, con la duración fijada aproximadamente, y cuidando especialmente la puntualidad.\n\nDe todas las reuniones con Socios y Clientes debe levantar acta el Jefe del Proyecto y en las reuniones con Proveedores él mismo o la persona en quien delegue.\n\nEs aconsejable que antes y durante la reunión, se vaya tomando nota manual de los acuerdos, de forma que al terminar puede llevarse cada participante una copia. El Jefe del Proyecto procurará que su copia sea firmada por el Socio, Cliente o Proveedor.\n\nEl Jefe del Proyecto mantendrá mensualmente una reunión de coordinación y avance con el Equipo de Proyecto, en la que, con independencia de otras cuestiones a que hubiera lugar, se tratará de:\n\n. Información sobre la marcha del Proyecto.\n\n. Problemas de coordinación. Planteamiento y solución de los mismos.\n\n.",
       "nivel": "child",
-      "parent_id": "b9a06307-2c39-43c7-9b54-0a310df279f4",
+      "parent_id": "9e701153-dafa-47b0-8b2a-63df6661918e",
       "pagina_inicio": 10,
       "pagina_fin": 10,
       "seccion": "3.7. Reuniones",
@@ -597,10 +597,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "28a3dd1b-a4a2-471b-b6a8-398f50dbec81",
+      "chunk_id": "9581d2f3-eff8-42ab-9f08-80b39d871831",
       "texto": "Planteamiento y solución de los mismos.\n\n. Programación y costes. Avances, desviaciones y acciones a tomar.\n\n. Hitos alcanzados y consecución de objetivos.\n\nDe estas reuniones también debe hacerse siempre un acta con las conclusiones y acciones previstas.",
       "nivel": "child",
-      "parent_id": "b9a06307-2c39-43c7-9b54-0a310df279f4",
+      "parent_id": "9e701153-dafa-47b0-8b2a-63df6661918e",
       "pagina_inicio": 10,
       "pagina_fin": 10,
       "seccion": "3.7. Reuniones",
@@ -613,7 +613,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4480752b-6aef-41c9-bf5f-dd724bb38771",
+      "chunk_id": "3f1cd272-4724-4e1f-b796-c2d7087b9e36",
       "texto": "El Jefe del Proyecto se asegurará tanto al inicio del trabajo como durante su desarrollo de que la información con que cuenta el Equipo de Proyecto es suficiente y es la correcta, de manera que no se produzcan dilaciones indebidas ni se ejecuten trabajos inútiles.\n\nEl Jefe del Proyecto será responsable además de que en el Plan de Calidad y Medio Ambiente se fijen los criterios claros y precisos para garantizar una transmisión fluida de la información entre los Especialistas correspondientes, especialmente los comentarios de los documentos del Proyecto y de los documentos de Proveedores. Para ello cuidará de que toda la información debidamente aprobada, se incluya a tiempo y de forma adecuada en el gestor documental (documentum) de la intranet de Intecsa Industrial , así como de notificar a los afectados en cada ocasión de la inclusión de nueva información en el documentum.",
       "nivel": "parent",
       "parent_id": null,
@@ -628,7 +628,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "812f3259-aadd-46b4-b9e8-398956361ba8",
+      "chunk_id": "67a12359-0a80-4737-a10c-f51d23f908b9",
       "texto": "Independientemente de lo que en cada contrato particular se exija por el Cliente, la planificación de los proyectos en plazos y medios es absolutamente necesaria, tanto para\n\nel buen éxito de los mismos como para adecuar las exigencias del conjunto de encargos a las posibilidades y recursos de Intecsa Industrial .\n\nLa planificación y su control es responsabilidad del Jefe del Proyecto, y cuenta para llevarla a cabo con la colaboración del Servicio de Planificación y Control de Proyectos, que debe prestarle el servicio de aplicación de las técnicas y conocimientos específicos requeridos, e incluso asignar personal fijo al Proyecto cuando éste así lo precise, de acuerdo con el correspondiente Procedimiento (PR-14).\n\nEl Jefe del Proyecto, en la fase de establecimiento de la Planificación, determinará su alcance,   contenido   y   limitaciones,   para   ajustarse   a   las   necesidades   posteriores   de control, pero siempre y como mínimo se realizará lo siguiente:\n\n-Identificará   las   actividades   o   procesos   a   desarrollar   en   el   proyecto   y   sus interrelaciones.\n\n-Estudiará   el   programa   previsto   en   la   Oferta,   comprobando   si   existe   alguna discrepancia con el contenido del Contrato. Las discrepancias que eventualmente puedan surgir las resolverá con el Director de su División, consultando en lo que sea preciso   al   Servicio   de   Planificación   y   Control   de   Proyectos ,, llegando   así   a   la planificación del Proyecto.\n\n-En la reunión inicial con los Jefes de Departamento revisará con éstos la planificación, de  forma   que   la   asignación   de   personal   se   ajuste   a   lo   requerido.   En   caso   de desacuerdos que no puedan resolver por sí mismos se procederá como se indica en 3.2.\n\n-Mensualmente (o antes si hubiera cambios importantes) revisará con el Servicio de Planificación y Control de Proyectos a planificación adaptándola en lo preciso a la evolución de las condiciones del encargo y actualizando las cargas de trabajo.",
       "nivel": "parent",
       "parent_id": null,
@@ -644,10 +644,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7dfe7da9-600e-48d9-b1b7-6b71f31ef808",
+      "chunk_id": "0d955223-d53f-4bf4-9d83-1d056500d9d1",
       "texto": "Independientemente de lo que en cada contrato particular se exija por el Cliente, la planificación de los proyectos en plazos y medios es absolutamente necesaria, tanto para\n\nel buen éxito de los mismos como para adecuar las exigencias del conjunto de encargos a las posibilidades y recursos de Intecsa Industrial .\n\nLa planificación y su control es responsabilidad del Jefe del Proyecto, y cuenta para llevarla a cabo con la colaboración del Servicio de Planificación y Control de Proyectos, que debe prestarle el servicio de aplicación de las técnicas y conocimientos específicos requeridos, e incluso asignar personal fijo al Proyecto cuando éste así lo precise, de acuerdo con el correspondiente Procedimiento (PR-14).\n\nEl Jefe del Proyecto, en la fase de establecimiento de la Planificación, determinará su alcance,   contenido   y   limitaciones,   para   ajustarse   a   las   necesidades   posteriores   de control, pero siempre y como mínimo se realizará lo siguiente:\n\n-Identificará   las   actividades   o   procesos   a   desarrollar   en   el   proyecto   y   sus interrelaciones.",
       "nivel": "child",
-      "parent_id": "812f3259-aadd-46b4-b9e8-398956361ba8",
+      "parent_id": "67a12359-0a80-4737-a10c-f51d23f908b9",
       "pagina_inicio": 10,
       "pagina_fin": 11,
       "seccion": "Planificación",
@@ -660,10 +660,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f7c77ea2-5b43-4ef8-978e-348d5554a82d",
+      "chunk_id": "3c62f83d-4b7e-4a07-ae47-f12bc4945e2a",
       "texto": "-Estudiará   el   programa   previsto   en   la   Oferta,   comprobando   si   existe   alguna discrepancia con el contenido del Contrato. Las discrepancias que eventualmente puedan surgir las resolverá con el Director de su División, consultando en lo que sea preciso   al   Servicio   de   Planificación   y   Control   de   Proyectos ,, llegando   así   a   la planificación del Proyecto.\n\n-En la reunión inicial con los Jefes de Departamento revisará con éstos la planificación, de  forma   que   la   asignación   de   personal   se   ajuste   a   lo   requerido.   En   caso   de desacuerdos que no puedan resolver por sí mismos se procederá como se indica en 3.2.\n\n-Mensualmente (o antes si hubiera cambios importantes) revisará con el Servicio de Planificación y Control de Proyectos a planificación adaptándola en lo preciso a la evolución de las condiciones del encargo y actualizando las cargas de trabajo.",
       "nivel": "child",
-      "parent_id": "812f3259-aadd-46b4-b9e8-398956361ba8",
+      "parent_id": "67a12359-0a80-4737-a10c-f51d23f908b9",
       "pagina_inicio": 10,
       "pagina_fin": 11,
       "seccion": "Planificación",
@@ -676,7 +676,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e4df2c16-1108-4886-b93c-4a279ecda391",
+      "chunk_id": "ddad02b9-7f89-42ae-92c4-4f1241e5a9c9",
       "texto": "Una vez fijado el programa de realización del encargo y los recursos necesarios para cumplirlo, el Servicio de Planificación y Control de Proyectos evaluará los costes.  El Jefe del Proyecto ajustará los recursos para que los costes sean los previstos en la Oferta (hoja roja con las modificaciones acordadas en la negociación, si existen). En caso de dificultad insalvable, lo someterá al Director de su División, para llegar a una estimación básica de referencia.\n\nEl control de los costes se hará como se describe en 4.",
       "nivel": "parent",
       "parent_id": null,
@@ -692,7 +692,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "11cc9f85-c6fe-4dbc-adad-80f99e5bbae7",
+      "chunk_id": "95227155-5bb8-4684-9048-01318733be86",
       "texto": "Para el personal asignado con plena dedicación a su Proyecto, el Jefe del Proyecto deberá dar el visto bueno a los permisos reglamentarios, y autorizar las vacaciones y la realización de viajes y de horas extraordinarias.\n\nCuando alguna persona deba desplazarse temporalmente, por necesidades de trabajo, el Jefe del Proyecto deberá solicitar al Jefe del Encuadramiento de la persona que se vaya a desplazar que tramite la Hoja de Desplazamiento, fijando con el acuerdo de ambos y con el Servicio de RR.HH. y Organización las condiciones económicas.\n\nRespecto al personal que simultáneamente trabaje a tiempo parcial en otros Proyectos, el Jefe   del   Proyecto,   indicará   sus   necesidades   de   viajes   y   horas   extraordinarias   y   la posibilidad   de   vacaciones   del   personal   al   Jefe   del   Departamento   o   Servicio correspondiente, para con éste resolver las dificultades que puedan existir con suficiente antelación.\n\nEl Jefe del Proyecto autorizará asímismo todos los gastos que se realicen con cargo al proyecto, incluso las liquidaciones de viajes.\n\nCuando, a iniciativa bien del Jefe del Proyecto o de un Jefe de Departamento, sea precisa o conveniente la subcontratación de servicios de ingeniería ó la contratación de colaboradores, será el Jefe del Departamento afectado quien realice estas gestiones, informando   al   Jefe   del   Proyecto   y   acordando   con   él   los   costes   admisibles.   La subcontratación se realizará según lo indicado en el Procedimiento PR-36.\n\nEl   Jefe   del   Proyecto   será   responsable,   con   la   participación   si   es   preciso   de   los Especialistas   Responsables   de   cuenta,   de   la   evaluación   del   personal   asignado   al Proyecto. Cuando el Jefe de su División o el Jefe de un Encuadramiento se lo solicite, preparará la documentación individual que se le requiera para la mejor valoración del trabajo realizado en su Proyecto por cada persona que haya participado en el mismo.",
       "nivel": "parent",
       "parent_id": null,
@@ -708,10 +708,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "689e5664-12b3-43d5-87d0-e9325c8df54d",
+      "chunk_id": "ce708361-b8ce-4aa3-8b2a-2c7cfaea280d",
       "texto": "Para el personal asignado con plena dedicación a su Proyecto, el Jefe del Proyecto deberá dar el visto bueno a los permisos reglamentarios, y autorizar las vacaciones y la realización de viajes y de horas extraordinarias.\n\nCuando alguna persona deba desplazarse temporalmente, por necesidades de trabajo, el Jefe del Proyecto deberá solicitar al Jefe del Encuadramiento de la persona que se vaya a desplazar que tramite la Hoja de Desplazamiento, fijando con el acuerdo de ambos y con el Servicio de RR.HH. y Organización las condiciones económicas.\n\nRespecto al personal que simultáneamente trabaje a tiempo parcial en otros Proyectos, el Jefe   del   Proyecto,   indicará   sus   necesidades   de   viajes   y   horas   extraordinarias   y   la posibilidad   de   vacaciones   del   personal   al   Jefe   del   Departamento   o   Servicio correspondiente, para con éste resolver las dificultades que puedan existir con suficiente antelación.",
       "nivel": "child",
-      "parent_id": "11cc9f85-c6fe-4dbc-adad-80f99e5bbae7",
+      "parent_id": "95227155-5bb8-4684-9048-01318733be86",
       "pagina_inicio": 12,
       "pagina_fin": 12,
       "seccion": "3.10. Equipo de Proyecto. Régimen de funcionamiento",
@@ -724,10 +724,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5f4ba612-629d-46f0-9308-a3a7c2597f46",
+      "chunk_id": "2d251dc6-04b6-41b5-a426-e46e64a7f452",
       "texto": "El Jefe del Proyecto autorizará asímismo todos los gastos que se realicen con cargo al proyecto, incluso las liquidaciones de viajes.\n\nCuando, a iniciativa bien del Jefe del Proyecto o de un Jefe de Departamento, sea precisa o conveniente la subcontratación de servicios de ingeniería ó la contratación de colaboradores, será el Jefe del Departamento afectado quien realice estas gestiones, informando   al   Jefe   del   Proyecto   y   acordando   con   él   los   costes   admisibles.   La subcontratación se realizará según lo indicado en el Procedimiento PR-36.\n\nEl   Jefe   del   Proyecto   será   responsable,   con   la   participación   si   es   preciso   de   los Especialistas   Responsables   de   cuenta,   de   la   evaluación   del   personal   asignado   al Proyecto.",
       "nivel": "child",
-      "parent_id": "11cc9f85-c6fe-4dbc-adad-80f99e5bbae7",
+      "parent_id": "95227155-5bb8-4684-9048-01318733be86",
       "pagina_inicio": 12,
       "pagina_fin": 12,
       "seccion": "3.10. Equipo de Proyecto. Régimen de funcionamiento",
@@ -740,10 +740,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "826ac74b-a1fe-483f-b35b-232189811708",
+      "chunk_id": "e1346a89-ecb0-440e-87f9-b30afc01b1f2",
       "texto": "Cuando el Jefe de su División o el Jefe de un Encuadramiento se lo solicite, preparará la documentación individual que se le requiera para la mejor valoración del trabajo realizado en su Proyecto por cada persona que haya participado en el mismo.",
       "nivel": "child",
-      "parent_id": "11cc9f85-c6fe-4dbc-adad-80f99e5bbae7",
+      "parent_id": "95227155-5bb8-4684-9048-01318733be86",
       "pagina_inicio": 12,
       "pagina_fin": 12,
       "seccion": "3.10. Equipo de Proyecto. Régimen de funcionamiento",
@@ -756,7 +756,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6b8e2b99-7813-41f8-b451-abc9c62099df",
+      "chunk_id": "5ebfb653-9b65-4587-a9de-b00ef803235b",
       "texto": "La compra de equipos y materiales se realizará siguiendo el Procedimiento PR-50, fijando en el Plan de Calidad y Medio Ambiente, de acuerdo con el Departamento de Compras, las modalidades que sea oportuno establecer y las normas concretas, propias de cada encargo, que deban seguirse por exigencias del Contrato.\n\nComo responsable del Encargo, el Jefe del Proyecto debe definir, junto con el Jefe de Compras, las condiciones de compra y aprobar las listas de proveedores, las Relaciones de   Material   (RM),   los   estudios   comparativos   de   ofertas,   la   recomendación   de proveedores,   las   negociaciones   con   éstos,   los   pedidos   y   la   política   general   de penalidades a los proveedores a aplicar en el proyecto. Así mismo aprobará las facturas si así está fijado en el Plan de Calidad y Medio Ambiente.",
       "nivel": "parent",
       "parent_id": null,
@@ -771,7 +771,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "55e7404b-9c61-40f7-b9c8-43b77bedb591",
+      "chunk_id": "e42039a7-cd4c-4770-b55a-4e753a01661e",
       "texto": "La Subcontratación de obras y montajes se realizará siguiendo el Procedimiento PR-54, fijando en el Plan de Calidad y Medio Ambiente, de acuerdo con el Departamento de Construcción, las modalidades que sea oportuno establecer y las normas concretas, propias de cada encargo, que deban seguirse por exigencias del Contrato.\n\nComo responsable del Encargo, el Jefe del Proyecto debe definir, junto con el Jefe de Construcción, las condiciones de subcontratación y aprobar las listas de subcontratistas, las Relaciones de Material (RM), los estudios comparativos de ofertas, la recomendación de subcontratistas, las negociaciones con éstos,  los subcontratos y la política general de penalidades a los subcontratistas a aplicar en el proyecto.  Así mismo aprobará las facturas si así está fijado en el Plan de Calidad y Medio Ambiente .",
       "nivel": "parent",
       "parent_id": null,
@@ -786,7 +786,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "aac8dfd4-a01c-475e-b404-b1296aad6df1",
+      "chunk_id": "e1f44179-35a7-4117-b526-4a82638f210e",
       "texto": "Las actividades de construcción y montaje estarán bajo la responsabilidad de un Jefe de Obra, o en su defecto de un Supervisor Jefe, que dependerá del Jefe del Proyecto, y se llevarán a cabo de acuerdo con el Procedimiento PR-55.\n\nEl Departamento de Construcción será quien suministre el personal para la supervisión de construcción y montaje en planta, y quien asegure el funcionamiento correcto de la organización local que se necesite.\n\nEl   personal   de   Supervisión   actuará   de   acuerdo   con   los   documentos   aprobados,   y cumpliendo los programas del Proyecto y seguirá las instrucciones del Jefe de Obra, quien a su vez informará por escrito al Jefe del Proyecto de la marcha de los trabajos.\n\nEl Jefe del Proyecto podrá enviar Especialistas a obra para misiones concretas siempre que lo considere conveniente, cuidando de dar las instrucciones necesarias, tanto al Jefe de Obra como al Especialista, para mayor eficacia de la visita.\n\nEl Jefe del Proyecto se dirigirá al Jefe del Departamento de Construcción para todos aquellos problemas de competencia técnica o de funcionamiento que plantee la actuación del personal de obra.",
       "nivel": "parent",
       "parent_id": null,
@@ -801,10 +801,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "15942ab8-073c-4819-ac6e-b7695d6f05aa",
+      "chunk_id": "7bb517f3-2b22-439e-bf1f-99677f8bc890",
       "texto": "Las actividades de construcción y montaje estarán bajo la responsabilidad de un Jefe de Obra, o en su defecto de un Supervisor Jefe, que dependerá del Jefe del Proyecto, y se llevarán a cabo de acuerdo con el Procedimiento PR-55.\n\nEl Departamento de Construcción será quien suministre el personal para la supervisión de construcción y montaje en planta, y quien asegure el funcionamiento correcto de la organización local que se necesite.\n\nEl   personal   de   Supervisión   actuará   de   acuerdo   con   los   documentos   aprobados,   y cumpliendo los programas del Proyecto y seguirá las instrucciones del Jefe de Obra, quien a su vez informará por escrito al Jefe del Proyecto de la marcha de los trabajos.\n\nEl Jefe del Proyecto podrá enviar Especialistas a obra para misiones concretas siempre que lo considere conveniente, cuidando de dar las instrucciones necesarias, tanto al Jefe de Obra como al Especialista, para mayor eficacia de la visita.",
       "nivel": "child",
-      "parent_id": "aac8dfd4-a01c-475e-b404-b1296aad6df1",
+      "parent_id": "e1f44179-35a7-4117-b526-4a82638f210e",
       "pagina_inicio": 13,
       "pagina_fin": 13,
       "seccion": "3.13. Supervisión de construcción y montaje",
@@ -816,10 +816,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e4a10577-ac16-466c-962d-dabf01d051a9",
+      "chunk_id": "b457a77e-37d3-40c4-9af7-57d79f20038e",
       "texto": "El Jefe del Proyecto se dirigirá al Jefe del Departamento de Construcción para todos aquellos problemas de competencia técnica o de funcionamiento que plantee la actuación del personal de obra.",
       "nivel": "child",
-      "parent_id": "aac8dfd4-a01c-475e-b404-b1296aad6df1",
+      "parent_id": "e1f44179-35a7-4117-b526-4a82638f210e",
       "pagina_inicio": 13,
       "pagina_fin": 13,
       "seccion": "3.13. Supervisión de construcción y montaje",
@@ -831,7 +831,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "56bd715c-315c-4c31-98fb-423de40eb771",
+      "chunk_id": "8e2a1cae-8752-43bc-b3d4-d04cdc8b06cb",
       "texto": "Antes del comienzo de los trabajos, el Jefe del Proyecto, se asegurará con el Servicio de Control de Gestión de que la póliza del seguro de responsabilidad civil suscrita por Intecsa Industrial está en vigor y cubre todas las obligaciones contractuales. En caso contrario   será   responsable   de   que   por   el   Servicio   se   establezcan   los   pertinentes suplementos, imprescindibles en el caso de un Contrato \"llave en mano\"\n\nAdicionalmente, el Jefe del Proyecto verificará que los riesgos inherentes al tipo de contrato en cuestión están suficientemente cubiertos por la póliza anterior y las suscritas\n\npor el Cliente en su caso. Si considera que dicha cobertura es insuficiente o existen dudas de que el Cliente cubra su parte adecuadamente, el Jefe del Proyecto propondrá al Director de su División los suplementos correspondientes para asegurar dicha cobertura. La gestión de estos suplementos la realizará el Servicio de Control de Gestión.\n\nDurante la ejecución del Contrato, en caso de producirse incidencias que pudieran ser susceptibles de reclamación de la correspondiente indemnización del seguro, deberá documentarlo y comunicarlo al Servicio de Control de Gestión para su presentación a la Compañía Aseguradora, en el plazo y en la forma requeridos en la póliza. La urgencia en el primer aviso a la Compañía Aseguradora es vital.\n\nNo se tomará ninguna decisión ni se actuará sobre el siniestro sin la autorización previa de la Compañía Aseguradora.",
       "nivel": "parent",
       "parent_id": null,
@@ -846,10 +846,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c7a5c9d4-34f4-4324-a4d5-a555006d73c0",
+      "chunk_id": "c0568161-9f74-4c2e-a577-6be5b5fcca7d",
       "texto": "Antes del comienzo de los trabajos, el Jefe del Proyecto, se asegurará con el Servicio de Control de Gestión de que la póliza del seguro de responsabilidad civil suscrita por Intecsa Industrial está en vigor y cubre todas las obligaciones contractuales. En caso contrario   será   responsable   de   que   por   el   Servicio   se   establezcan   los   pertinentes suplementos, imprescindibles en el caso de un Contrato \"llave en mano\"\n\nAdicionalmente, el Jefe del Proyecto verificará que los riesgos inherentes al tipo de contrato en cuestión están suficientemente cubiertos por la póliza anterior y las suscritas\n\npor el Cliente en su caso. Si considera que dicha cobertura es insuficiente o existen dudas de que el Cliente cubra su parte adecuadamente, el Jefe del Proyecto propondrá al Director de su División los suplementos correspondientes para asegurar dicha cobertura. La gestión de estos suplementos la realizará el Servicio de Control de Gestión.",
       "nivel": "child",
-      "parent_id": "56bd715c-315c-4c31-98fb-423de40eb771",
+      "parent_id": "8e2a1cae-8752-43bc-b3d4-d04cdc8b06cb",
       "pagina_inicio": 13,
       "pagina_fin": 14,
       "seccion": "3.14. Seguros",
@@ -861,10 +861,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1216d42e-1149-41af-93bb-365a839438a3",
+      "chunk_id": "dbd38ee5-4081-49a4-944b-5704c503f06e",
       "texto": "La gestión de estos suplementos la realizará el Servicio de Control de Gestión.\n\nDurante la ejecución del Contrato, en caso de producirse incidencias que pudieran ser susceptibles de reclamación de la correspondiente indemnización del seguro, deberá documentarlo y comunicarlo al Servicio de Control de Gestión para su presentación a la Compañía Aseguradora, en el plazo y en la forma requeridos en la póliza. La urgencia en el primer aviso a la Compañía Aseguradora es vital.\n\nNo se tomará ninguna decisión ni se actuará sobre el siniestro sin la autorización previa de la Compañía Aseguradora.",
       "nivel": "child",
-      "parent_id": "56bd715c-315c-4c31-98fb-423de40eb771",
+      "parent_id": "8e2a1cae-8752-43bc-b3d4-d04cdc8b06cb",
       "pagina_inicio": 13,
       "pagina_fin": 14,
       "seccion": "3.14. Seguros",
@@ -876,7 +876,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f171a0a1-c879-4360-bdf7-c5fadd1a56cb",
+      "chunk_id": "9d8d1d5c-3aac-4872-b4fb-bf234d573351",
       "texto": "A la terminación de los trabajos el Jefe del Proyecto se encargará de que se prepare la documentación final para el Cliente, de acuerdo con los términos del Contrato.",
       "nivel": "parent",
       "parent_id": null,
@@ -891,7 +891,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "63375f05-6eeb-44b1-ab6c-b512810c32a1",
+      "chunk_id": "25dfcc02-1509-4351-a064-434a60fee009",
       "texto": "Aparte   de   las   fotografías   que   eventualmente   exija   el   Contrato,   cuando   se   realicen modelos o maquetas, antes de enviarlos al Cliente o a obra, se encargará a una firma especializada un reportaje fotográfico, a través del Servicio de Personal y Organización. En el caso de maqueta informática (CAD en tres dimensiones), pedirá al responsable del diseño de tuberías que, con auxilio del Servicio de Sistemas de Información, se prepare un reportaje que quedará a disposición del Servicio Comercial.\n\nAsimismo una vez finalizada la planta, y en el momento que el Jefe del Proyecto considere adecuado (previo consentimiento del Cliente, si fuese preciso), se encargará a través del mismo Servicio un reportaje fotográfico (convencional o digital) del conjunto de la misma.\n\nEn casos particulares puede ser conveniente también pedir fotografía de algún detalle notable, pero sin perder de vista que el reportaje tiene más carácter de referencia e ilustrativo que informativo.\n\nEl Jefe del Proyecto está obligado a enviar los originales del reportaje, debidamente identificados, al Servicio Comercial.",
       "nivel": "parent",
       "parent_id": null,
@@ -906,10 +906,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e1f76c54-f386-4374-b111-3d61720ade11",
+      "chunk_id": "a3705316-2c47-4d89-931d-518954c90679",
       "texto": "Aparte   de   las   fotografías   que   eventualmente   exija   el   Contrato,   cuando   se   realicen modelos o maquetas, antes de enviarlos al Cliente o a obra, se encargará a una firma especializada un reportaje fotográfico, a través del Servicio de Personal y Organización. En el caso de maqueta informática (CAD en tres dimensiones), pedirá al responsable del diseño de tuberías que, con auxilio del Servicio de Sistemas de Información, se prepare un reportaje que quedará a disposición del Servicio Comercial.\n\nAsimismo una vez finalizada la planta, y en el momento que el Jefe del Proyecto considere adecuado (previo consentimiento del Cliente, si fuese preciso), se encargará a través del mismo Servicio un reportaje fotográfico (convencional o digital) del conjunto de la misma.\n\nEn casos particulares puede ser conveniente también pedir fotografía de algún detalle notable, pero sin perder de vista que el reportaje tiene más carácter de referencia e ilustrativo que informativo.",
       "nivel": "child",
-      "parent_id": "63375f05-6eeb-44b1-ab6c-b512810c32a1",
+      "parent_id": "25dfcc02-1509-4351-a064-434a60fee009",
       "pagina_inicio": 14,
       "pagina_fin": 14,
       "seccion": "3.16. Reportaje fotográfico",
@@ -921,10 +921,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c6947368-9fc0-4f66-8c43-f00d0204fa29",
+      "chunk_id": "daee86b4-6af7-4faf-8d8a-5b6a0e7d510c",
       "texto": "El Jefe del Proyecto está obligado a enviar los originales del reportaje, debidamente identificados, al Servicio Comercial.",
       "nivel": "child",
-      "parent_id": "63375f05-6eeb-44b1-ab6c-b512810c32a1",
+      "parent_id": "25dfcc02-1509-4351-a064-434a60fee009",
       "pagina_inicio": 14,
       "pagina_fin": 14,
       "seccion": "3.16. Reportaje fotográfico",
@@ -936,7 +936,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ba33b59d-b973-4658-8d2b-edb1227984dd",
+      "chunk_id": "03d0b494-d0ab-4aaf-ac08-1b934ff86573",
       "texto": "Al finalizar los trabajos el Jefe de Proyecto debe mantener una reunión con el Equipo de Proyecto.\n\nEn esta reunión, a la que asistirán normalmente los Directores de División y los Jefes de los Departamentos de Compras y de Construcción, así como los Jefes de Calidad y Medio Ambiente y de Prevención de Riesgos Laborales, se analizará\n\n. Disfunciones ocurridas\n\n. Resultados alcanzados e incidencias\n\n. Problemas resueltos\n\n. Experiencias adquiridas\n\n. Aplicación y seguimiento del  Plan de Calidad y Medio Ambiente del Proyecto\n\n. Aplicación y seguimiento del Sistema de gestión de la prevención .\n\n. Consecución de objetivos\n\nDel acta de esta reunión se enviará copia a todos los convocados y a los Jefes de Departamento y Servicios afectados, los cuales, a su vez, la comentarán al personal en sus reuniones periódicas.\n\nLas reuniones de final de proyecto y final de obra podrán celebrarse separadamente o conjuntamente, a juicio del Director de la División de Operaciones.",
       "nivel": "parent",
       "parent_id": null,
@@ -952,10 +952,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b7322843-2a8e-4e4c-a863-9a9286ae7f69",
+      "chunk_id": "05794999-369e-46af-b0be-bec17fb80338",
       "texto": "Al finalizar los trabajos el Jefe de Proyecto debe mantener una reunión con el Equipo de Proyecto.\n\nEn esta reunión, a la que asistirán normalmente los Directores de División y los Jefes de los Departamentos de Compras y de Construcción, así como los Jefes de Calidad y Medio Ambiente y de Prevención de Riesgos Laborales, se analizará\n\n. Disfunciones ocurridas\n\n. Resultados alcanzados e incidencias\n\n. Problemas resueltos\n\n. Experiencias adquiridas\n\n. Aplicación y seguimiento del  Plan de Calidad y Medio Ambiente del Proyecto\n\n. Aplicación y seguimiento del Sistema de gestión de la prevención .\n\n. Consecución de objetivos\n\nDel acta de esta reunión se enviará copia a todos los convocados y a los Jefes de Departamento y Servicios afectados, los cuales, a su vez, la comentarán al personal en sus reuniones periódicas.",
       "nivel": "child",
-      "parent_id": "ba33b59d-b973-4658-8d2b-edb1227984dd",
+      "parent_id": "03d0b494-d0ab-4aaf-ac08-1b934ff86573",
       "pagina_inicio": 14,
       "pagina_fin": 15,
       "seccion": "3.17 Reuniones de cierre de Proyecto",
@@ -968,10 +968,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8ad3d6e5-8488-4611-baeb-9700da067f41",
+      "chunk_id": "6d64aca6-a76a-4b2f-9e08-d402c3a59746",
       "texto": "Las reuniones de final de proyecto y final de obra podrán celebrarse separadamente o conjuntamente, a juicio del Director de la División de Operaciones.",
       "nivel": "child",
-      "parent_id": "ba33b59d-b973-4658-8d2b-edb1227984dd",
+      "parent_id": "03d0b494-d0ab-4aaf-ac08-1b934ff86573",
       "pagina_inicio": 14,
       "pagina_fin": 15,
       "seccion": "3.17 Reuniones de cierre de Proyecto",
@@ -984,7 +984,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bafae14e-2ab2-484b-a932-8c081fba2cad",
+      "chunk_id": "5eec9839-30e3-4436-8d19-9ee49d84b2e1",
       "texto": "Recibido un encargo, el Servicio de Control de Gestión le asignará inmediatamente un número y le dará de alta en la base de datos del SIG. Posteriormente, junto con el Jefe del Proyecto procederá a complementar los datos del formato \"Orden de Trabajo\" y a hacer la valoración del encargo, en base a la hoja de valoración de Oferta (Hoja roja) y al Contrato, coordinadamente con el Servicio de Planificación y Control de Proyectos.\n\nLa  Orden   de   Trabajo,   debidamente   cumplimentada,   se   enviará   en   circulación   para aprobación, al Director de la División de Operaciones y Dirección General.\n\nUna vez firmada por Dirección General, el Servicio de Control de Gestión procederá a su edición,   enviando   copias   a   las   personas   y   Departamentos   y   Servicios   que   tienen asignadas   horas   en   la   Orden   de   Trabajo,   así   como   el   Director   de   la   División   de Operaciones y el Servicio de Planificación y Control de Proyectos.\n\nCuando proceda (PR-77), el Jefe del Servicio de Control de Gestión presentará al Jefe de Proyecto el \"Acta de inicio del control de gestión\" para su aprobación.",
       "nivel": "parent",
       "parent_id": null,
@@ -999,10 +999,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "aedc0500-e3db-4a6d-a82d-fe6fa4218756",
+      "chunk_id": "0bd5a471-316e-4bc6-8be4-333aaceaa05b",
       "texto": "Recibido un encargo, el Servicio de Control de Gestión le asignará inmediatamente un número y le dará de alta en la base de datos del SIG. Posteriormente, junto con el Jefe del Proyecto procederá a complementar los datos del formato \"Orden de Trabajo\" y a hacer la valoración del encargo, en base a la hoja de valoración de Oferta (Hoja roja) y al Contrato, coordinadamente con el Servicio de Planificación y Control de Proyectos.\n\nLa  Orden   de   Trabajo,   debidamente   cumplimentada,   se   enviará   en   circulación   para aprobación, al Director de la División de Operaciones y Dirección General.",
       "nivel": "child",
-      "parent_id": "bafae14e-2ab2-484b-a932-8c081fba2cad",
+      "parent_id": "5eec9839-30e3-4436-8d19-9ee49d84b2e1",
       "pagina_inicio": 15,
       "pagina_fin": 15,
       "seccion": "4.1. Apertura de encargos",
@@ -1014,10 +1014,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "87994569-6af6-4347-9377-a98f23d7c04d",
+      "chunk_id": "1c52817e-2a50-46bd-9e6d-9354a5f22427",
       "texto": "Una vez firmada por Dirección General, el Servicio de Control de Gestión procederá a su edición,   enviando   copias   a   las   personas   y   Departamentos   y   Servicios   que   tienen asignadas   horas   en   la   Orden   de   Trabajo,   así   como   el   Director   de   la   División   de Operaciones y el Servicio de Planificación y Control de Proyectos.\n\nCuando proceda (PR-77), el Jefe del Servicio de Control de Gestión presentará al Jefe de Proyecto el \"Acta de inicio del control de gestión\" para su aprobación.",
       "nivel": "child",
-      "parent_id": "bafae14e-2ab2-484b-a932-8c081fba2cad",
+      "parent_id": "5eec9839-30e3-4436-8d19-9ee49d84b2e1",
       "pagina_inicio": 15,
       "pagina_fin": 15,
       "seccion": "4.1. Apertura de encargos",
@@ -1029,7 +1029,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "638578c3-773d-4520-a6f5-b6f6f0b96166",
+      "chunk_id": "ccb13bcb-d037-4a24-bcc0-236f01b9c54f",
       "texto": "El Jefe del Proyecto pedirá al Servicio de Planificación y Control de Proyectos el cierre del   encargo,   comunicándolo   también   a   las   personas,   Divisiones,   Servicios   y Departamentos afectados.\n\nEl Jefe del Proyecto debe tener en cuenta, no obstante, que un encargo \"cerrado\" en el SIG sigue admitiendo ciertos   cargos,   pues   se   entiende   que   muchos   de   ellos,   aún aprobados previamente, llegan con retraso (viajes, reprografía, etc.) y en ocasiones ocurre lo mismo con las horas destinadas a la preparación del Libro Resumen del Proyecto.\n\nSi   una   vez   cerrado   un   encargo,   por   circunstancias   extraordinarias   exigiera   una ampliación, el Jefe del Proyecto debe comunicarlo al Servicio de Control de Gestión para que proceda a su reapertura.",
       "nivel": "parent",
       "parent_id": null,
@@ -1044,7 +1044,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "73523b08-69db-4e1b-902a-b2bd99632da0",
+      "chunk_id": "68107f94-4fa6-41ee-8f74-6382e33ef20f",
       "texto": "El Servicio de Planificación y Control de Proyectos realiza el control de los Contratos en función del tipo de los mismos (por administración o a precio fijo) y de su tamaño, de acuerdo con el PR-15.\n\nEl Servicio de Planificación y Control de Proyectos se responsabilizará ante el Jefe del Proyecto del seguimiento y control de su Proyecto de manera que le facilite la toma de decisiones frente a posibles desviaciones de plazo o costes. Independientemente, el Servicio   mantendrá   informados   de   la   marcha   del   Proyecto   en   los   aspectos   de   su competencia al Director de la División y al Servicio de Control de Gestión, que informará a la Dirección General\n\nEn Proyectos medianos y grandes (véase el PR-77) el Servicio de Planificación y Control de Proyectos mantendrá al día el documento \"Informe histórico de Proyectos\", en el que se reflejará la situación del contrato en el mes y a origen de los diferentes parámetros del mismo:   cobros,   facturación,   producción,   coste   directo   (coste   SIG),   coste   indirecto (obtenido mediante fórmula polinómica para cubrir los gastos generales de la empresa), beneficio actual, pendiente de cobro, beneficio final esperado y avances. Este documento será enviado por el Servicio de Planificación y Control de Proyectos al Jefe del Proyecto mensualmente,   puesto   al   día   incluso   con   las   modificaciones   al   presupuesto   inicial, cuando sean aprobadas.\n\nEl Servicio de Control de Gestión será el responsable de la custodia del original de los documentos contractuales del Encargo: contrato, pedido, etc.\n\nEl Servicio de Planificación y Control de Proyectos deberá recibir copia de todas las Ordenes de Cambio en tramitación y el original de la Ordenes de Cambio aceptadas, así como de cualquier   documento   contractual,   quedando   copia   en   poder   del   Jefe   del Proyecto. En todos los casos el Servicio facilitará al Jefe del Proyecto los costes directos mensuales habidos (costes SIG), tanto de personal como específicos individualizados para su verificación. Cualquier error detectado por el Jefe del Proyecto, se comunicará al Servicio  para   ser   subsanado   el   siguiente   mes.   En   caso   de   discrepancia   sobre   qué Servicio o Departamento debe soportar un cargo determinado, decidirán los Directores de las Divisiones afectadas.",
       "nivel": "parent",
       "parent_id": null,
@@ -1059,10 +1059,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bf1a5086-8b9e-4bb5-806b-d82d161d3ca1",
+      "chunk_id": "fa45a21a-18da-4574-b122-ee1ccd8c3d6a",
       "texto": "El Servicio de Planificación y Control de Proyectos realiza el control de los Contratos en función del tipo de los mismos (por administración o a precio fijo) y de su tamaño, de acuerdo con el PR-15.\n\nEl Servicio de Planificación y Control de Proyectos se responsabilizará ante el Jefe del Proyecto del seguimiento y control de su Proyecto de manera que le facilite la toma de decisiones frente a posibles desviaciones de plazo o costes.",
       "nivel": "child",
-      "parent_id": "73523b08-69db-4e1b-902a-b2bd99632da0",
+      "parent_id": "68107f94-4fa6-41ee-8f74-6382e33ef20f",
       "pagina_inicio": 16,
       "pagina_fin": 16,
       "seccion": "4.3. Control de Gestión de Ingeniería en un encargo",
@@ -1074,10 +1074,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "91574d14-bc19-4683-9042-2285e25df3cd",
+      "chunk_id": "ece44df5-d1e4-4c3e-85b0-a4ca09f9db4c",
       "texto": "Independientemente, el Servicio   mantendrá   informados   de   la   marcha   del   Proyecto   en   los   aspectos   de   su competencia al Director de la División y al Servicio de Control de Gestión, que informará a la Dirección General\n\nEn Proyectos medianos y grandes (véase el PR-77) el Servicio de Planificación y Control de Proyectos mantendrá al día el documento \"Informe histórico de Proyectos\", en el que se reflejará la situación del contrato en el mes y a origen de los diferentes parámetros del mismo:   cobros,   facturación,   producción,   coste   directo   (coste   SIG),   coste   indirecto (obtenido mediante fórmula polinómica para cubrir los gastos generales de la empresa), beneficio actual, pendiente de cobro, beneficio final esperado y avances.",
       "nivel": "child",
-      "parent_id": "73523b08-69db-4e1b-902a-b2bd99632da0",
+      "parent_id": "68107f94-4fa6-41ee-8f74-6382e33ef20f",
       "pagina_inicio": 16,
       "pagina_fin": 16,
       "seccion": "4.3. Control de Gestión de Ingeniería en un encargo",
@@ -1089,10 +1089,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5a5002df-9b58-46bf-97cb-d8204f5639c0",
+      "chunk_id": "1bffa4f9-07f0-46f3-9045-b2ac2b27b360",
       "texto": "Este documento será enviado por el Servicio de Planificación y Control de Proyectos al Jefe del Proyecto mensualmente,   puesto   al   día   incluso   con   las   modificaciones   al   presupuesto   inicial, cuando sean aprobadas.\n\nEl Servicio de Control de Gestión será el responsable de la custodia del original de los documentos contractuales del Encargo: contrato, pedido, etc.\n\nEl Servicio de Planificación y Control de Proyectos deberá recibir copia de todas las Ordenes de Cambio en tramitación y el original de la Ordenes de Cambio aceptadas, así como de cualquier   documento   contractual,   quedando   copia   en   poder   del   Jefe   del Proyecto. En todos los casos el Servicio facilitará al Jefe del Proyecto los costes directos mensuales habidos (costes SIG), tanto de personal como específicos individualizados para su verificación. Cualquier error detectado por el Jefe del Proyecto, se comunicará al Servicio  para   ser   subsanado   el   siguiente   mes.",
       "nivel": "child",
-      "parent_id": "73523b08-69db-4e1b-902a-b2bd99632da0",
+      "parent_id": "68107f94-4fa6-41ee-8f74-6382e33ef20f",
       "pagina_inicio": 16,
       "pagina_fin": 16,
       "seccion": "4.3. Control de Gestión de Ingeniería en un encargo",
@@ -1104,10 +1104,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ea465d76-6477-4db9-9d61-025c7f4b601a",
+      "chunk_id": "ce2013ea-9d4f-4b9e-98dc-b037c7ee5b50",
       "texto": "En   caso   de   discrepancia   sobre   qué Servicio o Departamento debe soportar un cargo determinado, decidirán los Directores de las Divisiones afectadas.",
       "nivel": "child",
-      "parent_id": "73523b08-69db-4e1b-902a-b2bd99632da0",
+      "parent_id": "68107f94-4fa6-41ee-8f74-6382e33ef20f",
       "pagina_inicio": 16,
       "pagina_fin": 16,
       "seccion": "4.3. Control de Gestión de Ingeniería en un encargo",
@@ -1119,7 +1119,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "beb630c9-8966-4835-a6a8-dd3a933bcbdb",
+      "chunk_id": "4a384ad6-f30a-46bb-b00f-823ae7c67ba2",
       "texto": "La facturación del encargo se realizará por el Servicio de Administración y Finanzas, siguiendo las instrucciones del Jefe del Proyecto, quien cumplimentará el formato \"Orden de   Facturación\"   (anexo),   de   acuerdo   con   la   IT-AF-01   Tratamiento   de   facturas   de Proveedores y Clientes.\n\nEl Jefe del Proyecto indicará al Servicio de Administración y Finanzas si debe enviarle a visar las facturas antes de su emisión.\n\nCon el fin de que la facturación no se demore, se evite la repetición de facturas, se obtenga la rápida aprobación del Cliente y se agilice el cobro, el Jefe del Proyecto debe ser consciente de su responsabilidad, de que el Servicio de Administración y Finanzas tenga los datos necesarios al día y de que tenga instrucciones suficientes para la correcta confección de las facturas, de modo que éstas salgan en su momento y no sean devueltas por los Clientes por defectos formales o de cualquier tipo.",
       "nivel": "parent",
       "parent_id": null,
@@ -1134,7 +1134,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3fb50628-0f68-4f19-90ad-30b768d65e43",
+      "chunk_id": "9ee8e5bf-c5c9-4193-9446-e405e0db9ad0",
       "texto": "El cobro se gestionará por el Servicio de Administración y Finanzas, que solicitará la ayuda del Jefe del Proyecto, solamente cuando tropiece con dificultades para realizarlo. El Jefe del Proyecto debe entonces colaborar cuanto sea necesario.\n\nEl Servicio enviará nota con los cobros recibidos al Jefe del Proyecto y al Servicio de Planificación y Control de Costes .",
       "nivel": "parent",
       "parent_id": null,
@@ -1149,7 +1149,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e3aeb056-82fd-4280-8fd8-8299bc734bf0",
+      "chunk_id": "57bc1c7d-a0f6-4764-b82b-e8545c17a5f9",
       "texto": "Los circuitos de aprobación de las facturas recibidas de proveedores, subcontratistas de obra y acreedores en general se describen en la IT-AF-01 Tratamiento de facturas de proveedores y clientes, en la cual se definen las responsabilidades y requisitos para la conformación y pago, así como quién debe recibir las facturas y a quien debe éste de informar   rápidamente   de   su   recepción   (además   del   Servicio   de   Administración   y Finanzas, que siempre debe ser automáticamente informado) y posterior aprobación en su caso\n\nSi se estima que procede la aplicación de una penalidad por incumplimiento u otro motivo a un proveedor o subcontratista, el jefe de Proyecto la decidirá en contacto con el Coordinador de Compras o el Gestor de Subcontratos, quienes antes de su notificación al afectado   (previa   a   su   ejecución   en   el   pago   correspondiente)   la   comunicarán respectivamente al Director de Operaciones y al Jefe del Departamento de Compras o de Construcción, por si pudieran resultar afectados otros proyectos en curso o la política de la Empresa.",
       "nivel": "parent",
       "parent_id": null,
@@ -1164,10 +1164,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8793298d-e832-4f49-a840-427dc16aacde",
+      "chunk_id": "3f0d54ab-972d-4a6d-8a93-10b761bfc9e5",
       "texto": "Los circuitos de aprobación de las facturas recibidas de proveedores, subcontratistas de obra y acreedores en general se describen en la IT-AF-01 Tratamiento de facturas de proveedores y clientes, en la cual se definen las responsabilidades y requisitos para la conformación y pago, así como quién debe recibir las facturas y a quien debe éste de informar   rápidamente   de   su   recepción   (además   del   Servicio   de   Administración   y Finanzas, que siempre debe ser automáticamente informado) y posterior aprobación en su caso\n\nSi se estima que procede la aplicación de una penalidad por incumplimiento u otro motivo a un proveedor o subcontratista, el jefe de Proyecto la decidirá en contacto con el Coordinador de Compras o el Gestor de Subcontratos, quienes antes de su notificación al afectado   (previa   a   su   ejecución   en   el   pago   correspondiente)   la   comunicarán respectivamente al Director de Operaciones y al Jefe del Departamento de Compras o de Construcción,",
       "nivel": "child",
-      "parent_id": "e3aeb056-82fd-4280-8fd8-8299bc734bf0",
+      "parent_id": "57bc1c7d-a0f6-4764-b82b-e8545c17a5f9",
       "pagina_inicio": 17,
       "pagina_fin": 17,
       "seccion": "* Facturación de proveedores",
@@ -1179,10 +1179,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b7d9fe8d-30e7-47c5-98c4-8b581b9a8771",
+      "chunk_id": "0b1576c9-72ec-45be-915a-f83b2c67c16b",
       "texto": "por si pudieran resultar afectados otros proyectos en curso o la política de la Empresa.",
       "nivel": "child",
-      "parent_id": "e3aeb056-82fd-4280-8fd8-8299bc734bf0",
+      "parent_id": "57bc1c7d-a0f6-4764-b82b-e8545c17a5f9",
       "pagina_inicio": 17,
       "pagina_fin": 17,
       "seccion": "* Facturación de proveedores",
@@ -1194,7 +1194,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "361f85aa-8c65-42db-98e9-d145a0461184",
+      "chunk_id": "d38aa1f7-0a25-476e-afbe-2872ac972b27",
       "texto": "El   Jefe   del   Proyecto,   por   sí   mismo   y   por   la   comunicación   de   los   Especialistas Responsables de cuenta según se establece en el PR-30, vigilará las modificaciones que se produzcan sobre el alcance o las condiciones del trabajo.\n\nCuando un cambio del que es responsable el Cliente pueda afectar al coste del Encargo, a su duración, o a otras cláusulas del Contrato, el Jefe del Proyecto debe ponerlo en conocimiento del Cliente y gestionar con él la forma de su tratamiento.\n\nEl Jefe del Proyecto deberá seguir en su actuación el Procedimiento de Ordenes de Cambio (PR-12), excepto cuando según el Contrato haya de utilizarse otro distinto. En este caso lo hará constar así expresamente en el Plan de Calidad y Medio Ambiente, e instruirá adecuadamente a las personas a quienes pueda afectar.\n\nEl Jefe del Proyecto exigirá que los Especialistas Responsables de cada cuenta cumplan con su obligación de comunicarle por escrito, a la mayor brevedad posible, todos los cambios que se originen en el trabajo por indicación del Cliente.",
       "nivel": "parent",
       "parent_id": null,
@@ -1209,10 +1209,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6cb48e00-7830-4710-9d88-d35ea46bceb5",
+      "chunk_id": "3d7228ed-3604-4e8a-a315-1b225d02c549",
       "texto": "El   Jefe   del   Proyecto,   por   sí   mismo   y   por   la   comunicación   de   los   Especialistas Responsables de cuenta según se establece en el PR-30, vigilará las modificaciones que se produzcan sobre el alcance o las condiciones del trabajo.\n\nCuando un cambio del que es responsable el Cliente pueda afectar al coste del Encargo, a su duración, o a otras cláusulas del Contrato, el Jefe del Proyecto debe ponerlo en conocimiento del Cliente y gestionar con él la forma de su tratamiento.\n\nEl Jefe del Proyecto deberá seguir en su actuación el Procedimiento de Ordenes de Cambio (PR-12), excepto cuando según el Contrato haya de utilizarse otro distinto. En este caso lo hará constar así expresamente en el Plan de Calidad y Medio Ambiente, e instruirá adecuadamente a las personas a quienes pueda afectar.",
       "nivel": "child",
-      "parent_id": "361f85aa-8c65-42db-98e9-d145a0461184",
+      "parent_id": "d38aa1f7-0a25-476e-afbe-2872ac972b27",
       "pagina_inicio": 18,
       "pagina_fin": 18,
       "seccion": "4.5. Cambios en el Proyecto",
@@ -1224,10 +1224,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fe0e6446-8a33-422a-9897-098a572f268f",
+      "chunk_id": "93b53ab5-70e2-4778-bbf6-b1ee46ead492",
       "texto": "El Jefe del Proyecto exigirá que los Especialistas Responsables de cada cuenta cumplan con su obligación de comunicarle por escrito, a la mayor brevedad posible, todos los cambios que se originen en el trabajo por indicación del Cliente.",
       "nivel": "child",
-      "parent_id": "361f85aa-8c65-42db-98e9-d145a0461184",
+      "parent_id": "d38aa1f7-0a25-476e-afbe-2872ac972b27",
       "pagina_inicio": 18,
       "pagina_fin": 18,
       "seccion": "4.5. Cambios en el Proyecto",
@@ -1239,7 +1239,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "33522369-ae07-43e3-970f-874166742c8f",
+      "chunk_id": "68fe5e4c-3791-4b89-8a76-e685a6ab4523",
       "texto": "El Jefe del Proyecto, en todo lo relativo a su encargo, cumplirá y exigirá que se cumplan los Procedimientos de archivo establecidos (PR-17) y que los documentos que le afecten estén correctamente identificados y ordenados y sean fácilmente localizables.\n\nEl Jefe del Proyecto se ocupará asímismo de que se prepare y envíe en su momento a través del Servicio de RR.HH. y Organización la documentación que deba pasar al Archivo Central así como al Servicio de Sistemas de Información de la documentación a conservar en medios informáticos .",
       "nivel": "parent",
       "parent_id": null,
@@ -1254,7 +1254,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fd319f1e-62ca-41cf-b9c6-880c6193a9c6",
+      "chunk_id": "af694110-fde9-4e49-99ba-17b143e0c5a4",
       "texto": "Una vez finalizados los trabajos, el Director de la División correspondiente remitirá un Cuestionario de Calidad al Cliente, tras consulta a la Dirección General.\n\nLa encuesta será enviada, con una carta de acompañamiento, al inmediato superior del responsable del Contrato por parte del Cliente, con copia al Jefe de Calidad y Medio Ambiente .\n\nLas contestaciones al Cuestionario, recibidas del Cliente, serán comunicadas por el Director de la División al Jefe del Proyecto, el cual a su vez las pondrá en conocimiento del Equipo de Proyecto. Una copia de las contestaciones se enviará al Jefe de Calidad y Medio Ambiente .",
       "nivel": "parent",
       "parent_id": null,
@@ -1269,7 +1269,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7f177c2b-cf2c-4ac6-857d-1907e8ab2295",
+      "chunk_id": "f7e3ba2c-ed29-4d66-ac43-301b268f2a43",
       "texto": "Cuando se deba firmar y visar un Proyecto, se seguirán las normas establecidas por la Dirección General y por el Colegio profesional correspondiente.\n\nSiempre que sea posible, de acuerdo con la legislación tributaria, es conveniente:\n\n-Que Intecsa Ingeniería Industrial figure como Cliente directo del o de los que firman el Proyecto. En el título del trabajo es donde puede indicarse, si ha lugar, el Cliente final.\n\n-Hacer constar, si los impresos lo permiten, que el firmante pertenece a Intecsa Ingeniería Industrial.\n\n-Acompañar, si el Colegio lo tiene establecido, el certificado, cuyo modelo se adjunta.\n\nCuando el Colegio exija el pago previo de honorarios para expedir el visado se consultará en cada caso concreto al Servicio de Planificación y Control de Proyectos .\n\nIntecsa Ingeniería Industrial, S.A.\n\nProyecto: Fábrica de componentes de automóvil para Auto, S.A.\n\nModelo de Certificado, cuando el Colegio lo tenga así establecido.\n\nD. ............................................................................................................   Director   de INTECSA- INGENIERÍA INDUSTRIAL, S.A.",
       "nivel": "parent",
       "parent_id": null,
@@ -1285,10 +1285,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ad19d332-ff58-4174-91f2-4710a1a8f36c",
+      "chunk_id": "f2ec93ef-eaaf-404b-ba61-73a0db00ce24",
       "texto": "Cuando se deba firmar y visar un Proyecto, se seguirán las normas establecidas por la Dirección General y por el Colegio profesional correspondiente.\n\nSiempre que sea posible, de acuerdo con la legislación tributaria, es conveniente:\n\n-Que Intecsa Ingeniería Industrial figure como Cliente directo del o de los que firman el Proyecto. En el título del trabajo es donde puede indicarse, si ha lugar, el Cliente final.\n\n-Hacer constar, si los impresos lo permiten, que el firmante pertenece a Intecsa Ingeniería Industrial.\n\n-Acompañar, si el Colegio lo tiene establecido, el certificado, cuyo modelo se adjunta.\n\nCuando el Colegio exija el pago previo de honorarios para expedir el visado se consultará en cada caso concreto al Servicio de Planificación y Control de Proyectos .\n\nIntecsa Ingeniería Industrial, S.A.\n\nProyecto: Fábrica de componentes de automóvil para Auto, S.A.\n\nModelo de Certificado, cuando el Colegio lo tenga así establecido.\n\nD.",
       "nivel": "child",
-      "parent_id": "7f177c2b-cf2c-4ac6-857d-1907e8ab2295",
+      "parent_id": "f7e3ba2c-ed29-4d66-ac43-301b268f2a43",
       "pagina_inicio": 19,
       "pagina_fin": 20,
       "seccion": "4.8. Visado de Proyectos",
@@ -1301,10 +1301,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "afbf510d-1d60-4f05-967c-1ab5a16808c9",
+      "chunk_id": "14a4e931-59f9-46a2-b50f-d7d5e822aa88",
       "texto": "Modelo de Certificado, cuando el Colegio lo tenga así establecido.\n\nD. ............................................................................................................   Director   de INTECSA- INGENIERÍA INDUSTRIAL, S.A.",
       "nivel": "child",
-      "parent_id": "7f177c2b-cf2c-4ac6-857d-1907e8ab2295",
+      "parent_id": "f7e3ba2c-ed29-4d66-ac43-301b268f2a43",
       "pagina_inicio": 19,
       "pagina_fin": 20,
       "seccion": "4.8. Visado de Proyectos",
@@ -1317,7 +1317,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b7e84e36-ebf4-4b07-bf1a-a07a415d724b",
+      "chunk_id": "b84694fd-3afa-4c9d-a94f-2e4781f6b5a6",
       "texto": "que, D. ................................................................................................................................. Ingeniero (o lo que proceda), pertenece a la plantilla de esta Empresa y como empleado de la misma   ha   firmado   el   \"Proyecto   de   ...........................................................................   para (Cliente)\" sin percibir honorarios por ello.\n\nFecha, firma y sello",
       "nivel": "parent",
       "parent_id": null,
@@ -1332,7 +1332,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "545c4576-dc07-4fa2-946d-97bf16883400",
+      "chunk_id": "6567dfe7-5a34-4aa7-bc5d-b06e40ba9075",
       "texto": "Hoja \"Orden de Trabajo\"    (MI-83)",
       "nivel": "parent",
       "parent_id": null,
@@ -1347,7 +1347,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c48e88d5-5315-4043-a616-89156edf2fb4",
+      "chunk_id": "228630c7-6437-4631-ae0b-034fba322f39",
       "texto": "Hoja \"Orden de Facturación\"    (MI-90)\n\nPreparar la documentación necesaria, puesta al día, para la reunión",
       "nivel": "parent",
       "parent_id": null,
