@@ -1,3 +1,4 @@
+"""Query endpoint — streams RAG responses via Server-Sent Events."""
 from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
@@ -16,6 +17,11 @@ class QueryRequest(BaseModel):
 
 @router.post("/query")
 async def query(req: QueryRequest) -> StreamingResponse:
+    """Execute a RAG query and stream the response as SSE.
+
+    Event types emitted: ``token`` (incremental text), ``sources`` (citations
+    JSON array), ``done`` (stream end), ``error`` (on failure).
+    """
     return StreamingResponse(
         ejecutar_query(
             query=req.query,

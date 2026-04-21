@@ -1,3 +1,4 @@
+"""Projects endpoint — lists available document collections."""
 from fastapi import APIRouter
 
 from app.rag.vector_store import colecciones_disponibles
@@ -7,7 +8,11 @@ router = APIRouter()
 
 @router.get("/projects")
 def projects() -> list[dict]:
-    """Lista los scopes disponibles (colecciones con documentos indexados)."""
+    """Return all indexed scopes (ChromaDB collections, excluding __parents).
+
+    Each scope is either the global corporate corpus or a client project.
+    The client infers the scope type from the presence of ``proyecto_id``.
+    """
     scopes = []
     for nombre in colecciones_disponibles():
         if nombre == "intecsa":

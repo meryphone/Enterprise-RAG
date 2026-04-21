@@ -1,5 +1,8 @@
-"""Configuración central del sistema.
-El flag ENV decide qué clientes se instancian; el código de negocio no lo sabe.
+"""Central configuration loaded from environment variables.
+
+All settings are read once at import time via ``Settings.from_env()``.
+Production (Azure) swaps OpenAI direct calls for Azure OpenAI Service;
+no other code needs to change.
 """
 from __future__ import annotations
 
@@ -23,21 +26,21 @@ PARSED_DIR = DATA_DIR / "parsed"  # salida del pipeline de ingesta (JSON inspect
 @dataclass(frozen=True)
 class Settings:
     env: str                        # "local" | "production"
-    openai_api_key: str | None      # clave OpenAI (dev) o None si no hay
-    llm_model: str                  # modelo para vision / extracción
-    embedding_model: str            # modelo de embeddings (mismo en dev y prod)
-    child_chunk_tokens: int         # tamaño aproximado child chunk
-    parent_chunk_tokens: int        # tamaño aproximado parent chunk
-    enable_vision: bool             # si False, se omiten llamadas GPT-4o vision
-    chroma_api_key: str | None      # ChromaDB cloud API key
-    chroma_tenant: str | None       # ChromaDB tenant ID
+    openai_api_key: str | None      # OpenAI key (dev) or None when absent
+    llm_model: str                  # Chat model for generation and vision
+    embedding_model: str            # Embedding model — identical in dev and prod
+    child_chunk_tokens: int         # Target token size for child chunks
+    parent_chunk_tokens: int        # Target token size for parent chunks
+    enable_vision: bool             # Whether to call GPT-4o vision for images/tables
+    chroma_api_key: str | None      # ChromaDB Cloud API key
+    chroma_tenant: str | None       # ChromaDB Cloud tenant ID
     chroma_database: str            # ChromaDB database name
-    cohere_api_key: str | None      # Cohere API key para rerank
-    cohere_rerank_model: str        # modelo de rerank (multilingüe)
-    retrieval_top_k: int            # candidatos tras fusión híbrida
-    retrieval_top_n: int            # resultados finales tras rerank
-    retrieval_peso_vector: float    # peso de la señal vectorial en la fusión
-    retrieval_peso_bm25: float      # peso de la señal BM25 en la fusión
+    cohere_api_key: str | None      # Cohere API key for reranking
+    cohere_rerank_model: str        # Cohere rerank model identifier
+    retrieval_top_k: int            # Candidate pool size after hybrid fusion
+    retrieval_top_n: int            # Final results returned after rerank
+    retrieval_peso_vector: float    # Weight for vector score in fusion (0–1)
+    retrieval_peso_bm25: float      # Weight for BM25 score in fusion (0–1)
 
     @classmethod
     def from_env(cls) -> "Settings":

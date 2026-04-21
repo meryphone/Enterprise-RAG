@@ -1,4 +1,8 @@
-"""Aplicación FastAPI — punto de entrada del backend."""
+"""FastAPI application entry point.
+
+Registers API routers and CORS middleware. Business logic lives in
+``app.ingestion``, ``app.rag``, and ``app.api``; this file only wires them up.
+"""
 from __future__ import annotations
 
 import logging
