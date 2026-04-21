@@ -1,11 +1,11 @@
-"""Procesamiento por tipo de elemento Docling.
+"""Element extraction from a parsed DoclingDocument.
 
-Recorremos los items de un `DoclingDocument` y los convertimos en una lista lineal
-de `ElementoProcesado`: la unidad mínima que el chunker ve. En este paso decidimos
-qué hacer con cada tipo (texto tal cual, tabla a Markdown, imagen descrita por
-visión) y aplicamos la regla de fusión texto-imagen.
+Iterates the items of a DoclingDocument and converts them into a flat list of
+ElementoProcesado — the unit the chunker consumes. Decides per element type
+what to do: pass text as-is, export tables to Markdown, describe images with
+GPT-4o vision, and apply the text-image merge rule.
 
-Aún no se construyen chunks finales: sólo elementos "listos para chunkear".
+No chunks are produced here; only elements ready to be chunked.
 """
 from __future__ import annotations
 
@@ -37,39 +37,43 @@ from app.ingestion.patterns import (
     PATRON_TITULO,
 )
 
-# Longitud mínima en caracteres para que un fragmento de texto se considere
-# contenido útil y no ruido de maquetación.
+# Minimum character length for a text fragment to be considered useful content
+# rather than layout noise.
 _MIN_LEN_TEXTO = 20
 
-# Número máximo de ítems a escanear buscando metadatos de cabecera
+# Maximum number of items to scan when looking for header metadata.
 _MAX_ITEMS_CABECERA = 35
 
 
-# ── Metadatos de cabecera ────────────────────────────────────────────────────
+# ── Header metadata ──────────────────────────────────────────────────────────
 
 @dataclass
 class MetadatosDocumento:
-    """Metadatos extraídos automáticamente de la cabecera del documento.
+    """Metadata automatically extracted from the document header.
 
-    Estos campos son comunes a todos los chunks del mismo documento y no
-    deben aparecer en el texto de ningún chunk.
+    These fields are shared across all chunks from the same document and must
+    not appear in the text of any chunk.
     """
 
     titulo: str | None = None
     edicion: str | None = None
-    fecha_emision: str | None = None       # reservado, no se extrae por ahora
+    fecha_emision: str | None = None       # reserved, not extracted yet
 
 
 def extraer_metadatos_documento(doc: DoclingDocument) -> MetadatosDocumento:
-    """Itera los primeros ítems del documento y detecta metadatos de cabecera.
+    """Extract title and edition from the first items of the document.
 
-    Lógica de extracción:
-    - **Título**: primer `SectionHeaderItem` en los primeros 35 ítems que cumpla
-      el patrón de título (texto largo en mayúsculas, más de una palabra).
-    - **Edición**: primer ítem que contenga la palabra EDICION/EDICIÓN/EDITION.
-      Si el número sigue en el mismo ítem ("EDICION 6 HOJA 2 DE 10"), se extrae
-      directamente. Si el ítem es solo "EDICION", el siguiente ítem numérico es
-      la edición.
+    - **Title**: first SectionHeaderItem in the first 35 items that matches
+      PATRON_TITULO (long uppercase text, more than one word).
+    - **Edition**: first item containing EDICION/EDITION. If the number follows
+      on the same item ("EDICION 6 HOJA 2 DE 10"), it is extracted directly;
+      otherwise the next numeric-only item is used.
+
+    Args:
+        doc: Parsed DoclingDocument from Docling.
+
+    Returns:
+        MetadatosDocumento with title and edition populated where found.
     """
     meta = MetadatosDocumento()
 
@@ -110,16 +114,16 @@ def extraer_metadatos_documento(doc: DoclingDocument) -> MetadatosDocumento:
     return meta
 
 
-# ── Dataclasses de salida ────────────────────────────────────────────────────
+# ── Output dataclasses ───────────────────────────────────────────────────────
 
 
 @dataclass
 class ElementoProcesado:
-    """Elemento listo para entrar al chunker.
+    """Element ready to enter the chunker.
 
-    `texto` es el contenido textual final (ya con fusiones aplicadas). Los campos
-    `pagina`, `seccion`, `tipo_elemento`, `es_imagen` y `dentro_de_anexo` se
-    propagarán a los metadatos de los chunks resultantes.
+    `texto` is the final textual content (merges already applied). The fields
+    `pagina`, `seccion`, `tipo_elemento`, `es_imagen`, and `dentro_de_anexo` are
+    propagated to the metadata of the resulting chunks.
     """
 
     texto: str
@@ -128,11 +132,11 @@ class ElementoProcesado:
     tipo_elemento: str                     # Title, NarrativeText, ListItem, Table, Image
     es_imagen: bool = False
     dentro_de_anexo: bool = False
-    indivisible: bool = False              # Para hierarchical chunking: las tablas son indivisibles y lo indicamos aquí.
-    tabla_degradada: bool = False          # True cuando la tabla tiene celdas fusionadas que Docling no pudo separar.
+    indivisible: bool = False              # For hierarchical chunking: tables are indivisible.
+    tabla_degradada: bool = False          # True when the table has merged cells that Docling could not separate.
 
 
-# ── Utilidades internas ──────────────────────────────────────────────────────
+# ── Internal utilities ───────────────────────────────────────────────────────
 
 
 def _pagina_de(item) -> int | None:
@@ -141,9 +145,9 @@ def _pagina_de(item) -> int | None:
     return None
 
 
-# Palabras que solo pueden aparecer en cabeceras de página, nunca en contenido real.
-# Cualquier token que no esté aquí, no sea un número y no sea un código de documento
-# indica que el TextItem tiene contenido legítimo.
+# Words that can only appear in page headers, never in real content.
+# Any token not in this set, not a number, and not a document code
+# indicates that the TextItem has legitimate content.
 _PALABRAS_CABECERA = frozenset({
     "EDICION", "EDICIÓN", "EDITION",
     "REVISION", "REVISIÓN",
@@ -153,12 +157,12 @@ _PALABRAS_CABECERA = frozenset({
 })
 
 def _es_fragmento_cabecera_puro(texto: str) -> bool:
-    """True si el TextItem contiene únicamente tokens de cabecera de página.
+    """True if the TextItem contains only page-header tokens.
 
-    Tokens válidos: palabras de `_PALABRAS_CABECERA`, números puros y códigos de
-    documento (PR-01, 13187-IT-01...). Requiere al menos un token "fuerte"
-    (cualquier cosa que no sea solo DE/OF y números) para evitar filtrar frases
-    cortas que accidentalmente se compongan solo de esas palabras.
+    Valid tokens: words from `_PALABRAS_CABECERA`, pure numbers, and document
+    codes (PR-01, 13187-IT-01...). Requires at least one "strong" token
+    (anything other than just DE/OF and numbers) to avoid filtering short phrases
+    that accidentally consist only of those words.
     """
     tokens = texto.split()
     if not tokens:
@@ -175,31 +179,23 @@ def _es_fragmento_cabecera_puro(texto: str) -> bool:
         if PATRON_CODIGO_DOC.match(t):
             tiene_indicador_fuerte = True
             continue
-        return False  # token con contenido real → no es cabecera pura
+        return False  # token with real content → not a pure header
     return tiene_indicador_fuerte
 
 
-# ── API pública ──────────────────────────────────────────────────────────────
+# ── Public API ───────────────────────────────────────────────────────────────
 
 
 def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -> list[ElementoProcesado]:
-    """Recorre el DoclingDocument y produce la lista plana de elementos.
+    """Convert all items in a DoclingDocument into a flat list of ElementoProcesado.
 
-    Reglas aplicadas → "Procesado por tipo de elemento":
+    Args:
+        doc: Parsed DoclingDocument.
+        es_anexo_documento: True when the whole file is classified as an annex,
+            so all elements start with dentro_de_anexo=True.
 
-    - Ítems de cabecera (título, edición) → excluidos del chunking.
-    - Sección de índice → todo su contenido se descarta.
-    - SectionHeaderItem que coincida con PATRON_PIE_PAGINA → se descarta sin
-      actualizar seccion_actual (evita que un pie de página actúe como sección).
-    - Títulos / texto narrativo / list items → texto tal cual que Docling extrajo,
-      limpiando ítems que contienen el patrón de cabecera repetida.
-    - Tablas → se exportan a Markdown.
-    - Imágenes → llamada a visión o descripción de Docling.
-    - Fusión texto-imagen: si una imagen aparece contigua a un elemento de texto
-      en la misma página, fusionamos la descripción visual en el chunk de texto
-      con la etiqueta `[Descripción visual: ...]`.
-    - Si el título de sección contiene ANEXO/APPENDIX/ANNEX, marcamos los
-      elementos posteriores de esa sección como `dentro_de_anexo`.
+    Returns:
+        List of ElementoProcesado in document order, ready for chunking.
     """
     resultado: list[ElementoProcesado] = []
 
@@ -210,12 +206,12 @@ def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -
     _titulo_norm = re.sub(r"\s+", " ", meta.titulo).upper() if meta.titulo else None
 
     seccion_actual: str | None = None
-    dentro_de_anexo = es_anexo_documento  # sticky: solo pasa de False → True
+    dentro_de_anexo = es_anexo_documento  # sticky: only transitions False → True
     dentro_de_indice = False
     pagina_anterior = 0
 
-    # Contadores de diagnóstico — resuelven la pregunta "¿Docling no detecta
-    # la imagen o el pipeline la descarta?". Se vuelcan a stderr al final.
+    # Diagnostic counters — answer "did Docling not detect the image, or did
+    # the pipeline discard it?". Dumped to stderr at the end.
     pic_total = 0
     pic_logo = 0
     pic_sin_descripcion = 0
@@ -225,43 +221,43 @@ def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -
     for item, _level in doc.iterate_items():
         pagina = _pagina_de(item)
 
-        # --- Cabeceras de sección: actualizan el contexto, no emiten chunk ----
+        # --- Section headings: update context, do not emit a chunk ----
         if isinstance(item, SectionHeaderItem):
             texto_seccion = (item.text or "").strip()
-            # Ignorar títulos que son pies/cabeceras de página repetidos
+            # Ignore headings that are repeated page headers/footers
             if texto_seccion and PATRON_PIE_PAGINA.match(texto_seccion):
                 continue
-            # Ignorar el titulo de la cabecera que rompe la seccion actual
+            # Ignore the document title heading that would reset the current section
             if _titulo_norm and _titulo_norm in texto_seccion.upper():
                 continue
-            # Docling a veces concatena número y título: "3.NOTAS" → "3. NOTAS"
+            # Docling sometimes concatenates number and title: "3.NOTES" → "3. NOTES"
             texto_seccion = PATRON_NUMERO_TITULO.sub(r"\1 \2", texto_seccion)
             seccion_actual = texto_seccion or seccion_actual
             if not dentro_de_anexo:
                 dentro_de_anexo = bool(seccion_actual and PATRON_ANEXO.search(seccion_actual))
             dentro_de_indice = bool(seccion_actual and PATRON_INDICE.match(seccion_actual))
-            continue  # solo actualiza contexto, no genera chunk propio
+            continue  # only updates context, does not produce a chunk
 
-        # --- Sección de índice: descartar todo su contenido -------------------
+        # --- Table-of-contents section: discard all content ------------------
         if dentro_de_indice:
             continue
 
-        # --- Texto narrativo y list items -------------------------------------
+        # --- Narrative text and list items -----------------------------------
         if isinstance(item, (TextItem, ListItem)):
             texto = (item.text or "").strip()
             if not texto:
                 continue
-            # Filtrar ruido de cabecera/pie de página:
-            if PATRON_CABECERA.search(texto):          # "EDICION 6 HOJA 7 DE 10" completo
+            # Filter header/footer noise:
+            if PATRON_CABECERA.search(texto):          # full "EDICION 6 HOJA 7 DE 10" block
                 continue
-            if PATRON_PIE_PAGINA.match(texto):         # código solo, "HOJA X DE Y", edición sola…
+            if PATRON_PIE_PAGINA.match(texto):         # bare code, "HOJA X DE Y", bare edition…
                 continue
-            if _es_fragmento_cabecera_puro(texto):     # cabecera fragmentada multilinea
+            if _es_fragmento_cabecera_puro(texto):     # fragmented multi-token header
                 continue
-            # Filtrar repeticiones del título del documento
+            # Filter repetitions of the document title
             if _titulo_norm and re.sub(r"\s+", " ", texto).upper() == _titulo_norm:
                 continue
-            # Filtrar textos demasiado cortos para ser contenido útil solo si no es un ListItem
+            # Filter texts too short to be useful content, unless it is a ListItem
             if len(texto) < _MIN_LEN_TEXTO and not isinstance(item, ListItem):
                 continue
             tipo = "ListItem" if isinstance(item, ListItem) else "NarrativeText"
@@ -276,9 +272,9 @@ def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -
             )
             continue
 
-        # --- Tablas -----------------------------------------------------------
-        # La cabecera del documento aparece a veces detectada como primer TableItem de
-        # cada pagina, la ignoramos.
+        # --- Tables -----------------------------------------------------------
+        # The document header is sometimes detected as the first TableItem on
+        # each page; we skip it.
         if isinstance(item, TableItem):
             if pagina is not None and pagina != pagina_anterior:
                 pagina_anterior = pagina
@@ -288,31 +284,31 @@ def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -
             except TypeError:
                 md = item.export_to_markdown()
             md = md.strip()
-            # Docling a veces envuelve la tabla en code fences (```markdown ... ```)
+            # Docling sometimes wraps the table in code fences (```markdown ... ```)
             if md.startswith("```"):
                 md = re.sub(r"^```[a-z]*\n?", "", md)
                 md = re.sub(r"\n?```$", "", md)
                 md = md.strip()
-            # Docling embebe imágenes como data URIs base64 en celdas de tabla.
-            # Conservamos solo el alt text (nombre del símbolo que Docling reconoció).
+            # Docling embeds images as base64 data URIs in table cells.
+            # Keep only the alt text (symbol name that Docling recognised).
             md = re.sub(r"!\[([^\]]*)\]\(data:[^)]+\)", r"\1", md)
 
-            # Detectamos tablas degradadas con celdas fusionadas que rompen el Markdown.
+            # Detect degraded tables with merged cells that break the Markdown.
             degradada = bool(PATRON_TABLA_DEGRADADA.search(md))
 
-            seccion_tabla = seccion_actual  # puede sobreescribirse con el título extraído por visión
+            seccion_tabla = seccion_actual  # may be overridden by vision-extracted title
 
             if SETTINGS.enable_vision:
                 from app.ingestion import vision as mod_vision
                 if seccion_actual is None:
-                    # Sin sección de contexto: visión extrae título propio de la tabla + contenido.
+                    # No context section: vision extracts the table's own title + content.
                     descripcion, titulo_tabla = mod_vision.describir_tabla_sin_seccion(item, doc)
                     if descripcion:
                         md = descripcion
                     if titulo_tabla:
                         seccion_tabla = titulo_tabla
                 elif degradada:
-                    # Con sección conocida pero tabla degradada: solo mejorar el contenido.
+                    # Known section but degraded table: only improve the content.
                     descripcion = mod_vision.describir_tabla(item, doc)
                     if descripcion:
                         md = descripcion
@@ -330,35 +326,34 @@ def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -
             )
             continue
 
-        # --- Imágenes ---------------------------------------------------------
+        # --- Images -----------------------------------------------------------
         if isinstance(item, PictureItem):
-            # El logo corporativo aparece en la cabecera de cada página como primer
-            # PictureItem. Lo detectamos por cambio de página: si es la primera imagen
-            # que vemos en esta página, la saltamos. pagina_anterior se actualiza aquí
-            # (no fuera del bloque) para que la segunda imagen de la misma página sí
-            # se procese correctamente.
+            # The corporate logo appears in the page header as the first PictureItem.
+            # We detect it by page change: if it is the first image seen on this page,
+            # we skip it. pagina_anterior is updated here (not outside the block) so
+            # that a second image on the same page is still processed.
             if pagina is not None and pagina != pagina_anterior:
                 pagina_anterior = pagina
                 pic_logo += 1
                 continue
             pic_total += 1
 
-            # Descripción generada por Docling durante el parseo vía GPT-4o
-            # (PictureDescriptionApiOptions en parser.py). Si Docling no la
-            # generó (visión desactivada o error de red), descartamos la imagen.
+            # Description generated by Docling during parsing via GPT-4o
+            # (PictureDescriptionApiOptions in parser.py). If Docling did not
+            # generate it (vision disabled or network error), discard the image.
             descripcion: str | None = None
             for ann in item.get_annotations():
                 if isinstance(ann, DescriptionAnnotation) and ann.text.strip():
                     descripcion = ann.text.strip()
                     break
 
-            # Sin descripción disponible → descartar la imagen.
+            # No description available → discard the image.
             if descripcion is None:
                 pic_sin_descripcion += 1
                 continue
 
-            # ¿Fusión con el texto previo? Condiciones: mismo número de página y
-            # el elemento anterior es texto narrativo o list item.
+            # Merge with previous text? Conditions: same page number and
+            # previous element is narrative text or list item.
             if (
                 resultado
                 and resultado[-1].pagina == pagina
@@ -370,7 +365,7 @@ def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -
                 pic_fusionada += 1
                 continue
 
-            # Sin fusión posible → chunk standalone.
+            # No merge possible → standalone chunk.
             resultado.append(
                 ElementoProcesado(
                     texto=f"[Descripción visual: {descripcion}]",
@@ -384,8 +379,8 @@ def procesar_documento(doc: DoclingDocument, es_anexo_documento: bool = False) -
             pic_standalone += 1
             continue
 
-        # Cualquier otro tipo de elemento de Docling lo ignoramos por ahora.
-        # (Ej.: formula, code, key-value, etc. — no aparecen en el corpus Intecsa).
+        # Any other Docling element type is ignored for now.
+        # (e.g. formula, code, key-value, etc. — not present in the Intecsa corpus).
 
     print(
         f"[elementos] PictureItem: total={pic_total} "

@@ -1,4 +1,16 @@
-"""Llamadas directas a GPT-4o vision para elementos que Docling no puede representar en texto."""
+"""GPT-4o vision calls for elements that Docling cannot represent as text.
+
+Used in two scenarios:
+- Degraded tables (merged cells detected by PATRON_TABLA_DEGRADADA): the table
+  image is sent to GPT-4o with PROMPT_TABLA_DEGRADADA for a faithful Markdown
+  transcription.
+- Standalone images (when ENABLE_VISION=1): described with PROMPT_DESCRIPCION_IMAGEN.
+
+Image retrieval priority for tables:
+    1. Docling crop (item.get_image) — best quality when available.
+    2. Manual crop using the bounding box from prov on the page image.
+    3. Full page image — last resort.
+"""
 from __future__ import annotations
 
 import base64
@@ -16,17 +28,17 @@ from app.ingestion.prompts import PROMPT_TABLA_DEGRADADA, PROMPT_TABLA_SIN_SECCI
 if TYPE_CHECKING:
     from PIL import Image as PILImage
 
-_CROP_PADDING_PX = 30  # píxeles extra alrededor del recorte de tabla
+_CROP_PADDING_PX = 30  # extra pixels around the table crop
 
 
 def _obtener_imagen_tabla(item: TableItem, doc: DoclingDocument) -> "PILImage.Image | None":
-    """Devuelve la imagen más enfocada posible de la tabla, en este orden:
+    """Return the most focused image available for the table, in priority order:
 
-    1. Crop automático de Docling (item.get_image) — el mejor cuando funciona.
-    2. Crop manual usando el bounding box de prov sobre la imagen de página.
-    3. Imagen de página completa — último recurso.
+    1. Docling automatic crop (item.get_image) — best when it works.
+    2. Manual crop using the prov bounding box on the page image.
+    3. Full page image — last resort.
     """
-    # ── 1. Crop de Docling ────────────────────────────────────────────────────
+    # ── 1. Docling crop ───────────────────────────────────────────────────────
     imagen = item.get_image(doc, prov_index=0)
     if imagen is not None:
         return imagen
@@ -47,9 +59,9 @@ def _obtener_imagen_tabla(item: TableItem, doc: DoclingDocument) -> "PILImage.Im
     if imagen_pagina is None:
         return None
 
-    # ── 2. Crop manual con bounding box ──────────────────────────────────────
-    # BoundingBox de Docling usa coordenadas PDF: origen abajo-izquierda,
-    # y crece hacia arriba. PIL usa origen arriba-izquierda, y crece hacia abajo.
+    # ── 2. Manual crop with bounding box ─────────────────────────────────────
+    # Docling BoundingBox uses PDF coordinates: origin bottom-left, grows upward.
+    # PIL uses origin top-left, grows downward.
     try:
         bbox = prov.bbox
         page_size = getattr(page, "size", None)
@@ -66,21 +78,26 @@ def _obtener_imagen_tabla(item: TableItem, doc: DoclingDocument) -> "PILImage.Im
             if right > left and bottom > top:
                 return imagen_pagina.crop((left, top, right, bottom))
     except Exception as e:
-        print(f"[vision] crop manual falló: {e}", file=sys.stderr)
+        print(f"[vision] manual crop failed: {e}", file=sys.stderr)
 
-    # ── 3. Página completa ────────────────────────────────────────────────────
+    # ── 3. Full page ─────────────────────────────────────────────────────────
     return imagen_pagina
 
 
 def describir_tabla(item: TableItem, doc: DoclingDocument) -> str | None:
-    """Describe una tabla degradada vía GPT-4o vision.
+    """Describe a degraded table via GPT-4o vision.
 
-    Intenta obtener el crop más enfocado posible (ver _obtener_imagen_tabla).
-    Devuelve el Markdown de la tabla, o None si no hay imagen o la API falla.
+    Returns the Markdown transcription produced by the LLM, or None if no
+    image could be obtained or the API call fails.
+
+    Args:
+        item: Docling TableItem with prov metadata.
+        doc: Parent DoclingDocument (used to retrieve page images).
+        seccion: Current section heading, used to select the prompt variant.
     """
     imagen = _obtener_imagen_tabla(item, doc)
     if imagen is None:
-        print("[vision] describir_tabla: sin imagen disponible", file=sys.stderr)
+        print("[vision] describir_tabla: no image available", file=sys.stderr)
         return None
 
     buf = io.BytesIO()
@@ -107,23 +124,23 @@ def describir_tabla(item: TableItem, doc: DoclingDocument) -> str | None:
             texto = texto.strip()
         return texto or None
     except Exception as e:
-        print(f"[vision] describir_tabla falló: {e}", file=sys.stderr)
+        print(f"[vision] describir_tabla failed: {e}", file=sys.stderr)
         return None
 
 
 def describir_tabla_sin_seccion(
     item: TableItem, doc: DoclingDocument
 ) -> tuple[str | None, str | None]:
-    """Describe una tabla sin sección de contexto: extrae título propio + contenido.
+    """Describe a table with no preceding section heading: extract its own title + content.
 
-    Útil para tablas que aparecen sin SectionHeaderItem previo (p.ej. documentos
-    cuyo contenido es enteramente tabular, como listas de permisos por rol).
+    Useful for tables that appear without a preceding SectionHeaderItem (e.g. documents
+    whose content is entirely tabular, such as role-permission lists).
 
-    Devuelve (texto_tabla, titulo_tabla). Cualquiera puede ser None si falla.
+    Returns (texto_tabla, titulo_tabla). Either may be None if it fails.
     """
     imagen = _obtener_imagen_tabla(item, doc)
     if imagen is None:
-        print("[vision] describir_tabla_sin_seccion: sin imagen disponible", file=sys.stderr)
+        print("[vision] describir_tabla_sin_seccion: no image available", file=sys.stderr)
         return None, None
 
     buf = io.BytesIO()
@@ -157,19 +174,19 @@ def describir_tabla_sin_seccion(
                 tabla_lines.append(line)
 
         texto = "\n".join(tabla_lines).strip() or None
-        print(f"[vision] tabla_sin_seccion titulo={titulo!r}", file=sys.stderr)
+        print(f"[vision] tabla_sin_seccion title={titulo!r}", file=sys.stderr)
         return texto, titulo
     except Exception as e:
-        print(f"[vision] describir_tabla_sin_seccion falló: {e}", file=sys.stderr)
+        print(f"[vision] describir_tabla_sin_seccion failed: {e}", file=sys.stderr)
         return None, None
 
 
 def extraer_titulo_cabecera(doc: DoclingDocument) -> str | None:
-    """Extrae el título del documento desde la cabecera de la primera página vía GPT-4o.
+    """Extract the document title from the first page header via GPT-4o.
 
-    Fallback cuando el regex no pudo detectar título (p.ej. documentos cuyo título
-    está en una tabla de cabecera en lugar de en un SectionHeaderItem).
-    Recorta el 22% superior de la primera página para enfocar la cabecera.
+    Fallback when the regex could not detect a title (e.g. documents whose title
+    is in a header table rather than in a SectionHeaderItem).
+    Crops the top 22% of the first page to focus on the header area.
     """
     page = doc.pages.get(1)
     if page is None:
@@ -202,8 +219,8 @@ def extraer_titulo_cabecera(doc: DoclingDocument) -> str | None:
             max_tokens=80,
         )
         titulo = resp.choices[0].message.content.strip()
-        print(f"[vision] titulo extraído: {titulo!r}", file=sys.stderr)
+        print(f"[vision] title extracted: {titulo!r}", file=sys.stderr)
         return titulo or None
     except Exception as e:
-        print(f"[vision] extraer_titulo_cabecera falló: {e}", file=sys.stderr)
+        print(f"[vision] extraer_titulo_cabecera failed: {e}", file=sys.stderr)
         return None

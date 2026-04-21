@@ -1,8 +1,11 @@
-"""Wrapper sobre Docling.
+"""Docling PDF parser wrapper.
 
-Aisla al resto del pipeline del API concreto de Docling: recibimos una ruta a un PDF
-y devolvemos un `DoclingDocument` con las imágenes materializadas en
-memoria (necesario para poder mandarlas a GPT-4o vision después).
+Isolates the rest of the pipeline from Docling's API. Receives a PDF path and
+returns a DoclingDocument with images materialised in memory (required for
+GPT-4o vision calls downstream).
+
+The DocumentConverter is initialised once as a process-level singleton because
+startup takes ~30 s (model loading). Subsequent calls reuse the cached instance.
 """
 from __future__ import annotations
 
@@ -10,8 +13,8 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Forzamos CPU antes de importar torch/docling: la GTX 960M (CC 5.0) no es compatible.
-# En Azure se quitará esta línea y se usará la GPU del servicio.
+# Force CPU before importing torch/docling: the GTX 960M (CC 5.0) is not compatible.
+# Remove this line in Azure where a supported GPU is available.
 os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")
 
 from docling.datamodel.base_models import InputFormat  # noqa: E402
@@ -27,12 +30,13 @@ from docling.datamodel.pipeline_options import (
 from app.ingestion.prompts import PROMPT_DESCRIPCION_IMAGEN
 
 
-# Docling tarda varios segundos en inicializar sus modelos.
-# Cacheamos un único converter para reutilizarlo entre documentos.
+# Docling takes several seconds to initialise its models.
+# We cache a single converter to reuse across documents.
 _CONVERTER: DocumentConverter | None = None
 
 
 def get_converter() -> DocumentConverter:
+    """Return the process-level Docling converter singleton, building it on first call."""
     global _CONVERTER
     if _CONVERTER is None:
         _CONVERTER = _build_converter()
@@ -40,7 +44,7 @@ def get_converter() -> DocumentConverter:
 
 
 def _build_picture_desc_options() -> PictureDescriptionApiOptions:
-    """Configuración del VLM (GPT-4o) para descripción de imágenes vía Docling."""
+    """Build GPT-4o VLM options for image description via Docling."""
     api_key = os.environ.get("OPENAI_API_KEY", "")
     return PictureDescriptionApiOptions(
         url="https://api.openai.com/v1/chat/completions",
@@ -75,7 +79,14 @@ def _build_converter() -> DocumentConverter:
     )
 
 def parse_pdf(path: Path) -> DoclingDocument:
-    """Parsea un PDF y devuelve el DoclingDocument listo para procesar."""
+    """Parse a PDF and return a DoclingDocument with images in memory.
+
+    Args:
+        path: Absolute path to the PDF file.
+
+    Returns:
+        Parsed DoclingDocument ready for element extraction.
+    """
     converter = get_converter()
     result = converter.convert(str(path))
     return result.document

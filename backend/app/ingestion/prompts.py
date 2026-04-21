@@ -1,8 +1,16 @@
-"""Prompt para el VLM integrado con Docling (PictureDescriptionApiOptions).
+"""All LLM prompts used by the ingestion and RAG pipelines.
 
-Un único prompt genérico cubre todos los tipos de imagen que aparecen en el corpus
-de Intecsa. Docling lo envía a GPT-4o por cada PictureItem durante el parseo y
-almacena la respuesta como DescriptionAnnotation en el DoclingDocument.
+Centralised in one module so that prompt changes can be reviewed as a unit
+and do not require touching pipeline logic.
+
+Prompts exported:
+    PROMPT_DESCRIPCION_IMAGEN    — GPT-4o vision: image description for indexing
+    PROMPT_TABLA_DEGRADADA       — GPT-4o vision: faithful Markdown for degraded tables
+    PROMPT_TABLA_SIN_SECCION     — GPT-4o vision: table without a preceding section heading
+    PROMPT_TITULO_CABECERA       — GPT-4o vision: extract document title from header image
+    PROMPT_REESCRITURA_QUERY     — GPT-4o-mini: dual query rewriting (VECTOR + BM25 lines)
+    SYSTEM_PROMPT                — GPT-4o system prompt for RAG generation
+    SYSTEM_PROMPT_EVAL           — Variant without citation markers for TruLens evaluation
 """
 
 PROMPT_DESCRIPCION_IMAGEN = """\
@@ -305,8 +313,8 @@ FORMATO:
   └── frontend/\
 """
 
-# Prompt para evaluación con TruLens — sin marcadores de cita [N] porque TruLens los
-# penaliza como afirmaciones no verificables, hundiendo la métrica Groundedness.
+# Prompt for TruLens evaluation — no citation markers [N] because TruLens penalises
+# them as unverifiable assertions, which depresses the Groundedness metric.
 SYSTEM_PROMPT_EVAL = """\
 Eres un asistente técnico especializado en documentación de ingeniería industrial de INTECSA.
 

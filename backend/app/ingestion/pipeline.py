@@ -1,18 +1,14 @@
-"""Orquestador del pipeline de ingesta.
+"""Ingestion pipeline orchestrator.
 
-Entrada:
-    - ruta al PDF
-    - metadatos del administrador (empresa, proyecto_id, tipo_doc, idioma)
+Coordinates the four steps described in CLAUDE.md:
+    1. Parse the PDF with Docling (parser.py).
+    2. Extract document-level metadata from the header (elements.py).
+    3. Process each element by type → list of ElementoProcesado (elements.py).
+    4. Hierarchical chunking → parents and children with metadata (chunker.py).
 
-Salida:
-    - `DocumentoIngerido` con todos los chunks listos para indexar en el
-      vector store (paso que aún no hacemos — se hará cuando conectemos Chroma).
-
-Este módulo coordina los pasos descritos en CLAUDE.md → "Flujo general":
-    1. Parsear el PDF con Docling.
-    2. Extraer título y edición de la cabecera del documento.
-    3. Procesar cada elemento según su tipo → lista de `ElementoProcesado`.
-    4. Hierarchical chunking → parents y children con sus metadatos.
+Public interface:
+    ingestar_pdf(path, metadatos_admin) → DocumentoIngerido
+    documento_a_dict(documento)         → dict (JSON-serialisable)
 """
 from __future__ import annotations
 
@@ -28,19 +24,19 @@ from app.ingestion.elements import MetadatosDocumento
 
 
 # ---------------------------------------------------------------------------
-# Inputs y outputs del pipeline
+# Pipeline inputs and outputs
 # ---------------------------------------------------------------------------
 
 
 @dataclass
 class MetadatosAdministrador:
-    """Metadatos que el administrador aporta al subir el documento."""
+    """Metadata supplied by the administrator when uploading the document."""
 
-    empresa: str                          # "intecsa" o nombre del cliente
-    proyecto_id: str | None               # None → corpus global
+    empresa: str                          # "intecsa" or client name
+    proyecto_id: str | None               # None → global corpus
     tipo_doc: str                         # procedimiento, especificacion, ..., anexo
     idioma: str                           # ISO 639-1: "es", "en", "fr"
-    anexo_de: str | None = None           # nombre_fichero del doc padre si tipo_doc=="anexo"
+    anexo_de: str | None = None           # nombre_fichero of the parent doc when tipo_doc=="anexo"
 
 
 @dataclass
@@ -54,25 +50,33 @@ class DocumentoIngerido:
 
 
 # ---------------------------------------------------------------------------
-# API pública
+# Public API
 # ---------------------------------------------------------------------------
 
 
 def ingestar_pdf(path: Path, metadatos_admin: MetadatosAdministrador) -> DocumentoIngerido:
-    """Ejecuta el pipeline completo sobre un PDF y devuelve el documento ingerido."""
+    """Run the full ingestion pipeline on a PDF and return the result.
+
+    Args:
+        path: Path to the PDF file.
+        metadatos_admin: Administrator-supplied metadata (company, project, type, language).
+
+    Returns:
+        DocumentoIngerido with all chunks ready for indexing in the vector store.
+    """
     path = Path(path)
 
-    # 1. Parseo con Docling.
+    # 1. Parse with Docling.
     doc = mod_parser.parse_pdf(path)
 
-    # 2. Metadatos desde la cabecera del documento (texto digital, gratis).
-    #    Extrae título y edición mediante regex sobre los primeros ítems.
+    # 2. Metadata from the document header (free for digital text).
+    #    Extracts title and edition via regex over the first items.
     metadatos_documento = mod_elements.extraer_metadatos_documento(doc)
 
-    # doc_id: siempre un UUID generado — no se extrae del documento.
+    # doc_id: always a generated UUID — never extracted from the document.
     doc_id = uuid.uuid4().hex
 
-    # 3. Procesamiento por tipo de elemento.
+    # 3. Per-element type processing.
     es_anexo = metadatos_admin.tipo_doc == "anexo"
     elementos = mod_elements.procesar_documento(doc, es_anexo_documento=es_anexo)
 
@@ -90,7 +94,10 @@ def ingestar_pdf(path: Path, metadatos_admin: MetadatosAdministrador) -> Documen
 
 
 def documento_a_dict(documento: DocumentoIngerido) -> dict:
-    """Serializa el documento ingerido a un dict listo para JSON."""
+    """Serialise a DocumentoIngerido to a JSON-compatible dict.
+
+    Used by ingestion scripts to persist parsed output for inspection.
+    """
     return {
         "doc_id": documento.doc_id,
         "nombre_fichero": documento.nombre_fichero,
