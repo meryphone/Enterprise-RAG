@@ -1,7 +1,7 @@
 """Central configuration loaded from environment variables.
 
 All settings are read once at import time via ``Settings.from_env()``.
-Production (Azure) swaps OpenAI direct calls for Azure OpenAI Service;
+Production (Azure) is designed to swap OpenAI direct calls for Azure OpenAI Service;
 no other code needs to change.
 """
 from __future__ import annotations
@@ -12,7 +12,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-# Cargamos .env desde la raíz del proyecto (un nivel arriba de backend/).
+# Load .env from the project root (one level above backend/).
 _ENV_FILE = Path(__file__).resolve().parent.parent.parent / ".env"
 load_dotenv(_ENV_FILE, override=False)
 
@@ -20,7 +20,7 @@ BACKEND_DIR = Path(__file__).resolve().parent.parent
 PROJECT_ROOT = BACKEND_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 DOCS_DIR = DATA_DIR / "docs"
-PARSED_DIR = DATA_DIR / "parsed"  # salida del pipeline de ingesta (JSON inspectable)
+PARSED_DIR = DATA_DIR / "parsed"  # Output directory for parsed document JSON (for inspection).
 
 
 @dataclass(frozen=True)
@@ -44,6 +44,7 @@ class Settings:
 
     @classmethod
     def from_env(cls) -> "Settings":
+        """Load settings from environment variables, falling back to documented defaults."""
         env = os.getenv("ENV", "local").lower()
         api_key = os.getenv("OPENAI_API_KEY") or None
         return cls(

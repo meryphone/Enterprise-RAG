@@ -9,6 +9,7 @@ router = APIRouter()
 
 
 class QueryRequest(BaseModel):
+    """Request body for POST /query."""
     query: str
     proyecto_id: str | None = None
     empresa: str = "intecsa"
@@ -19,8 +20,15 @@ class QueryRequest(BaseModel):
 async def query(req: QueryRequest) -> StreamingResponse:
     """Execute a RAG query and stream the response as SSE.
 
-    Event types emitted: ``token`` (incremental text), ``sources`` (citations
-    JSON array), ``done`` (stream end), ``error`` (on failure).
+    Event types emitted in order: ``token`` (incremental text, multiple),
+    ``sources`` (citations JSON array, after last token), ``done`` (stream end),
+    ``error`` (on failure, instead of done).
+
+    Args:
+        req: Query parameters including question text, scope, and optional type filter.
+
+    Returns:
+        StreamingResponse with media_type ``text/event-stream``.
     """
     return StreamingResponse(
         ejecutar_query(

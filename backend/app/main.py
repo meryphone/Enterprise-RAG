@@ -22,9 +22,9 @@ app = FastAPI(title="IntecsaRAG", version="0.1.0")
 
 @app.on_event("startup")
 async def _limpiar_cache_bm25() -> None:
-    """Invalida el índice BM25 al arrancar para que se reconstruya con el esquema actual."""
+    """Invalidate the BM25 cache at startup so it is rebuilt with the current schema."""
     invalidar_cache_bm25()
-    logger.info("Caché BM25 invalidada en startup.")
+    logger.info("BM25 cache invalidated at startup.")
 
 app.add_middleware(
     CORSMiddleware,

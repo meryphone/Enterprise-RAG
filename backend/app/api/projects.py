@@ -10,8 +10,11 @@ router = APIRouter()
 def projects() -> list[dict]:
     """Return all indexed scopes (ChromaDB collections, excluding __parents).
 
-    Each scope is either the global corporate corpus or a client project.
-    The client infers the scope type from the presence of ``proyecto_id``.
+    Collections named ``"intecsa"`` represent the global corporate corpus.
+    Collections named ``"{proyecto_id}_{empresa}"`` represent client projects.
+
+    Returns:
+        List of scope dicts with keys: coleccion, proyecto_id, empresa, label.
     """
     scopes = []
     for nombre in colecciones_disponibles():
