@@ -110,6 +110,53 @@ cd backend
 python scripts/eval_trulens.py --reset --no-dashboard
 ```
 
+## API Endpoints
+
+All endpoints run on `http://localhost:8000`. `/health` is public; the rest require authentication via the `auth_token` httpOnly cookie (browser) or `Authorization: Bearer <token>` header (API clients).
+
+| Method | Path | Auth | Description |
+|--------|------|------|-------------|
+| `GET` | `/health` | — | Liveness check. Returns `{"status": "ok"}`. |
+| `POST` | `/auth/login` | — | Login. Body: `{email, password, remember?}`. Returns `{access_token, token_type}`. Token TTL: 8h (default) or 7d (`remember: true`). |
+| `GET` | `/auth/me` | ✓ | Current user info. Returns `{email, full_name, role}`. |
+| `GET` | `/projects` | ✓ | List available ChromaDB scopes (collections). Returns array of `{coleccion, proyecto_id, empresa, label}`. |
+| `POST` | `/query` | ✓ | RAG query. Body: `{query, proyecto_id?, empresa?, tipo_doc?}`. Returns `text/event-stream` SSE. |
+
+### SSE event types (`POST /query`)
+
+```
+data: {"type": "token",   "content": "..."}   ← one per GPT-4o output token
+data: {"type": "sources", "sources": [...]}    ← after last token, citation metadata
+data: {"type": "done"}                         ← stream closed normally
+data: {"type": "error",   "message": "..."}    ← on LLM failure
+```
+
+### Example login (curl)
+
+```bash
+curl -s -X POST http://localhost:8000/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email":"maria.capilla@intecsaindustrial.com","password":"<SEED_PWD_MARIA_CAPILLA>"}' \
+  | jq .access_token
+```
+
+---
+
+## Users
+
+Four users are pre-seeded at startup from `.env.seed`. Passwords are stored as bcrypt hashes (cost 12) — the plaintext values live only in `.env.seed` (gitignored).
+
+| Name | Email | Role |
+|------|-------|------|
+| Jose Maria Capilla Silvente | `jose.capilla@intecsaindustrial.com` | user |
+| Jose Javier Gonzalez Fernandez | `jose.gonzalez@intecsaindustrial.com` | user |
+| Eduardo Martinez Gracia | `eduardo.martinez@intecsaindustrial.com` | user |
+| Maria Capilla Zapata | `maria.capilla@intecsaindustrial.com` | **admin** |
+
+Passwords are set via env vars `SEED_PWD_JOSE_CAPILLA`, `SEED_PWD_JOSE_GONZALEZ`, `SEED_PWD_EDUARDO_MARTINEZ`, `SEED_PWD_MARIA_CAPILLA` in `.env.seed`. See `.env.example` for the variable names.
+
+---
+
 ## Roadmap
 
 - **Query Router**: Automatically infer scope (global vs. project) directly from user questions with a zero-shot classifier.
