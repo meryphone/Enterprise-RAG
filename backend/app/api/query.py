@@ -1,8 +1,9 @@
 """Query endpoint — streams RAG responses via Server-Sent Events."""
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
+from app.auth.dependencies import require_auth
 from app.rag.query import ejecutar_query
 
 router = APIRouter()
@@ -16,7 +17,7 @@ class QueryRequest(BaseModel):
     tipo_doc: str | None = None
 
 
-@router.post("/query")
+@router.post("/query", dependencies=[Depends(require_auth)])
 async def query(req: QueryRequest) -> StreamingResponse:
     """Execute a RAG query and stream the response as SSE.
 

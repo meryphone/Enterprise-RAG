@@ -148,6 +148,7 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+.git
 
 # Cython debug symbols
 cython_debug/
@@ -173,3 +174,11 @@ frontend/.env.local
 # Entornos
 .venv/
 node_modules/
+.claude
+CLAUDE.md
+
+# Auth seed (contains plaintext passwords — never commit)
+.env.seed
+
+# Cloudflare tunnel credentials
+cloudflare/*.json
