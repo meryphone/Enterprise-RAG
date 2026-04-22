@@ -309,9 +309,6 @@ function LoginForm() {
         <h2 style={{ margin: 0, fontSize: 22, fontWeight: 800, letterSpacing: -0.4, color: C.navy900 }}>
           Iniciar sesión
         </h2>
-        <p style={{ margin: "6px 0 0", fontSize: 13, color: C.ink500 }}>
-          Usa tu cuenta corporativa de Intecsa Industrial.
-        </p>
       </div>
 
       {/* Form */}

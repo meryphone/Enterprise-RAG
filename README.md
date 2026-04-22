@@ -139,22 +139,6 @@ curl -s -X POST http://localhost:8000/auth/login \
   -d '{"email":"admin@empresa.com","password":"<SEED_PWD_MARIA_CAPILLA>"}' \
   | jq .access_token
 ```
-
----
-
-## Users
-
-Four users are pre-seeded at startup from `.env.seed`. Passwords are stored as bcrypt hashes (cost 12) — the plaintext values live only in `.env.seed` (gitignored).
-
-| Name | Email | Role |
-|------|-------|------|
-| Usuario Beta 1 | `user1@empresa.com` | user |
-| Usuario Beta 2 | `user2@empresa.com` | user |
-| Usuario Beta 3 | `user3@empresa.com` | user |
-| Admin Beta | `admin@empresa.com` | **admin** |
-
-Passwords are set via env vars `SEED_PWD_JOSE_CAPILLA`, `SEED_PWD_JOSE_GONZALEZ`, `SEED_PWD_EDUARDO_MARTINEZ`, `SEED_PWD_MARIA_CAPILLA` in `.env.seed`. See `.env.example` for the variable names.
-
 ---
 
 ## Roadmap
