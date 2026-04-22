@@ -139,22 +139,6 @@ curl -s -X POST http://localhost:8000/auth/login \
   -d '{"email":"maria.capilla@intecsaindustrial.com","password":"<SEED_PWD_MARIA_CAPILLA>"}' \
   | jq .access_token
 ```
-
----
-
-## Users
-
-Four users are pre-seeded at startup from `.env.seed`. Passwords are stored as bcrypt hashes (cost 12) — the plaintext values live only in `.env.seed` (gitignored).
-
-| Name | Email | Role |
-|------|-------|------|
-| Jose Maria Capilla Silvente | `jose.capilla@intecsaindustrial.com` | user |
-| Jose Javier Gonzalez Fernandez | `jose.gonzalez@intecsaindustrial.com` | user |
-| Eduardo Martinez Gracia | `eduardo.martinez@intecsaindustrial.com` | user |
-| Maria Capilla Zapata | `maria.capilla@intecsaindustrial.com` | **admin** |
-
-Passwords are set via env vars `SEED_PWD_JOSE_CAPILLA`, `SEED_PWD_JOSE_GONZALEZ`, `SEED_PWD_EDUARDO_MARTINEZ`, `SEED_PWD_MARIA_CAPILLA` in `.env.seed`. See `.env.example` for the variable names.
-
 ---
 
 ## Roadmap

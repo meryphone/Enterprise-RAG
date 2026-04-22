@@ -1,17 +1,20 @@
-"""Capa de abstracción del vector store.
+"""Vector store abstraction layer.
 
-Dev local  → ChromaDB cloud.
-Producción → Azure AI Search.
+Dev local  → ChromaDB Cloud.
+Production → Azure AI Search (swap implementation here only).
 
-El código de negocio (pipeline, retrieval) importa solo este módulo — nunca
-sabe qué backend está corriendo. Cambiar de Chroma a Azure es cambiar la
-implementación aquí sin tocar nada más.
+Business logic (ingestion pipeline, retrieval) imports this module exclusively
+and never references the underlying client directly.
 
-Estrategia de almacenamiento (ChromaDB):
-- Colección `{nombre}`           → child chunks con embeddings (se buscan).
-- Colección `{nombre}__parents`  → parent chunks sin embeddings (se recuperan
-                                   por ID para expandir el contexto al LLM).
-- Las tablas (parent_id=None) se almacenan solo en la colección principal.
+Storage strategy (ChromaDB):
+- Collection ``{name}``           → child chunks with embeddings (searched).
+- Collection ``{name}__parents``  → parent chunks without embeddings (fetched by ID
+                                    to expand context before generation).
+- Tables (parent_id=None/empty) are stored only in the main collection.
+
+Embedding text differs from stored text. The embedding includes document-level
+context prefixes (type, code, title, section) to anchor the chunk semantically.
+The stored text is the raw chunk text that the LLM will read.
 """
 from __future__ import annotations
 
@@ -30,9 +33,9 @@ if TYPE_CHECKING:
 
 logger = logging.getLogger(__name__)
 
-# Dimensionalidad de text-embedding-3-large.
+# Dimensionality for text-embedding-3-large.
 _EMBEDDING_DIM = 3072
-# Tamaño de lote para las llamadas a la API de embeddings.
+# Batch size for embedding API calls.
 _BATCH_SIZE = 100
 
 
@@ -44,7 +47,7 @@ _chroma_client: chromadb.CloudClient | None = None
 
 
 def get_chroma() -> chromadb.CloudClient:
-    """Cliente ChromaDB compartido (singleton). Expuesto para otros servicios."""
+    """Shared ChromaDB client (singleton). Exposed for other services."""
     return _get_chroma()
 
 
@@ -70,10 +73,14 @@ def _get_chroma() -> chromadb.CloudClient:
 
 
 def nombre_coleccion(empresa: str, proyecto_id: str | None) -> str:
-    """Devuelve el nombre de la colección ChromaDB para un documento.
+    """Return the ChromaDB collection name for a given scope.
 
-    - Corpus global Intecsa → "intecsa"
-    - Corpus por proyecto   → "{proyecto_id}_{empresa}"
+    Args:
+        empresa: Company identifier (e.g. ``"intecsa"``).
+        proyecto_id: Project code, or None for the global corporate corpus.
+
+    Returns:
+        ``"intecsa"`` for the global corpus, ``"{proyecto_id}_{empresa}"`` for projects.
     """
     if proyecto_id is None:
         return empresa.lower()
@@ -157,10 +164,18 @@ def _meta_chunk(chunk, documento: "DocumentoIngerido") -> dict:
 
 
 def indexar_documento(documento: "DocumentoIngerido") -> dict[str, int]:
-    """Indexa todos los chunks del documento en ChromaDB.
+    """Index all chunks of a document into ChromaDB.
 
-    Devuelve un dict con el recuento de chunks indexados:
-        {"children": N, "parents": M}
+    Children are embedded and stored in the main collection.
+    Parents are stored without embeddings in the ``__parents`` collection.
+    Orphan parents (no children generated, parent_id="") are embedded and
+    stored in the main collection directly.
+
+    Args:
+        documento: Fully-ingested document with chunks.
+
+    Returns:
+        Dict with keys ``"children"`` and ``"parents"`` showing counts added.
     """
 
     chroma = _get_chroma()
@@ -263,7 +278,11 @@ def precrear_colecciones(nombres: list[str]) -> None:
 
 
 def colecciones_disponibles() -> list[str]:
-    """Lista las colecciones de children (excluye colecciones __parents)."""
+    """Return names of all non-parent collections in ChromaDB.
+
+    Filters out ``__parents`` collections, which are implementation details
+    not visible to the API layer.
+    """
     chroma = _get_chroma()
     cols = chroma.list_collections()
     return [c.name for c in cols if not c.name.endswith("__parents")]

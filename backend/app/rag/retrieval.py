@@ -1,21 +1,17 @@
-"""Retrieval híbrido + rerank (Fase 1 MVP).
+"""Hybrid retrieval pipeline with Cohere reranking.
 
 Pipeline:
-    1. Búsqueda vectorial (ChromaDB, cosine)          → top-k candidatos.
-    2. Búsqueda léxica BM25 (rank-bm25, en memoria)   → top-k candidatos.
-    3. Fusión ponderada de scores normalizados (min-max) con los pesos
-       `RETRIEVAL_PESO_VECTOR` / `RETRIEVAL_PESO_BM25` del .env.
-    4. Filtrado por metadatos: el scope (proyecto_id) determina la colección;
-       `tipo_doc` se aplica como filtro opcional.
-    5. Reranking con Cohere (`rerank-multilingual-v3.0`) → top-n final.
+    1. Dual query rewriting via GPT-4o-mini → VECTOR and BM25 variants.
+    2. Dense vector search (ChromaDB, cosine) using the VECTOR query.
+    3. Sparse BM25 search (rank-bm25, in-memory) using the BM25 query.
+    4. Weighted score fusion (normalised min-max).
+    5. Optional metadata filter on ``tipo_doc``.
+    6. Cohere rerank on the top-K fusion candidates → top-N final results.
 
-El código de negocio solo llama a `recuperar()` y recibe `ChunkRecuperado`s
-listos para pasar al LLM.
+BM25 index is built lazily on first query per collection and cached in memory.
+Invalidate with ``invalidar_cache_bm25(coleccion)`` after re-ingesting documents.
 
-Expansión a parents:
-    No se incluye en este módulo. Los `ChunkRecuperado` exponen `parent_id`
-    en sus metadatos; el orquestador de `/query` se encargará de recuperar
-    los parents por ID cuando arme el contexto para el LLM.
+Public API: ``recuperar(query, proyecto_id, empresa, ...)``
 """
 from __future__ import annotations
 
@@ -123,7 +119,13 @@ def _get_indice_bm25(coleccion: str) -> _IndiceBM25:
 
 
 def invalidar_cache_bm25(coleccion: str | None = None) -> None:
-    """Limpia el caché BM25. Llamar tras indexar nuevos documentos."""
+    """Invalidate the in-memory BM25 index cache.
+
+    Call after indexing new documents so the next query rebuilds the index.
+
+    Args:
+        coleccion: Collection name to invalidate, or None to clear all caches.
+    """
     if coleccion is None:
         _cache_bm25.clear()
     else:
@@ -149,12 +151,21 @@ def _embedding_query(texto: str) -> list[float]:
 
 
 def _reescribir_query(query: str) -> tuple[str, str]:
-    """Produce dos variantes de la query vía GPT-4o-mini.
+    """Produce two query variants via GPT-4o-mini for hybrid retrieval.
 
-    Devuelve (query_vector, query_bm25):
-    - query_vector: reformulación semántica para embedding.
-    - query_bm25: bolsa de palabras con sinónimos para búsqueda léxica.
-    Ambas caen back a la query original si la llamada falla o el formato es inesperado.
+    - **VECTOR**: bilingual semantic reformulation (Spanish + English key terms)
+      for dense embedding search. Always bilingual to support cross-lingual corpora.
+    - **BM25**: keyword bag with synonym expansion and English translations for
+      lexical search.
+
+    Cohere reranking always uses the original query for maximum fidelity.
+    Falls back to the original query on any API failure.
+
+    Args:
+        query: Original user question.
+
+    Returns:
+        Tuple of (query_vector, query_bm25).
     """
     try:
         client = OpenAI(api_key=SETTINGS.openai_api_key)
@@ -225,19 +236,20 @@ def recuperar(
     peso_vector: float | None = None,
     peso_bm25: float | None = None,
 ) -> list[ChunkRecuperado]:
-    """Recupera los chunks más relevantes para `query` en el scope dado.
+    """Retrieve the most relevant chunks for a query within the given scope.
 
     Args:
-        query: pregunta del usuario en lenguaje natural.
-        proyecto_id: código del proyecto, o `None` para el corpus global Intecsa.
-        empresa: nombre de la empresa del scope; por defecto "intecsa".
-        tipo_doc: filtro opcional de metadato `tipo_doc`.
-        top_k: candidatos tras la fusión híbrida (default del .env).
-        top_n: resultados finales tras el rerank (default del .env).
-        peso_vector, peso_bm25: pesos de fusión (defaults del .env).
+        query: User question in natural language (any language).
+        proyecto_id: Project code, or None for the global corpus.
+        empresa: Company identifier; defaults to "intecsa".
+        tipo_doc: Optional metadata filter (e.g. "procedimiento").
+        top_k: Candidate pool size after fusion (default from settings).
+        top_n: Final results after rerank (default from settings).
+        peso_vector: Vector score weight in fusion (default from settings).
+        peso_bm25: BM25 score weight in fusion (default from settings).
 
     Returns:
-        Lista de `ChunkRecuperado` ordenada por score decreciente (top-n).
+        List of ChunkRecuperado ordered by descending Cohere relevance score.
     """
     top_k = top_k if top_k is not None else SETTINGS.retrieval_top_k
     top_n = top_n if top_n is not None else SETTINGS.retrieval_top_n
