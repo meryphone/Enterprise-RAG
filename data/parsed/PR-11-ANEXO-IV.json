@@ -1,5 +1,5 @@
 {
-  "doc_id": "c883edf6e4da41699990cfa16ea48bc5",
+  "doc_id": "c05c6661a3c5429bab541e5158e6ce9c",
   "nombre_fichero": "PR-11-ANEXO-IV.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,11 +13,11 @@
     "edicion": "3",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-20T21:42:34+00:00",
+  "fecha_ingesta": "2026-04-22T17:12:39+00:00",
   "chunks": [
     {
-      "chunk_id": "234072366d3744e29ff4167f32944bdb",
-      "texto": "| CUENTA | DESCRIPCION                       | Nº TOTAL DE COPIA | ESP. DE LA CUENTA | ELECTRICIDAD | UNSTRUMENTOS | O. CIVIL Y ESTRUC. | EQUIP ROTATIVOS | TUBERIAS | MTO | ESF. Y SOPORTES | INSTALACIONES | ED. F. |\n|--------|-----------------------------------|-------------------|------------------|--------------|--------------|-------------------|-----------------|----------|-----|-----------------|---------------|-------|\n| A      | Hormigón y Obras Civiles          | 5                 | 4                |              |              |                   |                 |          |     |                 |               | 1     |\n| B      | Producción de calor               | 8                 | 4                | 1<sup>a</sup>               | 1<sup>b</sup>            | 1                 | 1               |          | 1   |                 |               | 1     |\n| C      | Manipulación de fluidos           | 10                | 4                | 1<sup>b</sup>              | 1            |                   | 1               | 1        | 1   |                 |               | 1     |\n| D      | Torres                            | 8                 | 4                |              | 1            |                   | 1               | 1        | 1   |                 |               | 1     |\n| E      | Intercambiadores                  | 9                 | 4                | 1<sup>a</sup>              | 1            |                   | 1               | 1        | 1   |                 |               | 1     |\n| F      | Calderería                        | 8                 | 4                |              | 1            |                   | 1               | 1        | 1   |                 |               | 1     |\n| G      | Bombas y turbinas                 | 10                | 4                | 1<sup>b</sup>              | 1            |                   | 1               | 1        | 1   |                 |               | 1     |\n| H      | Tuberías y soportes               | 10                | 4                | 1<sup>b</sup>              | 1            |                   | 1<sup>f</sup>               | 1        | 1   |                 | 1             | 1     |\n| I      | Edificación                       | 7                 | 4                | 1            |              |                   |                 |          |     |                 | 1             | 1     |\n| J      | Estructuras metálicas             | 6                 | 4                |              |              | 1<sup>c</sup>               |                 |          |     |                 |               | 1     |\n| K      | Instrumentación                   | 5                 | 4                |              |              |                   |                 |          |     |                 |               | 1     |\n| L      | Protec. y Aislamiento             | 5                 | 4                |              |              |                   |                 |          |     |                 |               | 1     |\n| M      | Separadores                       | 10                | 4                | 1<sup>a</sup>              | 1<sup>b</sup>            | 1                 | 1               | 1        | 1   |                 |               | 1     |\n| N      | Electricidad                      | 7                 | 4                |              |              | 1<sup>d</sup>               | 1<sup>e</sup>               |          |     |                 |               | 1     |\n| P      | Manipulación de sólidos           | 7                 | 4                | 1<sup>a</sup>              | 1            |                   |                 |          |     |                 |               | 1     |\n| Q      | Instalación contra incendios      | 10                | 4                | 1<sup>a</sup>              | 1<sup>b</sup>            | 1                 | 1               | 1        | 1   |                 |               | 1     |\n| R      | Equipos de proceso                | 10                | 4                | 1<sup>a</sup>              | 1<sup>b</sup>            | 1                 | 1               | 1        | 1   |                 |               | 1     |\n| S      | Preparación de sólidos            | 9                 | 4                | 1<sup>a</sup>              | 1<sup>b</sup>            | 1                 | 1               | 1",
+      "chunk_id": "4739c5db4e124bd6ab0a452bb6f5dc99",
+      "texto": "| CUENTA | DESCRIPCION                        | Nº TOTAL DE COPIA | ESP. DE LA CUENTA | ELECTRICIDAD | UNSTRUMENTOS | O.CIVIL Y ESTRUC. | EQUIP ROTATIVOS | TUBERIAS | MTO | ESP. Y SOPORTES | INSTALACIONES | ED.F. |\n|--------|------------------------------------|------------------|------------------|--------------|--------------|------------------|-----------------|----------|-----|----------------|---------------|-------|\n| A      | Hormigón y Obras Civiles           | 5                | 4                |              |              |                  |                 |          |     |                |               | 1     |\n| B      | Producción de calor                | 8                | 4                | 1<sup>a</sup> | 1<sup>b</sup> | 1                |                 | 1        |     | 1              |               | 1     |\n| C      | Manipulación de fluidos            | 10               | 4                | 1            | 1<sup>b</sup> | 1                | 1               | 1        | 1   | 1              |               | 1     |\n| D      | Torres                             | 8                | 4                |              | 1            |                  | 1               | 1        | 1   |                |               | 1     |\n| E      | Intercambiadores                   | 9                | 4                | 1<sup>a</sup> |              | 1                |                 | 1        | 1   | 1              |               | 1     |\n| F      | Calderería                         | 8                | 4                |              | 1            |                  | 1               | 1        |     | 1              |               | 1     |\n| G      | Bombas y turbinas                  | 10               | 4                | 1            | 1<sup>b</sup> | 1                | 1               | 1        | 1   | 1              |               | 1     |\n| H      | Tuberías y soportes                | 10               | 4                |              | 1<sup>b</sup> |                  | 1<sup>f</sup>   | 1        | 1   | 1              | 1             | 1     |\n| I      | Edificación                        | 7                | 4                |              |              |                  | 1               |          |     |                | 1             | 1     |\n| J      | Estructuras metálicas              |                  | 6                |              |              | 1<sup>c</sup>    |                 |          |     |                |               | 1     |\n| K      | Instrumentación                    |                  | 5                | 4            |              |                  |                 |          |     |                |               | 1     |\n| L      | Protec. y Aislamiento              |                  | 5                | 4            |              |                  |                 |          |     |                |               | 1     |\n| M      | Separadores                        | 10               | 4                | 1<sup>a</sup> | 1<sup>b</sup> | 1                | 1               | 1        | 1   | 1              |               | 1     |\n| N      | Electricidad                       |                  | 7                | 4            | 1<sup>d</sup> | 1<sup>e</sup>     |                 |          |     |                |               | 1     |\n| P      | Manipulación de sólidos            |                  | 7                | 4            | 1<sup>a</sup> |                  |                 | 1        |     |                |               | 1     |\n| Q      | Instalación contra incendios       | 10               | 4                | 1<sup>a</sup> | 1<sup>b</sup> | 1                | 1               | 1        | 1   | 1              |               | 1     |\n| R      | Equipos de proceso                 | 10               | 4                | 1<sup>a</sup> | 1<sup>b</sup> |                  | 1               | 1        | 1   | 1              |               | 1     |\n| S      | Preparación de sólidos             | 9                | 4                | 1<sup>a</sup> | 1<sup>b</sup> |                  | 1               | 1        | 1   | 1              |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 2,
@@ -31,7 +31,7 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "79653664-c572-423e-b4a2-e2f9d2b87f70",
+      "chunk_id": "9b7daa0f-4474-4f55-9168-1847b28e9642",
       "texto": "CORRESPONDENCIA INTECSA./CLIENTE\n\nCORRESPONDENCIA CLIENTE/INTECSA\n\nINFORMES DE PROGRESO\n\nINFORMES DE INSPECCION\n\nPLANOS DE INTECSA PARA INFORMACION\n\nPLANOS DE INTECSA PARA APROBACION\n\nLISTA DE PROVEEDORES\n\nPETICIONES DE OFERTA\n\nCOMPARACION DE OFERTAS\n\nFAX DE INTENCION (BORRADOR)\n\nPEDIDOS PARA FIRMA DE CLIENTE\n\nPEDIDOS ACEPTADOS POR PROVEEDOR\n\nFACTURAS DE PROVEEDORES\n\nPLANOS/DOCUMENTOS DE PROV.\n\nACTAS DE REUNION C/CLIENTE\n\n= ORIGEN DEL DOCUMENTO O = ORIGINAL\n\n= RECIBE Y DISTRIBUYE\n\n(1) = V. PR. PLANOS DE FABRICANTES",
       "nivel": "parent",
       "parent_id": null,
@@ -46,8 +46,38 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5b80a727208e48c586954e7429616801",
-      "texto": "|                             | MANUALES DE OPERACION | CERTIFICADOS DE PRUEBAS Y MATERIALES | PROGRAMA DE FABRICACION | PEDIDOS A SUB-CONTRATISTAS | DOSIER DE EQUIPOS A PRESION * * |\n|-----------------------------|-----------------------|--------------------------------------|-------------------------|----------------------------|---------------------------------|\n| Admon. de Proyecto          | X C*                  | O+X C*                               | 1C                      |                            | O+X C*                         |\n| Inspección                  |                       | 1C                                   | 1C                      | 1C                         | 1C                              |\n| Enc. Planos de Fabric.      | 1C                    | 1C                                   | 1C                      | 1C                         |                                 |\n| Obra                        | 1C                    | 1C                                   |                         |                            | 1C                              |\n| Cliente                     |                       |                                      | yC                      |                            |                                 |\n| Especialista                | 1C                    | 1C                                   | 1C                      |                            | 1C                              |\n| Planificación               |                       |                                      |                         |                            |                                 |\n| TOTAL                       | (X+3)C                | O+(X+4)C                             | (y+5)C                  | 3C                         | O+(X+3)C                       |",
+      "chunk_id": "f4ee40b4-d0c9-481a-bccc-6806f97e9166",
+      "texto": "CORRESPONDENCIA INTECSA./CLIENTE\n\nCORRESPONDENCIA CLIENTE/INTECSA\n\nINFORMES DE PROGRESO\n\nINFORMES DE INSPECCION\n\nPLANOS DE INTECSA PARA INFORMACION\n\nPLANOS DE INTECSA PARA APROBACION\n\nLISTA DE PROVEEDORES\n\nPETICIONES DE OFERTA\n\nCOMPARACION DE OFERTAS\n\nFAX DE INTENCION (BORRADOR)\n\nPEDIDOS PARA FIRMA DE CLIENTE\n\nPEDIDOS ACEPTADOS POR",
+      "nivel": "child",
+      "parent_id": "9b7daa0f-4474-4f55-9168-1847b28e9642",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "CUADRO DE DISTRIBUCION DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0cd9b22d-81ce-4511-8745-59a263604172",
+      "texto": "PARA FIRMA DE CLIENTE\n\nPEDIDOS ACEPTADOS POR PROVEEDOR\n\nFACTURAS DE PROVEEDORES\n\nPLANOS/DOCUMENTOS DE PROV.\n\nACTAS DE REUNION C/CLIENTE\n\n= ORIGEN DEL DOCUMENTO O = ORIGINAL\n\n= RECIBE Y DISTRIBUYE\n\n(1) = V. PR. PLANOS DE FABRICANTES",
+      "nivel": "child",
+      "parent_id": "9b7daa0f-4474-4f55-9168-1847b28e9642",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "CUADRO DE DISTRIBUCION DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a5476683d961411888932f816039b65b",
+      "texto": "|                           | MANUALES DE OPERACION | CERTIFICADOS DE PRUEBAS Y MATERIALES | PROGRAMA DE FABRICACION | PEDIDOS A SUB-CONTRATISTAS | DOSIER DE EQUIPOS A PRESION ** |\n|---------------------------|-----------------------|-------------------------------------|--------------------------|----------------------------|-------------------------------|\n| Admon. de Proyecto        | X C*                  | O+X C*                              | 1C                       | -                          | O+X C*                        |\n| Inspección                | -                     | 1C                                  | 1C                       | 1C                         | 1C                            |\n| Enc. Planos de Fabric.    | 1C                    | 1C                                  | 1C                       | 1C                         | -                             |\n| Obra                      | 1C                    | 1C                                  | -                        | -                          | 1C                            |\n| Cliente                   | -                     | -                                   | yC                       | -                          | -                             |\n| Especialista             | 1C                    | 1C                                  | 1C                       | -                          | 1C                            |\n| Planificación             | -                     | -                                   | 1C                       | -                          | -                             |\n| TOTAL                     | (X+3)C                | O+(X+4)C                            | (y+5)C                   | 3C                         | O+(X+3)C                      |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 4,
@@ -61,7 +91,7 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "97e907f1-b049-414e-9e65-a2dbc98a529e",
+      "chunk_id": "1632a8f0-6e06-49cc-9c17-db3a9f20a573",
       "texto": "* Para el Libro de Proyecto.\n\n** En el caso de equipos cubiertos por el Reglamento de Recipientes a Presión.",
       "nivel": "parent",
       "parent_id": null,

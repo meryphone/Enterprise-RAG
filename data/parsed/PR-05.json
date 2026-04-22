@@ -1,5 +1,5 @@
 {
-  "doc_id": "53fa0906084443eab65b942d1deb8b85",
+  "doc_id": "598597057e744680b8dd3a17f287747c",
   "nombre_fichero": "PR-05.pdf",
   "metadatos_admin": {
     "empresa": "intecsa",
@@ -13,10 +13,10 @@
     "edicion": "6",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-20T21:27:33+00:00",
+  "fecha_ingesta": "2026-04-22T16:55:59+00:00",
   "chunks": [
     {
-      "chunk_id": "aa2dee77-207c-42c5-bc4b-338b9437899b",
+      "chunk_id": "3342b8f8-15f4-41d7-b486-7975fc9eac47",
       "texto": "Este Documento establece la forma en que Intecsa Industrial prepara y presenta las Ofertas de servicios de Ingeniería y las funciones y responsabilidades de las personas o grupos que participan en esta actividad.\n\nEste Procedimiento se refiere a todas las Ofertas de servicios de Ingeniería pero ha de aplicarse con los siguientes criterios:\n\nCuando la Oferta sea sencilla (afecte a pocos Servicios y Departamentos y el valor estimado de los trabajos sea pequeño) se seguirá lo indicado en el apartado 7. El Director de la División es quien decide, con el asesoramiento del Servicio Comercial, cuándo una Oferta es sencilla.\n\nEn todos los demás casos, tanto el planteamiento de la Oferta como las funciones del Jefe de Oferta y la preparación, aprobación, presentación y seguimiento de la misma son los   que   en   este   Procedimiento   se   reseñan,   pero   la   participación   de   Servicios   y Departamentos se reducirá a lo indispensable para evitar sobre costos innecesarios.\n\nEste Documento forma parte del Sistema de Calidad de Intecsa Industrial y ha sido elaborado tomando en consideración la norma ISO 9001.",
       "nivel": "parent",
       "parent_id": null,
@@ -31,10 +31,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bf918bfc-110e-47e4-b11d-4e70ae3ccc4c",
-      "texto": "Este Documento establece la forma en que Intecsa Industrial prepara y presenta las Ofertas de servicios de Ingeniería y las funciones y responsabilidades de las personas o grupos que participan en esta actividad.\n\nEste Procedimiento se refiere a todas las Ofertas de servicios de Ingeniería pero ha de aplicarse con los siguientes criterios:\n\nCuando la Oferta sea sencilla (afecte a pocos Servicios y Departamentos y el valor estimado de los trabajos sea pequeño) se seguirá lo indicado en el apartado 7. El Director de la División es quien decide, con el asesoramiento del Servicio Comercial, cuándo una Oferta es sencilla.\n\nEn todos los demás casos, tanto el planteamiento de la Oferta como las funciones del Jefe de Oferta y la preparación, aprobación, presentación y seguimiento de la misma son los   que   en   este   Procedimiento   se   reseñan,   pero   la   participación   de   Servicios   y Departamentos se reducirá a lo indispensable para evitar sobre costos innecesarios.",
+      "chunk_id": "81781ab4-97b1-4e2c-ac0c-b6cecb76cc73",
+      "texto": "Este Documento establece la forma en que Intecsa Industrial prepara y presenta las Ofertas de servicios de Ingeniería y las funciones y responsabilidades de las personas o grupos que participan en esta actividad.\n\nEste Procedimiento se refiere a todas las Ofertas de servicios de Ingeniería pero ha de aplicarse con los siguientes criterios:\n\nCuando la Oferta sea sencilla (afecte a pocos Servicios y Departamentos y el valor estimado de los trabajos sea pequeño) se seguirá lo indicado en el apartado 7.",
       "nivel": "child",
-      "parent_id": "aa2dee77-207c-42c5-bc4b-338b9437899b",
+      "parent_id": "3342b8f8-15f4-41d7-b486-7975fc9eac47",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "1. OBJETO Y ALCANCE",
@@ -46,10 +46,25 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7e437a04-ffc0-43fe-8425-7b939f6b2ff7",
+      "chunk_id": "548c1705-6659-442b-9899-f00eed20e128",
+      "texto": "El Director de la División es quien decide, con el asesoramiento del Servicio Comercial, cuándo una Oferta es sencilla.\n\nEn todos los demás casos, tanto el planteamiento de la Oferta como las funciones del Jefe de Oferta y la preparación, aprobación, presentación y seguimiento de la misma son los   que   en   este   Procedimiento   se   reseñan,   pero   la   participación   de   Servicios   y Departamentos se reducirá a lo indispensable para evitar sobre costos innecesarios.",
+      "nivel": "child",
+      "parent_id": "3342b8f8-15f4-41d7-b486-7975fc9eac47",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f00b15ba-2951-4e96-8e65-296a59a6689c",
       "texto": "Este Documento forma parte del Sistema de Calidad de Intecsa Industrial y ha sido elaborado tomando en consideración la norma ISO 9001.",
       "nivel": "child",
-      "parent_id": "aa2dee77-207c-42c5-bc4b-338b9437899b",
+      "parent_id": "3342b8f8-15f4-41d7-b486-7975fc9eac47",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "1. OBJETO Y ALCANCE",
@@ -61,7 +76,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "32831357-f895-4f1e-aa24-015cb623a2c6",
+      "chunk_id": "7d90177c-433e-4bd0-8309-6fc2d5d9f00f",
       "texto": "Obtenida una petición de Oferta, bien por el Servicio Comercial, o por otros caminos, el Director de la División a la que compete el objeto de la Oferta, previo análisis con el Servicio Comercial, ha de decidir la conveniencia de la preparación y presentación de la misma, y someterá su decisión a la Dirección General. Si el Cliente tiene relación habitual con otra División, ha de informarse al Director correspondiente de aquella decisión. Si existe alguna duda sobre qué División debe presentar la Oferta, se someterá el problema a la Dirección General.\n\nEl Director de la División que ha de preparar la Oferta, consultada la Dirección General, aprobará   la   selección   de   asociados,   licenciatarios,   etc.   y   establecerá   los   acuerdos formales que sean precisos, con la ayuda del Servicio Comercial y de la Asesoría Jurídica.\n\nEl Director de la División nombrará un Jefe de Oferta, a quien se entregará toda la documentación existente.\n\nEl Jefe del Servicio Comercial designará a un Responsable Comercial que colaborará con el J. O, y preparará la parte comercial de la Oferta.",
       "nivel": "parent",
       "parent_id": null,
@@ -76,10 +91,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "52f65bb4-c280-4e0d-b030-fc84a52cfb78",
-      "texto": "Obtenida una petición de Oferta, bien por el Servicio Comercial, o por otros caminos, el Director de la División a la que compete el objeto de la Oferta, previo análisis con el Servicio Comercial, ha de decidir la conveniencia de la preparación y presentación de la misma, y someterá su decisión a la Dirección General. Si el Cliente tiene relación habitual con otra División, ha de informarse al Director correspondiente de aquella decisión. Si existe alguna duda sobre qué División debe presentar la Oferta, se someterá el problema a la Dirección General.\n\nEl Director de la División que ha de preparar la Oferta, consultada la Dirección General, aprobará   la   selección   de   asociados,   licenciatarios,   etc.   y   establecerá   los   acuerdos formales que sean precisos, con la ayuda del Servicio Comercial y de la Asesoría Jurídica.\n\nEl Director de la División nombrará un Jefe de Oferta, a quien se entregará toda la documentación existente.",
+      "chunk_id": "832f7742-c010-4d23-b8a0-aa8603d2a4e5",
+      "texto": "Obtenida una petición de Oferta, bien por el Servicio Comercial, o por otros caminos, el Director de la División a la que compete el objeto de la Oferta, previo análisis con el Servicio Comercial, ha de decidir la conveniencia de la preparación y presentación de la misma, y someterá su decisión a la Dirección General. Si el Cliente tiene relación habitual con otra División, ha de informarse al Director correspondiente de aquella decisión.",
       "nivel": "child",
-      "parent_id": "32831357-f895-4f1e-aa24-015cb623a2c6",
+      "parent_id": "7d90177c-433e-4bd0-8309-6fc2d5d9f00f",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "2. PLANTEAMIENTO DE LA OFERTA",
@@ -91,10 +106,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "0181ec8f-4289-4b0b-8589-b56d59eb7df9",
-      "texto": "El Jefe del Servicio Comercial designará a un Responsable Comercial que colaborará con el J. O, y preparará la parte comercial de la Oferta.",
+      "chunk_id": "189a0526-a7e2-46de-abdb-8d325b98b508",
+      "texto": "Si existe alguna duda sobre qué División debe presentar la Oferta, se someterá el problema a la Dirección General.\n\nEl Director de la División que ha de preparar la Oferta, consultada la Dirección General, aprobará   la   selección   de   asociados,   licenciatarios,   etc.   y   establecerá   los   acuerdos formales que sean precisos, con la ayuda del Servicio Comercial y de la Asesoría Jurídica.",
       "nivel": "child",
-      "parent_id": "32831357-f895-4f1e-aa24-015cb623a2c6",
+      "parent_id": "7d90177c-433e-4bd0-8309-6fc2d5d9f00f",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "2. PLANTEAMIENTO DE LA OFERTA",
@@ -106,7 +121,22 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8b2a20d2-6fcb-4055-bf7b-94c6e379e7fb",
+      "chunk_id": "801cab2f-e35b-4d16-a0f9-44504da0e499",
+      "texto": "El Director de la División nombrará un Jefe de Oferta, a quien se entregará toda la documentación existente.\n\nEl Jefe del Servicio Comercial designará a un Responsable Comercial que colaborará con el J. O, y preparará la parte comercial de la Oferta.",
+      "nivel": "child",
+      "parent_id": "7d90177c-433e-4bd0-8309-6fc2d5d9f00f",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. PLANTEAMIENTO DE LA OFERTA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ac3e13a7-64d6-4ba5-a47d-fb8b64a34ba4",
       "texto": "El J.O., conjuntamente con el Responsable Comercial, procurará obtener del Cliente toda la información adicional a la petición de oferta que pueda ser de interés. Estudiarán y analizarán toda la documentación para definir el alcance de la Oferta, los servicios que han de ser incluidos o excluidos, y el nivel de desarrollo requerido, así como la forma material (presentación, extensión, etc.) de la Oferta. Harán a continuación una estimación del coste y plazo para la preparación de la Oferta. Todo ello lo someterán al Director de la División, y una vez aprobado, el J.O. solicitará al Servicio de Planificación y Control de Gestión la apertura de la Orden de Trabajo correspondiente, facilitándole los datos necesarios.\n\nEl Servicio de Planificación y Control de Gestión traspasará dichos datos al formato \"Oferta de Servicios\" (pág. 1 Hoja roja), que será firmado por el J.O., y recabará la firma del Director de la División correspondiente. Cuando el coste de preparación de la Oferta sea igual o superior a cinco millones de pesetas, recabará, asimismo, la firma de la Dirección General.\n\nEl Servicio de Planificación y Control de Gestión enviará una copia del formato (Hoja roja) al J.O., y el original al Jefe del Servicio Comercial, quien lo conservará en su poder durante el desarrollo de la Oferta.\n\nEl J.O., con el Director de la División y los Jefes de Departamento definirá las personas que han de colaborar en la preparación de la Oferta Técnica, acordando asimismo el programa de trabajo.\n\nEl J.O., se responsabilizará de la preparación material de la Oferta, con las consultas y ayudas que precise de los Departamentos Técnicos, entregando, a cada una de las personas que han de colaborar, la parte de la documentación estrictamente necesaria para   su   trabajo,   y   les   fijará   los   criterios   rectores   (alcance,   nivel   de   desarrollo, características formales de la oferta, instrucciones para la redacción y mecanografía, etc.).\n\nEl J.O., con la ayuda del Responsable Comercial, asumirá la relación con el Cliente para su Oferta concreta y asumirá o establecerá, las relaciones con los Asociados, si existen.\n\nEl J.O. supervisará los trabajos para asegurarse que se cumplen sus instrucciones y que entre sus colaboradores fluye sin problemas la información mutua que sea precisa, arbitrando, a tal efecto, las reuniones que sean necesarias con todos ellos.\n\nControlará, asimismo, las horas y los costes empleados en la realización de la Oferta.\n\nEl J.O., finalmente, reunirá toda la información técnica, y la comercial y económica preparada por el Servicio Comercial, y preparará los documentos para su edición, de acuerdo con lo que se indica en el apartado 5.\n\nUna vez finalizada la Oferta, y antes de su aprobación por el Director de la División correspondiente, el J.O. celebrará una reunión con los colaboradores para verificar si es completo   el   alcance   previsto,   cuando   así   lo   estime   necesario   en   función   de   las características de la Oferta.\n\nEl precio final del coste directo de la Oferta será fijado y firmado conjuntamente con el Servicio  Comercial.",
       "nivel": "parent",
       "parent_id": null,
@@ -121,10 +151,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "916446d7-61be-448c-a9c4-0be0182302f2",
-      "texto": "El J.O., conjuntamente con el Responsable Comercial, procurará obtener del Cliente toda la información adicional a la petición de oferta que pueda ser de interés. Estudiarán y analizarán toda la documentación para definir el alcance de la Oferta, los servicios que han de ser incluidos o excluidos, y el nivel de desarrollo requerido, así como la forma material (presentación, extensión, etc.) de la Oferta. Harán a continuación una estimación del coste y plazo para la preparación de la Oferta. Todo ello lo someterán al Director de la División, y una vez aprobado, el J.O. solicitará al Servicio de Planificación y Control de Gestión la apertura de la Orden de Trabajo correspondiente, facilitándole los datos necesarios.\n\nEl Servicio de Planificación y Control de Gestión traspasará dichos datos al formato \"Oferta de Servicios\" (pág. 1 Hoja roja), que será firmado por el J.O., y recabará la firma del Director de la División correspondiente.",
+      "chunk_id": "a340281b-8e1e-4e80-a53b-0962f011cae8",
+      "texto": "El J.O., conjuntamente con el Responsable Comercial, procurará obtener del Cliente toda la información adicional a la petición de oferta que pueda ser de interés. Estudiarán y analizarán toda la documentación para definir el alcance de la Oferta, los servicios que han de ser incluidos o excluidos, y el nivel de desarrollo requerido, así como la forma material (presentación, extensión, etc.) de la Oferta.",
       "nivel": "child",
-      "parent_id": "8b2a20d2-6fcb-4055-bf7b-94c6e379e7fb",
+      "parent_id": "ac3e13a7-64d6-4ba5-a47d-fb8b64a34ba4",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "3. FUNCIONES DEL JEFE DE OFERTA",
@@ -136,10 +166,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a6b1809d-6214-4348-952f-42d726098a04",
-      "texto": "Cuando el coste de preparación de la Oferta sea igual o superior a cinco millones de pesetas, recabará, asimismo, la firma de la Dirección General.\n\nEl Servicio de Planificación y Control de Gestión enviará una copia del formato (Hoja roja) al J.O., y el original al Jefe del Servicio Comercial, quien lo conservará en su poder durante el desarrollo de la Oferta.\n\nEl J.O., con el Director de la División y los Jefes de Departamento definirá las personas que han de colaborar en la preparación de la Oferta Técnica, acordando asimismo el programa de trabajo.",
+      "chunk_id": "731668c6-33fc-4c3c-aa9a-add3eb5254a2",
+      "texto": "de la Oferta. Harán a continuación una estimación del coste y plazo para la preparación de la Oferta. Todo ello lo someterán al Director de la División, y una vez aprobado, el J.O. solicitará al Servicio de Planificación y Control de Gestión la apertura de la Orden de Trabajo correspondiente, facilitándole los datos necesarios.\n\nEl Servicio de Planificación y Control de Gestión traspasará dichos datos al formato \"Oferta de Servicios\" (pág.",
       "nivel": "child",
-      "parent_id": "8b2a20d2-6fcb-4055-bf7b-94c6e379e7fb",
+      "parent_id": "ac3e13a7-64d6-4ba5-a47d-fb8b64a34ba4",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "3. FUNCIONES DEL JEFE DE OFERTA",
@@ -151,10 +181,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8121df5f-af67-4751-b270-d0d248f8207b",
-      "texto": "El J.O., se responsabilizará de la preparación material de la Oferta, con las consultas y ayudas que precise de los Departamentos Técnicos, entregando, a cada una de las personas que han de colaborar, la parte de la documentación estrictamente necesaria para   su   trabajo,   y   les   fijará   los   criterios   rectores   (alcance,   nivel   de   desarrollo, características formales de la oferta, instrucciones para la redacción y mecanografía, etc.).\n\nEl J.O., con la ayuda del Responsable Comercial, asumirá la relación con el Cliente para su Oferta concreta y asumirá o establecerá, las relaciones con los Asociados, si existen.\n\nEl J.O. supervisará los trabajos para asegurarse que se cumplen sus instrucciones y que entre sus colaboradores fluye sin problemas la información mutua que sea precisa, arbitrando, a tal efecto, las reuniones que sean necesarias con todos ellos.\n\nControlará, asimismo, las horas y los costes empleados en la realización de la Oferta.",
+      "chunk_id": "723a77e7-70df-4403-85c7-ac32db265c9a",
+      "texto": "1 Hoja roja), que será firmado por el J.O., y recabará la firma del Director de la División correspondiente. Cuando el coste de preparación de la Oferta sea igual o superior a cinco millones de pesetas, recabará, asimismo, la firma de la Dirección General.\n\nEl Servicio de Planificación y Control de Gestión enviará una copia del formato (Hoja roja) al J.O., y el original al Jefe del Servicio Comercial, quien lo conservará en su poder durante el desarrollo de la Oferta.",
       "nivel": "child",
-      "parent_id": "8b2a20d2-6fcb-4055-bf7b-94c6e379e7fb",
+      "parent_id": "ac3e13a7-64d6-4ba5-a47d-fb8b64a34ba4",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "3. FUNCIONES DEL JEFE DE OFERTA",
@@ -166,10 +196,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d295bae3-28c6-4cc4-8b3b-1dd544801071",
-      "texto": "El J.O., finalmente, reunirá toda la información técnica, y la comercial y económica preparada por el Servicio Comercial, y preparará los documentos para su edición, de acuerdo con lo que se indica en el apartado 5.\n\nUna vez finalizada la Oferta, y antes de su aprobación por el Director de la División correspondiente, el J.O. celebrará una reunión con los colaboradores para verificar si es completo   el   alcance   previsto,   cuando   así   lo   estime   necesario   en   función   de   las características de la Oferta.\n\nEl precio final del coste directo de la Oferta será fijado y firmado conjuntamente con el Servicio  Comercial.",
+      "chunk_id": "d605f7ad-5f23-4d85-be94-01925f79a6e1",
+      "texto": "El J.O., con el Director de la División y los Jefes de Departamento definirá las personas que han de colaborar en la preparación de la Oferta Técnica, acordando asimismo el programa de trabajo.",
       "nivel": "child",
-      "parent_id": "8b2a20d2-6fcb-4055-bf7b-94c6e379e7fb",
+      "parent_id": "ac3e13a7-64d6-4ba5-a47d-fb8b64a34ba4",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "3. FUNCIONES DEL JEFE DE OFERTA",
@@ -181,7 +211,67 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "22d8c867-1ace-4fe3-865e-d62aee0ec94c",
+      "chunk_id": "0398dcea-38fd-4ea4-be7a-955619a14843",
+      "texto": "El J.O., se responsabilizará de la preparación material de la Oferta, con las consultas y ayudas que precise de los Departamentos Técnicos, entregando, a cada una de las personas que han de colaborar, la parte de la documentación estrictamente necesaria para   su   trabajo,   y   les   fijará   los   criterios   rectores   (alcance,   nivel   de   desarrollo, características formales de la oferta, instrucciones para la redacción y mecanografía, etc.).",
+      "nivel": "child",
+      "parent_id": "ac3e13a7-64d6-4ba5-a47d-fb8b64a34ba4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "3. FUNCIONES DEL JEFE DE OFERTA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "36d41a4e-329f-41d8-93bb-72a681d6174d",
+      "texto": "El J.O., con la ayuda del Responsable Comercial, asumirá la relación con el Cliente para su Oferta concreta y asumirá o establecerá, las relaciones con los Asociados, si existen.\n\nEl J.O. supervisará los trabajos para asegurarse que se cumplen sus instrucciones y que entre sus colaboradores fluye sin problemas la información mutua que sea precisa, arbitrando, a tal efecto, las reuniones que sean necesarias con todos ellos.",
+      "nivel": "child",
+      "parent_id": "ac3e13a7-64d6-4ba5-a47d-fb8b64a34ba4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "3. FUNCIONES DEL JEFE DE OFERTA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c04ce1ab-b388-46af-87e4-a2ab34456f5f",
+      "texto": "Controlará, asimismo, las horas y los costes empleados en la realización de la Oferta.\n\nEl J.O., finalmente, reunirá toda la información técnica, y la comercial y económica preparada por el Servicio Comercial, y preparará los documentos para su edición, de acuerdo con lo que se indica en el apartado 5.\n\nUna vez finalizada la Oferta, y antes de su aprobación por el Director de la División correspondiente, el J.O.",
+      "nivel": "child",
+      "parent_id": "ac3e13a7-64d6-4ba5-a47d-fb8b64a34ba4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "3. FUNCIONES DEL JEFE DE OFERTA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2cf9d201-2c0d-4bd3-aa0b-027aeb04f404",
+      "texto": "celebrará una reunión con los colaboradores para verificar si es completo   el   alcance   previsto,   cuando   así   lo   estime   necesario   en   función   de   las características de la Oferta.\n\nEl precio final del coste directo de la Oferta será fijado y firmado conjuntamente con el Servicio  Comercial.",
+      "nivel": "child",
+      "parent_id": "ac3e13a7-64d6-4ba5-a47d-fb8b64a34ba4",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "3. FUNCIONES DEL JEFE DE OFERTA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a7b8538c-951c-43df-b028-8e77220070f4",
       "texto": "Además de obtener la petición de Oferta y la mayor cantidad posible de información del Cliente,   el   Servicio   Comercial   asesora   al   Director   de   la   División   en   la   selección   de Asociados, Procesistas ó   Licenciatarios, si se precisan, y al Jefe de la Oferta en la relación con el Cliente y en el enfoque, extensión y forma material de presentación, de la propia Oferta.\n\nEl Jefe del Servicio Comercial designará a un responsable comercial, que preparará la parte comercial de la Oferta, y a un responsable de la estimación de servicios, quien recabará, si lo considera necesario,   de los Departamentos y de los otros Servicios la cumplimentacion   de   los   formatos   de   estimaciones   con   las   listas   de   equipos   y documentos, comprobando que las interfaces son correctas y que se contempla el trabajo total a ofertar sin huecos ni solapes, realiza las estimaciones horarias con la ayuda que requiera de los Departamentos, hace la valoración en pesetas de todos los servicios y gastos específicos, y cumplimenta los datos correspondientes en el formato \"Oferta de Servicios\".\n\nParticipa, después, en el cierre, presentación y seguimiento de la Oferta como se detalla en los apartados 5 y 6.",
       "nivel": "parent",
       "parent_id": null,
@@ -196,10 +286,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "224c1c41-4098-4f0e-9bac-5d64da68614a",
-      "texto": "Además de obtener la petición de Oferta y la mayor cantidad posible de información del Cliente,   el   Servicio   Comercial   asesora   al   Director   de   la   División   en   la   selección   de Asociados, Procesistas ó   Licenciatarios, si se precisan, y al Jefe de la Oferta en la relación con el Cliente y en el enfoque, extensión y forma material de presentación, de la propia Oferta.",
+      "chunk_id": "5870e2bd-6b8b-45f4-85b8-59447e2948bd",
+      "texto": "Además de obtener la petición de Oferta y la mayor cantidad posible de información del Cliente,   el   Servicio   Comercial   asesora   al   Director   de   la   División   en   la   selección   de Asociados, Procesistas ó   Licenciatarios, si se precisan, y al Jefe de la Oferta en la relación con el Cliente y en el enfoque, extensión y forma material de presentación, de la propia Oferta.\n\nEl Jefe del Servicio Comercial designará a un responsable comercial,",
       "nivel": "child",
-      "parent_id": "22d8c867-1ace-4fe3-865e-d62aee0ec94c",
+      "parent_id": "a7b8538c-951c-43df-b028-8e77220070f4",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "4.1. Servicio Comercial",
@@ -211,10 +301,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "63a562b5-dbd9-4264-ab8f-62410e27528a",
-      "texto": "El Jefe del Servicio Comercial designará a un responsable comercial, que preparará la parte comercial de la Oferta, y a un responsable de la estimación de servicios, quien recabará, si lo considera necesario,   de los Departamentos y de los otros Servicios la cumplimentacion   de   los   formatos   de   estimaciones   con   las   listas   de   equipos   y documentos, comprobando que las interfaces son correctas y que se contempla el trabajo total a ofertar sin huecos ni solapes, realiza las estimaciones horarias con la ayuda que requiera de los Departamentos, hace la valoración en pesetas de todos los servicios y gastos específicos, y cumplimenta los datos correspondientes en el formato \"Oferta de Servicios\".\n\nParticipa, después, en el cierre, presentación y seguimiento de la Oferta como se detalla en los apartados 5 y 6.",
+      "chunk_id": "7fe4f501-a714-42ec-b6c2-69db837746b3",
+      "texto": "El Jefe del Servicio Comercial designará a un responsable comercial, que preparará la parte comercial de la Oferta, y a un responsable de la estimación de servicios, quien recabará, si lo considera necesario,   de los Departamentos y de los otros Servicios la cumplimentacion   de   los   formatos   de   estimaciones   con   las   listas   de   equipos   y documentos, comprobando que las interfaces son correctas y que se contempla el trabajo total a ofertar sin huecos ni solapes,",
       "nivel": "child",
-      "parent_id": "22d8c867-1ace-4fe3-865e-d62aee0ec94c",
+      "parent_id": "a7b8538c-951c-43df-b028-8e77220070f4",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "4.1. Servicio Comercial",
@@ -226,7 +316,22 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3ab9f09a-bd73-45eb-ab29-3cd76fadeae6",
+      "chunk_id": "cdf9c523-051a-4e10-9c38-a9ec12e0df5f",
+      "texto": "realiza las estimaciones horarias con la ayuda que requiera de los Departamentos, hace la valoración en pesetas de todos los servicios y gastos específicos, y cumplimenta los datos correspondientes en el formato \"Oferta de Servicios\".\n\nParticipa, después, en el cierre, presentación y seguimiento de la Oferta como se detalla en los apartados 5 y 6.",
+      "nivel": "child",
+      "parent_id": "a7b8538c-951c-43df-b028-8e77220070f4",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "4.1. Servicio Comercial",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d572ed9e-2ef9-4099-a89c-2d322a5b38a4",
       "texto": "El Servicio de Planificación y Control de Gestión elabora la programación que se haya de presentar en la Oferta, y la somete a la aceptación del Jefe de la Oferta. También elaborará la carga de trabajo de la Empresa, si así le fuera requerido.\n\nEstima, si se le solicita, las horas propias de su Servicio que puedan ser precisas para la ejecución del Contrato.",
       "nivel": "parent",
       "parent_id": null,
@@ -241,7 +346,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bc87245d-6929-49a2-a257-87c996af3318",
+      "chunk_id": "a907d7c2-89be-4763-8231-fd79392b2b4b",
       "texto": "Este Servicio aporta al Servicio Comercial los datos para la estimación del coste de sus trabajos (compras, activación, inspección, tráfico, subcontratación, etc.).",
       "nivel": "parent",
       "parent_id": null,
@@ -256,7 +361,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "cb6c4a5e-24c9-428a-a5a0-3e8528db3427",
+      "chunk_id": "0c02ae40-3d4f-46d8-9543-0dd4f37afcb1",
       "texto": "Este Servicio proporciona al Jefe de la Oferta los servicios de traducción y mecanografía que no puedan ser cubiertos en la Empresa, así como el coste de los mismos.\n\nInforma también al Servicio Comercial de los costes de personal que haya de ser contratado, y de los costes de oficinas, télex, fax, teléfono, mobiliario, etc. que puedan ser precisos, en su momento, para la ejecución del Contrato.",
       "nivel": "parent",
       "parent_id": null,
@@ -271,7 +376,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c3ed31ee-8952-41fb-8bf1-a21ffe0d60e2",
+      "chunk_id": "ae44da3a-4a7e-4fe4-b1e0-943fd743f2cd",
       "texto": "Las personas nombradas para colaborar en la Oferta preparan la documentación técnica de su especialidad, que haya de incluirse, y estiman, para el Servicio Comercial el número de documentos de cada tipo a emitir en el Contrato, y número y tipo de pedidos y subcontratos   a   realizar   en   su   momento.   Así   mismo,   a   requerimiento   del   Servicio Comercial, estiman las horas necesarias para la realización de los trabajos en caso de adjudicación.\n\nTodo ello ha de ser aprobado por el Jefe del Departamento correspondiente, antes de su envío.\n\nEl   Departamento   de   Proceso,   además,   asesorará   en   la   selección   de   Procesos   y Licencias, cuando sea requerido para ello.\n\nEl   Departamento   de   Construcción   estimará,   cuando   sea   requerido,   el   coste   de   las instalaciones de obra que  fueran precisas, y propondrá, al Servicio Comercial, el equipo de supervisión necesario en su momento para la construcción y el montaje, tanto con personal propio como contratado.",
       "nivel": "parent",
       "parent_id": null,
@@ -286,10 +391,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fe3ff81d-aeb4-4ac3-8ed4-128eee430764",
-      "texto": "Las personas nombradas para colaborar en la Oferta preparan la documentación técnica de su especialidad, que haya de incluirse, y estiman, para el Servicio Comercial el número de documentos de cada tipo a emitir en el Contrato, y número y tipo de pedidos y subcontratos   a   realizar   en   su   momento.   Así   mismo,   a   requerimiento   del   Servicio Comercial, estiman las horas necesarias para la realización de los trabajos en caso de adjudicación.\n\nTodo ello ha de ser aprobado por el Jefe del Departamento correspondiente, antes de su envío.\n\nEl   Departamento   de   Proceso,   además,   asesorará   en   la   selección   de   Procesos   y Licencias, cuando sea requerido para ello.",
+      "chunk_id": "da4ae755-c662-4945-8494-e15b735a2577",
+      "texto": "Las personas nombradas para colaborar en la Oferta preparan la documentación técnica de su especialidad, que haya de incluirse, y estiman, para el Servicio Comercial el número de documentos de cada tipo a emitir en el Contrato, y número y tipo de pedidos y subcontratos   a   realizar   en   su   momento.   Así   mismo,   a   requerimiento   del   Servicio Comercial, estiman las horas necesarias para la realización de los trabajos en caso de adjudicación.",
       "nivel": "child",
-      "parent_id": "c3ed31ee-8952-41fb-8bf1-a21ffe0d60e2",
+      "parent_id": "ae44da3a-4a7e-4fe4-b1e0-943fd743f2cd",
       "pagina_inicio": 5,
       "pagina_fin": 5,
       "seccion": "4.5. Departamentos",
@@ -301,10 +406,25 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "270130cb-54b1-4df9-8263-e8f789c8d91a",
+      "chunk_id": "ac32d2ff-10d7-4c0a-bd18-abb7a5929d60",
+      "texto": "Todo ello ha de ser aprobado por el Jefe del Departamento correspondiente, antes de su envío.\n\nEl   Departamento   de   Proceso,   además,   asesorará   en   la   selección   de   Procesos   y Licencias, cuando sea requerido para ello.",
+      "nivel": "child",
+      "parent_id": "ae44da3a-4a7e-4fe4-b1e0-943fd743f2cd",
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "4.5. Departamentos",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "aafa162f-30aa-4503-9164-14000906836b",
       "texto": "El   Departamento   de   Construcción   estimará,   cuando   sea   requerido,   el   coste   de   las instalaciones de obra que  fueran precisas, y propondrá, al Servicio Comercial, el equipo de supervisión necesario en su momento para la construcción y el montaje, tanto con personal propio como contratado.",
       "nivel": "child",
-      "parent_id": "c3ed31ee-8952-41fb-8bf1-a21ffe0d60e2",
+      "parent_id": "ae44da3a-4a7e-4fe4-b1e0-943fd743f2cd",
       "pagina_inicio": 5,
       "pagina_fin": 5,
       "seccion": "4.5. Departamentos",
@@ -316,7 +436,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2539ce57-06b4-4c59-8a10-acd708d96709",
+      "chunk_id": "96b574a3-3351-4169-8590-70c6356d6baf",
       "texto": "El coste final de la Oferta, fijado y firmado en el formato \"Oferta de servicios\", será sometido por el Jefe del Servicio Comercial y el J.O. al Director de la División. Este, conjuntamente con el Jefe del Servicio Comercial, define los coeficientes a utilizar y propone el precio de Venta a la aprobación de la Dirección General.\n\nEl importe a ofertar, aprobado por la Dirección General, puede diferir del propuesto por motivos de estrategia comercial, que no necesitan justificación.\n\nCuando las condiciones de cobro previstas representen un coste financiero de cierta importancia, el Servicio Comercial, obtendrá un primer valor de Venta, con objeto de calcular el \"cash-flow\" orientativo. El valor de Venta lo obtendrá aplicando coeficientes estimativos al precio de coste.\n\nLa cumplimentación y firmas del formato  Ofertas de servicios  podrá realizarse en el formato convencional o en su equivalente informatizado .\n\nUna vez firmado por la Dirección General el importe a ofertar, cualquier modificación posterior que no responda a estrategia comercial, deberá quedar reflejada en nota aparte o, incluso, en nuevo formato añadido.\n\nEl Jefe del Servicio Comercial conservará el original del formato \"Oferta de Servicios\" totalmente cumplimentado, enviando copia del mismo al Director de la División. Una vez finalizadas   las   negociaciones   con   el   Cliente,   enviará   los   originales   al   Servicio   de Planificación y Control de Gestión.\n\nEl Jefe de la Oferta se ocupará de la edición de la Oferta Técnica y de la Oferta Comercial y Económica y, una vez sometidas a la aceptación del Director de la División , preparará los ejemplares necesarios y cumplirá los requisitos formales de entrega que procedan en cada caso (distintos sobres o envíos, lacrado, etc.), con la supervisión del Servicio Comercial.\n\nLa Oferta Comercial y Económica, y la carta de envío al Cliente, serán firmadas por el Director de la División o el Jefe del Servicio Comercial. Habitualmente no se precisa firmar la Oferta Técnica, sirviendo la carta de envío como evidencia de su aprobación.",
       "nivel": "parent",
       "parent_id": null,
@@ -331,10 +451,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4a6dabcf-f85e-4df8-83d0-a3e6c1145723",
-      "texto": "El coste final de la Oferta, fijado y firmado en el formato \"Oferta de servicios\", será sometido por el Jefe del Servicio Comercial y el J.O. al Director de la División. Este, conjuntamente con el Jefe del Servicio Comercial, define los coeficientes a utilizar y propone el precio de Venta a la aprobación de la Dirección General.\n\nEl importe a ofertar, aprobado por la Dirección General, puede diferir del propuesto por motivos de estrategia comercial, que no necesitan justificación.\n\nCuando las condiciones de cobro previstas representen un coste financiero de cierta importancia, el Servicio Comercial, obtendrá un primer valor de Venta, con objeto de calcular el \"cash-flow\" orientativo. El valor de Venta lo obtendrá aplicando coeficientes estimativos al precio de coste.\n\nLa cumplimentación y firmas del formato  Ofertas de servicios  podrá realizarse en el formato convencional o en su equivalente informatizado .",
+      "chunk_id": "6ac570bb-8021-4d06-9d34-e94375d03eb6",
+      "texto": "El coste final de la Oferta, fijado y firmado en el formato \"Oferta de servicios\", será sometido por el Jefe del Servicio Comercial y el J.O. al Director de la División. Este, conjuntamente con el Jefe del Servicio Comercial, define los coeficientes a utilizar y propone el precio de Venta a la aprobación de la Dirección General.",
       "nivel": "child",
-      "parent_id": "2539ce57-06b4-4c59-8a10-acd708d96709",
+      "parent_id": "96b574a3-3351-4169-8590-70c6356d6baf",
       "pagina_inicio": 5,
       "pagina_fin": 6,
       "seccion": "5. PREPARACION Y APROBACION DE LA OFERTA",
@@ -346,10 +466,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "47adfd8c-bf5c-49d2-a617-8f99b0494c0d",
-      "texto": "Una vez firmado por la Dirección General el importe a ofertar, cualquier modificación posterior que no responda a estrategia comercial, deberá quedar reflejada en nota aparte o, incluso, en nuevo formato añadido.\n\nEl Jefe del Servicio Comercial conservará el original del formato \"Oferta de Servicios\" totalmente cumplimentado, enviando copia del mismo al Director de la División. Una vez finalizadas   las   negociaciones   con   el   Cliente,   enviará   los   originales   al   Servicio   de Planificación y Control de Gestión.\n\nEl Jefe de la Oferta se ocupará de la edición de la Oferta Técnica y de la Oferta Comercial y Económica y, una vez sometidas a la aceptación del Director de la División , preparará los ejemplares necesarios y cumplirá los requisitos formales de entrega que procedan en cada caso (distintos sobres o envíos, lacrado, etc.), con la supervisión del Servicio Comercial.",
+      "chunk_id": "35116476-f23c-4da8-872f-de964a4195aa",
+      "texto": "El importe a ofertar, aprobado por la Dirección General, puede diferir del propuesto por motivos de estrategia comercial, que no necesitan justificación.\n\nCuando las condiciones de cobro previstas representen un coste financiero de cierta importancia, el Servicio Comercial, obtendrá un primer valor de Venta, con objeto de calcular el \"cash-flow\" orientativo. El valor de Venta lo obtendrá aplicando coeficientes estimativos al precio de coste.",
       "nivel": "child",
-      "parent_id": "2539ce57-06b4-4c59-8a10-acd708d96709",
+      "parent_id": "96b574a3-3351-4169-8590-70c6356d6baf",
       "pagina_inicio": 5,
       "pagina_fin": 6,
       "seccion": "5. PREPARACION Y APROBACION DE LA OFERTA",
@@ -361,10 +481,55 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7fc62d92-dc58-4414-98bc-6307f8054aa3",
+      "chunk_id": "ee5d8331-1466-4204-98bf-9982f0948b8f",
+      "texto": "La cumplimentación y firmas del formato  Ofertas de servicios  podrá realizarse en el formato convencional o en su equivalente informatizado .\n\nUna vez firmado por la Dirección General el importe a ofertar, cualquier modificación posterior que no responda a estrategia comercial, deberá quedar reflejada en nota aparte o, incluso, en nuevo formato añadido.",
+      "nivel": "child",
+      "parent_id": "96b574a3-3351-4169-8590-70c6356d6baf",
+      "pagina_inicio": 5,
+      "pagina_fin": 6,
+      "seccion": "5. PREPARACION Y APROBACION DE LA OFERTA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8673cbda-0bd5-4ac3-a1da-d168ce56dafb",
+      "texto": "El Jefe del Servicio Comercial conservará el original del formato \"Oferta de Servicios\" totalmente cumplimentado, enviando copia del mismo al Director de la División. Una vez finalizadas   las   negociaciones   con   el   Cliente,   enviará   los   originales   al   Servicio   de Planificación y Control de Gestión.",
+      "nivel": "child",
+      "parent_id": "96b574a3-3351-4169-8590-70c6356d6baf",
+      "pagina_inicio": 5,
+      "pagina_fin": 6,
+      "seccion": "5. PREPARACION Y APROBACION DE LA OFERTA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "637df920-7ccb-4fc0-8684-a2b6a3f51dd6",
+      "texto": "El Jefe de la Oferta se ocupará de la edición de la Oferta Técnica y de la Oferta Comercial y Económica y, una vez sometidas a la aceptación del Director de la División , preparará los ejemplares necesarios y cumplirá los requisitos formales de entrega que procedan en cada caso (distintos sobres o envíos, lacrado, etc.), con la supervisión del Servicio Comercial.",
+      "nivel": "child",
+      "parent_id": "96b574a3-3351-4169-8590-70c6356d6baf",
+      "pagina_inicio": 5,
+      "pagina_fin": 6,
+      "seccion": "5. PREPARACION Y APROBACION DE LA OFERTA",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "37902bf6-d291-4bcf-8717-86472fb7a187",
       "texto": "), con la supervisión del Servicio Comercial.\n\nLa Oferta Comercial y Económica, y la carta de envío al Cliente, serán firmadas por el Director de la División o el Jefe del Servicio Comercial. Habitualmente no se precisa firmar la Oferta Técnica, sirviendo la carta de envío como evidencia de su aprobación.",
       "nivel": "child",
-      "parent_id": "2539ce57-06b4-4c59-8a10-acd708d96709",
+      "parent_id": "96b574a3-3351-4169-8590-70c6356d6baf",
       "pagina_inicio": 5,
       "pagina_fin": 6,
       "seccion": "5. PREPARACION Y APROBACION DE LA OFERTA",
@@ -376,7 +541,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f5f69304-d8cd-41db-b60b-fd4c523cf6ae",
+      "chunk_id": "42a4d0d2-bac2-4817-a624-c5b74928ad4c",
       "texto": "La presentación y el seguimiento de la Oferta es responsabilidad del Servicio Comercial, con la colaboración del Jefe de la Oferta y cualquier otra persona que estime oportuna, cuya participación solicitará a los Jefes de Servicios o Departamentos correspondientes.\n\nSin embargo, si el Director de la División lo considerase conveniente, la presentación y seguimiento pueden ser realizados por el Jefe de la Oferta u otra persona ajena al Servicio Comercial, manteniendo siempre informado a éste.\n\nEn cualquier  caso,   quien   realice   el   seguimiento   se   responsabilizará   de   documentar adecuadamente todas las modificaciones de alcances, servicios, precios, etc. que puedan surgir durante las negociaciones con el Cliente, y de que todo ello quede debidamente archivado en el Servicio de Planificación y Control de Gestión junto con las estimaciones originales, siguiendo la correspondiente Instrucción de Trabajo del Servicio.",
       "nivel": "parent",
       "parent_id": null,
@@ -391,7 +556,37 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "21695666-3bda-4c1b-92a8-8ca8b01a5ede",
+      "chunk_id": "42fd0710-90b4-4c8e-bdd3-7824d889acb0",
+      "texto": "La presentación y el seguimiento de la Oferta es responsabilidad del Servicio Comercial, con la colaboración del Jefe de la Oferta y cualquier otra persona que estime oportuna, cuya participación solicitará a los Jefes de Servicios o Departamentos correspondientes.\n\nSin embargo, si el Director de la División lo considerase conveniente, la presentación y seguimiento pueden ser realizados por el Jefe de la Oferta u otra persona ajena al Servicio Comercial, manteniendo siempre informado a éste.",
+      "nivel": "child",
+      "parent_id": "42a4d0d2-bac2-4817-a624-c5b74928ad4c",
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "6. PRESENTACION Y SEGUIMIENTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0a9ef2ce-e894-412d-b5a7-4533b68437eb",
+      "texto": "En cualquier  caso,   quien   realice   el   seguimiento   se   responsabilizará   de   documentar adecuadamente todas las modificaciones de alcances, servicios, precios, etc. que puedan surgir durante las negociaciones con el Cliente, y de que todo ello quede debidamente archivado en el Servicio de Planificación y Control de Gestión junto con las estimaciones originales, siguiendo la correspondiente Instrucción de Trabajo del Servicio.",
+      "nivel": "child",
+      "parent_id": "42a4d0d2-bac2-4817-a624-c5b74928ad4c",
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "6. PRESENTACION Y SEGUIMIENTO",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ea2e9859-62dd-489d-9157-b10e2ab9864d",
       "texto": "En ofertas sencillas, de pequeña entidad, o en aquellas cuyas características especiales así lo aconsejen (como el caso de cogeneraciones), los anteriores cometidos pueden ser llevados a cabo por el propio Jefe de Oferta, a juicio del Director de División.\n\nEn cualquier caso, una vez finalizadas las negociaciones con el Cliente, el formato \"Oferta de Servicios\", cumplimentado, y los eventuales anexos, han de entregarse, para su custodia, al Servicio de Planificación y Control de Gestión.",
       "nivel": "parent",
       "parent_id": null,
@@ -406,7 +601,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5fd0a72e-9175-40bc-95ad-a1f0165454f8",
+      "chunk_id": "bad5f8c5-2827-4d81-834f-9da76d4c5d68",
       "texto": "Redacción . Debe precisarse si al Cliente se le llama Cliente, CLIENTE, o por su nombre y cuál es ese nombre (Petrolera de la Mancha, S.A. o PEMANSA). También si se usa INTECSA INDUSTRIAL, Intecsa Ingeniería Industrial, S.A.\n\nIndicar asimismo las formas verbales:\n\n. INTECSA INDUSTRIAL hará tal cosa\n\n. Hemos supuesto que ...\n\nMecanografía . Definir en una nota que sirva de ejemplo los formatos que se han de usar, los tipos de letras a utilizar (que no tienen que coincidir con los que aquí se han elegido) y los subrayados, así como si los textos comienzan a continuación del titulillo (como aquí la palabra Definir) o con punto y aparte después del titulillo.\n\nEl ejemplo ha de marcar también los  márgenes, que deben ser bastante constantes, evitando meter los textos hacia la derecha en las subdivisiones.\n\nAsimismo, el ejemplo mostrará los espacios elegidos.\n\nFijar el desglose de la  numeración  a utilizar (preferiblemente máximo dos cifras y no 1.1.4.3.)\n\nPara subdivisiones adicionales, en lugar de 1.1.4., se pueden usar:\n\nnegritas , que resaltan mucho, o\n\nLetras, pero cuidando de que no por eso modifiquemos el margen establecido como máximo por remeter el texto respecto a las letras.\n\nObviamente no deben numerarse las páginas, o deben numerarse solamente en la edición final para tener la opción, hasta el último momento, de añadir o suprimir textos, cuadros, etc. Por lo tanto, en el texto, nunca se hará referencia a otra página por su número sino por el número del capítulo o apartado de que se trate.\n\nPlanos . Se indicarán cuando haya planos o diagramas, los formatos preferidos, los sellos de cada uno, y si irán cosidos (en el caso de los A4), cosidos y doblados (en el caso de los A3) o en fundas en cualquier caso.\n\nGráficos   por   ordenador .   A   pesar   de   las   facilidades   que   da   el   ordenador   para \"embellecer\" los gráficos con sombras, tramas, etc., se procurará la sencillez para que no desentone con el conjunto, que forzosamente es más espartano.\n\nEstandarizacion de Ofertas Habituales. Las ofertas a Clientes como Repsol, Cepsa, Basf, etc., que son Clientes habituales se tratarán de hacer de una manera lo más similar posible a como dicho Cliente las ha recibido de Intecsa Industrial con anterioridad.\n\nIdentificación. Es conveniente que las Ofertas tengan en el borde inferior izquierdo una identificación del Ordenador y del fichero en donde han sido guardados con objeto de estar localizables para posibles revisiones y usos para otras ofertas similares.",
       "nivel": "parent",
       "parent_id": null,
@@ -422,10 +617,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f7737eaa-fe16-43cf-a372-cae9e2f2a84b",
-      "texto": "Redacción . Debe precisarse si al Cliente se le llama Cliente, CLIENTE, o por su nombre y cuál es ese nombre (Petrolera de la Mancha, S.A. o PEMANSA). También si se usa INTECSA INDUSTRIAL, Intecsa Ingeniería Industrial, S.A.\n\nIndicar asimismo las formas verbales:\n\n. INTECSA INDUSTRIAL hará tal cosa\n\n. Hemos supuesto que ...\n\nMecanografía . Definir en una nota que sirva de ejemplo los formatos que se han de usar, los tipos de letras a utilizar (que no tienen que coincidir con los que aquí se han elegido) y los subrayados, así como si los textos comienzan a continuación del titulillo (como aquí la palabra Definir) o con punto y aparte después del titulillo.\n\nEl ejemplo ha de marcar también los  márgenes, que deben ser bastante constantes, evitando meter los textos hacia la derecha en las subdivisiones.\n\nAsimismo, el ejemplo mostrará los espacios elegidos.",
+      "chunk_id": "39b46e95-6feb-4cae-844c-b3424b4a7f8d",
+      "texto": "Redacción . Debe precisarse si al Cliente se le llama Cliente, CLIENTE, o por su nombre y cuál es ese nombre (Petrolera de la Mancha, S.A. o PEMANSA). También si se usa INTECSA INDUSTRIAL, Intecsa Ingeniería Industrial, S.A.\n\nIndicar asimismo las formas verbales:\n\n. INTECSA INDUSTRIAL hará tal cosa\n\n. Hemos supuesto que ...\n\nMecanografía .",
       "nivel": "child",
-      "parent_id": "5fd0a72e-9175-40bc-95ad-a1f0165454f8",
+      "parent_id": "bad5f8c5-2827-4d81-834f-9da76d4c5d68",
       "pagina_inicio": 7,
       "pagina_fin": 8,
       "seccion": "EJEMPLO DE REDACCION , MECANOGRAFIA Y PRESENTACION",
@@ -438,10 +633,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6c28a2a1-17b6-485d-8ad7-77334e94d500",
-      "texto": "Asimismo, el ejemplo mostrará los espacios elegidos.\n\nFijar el desglose de la  numeración  a utilizar (preferiblemente máximo dos cifras y no 1.1.4.3.)\n\nPara subdivisiones adicionales, en lugar de 1.1.4., se pueden usar:\n\nnegritas , que resaltan mucho, o\n\nLetras, pero cuidando de que no por eso modifiquemos el margen establecido como máximo por remeter el texto respecto a las letras.\n\nObviamente no deben numerarse las páginas, o deben numerarse solamente en la edición final para tener la opción, hasta el último momento, de añadir o suprimir textos, cuadros, etc. Por lo tanto, en el texto, nunca se hará referencia a otra página por su número sino por el número del capítulo o apartado de que se trate.\n\nPlanos .",
+      "chunk_id": "7cc6badb-2010-4b00-98da-ab573ccf7ba6",
+      "texto": "Hemos supuesto que ...\n\nMecanografía . Definir en una nota que sirva de ejemplo los formatos que se han de usar, los tipos de letras a utilizar (que no tienen que coincidir con los que aquí se han elegido) y los subrayados, así como si los textos comienzan a continuación del titulillo (como aquí la palabra Definir) o con punto y aparte después del titulillo.",
       "nivel": "child",
-      "parent_id": "5fd0a72e-9175-40bc-95ad-a1f0165454f8",
+      "parent_id": "bad5f8c5-2827-4d81-834f-9da76d4c5d68",
       "pagina_inicio": 7,
       "pagina_fin": 8,
       "seccion": "EJEMPLO DE REDACCION , MECANOGRAFIA Y PRESENTACION",
@@ -454,10 +649,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "430acd2e-e90c-4063-aef8-45063fa95062",
-      "texto": "Planos . Se indicarán cuando haya planos o diagramas, los formatos preferidos, los sellos de cada uno, y si irán cosidos (en el caso de los A4), cosidos y doblados (en el caso de los A3) o en fundas en cualquier caso.\n\nGráficos   por   ordenador .   A   pesar   de   las   facilidades   que   da   el   ordenador   para \"embellecer\" los gráficos con sombras, tramas, etc., se procurará la sencillez para que no desentone con el conjunto, que forzosamente es más espartano.\n\nEstandarizacion de Ofertas Habituales. Las ofertas a Clientes como Repsol, Cepsa, Basf, etc., que son Clientes habituales se tratarán de hacer de una manera lo más similar posible a como dicho Cliente las ha recibido de Intecsa Industrial con anterioridad.\n\nIdentificación.",
+      "chunk_id": "13817b68-6330-4e50-a1f9-2c11f1c6b7a2",
+      "texto": "El ejemplo ha de marcar también los  márgenes, que deben ser bastante constantes, evitando meter los textos hacia la derecha en las subdivisiones.\n\nAsimismo, el ejemplo mostrará los espacios elegidos.\n\nFijar el desglose de la  numeración  a utilizar (preferiblemente máximo dos cifras y no 1.1.4.3.)",
       "nivel": "child",
-      "parent_id": "5fd0a72e-9175-40bc-95ad-a1f0165454f8",
+      "parent_id": "bad5f8c5-2827-4d81-834f-9da76d4c5d68",
       "pagina_inicio": 7,
       "pagina_fin": 8,
       "seccion": "EJEMPLO DE REDACCION , MECANOGRAFIA Y PRESENTACION",
@@ -470,10 +665,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "134693f3-9e5e-42b8-8f16-e579c6cdc088",
-      "texto": "Identificación. Es conveniente que las Ofertas tengan en el borde inferior izquierdo una identificación del Ordenador y del fichero en donde han sido guardados con objeto de estar localizables para posibles revisiones y usos para otras ofertas similares.",
+      "chunk_id": "28831344-c417-42ac-b479-940b70bfcdc4",
+      "texto": "Para subdivisiones adicionales, en lugar de 1.1.4., se pueden usar:\n\nnegritas , que resaltan mucho, o\n\nLetras, pero cuidando de que no por eso modifiquemos el margen establecido como máximo por remeter el texto respecto a las letras.\n\nObviamente no deben numerarse las páginas, o deben numerarse solamente en la edición final para tener la opción, hasta el último momento, de añadir o suprimir textos, cuadros, etc.",
       "nivel": "child",
-      "parent_id": "5fd0a72e-9175-40bc-95ad-a1f0165454f8",
+      "parent_id": "bad5f8c5-2827-4d81-834f-9da76d4c5d68",
       "pagina_inicio": 7,
       "pagina_fin": 8,
       "seccion": "EJEMPLO DE REDACCION , MECANOGRAFIA Y PRESENTACION",
@@ -486,7 +681,55 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5eff712b-9f73-48e9-96a8-26abc8ada153",
+      "chunk_id": "653b33d1-5794-4fa4-be2d-af07d87a3552",
+      "texto": "Por lo tanto, en el texto, nunca se hará referencia a otra página por su número sino por el número del capítulo o apartado de que se trate.\n\nPlanos . Se indicarán cuando haya planos o diagramas, los formatos preferidos, los sellos de cada uno, y si irán cosidos (en el caso de los A4), cosidos y doblados (en el caso de los A3) o en fundas en cualquier caso.\n\nGráficos   por   ordenador .",
+      "nivel": "child",
+      "parent_id": "bad5f8c5-2827-4d81-834f-9da76d4c5d68",
+      "pagina_inicio": 7,
+      "pagina_fin": 8,
+      "seccion": "EJEMPLO DE REDACCION , MECANOGRAFIA Y PRESENTACION",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "dca52d4a-73c2-4ae8-a1bd-5bb906fa5039",
+      "texto": "Gráficos   por   ordenador .   A   pesar   de   las   facilidades   que   da   el   ordenador   para \"embellecer\" los gráficos con sombras, tramas, etc., se procurará la sencillez para que no desentone con el conjunto, que forzosamente es más espartano.\n\nEstandarizacion de Ofertas Habituales.",
+      "nivel": "child",
+      "parent_id": "bad5f8c5-2827-4d81-834f-9da76d4c5d68",
+      "pagina_inicio": 7,
+      "pagina_fin": 8,
+      "seccion": "EJEMPLO DE REDACCION , MECANOGRAFIA Y PRESENTACION",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f11df3c3-1569-4a15-a1fa-17a1307d2f62",
+      "texto": "Estandarizacion de Ofertas Habituales. Las ofertas a Clientes como Repsol, Cepsa, Basf, etc., que son Clientes habituales se tratarán de hacer de una manera lo más similar posible a como dicho Cliente las ha recibido de Intecsa Industrial con anterioridad.\n\nIdentificación. Es conveniente que las Ofertas tengan en el borde inferior izquierdo una identificación del Ordenador y del fichero en donde han sido guardados con objeto de estar localizables para posibles revisiones y usos para otras ofertas similares.",
+      "nivel": "child",
+      "parent_id": "bad5f8c5-2827-4d81-834f-9da76d4c5d68",
+      "pagina_inicio": 7,
+      "pagina_fin": 8,
+      "seccion": "EJEMPLO DE REDACCION , MECANOGRAFIA Y PRESENTACION",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "abc0a48b-280f-4cca-855d-9fe524072082",
       "texto": "(En cada momento se utilizará la última edición en vigor)",
       "nivel": "parent",
       "parent_id": null,

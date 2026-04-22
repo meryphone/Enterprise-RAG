@@ -14,6 +14,7 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import gc
 import json
 import re
 import sys
@@ -337,6 +338,9 @@ def main() -> int:
         dt = time.perf_counter() - t0
         total_children += conteo["children"]
         total_parents += conteo["parents"]
+
+        del documento
+        gc.collect()
 
         print(
             f"  ({dt:.1f}s)  "

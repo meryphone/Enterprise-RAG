@@ -13,7 +13,7 @@ const SUGGESTIONS_BY_SCOPE: Record<string, string[]> = {
     "Proceso de revisión de documentos",
   ],
   dow: [
-    "¿Cuáles son las instrucciones de uso del portal para el proyecto Dow?",
+    "¿Cuáles son los permisos disponibles para el proyecto?",
     "¿Cómo se gestiona el control de documentos en el portal?",
     "Procedimiento para la distribución de documentación",
   ],

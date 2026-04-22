@@ -1,5 +1,5 @@
 {
-  "doc_id": "9e1f6333ffce4076a22845505415e61b",
+  "doc_id": "3bea1e69d15a47ec93f3063405fa958b",
   "nombre_fichero": "13187-IT-02.pdf",
   "metadatos_admin": {
     "empresa": "repsol",
@@ -13,10 +13,10 @@
     "edicion": "01",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-20T21:52:10+00:00",
+  "fecha_ingesta": "2026-04-22T17:21:49+00:00",
   "chunks": [
     {
-      "chunk_id": "7c73dd5e-37b1-4dec-abc1-bbf6c61d4cd3",
+      "chunk_id": "cdb6d9ff-f224-469e-87aa-4a7406d3cf49",
       "texto": "Este documento tiene por objeto describir el procedimiento de introducción y aprobación de documentos en el portal de IUI para el proyecto 13187 - REPSOL YPF La Pampilla. En el proyecto 13187-REPSOL YPF La Pampilla el sistema de aprobación será mediante circuitos   de   distribución en   papel ,   usaremos   los   recursos   del   gestor   documental Documentum 4i para simular una aprobación electrónica que registre la situación del documento (aprobado con comentarios, rechazado,...) y dar coherencia a los Sistemas de Información empleados en el Proyecto.",
       "nivel": "parent",
       "parent_id": null,
@@ -31,7 +31,37 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d43b62c0-ff1c-4764-9d47-033431ca1a7c",
+      "chunk_id": "34a0f84c-c505-4370-a264-f466daae934a",
+      "texto": "Este documento tiene por objeto describir el procedimiento de introducción y aprobación de documentos en el portal de IUI para el proyecto 13187 - REPSOL YPF La Pampilla.",
+      "nivel": "child",
+      "parent_id": "cdb6d9ff-f224-469e-87aa-4a7406d3cf49",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9d31edcd-a16b-4e1f-9516-e5dd63a7093b",
+      "texto": "En el proyecto 13187-REPSOL YPF La Pampilla el sistema de aprobación será mediante circuitos   de   distribución en   papel ,   usaremos   los   recursos   del   gestor   documental Documentum 4i para simular una aprobación electrónica que registre la situación del documento (aprobado con comentarios, rechazado,...) y dar coherencia a los Sistemas de Información empleados en el Proyecto.",
+      "nivel": "child",
+      "parent_id": "cdb6d9ff-f224-469e-87aa-4a7406d3cf49",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "1. OBJETO Y ALCANCE",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "933494c8-621f-46d1-8844-8f118fb148b6",
       "texto": "El   Portal   de   IUI   permite   establecer  un registro   de   aprobación de los  documentos, previamente aprobados en papel, para mantener la consistencia de la documentación del Proyecto. Mediante este registro se persiguen los siguientes objetivos:\n\n Control del estado y del proceso de aprobación de los documentos :   para cada documento siempre será posible a los participantes en el proyecto conocer en qué estado se encuentra. Asimismo, las fechas de aprobación quedan registradas en el sistema.\n\n Integridad de la información: una vez aprobado un documento no será posible borrarlo o sobrescribirlo pero sí introducir una nueva edición conservando las anteriores. Ello posibilita a su vez establecer permisos sobre el documento que permitan escribir a varios usuarios y, por tanto, la actualización de las nuevas ediciones por cualquiera de ellos.\n\n Disponibilidad inmediata de la información : el documento es introducido previamente a su aprobación, con lo que, cuando la aprobación se produce, la distribución de los documentos y el acceso a los mismos son inmediatos.\n\n Complementar el acceso de Comercio Electrónico de IUI dotándole de seguridad ya que la información no será publicada a los proveedores hasta que hay sido aprobada.",
       "nivel": "parent",
       "parent_id": null,
@@ -47,10 +77,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a43c22f8-9cae-4226-9730-782cd3688bc1",
-      "texto": "El   Portal   de   IUI   permite   establecer  un registro   de   aprobación de los  documentos, previamente aprobados en papel, para mantener la consistencia de la documentación del Proyecto. Mediante este registro se persiguen los siguientes objetivos:\n\n Control del estado y del proceso de aprobación de los documentos :   para cada documento siempre será posible a los participantes en el proyecto conocer en qué estado se encuentra. Asimismo, las fechas de aprobación quedan registradas en el sistema.\n\n Integridad de la información: una vez aprobado un documento no será posible borrarlo o sobrescribirlo pero sí introducir una nueva edición conservando las anteriores. Ello posibilita a su vez establecer permisos sobre el documento que permitan escribir a varios usuarios y, por tanto, la actualización de las nuevas ediciones por cualquiera de ellos.",
+      "chunk_id": "09323f91-c28c-4658-9c94-69230a18f1c5",
+      "texto": "El   Portal   de   IUI   permite   establecer  un registro   de   aprobación de los  documentos, previamente aprobados en papel, para mantener la consistencia de la documentación del Proyecto. Mediante este registro se persiguen los siguientes objetivos:\n\n Control del estado y del proceso de aprobación de los documentos :   para cada documento siempre será posible a los participantes en el proyecto conocer en qué estado se encuentra. Asimismo, las fechas de aprobación quedan registradas en el sistema.",
       "nivel": "child",
-      "parent_id": "d43b62c0-ff1c-4764-9d47-033431ca1a7c",
+      "parent_id": "933494c8-621f-46d1-8844-8f118fb148b6",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "2. REGISTRO ELECTRÓNICO DE LA APROBACIÓN DE DOCUMENTOS",
@@ -63,10 +93,26 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6fed98ef-5d18-4d8a-adcd-3100e69cf86a",
+      "chunk_id": "1e5f455c-390e-4443-abbe-051d95fec76c",
+      "texto": "Asimismo, las fechas de aprobación quedan registradas en el sistema.\n\n Integridad de la información: una vez aprobado un documento no será posible borrarlo o sobrescribirlo pero sí introducir una nueva edición conservando las anteriores. Ello posibilita a su vez establecer permisos sobre el documento que permitan escribir a varios usuarios y, por tanto, la actualización de las nuevas ediciones por cualquiera de ellos.",
+      "nivel": "child",
+      "parent_id": "933494c8-621f-46d1-8844-8f118fb148b6",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. REGISTRO ELECTRÓNICO DE LA APROBACIÓN DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "53b3ba70-e32a-4030-b06a-65fce253072a",
       "texto": " Disponibilidad inmediata de la información : el documento es introducido previamente a su aprobación, con lo que, cuando la aprobación se produce, la distribución de los documentos y el acceso a los mismos son inmediatos.\n\n Complementar el acceso de Comercio Electrónico de IUI dotándole de seguridad ya que la información no será publicada a los proveedores hasta que hay sido aprobada.",
       "nivel": "child",
-      "parent_id": "d43b62c0-ff1c-4764-9d47-033431ca1a7c",
+      "parent_id": "933494c8-621f-46d1-8844-8f118fb148b6",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "2. REGISTRO ELECTRÓNICO DE LA APROBACIÓN DE DOCUMENTOS",
@@ -79,8 +125,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b7116dea-79c0-4a21-bcb3-92ce2ba85fc0",
-      "texto": "Sucesión de estados por los que pasa un documento desde que es iniciado su circuito de aprobación hasta que éste concluye. En el caso de documentos de proyecto dicha sucesión de estados es la siguiente:\n\n[Descripción visual: Diagrama de flujo técnico.\n\n- Tipo de diagrama: Diagrama de proceso para aprobación.\n- Componentes y nodos visibles:\n  - \"No Aprobado\"\n  - \"En Aprobación\"\n  - \"Aprobado (1)\"\n  - \"Rechazado\"\n- Conexiones y relaciones:\n  - Una flecha conecta \"No Aprobado\" a \"En Aprobación\".\n  - Una flecha conecta \"En Aprobación\" a \"Aprobado (1)\".\n  - Una flecha conecta \"En Aprobación\" a \"Rechazado\".]\n\nIndica que el documento es a todos los efectos APROBADO, ya sea documentos aprobados por el cliente o bien aprobados por IUI.",
+      "chunk_id": "b1d893c1-6ec2-4801-80b9-32337ea49b3b",
+      "texto": "Sucesión de estados por los que pasa un documento desde que es iniciado su circuito de aprobación hasta que éste concluye. En el caso de documentos de proyecto dicha sucesión de estados es la siguiente:\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nTipo de diagrama: Diagrama de flujo\n\n### Componentes y Nodos:\n1. **No Aprobado**\n   - Caja de inicio del proceso con una flecha hacia el siguiente nodo.\n2. **En Aprobación**\n   - Nodo intermedio con tres salidas:\n     - Flecha hacia \"Aprobado\".\n     - Flecha hacia \"Rechazado\".\n3. **Aprobado (1)**\n   - Nodo final en una de las vías del proceso.\n4. **Rechazado**\n   - Nodo final alternativo.\n\n### Conexiones y Relaciones:\n- El flujo inicia en \"No Aprobado\" y pasa a \"En Aprobación\".\n- Desde \"En Aprobación\", el proceso puede terminar en \"Aprobado (1)\" o en \"Rechazado\".\n\n### Textos y Etiquetas:\n- Los nodos de proceso están etiquetados claramente con los estados de aprobación: \"No Aprobado\", \"En Aprobación\", \"Aprobado (1)\", y \"Rechazado\".]\n\nIndica que el documento es a todos los efectos APROBADO, ya sea documentos aprobados por el cliente o bien aprobados por IUI.",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 3,
@@ -95,7 +141,55 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "51dd32e7-523c-47fa-ad63-f6d44a9231be",
+      "chunk_id": "afc87d1c-373c-4360-9c62-209396675926",
+      "texto": "Sucesión de estados por los que pasa un documento desde que es iniciado su circuito de aprobación hasta que éste concluye. En el caso de documentos de proyecto dicha sucesión de estados es la siguiente:\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nTipo de diagrama: Diagrama de flujo\n\n### Componentes y Nodos:\n1. **No Aprobado**\n   - Caja de inicio del proceso con una flecha hacia el siguiente nodo.\n2.",
+      "nivel": "child",
+      "parent_id": "b1d893c1-6ec2-4801-80b9-32337ea49b3b",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "CICLO DE VIDA :",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "67de3f33-fcf2-4524-8c4b-d19bdc0e27ff",
+      "texto": "2. **En Aprobación**\n   - Nodo intermedio con tres salidas:\n     - Flecha hacia \"Aprobado\".\n     - Flecha hacia \"Rechazado\".\n3. **Aprobado (1)**\n   - Nodo final en una de las vías del proceso.\n4. **Rechazado**\n   - Nodo final alternativo.\n\n### Conexiones y Relaciones:\n- El flujo inicia en \"No Aprobado\" y pasa a \"En Aprobación\".",
+      "nivel": "child",
+      "parent_id": "b1d893c1-6ec2-4801-80b9-32337ea49b3b",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "CICLO DE VIDA :",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9470cdd1-61a1-4ad3-a93e-22eb7e5c8763",
+      "texto": "- Desde \"En Aprobación\", el proceso puede terminar en \"Aprobado (1)\" o en \"Rechazado\".\n\n### Textos y Etiquetas:\n- Los nodos de proceso están etiquetados claramente con los estados de aprobación: \"No Aprobado\", \"En Aprobación\", \"Aprobado (1)\", y \"Rechazado\".]\n\nIndica que el documento es a todos los efectos APROBADO, ya sea documentos aprobados por el cliente o bien aprobados por IUI.",
+      "nivel": "child",
+      "parent_id": "b1d893c1-6ec2-4801-80b9-32337ea49b3b",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "CICLO DE VIDA :",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b8bf9329-f0aa-42c9-8e4f-0c7426cb8b28",
       "texto": "Un documento sobre el que se ha aplicado un workflow va llegando sucesivamente a los destinatarios que se determinen bajo la forma de tarea , que consiste en un mensaje que lleva adjuntos el documento y las notas enviadas por los participantes anteriores en el workflow. Cada usuario dispone de un buzón personal de tareas en el Portal a través del cual recibe las tareas y las notificaciones.",
       "nivel": "parent",
       "parent_id": null,
@@ -110,7 +204,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "165a592f-b32e-4c60-809a-08f8ece2ba5e",
+      "chunk_id": "7e22826e-9249-4149-9911-0989a59b867a",
       "texto": "Mensaje a través del cual se comunica alguna incidencia ocurrida en un workflow , como pudiera ser la retención de un documento sin aprobar o rechazar durante más tiempo del prefijado. Las notificaciones son recibidas por cada usuario en su buzón personal de Tareas.",
       "nivel": "parent",
       "parent_id": null,
@@ -125,7 +219,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "5d016afd-1efa-4eca-b9bd-1aeed6ac26cb",
+      "chunk_id": "24b94a41-2887-4ec4-84b4-df7231b25fd5",
       "texto": "Dicho registro consistirá en un circuito de aprobación  muy sencillo y que únicamente incluirá dos agentes:\n\n Responsable de Cuenta\n\n Administrador de Proyecto\n\nPreviamente al envío del documento para su aprobación en papel se incluirá éste en el portal   por el especialista que lo genera y lanzará el WORKFLOW de aprobación que mandará una tarea al Administrador de Proyecto. Tras la aprobación del documento en papel   por   el Ingeniero   de   Proyecto o  el Jefe   de   Proyecto, según  cada   caso,   el Administrador de Proyecto registrará la aprobación una vez reciba el documento aprobado en papel listo para su distribución. (Ver instrucciones).\n\nUna vez recibido el documento el papel ya aprobado listo para distribución el Administrador de Proyecto registrará los comentarios del cliente. Pueden ocurrir dos casos:\n\nNo necesite aprobación por parte del cliente. En ese caso al terminar seleccionará la opción Aprobar IUI y el documento quedará en estado Aprobado.\n\nNecesite aprobación por parte del cliente. Entonces el documento quedará en estado Aprobado y el Administrador registrará la situación del plano para el cliente:\n\nACC. Aprobado con comentarios\n\nASC. Aprobado sin comentarios.",
       "nivel": "parent",
       "parent_id": null,
@@ -141,10 +235,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6121fb4e-2c57-46a7-8a86-6a46c6a8a5d8",
-      "texto": "Dicho registro consistirá en un circuito de aprobación  muy sencillo y que únicamente incluirá dos agentes:\n\n Responsable de Cuenta\n\n Administrador de Proyecto\n\nPreviamente al envío del documento para su aprobación en papel se incluirá éste en el portal   por el especialista que lo genera y lanzará el WORKFLOW de aprobación que mandará una tarea al Administrador de Proyecto. Tras la aprobación del documento en papel   por   el Ingeniero   de   Proyecto o  el Jefe   de   Proyecto, según  cada   caso,   el Administrador de Proyecto registrará la aprobación una vez reciba el documento aprobado en papel listo para su distribución. (Ver instrucciones).\n\nUna vez recibido el documento el papel ya aprobado listo para distribución el Administrador de Proyecto registrará los comentarios del cliente. Pueden ocurrir dos casos:\n\nNo necesite aprobación por parte del cliente. En ese caso al terminar seleccionará la opción Aprobar IUI y el documento quedará en estado Aprobado.",
+      "chunk_id": "05ab528c-530d-47d8-8fcf-9add08b65bba",
+      "texto": "Dicho registro consistirá en un circuito de aprobación  muy sencillo y que únicamente incluirá dos agentes:\n\n Responsable de Cuenta\n\n Administrador de Proyecto\n\nPreviamente al envío del documento para su aprobación en papel se incluirá éste en el portal   por el especialista que lo genera y lanzará el WORKFLOW de aprobación que mandará una tarea al Administrador de Proyecto.",
       "nivel": "child",
-      "parent_id": "5d016afd-1efa-4eca-b9bd-1aeed6ac26cb",
+      "parent_id": "24b94a41-2887-4ec4-84b4-df7231b25fd5",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "4. APLICACIÓN EN EL PROYECTO 13187 REPSOL YFP La Pampilla",
@@ -157,10 +251,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bffd8ebf-b734-4460-b2ea-7ab11e54e8ec",
-      "texto": "Necesite aprobación por parte del cliente. Entonces el documento quedará en estado Aprobado y el Administrador registrará la situación del plano para el cliente:\n\nACC. Aprobado con comentarios\n\nASC. Aprobado sin comentarios.",
+      "chunk_id": "c099466b-ee39-4d03-a29c-028af0bfcea3",
+      "texto": "Tras la aprobación del documento en papel   por   el Ingeniero   de   Proyecto o  el Jefe   de   Proyecto, según  cada   caso,   el Administrador de Proyecto registrará la aprobación una vez reciba el documento aprobado en papel listo para su distribución. (Ver instrucciones).\n\nUna vez recibido el documento el papel ya aprobado listo para distribución el Administrador de Proyecto registrará los comentarios del cliente. Pueden ocurrir dos casos:\n\nNo necesite aprobación por parte del cliente.",
       "nivel": "child",
-      "parent_id": "5d016afd-1efa-4eca-b9bd-1aeed6ac26cb",
+      "parent_id": "24b94a41-2887-4ec4-84b4-df7231b25fd5",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "4. APLICACIÓN EN EL PROYECTO 13187 REPSOL YFP La Pampilla",
@@ -173,8 +267,24 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "947cbf12-5cfa-4a05-8cbc-05b271ea5c7e",
-      "texto": "La opción de RECHAZAR tiene un tratamiento especial. Permitimos que los dos agentes del circuito puedan cancelar. Tanto el Administrador de Proyecto como el Responsable de Cuenta tienen la capacidad de cancelar el proceso rechazando la tarea de aprobación.\n\nEsta doble opción tiene la explicación de simplificar el proceso siguiendo los procedimientos habituales en la aprobación clásica en papel:\n\n Si un documento es rechazado por el Jefe de Proyecto IUI el primero en ser informado es el Responsable de Cuenta con lo que podrá cancelar el circuito de aprobación quedando   el   documento   como   rechazado   y,   por   tanto,   permitiendo   eliminarlo introduciendo una versión corregida.\n\n SI por el contrario es el cliente el que rechaza un documento, el Administrador de Proyecto también tendrá la posibilidad de rechazarlo enviándose una notificación automática   al Responsable   de   Cuenta para   que   se   encargue   de   introducir   las modificaciones necesarias en el documento.\n\nEstas dos acciones son excluyentes, es decir, una vez el documento ha sido rechazado por uno de los dos agentes que tienen la posibilidad de hacerlo, todas las tareas asociadas a ese documento se eliminarán (eliminándose, por tanto, la posibilidad de error en el registro, es decir, que el documento sea rechazado por el Responsable de Cuenta y aprobado por el Administrador de Proyecto).\n\nOtra peculiaridad de este registro, es que, dada la complejidad del proyecto, existirán varios Administradores de Proyecto siendo su papel en el circuito diseñado en paralelo, es decir, que cualquiera de los administradores pueden aprobar o rechazar, según sea el caso, indistintamente.\n\nEl circuito tendrá, por lo tanto, la siguiente forma:\n\n[Descripción visual: Diagrama de flujo del proceso de aprobación de un proyecto.\n\n### Componentes del diagrama:\n\n1. **Responsable de Cuenta**: \n   - Punto de inicio y regreso en caso de rechazo.\n\n2. **Admin. de Proyecto (1)**:\n   - Opciones: \n     - Aprobar IUI\n     - ACC\n     - ASC\n     - Rechazar\n\n3. **Admin. de Proyecto (n)**:\n   - Mismo conjunto de opciones que el Admin. de Proyecto (1).\n\n4. **Responsable de Cuenta (Tarea de Cancelación)**:\n   - Opciones: (5) Rechazar\n\n5. **Fin del Circuito**:\n   - Punto de finalización del proceso.\n\n### Conexiones:\n\n- El flujo comienza con el \"Responsable de Cuenta\".\n- Continúa hacia el \"Admin. de Proyecto (1)\" y puede avanzar al \"Admin. de Proyecto (n)\" o regresar al \"Responsable de Cuenta\" en caso de rechazo.\n- Desde cualquier administrador, puede avanzar al \"Fin del Circuito\" si se aprueba alguna opción.\n- En caso de rechazo final, vuelve al \"Responsable de Cuenta\" para la \"Tarea de Cancelación\".]\n\nEste procedimiento permitirá, sin interferir ni duplicar el circuito de aprobación en papel del plan de calidad del proyecto , asegurar:\n\n La coherencia de la información que dentro del proyecto. Todos los componentes del proyecto   pueden   acceder   a   los   documentos   en   el   portal   y   saber   su   estado   de aprobación.\n\n Que los documentos accesibles por el cliente y los socios sean a la vez consistentes y coherentes con el sistema de aprobación de los mismos.\n\n Caso especial para los planos y documentos generados por TIPIEL COLOMBIA.\n\nDebido a la estructura organizativa del proyecto habrá documentos no generados en las oficinas   de   IUI,   sino procedentes de Tipiel Colombia (área UDP-II), los cuales son incluidos por el administrador de proyecto quien, además, deberá registrarlos como aprobados.\n\nCon los documentos generados por Tipiel pueden ocurrir dos casos:\n\nNo requieran aprobación por parte del cliente.",
+      "chunk_id": "0675cf03-5d17-4c3a-95fb-e619cc2a1fc5",
+      "texto": "En ese caso al terminar seleccionará la opción Aprobar IUI y el documento quedará en estado Aprobado.\n\nNecesite aprobación por parte del cliente. Entonces el documento quedará en estado Aprobado y el Administrador registrará la situación del plano para el cliente:\n\nACC. Aprobado con comentarios\n\nASC. Aprobado sin comentarios.",
+      "nivel": "child",
+      "parent_id": "24b94a41-2887-4ec4-84b4-df7231b25fd5",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "4. APLICACIÓN EN EL PROYECTO 13187 REPSOL YFP La Pampilla",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "bead7f59-1129-4c3c-89a2-ca911c92efe3",
+      "texto": "La opción de RECHAZAR tiene un tratamiento especial. Permitimos que los dos agentes del circuito puedan cancelar. Tanto el Administrador de Proyecto como el Responsable de Cuenta tienen la capacidad de cancelar el proceso rechazando la tarea de aprobación.\n\nEsta doble opción tiene la explicación de simplificar el proceso siguiendo los procedimientos habituales en la aprobación clásica en papel:\n\n Si un documento es rechazado por el Jefe de Proyecto IUI el primero en ser informado es el Responsable de Cuenta con lo que podrá cancelar el circuito de aprobación quedando   el   documento   como   rechazado   y,   por   tanto,   permitiendo   eliminarlo introduciendo una versión corregida.\n\n SI por el contrario es el cliente el que rechaza un documento, el Administrador de Proyecto también tendrá la posibilidad de rechazarlo enviándose una notificación automática   al Responsable   de   Cuenta para   que   se   encargue   de   introducir   las modificaciones necesarias en el documento.\n\nEstas dos acciones son excluyentes, es decir, una vez el documento ha sido rechazado por uno de los dos agentes que tienen la posibilidad de hacerlo, todas las tareas asociadas a ese documento se eliminarán (eliminándose, por tanto, la posibilidad de error en el registro, es decir, que el documento sea rechazado por el Responsable de Cuenta y aprobado por el Administrador de Proyecto).\n\nOtra peculiaridad de este registro, es que, dada la complejidad del proyecto, existirán varios Administradores de Proyecto siendo su papel en el circuito diseñado en paralelo, es decir, que cualquiera de los administradores pueden aprobar o rechazar, según sea el caso, indistintamente.\n\nEl circuito tendrá, por lo tanto, la siguiente forma:\n\n[Descripción visual: **DIAGRAMA O ESQUEMA TÉCNICO**\n\n- **Tipo de diagrama**: Diagrama de flujo de proceso de aprobación.\n  \n- **Componentes o nodos visibles**:\n  - **RESPONSABLE DE CUENTA**\n  - **ADMIN. DE PROYECTO (1)** con opciones: Aprobar IUI, ACC, ASC, Rechazar\n  - **ADMIN. DE PROYECTO (n)**\n  - **RESPONSABLE DE CUENTA (TAREA DE CANCELACIÓN)** con opción: Rechazar\n  - **FIN DEL CIRCUITO**\n\n- **Conexiones y flujo**:\n  - El proceso inicia con el nodo \"RESPONSABLE DE CUENTA\".\n  - Flujo hacia \"ADMIN. DE PROYECTO (1)\" donde se toman decisiones.\n  - De ahí, puede retornar al \"RESPONSABLE DE CUENTA\", avanzar a \"ADMIN. DE PROYECTO (n)\", o dirigirse al \"FIN DEL CIRCUITO\".\n  - Desde \"ADMIN. DE PROYECTO (n)\", puede ir hacia \"RESPONSABLE DE CUENTA (TAREA DE CANCELACIÓN)\".\n  - \"RESPONSABLE DE CUENTA (TAREA DE CANCELACIÓN)\" se conecta nuevamente a \"FIN DEL CIRCUITO\".\n\n- **Notas específicas**:\n  - El diagrama refleja un circuito de decisiones con posibles iteraciones y procesos de cancelación.\n\nEste diagrama es parte de un sistema de seguimiento y aprobación de proyectos en un contexto empresarial de ingeniería industrial.]\n\nEste procedimiento permitirá, sin interferir ni duplicar el circuito de aprobación en papel del plan de calidad del proyecto , asegurar:\n\n La coherencia de la información que dentro del proyecto. Todos los componentes del proyecto   pueden   acceder   a   los   documentos   en   el   portal   y   saber   su   estado   de aprobación.\n\n Que los documentos accesibles por el cliente y los socios sean a la vez consistentes y coherentes con el sistema de aprobación de los mismos.\n\n Caso especial para los planos y documentos generados por TIPIEL COLOMBIA.\n\nDebido a la estructura organizativa del proyecto habrá documentos no generados en las oficinas   de   IUI,   sino procedentes de Tipiel Colombia (área UDP-II), los cuales son incluidos por el administrador de proyecto quien, además, deberá registrarlos como aprobados.",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 4,
@@ -190,10 +300,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fcdf4f8a-793b-41d1-809f-72adc7dea86f",
-      "texto": "La opción de RECHAZAR tiene un tratamiento especial. Permitimos que los dos agentes del circuito puedan cancelar. Tanto el Administrador de Proyecto como el Responsable de Cuenta tienen la capacidad de cancelar el proceso rechazando la tarea de aprobación.\n\nEsta doble opción tiene la explicación de simplificar el proceso siguiendo los procedimientos habituales en la aprobación clásica en papel:\n\n Si un documento es rechazado por el Jefe de Proyecto IUI el primero en ser informado es el Responsable de Cuenta con lo que podrá cancelar el circuito de aprobación quedando   el   documento   como   rechazado   y,   por   tanto,   permitiendo   eliminarlo introduciendo una versión corregida.\n\n SI por el contrario es el cliente el que rechaza un documento, el Administrador de Proyecto también tendrá la posibilidad de rechazarlo enviándose una notificación automática   al Responsable   de   Cuenta para   que   se   encargue   de   introducir   las modificaciones necesarias en el documento.",
+      "chunk_id": "1b231492-e4d5-4b3b-a613-7809a2fbd694",
+      "texto": "La opción de RECHAZAR tiene un tratamiento especial. Permitimos que los dos agentes del circuito puedan cancelar. Tanto el Administrador de Proyecto como el Responsable de Cuenta tienen la capacidad de cancelar el proceso rechazando la tarea de aprobación.",
       "nivel": "child",
-      "parent_id": "947cbf12-5cfa-4a05-8cbc-05b271ea5c7e",
+      "parent_id": "bead7f59-1129-4c3c-89a2-ca911c92efe3",
       "pagina_inicio": 4,
       "pagina_fin": 7,
       "seccion": "(Ver ANEXO 2)",
@@ -207,10 +317,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a4bbf937-522e-47fc-9671-c72d3deba3de",
-      "texto": "Estas dos acciones son excluyentes, es decir, una vez el documento ha sido rechazado por uno de los dos agentes que tienen la posibilidad de hacerlo, todas las tareas asociadas a ese documento se eliminarán (eliminándose, por tanto, la posibilidad de error en el registro, es decir, que el documento sea rechazado por el Responsable de Cuenta y aprobado por el Administrador de Proyecto).\n\nOtra peculiaridad de este registro, es que, dada la complejidad del proyecto, existirán varios Administradores de Proyecto siendo su papel en el circuito diseñado en paralelo, es decir, que cualquiera de los administradores pueden aprobar o rechazar, según sea el caso, indistintamente.\n\nEl circuito tendrá, por lo tanto, la siguiente forma:\n\n[Descripción visual: Diagrama de flujo del proceso de aprobación de un proyecto.\n\n### Componentes del diagrama:\n\n1. **Responsable de Cuenta**: \n   - Punto de inicio y regreso en caso de rechazo.\n\n2. **Admin.",
+      "chunk_id": "95001c7a-6128-40dd-8b6a-2a078c39dd33",
+      "texto": "Esta doble opción tiene la explicación de simplificar el proceso siguiendo los procedimientos habituales en la aprobación clásica en papel:\n\n Si un documento es rechazado por el Jefe de Proyecto IUI el primero en ser informado es el Responsable de Cuenta con lo que podrá cancelar el circuito de aprobación quedando   el   documento   como   rechazado   y,   por   tanto,   permitiendo   eliminarlo introduciendo una versión corregida.",
       "nivel": "child",
-      "parent_id": "947cbf12-5cfa-4a05-8cbc-05b271ea5c7e",
+      "parent_id": "bead7f59-1129-4c3c-89a2-ca911c92efe3",
       "pagina_inicio": 4,
       "pagina_fin": 7,
       "seccion": "(Ver ANEXO 2)",
@@ -224,10 +334,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "51f67709-6177-41d4-9f1d-49429203b2a9",
-      "texto": "2. **Admin. de Proyecto (1)**:\n   - Opciones: \n     - Aprobar IUI\n     - ACC\n     - ASC\n     - Rechazar\n\n3. **Admin. de Proyecto (n)**:\n   - Mismo conjunto de opciones que el Admin. de Proyecto (1).\n\n4. **Responsable de Cuenta (Tarea de Cancelación)**:\n   - Opciones: (5) Rechazar\n\n5. **Fin del Circuito**:\n   - Punto de finalización del proceso.\n\n### Conexiones:\n\n- El flujo comienza con el \"Responsable de Cuenta\".\n- Continúa hacia el \"Admin. de Proyecto (1)\" y puede avanzar al \"Admin. de Proyecto (n)\" o regresar al \"Responsable de Cuenta\" en caso de rechazo.\n- Desde cualquier administrador, puede avanzar al \"Fin del Circuito\" si se aprueba alguna opción.\n- En caso de rechazo final, vuelve al \"Responsable de Cuenta\" para la \"Tarea de Cancelación\".]",
+      "chunk_id": "b5d6fa1b-23f3-4081-ae78-83c7eb27258c",
+      "texto": " SI por el contrario es el cliente el que rechaza un documento, el Administrador de Proyecto también tendrá la posibilidad de rechazarlo enviándose una notificación automática   al Responsable   de   Cuenta para   que   se   encargue   de   introducir   las modificaciones necesarias en el documento.",
       "nivel": "child",
-      "parent_id": "947cbf12-5cfa-4a05-8cbc-05b271ea5c7e",
+      "parent_id": "bead7f59-1129-4c3c-89a2-ca911c92efe3",
       "pagina_inicio": 4,
       "pagina_fin": 7,
       "seccion": "(Ver ANEXO 2)",
@@ -241,10 +351,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "edffd634-1664-40da-9584-09341c7f20f9",
-      "texto": "Este procedimiento permitirá, sin interferir ni duplicar el circuito de aprobación en papel del plan de calidad del proyecto , asegurar:\n\n La coherencia de la información que dentro del proyecto. Todos los componentes del proyecto   pueden   acceder   a   los   documentos   en   el   portal   y   saber   su   estado   de aprobación.\n\n Que los documentos accesibles por el cliente y los socios sean a la vez consistentes y coherentes con el sistema de aprobación de los mismos.\n\n Caso especial para los planos y documentos generados por TIPIEL COLOMBIA.\n\nDebido a la estructura organizativa del proyecto habrá documentos no generados en las oficinas   de   IUI,   sino procedentes de Tipiel Colombia (área UDP-II), los cuales son incluidos por el administrador de proyecto quien, además, deberá registrarlos como aprobados.\n\nCon los documentos generados por Tipiel pueden ocurrir dos casos:\n\nNo requieran aprobación por parte del cliente.",
+      "chunk_id": "93de0cc4-3882-43ef-852e-ee4e4bc5cfe8",
+      "texto": "Estas dos acciones son excluyentes, es decir, una vez el documento ha sido rechazado por uno de los dos agentes que tienen la posibilidad de hacerlo, todas las tareas asociadas a ese documento se eliminarán (eliminándose, por tanto, la posibilidad de error en el registro, es decir, que el documento sea rechazado por el Responsable de Cuenta y aprobado por el Administrador de Proyecto).",
       "nivel": "child",
-      "parent_id": "947cbf12-5cfa-4a05-8cbc-05b271ea5c7e",
+      "parent_id": "bead7f59-1129-4c3c-89a2-ca911c92efe3",
       "pagina_inicio": 4,
       "pagina_fin": 7,
       "seccion": "(Ver ANEXO 2)",
@@ -258,8 +368,110 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "301ccfb7-38c9-40b6-900f-e4076e9ad8a1",
-      "texto": "Para este caso, ya que es el Administrador   de   Proyecto el   que   recibe   los   planos,   lanzará,   una   vez incorporados   al   portal,   un   circuito   muy   simplificado   de auto   aprobación quedando inmediatamente aprobados los planos o documentos\n\n.Requieran aprobación del cliente. Entonces será también el Administrador de Proyecto el encargado de lanzar un workflow del mismo tipo que para los documentos generados por IUI pero que le tendrá a él como único agente, es decir, hará también el papel del responsable de cuenta:\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\n- Tipo de diagrama: Diagrama de flujo.\n- Componentes y nodos:\n  - \"ADMIN. DE PROYECTO\"\n  - \"ADMIN. DE PROYECTO (1)\" con opciones:\n    - Aprobar IUI\n    - ACC\n    - ASC\n    - Rechazar\n  - \"ADMIN.. DE PROYECTO (n)\"\n  - \"ADMIN.. DE PROYECTO. (TAREA DE CANCELACIÓN)\"\n  - \"FIN DEL CIRCUITO\"\n- Conexiones y flujo:\n  - El proceso inicia en \"ADMIN. DE PROYECTO\".\n  - De \"ADMIN. DE PROYECTO\" se dirige a \"ADMIN. DE PROYECTO (1)\".\n  - Desde \"ADMIN. DE PROYECTO (1)\" hay un flujo hacia \"ADMIN.. DE PROYECTO (n)\".\n  - La opción \"Rechazar\" desde \"ADMIN. DE PROYECTO (1)\" lleva a \"ADMIN.. DE PROYECTO. (TAREA DE CANCELACIÓN)\", y posteriormente regresa a \"ADMIN. DE PROYECTO\".\n  - El flujo finaliza en \"FIN DEL CIRCUITO\". \n\nNo se identifican símbolos técnicos específicos o códigos alfanuméricos asociados.]\n\nLa función de este sistema es que al aplicarlo el documento cambiará su estado de aprobación y desde ese momento el documento estará accesible a todos los usuarios del Centro de Negocios (proveedores) así como permitirá al Administrador del Proyecto ponerlo en conocimiento de todos los agentes del proyecto a los que afecte o interese la aprobación del documento.",
+      "chunk_id": "ee70e63e-aa0f-47f0-a007-a8f60542b0c3",
+      "texto": "Otra peculiaridad de este registro, es que, dada la complejidad del proyecto, existirán varios Administradores de Proyecto siendo su papel en el circuito diseñado en paralelo, es decir, que cualquiera de los administradores pueden aprobar o rechazar, según sea el caso, indistintamente.\n\nEl circuito tendrá, por lo tanto, la siguiente forma:\n\n[Descripción visual: **DIAGRAMA O ESQUEMA TÉCNICO**\n\n- **Tipo de diagrama**: Diagrama de flujo de proceso de aprobación.",
+      "nivel": "child",
+      "parent_id": "bead7f59-1129-4c3c-89a2-ca911c92efe3",
+      "pagina_inicio": 4,
+      "pagina_fin": 7,
+      "seccion": "(Ver ANEXO 2)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "90af6ddf-1bdb-4923-92fa-a7a057d978e3",
+      "texto": "- **Componentes o nodos visibles**:\n  - **RESPONSABLE DE CUENTA**\n  - **ADMIN. DE PROYECTO (1)** con opciones: Aprobar IUI, ACC, ASC, Rechazar\n  - **ADMIN.",
+      "nivel": "child",
+      "parent_id": "bead7f59-1129-4c3c-89a2-ca911c92efe3",
+      "pagina_inicio": 4,
+      "pagina_fin": 7,
+      "seccion": "(Ver ANEXO 2)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a08c1126-e8f1-45f8-9904-e8eda6616988",
+      "texto": "DE PROYECTO (n)**\n  - **RESPONSABLE DE CUENTA (TAREA DE CANCELACIÓN)** con opción: Rechazar\n  - **FIN DEL CIRCUITO**\n\n- **Conexiones y flujo**:\n  - El proceso inicia con el nodo \"RESPONSABLE DE CUENTA\".\n  - Flujo hacia \"ADMIN. DE PROYECTO (1)\" donde se toman decisiones.\n  - De ahí, puede retornar al \"RESPONSABLE DE CUENTA\", avanzar a \"ADMIN.",
+      "nivel": "child",
+      "parent_id": "bead7f59-1129-4c3c-89a2-ca911c92efe3",
+      "pagina_inicio": 4,
+      "pagina_fin": 7,
+      "seccion": "(Ver ANEXO 2)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8c5a796a-2faf-499b-8e31-bc485beb8db6",
+      "texto": "DE PROYECTO (n)\", o dirigirse al \"FIN DEL CIRCUITO\".\n  - Desde \"ADMIN. DE PROYECTO (n)\", puede ir hacia \"RESPONSABLE DE CUENTA (TAREA DE CANCELACIÓN)\".\n  - \"RESPONSABLE DE CUENTA (TAREA DE CANCELACIÓN)\" se conecta nuevamente a \"FIN DEL CIRCUITO\".\n\n- **Notas específicas**:\n  - El diagrama refleja un circuito de decisiones con posibles iteraciones y procesos de cancelación.",
+      "nivel": "child",
+      "parent_id": "bead7f59-1129-4c3c-89a2-ca911c92efe3",
+      "pagina_inicio": 4,
+      "pagina_fin": 7,
+      "seccion": "(Ver ANEXO 2)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "98de491e-2c97-4043-aac6-06d868fa6e44",
+      "texto": "Este diagrama es parte de un sistema de seguimiento y aprobación de proyectos en un contexto empresarial de ingeniería industrial.]\n\nEste procedimiento permitirá, sin interferir ni duplicar el circuito de aprobación en papel del plan de calidad del proyecto , asegurar:\n\n La coherencia de la información que dentro del proyecto. Todos los componentes del proyecto   pueden   acceder   a   los   documentos   en   el   portal   y   saber   su   estado   de aprobación.",
+      "nivel": "child",
+      "parent_id": "bead7f59-1129-4c3c-89a2-ca911c92efe3",
+      "pagina_inicio": 4,
+      "pagina_fin": 7,
+      "seccion": "(Ver ANEXO 2)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1c278c9f-b899-4ce5-86eb-4feb89d3a2f5",
+      "texto": " Que los documentos accesibles por el cliente y los socios sean a la vez consistentes y coherentes con el sistema de aprobación de los mismos.\n\n Caso especial para los planos y documentos generados por TIPIEL COLOMBIA.\n\nDebido a la estructura organizativa del proyecto habrá documentos no generados en las oficinas   de   IUI,   sino procedentes de Tipiel Colombia (área UDP-II), los cuales son incluidos por el administrador de proyecto quien, además, deberá registrarlos como aprobados.",
+      "nivel": "child",
+      "parent_id": "bead7f59-1129-4c3c-89a2-ca911c92efe3",
+      "pagina_inicio": 4,
+      "pagina_fin": 7,
+      "seccion": "(Ver ANEXO 2)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e2239725-1acf-49ff-b0a2-53f4dae49467",
+      "texto": "Con los documentos generados por Tipiel pueden ocurrir dos casos:\n\nNo requieran aprobación por parte del cliente. Para este caso, ya que es el Administrador   de   Proyecto el   que   recibe   los   planos,   lanzará,   una   vez incorporados   al   portal,   un   circuito   muy   simplificado   de auto   aprobación quedando inmediatamente aprobados los planos o documentos\n\n.Requieran aprobación del cliente. Entonces será también el Administrador de Proyecto el encargado de lanzar un workflow del mismo tipo que para los documentos generados por IUI pero que le tendrá a él como único agente, es decir, hará también el papel del responsable de cuenta:\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nTipo de diagrama: Diagrama de flujo de proceso.\n\nComponentes y nodos:\n1. **ADMIN. DE PROYECTO** - Nodo inicial.\n2. **ADMIN. DE PROYECTO (1)** - Nodo de decisión con opciones:\n   - Aprobar IUI\n   - ACC\n   - ASC\n   - Rechazar\n3. **ADMIN.. DE PROYECTO (n)**\n4. **ADMIN.. DE PROYECTO (TAREA DE CANCELACIÓN)**\n5. **FIN DEL CIRCUITO** - Nodo final.\n\nConexiones y flujo:\n- El proceso inicia en \"ADMIN. DE PROYECTO\" con un flujo hacia \"ADMIN. DE PROYECTO (1)\".\n- Desde \"ADMIN. DE PROYECTO (1)\", el proceso puede:\n  - Concluir en \"FIN DEL CIRCUITO\".\n  - Fluir hacia \"ADMIN.. DE PROYECTO (n)\".\n  - Fluir hacia \"ADMIN.. DE PROYECTO (TAREA DE CANCELACIÓN)\" si la opción es Rechazar.\n- Una opción adicional de rechazo se menciona como \"(5) Rechazar\".\n\nTexto adicional:\n- \"OPCIONES Aprobar IUI, ACC, ASC, Rechazar\" describen las decisiones posibles en el nodo \"ADMIN. DE PROYECTO (1)\".]\n\nLa función de este sistema es que al aplicarlo el documento cambiará su estado de aprobación y desde ese momento el documento estará accesible a todos los usuarios del Centro de Negocios (proveedores) así como permitirá al Administrador del Proyecto ponerlo en conocimiento de todos los agentes del proyecto a los que afecte o interese la aprobación del documento.",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 4,
@@ -275,10 +487,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a7c06aa3-ba8f-41a2-a38c-456128ffb82e",
-      "texto": "Para este caso, ya que es el Administrador   de   Proyecto el   que   recibe   los   planos,   lanzará,   una   vez incorporados   al   portal,   un   circuito   muy   simplificado   de auto   aprobación quedando inmediatamente aprobados los planos o documentos\n\n.Requieran aprobación del cliente. Entonces será también el Administrador de Proyecto el encargado de lanzar un workflow del mismo tipo que para los documentos generados por IUI pero que le tendrá a él como único agente, es decir, hará también el papel del responsable de cuenta:\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\n- Tipo de diagrama: Diagrama de flujo.\n- Componentes y nodos:\n  - \"ADMIN. DE PROYECTO\"\n  - \"ADMIN.",
+      "chunk_id": "8a0d9725-4b38-4c03-9576-b3eaaed55090",
+      "texto": "Con los documentos generados por Tipiel pueden ocurrir dos casos:\n\nNo requieran aprobación por parte del cliente. Para este caso, ya que es el Administrador   de   Proyecto el   que   recibe   los   planos,   lanzará,   una   vez incorporados   al   portal,   un   circuito   muy   simplificado   de auto   aprobación quedando inmediatamente aprobados los planos o documentos\n\n.Requieran aprobación del cliente.",
       "nivel": "child",
-      "parent_id": "301ccfb7-38c9-40b6-900f-e4076e9ad8a1",
+      "parent_id": "e2239725-1acf-49ff-b0a2-53f4dae49467",
       "pagina_inicio": 4,
       "pagina_fin": 7,
       "seccion": "(Ver ANEXO 2)",
@@ -292,10 +504,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6d98b695-f498-4604-b5b1-bcbe90552cf7",
-      "texto": "DE PROYECTO\"\n  - \"ADMIN. DE PROYECTO (1)\" con opciones:\n    - Aprobar IUI\n    - ACC\n    - ASC\n    - Rechazar\n  - \"ADMIN.. DE PROYECTO (n)\"\n  - \"ADMIN.. DE PROYECTO. (TAREA DE CANCELACIÓN)\"\n  - \"FIN DEL CIRCUITO\"\n- Conexiones y flujo:\n  - El proceso inicia en \"ADMIN. DE PROYECTO\".\n  - De \"ADMIN. DE PROYECTO\" se dirige a \"ADMIN. DE PROYECTO (1)\".\n  - Desde \"ADMIN. DE PROYECTO (1)\" hay un flujo hacia \"ADMIN.. DE PROYECTO (n)\".\n  - La opción \"Rechazar\" desde \"ADMIN. DE PROYECTO (1)\" lleva a \"ADMIN.. DE PROYECTO. (TAREA DE CANCELACIÓN)\", y posteriormente regresa a \"ADMIN. DE PROYECTO\".\n  - El flujo finaliza en \"FIN DEL CIRCUITO\".",
+      "chunk_id": "4c27b721-4729-4483-8045-ed07819fc63d",
+      "texto": "Entonces será también el Administrador de Proyecto el encargado de lanzar un workflow del mismo tipo que para los documentos generados por IUI pero que le tendrá a él como único agente, es decir, hará también el papel del responsable de cuenta:\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nTipo de diagrama: Diagrama de flujo de proceso.\n\nComponentes y nodos:\n1. **ADMIN. DE PROYECTO** - Nodo inicial.\n2. **ADMIN.",
       "nivel": "child",
-      "parent_id": "301ccfb7-38c9-40b6-900f-e4076e9ad8a1",
+      "parent_id": "e2239725-1acf-49ff-b0a2-53f4dae49467",
       "pagina_inicio": 4,
       "pagina_fin": 7,
       "seccion": "(Ver ANEXO 2)",
@@ -309,10 +521,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "525f4d95-0fd3-41bb-bef1-599227307c47",
-      "texto": "- El flujo finaliza en \"FIN DEL CIRCUITO\". \n\nNo se identifican símbolos técnicos específicos o códigos alfanuméricos asociados.]\n\nLa función de este sistema es que al aplicarlo el documento cambiará su estado de aprobación y desde ese momento el documento estará accesible a todos los usuarios del Centro de Negocios (proveedores) así como permitirá al Administrador del Proyecto ponerlo en conocimiento de todos los agentes del proyecto a los que afecte o interese la aprobación del documento.",
+      "chunk_id": "69667d94-a144-4cae-9edd-9f3790fddff0",
+      "texto": "DE PROYECTO** - Nodo inicial.\n2. **ADMIN. DE PROYECTO (1)** - Nodo de decisión con opciones:\n   - Aprobar IUI\n   - ACC\n   - ASC\n   - Rechazar\n3. **ADMIN.. DE PROYECTO (n)**\n4. **ADMIN.. DE PROYECTO (TAREA DE CANCELACIÓN)**\n5. **FIN DEL CIRCUITO** - Nodo final.\n\nConexiones y flujo:\n- El proceso inicia en \"ADMIN.",
       "nivel": "child",
-      "parent_id": "301ccfb7-38c9-40b6-900f-e4076e9ad8a1",
+      "parent_id": "e2239725-1acf-49ff-b0a2-53f4dae49467",
       "pagina_inicio": 4,
       "pagina_fin": 7,
       "seccion": "(Ver ANEXO 2)",
@@ -326,7 +538,58 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "98b6c39f-6689-4d45-8d65-fe70303670b0",
+      "chunk_id": "882cdac6-248f-47e9-8226-c4862401b83c",
+      "texto": "Conexiones y flujo:\n- El proceso inicia en \"ADMIN. DE PROYECTO\" con un flujo hacia \"ADMIN. DE PROYECTO (1)\".\n- Desde \"ADMIN. DE PROYECTO (1)\", el proceso puede:\n  - Concluir en \"FIN DEL CIRCUITO\".\n  - Fluir hacia \"ADMIN.. DE PROYECTO (n)\".\n  - Fluir hacia \"ADMIN.. DE PROYECTO (TAREA DE CANCELACIÓN)\" si la opción es Rechazar.",
+      "nivel": "child",
+      "parent_id": "e2239725-1acf-49ff-b0a2-53f4dae49467",
+      "pagina_inicio": 4,
+      "pagina_fin": 7,
+      "seccion": "(Ver ANEXO 2)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "016329b3-edc6-4182-b398-dd76bbba3501",
+      "texto": "- Una opción adicional de rechazo se menciona como \"(5) Rechazar\".\n\nTexto adicional:\n- \"OPCIONES Aprobar IUI, ACC, ASC, Rechazar\" describen las decisiones posibles en el nodo \"ADMIN. DE PROYECTO (1)\".]",
+      "nivel": "child",
+      "parent_id": "e2239725-1acf-49ff-b0a2-53f4dae49467",
+      "pagina_inicio": 4,
+      "pagina_fin": 7,
+      "seccion": "(Ver ANEXO 2)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "bc91ef05-6d5e-4b54-b34e-87c41e1add26",
+      "texto": "DE PROYECTO (1)\".]\n\nLa función de este sistema es que al aplicarlo el documento cambiará su estado de aprobación y desde ese momento el documento estará accesible a todos los usuarios del Centro de Negocios (proveedores) así como permitirá al Administrador del Proyecto ponerlo en conocimiento de todos los agentes del proyecto a los que afecte o interese la aprobación del documento.",
+      "nivel": "child",
+      "parent_id": "e2239725-1acf-49ff-b0a2-53f4dae49467",
+      "pagina_inicio": 4,
+      "pagina_fin": 7,
+      "seccion": "(Ver ANEXO 2)",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem",
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "81458eee-7bff-4ce6-9801-5fad288ac087",
       "texto": "Una vez es generado un documento para aprobación, el generador de dicho documento lo introduce en el Portal y lo hace llegar al responsable de cuenta correspondiente para que éste lo envíe en papel para la aprobación de la dirección de proyecto y mediante el Portal lanza el workflow de registro de aprobación que llegará al Administrador del Proyecto",
       "nivel": "parent",
       "parent_id": null,
@@ -341,7 +604,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a73f8c82846549d38be810047bf8b34d",
+      "chunk_id": "c581c2249e6c4c41a658bd8a66fa5eeb",
       "texto": "| ACCIONES                                                                                                                                                                                                                                                                                                                                                                                                                    | RESPONSABLE             |\n|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|\n| 1) Realización de las siguientes comprobaciones previas sobre el documento: - Contiene el número , la fecha y el objeto de la edición. - El documento es imprimible , es decir, si en ese momento decidiéramos imprimirlo, el contenido del documento se ajustaría al área de impresión. - No contiene ni macros ni vínculos (aplicable principalmente a documentos Excel).                                                 | GENERADOR DEL DOCUMENTO |\n| 2) CASO PARTICULAR: si se trata de un plano en formato dwg ó dgn se creará una versión PDF del documento (rendición PDF) para su posterior introducción en el Portal junto al documento en formato original como rendición del mismo.                                                                                                                                                                                       | GENERADOR DEL DOCUMENTO |\n| 3) INCORPORACIÓN DEL DOCUMENTO AL PORTAL: - CASO 1: Se trata de la primera edición del documento  Localización de la carpeta apropiada donde ubicar el documento.  Importación del documento en dicha carpeta. NOTA: Ver Manual editado por Gestión del Conocimiento: ( INCORPORAR DOCUMENTOS AL PORTAL ) - CASO 2: Se trata de una nueva edición (el documento está en el portal en una edición anterior) ( VER ANEXO 1) | GENERADOR DEL DOCUMENTO |\n| 4) Una vez revisado, en caso de que el responsable de cuenta no                                                                                                                                                                                                                                                                                                                                                             | GENERADOR DEL           |",
       "nivel": "child",
       "parent_id": null,
@@ -356,7 +619,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7174c10a852c4950b8eda415ad428fde",
+      "chunk_id": "a7d1acdc9f7c4b5d8ab0b3519d5f4bc5",
       "texto": "| ACCIONES                                                                                                                                                                                                                                                                                                                                                                                                    | RESPONSABLE                                                                                                                                                           |\n|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| sea el generador del documento, lo enviará al Responsable de Cuenta a través del portal mediante la herramienta de encaminar documentos. (envío de una tarea). NOTA: Ver Manual editado por Gestión del Conocimiento: ( INCORPORAR DOCUMENTOS AL PORTAL )                                                                                                                                                   | DOCUMENTO                                                                                                                                                             |\n| 5) Lanzamiento del workflow ( en este caso de registro de aprobación electrónica) Acciones del documento  Seleccionar workflow                                                                                                                                                                                                                                                                             | RESPONSABLE DE CUENTA                                                                                                                                                 |\n| 6) Le llegará una tarea al Administrador de Proyecto que mantendrá hasta que por el circuito tradicional de aprobación en papel le informen del estado aprobado del documento (en el momento en el que procede a su distribución) .                                                                                                                                                                         | ADMINISTRADOR DEL PROYECTO                                                                                                                                            |\n| 7) Una vez le llegue el documento en papel para su distribución, registrará el estado en el que queda el documento: 7.1. Aprobar IUI: El documento se considera aprobado sin ser necesaria la aprobación por parte del cliente. 7.2. ACC: Aprobado con comentarios por parte del cliente. 7.3. ASC: Aprobado sin comentarios por parte del cliente. 7.4. Rechazado: Rechazado por el cliente. (Ver ANEXO 3) | ADMINISTRADOR DEL PROYECTO                                                                                                                                            |\n| 8) Cancelar WORKFLOW. El Responsable de Cuenta siempre tendrá la opción de cancelar el workflow, ya que si el Jefe de Proyecto rechaza el documento será el que primero reciba la información de ese rechazo.                                                                                                                                                                                               | RESPONSABLE DE CUENTA.                                                                                                                                                |\n| NOTA: Es muy importante terminar los workflows (de registro de aprobación en este caso) ya que los documentos asociados a un workflow no pueden ser modificados ni se                                                                                                                                                                                                                                       | NOTA: Es muy importante terminar los workflows (de registro de aprobación en este caso) ya que los documentos asociados a un workflow no pueden ser modificados ni se |",
       "nivel": "child",
       "parent_id": null,
@@ -371,7 +634,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "23fbb73a-7d85-481c-b866-e9665065114a",
+      "chunk_id": "4e137759-5d41-4ab3-9d26-93efd7903782",
       "texto": "IUI_Documento_de_Proyecto\n\nAtributos o propiedades del documento a rellenar durante la importación:\n\nCaso 1ª edición . Se rellenan todas las propiedades.\n\nCaso nueva edición : se modifican las propiedades sombreadas.",
       "nivel": "parent",
       "parent_id": null,
@@ -387,7 +650,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "be3d0c28c11b4612a228d5f13abb4160",
+      "chunk_id": "405e2abfa1264aaeb55d26dba5bbc330",
       "texto": "| Propiedad                                                                    | Descripción                                                                                                              | Ejemplo                                  |\n|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|------------------------------------------|\n| DOCUMENTO Máx 255 caracteres                                                 | Número del documento.                                                                                                    | ED - A0                                  |\n| TITULO Máx 255 caracteres                                                    | Título que aparece en el documento físico.                                                                               | ÍNDICE DE ESPECIFICACIONES TÉCNICAS      |\n| EDICION Máx 3 caracteres                                                     | Número de la edición del documento.                                                                                      | 16                                       |\n| FECHA Máx 32 caracteres                                                      | Fecha de la edición del documento físico. (Formato aconsejado: dd/mm/aaaa)                                               | 01/05/2002                               |\n| EDITADO PARA Lista desplegable                                               | El objeto para el cual se edita el documento                                                                             | Información                              |\n| AUTORES Máx 32 caracteres por autor, separados por comas                     | Nombre y apellidos del autor (en este orden), que puede ser distinto del usuario que introduce el documento en el portal | REPSOL                                   |\n| OT Lista deplegable                                                          | Designación del Proyecto                                                                                                 | 13187 - REPSOL La Pampilla               |\n| DEPARTAMENTO Lista deplegable                                                | Departamento al que pertenece el documento.                                                                              | General                                  |\n| CLASE Lista deplegable                                                       | Clase de documento.                                                                                                      | Especificación                           |\n| ACTIVIDAD Lista deplegable                                                   | Actividad con la que está relacionada el documento                                                                       | 00 - GENERAL                             |\n| IDIOMA Lista deplegable                                                      | Idioma en el que está escrito el documento. (Por defecto español)                                                        | Español                                  |\n| DESCRIPCION Máx 255 caracteres                                               | . Es una descripción del contenido del documento                                                                         | Índice de las especificaciones de REPSOL |\n| PALABRAS CLAVE Máx 32 caracteres por palabra o concepto, separados por comas | Palabras que servirán para buscar y categorizar en el futuro el documento (palabras o conceptos separados por comas ',') | Especificaciones, Estándares             |",
       "nivel": "child",
       "parent_id": null,
@@ -402,7 +665,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "dd82f51d-3254-4677-b293-4af561201483",
+      "chunk_id": "3dcba0f5-44f3-420d-83cd-f47d3ab7f90f",
       "texto": "ANEXO 2. Opciones del Workflow de aprobación para el Administrador de Proyecto",
       "nivel": "parent",
       "parent_id": null,
@@ -417,7 +680,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "907e1cda-3873-425c-a108-458e0fe98fdc",
+      "chunk_id": "b08e34fd-09c1-4bd3-ba69-c183a0877660",
       "texto": "Seleccionar las tareas siguientes:\n\nSe requiere su password para validar la tarea:",
       "nivel": "parent",
       "parent_id": null,
@@ -432,8 +695,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3ea29dbc-2bef-4158-9250-45689d4e7ba1",
-      "texto": "[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nTipo de diagrama: Diagrama de flujo de proceso de aprobación de documentos.\n\nComponentes y flujo:\n\n1. **GENERADOR DEL DOCUMENTO**\n   - Emisión e incorporación al Portal.\n   - Conexión electrónica a \"RESP. DE CUENTA\" (TAREA).\n\n2. **RESP. DE CUENTA**\n   - Recibe electrónicamente del \"GENERADOR DEL DOCUMENTO\".\n   - Envía en papel a \"DIRECC. DE PROYECTO\" y \"CLIENTE\".\n   - Recibe aprobación (verde) o rechazo (rojo) de \"DIRECC. DE PROYECTO\" y \"CLIENTE\".\n\n3. **DIRECC. DE PROYECTO**\n   - Aprueba (verde) o rechaza (rojo) en papel.\n   - Envía aprobación a \"ADMIN. DE PROYECTO\".\n\n4. **CLIENTE**\n   - Aprueba (verde) o rechaza (rojo) en papel.\n   - Envía aprobación a \"ADMIN. DE PROYECTO\".\n\n5. **ADMIN. DE PROYECTO**\n   - Recibe aprobaciones de \"DIRECC. DE PROYECTO\" y \"CLIENTE\".\n   - Registra la aprobación en el Portal.\n   - Distribución y archivo final.\n\nConexiones:\n- Flechas negras: Envío en papel.\n- Flechas verdes: Aprobación.\n- Flechas rojas: Rechazo.\n- Líneas punteadas verdes: Proceso electrónico.\n\nEl flujo describe la emisión, aprobación, y archivo de documentos en un entorno de proyectos.]",
+      "chunk_id": "5a88b220-6e5f-4d3c-87f0-6e23632c3f70",
+      "texto": "[Descripción visual: **DIAGRAMA O ESQUEMA TÉCNICO**\n\nLa imagen representa un diagrama de flujo de aprobación de documentos en un entorno empresarial. Aquí está la descripción detallada de los componentes y la secuencia del proceso:\n\n**Componentes o Nodos:**\n1. **GENERADOR DEL DOCUMENTO**\n2. **RESP. DE CUENTA**\n3. **DIRECC. DE PROYECTO**\n4. **CLIENTE**\n5. **ADMIN. DE PROYECTO**\n\n**Conexiones y Relaciones:**\n- **Emisión del Documento:** Flujo de trabajo desde \"GENERADOR DEL DOCUMENTO\" a \"RESP. DE CUENTA\" de manera electrónica (indicado por una línea discontinua).\n- **Aprobación/Rechazo:**\n  - Desde \"RESP. DE CUENTA\" a \"DIRECC. DE PROYECTO\" y \"CLIENTE\" mediante aprobación en papel (flechas continuas).\n  - Las rechazadas retornan a \"RESP. DE CUENTA\" desde \"DIRECC. DE PROYECTO\" y \"CLIENTE\" (indicado por flechas rojas).\n- **Registro:** Una vez aprobados, los documentos son registrados por \"ADMIN. DE PROYECTO\" (indicando distribución y archivo).\n- **Retroalimentación Final:** El \"ADMIN. DE PROYECTO\" se conecta de vuelta con \"RESP. DE CUENTA\" para la incorporación al portal.\n\n**Proceso General:**\n- La emisión empieza electrónicamente.\n- La aprobación se maneja en papel.\n- Los documentos aprobados son registrados y archivados.\n- La comunicación fluye para asegurar la retroalimentación y el cierre adecuado del proceso.\n\nEste diagrama refleja un sistema ordenado para la gestión de documentos con seguimiento del flujo de aprobación y registro administrativo.]",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 12,
@@ -447,10 +710,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "dd432342-8426-4ad6-bd87-20d66a01653c",
-      "texto": "[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nTipo de diagrama: Diagrama de flujo de proceso de aprobación de documentos.\n\nComponentes y flujo:\n\n1. **GENERADOR DEL DOCUMENTO**\n   - Emisión e incorporación al Portal.\n   - Conexión electrónica a \"RESP. DE CUENTA\" (TAREA).\n\n2. **RESP. DE CUENTA**\n   - Recibe electrónicamente del \"GENERADOR DEL DOCUMENTO\".\n   - Envía en papel a \"DIRECC. DE PROYECTO\" y \"CLIENTE\".\n   - Recibe aprobación (verde) o rechazo (rojo) de \"DIRECC. DE PROYECTO\" y \"CLIENTE\".\n\n3. **DIRECC. DE PROYECTO**\n   - Aprueba (verde) o rechaza (rojo) en papel.\n   - Envía aprobación a \"ADMIN. DE PROYECTO\".\n\n4. **CLIENTE**\n   - Aprueba (verde) o rechaza (rojo) en papel.",
+      "chunk_id": "bf6a33a0-5d8b-448f-a3c5-d32d0357ee70",
+      "texto": "[Descripción visual: **DIAGRAMA O ESQUEMA TÉCNICO**\n\nLa imagen representa un diagrama de flujo de aprobación de documentos en un entorno empresarial. Aquí está la descripción detallada de los componentes y la secuencia del proceso:\n\n**Componentes o Nodos:**\n1. **GENERADOR DEL DOCUMENTO**\n2. **RESP. DE CUENTA**\n3. **DIRECC. DE PROYECTO**\n4. **CLIENTE**\n5. **ADMIN.",
       "nivel": "child",
-      "parent_id": "3ea29dbc-2bef-4158-9250-45689d4e7ba1",
+      "parent_id": "5a88b220-6e5f-4d3c-87f0-6e23632c3f70",
       "pagina_inicio": 12,
       "pagina_fin": 12,
       "seccion": "ANEXO 3. Circuito de aprobación en papel y registro electrónico de la aprobación",
@@ -462,10 +725,55 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4ff12162-3446-42ee-b7b8-a28a7fc96943",
-      "texto": "- Envía aprobación a \"ADMIN. DE PROYECTO\".\n\n5. **ADMIN. DE PROYECTO**\n   - Recibe aprobaciones de \"DIRECC. DE PROYECTO\" y \"CLIENTE\".\n   - Registra la aprobación en el Portal.\n   - Distribución y archivo final.\n\nConexiones:\n- Flechas negras: Envío en papel.\n- Flechas verdes: Aprobación.\n- Flechas rojas: Rechazo.\n- Líneas punteadas verdes: Proceso electrónico.\n\nEl flujo describe la emisión, aprobación, y archivo de documentos en un entorno de proyectos.]",
+      "chunk_id": "d40f8232-d1de-4f0d-b754-b4650a64547c",
+      "texto": "DE PROYECTO**\n4. **CLIENTE**\n5. **ADMIN. DE PROYECTO**\n\n**Conexiones y Relaciones:**\n- **Emisión del Documento:** Flujo de trabajo desde \"GENERADOR DEL DOCUMENTO\" a \"RESP. DE CUENTA\" de manera electrónica (indicado por una línea discontinua).\n- **Aprobación/Rechazo:**\n  - Desde \"RESP. DE CUENTA\" a \"DIRECC.",
       "nivel": "child",
-      "parent_id": "3ea29dbc-2bef-4158-9250-45689d4e7ba1",
+      "parent_id": "5a88b220-6e5f-4d3c-87f0-6e23632c3f70",
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "ANEXO 3. Circuito de aprobación en papel y registro electrónico de la aprobación",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7cfc84f7-8db3-419c-9d25-4c6dd6106976",
+      "texto": "DE CUENTA\" a \"DIRECC. DE PROYECTO\" y \"CLIENTE\" mediante aprobación en papel (flechas continuas).\n  - Las rechazadas retornan a \"RESP. DE CUENTA\" desde \"DIRECC. DE PROYECTO\" y \"CLIENTE\" (indicado por flechas rojas).\n- **Registro:** Una vez aprobados, los documentos son registrados por \"ADMIN. DE PROYECTO\" (indicando distribución y archivo).\n- **Retroalimentación Final:** El \"ADMIN.",
+      "nivel": "child",
+      "parent_id": "5a88b220-6e5f-4d3c-87f0-6e23632c3f70",
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "ANEXO 3. Circuito de aprobación en papel y registro electrónico de la aprobación",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fbf5beae-210d-481c-a5b0-200da46d4674",
+      "texto": "- **Retroalimentación Final:** El \"ADMIN. DE PROYECTO\" se conecta de vuelta con \"RESP. DE CUENTA\" para la incorporación al portal.\n\n**Proceso General:**\n- La emisión empieza electrónicamente.\n- La aprobación se maneja en papel.\n- Los documentos aprobados son registrados y archivados.\n- La comunicación fluye para asegurar la retroalimentación y el cierre adecuado del proceso.",
+      "nivel": "child",
+      "parent_id": "5a88b220-6e5f-4d3c-87f0-6e23632c3f70",
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "ANEXO 3. Circuito de aprobación en papel y registro electrónico de la aprobación",
+      "tipos_elemento": [
+        "Image"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "c7aa8b37-825e-405d-b1a0-46ae2c55a7f5",
+      "texto": "Este diagrama refleja un sistema ordenado para la gestión de documentos con seguimiento del flujo de aprobación y registro administrativo.]",
+      "nivel": "child",
+      "parent_id": "5a88b220-6e5f-4d3c-87f0-6e23632c3f70",
       "pagina_inicio": 12,
       "pagina_fin": 12,
       "seccion": "ANEXO 3. Circuito de aprobación en papel y registro electrónico de la aprobación",

@@ -1,5 +1,5 @@
 {
-  "doc_id": "b67bcc0bbaf3418bbf66b984b202b3b2",
+  "doc_id": "bed1b475e75842e898e080dadacd9ac3",
   "nombre_fichero": "16057-IT-01.pdf",
   "metadatos_admin": {
     "empresa": "pars",
@@ -13,10 +13,10 @@
     "edicion": "01",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-20T22:15:48+00:00",
+  "fecha_ingesta": "2026-04-22T17:47:08+00:00",
   "chunks": [
     {
-      "chunk_id": "4319aa25-2879-4e50-8063-fc4422e5cabe",
+      "chunk_id": "a176cf41-a235-4e3e-8aff-c3167a4f813b",
       "texto": "El objeto del presente documento es la descripción del procedimiento de uso del Portal de IUI en el proyecto 16057 - PARS Irán\n\nEn particular se incidirá en los siguientes aspectos:\n\n-Organización del archivo electrónico del proyecto en el portal.\n\n-Acceso a la información por parte de los distintos participantes en el proyecto: personal de IUI, colaboradores, proveedores y personal del cliente.\n\n-Introducción y control de los documentos.",
       "nivel": "parent",
       "parent_id": null,
@@ -32,7 +32,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d8e5f739-38a4-4af2-bd13-871cce2c7f66",
+      "chunk_id": "09b5dd62-383c-44a3-a38f-e6410ca543df",
       "texto": "IUI dispone de un Portal que constituye el punto de acceso a la información de la compañía. El portal de IUI está regido por Documentum 4i, un Sistema de Gestión Electrónica de Documentos que presenta las siguientes características y funcionalidades:\n\nSistema orientado a Intranet / Internet: permite crear, modificar y buscar documentos a través de un navegador estándar (Internet Explorer p.e.). El que se trate de un entorno web, permite facilitar el acceso a la información a través de Internet.\n\nCatalogación de la información: para cada documento se cumplimentan una serie de atributos o propiedades (número de documento, título, autor, etc.) que facilitan la rápida localización de los documentos deseados mediante utilidades de búsqueda.\n\nFácil acceso a la información: la aplicación está dotada de herramientas de búsqueda basadas en los atributos asociados a los documentos. Por otro lado, dentro de la estructura de directorios (carpetas) en la que está organizada la información, el sistema permite   realizar   enlaces   haciendo   que   un   mismo   documento   sea   accesible   desde distintas localizaciones (desde distintas carpetas) sin necesidad de duplicar archivos.\n\nIntegridad y seguridad de la información: el   sistema incorpora procedimientos de seguridad basados en listas de control de acceso (ACL: access control list), las cuales son aplicables individualmente a carpetas y documentos definiendo qué privilegios tiene cada usuario sobre ellos (ver, editar, borrar, etc.). De esta forma, se garantiza que cada usuario accede únicamente a la información a la que tiene derecho. Asimismo, se evita el riesgo de borrados involuntarios.",
       "nivel": "parent",
       "parent_id": null,
@@ -48,10 +48,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "55ddbc7f-da73-46b0-9efb-755dd62181cb",
-      "texto": "IUI dispone de un Portal que constituye el punto de acceso a la información de la compañía. El portal de IUI está regido por Documentum 4i, un Sistema de Gestión Electrónica de Documentos que presenta las siguientes características y funcionalidades:\n\nSistema orientado a Intranet / Internet: permite crear, modificar y buscar documentos a través de un navegador estándar (Internet Explorer p.e.). El que se trate de un entorno web, permite facilitar el acceso a la información a través de Internet.\n\nCatalogación de la información: para cada documento se cumplimentan una serie de atributos o propiedades (número de documento, título, autor, etc.) que facilitan la rápida localización de los documentos deseados mediante utilidades de búsqueda.\n\nFácil acceso a la información: la aplicación está dotada de herramientas de búsqueda basadas en los atributos asociados a los documentos.",
+      "chunk_id": "8749a9dd-e6c4-4651-a6ec-de66e3a492b2",
+      "texto": "IUI dispone de un Portal que constituye el punto de acceso a la información de la compañía. El portal de IUI está regido por Documentum 4i, un Sistema de Gestión Electrónica de Documentos que presenta las siguientes características y funcionalidades:\n\nSistema orientado a Intranet / Internet: permite crear, modificar y buscar documentos a través de un navegador estándar (Internet Explorer p.e.). El que se trate de un entorno web, permite facilitar el acceso a la información a través de Internet.",
       "nivel": "child",
-      "parent_id": "d8e5f739-38a4-4af2-bd13-871cce2c7f66",
+      "parent_id": "09b5dd62-383c-44a3-a38f-e6410ca543df",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "2. INTRODUCCIÓN",
@@ -64,10 +64,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a02f9c5e-939e-4ef9-8bf9-b4e6f7d09b45",
-      "texto": "Por otro lado, dentro de la estructura de directorios (carpetas) en la que está organizada la información, el sistema permite   realizar   enlaces   haciendo   que   un   mismo   documento   sea   accesible   desde distintas localizaciones (desde distintas carpetas) sin necesidad de duplicar archivos.\n\nIntegridad y seguridad de la información: el   sistema incorpora procedimientos de seguridad basados en listas de control de acceso (ACL: access control list), las cuales son aplicables individualmente a carpetas y documentos definiendo qué privilegios tiene cada usuario sobre ellos (ver, editar, borrar, etc.). De esta forma, se garantiza que cada usuario accede únicamente a la información a la que tiene derecho. Asimismo, se evita el riesgo de borrados involuntarios.",
+      "chunk_id": "afbc3850-bc3b-4067-bc13-40d896975ac2",
+      "texto": "Catalogación de la información: para cada documento se cumplimentan una serie de atributos o propiedades (número de documento, título, autor, etc.) que facilitan la rápida localización de los documentos deseados mediante utilidades de búsqueda.\n\nFácil acceso a la información: la aplicación está dotada de herramientas de búsqueda basadas en los atributos asociados a los documentos.",
       "nivel": "child",
-      "parent_id": "d8e5f739-38a4-4af2-bd13-871cce2c7f66",
+      "parent_id": "09b5dd62-383c-44a3-a38f-e6410ca543df",
       "pagina_inicio": 2,
       "pagina_fin": 2,
       "seccion": "2. INTRODUCCIÓN",
@@ -80,7 +80,39 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "63196c5f-6317-4ba4-932d-8135d3f1a3ae",
+      "chunk_id": "555ebe51-b550-44bd-bfd3-eac2c3492a1c",
+      "texto": "Por otro lado, dentro de la estructura de directorios (carpetas) en la que está organizada la información, el sistema permite   realizar   enlaces   haciendo   que   un   mismo   documento   sea   accesible   desde distintas localizaciones (desde distintas carpetas) sin necesidad de duplicar archivos.",
+      "nivel": "child",
+      "parent_id": "09b5dd62-383c-44a3-a38f-e6410ca543df",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. INTRODUCCIÓN",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "19098e83-d016-4c43-b57a-dc009444f6df",
+      "texto": "Integridad y seguridad de la información: el   sistema incorpora procedimientos de seguridad basados en listas de control de acceso (ACL: access control list), las cuales son aplicables individualmente a carpetas y documentos definiendo qué privilegios tiene cada usuario sobre ellos (ver, editar, borrar, etc.). De esta forma, se garantiza que cada usuario accede únicamente a la información a la que tiene derecho. Asimismo, se evita el riesgo de borrados involuntarios.",
+      "nivel": "child",
+      "parent_id": "09b5dd62-383c-44a3-a38f-e6410ca543df",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. INTRODUCCIÓN",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "be34ba75-fb5d-4037-afe4-46463e6ea71c",
       "texto": "Mantenimiento y control de versiones: a   la   hora   de   modificar   un   documento   del sistema   existe   la   opción   de   sobrescribirlo   (perdiendo   el   documento   original)   o   de conservarlo, añadiendo el nuevo documento como versión del documento inicial. Ello posibilita el mantenimiento de un histórico de ediciones de los documentos, de modo que el sistema nos muestra la última versión pero nos permite acceder a las anteriores.\n\nMensajería electrónica : la aplicación permite el envío de mensajes entre usuarios con documentos del sistema asociados a dichos mensajes.\n\nGestión de ciclos de vida y de flujos de trabajo (workflows): el sistema permite atribuir ciclos de vida a los documentos entendidos éstos como una sucesión de estados por los que atraviesa el documento desde su creación hasta su publicación y distribución una vez aprobados. Asimismo, es posible la automatización de flujos documentales en los que se especifica por qué usuarios y en qué orden ha de pasar cada documento para su revisión, aprobación o simplemente para información. Las sucesivas revisiones y aprobaciones quedan registradas en el sistema.\n\nSoporte multiformato: el sistema permite incluir los documentos en el formato con que son creados. Adicionalmente, es posible guardar los documentos en varios formatos siendo de especial interés la publicación de documentos tanto en su formato original como en formato PDF, formato estándar que garantiza que cualquier usuario puede visualizar el documento sin necesidad de tener instalada la aplicación con la que ha sido generado.",
       "nivel": "parent",
       "parent_id": null,
@@ -95,10 +127,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fcb98773-3beb-413c-936a-16600d8a2c91",
-      "texto": "Mantenimiento y control de versiones: a   la   hora   de   modificar   un   documento   del sistema   existe   la   opción   de   sobrescribirlo   (perdiendo   el   documento   original)   o   de conservarlo, añadiendo el nuevo documento como versión del documento inicial. Ello posibilita el mantenimiento de un histórico de ediciones de los documentos, de modo que el sistema nos muestra la última versión pero nos permite acceder a las anteriores.\n\nMensajería electrónica : la aplicación permite el envío de mensajes entre usuarios con documentos del sistema asociados a dichos mensajes.\n\nGestión de ciclos de vida y de flujos de trabajo (workflows): el sistema permite atribuir ciclos de vida a los documentos entendidos éstos como una sucesión de estados por los que atraviesa el documento desde su creación hasta su publicación y distribución una vez aprobados.",
+      "chunk_id": "79f699a1-218c-4664-88c0-4372708ed74f",
+      "texto": "Mantenimiento y control de versiones: a   la   hora   de   modificar   un   documento   del sistema   existe   la   opción   de   sobrescribirlo   (perdiendo   el   documento   original)   o   de conservarlo, añadiendo el nuevo documento como versión del documento inicial. Ello posibilita el mantenimiento de un histórico de ediciones de los documentos, de modo que el sistema nos muestra la última versión pero nos permite acceder a las anteriores.",
       "nivel": "child",
-      "parent_id": "63196c5f-6317-4ba4-932d-8135d3f1a3ae",
+      "parent_id": "be34ba75-fb5d-4037-afe4-46463e6ea71c",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
@@ -110,10 +142,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a031a4ac-7933-4a31-a1a9-b2858352709c",
-      "texto": "Asimismo, es posible la automatización de flujos documentales en los que se especifica por qué usuarios y en qué orden ha de pasar cada documento para su revisión, aprobación o simplemente para información. Las sucesivas revisiones y aprobaciones quedan registradas en el sistema.\n\nSoporte multiformato: el sistema permite incluir los documentos en el formato con que son creados. Adicionalmente, es posible guardar los documentos en varios formatos siendo de especial interés la publicación de documentos tanto en su formato original como en formato PDF, formato estándar que garantiza que cualquier usuario puede visualizar el documento sin necesidad de tener instalada la aplicación con la que ha sido generado.",
+      "chunk_id": "476ad369-38f7-4ae6-a266-27212ebae76c",
+      "texto": "Mensajería electrónica : la aplicación permite el envío de mensajes entre usuarios con documentos del sistema asociados a dichos mensajes.\n\nGestión de ciclos de vida y de flujos de trabajo (workflows): el sistema permite atribuir ciclos de vida a los documentos entendidos éstos como una sucesión de estados por los que atraviesa el documento desde su creación hasta su publicación y distribución una vez aprobados.",
       "nivel": "child",
-      "parent_id": "63196c5f-6317-4ba4-932d-8135d3f1a3ae",
+      "parent_id": "be34ba75-fb5d-4037-afe4-46463e6ea71c",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
@@ -125,7 +157,37 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "efb76c23-cfcf-4639-9332-d3d5ab59673a",
+      "chunk_id": "be510dbe-8d9c-4869-a8c4-dc750e9bf888",
+      "texto": "Asimismo, es posible la automatización de flujos documentales en los que se especifica por qué usuarios y en qué orden ha de pasar cada documento para su revisión, aprobación o simplemente para información. Las sucesivas revisiones y aprobaciones quedan registradas en el sistema.\n\nSoporte multiformato: el sistema permite incluir los documentos en el formato con que son creados.",
+      "nivel": "child",
+      "parent_id": "be34ba75-fb5d-4037-afe4-46463e6ea71c",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "a20e1724-582f-4799-8cd5-49c51ece966f",
+      "texto": "Adicionalmente, es posible guardar los documentos en varios formatos siendo de especial interés la publicación de documentos tanto en su formato original como en formato PDF, formato estándar que garantiza que cualquier usuario puede visualizar el documento sin necesidad de tener instalada la aplicación con la que ha sido generado.",
+      "nivel": "child",
+      "parent_id": "be34ba75-fb5d-4037-afe4-46463e6ea71c",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ec0fbc75-cb1c-49cd-be5d-440c51047dac",
       "texto": "Todos los documentos del proyecto son incluidos en el Portal de Intranet de IUI, en el cual existe un área específica para la documentación asociada al proyecto.\n\nLas instrucciones para importar documentos las podemos encontrar en el manual editado por Gestión del Conocimiento: INCORPORAR DOCUMENTOS AL PORTAL NOTA: Para acceder directamente al documento a través de este enlace deberá estar previamente trabajando en el portal (Haber hecho log in previamente)",
       "nivel": "parent",
       "parent_id": null,
@@ -140,7 +202,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d56db0ac-f52e-44f0-bbfc-a464b6ce0572",
+      "chunk_id": "8941626e-f7b5-4dc8-83cb-d9cf1a297d40",
       "texto": "Como documentos del proyecto serán incluidos en el portal:",
       "nivel": "parent",
       "parent_id": null,
@@ -155,7 +217,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "dfdbd5a7-5de2-496f-beb4-53d77f560e0c",
+      "chunk_id": "ab5eaa88-d535-4754-abf3-66fbf2156c75",
       "texto": "o Técnicos. Ingeniería   básica,   especificaciones   y   estándares,   planos   de   las instalaciones existentes, etc.\n\no Documentos de construcción: peticiones de oferta, tabulaciones económicas, pedidos, etc.",
       "nivel": "parent",
       "parent_id": null,
@@ -170,7 +232,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3d27e372-9a23-4bf7-8441-a72e9b38f671",
+      "chunk_id": "3810f71f-7392-48ee-a38a-befed390d7c1",
       "texto": "o Documentos de ingeniería: planos, especificaciones, hojas de datos, etc\n\no Requisiciones de Materiales y Requisiciones de Construcción. (parte técnica de las requisiciones de construcción)\n\no  Documentos de planificación y control del proyecto: planificaciones, curvas de avance, informes de costes, etc.\n\no Documentos generales: informes   de   progreso,   actas   de   reunión,   plan   de calidad, etc.\n\n-Documentos provenientes de los proveedores.\n\nLos documentos son introducidos en el Portal de Intranet por personal de  IUI, quedando disponibles para su uso en toda la organización siendo posible definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad.\n\nPeriódicamente, en principio una vez al día, es realizada una copia de contenidos de la Intranet a Internet, para hacerlos accesibles a través de la página web de IUI en Internet . De esta manera, clientes, proveedores e incluso personal de IUI desplazado de las oficinas   pueden   acceder   a   aquellos   documentos   del   proyecto   que   se   determinen   en cualquier momento y desde cualquier lugar, siempre y cuando dispongan de conexión a Internet.",
       "nivel": "parent",
       "parent_id": null,
@@ -186,10 +248,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8e119eb6-9f23-4af7-8e3d-8b97c49d9f86",
-      "texto": "o Documentos de ingeniería: planos, especificaciones, hojas de datos, etc\n\no Requisiciones de Materiales y Requisiciones de Construcción. (parte técnica de las requisiciones de construcción)\n\no  Documentos de planificación y control del proyecto: planificaciones, curvas de avance, informes de costes, etc.\n\no Documentos generales: informes   de   progreso,   actas   de   reunión,   plan   de calidad, etc.\n\n-Documentos provenientes de los proveedores.\n\nLos documentos son introducidos en el Portal de Intranet por personal de  IUI, quedando disponibles para su uso en toda la organización siendo posible definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad.\n\nPeriódicamente, en principio una vez al día, es realizada una copia de contenidos de la Intranet a Internet, para hacerlos accesibles a través de la página web de IUI en Internet .",
+      "chunk_id": "007df084-d1a7-44e2-9b3e-8d61d845183a",
+      "texto": "o Documentos de ingeniería: planos, especificaciones, hojas de datos, etc\n\no Requisiciones de Materiales y Requisiciones de Construcción. (parte técnica de las requisiciones de construcción)\n\no  Documentos de planificación y control del proyecto: planificaciones, curvas de avance, informes de costes, etc.\n\no Documentos generales: informes   de   progreso,   actas   de   reunión,   plan   de calidad, etc.\n\n-Documentos provenientes de los proveedores.",
       "nivel": "child",
-      "parent_id": "3d27e372-9a23-4bf7-8441-a72e9b38f671",
+      "parent_id": "3810f71f-7392-48ee-a38a-befed390d7c1",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "-Documentos generados por IUI:",
@@ -202,10 +264,26 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a9a032e0-9bf7-4bb7-ab94-8f941e9886af",
+      "chunk_id": "04adca67-3949-49e6-8923-6c2310892486",
+      "texto": "-Documentos provenientes de los proveedores.\n\nLos documentos son introducidos en el Portal de Intranet por personal de  IUI, quedando disponibles para su uso en toda la organización siendo posible definir los accesos, el ámbito de difusión de los documentos y su seguridad con total flexibilidad.\n\nPeriódicamente, en principio una vez al día, es realizada una copia de contenidos de la Intranet a Internet, para hacerlos accesibles a través de la página web de IUI en Internet .",
+      "nivel": "child",
+      "parent_id": "3810f71f-7392-48ee-a38a-befed390d7c1",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "-Documentos generados por IUI:",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "729dd645-8aa7-4960-904c-cc5f888fa0fb",
       "texto": "De esta manera, clientes, proveedores e incluso personal de IUI desplazado de las oficinas   pueden   acceder   a   aquellos   documentos   del   proyecto   que   se   determinen   en cualquier momento y desde cualquier lugar, siempre y cuando dispongan de conexión a Internet.",
       "nivel": "child",
-      "parent_id": "3d27e372-9a23-4bf7-8441-a72e9b38f671",
+      "parent_id": "3810f71f-7392-48ee-a38a-befed390d7c1",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "-Documentos generados por IUI:",
@@ -218,7 +296,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "61b9bc1d-0061-4f4c-b732-4b74bf8869af",
+      "chunk_id": "b757f8b8-dcb9-454b-943a-8babe2e6a0f9",
       "texto": "Existen dos posibilidades de acceso a la documentación por parte del cliente a través de:\n\n Página Web de IUI en Internet El   cliente   podrá   acceder   a   la   documentación   del proyecto , desde la zona de proyecto en colaboración. Se trata de un área únicamente",
       "nivel": "parent",
       "parent_id": null,
@@ -234,7 +312,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "920d5c42-a952-4d52-86b6-9d2923396104",
+      "chunk_id": "e73e022e-8444-4883-8b3f-bcd0fcd08eae",
       "texto": "de consulta y descarga, no existiendo posibilidad de modificación de los documentos allí publicados.\n\nEl cliente únicamente tendrá acceso a los documentos una vez éstos hayan sido aprobados por IUI de manera que para un determinado documento que no esté aprobado no tendrán posibilidad de abrirlo pero sí acceder a la última edición aprobada.\n\n Intranet de IUI Con carácter especial el personal del cliente residente en Intecsa Uhde tendrá acceso a toda la documentación del proyecto independientemente de su estado   de   aprobación   así   como   podrá   participar   en   este   circuito   de   aprobación electrónica (workflow)",
       "nivel": "parent",
       "parent_id": null,
@@ -250,7 +328,39 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1b9fbc84-154c-4263-8a0c-c7f9aa693928",
+      "chunk_id": "2608d6a7-1127-4f90-8ec3-124670e5a3c2",
+      "texto": "de consulta y descarga, no existiendo posibilidad de modificación de los documentos allí publicados.\n\nEl cliente únicamente tendrá acceso a los documentos una vez éstos hayan sido aprobados por IUI de manera que para un determinado documento que no esté aprobado no tendrán posibilidad de abrirlo pero sí acceder a la última edición aprobada.",
+      "nivel": "child",
+      "parent_id": "e73e022e-8444-4883-8b3f-bcd0fcd08eae",
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7b0e84f2-ca89-4984-bcc4-fd95eae1808e",
+      "texto": " Intranet de IUI Con carácter especial el personal del cliente residente en Intecsa Uhde tendrá acceso a toda la documentación del proyecto independientemente de su estado   de   aprobación   así   como   podrá   participar   en   este   circuito   de   aprobación electrónica (workflow)",
+      "nivel": "child",
+      "parent_id": "e73e022e-8444-4883-8b3f-bcd0fcd08eae",
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3f5f5a40-325d-4664-94c8-fb7a61131576",
       "texto": "Los proveedores podrán acceder a través del Centro de Negocios de IUI en Internet a aquellos documentos asociados a las Requisiciones de Material del proyecto en las que están involucrados ,   tanto en la fase de petición de oferta como una vez adjudicado el pedido. La información publicada en el Centro de Negocios queda restringida a los proveedores   seleccionados   para   la   petición   de   oferta   y   al   adjudicatario   si   nos encontramos en la fase de pedido . Ello queda garantizado por un sistema de contraseñas que gestiona el Departamento de Compras y Gestión del Conocimiento .",
       "nivel": "parent",
       "parent_id": null,
@@ -265,7 +375,37 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2d112008-fcd8-40a7-ba57-44afcc516bcc",
+      "chunk_id": "84157e8f-8d4c-4ba0-9452-1674f556fbff",
+      "texto": "Los proveedores podrán acceder a través del Centro de Negocios de IUI en Internet a aquellos documentos asociados a las Requisiciones de Material del proyecto en las que están involucrados ,   tanto en la fase de petición de oferta como una vez adjudicado el pedido. La información publicada en el Centro de Negocios queda restringida a los proveedores   seleccionados   para   la   petición   de   oferta   y   al   adjudicatario   si   nos encontramos en la fase de pedido .",
+      "nivel": "child",
+      "parent_id": "3f5f5a40-325d-4664-94c8-fb7a61131576",
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "5. ACCESO POR PARTE DE LOS PROVEEDORES",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "49647908-f505-4eb5-82f2-3c7789305ee5",
+      "texto": "Ello queda garantizado por un sistema de contraseñas que gestiona el Departamento de Compras y Gestión del Conocimiento .",
+      "nivel": "child",
+      "parent_id": "3f5f5a40-325d-4664-94c8-fb7a61131576",
+      "pagina_inicio": 5,
+      "pagina_fin": 5,
+      "seccion": "5. ACCESO POR PARTE DE LOS PROVEEDORES",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "d5d18a90-a4f1-4a03-a1fe-7080703c7975",
       "texto": "La introducción de la documentación en el portal de IUI será llevada a cabo por quien genere el documento. Los documentos proporcionados por el cliente serán introducidos por el administrador del proyecto , quien será el responsable de la gestión del archivo electrónico del proyecto en el portal. En cuanto a documentos proporcionados por los proveedores, el encargado de su Administrador introducción en el sistema tanto a la llegada a IUI como a su salida será el de Proyecto (concretamente en PDF).",
       "nivel": "parent",
       "parent_id": null,
@@ -280,7 +420,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e06c0c6a-1978-4dda-a71e-efae4aa43a21",
+      "chunk_id": "aca1343d-5ebf-41c1-bd83-4111e3313686",
       "texto": "7.1. Documentos de Ingeniería.\n\nComo responsable del archivo  electrónico   del   proyecto   se   determinará   una   figura   de administrador del proyecto, que tendrá entre otras misiones:\n\n-Distribución electrónica de los documentos.\n\n-Introducción de aquellos documentos proporcionados por el cliente.\n\n-Agrupación de los documentos asociados a las Requisiciones de Material para propiciar el acceso a ellos por parte de los proveedores.\n\n-Seguimiento de la introducción de los documentos: detectar y activar la corrección de fallos como puedan ser errores a la hora de cumplimentar las propiedades y sobre todo a la hora de fijar los permisos.\n\n-Registro de la devolución de los documentos por el cliente.\n\n-Realización de tareas que requieren una manipulación masiva de documentos, como la introducción y extracción masiva de documentos.",
       "nivel": "parent",
       "parent_id": null,
@@ -296,7 +436,39 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3486c8bb-bbc9-4485-8eff-2141fd4894c8",
+      "chunk_id": "3544fdcd-22bc-4ca6-9695-8b4744cad94d",
+      "texto": "7.1. Documentos de Ingeniería.\n\nComo responsable del archivo  electrónico   del   proyecto   se   determinará   una   figura   de administrador del proyecto, que tendrá entre otras misiones:\n\n-Distribución electrónica de los documentos.\n\n-Introducción de aquellos documentos proporcionados por el cliente.\n\n-Agrupación de los documentos asociados a las Requisiciones de Material para propiciar el acceso a ellos por parte de los proveedores.",
+      "nivel": "child",
+      "parent_id": "aca1343d-5ebf-41c1-bd83-4111e3313686",
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "7. ADMINISTRADOR DEL PROYECTO",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "de24c371-cb6d-4102-8778-1acc12d1323a",
+      "texto": "-Seguimiento de la introducción de los documentos: detectar y activar la corrección de fallos como puedan ser errores a la hora de cumplimentar las propiedades y sobre todo a la hora de fijar los permisos.\n\n-Registro de la devolución de los documentos por el cliente.\n\n-Realización de tareas que requieren una manipulación masiva de documentos, como la introducción y extracción masiva de documentos.",
+      "nivel": "child",
+      "parent_id": "aca1343d-5ebf-41c1-bd83-4111e3313686",
+      "pagina_inicio": 6,
+      "pagina_fin": 6,
+      "seccion": "7. ADMINISTRADOR DEL PROYECTO",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5f093c3e-978f-425d-a77e-410a91832c9f",
       "texto": "El Administrador de Proyectos será el encargado de:\n\n-Activar la llegada de los documentos en la fecha requerida.\n\n-Introducción de los documentos en el Portal a su llegada a IUI.\n\n-Distribución de los documentos a los especialistas implicados.\n\n-Activación interna de los especialistas implicados para que se cumplan las fechas requeridas para los comentarios de los documentos de fabricante.\n\n-Introducción en el sistema de los documentos una vez comentados para que puedan ser consultados por el proyecto, el cliente y el proveedor implicado.",
       "nivel": "parent",
       "parent_id": null,
@@ -312,7 +484,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "963a85f1-1956-4f05-acc9-083f89fad2c9",
+      "chunk_id": "64cc3e8d-cdf2-4bb9-89bc-f5b4db5ac61c",
       "texto": "En el Portal de IUI, la información se estructura buscando lograr un doble objetivo: el fácil acceso a la misma y la simplicidad a la hora de gestionar los permisos de acceso y modificación.\n\nEn este sentido, la información se estructura atendiendo a la naturaleza de la misma (documentos proporcionados por el cliente, correspondencia, etc.) y en segundo término por especialidades o actividades\n\nEn el caso concreto de aquellas especialidades que emiten Requisiciones de Material (RMs) , la documentación estará organizada matricialmente, es decir:\n\n atendiendo a la especialidad que lo genera, en carpetas específicas por cada tipo de documento: (hoja de datos, especificación, etc.) en la carpeta de la especialidad correspondiente .\n\n atendiendo a la Requisición de Material (RM) a la que está asociada, ESE MISMO DOCUMENTO estará enlazado a la carpeta de RM correspondiente.\n\n7.0. REQUISITIONS OF MATERIAL and RELATED DOCUMENTS\n\nRMs DOCUMENTS. RM - .......\n\nEs decir, un plano isómetrico se encontrará en su carpeta correspondiente de Ingeniería de Detalle así como se tendrá acceso al mismo plano desde la/s carpetas de RM que hagan referencia a ese mismo plano en su lista de documentos adjuntos.\n\nEn el ANEXO 1 se recoge la estructura de carpetas así como los permisos de acceso asociados.",
       "nivel": "parent",
       "parent_id": null,
@@ -328,10 +500,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3467545d-0d77-4980-924a-410a7f81c8c1",
-      "texto": "En el Portal de IUI, la información se estructura buscando lograr un doble objetivo: el fácil acceso a la misma y la simplicidad a la hora de gestionar los permisos de acceso y modificación.\n\nEn este sentido, la información se estructura atendiendo a la naturaleza de la misma (documentos proporcionados por el cliente, correspondencia, etc.) y en segundo término por especialidades o actividades\n\nEn el caso concreto de aquellas especialidades que emiten Requisiciones de Material (RMs) , la documentación estará organizada matricialmente, es decir:\n\n atendiendo a la especialidad que lo genera, en carpetas específicas por cada tipo de documento: (hoja de datos, especificación, etc.) en la carpeta de la especialidad correspondiente .\n\n atendiendo a la Requisición de Material (RM) a la que está asociada, ESE MISMO DOCUMENTO estará enlazado a la carpeta de RM correspondiente.\n\n7.0. REQUISITIONS OF MATERIAL and RELATED DOCUMENTS\n\nRMs DOCUMENTS.",
+      "chunk_id": "454ebaab-2870-4210-bbe1-db33a51aa5d7",
+      "texto": "En el Portal de IUI, la información se estructura buscando lograr un doble objetivo: el fácil acceso a la misma y la simplicidad a la hora de gestionar los permisos de acceso y modificación.\n\nEn este sentido, la información se estructura atendiendo a la naturaleza de la misma (documentos proporcionados por el cliente, correspondencia, etc.)",
       "nivel": "child",
-      "parent_id": "963a85f1-1956-4f05-acc9-083f89fad2c9",
+      "parent_id": "64cc3e8d-cdf2-4bb9-89bc-f5b4db5ac61c",
       "pagina_inicio": 7,
       "pagina_fin": 7,
       "seccion": "8. ESTRUCTURA DE LA INFORMACIÓN",
@@ -344,10 +516,42 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1693773e-a065-45d6-9618-1c92388aefbd",
+      "chunk_id": "7ef9658a-8f71-462f-897e-c5257ad8503b",
+      "texto": "y en segundo término por especialidades o actividades\n\nEn el caso concreto de aquellas especialidades que emiten Requisiciones de Material (RMs) , la documentación estará organizada matricialmente, es decir:\n\n atendiendo a la especialidad que lo genera, en carpetas específicas por cada tipo de documento: (hoja de datos, especificación, etc.) en la carpeta de la especialidad correspondiente .",
+      "nivel": "child",
+      "parent_id": "64cc3e8d-cdf2-4bb9-89bc-f5b4db5ac61c",
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "8. ESTRUCTURA DE LA INFORMACIÓN",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "25260c94-bd50-4333-8e9b-b8cdf9d68e5a",
+      "texto": "en la carpeta de la especialidad correspondiente .\n\n atendiendo a la Requisición de Material (RM) a la que está asociada, ESE MISMO DOCUMENTO estará enlazado a la carpeta de RM correspondiente.\n\n7.0. REQUISITIONS OF MATERIAL and RELATED DOCUMENTS\n\nRMs DOCUMENTS.",
+      "nivel": "child",
+      "parent_id": "64cc3e8d-cdf2-4bb9-89bc-f5b4db5ac61c",
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "8. ESTRUCTURA DE LA INFORMACIÓN",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ae81813c-47ce-4a3f-a72f-2e8b25310be5",
       "texto": "REQUISITIONS OF MATERIAL and RELATED DOCUMENTS\n\nRMs DOCUMENTS. RM - .......\n\nEs decir, un plano isómetrico se encontrará en su carpeta correspondiente de Ingeniería de Detalle así como se tendrá acceso al mismo plano desde la/s carpetas de RM que hagan referencia a ese mismo plano en su lista de documentos adjuntos.\n\nEn el ANEXO 1 se recoge la estructura de carpetas así como los permisos de acceso asociados.",
       "nivel": "child",
-      "parent_id": "963a85f1-1956-4f05-acc9-083f89fad2c9",
+      "parent_id": "64cc3e8d-cdf2-4bb9-89bc-f5b4db5ac61c",
       "pagina_inicio": 7,
       "pagina_fin": 7,
       "seccion": "8. ESTRUCTURA DE LA INFORMACIÓN",
@@ -360,7 +564,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e7584cf7-0c58-48ae-86b0-af35366370b8",
+      "chunk_id": "f8bcc7d7-d570-474e-a78a-e4d886c5178e",
       "texto": "En Documentum ,   los   usuarios   están   organizados   según   grupos   de   manera   que   los permisos (ACL'S) consisten en asignar a cada grupo de usuarios los privilegios que se les desee conceder. En cuanto a la actualización de los usuarios participantes en el proyecto será la dirección del mismo quien comunique a Gestión del Conocimiento si se producen altas o bajas dentro del proyecto, indicando en el caso de las altas la amplitud del acceso que debe tener el usuario, es decir, en qué grupo debe ser incluido. Asimismo la dirección de proyecto se pondrá en contacto con Gestión del Conocimiento ante necesidades de nuevos permisos o de modificación de los existentes. PERMISOS DISPONIBLES PARA EL PROYECTO\n\n-Proy_iran_lectura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR únicamente al propietario del documento y al administrador del proyecto. -Proy_iran_dirección: aplicable a los documentos solamente accesibles a la dirección del proyecto. Desde la intranet permite LEER a la dirección del proyecto y MODIFICAR al propietario del documento. -Proy_iran_escritura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR a cualquier integrante del proyecto. -Proy_iran_privado: aplicable a documentos únicamente accesibles por la dirección del proyecto y por el responsable de costes del proyecto. Desde la intranet permite LEER al responsable de costes del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_iran_plan_privado: aplicable a documentos relativos a resúmenes de costes, órdenes de cambio y curvas económicas. Desde la intranet permite LEER a la dirección de proyectos y al grupo de contratos y permite MODIFICAR al grupo de planificación. -Proy_iran_plan_restringido: aplicable   a   documentos   relativos   a   la   situación   del\n\nDesde la intranet permite LEER a la dirección del proyecto así como a los jefes de departamento y permite MODIFICAR al grupo de planificación. -Proy_iran_plan_scsi: aplicable a documentos relativos a los sistemas de control de servicios de ingeniería. Desde la intranet permite LEER a la dirección proyecto, responsables de cuenta y jefes de departamento y permite MODIFICAR al propietario del documento. -Proy_iran_restringido: aplicable a documentos únicamente accesibles a los responsables de cuenta, a la dirección del proyecto y a los jefes de departamento. Desde la intranet permite LEER a los responsables de cuenta del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_iran_operaciones: aplicable a documentos generales que introducirá, o bien el grupo de operaciones o bien el Administrador de documentos. Desde la intranet permite LEER a todos los usuarios de IUI y MODIFICAR al grupo de operaciones y al Administrador de Documentos. Se   han   habilitado   unos   permisos   por   especialidad   que   permitan   INTRODUCIR   y MODIFICAR los documentos a todos los componentes de dicha especialidad y permitan LEER al resto de los componentes de IUI -Proy_iran_civil: aplicable a documentos generados por los componentes de civil y accesibles a toda IUI. Desde la Intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de civil. -Proy_iran_compras: aplicable   a   documentos   no   restringidos   generados   por   los componentes de compras y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_iran_compras_rest: aplicable a documentos generados por los componentes de compras de carácter restringido por ejemplo pedidos y tabulaciones.",
       "nivel": "parent",
       "parent_id": null,
@@ -376,10 +580,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "6aa35a5b-6a9a-4c0e-a66e-58c39c56709b",
-      "texto": "En Documentum ,   los   usuarios   están   organizados   según   grupos   de   manera   que   los permisos (ACL'S) consisten en asignar a cada grupo de usuarios los privilegios que se les desee conceder. En cuanto a la actualización de los usuarios participantes en el proyecto será la dirección del mismo quien comunique a Gestión del Conocimiento si se producen altas o bajas dentro del proyecto, indicando en el caso de las altas la amplitud del acceso que debe tener el usuario, es decir, en qué grupo debe ser incluido. Asimismo la dirección de proyecto se pondrá en contacto con Gestión del Conocimiento ante necesidades de nuevos permisos o de modificación de los existentes. PERMISOS DISPONIBLES PARA EL PROYECTO\n\n-Proy_iran_lectura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR únicamente al propietario del documento y al administrador del proyecto.",
+      "chunk_id": "ca9323e2-3531-4535-8131-9c7774260e2d",
+      "texto": "En Documentum ,   los   usuarios   están   organizados   según   grupos   de   manera   que   los permisos (ACL'S) consisten en asignar a cada grupo de usuarios los privilegios que se les desee conceder.",
       "nivel": "child",
-      "parent_id": "e7584cf7-0c58-48ae-86b0-af35366370b8",
+      "parent_id": "f8bcc7d7-d570-474e-a78a-e4d886c5178e",
       "pagina_inicio": 8,
       "pagina_fin": 11,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
@@ -392,10 +596,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8c1f9dc0-52fc-4084-8dfc-049e0ebf3abd",
-      "texto": "-Proy_iran_dirección: aplicable a los documentos solamente accesibles a la dirección del proyecto. Desde la intranet permite LEER a la dirección del proyecto y MODIFICAR al propietario del documento. -Proy_iran_escritura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR a cualquier integrante del proyecto. -Proy_iran_privado: aplicable a documentos únicamente accesibles por la dirección del proyecto y por el responsable de costes del proyecto. Desde la intranet permite LEER al responsable de costes del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_iran_plan_privado: aplicable a documentos relativos a resúmenes de costes, órdenes de cambio y curvas económicas. Desde la intranet permite LEER a la dirección de proyectos y al grupo de contratos y permite MODIFICAR al grupo de planificación.",
+      "chunk_id": "2a69981b-343a-47c3-9d46-9f8071efb150",
+      "texto": "En cuanto a la actualización de los usuarios participantes en el proyecto será la dirección del mismo quien comunique a Gestión del Conocimiento si se producen altas o bajas dentro del proyecto, indicando en el caso de las altas la amplitud del acceso que debe tener el usuario, es decir, en qué grupo debe ser incluido. Asimismo la dirección de proyecto se pondrá en contacto con Gestión del Conocimiento ante necesidades de nuevos permisos o de modificación de los existentes.",
       "nivel": "child",
-      "parent_id": "e7584cf7-0c58-48ae-86b0-af35366370b8",
+      "parent_id": "f8bcc7d7-d570-474e-a78a-e4d886c5178e",
       "pagina_inicio": 8,
       "pagina_fin": 11,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
@@ -408,10 +612,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7ba8811b-c957-4a50-9094-91b6112ad87b",
-      "texto": "-Proy_iran_plan_restringido: aplicable   a   documentos   relativos   a   la   situación   del\n\nDesde la intranet permite LEER a la dirección del proyecto así como a los jefes de departamento y permite MODIFICAR al grupo de planificación. -Proy_iran_plan_scsi: aplicable a documentos relativos a los sistemas de control de servicios de ingeniería. Desde la intranet permite LEER a la dirección proyecto, responsables de cuenta y jefes de departamento y permite MODIFICAR al propietario del documento. -Proy_iran_restringido: aplicable a documentos únicamente accesibles a los responsables de cuenta, a la dirección del proyecto y a los jefes de departamento. Desde la intranet permite LEER a los responsables de cuenta del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_iran_operaciones: aplicable a documentos generales que introducirá, o bien el grupo de operaciones o bien el Administrador de documentos.",
+      "chunk_id": "b7487c76-7270-489f-ae4a-d9f052be43e8",
+      "texto": "PERMISOS DISPONIBLES PARA EL PROYECTO\n\n-Proy_iran_lectura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR únicamente al propietario del documento y al administrador del proyecto. -Proy_iran_dirección: aplicable a los documentos solamente accesibles a la dirección del proyecto.",
       "nivel": "child",
-      "parent_id": "e7584cf7-0c58-48ae-86b0-af35366370b8",
+      "parent_id": "f8bcc7d7-d570-474e-a78a-e4d886c5178e",
       "pagina_inicio": 8,
       "pagina_fin": 11,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
@@ -424,10 +628,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b50773c1-46fb-48bd-a660-8b626d926d3a",
-      "texto": "Desde la intranet permite LEER a todos los usuarios de IUI y MODIFICAR al grupo de operaciones y al Administrador de Documentos. Se   han   habilitado   unos   permisos   por   especialidad   que   permitan   INTRODUCIR   y MODIFICAR los documentos a todos los componentes de dicha especialidad y permitan LEER al resto de los componentes de IUI -Proy_iran_civil: aplicable a documentos generados por los componentes de civil y accesibles a toda IUI. Desde la Intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de civil. -Proy_iran_compras: aplicable   a   documentos   no   restringidos   generados   por   los componentes de compras y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_iran_compras_rest: aplicable a documentos generados por los componentes de compras de carácter restringido por ejemplo pedidos y tabulaciones.",
+      "chunk_id": "1dcf5fea-ace2-4b3c-8b2a-3ac0f92c6455",
+      "texto": "Desde la intranet permite LEER a la dirección del proyecto y MODIFICAR al propietario del documento. -Proy_iran_escritura: aplicable   a   documentos   de   carácter   no   confidencial   aún   no aprobados por IUI. Desde la intranet permite LEER a cualquier usuario de IUI y MODIFICAR a cualquier integrante del proyecto. -Proy_iran_privado: aplicable a documentos únicamente accesibles por la dirección del proyecto y por el responsable de costes del proyecto.",
       "nivel": "child",
-      "parent_id": "e7584cf7-0c58-48ae-86b0-af35366370b8",
+      "parent_id": "f8bcc7d7-d570-474e-a78a-e4d886c5178e",
       "pagina_inicio": 8,
       "pagina_fin": 11,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
@@ -440,7 +644,103 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2a25805a-087c-4b6f-ab50-7c69d92a1bc4",
+      "chunk_id": "c92a7ef7-b019-40ab-96d2-64c14399ab68",
+      "texto": "Desde la intranet permite LEER al responsable de costes del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_iran_plan_privado: aplicable a documentos relativos a resúmenes de costes, órdenes de cambio y curvas económicas. Desde la intranet permite LEER a la dirección de proyectos y al grupo de contratos y permite MODIFICAR al grupo de planificación.",
+      "nivel": "child",
+      "parent_id": "f8bcc7d7-d570-474e-a78a-e4d886c5178e",
+      "pagina_inicio": 8,
+      "pagina_fin": 11,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9de93358-816f-4cf3-8ddb-7148fd47ef78",
+      "texto": "-Proy_iran_plan_restringido: aplicable   a   documentos   relativos   a   la   situación   del\n\nDesde la intranet permite LEER a la dirección del proyecto así como a los jefes de departamento y permite MODIFICAR al grupo de planificación. -Proy_iran_plan_scsi: aplicable a documentos relativos a los sistemas de control de servicios de ingeniería. Desde la intranet permite LEER a la dirección proyecto, responsables de cuenta y jefes de departamento y permite MODIFICAR al propietario del documento.",
+      "nivel": "child",
+      "parent_id": "f8bcc7d7-d570-474e-a78a-e4d886c5178e",
+      "pagina_inicio": 8,
+      "pagina_fin": 11,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fa0a073c-7a13-4ef1-90f8-9023f1001fc9",
+      "texto": "-Proy_iran_restringido: aplicable a documentos únicamente accesibles a los responsables de cuenta, a la dirección del proyecto y a los jefes de departamento. Desde la intranet permite LEER a los responsables de cuenta del proyecto, a la dirección del proyecto y a los jefes de departamento de IUI. -Proy_iran_operaciones: aplicable a documentos generales que introducirá, o bien el grupo de operaciones o bien el Administrador de documentos.",
+      "nivel": "child",
+      "parent_id": "f8bcc7d7-d570-474e-a78a-e4d886c5178e",
+      "pagina_inicio": 8,
+      "pagina_fin": 11,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "307baccf-c389-4d3d-9fc1-71d293761661",
+      "texto": "Desde la intranet permite LEER a todos los usuarios de IUI y MODIFICAR al grupo de operaciones y al Administrador de Documentos. Se   han   habilitado   unos   permisos   por   especialidad   que   permitan   INTRODUCIR   y MODIFICAR los documentos a todos los componentes de dicha especialidad y permitan LEER al resto de los componentes de IUI -Proy_iran_civil: aplicable a documentos generados por los componentes de civil y accesibles a toda IUI.",
+      "nivel": "child",
+      "parent_id": "f8bcc7d7-d570-474e-a78a-e4d886c5178e",
+      "pagina_inicio": 8,
+      "pagina_fin": 11,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "12c0f217-8f54-4b29-b196-430542d7ce8e",
+      "texto": "Desde la Intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de civil. -Proy_iran_compras: aplicable   a   documentos   no   restringidos   generados   por   los componentes de compras y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras.",
+      "nivel": "child",
+      "parent_id": "f8bcc7d7-d570-474e-a78a-e4d886c5178e",
+      "pagina_inicio": 8,
+      "pagina_fin": 11,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "0e44923d-fd34-4dbd-98c7-ae04e092f1b2",
+      "texto": "-Proy_iran_compras_rest: aplicable a documentos generados por los componentes de compras de carácter restringido por ejemplo pedidos y tabulaciones.",
+      "nivel": "child",
+      "parent_id": "f8bcc7d7-d570-474e-a78a-e4d886c5178e",
+      "pagina_inicio": 8,
+      "pagina_fin": 11,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "dc621751-cbf9-44dd-b023-22a46335c56d",
       "texto": "Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_iran_construc: aplicable   a   documentos   no   restringidos   generados   por   los\n\ncomponentes de construcción y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_iran_construc_rest: aplicable a documentos generados por los componentes de construcción de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_iran_dinamicos : aplicable a documentos generados por los componentes de equipos dinámicos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos dinámicos. -Proy_iran_elecinst   : aplicable   a   documentos   generados   por   los   componentes   de electricidad e instrumentación y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de electricidad e instrumentación. -Proy_iran_estaticos: aplicable   a   documentos   generados   por   los   componentes   de equipos estáticos  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos estáticos. -Proy_iran_hvac: aplicable a documentos generados por los componentes de HVAC (Heating, Ventilation and Air Conditioning)  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de hvac. -Proy_iran_materiales: aplicable   a   documentos   generados   por   los   componentes   de materiales y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de materiales. -Proy_iran_procesos : aplicable  a   documentos generados por los componentes de procesos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de procesos. -Proy_iran_sci : aplicable   a   documentos   generados   por   los   componentes   de   (SCI)\n\nSistemas Contra Incendios y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de sistemas contra incendios.\n\n-Proy_iran_soportes : aplicable   a   documentos   generados   por   los   componentes   de Esfuerzos y Soportes y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Esfuerzos y Soportes.\n\n-Proy_iran_tuberías   : aplicable   a   documentos   generados   por   los   componentes   de tuberías y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de tuberías.\n\nLa   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc\n\nLos permisos del cliente los comentamos anteriormente en el punto de Acceso por parte del Cliente",
       "nivel": "parent",
       "parent_id": null,
@@ -456,10 +756,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9140f882-fb43-4c2c-b283-9928e9ca3bdb",
-      "texto": "Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_iran_construc: aplicable   a   documentos   no   restringidos   generados   por   los\n\ncomponentes de construcción y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras. -Proy_iran_construc_rest: aplicable a documentos generados por los componentes de construcción de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_iran_dinamicos : aplicable a documentos generados por los componentes de equipos dinámicos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos dinámicos.",
+      "chunk_id": "761e1fbf-081d-46b5-84da-a8df26e73483",
+      "texto": "Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_iran_construc: aplicable   a   documentos   no   restringidos   generados   por   los\n\ncomponentes de construcción y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de compras.",
       "nivel": "child",
-      "parent_id": "2a25805a-087c-4b6f-ab50-7c69d92a1bc4",
+      "parent_id": "dc621751-cbf9-44dd-b023-22a46335c56d",
       "pagina_inicio": 8,
       "pagina_fin": 11,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
@@ -472,10 +772,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d21deb88-f436-4e01-b245-2f0ca976e602",
-      "texto": "-Proy_iran_elecinst   : aplicable   a   documentos   generados   por   los   componentes   de electricidad e instrumentación y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de electricidad e instrumentación. -Proy_iran_estaticos: aplicable   a   documentos   generados   por   los   componentes   de equipos estáticos  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos estáticos. -Proy_iran_hvac: aplicable a documentos generados por los componentes de HVAC (Heating, Ventilation and Air Conditioning)  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de hvac. -Proy_iran_materiales: aplicable   a   documentos   generados   por   los   componentes   de materiales y accesibles a toda IUI.",
+      "chunk_id": "576b89aa-b8ac-454f-bb35-17f431bfd7cc",
+      "texto": "-Proy_iran_construc_rest: aplicable a documentos generados por los componentes de construcción de carácter restringido por ejemplo pedidos y tabulaciones. Desde la intranet permite LEER a los responsables de cuenta, jefes de departamento y dirección del proyecto y MODIFICAR únicamente a los componentes de compras. -Proy_iran_dinamicos : aplicable a documentos generados por los componentes de equipos dinámicos y accesibles a toda IUI.",
       "nivel": "child",
-      "parent_id": "2a25805a-087c-4b6f-ab50-7c69d92a1bc4",
+      "parent_id": "dc621751-cbf9-44dd-b023-22a46335c56d",
       "pagina_inicio": 8,
       "pagina_fin": 11,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
@@ -488,10 +788,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f92b2fc7-0bef-44a4-b414-494dbd4ee5e9",
-      "texto": "Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de materiales. -Proy_iran_procesos : aplicable  a   documentos generados por los componentes de procesos y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de procesos. -Proy_iran_sci : aplicable   a   documentos   generados   por   los   componentes   de   (SCI)\n\nSistemas Contra Incendios y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de sistemas contra incendios.\n\n-Proy_iran_soportes : aplicable   a   documentos   generados   por   los   componentes   de Esfuerzos y Soportes y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Esfuerzos y Soportes.",
+      "chunk_id": "ef3af717-130e-4e5c-9106-af5bbe46b692",
+      "texto": "Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos dinámicos. -Proy_iran_elecinst   : aplicable   a   documentos   generados   por   los   componentes   de electricidad e instrumentación y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de electricidad e instrumentación.",
       "nivel": "child",
-      "parent_id": "2a25805a-087c-4b6f-ab50-7c69d92a1bc4",
+      "parent_id": "dc621751-cbf9-44dd-b023-22a46335c56d",
       "pagina_inicio": 8,
       "pagina_fin": 11,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
@@ -504,10 +804,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "37ab9cad-40b4-42ba-8d84-30c2b5ed99e3",
-      "texto": "-Proy_iran_tuberías   : aplicable   a   documentos   generados   por   los   componentes   de tuberías y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de tuberías.\n\nLa   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc\n\nLos permisos del cliente los comentamos anteriormente en el punto de Acceso por parte del Cliente",
+      "chunk_id": "5ab680f6-ed2f-4217-b332-e2c6217e9a46",
+      "texto": "-Proy_iran_estaticos: aplicable   a   documentos   generados   por   los   componentes   de equipos estáticos  y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de equipos estáticos. -Proy_iran_hvac: aplicable a documentos generados por los componentes de HVAC (Heating, Ventilation and Air Conditioning)  y accesibles a toda IUI.",
       "nivel": "child",
-      "parent_id": "2a25805a-087c-4b6f-ab50-7c69d92a1bc4",
+      "parent_id": "dc621751-cbf9-44dd-b023-22a46335c56d",
       "pagina_inicio": 8,
       "pagina_fin": 11,
       "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
@@ -520,7 +820,71 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "52b8f765-7318-44ac-b8d7-4b8649a73c8b",
+      "chunk_id": "b9a7995d-76d9-4e16-af3e-12476f5bfaba",
+      "texto": "Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de hvac. -Proy_iran_materiales: aplicable   a   documentos   generados   por   los   componentes   de materiales y accesibles a toda IUI. Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de materiales. -Proy_iran_procesos : aplicable  a   documentos generados por los componentes de procesos y accesibles a toda IUI.",
+      "nivel": "child",
+      "parent_id": "dc621751-cbf9-44dd-b023-22a46335c56d",
+      "pagina_inicio": 8,
+      "pagina_fin": 11,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "721a2dad-7e2e-49fe-907c-3de9613818e0",
+      "texto": "Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de procesos. -Proy_iran_sci : aplicable   a   documentos   generados   por   los   componentes   de   (SCI)\n\nSistemas Contra Incendios y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de sistemas contra incendios.",
+      "nivel": "child",
+      "parent_id": "dc621751-cbf9-44dd-b023-22a46335c56d",
+      "pagina_inicio": 8,
+      "pagina_fin": 11,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8a9f3a83-6e3a-489c-bf65-b144401b1f62",
+      "texto": "-Proy_iran_soportes : aplicable   a   documentos   generados   por   los   componentes   de Esfuerzos y Soportes y accesibles a toda IUI.\n\nDesde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de Esfuerzos y Soportes.\n\n-Proy_iran_tuberías   : aplicable   a   documentos   generados   por   los   componentes   de tuberías y accesibles a toda IUI.",
+      "nivel": "child",
+      "parent_id": "dc621751-cbf9-44dd-b023-22a46335c56d",
+      "pagina_inicio": 8,
+      "pagina_fin": 11,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "544bbe3f-430a-4ebd-9a19-e71c7f19ec70",
+      "texto": "Desde la intranet permite LEER a toda IUI y MODIFICAR únicamente a los componentes de tuberías.\n\nLa   figura   del   administrador   del   proyecto   tendrá   todos   los   permisos   sobre   los documentos del proyecto, ESCRIBIR, CAMBIAR PERMISOS, CAMBIAR PROPIETARIO, etc\n\nLos permisos del cliente los comentamos anteriormente en el punto de Acceso por parte del Cliente",
+      "nivel": "child",
+      "parent_id": "dc621751-cbf9-44dd-b023-22a46335c56d",
+      "pagina_inicio": 8,
+      "pagina_fin": 11,
+      "seccion": "PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ddc5db1b-4516-4b69-a0e2-56170692dbbd",
       "texto": "A  continuación   se   recoge   el   directorio   de   carpetas   en   el   que   será   estructurada   la documentación generada a lo largo del proyecto en el portal de IUI. Asimismo, se indica quién   tiene   acceso   a   los   contenidos   de   las   carpetas   y   a   determinados   documentos, empleando para ello el siguiente código:\n\ncte: cliente usuario con acceso a toda la documentación.\n\ndp: dirección de proyecto de IUI.\n\n: responsable de control de costes del proyecto.\n\nrc: conjunto de responsables de cuenta del proyecto\n\njdpto: conjunto de jefes de departamento de IUI\n\niui: conjunto de todo el personal de IUI\n\nAsí por ejemplo, dp + cost + jdpto indica que a los contenidos de la carpeta referida tienen acceso la dirección del proyecto, el responsable de costes y los jefes de departamento de IUI.",
       "nivel": "parent",
       "parent_id": null,
@@ -536,7 +900,39 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7771ca3d-6a65-4d3f-8053-1b0b95f26f77",
+      "chunk_id": "7b3c0fcb-42f8-4b7e-a1d6-e660a51c13f5",
+      "texto": "A  continuación   se   recoge   el   directorio   de   carpetas   en   el   que   será   estructurada   la documentación generada a lo largo del proyecto en el portal de IUI. Asimismo, se indica quién   tiene   acceso   a   los   contenidos   de   las   carpetas   y   a   determinados   documentos, empleando para ello el siguiente código:\n\ncte: cliente usuario con acceso a toda la documentación.\n\ndp: dirección de proyecto de IUI.\n\n: responsable de control de costes del proyecto.",
+      "nivel": "child",
+      "parent_id": "ddc5db1b-4516-4b69-a0e2-56170692dbbd",
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "ESTRUCTURA DEL ARCHIVO ELECTRÓNICO DEL PROYECTO 16057 - PARS Irán EN EL PORTAL DE IUI",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3d85ee54-09e0-4cac-b1e5-dd3649d2f4cb",
+      "texto": "dp: dirección de proyecto de IUI.\n\n: responsable de control de costes del proyecto.\n\nrc: conjunto de responsables de cuenta del proyecto\n\njdpto: conjunto de jefes de departamento de IUI\n\niui: conjunto de todo el personal de IUI\n\nAsí por ejemplo, dp + cost + jdpto indica que a los contenidos de la carpeta referida tienen acceso la dirección del proyecto, el responsable de costes y los jefes de departamento de IUI.",
+      "nivel": "child",
+      "parent_id": "ddc5db1b-4516-4b69-a0e2-56170692dbbd",
+      "pagina_inicio": 12,
+      "pagina_fin": 12,
+      "seccion": "ESTRUCTURA DEL ARCHIVO ELECTRÓNICO DEL PROYECTO 16057 - PARS Irán EN EL PORTAL DE IUI",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "b15bb7a7-3e73-4dba-af55-0868332f07e7",
       "texto": "Se refiere a carpetas generales.\n\nSe refiere a carpetas de Requisición de Materiales (RMs) o Requisición de Construcción (RCs).",
       "nivel": "parent",
       "parent_id": null,
@@ -551,8 +947,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "b99156561eaa4a4091292541fe703115",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                           | PERMISOS DE ACCESO        |\n|---------------------------------------------------------------|---------------------------|\n| ![símbolo de carpeta](folder) 16057 – PARS Iran               |                           |\n| ![símbolo de carpeta](folder) 01. INFORMATION FROM PARS       |                           |\n| ![símbolo de carpeta](folder) 02. GENERAL                     |                           |\n| ![símbolo de carpeta](folder) PERMITTING                      |                           |\n| ![símbolo de carpeta](folder) CIVIL AND STRUCTURAL PROJECT    | cte + iui                 |\n| ![símbolo de carpeta](folder) MECHANICAL AND INSTALLATION     | cte + iui                 |\n| PROJECTS                                                      |                           |\n| ![símbolo de carpeta](folder) _ELECTRICAL INSTALLATION PROJECT| cte + iui                 |\n| ![símbolo de carpeta](folder) PROJECT MANAGEMENT AND CONTROL  |                           |\n| ![símbolo de carpeta](folder) 1.0. COORDINATION PROCEDURE     | cte + iui                 |\n| ![símbolo de carpeta](folder) 2.0. PROJECT INSTRUCTIONS       | cte + iui                 |\n| ![símbolo de carpeta](folder) 3.0 MINUTES OF MEETINGS         | cte + dp + rc + cost +jdpto|\n| ![símbolo de carpeta](folder) 4.0. SCHEDULES                  | cte + iui                 |\n| ![símbolo de carpeta](folder) 5.0. PROGRESS REPORTS           | cte + iui                 |\n| ![símbolo de carpeta](folder) 6.0. CHANGE ORDERS              | cte + dp + cost + jdpdto  |\n| ![símbolo de carpeta](folder) 03. CIVIL AND ARCHITECTURAL     |                           |\n| ![símbolo de carpeta](folder) 1.0. CALCULATIONS               | cte + iui                 |\n| ![símbolo de carpeta](folder) 2.0. TECHNICAL BID ANALYSIS     | cte + iui                 |\n| ![símbolo de carpeta](folder) 3.0. DESIGN CRITERIA            | cte + iui                 |\n| ![símbolo de carpeta](folder) 4.0. SPECIFICATIONS             | cte + iui                 |\n| ![símbolo de carpeta](folder) 5.0. MEASURINGS AND BOQ’s       | cte + iui                 |\n| ![símbolo de carpeta](folder) 6.0. DRAWINGS                   | cte + iui                 |\n| ![símbolo de carpeta](folder) 04. ELECTRICAL                  |                           |\n| ![símbolo de carpeta](folder) _ELECTRICAL INSTALLATION PROJECT| cte + iui                 |\n| ![símbolo de carpeta](folder) 1.0. CALCULATIONS               | cte + iui                 |",
+      "chunk_id": "24c704bc8678422b812670a9cb250c15",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO              | PERMISOS DE ACCESO       |\n|--------------------------------------------------|--------------------------|\n| 📁 16057 – PARS Iran                             |                          |\n| 📁 01. INFORMATION FROM PARS                     |                          |\n| 📁 02. GENERAL                                   |                          |\n| PERMITTING                                       |                          |\n| 📁 CIVIL AND STRUCTURAL PROJECT                  | cte +iui                 |\n| 📁 MECHANICAL AND INSTALLATION PROJECTS          | cte +iui                 |\n| 📁 _ELECTRICAL INSTALLATION PROJECT              | cte +iui                 |\n| 📁 PROJECT MANAGEMENT AND CONTROL                |                          |\n| 📁 1.0. COORDINATION PROCEDURE                   | cte +iui                 |\n| 📁 2.0. PROJECT INSTRUCTIONS                     | cte +iui                 |\n| 📁 3.0 MINUTES OF MEETINGS                       | cte + dp + rc + cost +jdpdto |\n| 📁 4.0. SCHEDULES                                | cte + iui                |\n| 📁 5.0. PROGRESS REPORTS                         | cte +iui                 |\n| 📁 6.0. CHANGE ORDERS                            | cte + dp + cost + jdpdto |\n| 📁 03. CIVIL AND ARCHITECTURAL                   |                          |\n| 📁 1.0. CALCULATIONS                             | cte + iui                |\n| 📁 2.0. TECHNICAL BID ANALYSIS                   | cte +iui                 |\n| 📁 3.0. DESIGN CRITERIA                          | cte +iui                 |\n| 📁 4.0. SPECIFICATIONS                           | cte +iui                 |\n| 📁 5.0. MEASURINGS AND BOQ’s                     | cte +iui                 |\n| 📁 6.0. DRAWINGS                                 | cte +iui                 |\n| 📁 04. ELECTRICAL                                |                          |\n| 📁 _ELECTRICAL INSTALLATION PROJECT              | cte +iui                 |\n| 📁 1.0. CALCULATIONS                             | cte +iui                 |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 13,
@@ -566,8 +962,8 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "fd85c4ff95a14152acc14e899a24777f",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                           | PERMISOS DE ACCESO |\n|---------------------------------------------------------------|--------------------|\n| ![símbolo de carpeta] 2.0. TECHNICAL BID ANALYSIS             | cte +iui           |\n| ![símbolo de carpeta] 3.0. SPECIFICATIONS and STANDARDS       | cte +iui           |\n| ![símbolo de carpeta] 4.0. DATA SHEETS                        | cte +iui           |\n| ![símbolo de carpeta] 4.1. LISTS and MEASURINGS               | cte +iui           |\n| ![símbolo de carpeta] 5.0. DRAWINGS                           | cte +iui           |\n| ![símbolo de carpeta] 6.0. REQUISITION OF MATERIALS (RMs)     | cte +iui           |\n| ![símbolo de carpeta] 7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS | cte +iui           |\n| ![símbolo de carpeta] ![símbolo de carpeta] RM-.........     |                    |\n| ![símbolo de carpeta] RMs DOCUMENTS : RM-….                   | cte +iui           |\n| ![símbolo de carpeta] ![símbolo de carpeta] REQUEST FOR QUOTATION DOCUMENTS : RM-…. | cte +iui           |\n| ![símbolo de carpeta] ![símbolo de carpeta] SUPPLIERS DOCUMENTS: RM-…. | cte +iui           |\n| ![símbolo de carpeta] 05. INSTRUMENTATION                     |                    |\n| ![símbolo de carpeta] 1.0. CALCULATIONS                       | cte +iui           |\n| ![símbolo de carpeta] 2.0. TECHNICAL BID ANALYSIS             | cte +iui           |\n| ![símbolo de carpeta] 3.0. SPECIFICATIONS and STANDARDS       | cte +iui           |\n| ![símbolo de carpeta] 4.0. DATA SHEETS                        | cte +iui           |\n| ![símbolo de carpeta] 4.1. LISTS and MEASURINGS               | cte +iui           |\n| ![símbolo de carpeta] 5.0. DRAWINGS and DIAGRAMS              | cte +iui           |\n| ![símbolo de carpeta] ![símbolo de carpeta] ASSEMBLY DIAGRAMS | cte +iui           |\n| ![símbolo de carpeta] ![símbolo de carpeta] CONTROL LOGIC DIAGRAMS | cte +iui       |\n| ![símbolo de carpeta] ![símbolo de carpeta] CONTROL LOOP DIAGRAMS | cte +iui       |\n| ![símbolo de carpeta] ![símbolo de carpeta] JUNCTION BOXES and INTERCONEXIONS | cte +iui      |\n| ![símbolo de carpeta] 6.0. REQUISITION OF MATERIALS (RMs)     | cte +iui           |",
+      "chunk_id": "5be3ebc19c494c15ae76263afb76ebab",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                          | PERMISOS DE ACCESO |\n|-----------------------------------------------------------------------------|--------------------|\n| ![símbolo de carpeta](símbolo_no_identificado) 2.0. TECHNICAL BID ANALYSIS   | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) 3.0. SPECIFICATIONS and STANDARDS | cte +iui       |\n| ![símbolo de carpeta](símbolo_no_identificado) 4.0. DATA SHEETS              | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) 4.1. LISTS and MEASURINGS     | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) 5.0. DRAWINGS                 | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) 6.0. REQUISITION OF MATERIALS (RMs) | cte +iui       |\n| ![símbolo de carpeta](símbolo_no_identificado) 7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS | cte +iui |\n| ![símbolo de carpeta azul](símbolo_no_identificado) RM-.........             |                    |\n| ![símbolo de carpeta](símbolo_no_identificado) RMs DOCUMENTS : RM-….        | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) REQUEST FOR QUOTATION DOCUMENTS : RM-…. | cte +iui    |\n| ![símbolo de carpeta](símbolo_no_identificado) SUPPLIERS DOCUMENTS: RM-.... | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) 05. INSTRUMENTATION          |                    |\n| ![símbolo de carpeta](símbolo_no_identificado) 1.0. CALCULATIONS            | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) 2.0. TECHNICAL BID ANALYSIS  | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) 3.0. SPECIFICATIONS and STANDARDS | cte +iui       |\n| ![símbolo de carpeta](símbolo_no_identificado) 4.0. DATA SHEETS             | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) 4.1. LISTS and MEASURINGS    | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) 5.0. DRAWINGS and DIAGRAMS   | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) ASSEMBLY DIAGRAMS            | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) CONTROL LOGIC DIAGRAMS       | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) CONTROL LOOP DIAGRAMS        | cte +iui           |\n| ![símbolo de carpeta](símbolo_no_identificado) JUNCTION BOXES and INTERCONEXIONS | cte +iui       |\n| ![símbolo de carpeta](símbolo_no_identificado) 6.0. REQUISITION OF MATERIALS (RMs) | cte +iui       |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 14,
@@ -581,8 +977,8 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "7f12470931af4efd9e0f0bb31e7700c1",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                    | PERMISOS DE ACCESO |\n|------------------------------------------------------------------------|--------------------|\n| símbolo de carpeta 7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS | cte +iui           |\n| símbolo de carpeta **06.1. MECHANICAL – ROTATING EQUIPMENT**           |                    |\n| símbolo de carpeta 1.0. CALCULATIONS                                   | cte +iui           |\n| símbolo de carpeta 2.0. TECHNICAL BID ANALYSIS                         | cte +iui           |\n| símbolo de carpeta 3.0. SPECIFICATIONS                                 | cte +iui           |\n| símbolo de carpeta 4.0. DATA SHEETS                                    | cte +iui           |\n| símbolo de carpeta 5.0. DRAWINGS and SKETCHES                          | cte +iui           |\n| símbolo de carpeta 6.0. REQUISITION OF MATERIALS (RMs)                 | cte +iui           |\n| símbolo de carpeta 7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS | cte +iui           |\n| símbolo de carpeta **06.2. MECHANICAL – STATIC EQUIPMENT**             |                    |\n| símbolo de carpeta 1.0. CALCULATIONS                                   | cte +iui           |\n| símbolo de carpeta 2.0. TECHNICAL BID ANALYSIS                         | cte +iui           |\n| símbolo de carpeta 3.0. SPECIFICATIONS and STANDARDS                   | cte +iui           |\n| símbolo de carpeta 4.0. DATA SHEETS                                    | cte +iui           |\n| símbolo de carpeta 5.0. DRAWINGS                                       | cte +iui           |\n| símbolo de carpeta 6.0. REQUISITION OF MATERIALS (RMs)                 | cte +iui           |\n| símbolo de carpeta 7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS | cte +iui           |\n| símbolo de carpeta **06.3. MECHANICAL – PIPING MATERIALS**             |                    |\n| símbolo de carpeta 1.0. CALCULATIONS                                   | cte +iui           |\n| símbolo de carpeta 2.0. TECHNICAL BID ANALYSIS                         | cte +iui           |\n| símbolo de carpeta 3.0. SPECIFICATIONS and STANDARDS                   | cte +iui           |\n| símbolo de carpeta 4.0. DATA SHEETS                                    | cte +iui           |\n| símbolo de carpeta 5.0. LISTS                                          | cte +iui           |",
+      "chunk_id": "0414e06ccd87466896db16e2b789d0be",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                   | PERMISOS DE ACCESO |\n|----------------------------------------------------------------------|--------------------|\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS                      | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 06.1. MECHANICAL – ROTATING EQUIPMENT                                   |                    |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 1.0. CALCULATIONS                                                     | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 2.0. TECHNICAL BID ANALYSIS                                           | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 3.0. SPECIFICATIONS                                                   | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 4.0. DATA SHEETS                                                      | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 5.0. DRAWINGS and SKETCHES                                            | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 6.0. REQUISITION OF MATERIALS (RMs)                                   | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS                    | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 06.2. MECHANICAL – STATIC EQUIPMENT                                   |                    |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 1.0. CALCULATIONS                                                     | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 2.0. TECHNICAL BID ANALYSIS                                           | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 3.0. SPECIFICATIONS and  STANDARDS                                    | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 4.0. DATA SHEETS                                                      | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 5.0. DRAWINGS                                                         | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 6.0. REQUISITION OF MATERIALS (RMs)                                   | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 7.0. REQUISITION OF MATERIALSand RELATED DOCUMENTS                    | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 06.3. MECHANICAL – PIPING MATERIALS                                   |                    |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 1.0. CALCULATIONS                                                     | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 2.0. TECHNICAL BID ANALYSIS                                           | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 3.0. SPECIFICATIONS and STANDARDS                                     | cte +iui           |\n| ![símbolo de carpeta](https://dummyimage.com/20x20/000/fff&text=+) 4.0. DATA SHEETS",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 15,
@@ -596,8 +992,8 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "40c805a5f410430789b42401428ba42d",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                             | PERMISOS DE ACCESO |\n|---------------------------------------------------------------------------------|--------------------|\n| ![símbolo de carpeta](folder-icon) **6.0. REQUISITION OF MATERIALS (RMs)**      | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS** | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **06.4. MECHANICAL – STRESS & PIPING SUPPORTS** |                    |\n| ![símbolo de carpeta](folder-icon) **1.0. CALCULATIONS**                        | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **2.0. TECHNICAL BID ANALYSIS**              | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **3.0. SPECIFICATIONS**                      | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **4.0. DATA SHEETS**                         | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **5.0. DRAWINGS**                            | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **6.0. REQUISITION OF MATERIALS (RMs)**      | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS** | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **06.5. MECHANICAL – FIRE PROTECTION**       |                    |\n| ![símbolo de carpeta](folder-icon) **1.0. CALCULATIONS**                        | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **2.0. TECHNICAL BID ANALYSIS**              | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **3.0. SPECIFICATIONS**                      | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **4.0. METERINGS**                           | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **5.0. DRAWINGS**                            | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **6.0. REQUISITION OF MATERIALS (RMs)**      | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS** | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **07. PIPING DESIGN**                        |                    |\n| ![símbolo de carpeta](folder-icon) **1.0. STANDARDS**                           | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **2.0. ISOMETRIC DRAWINGS**                  | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **3.0. TIE-IN’s**                            | cte +iui           |\n| ![símbolo de carpeta](folder-icon) **4.0. PLOT PLANS**                          | cte +iui           |",
+      "chunk_id": "bda7dc8446904c3b81b52375dad26c4f",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                              | PERMISOS DE ACCESO |\n|------------------------------------------------------------------|--------------------|\n| ![icono de carpeta](folder) 6.0. REQUISITION OF MATERIALS (RMs)  | cte +iui           |\n| ![icono de carpeta](folder) 7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS | cte +iui           |\n| ![icono de carpeta](folder) **06.4. MECHANICAL – STRESS & PIPING SUPPORTS** |                    |\n| ![icono de carpeta](folder) 1.0. CALCULATIONS                     | cte +iui           |\n| ![icono de carpeta](folder) 2.0. TECHNICAL BID ANALYSIS           | cte +iui           |\n| ![icono de carpeta](folder) 3.0. SPECIFICATIONS                   | cte +iui           |\n| ![icono de carpeta](folder) 4.0. DATA SHEETS                      | cte +iui           |\n| ![icono de carpeta](folder) 5.0. DRAWINGS                         | cte +iui           |\n| ![icono de carpeta](folder) 6.0. REQUISITION OF MATERIALS (RMs)   | cte +iui           |\n| ![icono de carpeta](folder) 7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS | cte +iui           |\n| ![icono de carpeta](folder) **06.5. MECHANICAL – FIRE PROTECTION** |                    |\n| ![icono de carpeta](folder) 1.0. CALCULATIONS                     | cte +iui           |\n| ![icono de carpeta](folder) 2.0. TECHNICAL BID ANALYSIS           | cte +iui           |\n| ![icono de carpeta](folder) 3.0. SPECIFICATIONS                   | cte +iui           |\n| ![icono de carpeta](folder) 4.0. METERINGS                        | cte +iui           |\n| ![icono de carpeta](folder) 5.0. DRAWINGS                         | cte +iui           |\n| ![icono de carpeta](folder) 6.0. REQUISITION OF MATERIALS (RMs)   | cte +iui           |\n| ![icono de carpeta](folder) 7.0. REQUISITION OF MATERIALS and RELATED DOCUMENTS | cte +iui           |\n| ![icono de carpeta](folder) **07. PIPING DESIGN**                 |                    |\n| ![icono de carpeta](folder) 1.0. STANDARDS                        | cte +iui           |\n| ![icono de carpeta](folder) 2.0. ISOMETRIC DRAWINGS               | cte +iui           |\n| ![icono de carpeta](folder) 3.0. TIE-IN's                         | cte +iui           |\n| ![icono de carpeta](folder) 4.0. PLOT PLANS                       | cte +iui           |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 16,
@@ -611,8 +1007,8 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "fb5eded0c626463a9d7d644ec70b85fb",
-      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                       | PERMISOS DE ACCESO         |\n|---------------------------------------------------------------------------|----------------------------|\n| símbolo de archivo 5.0. LAYOUT DRAWINGS                                   | cte +iui                   |\n| símbolo de archivo 6.0. RACK DRAWINGS                                     | cte +iui                   |\n| símbolo de carpeta **08. PROCESS**                                        |                            |\n| símbolo de archivo 1.0. DESIGN CRITERIA AND CALCULATIONS                  | cte +iui                   |\n| símbolo de archivo 2.0. DATA SHEETS                                       | cte +iui                   |\n| símbolo de archivo 3.0. LISTS                                             | cte +iui                   |\n| símbolo de archivo 4.0. PROCESS FLOW DIAGRAM (PFDs)                       | cte +iui                   |\n| símbolo de archivo 5.0. PIPING & INSTRUMENT DIAGRAMS (P&IDs)              | cte +iui                   |\n| símbolo de carpeta **09. PROCUREMENT**                                    |                            |\n| símbolo de archivo 1.0. GENERAL                                           | cte +iui                   |\n| símbolo de archivo 2.0. COMERCIAL EVALUATIONS                             | cte + dp + rc + jdpt       |\n| símbolo de archivo 3.0. ORDERS                                            | cte + dp + rc + jdpt       |\n| símbolo de archivo 4.0. INSPECTION                                        | cte +iui                   |\n| símbolo de carpeta **10. CONSTRUCTION**                                   |                            |\n| símbolo de archivo 1.0. SPECIFICATIONS                                    | cte +iui                   |\n| símbolo de archivo 2.0. COMERCIAL EVALUATIONS                             | cte + dp + rc + jdpt       |\n| símbolo de archivo 3.0. ORDERS                                            | cte + dp + rc + jdpt       |\n| símbolo de archivo 4.0. REQUISITIONS OF CONSTRUCTION (RCs)                | cte +iui                   |\n| símbolo de archivo 5.0. REQUISITIONS OF CONSTRUCTION and RELATED DOCUMENTS| cte +iui                   |\n| símbolo no identificado RC-..........                                     |                            |\n| símbolo de archivo RCs DOCUMENTS : RC :….                                 | cte +iui                   |\n| símbolo de archivo REQUEST FOR QUOTATION DOCUMENTS : RC-…                 | cte +iui                   |\n| símbolo de archivo SUPPLIERS DOCUMENTS: RC-...                            | cte +iui                   |",
+      "chunk_id": "e2eb47b0a258407e9629f6007b5b0035",
+      "texto": "| ESTRUCTURA DE CARPETAS DEL PROYECTO                                   | PERMISOS DE ACCESO      |\n|----------------------------------------------------------------------|-------------------------|\n| ![símbolo de carpeta] 5.0. LAYOUT DRAWINGS                           | cte +iui                |\n| ![símbolo de carpeta] 6.0. RACK DRAWINGS                             | cte +iui                |\n|                                                                      |                         |\n| ![símbolo de carpeta] 08. PROCESS                                    |                         |\n| ![símbolo de carpeta] 1.0. DESIGN CRITERIA AND CALCULATIONS          | cte +iui                |\n| ![símbolo de carpeta] 2.0. DATA SHEETS                               | cte +iui                |\n| ![símbolo de carpeta] 3.0. LISTS                                     | cte +iui                |\n| ![símbolo de carpeta] 4.0. PROCESS FLOW DIAGRAM (PFDs)               | cte +iui                |\n| ![símbolo de carpeta] 5.0. PIPING & INSTRUMENT DIAGRAMS (P&IDs)      | cte +iui                |\n|                                                                      |                         |\n| ![símbolo de carpeta] 09. PROCUREMENT                                |                         |\n| ![símbolo de carpeta] 1.0. GENERAL                                   | cte +iui                |\n| ![símbolo de carpeta] 2.0. COMERCIAL EVALUATIONS                     | cte + dp + rc + jdpt    |\n| ![símbolo de carpeta] 3.0. ORDERS                                    | cte + dp + rc + jdpt    |\n| ![símbolo de carpeta] 4.0. INSPECTION                                | cte +iui                |\n|                                                                      |                         |\n| ![símbolo de carpeta] 10. CONSTRUCTION                               |                         |\n| ![símbolo de carpeta] 1.0. SPECIFICATIONS                            | cte +iui                |\n| ![símbolo de carpeta] 2.0. COMERCIAL EVALUATIONS                     | cte + dp + rc + jdpt    |\n| ![símbolo de carpeta] 3.0. ORDERS                                    | cte + dp + rc + jdpt    |\n| ![símbolo de carpeta] 4.0. REQUISITIONS OF CONSTRUCTION (RCs)        | cte +iui                |\n| ![símbolo de carpeta] 5.0. REQUISITIONS OF CONSTRUCTION and RELATED DOCUMENTS | cte +iui       |\n| ![símbolo de papel] RC-........                                       |                         |\n| ![símbolo de carpeta] RCs DOCUMENTS : RC :.                          | cte +iui                |\n| ![símbolo de carpeta] REQUEST FOR QUOTATION DOCUMENTS : RC-...       | cte +iui                |\n| ![símbolo de carpeta] SUPPLIERS DOCUMENTS: RC-...                    | cte +iui                |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 17,

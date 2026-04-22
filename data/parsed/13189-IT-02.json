@@ -1,5 +1,5 @@
 {
-  "doc_id": "23d1adf9ad324eaf8d005c6d57e781cc",
+  "doc_id": "2d9a9208085b4dd0b177c64edba92ec8",
   "nombre_fichero": "13189-IT-02.pdf",
   "metadatos_admin": {
     "empresa": "dow",
@@ -13,10 +13,10 @@
     "edicion": null,
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-20T21:55:49+00:00",
+  "fecha_ingesta": "2026-04-22T17:25:40+00:00",
   "chunks": [
     {
-      "chunk_id": "2d7a5fa2-9a98-41f7-9d89-e006f24b481e",
+      "chunk_id": "9efb9dd3-51f0-4f91-b6e2-b47cb42c0078",
       "texto": "Este documento tiene por objeto describir el procedimiento de introducción , aprobación y distribución   de   documentos   en   el   portal   de   IUI   para   el   proyecto   13189   -   DOW Tarragona.",
       "nivel": "parent",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "615f9456-e906-46f6-886c-baf61c0e2cf7",
+      "chunk_id": "0f762b10-e5fc-450d-8d8b-f8048c4e5032",
       "texto": "El Portal de IUI permite establecer circuitos de aprobación (workflows) mediante los cuales se hacen llegar los documentos a aquellos destinatarios que deban verificarlos o aprobarlos.\n\nMediante estos circuitos de aprobación asignamos un Ciclo de Vida a los documentos con lo que ligamos un atributo al documento que nos indicará su estado de aprobación:\n\nIndica aprobación interna (por IUI).\n\nIndica que el documento se considera a todos los efectos APROBADO, tanto para la Ingeniería (IUI) como para el cliente.\n\nCada acción de aprobación o rechazo exige la introducción de la contraseña del usuario y queda registrada en el sistema mediante un registro de auditoría (Ver ANEXO 1)",
       "nivel": "parent",
       "parent_id": null,
@@ -47,7 +47,39 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "1ac4a46e-05bb-44a7-9832-05b47239840b",
+      "chunk_id": "ca7096de-cc3e-4cf9-9424-38828f08657e",
+      "texto": "El Portal de IUI permite establecer circuitos de aprobación (workflows) mediante los cuales se hacen llegar los documentos a aquellos destinatarios que deban verificarlos o aprobarlos.\n\nMediante estos circuitos de aprobación asignamos un Ciclo de Vida a los documentos con lo que ligamos un atributo al documento que nos indicará su estado de aprobación:\n\nIndica aprobación interna (por IUI).",
+      "nivel": "child",
+      "parent_id": "0f762b10-e5fc-450d-8d8b-f8048c4e5032",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. APROBACIÓN ELECTRÓNICA DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "18bf198d-d25e-4049-8fc5-317a18fc521f",
+      "texto": "Indica que el documento se considera a todos los efectos APROBADO, tanto para la Ingeniería (IUI) como para el cliente.\n\nCada acción de aprobación o rechazo exige la introducción de la contraseña del usuario y queda registrada en el sistema mediante un registro de auditoría (Ver ANEXO 1)",
+      "nivel": "child",
+      "parent_id": "0f762b10-e5fc-450d-8d8b-f8048c4e5032",
+      "pagina_inicio": 2,
+      "pagina_fin": 2,
+      "seccion": "2. APROBACIÓN ELECTRÓNICA DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7d22bf8c-c6f5-4920-8fe1-6b91b80e36f4",
       "texto": "Mediante la aprobación electrónica de los documentos se persiguen los siguientes objetivos:\n\n Control del estado y del proceso de aprobación de los documentos :   para cada documento siempre será posible conocer en qué estado se encuentra, es decir, si aún no está aprobado, si está aprobado por IUI, si ya ha sido revisado por el cliente, etc. Asimismo, las acciones de aprobación o rechazo quedan registradas en el sistema.\n\n Integridad de la información: una vez aprobado un documento no será posible borrarlo o sobrescribirlo pero sí introducir una nueva edición conservando las anteriores. Ello posibilita a su vez establecer permisos sobre el documento que permitan escribir a varios usuarios y por tanto la actualización de las nuevas ediciones por cualquiera de ellos.\n\n Disponibilidad inmediata de la información : el documento es introducido previamente a su aprobación con lo que cuando ésta se produce la distribución de los documentos y el acceso a los mismos son inmediatos.\n\n Integración de la aprobación del cliente : El personal del cliente residente en Intecsa Uhde con acceso permitido a la Intranet, se integrará en el circuito de aprobación lo que consigue:\n\n Dotar al sistema de fiabilidad en la aprobación de los documentos\n\n Visibilidad al cliente del avance del proyecto y de la seguridad del mismo\n\n Disminución drástica del tiempo empleado en la aprobación de un documento lo que consigue aumentar la eficiencia del proceso\n\n Complementar el acceso de Comercio Electrónico de IUI dotándole de seguridad ya que la información disponible a sido previamente verificada por el cliente.\n\nMUY   IMPORTANTE:   dado   que   la   aprobación   electrónica   está   asociada   a   la introducción de la contraseña del usuario, es REQUISITO DE SEGURIDAD que cada usuario sea el único que conozca su contraseña, no debiendo darla a conocer a ningún otro.",
       "nivel": "parent",
       "parent_id": null,
@@ -63,10 +95,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fec01ab9-a1a8-4e80-844e-302a4556633b",
-      "texto": "Mediante la aprobación electrónica de los documentos se persiguen los siguientes objetivos:\n\n Control del estado y del proceso de aprobación de los documentos :   para cada documento siempre será posible conocer en qué estado se encuentra, es decir, si aún no está aprobado, si está aprobado por IUI, si ya ha sido revisado por el cliente, etc. Asimismo, las acciones de aprobación o rechazo quedan registradas en el sistema.\n\n Integridad de la información: una vez aprobado un documento no será posible borrarlo o sobrescribirlo pero sí introducir una nueva edición conservando las anteriores. Ello posibilita a su vez establecer permisos sobre el documento que permitan escribir a varios usuarios y por tanto la actualización de las nuevas ediciones por cualquiera de ellos.\n\n Disponibilidad inmediata de la información : el documento es introducido previamente a su aprobación con lo que cuando ésta se produce la distribución de los documentos y el acceso a los mismos son inmediatos.",
+      "chunk_id": "1fbbf5cd-6b75-48e5-adfb-328ef51d46dc",
+      "texto": "Mediante la aprobación electrónica de los documentos se persiguen los siguientes objetivos:\n\n Control del estado y del proceso de aprobación de los documentos :   para cada documento siempre será posible conocer en qué estado se encuentra, es decir, si aún no está aprobado, si está aprobado por IUI, si ya ha sido revisado por el cliente, etc. Asimismo, las acciones de aprobación o rechazo quedan registradas en el sistema.",
       "nivel": "child",
-      "parent_id": "1ac4a46e-05bb-44a7-9832-05b47239840b",
+      "parent_id": "7d22bf8c-c6f5-4920-8fe1-6b91b80e36f4",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "INSTRUCCIONES DE APROBACIÓN, CONTROL Y DISTRIBUCIÓN DE DOCUMENTOS PARA EL PROYECTO 13189 - DOW Tarragona",
@@ -79,10 +111,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d8a0eadf-25af-46f8-a4a8-02cfffe66c43",
-      "texto": " Integración de la aprobación del cliente : El personal del cliente residente en Intecsa Uhde con acceso permitido a la Intranet, se integrará en el circuito de aprobación lo que consigue:\n\n Dotar al sistema de fiabilidad en la aprobación de los documentos\n\n Visibilidad al cliente del avance del proyecto y de la seguridad del mismo\n\n Disminución drástica del tiempo empleado en la aprobación de un documento lo que consigue aumentar la eficiencia del proceso\n\n Complementar el acceso de Comercio Electrónico de IUI dotándole de seguridad ya que la información disponible a sido previamente verificada por el cliente.\n\nMUY   IMPORTANTE:   dado   que   la   aprobación   electrónica   está   asociada   a   la introducción de la contraseña del usuario, es REQUISITO DE SEGURIDAD que cada usuario sea el único que conozca su contraseña, no debiendo darla a conocer a ningún otro.",
+      "chunk_id": "c87c0572-4303-457b-b980-60680125f1f9",
+      "texto": " Integridad de la información: una vez aprobado un documento no será posible borrarlo o sobrescribirlo pero sí introducir una nueva edición conservando las anteriores. Ello posibilita a su vez establecer permisos sobre el documento que permitan escribir a varios usuarios y por tanto la actualización de las nuevas ediciones por cualquiera de ellos.",
       "nivel": "child",
-      "parent_id": "1ac4a46e-05bb-44a7-9832-05b47239840b",
+      "parent_id": "7d22bf8c-c6f5-4920-8fe1-6b91b80e36f4",
       "pagina_inicio": 3,
       "pagina_fin": 3,
       "seccion": "INSTRUCCIONES DE APROBACIÓN, CONTROL Y DISTRIBUCIÓN DE DOCUMENTOS PARA EL PROYECTO 13189 - DOW Tarragona",
@@ -95,7 +127,55 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e58bd044-e41e-40f4-916d-41fb67765953",
+      "chunk_id": "578eb658-0d7c-42a3-89e5-e839fea7f261",
+      "texto": " Disponibilidad inmediata de la información : el documento es introducido previamente a su aprobación con lo que cuando ésta se produce la distribución de los documentos y el acceso a los mismos son inmediatos.\n\n Integración de la aprobación del cliente : El personal del cliente residente en Intecsa Uhde con acceso permitido a la Intranet,",
+      "nivel": "child",
+      "parent_id": "7d22bf8c-c6f5-4920-8fe1-6b91b80e36f4",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "INSTRUCCIONES DE APROBACIÓN, CONTROL Y DISTRIBUCIÓN DE DOCUMENTOS PARA EL PROYECTO 13189 - DOW Tarragona",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "175ba94c-b12b-45d2-805a-954cf8bbf766",
+      "texto": "se integrará en el circuito de aprobación lo que consigue:\n\n Dotar al sistema de fiabilidad en la aprobación de los documentos\n\n Visibilidad al cliente del avance del proyecto y de la seguridad del mismo\n\n Disminución drástica del tiempo empleado en la aprobación de un documento lo que consigue aumentar la eficiencia del proceso\n\n Complementar el acceso de Comercio Electrónico de IUI dotándole de seguridad ya que la información disponible a sido previamente verificada por el cliente.",
+      "nivel": "child",
+      "parent_id": "7d22bf8c-c6f5-4920-8fe1-6b91b80e36f4",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "INSTRUCCIONES DE APROBACIÓN, CONTROL Y DISTRIBUCIÓN DE DOCUMENTOS PARA EL PROYECTO 13189 - DOW Tarragona",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "ab93b82c-d4b6-4655-b911-617cdb7ce247",
+      "texto": "MUY   IMPORTANTE:   dado   que   la   aprobación   electrónica   está   asociada   a   la introducción de la contraseña del usuario, es REQUISITO DE SEGURIDAD que cada usuario sea el único que conozca su contraseña, no debiendo darla a conocer a ningún otro.",
+      "nivel": "child",
+      "parent_id": "7d22bf8c-c6f5-4920-8fe1-6b91b80e36f4",
+      "pagina_inicio": 3,
+      "pagina_fin": 3,
+      "seccion": "INSTRUCCIONES DE APROBACIÓN, CONTROL Y DISTRIBUCIÓN DE DOCUMENTOS PARA EL PROYECTO 13189 - DOW Tarragona",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "fb356bc6-75ab-4481-b51d-39631a9792b7",
       "texto": " Uno específico para MS (Requisiciones de Material)\n\n Otro general para el resto de los documentos que requieran aprobación ,\n\nDichos   WORKFLOWS   (circuitos   de   aprobación) serán siempre   iniciados por   el Responsable de Cuenta correspondiente , siendo éste el único con opción a ello. Para ello si el generador del documento no es el propio responsable deberá usar la herramienta del portal de IUI de Encaminamiento. A partir de aquí, se recorre el circuito completo (jefe de proyecto, personal residente de DOW etc.)\n\nAl diferenciar los circuitos de aprobación damos especial importancia a los documentos de Requisición de Materiales (MS: Material Supply) que contarán con un participante más en el circuito de aprobación. Las MSs, además del documento propiamente dicho, tienen una serie de documentos adjuntos que forman parte del diseño de la MS; estos documentos tienen   que   estar   previamente   revisados   por   el Administrador   de   Proyecto (su incorporación en el portal así como sus propiedades: fecha, edición,...) y enlazados en la estructura matricial de las MSs para su aprobación completa (el documento de la MS y todos los documentos adjuntos a ella ) antes de su salida a través del Portal de Comercio Electrónico (Centro de Negocios) de IUI.\n\nEl   acceso   por   parte   de   los   proveedores   a   los   documentos   incorporados   a   la   Base Documental será controlado por el funcionamiento normal del circuito de aprobación, es decir, LOS PROVEEDORES NO TENDRÁN ACCESO HASTA QUE SEAN APROBADOS POR EL CLIENTE.\n\nComo caso excepcional puede haber una serie de documentos que por circunstancias especiales sea conveniente hacerlos accesibles a los proveedores sin la intervención del cliente. Para esta situación el Jefe de Proyecto tendrá la opción de Aprobar y Publicar , quedando el documento aprobado sin la intervención del cliente.\n\n(Ver la estructura del circuito de aprobación WORKFLOW)",
       "nivel": "parent",
       "parent_id": null,
@@ -111,10 +191,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a7f4462e-2850-4281-960e-ebbc637b4eb7",
-      "texto": " Uno específico para MS (Requisiciones de Material)\n\n Otro general para el resto de los documentos que requieran aprobación ,\n\nDichos   WORKFLOWS   (circuitos   de   aprobación) serán siempre   iniciados por   el Responsable de Cuenta correspondiente , siendo éste el único con opción a ello. Para ello si el generador del documento no es el propio responsable deberá usar la herramienta del portal de IUI de Encaminamiento. A partir de aquí, se recorre el circuito completo (jefe de proyecto, personal residente de DOW etc.)\n\nAl diferenciar los circuitos de aprobación damos especial importancia a los documentos de Requisición de Materiales (MS: Material Supply) que contarán con un participante más en el circuito de aprobación.",
+      "chunk_id": "6232f131-a8d9-40db-bfa7-b05c5fe1274e",
+      "texto": " Uno específico para MS (Requisiciones de Material)\n\n Otro general para el resto de los documentos que requieran aprobación ,\n\nDichos   WORKFLOWS   (circuitos   de   aprobación) serán siempre   iniciados por   el Responsable de Cuenta correspondiente , siendo éste el único con opción a ello. Para ello si el generador del documento no es el propio responsable deberá usar la herramienta del portal de IUI de Encaminamiento.",
       "nivel": "child",
-      "parent_id": "e58bd044-e41e-40f4-916d-41fb67765953",
+      "parent_id": "fb356bc6-75ab-4481-b51d-39631a9792b7",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "Se emplearán dos WORKFLOWS (circuitos de aprobación):",
@@ -127,10 +207,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e059ea97-ab59-4bca-878a-1db70c65e9af",
-      "texto": "Las MSs, además del documento propiamente dicho, tienen una serie de documentos adjuntos que forman parte del diseño de la MS; estos documentos tienen   que   estar   previamente   revisados   por   el Administrador   de   Proyecto (su incorporación en el portal así como sus propiedades: fecha, edición,...) y enlazados en la estructura matricial de las MSs para su aprobación completa (el documento de la MS y todos los documentos adjuntos a ella ) antes de su salida a través del Portal de Comercio Electrónico (Centro de Negocios) de IUI.\n\nEl   acceso   por   parte   de   los   proveedores   a   los   documentos   incorporados   a   la   Base Documental será controlado por el funcionamiento normal del circuito de aprobación, es decir, LOS PROVEEDORES NO TENDRÁN ACCESO HASTA QUE SEAN APROBADOS POR EL CLIENTE.\n\nComo caso excepcional puede haber una serie de documentos que por circunstancias especiales sea conveniente hacerlos accesibles a los proveedores sin la intervención del cliente.",
+      "chunk_id": "892cfaa9-41aa-4510-adae-4daa3d58d494",
+      "texto": "A partir de aquí, se recorre el circuito completo (jefe de proyecto, personal residente de DOW etc.)\n\nAl diferenciar los circuitos de aprobación damos especial importancia a los documentos de Requisición de Materiales (MS: Material Supply) que contarán con un participante más en el circuito de aprobación. Las MSs, además del documento propiamente dicho, tienen una serie de documentos adjuntos que forman parte del diseño de la MS;",
       "nivel": "child",
-      "parent_id": "e58bd044-e41e-40f4-916d-41fb67765953",
+      "parent_id": "fb356bc6-75ab-4481-b51d-39631a9792b7",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "Se emplearán dos WORKFLOWS (circuitos de aprobación):",
@@ -143,10 +223,42 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e0e18974-2b28-46d0-a1a9-573347134ba9",
+      "chunk_id": "21df8286-1a25-49cf-84dc-8a3f5c7766e8",
+      "texto": "tienen una serie de documentos adjuntos que forman parte del diseño de la MS; estos documentos tienen   que   estar   previamente   revisados   por   el Administrador   de   Proyecto (su incorporación en el portal así como sus propiedades: fecha, edición,...) y enlazados en la estructura matricial de las MSs para su aprobación completa (el documento de la MS y todos los documentos adjuntos a ella ) antes de su salida a través del Portal de Comercio Electrónico (Centro de Negocios) de IUI.",
+      "nivel": "child",
+      "parent_id": "fb356bc6-75ab-4481-b51d-39631a9792b7",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "Se emplearán dos WORKFLOWS (circuitos de aprobación):",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "1b3a6e2f-b255-41a7-ab28-a0f1c007c388",
+      "texto": "El   acceso   por   parte   de   los   proveedores   a   los   documentos   incorporados   a   la   Base Documental será controlado por el funcionamiento normal del circuito de aprobación, es decir, LOS PROVEEDORES NO TENDRÁN ACCESO HASTA QUE SEAN APROBADOS POR EL CLIENTE.\n\nComo caso excepcional puede haber una serie de documentos que por circunstancias especiales sea conveniente hacerlos accesibles a los proveedores sin la intervención del cliente.",
+      "nivel": "child",
+      "parent_id": "fb356bc6-75ab-4481-b51d-39631a9792b7",
+      "pagina_inicio": 4,
+      "pagina_fin": 4,
+      "seccion": "Se emplearán dos WORKFLOWS (circuitos de aprobación):",
+      "tipos_elemento": [
+        "ListItem",
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "cd91f479-0a30-45a8-bc80-9795dcfe6162",
       "texto": "Para esta situación el Jefe de Proyecto tendrá la opción de Aprobar y Publicar , quedando el documento aprobado sin la intervención del cliente.\n\n(Ver la estructura del circuito de aprobación WORKFLOW)",
       "nivel": "child",
-      "parent_id": "e58bd044-e41e-40f4-916d-41fb67765953",
+      "parent_id": "fb356bc6-75ab-4481-b51d-39631a9792b7",
       "pagina_inicio": 4,
       "pagina_fin": 4,
       "seccion": "Se emplearán dos WORKFLOWS (circuitos de aprobación):",
@@ -159,7 +271,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d98ec742-768c-48d2-ace4-bbbfb898fb45",
+      "chunk_id": "312a055f-66a2-409c-be63-25caaf986b33",
       "texto": "Vamos a ver un desarrollo de los pasos o acciones así como las personas implicadas en el desarrollo general de un WORKFLOW en el proyecto 13189 DOW Tarragona.",
       "nivel": "parent",
       "parent_id": null,
@@ -174,7 +286,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "72251b5abfbf44d3bc9ba58e9726fdeb",
+      "chunk_id": "b654f2700dd74f7490f4e9258345d01c",
       "texto": "| ACCIONES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | RESPONSABLE               |\n|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|\n| 1) Introducir el documento generado en el portal. ( Manual INCORPORAR DOCUMENTOS AL PORTAL editado por Gestión del Conocimiento ) 2) Rellenar o modificar ,si no es la primera edición, las propiedades del documento. (Ver ANEXO 3) 3) Comprobar que el documento es imprimible (si se ajustan los márgenes del área de impresión) 4) Si se trata de un plano (autocad .dwg o microstation .dgn) se crea una versión PDF (rendición) del mismo que se incluye junto al original. 5) Encaminar al Responsable de cuenta correspondiente. (Encaminar Tarea con referencia al manual anterior) | GENERADOR DEL DOCUMENTO   |\n| 6) Verificar el documento . Comprobar que el documento está listo para iniciar el circuito de aprobación. 7) Lanzamiento del WORKFLOW.                                                                                                                                                                                                                                                                                                                                                                                                                                                       | RESPONSABLE DE CUENTA     |\n| Caso particular de RMs (MS Material Supply):  Crear la estructura de carpetas de la MS  Enlazar la lista de documentos adjuntos de la MS ( ver manual MN-GC-10 GUÍA DE COMERCIO ELECTRÓNICO PARA LOS ADMINISTRADORES DE PROYECTO )                                                                                                                                                                                                                                                                                                                                                         | ADMINISTRADOR DE PROYECTO |\n| 8) El Jefe de Proyecto de IUI tendrá tres opciones:  Aprobar y revisar cliente (DOW) El documento queda aprobado internamente esperando la revisión del cliente por medio de su personal residente en IUI  Aprobar y publicar BC Para los documentos que no necesiten aprobación por parte del cliente el Jefe de Proyecto terminará el ciclo de aprobación siendo el documento                                                                                                                                                                                                            | JEFE DE PROYECTO IUI      |",
       "nivel": "child",
       "parent_id": null,
@@ -189,8 +301,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e7c6a5c46af5438c8fea26e6626f7715",
-      "texto": "| ACCIONES                                                                                                                                                                                                                                                                                         | RESPONSABLE                                      |\n|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|\n| aprobado.                                                                                                                                                                                                                                                                                        |                                                  |\n| - Rechazar Si el documento es rechazado saldrá del circuito de aprobación para su revisión y modificación.                                                                                                                                                                                       |                                                  |\n| 9) Revisión del cliente. Cualquiera de los tres integrantes del personal de DOW residentes en Intecsa Uhde podrá revisar el documento y aprobarlo o rechazarlo según corresponda:<br><br>Existe un **buzón común de tareas** al que los tres integrantes del equipo de DOW tendrán acceso. Una vez abran una de las tareas aunque no la aprueben se eliminará del buzón común pasando al propio. Existe, por tanto, la posibilidad de **REASIGNAR la tarea a cualquiera de los otros dos componentes del equipo de DOW** si una vez abierta consideran que debe ser ese integrante el que apruebe el documento. | CLIENTE<br>(Personal residente en Intecsa Uhde ) |\n| 10) Las acciones que se pueden tomar son:                                                                                                                                                                                                                                                        |                                                  |\n| - **Aprobado Sin Comentarios.(ASC)** El documento finaliza el Workflow sin necesidad de ninguna modificación                                                                                                                                                                                   |                                                  |\n| - **Aprobado Con Comentarios.(ACC)** El documento es aprobado y será modificado para incluir los comentarios del cliente (Los **comentarios no van incorporados** al documento electrónico una vez finalizado el WORKFLOW.)                                                                      |                                                  |\n| - **Rechazado.** El documento saldrá del circuito de aprobación para realizar las modificaciones necesarias.                                                                                                                                                                                     |                                                  |\n| **NOTA:**  Es muy importante que el cliente realice su tarea en el WORKFLOW ya que los documentos inmersos en un circuito de aprobación no podrán ser modificados pudiendo retrasar el desarrollo normal del proyecto                                                                            |                                                  |\n| Caso particular de RMs (MS Material Supply):                                                                                                                                                                                                                                                     | ADMINISTRADOR<br>DE PROYECTO                     |\n| - Finaliza el WORKFLOW y así es informado de la aprobación de la MS.                                                                                                                                                                                                                             |                                                  |\n| - Introducir los **códigos de acceso al Business Center** de los proveedores correspondientes para darles acceso a la RM correspondiente.                                                                                                                                                        |                                                  |\n| - Tomará las medidas adecuadas para **informar a los proveedores** y a los **encargados de compras del cliente**..                                                                                                                                                                              |                                                  |",
+      "chunk_id": "e766e281ce544ebbacb22027870f7f1d",
+      "texto": "| ACCIONES                                                                                                                                                 | RESPONSABLE                          |\n|----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|\n| aprobado.                                                                                                                                                |                                      |\n| • Rechazar Si el documento es rechazado saldrá del circuito de aprobación para su revisión y modificación.                                               |                                      |\n| 9) Revisión del cliente. Cualquiera de los tres integrantes del personal de DOW residentes en Intecsa Uhde podrá revisar el documento y aprobarlo o rechazarlo según corresponda: Existe un buzón común de tareas al que los tres integrantes del equipo de DOW tendrán acceso. Una vez abran una de las tareas aunque no la aprueben se eliminará del buzón común pasando al propio. Existe, por tanto, la posibilidad de REASIGNAR la tarea a cualquiera de los otros dos componentes del equipo de DOW si una vez abierta consideran que debe ser ese integrante el que apruebe el documento. 10) Las acciones que se pueden tomar son:                                                                                      | CLIENTE                              \n| • Aprobado Sin Comentarios.(ASC) El documento finaliza el Workflow sin necesidad de ninguna modificación                                                                                                      | (Personal residente\n|                                                                                                                                                                                   en Intecsa Uhde )          |\n| • Aprobado Con Comentarios.(ACC) El documento es aprobado y será modificado para incluir los comentarios del cliente (Los comentarios no van incorporados al documento electrónico una vez finalizado el WORKFLOW.) |                                      |\n| • Rechazado. El documento saldrá del circuito de aprobación para realizar las modificaciones necesarias.                                                                                                          |                                      |\n| NOTA: Es muy importante que el cliente realice su tarea en el WORKFLOW ya que los documentos inmersos en un circuito de aprobación no podrán ser modificados pudiendo retrasar el desarrollo normal del proyecto |                                      |\n| Caso particular de RMs (MS Material Supply):                                                                                                                                                                    |                                      |\n| • Finaliza el WORKFLOW y así es informado de la aprobación de la MS.                                                                                                                                           |                                      |\n| • Introducir los códigos de acceso al Business Center de los proveedores correspondientes para darles acceso a la RM correspondiente.                                                                           |                                      |\n| • Tomará las medidas adecuadas para informar a los proveedores y a los encargados de compras del cliente..                                                                                                       | ADMINISTRADOR\n|                                                                                                                                                                                                                 | DE PROYECTO                           |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 6,
@@ -204,7 +316,7 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "aee17b13-e910-4ebc-98f9-b1de3cc39b5d",
+      "chunk_id": "337cd8d3-c42e-42ff-86f9-92fc10831fee",
       "texto": "Para un control de plazos (tiempo) en la aprobación se han implementado una serie de avisos automáticos: Notificaciones :",
       "nivel": "parent",
       "parent_id": null,
@@ -219,7 +331,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7468dbdf-2715-4c1b-b5d3-0e355ffbf30c",
+      "chunk_id": "c1e0036d-8682-4579-9123-1b11340a2f54",
       "texto": "o si Jefe de Proyecto se demora 5 días en la aprobación de cualquier documento (general o MS, de los dos circuitos)\n\no si Administrador de Proyecto se demora 2 días al enlazar la RM (circuito específico para RMs (MS))\n\no si el Cliente se demora 5 días en la aprobación de cualquier documento. (general o MS, de los dos circuitos)\n\nAdemás de estas notificaciones al Responsable de Cuenta le llegará también al participante del WORKFLOW que esté reteniendo la tarea de aprobación.",
       "nivel": "parent",
       "parent_id": null,
@@ -235,7 +347,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "98f0dad5-2154-4e3b-aaad-a3a182bd0507",
+      "chunk_id": "af789f59-b9ef-44c3-9261-179fbeee20bb",
       "texto": "Otra de las ventajas principales de este sistema es la comunicación electrónica de que los documentos están accesibles.\n\nPara ello hemos implementado un sistema que una vez al día buscará los documentos que hayan sido aprobados , es decir, los documentos que el Jefe de Proyecto de IUI ya haya aprobado y el cliente haya revisado .\n\nPara lograr este sistema, el Administrador de Proyecto enviará una vez al día un e-mail con una lista de todos los documentos aprobados clasificados por su actividad y clase (ver Anexo 3) de acuerdo con la matriz de distribución del Proyecto.\n\nEn el Anexo 4 tenemos un ejemplo del formato de envío.",
       "nivel": "parent",
       "parent_id": null,
@@ -250,8 +362,38 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "96b88cf30bbe4d3d8248855f5676d94a",
-      "texto": "| Documento:      | DS-G-1-AB                       | OT:                  | 13189 DOW Tarragona                         |\n|-----------------|---------------------------------|----------------------|---------------------------------------------|\n| Título:         | G-1-A/B Gasoline feed pump      | Fecha de aprobación: | 08/10/02                                    |\n| Edición:        | 01                              | Fecha de revisión Cliente: | 14/10/02                            |\n| Departamento:   | Mecánica                        |                      |                                             |\n| Descripción:    | Rotating Equipment G-1 A/B Data Sheet. Gasoline feed pump |  |  |",
+      "chunk_id": "7a443e96-ee80-4c80-980e-c23ccb3bf69a",
+      "texto": "Otra de las ventajas principales de este sistema es la comunicación electrónica de que los documentos están accesibles.\n\nPara ello hemos implementado un sistema que una vez al día buscará los documentos que hayan sido aprobados , es decir, los documentos que el Jefe de Proyecto de IUI ya haya aprobado y el cliente haya revisado .",
+      "nivel": "child",
+      "parent_id": "af789f59-b9ef-44c3-9261-179fbeee20bb",
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "5. DISTRIBUCIÓN ELECTRÓNICA DE LA DOCUMENTACIÓN",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f52430eb-5a9a-4d81-9a66-c270cbb7f420",
+      "texto": "Para lograr este sistema, el Administrador de Proyecto enviará una vez al día un e-mail con una lista de todos los documentos aprobados clasificados por su actividad y clase (ver Anexo 3) de acuerdo con la matriz de distribución del Proyecto.\n\nEn el Anexo 4 tenemos un ejemplo del formato de envío.",
+      "nivel": "child",
+      "parent_id": "af789f59-b9ef-44c3-9261-179fbeee20bb",
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "5. DISTRIBUCIÓN ELECTRÓNICA DE LA DOCUMENTACIÓN",
+      "tipos_elemento": [
+        "NarrativeText"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "edfbc179f8394e43aa42b5c0027b57f0",
+      "texto": "| Documento:               | DS-G-1-AB                        | OT:                        | 13189 DOW Tarragona              |\n|--------------------------|----------------------------------|----------------------------|----------------------------------|\n| **Título:**              | G-1-A/B Gasoline feed pump       | **Fecha de aprobación:**   | 08/10/02                         |\n| **Edición:**             | 01                               | **Fecha de revisión Cliente:** | 14/10/02                    |\n| **Departamento:**        | Mecánica                         |                            |                                  |\n| **Descripción:**         | Rotating Equipment G-1 A/B Data Sheet. Gasoline feed pump |  |                            |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 9,
@@ -265,8 +407,8 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "4e1d4a8e29024dffaaea18d86fe67768",
-      "texto": "| Tipo     | Fecha    | Responsable           | Acción            | Cargo                   |\n|----------|----------|-----------------------|-------------------|-------------------------|\n| PROYECTO | 07/10/02 | Renta Romero, Nuria   | Envío a aprobación| Responsable de cuenta   |\n|          | 08/10/02 | Vilches Guerra, Ernesto| Aprobación        | Jefe de Proyecto IUI    |\n|          | 14/10/02 | Torra, Ignasi         | Aprobado SC       | Cliente                 |",
+      "chunk_id": "c21dd8e5c053470da4dd851cf2a50211",
+      "texto": "| Tipo     | Fecha    | Responsable            | Acción            | Cargo                   |\n|----------|----------|------------------------|-------------------|-------------------------|\n| PROYECTO | 07/10/02 | Renta Romero, Nuria    | Envío a aprobación| Responsable de cuenta   |\n|          | 08/10/02 | Vilches Guerra, Ernesto| Aprobación        | Jefe de Proyecto IUI    |\n|          | 14/10/02 | Torra, Ignasi          | Aprobado SC       | Cliente                 |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 9,
@@ -280,8 +422,8 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "fb687e2a-b53a-42bf-b74a-d06a3760aff4",
-      "texto": "[Descripción visual: Diagrama de flujo de un proceso de aprobación de documentos. \n\n- **Componentes o nodos**:\n  - Creador del documento\n  - Responsable de Cuenta\n  - Jefe Proyecto IUI: Ernesto Vilches\n  - Jefe Proyecto DOW: Emilio Arza\n  - Ingeniero Proyecto DOW: Kindra Stockebrand\n  - Encargado de Fabricación DOW: Ignasi Torra\n  - FIN\n\n- **Conexiones**:\n  - El flujo comienza con \"Creador del documento\" y pasa a \"Responsable de Cuenta\" mediante \"Encaminamiento\".\n  - Desde \"Responsable de Cuenta\" va a \"Jefe Proyecto IUI\".\n  - \"Jefe Proyecto IUI\" puede optar por:\n    - Rechazar\n    - Aprobar y publicar\n    - Aprobar y enviar a DOW\n  - Si aprueba y envía a DOW, el flujo continúa hacia:\n    - \"Jefe Proyecto DOW\"\n    - \"Ingeniero Proyecto DOW\"\n    - \"Encargado de Fabricación DOW\"\n  - Desde cada uno de estos nodos, el flujo puede concluir en \"FIN\".\n  \n- **Opciones en \"Encargado de Fabricación DOW\"**:\n  - Rechazar\n  - ASC\n  - ACC\n\nEste diagrama muestra un proceso de enrutamiento y aprobación de documentos dentro de un entorno corporativo, destacando roles específicos en la cadena de aprobación.]\n\nCircuito 2. Aprobación de las RMs (MS: Material Supply).\n\n[Descripción visual: Diagrama de flujo de proceso de aprobación de documentos:\n\n1. **Creador del documento**\n   - Envía al **Responsable de Cuenta**.\n\n2. **Responsable de Cuenta**\n   - Envia al **Administrador de Proyecto**.\n\n3. **Administrador de Proyecto**\n   - Envia al **Jefe de Proyecto IUI**.\n\n4. **Jefe de Proyecto IUI (Ernesto Vilches)**\n   - Opciones:\n     - Rechazar\n     - Aprobar y publicar\n     - Aprobar y enviar a DOW\n\n5. Si se aprueba y envía a DOW:\n   - **Jefe de Proyecto DOW (Emilio Arza)**\n   - **Ingeniero de Proyecto DOW (Kindra Stockebrand)**\n   - **Encargado de Fabricación DOW (Ignasi Torra)**\n     - Opciones:\n       - Rechazar\n       - ASC\n       - ACC\n\n6. **Finalización**\n   - Las aprobaciones finales regresan al **Administrador de Proyecto** antes de terminar.\n\nLas conexiones entre los componentes indican el flujo de documentos a través de los diferentes niveles y roles.]",
+      "chunk_id": "82a918cc-c7d0-4dad-9fff-b8f62f58f317",
+      "texto": "[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nTipo de diagrama: Diagrama de flujo de proceso de aprobación de documentos.\n\nComponentes y conexiones:\n\n1. **Creador del documento**: Inicializa el proceso.\n   - Flecha hacia \"Resp. Cuenta\" indicando encaminamiento.\n\n2. **Resp. Cuenta**: Recibe el documento del creador.\n   - Flecha hacia \"Jefe Proyecto IUI\".\n\n3. **Jefe Proyecto IUI (Ernesto Vilches)**: Opciones disponibles son \"Rechazar\", \"Aprobar y publicar\" y \"Aprobar y enviar a DOW\".\n   - Flecha hacia \"Ing. Proyecto DOW\" (Kindra Stockebrand).\n   \n4. **Jefe Proyecto DOW (Emilio Arza)**: Flecha saliente hacia \"FIN\".\n\n5. **Ing. Proyecto DOW (Kindra Stockebrand)**:\n   - Flecha saliente hacia \"FIN\".\n   - Flecha hacia \"Enc. Fabricación DOW\" (Ignasi Torra).\n\n6. **Enc. Fabricación DOW (Ignasi Torra)**: Opciones disponibles son \"Rechazar\", \"ASC\", \"ACC\".\n   - Flecha saliente hacia \"FIN\".\n\nConexiones específicas:\n- \"Jefe Proyecto IUI\" se conecta a \"Jefe Proyecto DOW\", \"Ing. Proyecto DOW\", y \"Enc. Fabricación DOW\".\n- Opciones de aprobación o rechazo determinan el flujo hacia \"FIN\".\n\nNotas:\n- Las personas involucradas están identificadas por nombre.\n- Las líneas numeradas indican rutas específicas del flujo (1 y 2; 3).]\n\nCircuito 2. Aprobación de las RMs (MS: Material Supply).\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nTipo de diagrama: Diagrama de flujo de proceso de aprobación de documentos.\n\n1. **Creador del documento**: Inicia el flujo. Encaminamiento hacia \"Resp. Cuenta\".\n\n2. **Resp. Cuenta**: Conexión hacia \"Admin. Proyecto\".\n\n3. **Admin. Proyecto**: Dirección hacia \"Jefe Proyecto IUI\".\n\n4. **Jefe Proyecto IUI (Ernesto Vilches)**:\n   - Opciones: \n     - Rechazar\n     - Aprobar y publicar\n     - Aprobar y enviar a DOW\n   - Conexión hacia \"Jefe Proyecto DOW\", \"Ing. Proyecto DOW\", \"Enc. Fabricación. DOW\".\n\n5. **Jefe Proyecto DOW (Emilio Arza)**: \n   - Dirección de vuelta a \"Admin. Proyecto\".\n\n6. **Ing. Proyecto DOW (Kindra Stockebrand)**: \n   - Dirección de vuelta a \"Admin. Proyecto\".\n\n7. **Enc. Fabricación. DOW (Ignasi Torra)**:\n   - Opciones:\n     - Rechazar\n     - ASC\n     - ACC\n   - Conexión hacia \"Admin. Proyecto\".\n\n8. **Admin. Proyecto**: Conductor del flujo hacia el final (FIN).\n\nEl diagrama describe un proceso de aprobación y gestión de documentos, destacando los roles y opciones de acción en cada etapa del flujo.]",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 10,
@@ -296,10 +438,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "d88177a2-b574-487d-885d-0e862eb14140",
-      "texto": "[Descripción visual: Diagrama de flujo de un proceso de aprobación de documentos. \n\n- **Componentes o nodos**:\n  - Creador del documento\n  - Responsable de Cuenta\n  - Jefe Proyecto IUI: Ernesto Vilches\n  - Jefe Proyecto DOW: Emilio Arza\n  - Ingeniero Proyecto DOW: Kindra Stockebrand\n  - Encargado de Fabricación DOW: Ignasi Torra\n  - FIN\n\n- **Conexiones**:\n  - El flujo comienza con \"Creador del documento\" y pasa a \"Responsable de Cuenta\" mediante \"Encaminamiento\".\n  - Desde \"Responsable de Cuenta\" va a \"Jefe Proyecto IUI\".",
+      "chunk_id": "95f638c5-bdbd-4e17-a987-ee19d3e3c7bf",
+      "texto": "[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nTipo de diagrama: Diagrama de flujo de proceso de aprobación de documentos.\n\nComponentes y conexiones:\n\n1. **Creador del documento**: Inicializa el proceso.\n   - Flecha hacia \"Resp. Cuenta\" indicando encaminamiento.\n\n2. **Resp. Cuenta**: Recibe el documento del creador.\n   - Flecha hacia \"Jefe Proyecto IUI\".\n\n3.",
       "nivel": "child",
-      "parent_id": "fb687e2a-b53a-42bf-b74a-d06a3760aff4",
+      "parent_id": "82a918cc-c7d0-4dad-9fff-b8f62f58f317",
       "pagina_inicio": 10,
       "pagina_fin": 10,
       "seccion": "Circuito 1.Aprobación general de documentos",
@@ -312,10 +454,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "502ea66e-0c51-4ab6-8e99-37b0c8441e40",
-      "texto": "- Desde \"Responsable de Cuenta\" va a \"Jefe Proyecto IUI\".\n  - \"Jefe Proyecto IUI\" puede optar por:\n    - Rechazar\n    - Aprobar y publicar\n    - Aprobar y enviar a DOW\n  - Si aprueba y envía a DOW, el flujo continúa hacia:\n    - \"Jefe Proyecto DOW\"\n    - \"Ingeniero Proyecto DOW\"\n    - \"Encargado de Fabricación DOW\"\n  - Desde cada uno de estos nodos, el flujo puede concluir en \"FIN\".\n  \n- **Opciones en \"Encargado de Fabricación DOW\"**:\n  - Rechazar\n  - ASC\n  - ACC\n\nEste diagrama muestra un proceso de enrutamiento y aprobación de documentos dentro de un entorno corporativo, destacando roles específicos en la cadena de aprobación.]\n\nCircuito 2. Aprobación de las RMs (MS: Material Supply).\n\n[Descripción visual: Diagrama de flujo de proceso de aprobación de documentos:\n\n1.",
+      "chunk_id": "6fe754bd-ec8c-440d-a49b-5710ac6c2b87",
+      "texto": "- Flecha hacia \"Jefe Proyecto IUI\".\n\n3. **Jefe Proyecto IUI (Ernesto Vilches)**: Opciones disponibles son \"Rechazar\", \"Aprobar y publicar\" y \"Aprobar y enviar a DOW\".\n   - Flecha hacia \"Ing. Proyecto DOW\" (Kindra Stockebrand).\n   \n4. **Jefe Proyecto DOW (Emilio Arza)**: Flecha saliente hacia \"FIN\".\n\n5. **Ing.",
       "nivel": "child",
-      "parent_id": "fb687e2a-b53a-42bf-b74a-d06a3760aff4",
+      "parent_id": "82a918cc-c7d0-4dad-9fff-b8f62f58f317",
       "pagina_inicio": 10,
       "pagina_fin": 10,
       "seccion": "Circuito 1.Aprobación general de documentos",
@@ -328,10 +470,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "21b4ba2e-a779-48cf-aac3-73f0076c841c",
-      "texto": "**Creador del documento**\n   - Envía al **Responsable de Cuenta**.\n\n2. **Responsable de Cuenta**\n   - Envia al **Administrador de Proyecto**.\n\n3. **Administrador de Proyecto**\n   - Envia al **Jefe de Proyecto IUI**.\n\n4. **Jefe de Proyecto IUI (Ernesto Vilches)**\n   - Opciones:\n     - Rechazar\n     - Aprobar y publicar\n     - Aprobar y enviar a DOW\n\n5. Si se aprueba y envía a DOW:\n   - **Jefe de Proyecto DOW (Emilio Arza)**\n   - **Ingeniero de Proyecto DOW (Kindra Stockebrand)**\n   - **Encargado de Fabricación DOW (Ignasi Torra)**\n     - Opciones:\n       - Rechazar\n       - ASC\n       - ACC\n\n6. **Finalización**\n   - Las aprobaciones finales regresan al **Administrador de Proyecto** antes de terminar.",
+      "chunk_id": "0ca983e6-4bc8-4920-a7c1-7650a47ae3a9",
+      "texto": "5. **Ing. Proyecto DOW (Kindra Stockebrand)**:\n   - Flecha saliente hacia \"FIN\".\n   - Flecha hacia \"Enc. Fabricación DOW\" (Ignasi Torra).\n\n6. **Enc. Fabricación DOW (Ignasi Torra)**: Opciones disponibles son \"Rechazar\", \"ASC\", \"ACC\".\n   - Flecha saliente hacia \"FIN\".\n\nConexiones específicas:\n- \"Jefe Proyecto IUI\" se conecta a \"Jefe Proyecto DOW\", \"Ing.",
       "nivel": "child",
-      "parent_id": "fb687e2a-b53a-42bf-b74a-d06a3760aff4",
+      "parent_id": "82a918cc-c7d0-4dad-9fff-b8f62f58f317",
       "pagina_inicio": 10,
       "pagina_fin": 10,
       "seccion": "Circuito 1.Aprobación general de documentos",
@@ -344,10 +486,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "60ee63b5-71cb-4048-b709-fe20f5284306",
-      "texto": "Las conexiones entre los componentes indican el flujo de documentos a través de los diferentes niveles y roles.]",
+      "chunk_id": "98ec54f9-3ac9-4178-8260-ec49286491af",
+      "texto": "Proyecto DOW\", y \"Enc. Fabricación DOW\".\n- Opciones de aprobación o rechazo determinan el flujo hacia \"FIN\".\n\nNotas:\n- Las personas involucradas están identificadas por nombre.\n- Las líneas numeradas indican rutas específicas del flujo (1 y 2; 3).]\n\nCircuito 2. Aprobación de las RMs (MS: Material Supply).",
       "nivel": "child",
-      "parent_id": "fb687e2a-b53a-42bf-b74a-d06a3760aff4",
+      "parent_id": "82a918cc-c7d0-4dad-9fff-b8f62f58f317",
       "pagina_inicio": 10,
       "pagina_fin": 10,
       "seccion": "Circuito 1.Aprobación general de documentos",
@@ -360,7 +502,71 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e1ce0157-ec13-471a-9251-e949a43f9d84",
+      "chunk_id": "de41e303-ef5e-49e0-b8cc-68baac4920bd",
+      "texto": "Circuito 2. Aprobación de las RMs (MS: Material Supply).\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\nTipo de diagrama: Diagrama de flujo de proceso de aprobación de documentos.\n\n1. **Creador del documento**: Inicia el flujo. Encaminamiento hacia \"Resp. Cuenta\".\n\n2. **Resp. Cuenta**: Conexión hacia \"Admin. Proyecto\".\n\n3. **Admin.",
+      "nivel": "child",
+      "parent_id": "82a918cc-c7d0-4dad-9fff-b8f62f58f317",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Circuito 1.Aprobación general de documentos",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "66f0ea50-a617-4cd4-8984-fe4a4d142991",
+      "texto": "Proyecto\".\n\n3. **Admin. Proyecto**: Dirección hacia \"Jefe Proyecto IUI\".\n\n4. **Jefe Proyecto IUI (Ernesto Vilches)**:\n   - Opciones: \n     - Rechazar\n     - Aprobar y publicar\n     - Aprobar y enviar a DOW\n   - Conexión hacia \"Jefe Proyecto DOW\", \"Ing. Proyecto DOW\", \"Enc. Fabricación. DOW\".\n\n5.",
+      "nivel": "child",
+      "parent_id": "82a918cc-c7d0-4dad-9fff-b8f62f58f317",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Circuito 1.Aprobación general de documentos",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "7be17f6d-6db6-41be-9541-99410ba87bb7",
+      "texto": "Proyecto DOW\", \"Enc. Fabricación. DOW\".\n\n5. **Jefe Proyecto DOW (Emilio Arza)**: \n   - Dirección de vuelta a \"Admin. Proyecto\".\n\n6. **Ing. Proyecto DOW (Kindra Stockebrand)**: \n   - Dirección de vuelta a \"Admin. Proyecto\".\n\n7. **Enc. Fabricación.",
+      "nivel": "child",
+      "parent_id": "82a918cc-c7d0-4dad-9fff-b8f62f58f317",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Circuito 1.Aprobación general de documentos",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "10de0914-df76-49af-86d3-32665ce4d0e3",
+      "texto": "Proyecto\".\n\n7. **Enc. Fabricación. DOW (Ignasi Torra)**:\n   - Opciones:\n     - Rechazar\n     - ASC\n     - ACC\n   - Conexión hacia \"Admin. Proyecto\".\n\n8. **Admin. Proyecto**: Conductor del flujo hacia el final (FIN).\n\nEl diagrama describe un proceso de aprobación y gestión de documentos, destacando los roles y opciones de acción en cada etapa del flujo.]",
+      "nivel": "child",
+      "parent_id": "82a918cc-c7d0-4dad-9fff-b8f62f58f317",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Circuito 1.Aprobación general de documentos",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e7dd73e2-9b2c-437b-b8ae-5cece03eb97d",
       "texto": "Atributos   o   propiedades   del   documento   a   rellenar   durante   la   importación.   También   al introducir una nueva edición del documento habrá que tener en cuenta las propiedades que han cambiado y hay que actualizar (SOMBREADAS).",
       "nivel": "parent",
       "parent_id": null,
@@ -375,7 +581,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c9435052a0b746b1b5465fe33df640bc",
+      "chunk_id": "049130758516421590ef3c89021996ff",
       "texto": "| Propiedad                                                                    | Descripción                                                                                                              | Ejemplo                    |\n|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|----------------------------|\n| DOCUMENTO Máx 255 caracteres                                                 | Número del documento.                                                                                                    | DS-G1-A/B                  |\n| TITULO Máx 255 caracteres                                                    | Título que aparece en el documento físico.                                                                               | G-1-A/B Gasoline feed pump |\n| EDICION Máx 3 caracteres                                                     | Número de la edición del documento.                                                                                      | 01                         |\n| FECHA Máx 32 caracteres                                                      | Fecha de la edición del documento físico. (Formato aconsejado: dd/mm/aaaa)                                               | 11/10/2002                 |\n| EDITADO PARA Lista desplegable                                               | El objeto para el cual se edita el documento                                                                             | Petición de Oferta         |\n| AUTORES Máx 32 caracteres por autor, separados por comas                     | Nombre y apellidos del autor (en este orden), que puede ser distinto del usuario que introduce el documento en el portal | Nuria Renta Romero         |\n| OT Lista deplegable                                                          | Designación del Proyecto                                                                                                 | 13189 - DOW Tarragona      |\n| DEPARTAMENTO Lista deplegable                                                | Departamento al que pertenece el documento.                                                                              | Mecánica                   |\n| CLASE Lista deplegable                                                       | Clase de documento.                                                                                                      | Hoja de datos              |\n| ACTIVIDAD Lista deplegable                                                   | Actividad con la que está relacionada el documento                                                                       | 30 - EQUIPOS DINAMICOS     |\n| IDIOMA Lista deplegable                                                      | idioma en el que está escrito el documento. (Por defecto español)                                                        | Inglés                     |\n| DESCRIPCION Máx 255 caracteres                                               | . Es una descripción del contenido del documento                                                                         | G-1-A/B Gasoline feed pump |\n| PALABRAS CLAVE Máx 32 caracteres por palabra o concepto, separados por comas | Palabras que servirán para buscar y categorizar en el futuro el documento (palabras o conceptos separados por comas ',') | pump                       |",
       "nivel": "child",
       "parent_id": null,
@@ -390,8 +596,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c678dfbacaea445aab1b549b0a823b1c",
-      "texto": "| Activity               | Type              | Document's ID    | Title                                    | Vr. | Edited for                        | Status    | creation date     | Approval date     | Clients approval date |\n|------------------------|-------------------|------------------|------------------------------------------|-----|-----------------------------------|-----------|-------------------|-------------------|-----------------------|\n| 34 - ESPECIF. MATERIALES | Especificación    | INDEX            | PIPING MATERIAL SPECIFICATIONS INDEX     |     |                                   | Aprobado  | 16/10/2002 09:29  | 16/10/2002 15:28  | 16/10/2002 15:29     |\n| 34 - ESPECIF. MATERIALES | Especificación    | PU86             | PIPING MATERIAL SPECIFICATION PU86       | 1   | Aprobación y/o comentarios        | Aprobado  | 16/10/2002 07:56  | 16/10/2002 15:05  | 16/10/2002 15:06     |\n| 34 - ESPECIF. MATERIALES | Especificación    | PU80             | PIPING MATERIAL SPECIFICATION PU80       | 1   | Aprobación y/o comentarios        | Aprobado  | 16/10/2002 09:02  | 16/10/2002 15:17  | 16/10/2002 15:18     |\n| 34 - ESPECIF. MATERIALES | Especificación    | PU71             | PIPING MATERIAL SPECIFICATION PU71       | 1   | Aprobación y/o comentarios        | Aprobado  | 16/10/2002 09:12  | 16/10/2002 15:06  | 16/10/2002 15:07     |\n| 34 - ESPECIF. MATERIALES | Especificación    | PU66             | PIPING MATERIAL SPECIFICATION PU66       | 1   | Aprobación y/o comentarios        | Aprobado  | 16/10/2002 07:56  | 16/10/2002 15:18  | 16/10/2002 15:20     |\n| 34 - ESPECIF. MATERIALES | Especificación    | PU04             | PIPING MATERIAL SPECIFICATION PU04       | 1   | Aprobación y/o comentarios        | Aprobado  | 16/10/2002 09:06  | 16/10/2002 15:17  | 16/10/2002 15:18     |\n| 34 - ESPECIF. MATERIALES | Especificación    | PU02             | PIPING MATERIAL SPECIFICATION PU02       | 1   | Aprobación y/o comentarios        | Aprobado  | 16/10/2002 09:10  | 16/10/2002 15:18  | 16/10/2002 15:20     |\n| 34 - ESPECIF. MATERIALES | Especificación    | HC87             | PIPING MATERIAL SPECIFICATION HC87       | 1   | Aprobación y/o comentarios        | Aprobado  | 16/10/2002 09:12  | 16/10/2002 15:21  | 16/10/2002 15:22     |\n| 34 - ESPECIF. MATERIALES | Especificación    | HC53             | PIPING MATERIAL SPECIFICATION HC53       | 1   | Aprobación y/o comentarios        | Aprobado  | 16/10/2002 08:59  | 16/10/2002 15:20  | 16/10/2002 15:21     |\n| 34 - ESPECIF. MATERIALES | Especificación    | HC12             | PIPING MATERIAL SPECIFICATION HC12       | 1   | Aprobación y/o comentarios        | Aprobado  | 16/10/2002 08:56  | 16/10/2002 15:18  | 16/10/2002 15:20     |\n| 34 - ESPECIF. MATERIALES | Especificación    | HC11             | PIPING MATERIAL SPECIFICATION HC11       |     | Aprobación y/o comentarios        | Aprobado  | 16/10/2002 15:27  | 16/10/2002 15:28  | 16/10/2002 15:29",
+      "chunk_id": "cd4d3658bc35479797364823ef0942f8",
+      "texto": "| Activity               | Type             | Document's ID     | Title                                      | Vr. | Edited for                    | Status    | creation date     | Approval date | Clients approval date |\n|------------------------|------------------|-------------------|--------------------------------------------|-----|--------------------------------|-----------|-------------------|---------------|-----------------------|\n| 34 - ESPECIF. MATERIALES | Especificación   | INDEX             | PIPING MATERIAL SPECIFICATIONS INDEX       |     |                                | Aprobado  |                   |               |                       |\n| 34 - ESPECIF. MATERIALES | Especificación   | PU86              | PIPING MATERIAL SPECIFICATION PU86         | 1   | Aprobación y/o comentarios    | Aprobado  | 16/10/2002 09:26  | 16/10/2002 15:28 | 16/10/2002 15:29    |\n| 34 - ESPECIF. MATERIALES | Especificación   | PU80              | PIPING MATERIAL SPECIFICATION PU80         | 1   | Aprobación y/o comentarios    | Aprobado  | 16/10/2002 09:22  | 16/10/2002 15:05 | 16/10/2002 15:06    |\n| 34 - ESPECIF. MATERIALES | Especificación   | PU71              | PIPING MATERIAL SPECIFICATION PU71         | 1   | Aprobación y/o comentarios    | Aprobado  | 16/10/2002 09:20  | 16/10/2002 15:17 | 16/10/2002 15:18    |\n| 34 - ESPECIF. MATERIALES | Especificación   | PU66              | PIPING MATERIAL SPECIFICATION PU66         | 1   | Aprobación y/o comentarios    | Aprobado  | 16/10/2002 09:12  | 16/10/2002 15:07 | 16/10/2002 15:08    |\n| 34 - ESPECIF. MATERIALES | Especificación   | PU044             | PIPING MATERIAL SPECIFICATION PU044        | 1   | Aprobación y/o comentarios    | Aprobado  | 16/10/2002 09:10  | 16/10/2002 15:18 | 16/10/2002 15:20    |\n| 34 - ESPECIF. MATERIALES | Especificación   | PU02              | PIPING MATERIAL SPECIFICATION PU02         | 1   | Aprobación y/o comentarios    | Aprobado  | 16/10/2002 09:06  | 16/10/2002 15:18 | 16/10/2002 15:20    |\n| 34 - ESPECIF. MATERIALES | Especificación   | HC87              | PIPING MATERIAL SPECIFICATION HC87         | 1   | Aprobación y/o comentarios    | Aprobado  | 16/10/2002 09:02  | 16/10/2002 15:21 | 16/10/2002 15:22    |\n| 34 - ESPECIF. MATERIALES | Especificación   | HC53              | PIPING MATERIAL SPECIFICATION HC53         | 1   | Aprobación y/o comentarios    | Aprobado  | 16/10/2002 08:59  | 16/10/2002 15:20 | 16/10/2002 15:21    |\n| 34 - ESPECIF. MATERIALES | Especificación   | HC12              | PIPING MATERIAL SPECIFICATION HC12         | 1   | Aprobación y/o comentarios    | Aprobado  | 16/10/2002 08:56  | 16/10/2002 15:18 | 16/10/2002 15:20    |\n| 34 - ESPECIF. MATERIALES | Especificación   | HC11              | PIPING MATERIAL SPECIFICATION HC11         | 1   | Aprobación y/o comentarios    | Aprobado  | 16/10/2002 08:53  | 16/10/2002 15:27 | 16/10/2002 15:29    |\n| 34 - ESPECIF. MATERIALES | Especificación   | HC09              | PIPING MATERIAL SPECIFICATION HC09         | 1   | Aprobación y/o comentarios",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 12,
