@@ -1,12 +1,13 @@
 """Projects endpoint — lists available document collections."""
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 
+from app.auth.dependencies import require_auth
 from app.rag.vector_store import colecciones_disponibles
 
 router = APIRouter()
 
 
-@router.get("/projects")
+@router.get("/projects", dependencies=[Depends(require_auth)])
 def projects() -> list[dict]:
     """Return all indexed scopes (ChromaDB collections, excluding __parents).
 
