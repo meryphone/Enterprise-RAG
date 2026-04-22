@@ -1,5 +1,5 @@
 {
-  "doc_id": "65c38aafaed64c8da11af4ee57da2c56",
+  "doc_id": "ddae8158c8e941de86517540f979c942",
   "nombre_fichero": "16057-IT-02.pdf",
   "metadatos_admin": {
     "empresa": "pars",
@@ -13,10 +13,10 @@
     "edicion": "01",
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-20T22:17:04+00:00",
+  "fecha_ingesta": "2026-04-22T17:48:27+00:00",
   "chunks": [
     {
-      "chunk_id": "86d29949-9605-40e5-8134-7026b6763a55",
+      "chunk_id": "893b3c07-bc10-4e22-a213-d567f1dfb36e",
       "texto": "Este documento tiene por objeto describir el procedimiento de introducción , aprobación y distribución de documentos en el portal de IUI para el proyecto 16057  - PARS Irán.",
       "nivel": "parent",
       "parent_id": null,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "423139b0-7560-441d-9646-01061aeffacc",
+      "chunk_id": "3f8bf5ce-4bf9-4a0f-82ae-6f5515dec04c",
       "texto": "El Portal de IUI permite establecer circuitos de aprobación (workflows) mediante los cuales se hacen llegar los documentos a aquellos destinatarios que deban verificarlos o aprobarlos.\n\nMediante estos circuitos de aprobación asignamos un Ciclo de Vida a los documentos que consiste en una sucesión de estados de aprobación. A medida que el workflow avanza el estado del documento va cambiando.\n\nIndica aprobación interna (por IUI).\n\nIndica que el documento se considera a todos los efectos APROBADO, tanto para la Ingeniería (IUI y sus socios) como para el cliente.\n\nCada acción de aprobación o rechazo exige la introducción de la contraseña del usuario y queda registrada en el sistema mediante un registro de auditoría (Ver ANEXO 1)\n\nMediante la aprobación electrónica de los documentos se persiguen los siguientes objetivos:\n\n Control del estado y del proceso de aprobación de los documentos :   para cada documento siempre será posible conocer en qué estado se encuentra, es decir, si aún no está aprobado, si está aprobado internamente, si ya ha sido revisado por el cliente,\n\netc. Asimismo, las acciones de aprobación o rechazo quedan registradas en la auditoría de cada documento.\n\n Integridad de la información: una vez aprobado un documento no será posible borrarlo o sobrescribirlo pero sí introducir una nueva edición conservando las anteriores. Ello posibilita a su vez establecer permisos sobre el documento que permitan escribir a varios usuarios y por tanto la actualización de las nuevas ediciones por cualquiera de ellos.\n\n Disponibilidad inmediata de la información : el documento es introducido previamente a su aprobación con lo que cuando ésta se produce la distribución de los documentos y el acceso a los mismos son inmediatos.\n\nMUY   IMPORTANTE:   dado   que   la   aprobación   electrónica   está   asociada   a   la introducción de la contraseña del usuario, es REQUISITO DE SEGURIDAD que cada usuario sea el único que conozca su contraseña, no debiendo darla a conocer a ningún otro.",
       "nivel": "parent",
       "parent_id": null,
@@ -47,10 +47,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "9509f64f-a752-44a6-9282-316217f1d7d6",
-      "texto": "El Portal de IUI permite establecer circuitos de aprobación (workflows) mediante los cuales se hacen llegar los documentos a aquellos destinatarios que deban verificarlos o aprobarlos.\n\nMediante estos circuitos de aprobación asignamos un Ciclo de Vida a los documentos que consiste en una sucesión de estados de aprobación. A medida que el workflow avanza el estado del documento va cambiando.\n\nIndica aprobación interna (por IUI).\n\nIndica que el documento se considera a todos los efectos APROBADO, tanto para la Ingeniería (IUI y sus socios) como para el cliente.",
+      "chunk_id": "c6d21759-4dc1-4f67-8a9b-84042933c64b",
+      "texto": "El Portal de IUI permite establecer circuitos de aprobación (workflows) mediante los cuales se hacen llegar los documentos a aquellos destinatarios que deban verificarlos o aprobarlos.\n\nMediante estos circuitos de aprobación asignamos un Ciclo de Vida a los documentos que consiste en una sucesión de estados de aprobación. A medida que el workflow avanza el estado del documento va cambiando.\n\nIndica aprobación interna (por IUI).",
       "nivel": "child",
-      "parent_id": "423139b0-7560-441d-9646-01061aeffacc",
+      "parent_id": "3f8bf5ce-4bf9-4a0f-82ae-6f5515dec04c",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. APROBACIÓN ELECTRÓNICA DE DOCUMENTOS",
@@ -63,10 +63,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "92982e74-91bc-4ae4-9623-27f75dab3f61",
-      "texto": "Cada acción de aprobación o rechazo exige la introducción de la contraseña del usuario y queda registrada en el sistema mediante un registro de auditoría (Ver ANEXO 1)\n\nMediante la aprobación electrónica de los documentos se persiguen los siguientes objetivos:\n\n Control del estado y del proceso de aprobación de los documentos :   para cada documento siempre será posible conocer en qué estado se encuentra, es decir, si aún no está aprobado, si está aprobado internamente, si ya ha sido revisado por el cliente,\n\netc. Asimismo, las acciones de aprobación o rechazo quedan registradas en la auditoría de cada documento.\n\n Integridad de la información: una vez aprobado un documento no será posible borrarlo o sobrescribirlo pero sí introducir una nueva edición conservando las anteriores. Ello posibilita a su vez establecer permisos sobre el documento que permitan escribir a varios usuarios y por tanto la actualización de las nuevas ediciones por cualquiera de ellos.",
+      "chunk_id": "8373b6ea-af31-4e43-b678-0a0b0c10708e",
+      "texto": "Indica aprobación interna (por IUI).\n\nIndica que el documento se considera a todos los efectos APROBADO, tanto para la Ingeniería (IUI y sus socios) como para el cliente.",
       "nivel": "child",
-      "parent_id": "423139b0-7560-441d-9646-01061aeffacc",
+      "parent_id": "3f8bf5ce-4bf9-4a0f-82ae-6f5515dec04c",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. APROBACIÓN ELECTRÓNICA DE DOCUMENTOS",
@@ -79,10 +79,42 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "838757e0-e606-44d8-9c46-c662d384fd66",
+      "chunk_id": "89d63499-1b6d-495e-98b6-da779e5b9811",
+      "texto": "Cada acción de aprobación o rechazo exige la introducción de la contraseña del usuario y queda registrada en el sistema mediante un registro de auditoría (Ver ANEXO 1)\n\nMediante la aprobación electrónica de los documentos se persiguen los siguientes objetivos:\n\n Control del estado y del proceso de aprobación de los documentos :   para cada documento siempre será posible conocer en qué estado se encuentra, es decir, si aún no está aprobado, si está aprobado internamente, si ya ha sido revisado por el cliente,\n\netc.",
+      "nivel": "child",
+      "parent_id": "3f8bf5ce-4bf9-4a0f-82ae-6f5515dec04c",
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "2. APROBACIÓN ELECTRÓNICA DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "dc7f82ab-da41-478a-a5c0-c86f210b958e",
+      "texto": "Asimismo, las acciones de aprobación o rechazo quedan registradas en la auditoría de cada documento.\n\n Integridad de la información: una vez aprobado un documento no será posible borrarlo o sobrescribirlo pero sí introducir una nueva edición conservando las anteriores. Ello posibilita a su vez establecer permisos sobre el documento que permitan escribir a varios usuarios y por tanto la actualización de las nuevas ediciones por cualquiera de ellos.",
+      "nivel": "child",
+      "parent_id": "3f8bf5ce-4bf9-4a0f-82ae-6f5515dec04c",
+      "pagina_inicio": 2,
+      "pagina_fin": 3,
+      "seccion": "2. APROBACIÓN ELECTRÓNICA DE DOCUMENTOS",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "3265fb0e-be9c-4796-89c5-eb2cb192cc9f",
       "texto": " Disponibilidad inmediata de la información : el documento es introducido previamente a su aprobación con lo que cuando ésta se produce la distribución de los documentos y el acceso a los mismos son inmediatos.\n\nMUY   IMPORTANTE:   dado   que   la   aprobación   electrónica   está   asociada   a   la introducción de la contraseña del usuario, es REQUISITO DE SEGURIDAD que cada usuario sea el único que conozca su contraseña, no debiendo darla a conocer a ningún otro.",
       "nivel": "child",
-      "parent_id": "423139b0-7560-441d-9646-01061aeffacc",
+      "parent_id": "3f8bf5ce-4bf9-4a0f-82ae-6f5515dec04c",
       "pagina_inicio": 2,
       "pagina_fin": 3,
       "seccion": "2. APROBACIÓN ELECTRÓNICA DE DOCUMENTOS",
@@ -95,7 +127,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "66a29e15-0203-4ea4-bc37-7203c0e4777d",
+      "chunk_id": "ef19f4be-bb5c-4181-acab-dbb24a4d0e9e",
       "texto": "Se emplearán dos WORKFLOWS (circuitos de aprobación) (Ver Figura Adjunta) :\n\n Uno específico para RM (Requisiciones de Material)\n\n Otro general para el resto de los documentos que requieran aprobación ,\n\nDichos   WORKFLOWS   (circuitos   de   aprobación) serán siempre   iniciados por   el Responsable de Cuenta correspondiente, siendo éste el único con opción a ello. A partir de aquí, se recorre el circuito completo (dirección de proyecto, Administrador de proyecto)\n\nLa única diferencia entre ambos circuitos es que el workflow específico para las RMs incluye un paso adicional .\n\nLas RMs constituyen la especificación técnica de un determinado suministro de equipos o materiales que es enviada a los proveedores tanto para petición de oferta como para compra (como un documento contractual del pedido).\n\nSe trata de un documento compuesto por la propia RM y por una serie de adjuntos que en ella se citan. Para que todos los documentos asociados a la RM sean accesibles por los proveedores vía Internet , es preciso agrupar todos ellos en una misma carpeta .\n\nEl   encargado   de   agruparlos   es   el   Administrador   de   Proyecto , de ahí que en el workflow   exista   un   paso   previo a   los   pasos   de   aprobación   a   través   del   cual   el administrador recibe las RMs para las cuales debe realizar dicho agrupamiento.\n\nAl diferenciar los circuitos de aprobación damos especial importancia a los documentos de Requisición de Materiales (RM) que contarán con un participante más en el circuito de aprobación. Las RMs, además del documento propiamente dicho, tienen una serie de documentos adjuntos que forman parte del diseño de la RM; estos documentos tienen que estar previamente revisados por el Administrador de Proyecto (su incorporación en el portal así como sus propiedades: fecha, edición,...) y enlazados en la estructura matricial de las RMs para su aprobación completa (el documento de la RM y todos los documentos adjuntos a ella ) antes de su salida a través del Portal de Comercio Electrónico (Centro de Negocios) de IUI.\n\nEl acceso por   parte   de   los proveedores a   los   documentos   asociados   a   las   RMs incorporados a la Base Documental seráestá controlado por el funcionamiento normal delpropio circuito de aprobación ,   de   manera que en el momento de la aprobación interna, la dirección de IUI puede decidir si los documentos se publican en el Centro de Negocios (Portal de Comercio Electrónico de IUI) o no quedan accesibles hasta que el cliente los aprueba . (Ver la estructura del circuito de aprobación WORKFLOW)",
       "nivel": "parent",
       "parent_id": null,
@@ -111,10 +143,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "e0b8c270-978a-4dad-a3e0-71035fb2c86d",
-      "texto": "Se emplearán dos WORKFLOWS (circuitos de aprobación) (Ver Figura Adjunta) :\n\n Uno específico para RM (Requisiciones de Material)\n\n Otro general para el resto de los documentos que requieran aprobación ,\n\nDichos   WORKFLOWS   (circuitos   de   aprobación) serán siempre   iniciados por   el Responsable de Cuenta correspondiente, siendo éste el único con opción a ello. A partir de aquí, se recorre el circuito completo (dirección de proyecto, Administrador de proyecto)\n\nLa única diferencia entre ambos circuitos es que el workflow específico para las RMs incluye un paso adicional .\n\nLas RMs constituyen la especificación técnica de un determinado suministro de equipos o materiales que es enviada a los proveedores tanto para petición de oferta como para compra (como un documento contractual del pedido).\n\nSe trata de un documento compuesto por la propia RM y por una serie de adjuntos que en ella se citan.",
+      "chunk_id": "f696ae83-c48c-4b86-b4a0-48f4a3709ea9",
+      "texto": "Se emplearán dos WORKFLOWS (circuitos de aprobación) (Ver Figura Adjunta) :\n\n Uno específico para RM (Requisiciones de Material)\n\n Otro general para el resto de los documentos que requieran aprobación ,\n\nDichos   WORKFLOWS   (circuitos   de   aprobación) serán siempre   iniciados por   el Responsable de Cuenta correspondiente, siendo éste el único con opción a ello.",
       "nivel": "child",
-      "parent_id": "66a29e15-0203-4ea4-bc37-7203c0e4777d",
+      "parent_id": "ef19f4be-bb5c-4181-acab-dbb24a4d0e9e",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "3. CIRCUITOS DE APROBACIÓN O WORKFLOWS DE APLICACIÓN EN EL PROYECTO",
@@ -127,10 +159,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "068a7798-254c-4fea-920d-1e9bd4d470c9",
-      "texto": "Para que todos los documentos asociados a la RM sean accesibles por los proveedores vía Internet , es preciso agrupar todos ellos en una misma carpeta .\n\nEl   encargado   de   agruparlos   es   el   Administrador   de   Proyecto , de ahí que en el workflow   exista   un   paso   previo a   los   pasos   de   aprobación   a   través   del   cual   el administrador recibe las RMs para las cuales debe realizar dicho agrupamiento.\n\nAl diferenciar los circuitos de aprobación damos especial importancia a los documentos de Requisición de Materiales (RM) que contarán con un participante más en el circuito de aprobación.",
+      "chunk_id": "49c831c7-6f90-486f-935a-daa75a19e1c2",
+      "texto": "A partir de aquí, se recorre el circuito completo (dirección de proyecto, Administrador de proyecto)\n\nLa única diferencia entre ambos circuitos es que el workflow específico para las RMs incluye un paso adicional .\n\nLas RMs constituyen la especificación técnica de un determinado suministro de equipos o materiales que es enviada a los proveedores tanto para petición de oferta como para compra (como un documento contractual del pedido).\n\nSe trata de un documento compuesto por la propia RM y por una serie de adjuntos que en ella se citan.",
       "nivel": "child",
-      "parent_id": "66a29e15-0203-4ea4-bc37-7203c0e4777d",
+      "parent_id": "ef19f4be-bb5c-4181-acab-dbb24a4d0e9e",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "3. CIRCUITOS DE APROBACIÓN O WORKFLOWS DE APLICACIÓN EN EL PROYECTO",
@@ -143,10 +175,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "fa46f277-280c-4a1e-898a-b46695f590ea",
-      "texto": "Las RMs, además del documento propiamente dicho, tienen una serie de documentos adjuntos que forman parte del diseño de la RM; estos documentos tienen que estar previamente revisados por el Administrador de Proyecto (su incorporación en el portal así como sus propiedades: fecha, edición,...) y enlazados en la estructura matricial de las RMs para su aprobación completa (el documento de la RM y todos los documentos adjuntos a ella ) antes de su salida a través del Portal de Comercio Electrónico (Centro de Negocios) de IUI.\n\nEl acceso por   parte   de   los proveedores a   los   documentos   asociados   a   las   RMs incorporados a la Base Documental seráestá controlado por el funcionamiento normal delpropio circuito de aprobación ,   de   manera que en el momento de la aprobación interna, la dirección de IUI puede decidir si los documentos se publican en el Centro de Negocios (Portal de Comercio Electrónico de IUI) o no quedan accesibles hasta que el cliente los aprueba .",
+      "chunk_id": "867d9d50-07ac-4843-96c9-8ec9d55f393d",
+      "texto": "Para que todos los documentos asociados a la RM sean accesibles por los proveedores vía Internet , es preciso agrupar todos ellos en una misma carpeta .\n\nEl   encargado   de   agruparlos   es   el   Administrador   de   Proyecto , de ahí que en el workflow   exista   un   paso   previo a   los   pasos   de   aprobación   a   través   del   cual   el administrador recibe las RMs para las cuales debe realizar dicho agrupamiento.",
       "nivel": "child",
-      "parent_id": "66a29e15-0203-4ea4-bc37-7203c0e4777d",
+      "parent_id": "ef19f4be-bb5c-4181-acab-dbb24a4d0e9e",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "3. CIRCUITOS DE APROBACIÓN O WORKFLOWS DE APLICACIÓN EN EL PROYECTO",
@@ -159,10 +191,58 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "3a39533f-0cf9-4fce-987c-022c7e6fc465",
+      "chunk_id": "9a522693-2847-4292-a3b7-6a4620409d09",
+      "texto": "Al diferenciar los circuitos de aprobación damos especial importancia a los documentos de Requisición de Materiales (RM) que contarán con un participante más en el circuito de aprobación. Las RMs, además del documento propiamente dicho, tienen una serie de documentos adjuntos que forman parte del diseño de la RM; estos documentos tienen que estar previamente revisados por el Administrador de Proyecto (su incorporación en el portal así como sus propiedades: fecha, edición,...",
+      "nivel": "child",
+      "parent_id": "ef19f4be-bb5c-4181-acab-dbb24a4d0e9e",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "3. CIRCUITOS DE APROBACIÓN O WORKFLOWS DE APLICACIÓN EN EL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5c6512bb-0f19-4cf2-a2e6-9bcbd8cbf0a3",
+      "texto": "edición,...) y enlazados en la estructura matricial de las RMs para su aprobación completa (el documento de la RM y todos los documentos adjuntos a ella ) antes de su salida a través del Portal de Comercio Electrónico (Centro de Negocios) de IUI.",
+      "nivel": "child",
+      "parent_id": "ef19f4be-bb5c-4181-acab-dbb24a4d0e9e",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "3. CIRCUITOS DE APROBACIÓN O WORKFLOWS DE APLICACIÓN EN EL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "8a3cd0e5-7969-49c6-872e-e9cea41a973a",
+      "texto": "El acceso por   parte   de   los proveedores a   los   documentos   asociados   a   las   RMs incorporados a la Base Documental seráestá controlado por el funcionamiento normal delpropio circuito de aprobación ,   de   manera que en el momento de la aprobación interna, la dirección de IUI puede decidir si los documentos se publican en el Centro de Negocios (Portal de Comercio Electrónico de IUI) o no quedan accesibles hasta que el cliente los aprueba .",
+      "nivel": "child",
+      "parent_id": "ef19f4be-bb5c-4181-acab-dbb24a4d0e9e",
+      "pagina_inicio": 3,
+      "pagina_fin": 4,
+      "seccion": "3. CIRCUITOS DE APROBACIÓN O WORKFLOWS DE APLICACIÓN EN EL PROYECTO",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "f14f4662-ab7e-4cba-a1de-e7ecb9875b0f",
       "texto": "(Ver la estructura del circuito de aprobación WORKFLOW)",
       "nivel": "child",
-      "parent_id": "66a29e15-0203-4ea4-bc37-7203c0e4777d",
+      "parent_id": "ef19f4be-bb5c-4181-acab-dbb24a4d0e9e",
       "pagina_inicio": 3,
       "pagina_fin": 4,
       "seccion": "3. CIRCUITOS DE APROBACIÓN O WORKFLOWS DE APLICACIÓN EN EL PROYECTO",
@@ -175,7 +255,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "a75d63e2-f132-412e-8883-cf4e49b067f4",
+      "chunk_id": "07a85a55-c465-4216-865a-5c67ec2f862c",
       "texto": "Vamos a ver un desarrollo de los pasos o acciones así como las personas implicadas en el desarrollo general de un WORKFLOW en el proyecto 16057  PARS Irán.",
       "nivel": "parent",
       "parent_id": null,
@@ -190,7 +270,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "006e864994e244c0b7f75c1721c332e5",
+      "chunk_id": "3dd3f02dc5874598bee44f910818b980",
       "texto": "| ACCIONES   | ACCIONES                                                                               | RESPONSABLE             |\n|------------|----------------------------------------------------------------------------------------|-------------------------|\n| 1)         | Realización de las siguientes comprobaciones previas sobre el contenido del documento: | GENERADOR DEL DOCUMENTO |",
       "nivel": "child",
       "parent_id": null,
@@ -205,8 +285,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "96143ad7a9f14b4b966ad20972038b87",
-      "texto": "| ACCIONES                                                                                                                                                                                                                                                                                                                                                                                               | RESPONSABLE                |\n|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|\n| - Contiene el número, la fecha , el objeto de la edición y los nombres de los firmantes (L.Perez).  - El documento es imprimible, es decir, si en ese momento decidiéramos imprimirlo, el contenido del documento se ajustaría al área de impresión.  - No contiene ni macros ni vínculos (aplicable principalmente a documentos Excel).                                                                                                 |                            |\n| 2) CASO PARTICULAR: si se trata de un plano en formato dwg ó dgn se creará una versión PDF del documento (rendición PDF) para su posterior introducción en el Portal junto al documento en formato original (como rendición del mismo).                                                                                                                                                                        | GENERADOR DEL DOCUMENTO    |\n| 3) INCORPORACIÓN DEL DOCUMENTO AL PORTAL:    ( Manual MN-GC-I-02. ACCIONES BÁSICAS editado por Gestión del Conocimiento )  - CASO 1: Se trata de la primera edición del documento  • Localización de la carpeta apropiada donde ubicar el documento.  • Importación del documento en dicha carpeta.  • Cumplimentación adecuada de las propiedades (ANEXO 3)  • Importación (dwg ó dgn) o creación (otros formatos) de la rendición PDF  | GENERADOR DEL DOCUMENTO    |\n|  - CASO 2: Se trata de una nueva edición (el documento está en el portal en una edición anterior)  • Localización del documento en el portal  • Inclusión del documento como una nueva versión sobre la existente (check-out / check-in)  • Cumplimentación adecuada de las propiedades (ANEXO 3)  • Importación (dwg ó dgn) o creación (otros formatos) de la rendición PDF                                      | GENERADOR DEL DOCUMENTO    |",
+      "chunk_id": "3dbd0ea1361b42e69b646c9c1e4833bf",
+      "texto": "| ACCIONES                                                                                                                                                                  | RESPONSABLE               |\n|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|\n| - Contiene el número, la fecha , el objeto de la edición y los nombres de los firmantes (L.Perez).                                                                        |                           |\n| - El documento es imprimible, es decir, si en ese momento decidiéramos imprimirlo, el contenido del documento se ajustaría al área de impresión.                           |                           |\n| - No contiene ni macros ni vínculos (aplicable principalmente a documentos Excel).                                                                                        |                           |\n| 2) CASO PARTICULAR: si se trata de un plano en formato dwg ó dgn se creará una versión PDF del documento (rendición PDF) para su posterior introducción en el Portal junto al documento en formato original (como rendición del mismo). | GENERADOR DEL DOCUMENTO   |\n| 3) INCORPORACIÓN DEL DOCUMENTO AL PORTAL:                                                                                                                                 | GENERADOR DEL DOCUMENTO   |\n| ( Manual MN-GC-I-02. ACCIONES BÁSICAS editado por Gestión del Conocimiento )                                                                                              |                           |\n| - CASO 1: Se trata de la primera edición del documento                                                                                                                    |                           |\n| • Localización de la carpeta apropiada donde ubicar el documento.                                                                                                         |                           |\n| • Importación del documento en dicha carpeta.                                                                                                                             |                           |\n| • Cumplimentación adecuada de las propiedades (ANEXO 3)                                                                                                                   |                           |\n| • Importación (dwg ó dgn) o creación (otros formatos) de la rendición PDF                                                                                                |                           |\n| - CASO 2: Se trata de una nueva edición (el documento está en el portal en una edición anterior)                                                                          |                           |\n| • Localización del documento en el portal                                                                                                                                 |                           |\n| • Inclusión del documento como una nueva versión sobre la existente (check-out / check-in)                                                                                |                           |\n| • Cumplimentación adecuada de las propiedades (ANEXO 3)                                                                                                                   |                           |\n| • Importación (dwg ó dgn) o creación (otros formatos) de la rendición PDF                                                                                                |                           |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 5,
@@ -220,7 +300,7 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "6b97161600284d5fbe92c15e4c5c46b3",
+      "chunk_id": "1a6d5fc4c855445c9925732a341e3c72",
       "texto": "| ACCIONES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | RESPONSABLE               |\n|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|\n| 4) Comunicación al Responsable de Cuenta que el documento se encuentra disponible en el portal para ser enviado para aprobación (se recomienda para ello emplear la opción 'encaminar' del portal)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | GENERADOR DEL DOCUMENTO   |\n| 5) 5) Verificación del documento para comprobar que está listo para iniciar el circuito de aprobación.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | RESPONSABLE DE CUENTA     |\n| 6) Lanzamiento del WORKFLOW, eligiendo uno u otro en función de si el documento es o no una RM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | RESPONSABLE DE CUENTA     |\n| 7) Caso particular de RMs (REQUISICIONES DE MATERIAL): - Crear la estructura de carpetas de la RM - Enlazar la lista de documentos adjuntos de la RM ( ver manual MN-GC-I-08. GUÍA DE COMERCIO ELECTRÓNICO PARA ADMINISTRADORES DE PROYECTO)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | ADMINISTRADOR DE PROYECTO |\n| 8) Aprobación: Cualquiera de los integrantes de la Dirección de Proyecto de IUI (Jefe de Proyecto o Ingenieros de Proyecto) tendrá cuatro opciones:  Aprobar internamente El documento queda aprobado internamente a la espera de la revisión del cliente (en este momento el documento sigue sin ser accesible a los proveedores).  Aprobar internamente y publicar BC: El documento queda aprobado internamente a la espera de la revisión del cliente pero ya es accesible por los proveedores.  Aprobar : para documentos que no necesiten aprobación por el cliente, la dirección de proyecto selecciona esta opción para, a todos los efectos, dejar el documento como aprobado.  Rechazar: Si el documento es rechazado finaliza el circuito para así proceder a la corrección del mismo. Existe un buzón común de tareas al que los integrantes de la Dirección de Proyecto de IUI tendrán acceso. Una vez abran una de las tareas, aunque no la aprueben, se eliminará del buzón común pasando al propio. Existe, por tanto, la posibilidad de REASIGNAR la tarea al otro componente de la Dirección si | DIRECCIÓN DE PROYECTO IUI |",
       "nivel": "child",
       "parent_id": null,
@@ -235,8 +315,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2c452796d4f74345a4959a5ab31123d4",
-      "texto": "| ACCIONES                                                                                                                                                                                                                             | RESPONSABLE                  |\n|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|\n| una vez abierta consideran que debe ser ese integrante el que apruebe el documento.                                                                                                                                                   |                              |\n| 9)  **Revisión del cliente.** El resultado de la aprobación por el cliente es registrado por el Administrador de Proyecto una vez recibido el documento del cliente (L-OT-CM-ZZZ). Elegirá entre una de las siguientes opciones:      | ADMINISTRADOR DE PROYECTO    |\n| • Aprobado Sin Comentarios (ASC)                                                                                                                                                                                                      |                              |\n| • Aprobado Con Comentarios (ACC)                                                                                                                                                                                                      |                              |\n|  (IMPORTANTE: Los **comentarios no son incorporados** al documento electrónico)                                                                                                                                                        |                              |\n| • Rechazado.                                                                                                                                                                                                                           |                              |",
+      "chunk_id": "340728260267464db3d3121f19ee0ff5",
+      "texto": "| ACCIONES                                                                                                                                                      | RESPONSABLE               |\n|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|\n| una vez abierta consideran que debe ser ese integrante el que apruebe el documento.                                                                         |                           |\n| 9) **Revisión del cliente.** El resultado de la aprobación por el cliente es registrado por el Administrador de Proyecto una vez recibido el documento del cliente (L-OT-CM-ZZZ). Elegirá entre una de las siguientes opciones: <ul><li>Aprobado Sin Comentarios (ASC)</li><li>Aprobado Con Comentarios (ACC)</li><li>(IMPORTANTE: Los comentarios no son incorporados al documento electrónico)</li><li>Rechazado.</li></ul> | ADMINISTRADOR DE PROYECTO |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 7,
@@ -250,7 +330,7 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "efaede7e-a644-43c7-b6b6-42ae2454e2a1",
+      "chunk_id": "59ac4dcf-56ea-475d-ba62-f0ce23db734e",
       "texto": "Para un control de plazos (tiempo) en la aprobación  se han implementado una serie de avisos automáticos: Notificaciones :\n\n Al Responsable de Cuenta:\n\no si Jefe de Proyecto se demora 5 días en la aprobación de cualquier documento (general o RM, de los dos circuitos)\n\no si Administrador de Proyecto se demora 2 días al enlazar la RM (circuito específico para RMs (RM))\n\no si el Cliente se demora 5 días en la aprobación de cualquier documento. (general o RM, de los dos circuitos)\n\nAdemás de estas notificaciones al Responsable de Cuenta le llegará también al participante del WORKFLOW que esté reteniendo la tarea de aprobación.\n\nSi un documento se encuentra en un circuito de aprobación, no es posible introducir una nueva edición del mismo.\n\nPor ello, SÓLO EN EL CASO EXCEPCIONAL de que un documento está pendiente de la respuesta   del   cliente   y   se   da   la   necesidad   de   introducir   una   nueva   edición,   el responsable de cuenta podrá finalizar el workflow, ejecutando para ello una tarea de finalización que tendrá disponible en su buzón de tareas.",
       "nivel": "parent",
       "parent_id": null,
@@ -266,10 +346,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "bb51f405-5de3-4c77-b941-42b02bcbee3d",
-      "texto": "Para un control de plazos (tiempo) en la aprobación  se han implementado una serie de avisos automáticos: Notificaciones :\n\n Al Responsable de Cuenta:\n\no si Jefe de Proyecto se demora 5 días en la aprobación de cualquier documento (general o RM, de los dos circuitos)\n\no si Administrador de Proyecto se demora 2 días al enlazar la RM (circuito específico para RMs (RM))\n\no si el Cliente se demora 5 días en la aprobación de cualquier documento. (general o RM, de los dos circuitos)\n\nAdemás de estas notificaciones al Responsable de Cuenta le llegará también al participante del WORKFLOW que esté reteniendo la tarea de aprobación.\n\nSi un documento se encuentra en un circuito de aprobación, no es posible introducir una nueva edición del mismo.",
+      "chunk_id": "796c697d-42d6-4028-a9a3-06617c59e491",
+      "texto": "Para un control de plazos (tiempo) en la aprobación  se han implementado una serie de avisos automáticos: Notificaciones :\n\n Al Responsable de Cuenta:\n\no si Jefe de Proyecto se demora 5 días en la aprobación de cualquier documento (general o RM, de los dos circuitos)\n\no si Administrador de Proyecto se demora 2 días al enlazar la RM (circuito específico para RMs (RM))\n\no si el Cliente se demora 5 días en la aprobación de cualquier documento.",
       "nivel": "child",
-      "parent_id": "efaede7e-a644-43c7-b6b6-42ae2454e2a1",
+      "parent_id": "59ac4dcf-56ea-475d-ba62-f0ce23db734e",
       "pagina_inicio": 7,
       "pagina_fin": 7,
       "seccion": "4. INSTRUCCIONES",
@@ -282,10 +362,26 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "565ef166-9104-4933-aa4a-d391c6052654",
+      "chunk_id": "aa5229cc-052a-4b50-899c-68b05011a10a",
+      "texto": "(general o RM, de los dos circuitos)\n\nAdemás de estas notificaciones al Responsable de Cuenta le llegará también al participante del WORKFLOW que esté reteniendo la tarea de aprobación.\n\nSi un documento se encuentra en un circuito de aprobación, no es posible introducir una nueva edición del mismo.",
+      "nivel": "child",
+      "parent_id": "59ac4dcf-56ea-475d-ba62-f0ce23db734e",
+      "pagina_inicio": 7,
+      "pagina_fin": 7,
+      "seccion": "4. INSTRUCCIONES",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "9c458bec-6a3b-43a8-91a4-e103f9a09ea8",
       "texto": "Por ello, SÓLO EN EL CASO EXCEPCIONAL de que un documento está pendiente de la respuesta   del   cliente   y   se   da   la   necesidad   de   introducir   una   nueva   edición,   el responsable de cuenta podrá finalizar el workflow, ejecutando para ello una tarea de finalización que tendrá disponible en su buzón de tareas.",
       "nivel": "child",
-      "parent_id": "efaede7e-a644-43c7-b6b6-42ae2454e2a1",
+      "parent_id": "59ac4dcf-56ea-475d-ba62-f0ce23db734e",
       "pagina_inicio": 7,
       "pagina_fin": 7,
       "seccion": "4. INSTRUCCIONES",
@@ -298,7 +394,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "462246e4-8481-4da7-8d6e-86d60a7addef",
+      "chunk_id": "190299b9-a55e-46b6-a639-b90c1507550a",
       "texto": "Mediante el estado de aprobación y la fecha de aprobación de los documentos es posible detectar automáticamente qué documentos están listos para ser distribuidos y a qué participantes.\n\nAsí para realizar la distribución , el administrador de proyecto diariamente procede del siguiente modo:\n\n-Obtiene la lista de documentos a distribuir ordenada por actividad y clase (ver Anexo 3), utilizando como criterio para ello el estado y fecha de aprobación (seleccionaría aquellos cuya fecha de aprobación es igual o mayor que la de hoy).\n\n-La distribución consistiría en el envío de dicha lista por email (a modo de transmittal interno) a los distintos participantes del proyecto, dándose éstos por enterados de la disponibilidad de los documentos listados en el portal de IUI.\n\nEn el Anexo 4 se recoge un ejemplo del formato de la lista de envío.",
       "nivel": "parent",
       "parent_id": null,
@@ -314,8 +410,40 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "588e87e7126f43e185b59f186716225a",
-      "texto": "| Documento:   | REQ-102-EQ-F00-0                  | OT: 16057 – PARS Irán       |\n|--------------|-----------------------------------|-----------------------------|\n| Título       | STORAGE SPHERES                   | Fecha de aprobación: 08/02/03|\n| Edición:     | 00                                | Fecha de revisión Cliente: 14/02/03 |\n| Departamento:| Mecánica                          |                             |\n| Descripción: | Requisición de Esferas            |                             |",
+      "chunk_id": "6bea536f-7936-40a5-89be-d9bef23b4fa4",
+      "texto": "Mediante el estado de aprobación y la fecha de aprobación de los documentos es posible detectar automáticamente qué documentos están listos para ser distribuidos y a qué participantes.\n\nAsí para realizar la distribución , el administrador de proyecto diariamente procede del siguiente modo:\n\n-Obtiene la lista de documentos a distribuir ordenada por actividad y clase (ver Anexo 3), utilizando como criterio para ello el estado y fecha de aprobación (seleccionaría aquellos cuya fecha de aprobación es igual o mayor que la de hoy).",
+      "nivel": "child",
+      "parent_id": "190299b9-a55e-46b6-a639-b90c1507550a",
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "5. DISTRIBUCIÓN ELECTRÓNICA DE LA DOCUMENTACIÓN",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "bcf8757f-b785-4000-9800-ac9673dc227c",
+      "texto": "-La distribución consistiría en el envío de dicha lista por email (a modo de transmittal interno) a los distintos participantes del proyecto, dándose éstos por enterados de la disponibilidad de los documentos listados en el portal de IUI.\n\nEn el Anexo 4 se recoge un ejemplo del formato de la lista de envío.",
+      "nivel": "child",
+      "parent_id": "190299b9-a55e-46b6-a639-b90c1507550a",
+      "pagina_inicio": 8,
+      "pagina_fin": 8,
+      "seccion": "5. DISTRIBUCIÓN ELECTRÓNICA DE LA DOCUMENTACIÓN",
+      "tipos_elemento": [
+        "NarrativeText",
+        "ListItem"
+      ],
+      "es_imagen": false,
+      "dentro_de_anexo": false,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "5647b91223a34fe5aed0d15c434fe05d",
+      "texto": "| Documento: REQ-102-EQ-F00-0        | OT: 16057 – PARS Irán               |\n|------------------------------------|-------------------------------------|\n| Título STORAGE SPHERES             | Fecha de aprobación: 08/02/03       |\n| Edición: 00                        | Fecha de revisión Cliente: 14/02/03 |\n| Departamento: Mecánica             |                                     |\n| Descripción: Requisición de Esferas|                                     |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 9,
@@ -329,7 +457,7 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "c616f94d-5cbf-412c-9554-8e7353ec3ca7",
+      "chunk_id": "adb855f6-b418-4489-9a83-e90c3a008b00",
       "texto": "Histórico de estados del documento",
       "nivel": "parent",
       "parent_id": null,
@@ -344,8 +472,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "7efa671842c34bc9bed55b87eca3558b",
-      "texto": "| Tipo     | Fecha   | Responsable            | Acción                  | Cargo                      |\n|----------|---------|------------------------|-------------------------|----------------------------|\n| PROYECTO | 07/02/03| Cámara Cámara, Sonia   | Envío a aprobación      | Responsable de cuenta      |\n|          | 08/02/03| Brignardello, Aldo     | Aprobación              | Jefe de Proyecto IUI       |\n|          | 14/02/03| López Rubio, Verónica  | Registro aprobación     | Administración Proyecto    |\n|          |         |                        | Aprobado SC             |                            |",
+      "chunk_id": "52a9c894dda94c508ca9fbefa59260dd",
+      "texto": "| Tipo     | Fecha    | Responsable             | Acción                        | Cargo                     |\n|----------|----------|-------------------------|-------------------------------|---------------------------|\n| PROYECTO | 07/02/03 | Cámara Cámara, Sonia    | Envío a aprobación            | Responsable de cuenta     |\n|          | 08/02/03 | Brignardello, Aldo      | Aprobación                    | Jefe de Proyecto IUI      |\n|          | 14/02/03 | López Rubio, Verónica   | Registro aprobación <br>Aprobado SC | Administración Proyecto |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 9,
@@ -359,8 +487,8 @@
       "tabla_degradada": true
     },
     {
-      "chunk_id": "cf171fbb-419c-4e9e-ae3d-46d0e8baebe4",
-      "texto": "[Descripción visual: Diagrama de flujo de proceso de aprobación:\n\n1. **Creador del documento**: Inicia el proceso. \n   - Acción: Encaminamiento al siguiente paso.\n\n2. **Resp. Cuenta**: Recibe el documento del creador.\n   - Opciones:\n     - Rechazar\n     - Aprobar sin cliente\n     - Aprobar IUI (internamente)\n     - Aprobar internamente y publicar\n\n3. **Jefe de Proyecto** e **Ingenieros de Proyecto**: Revisan el documento.\n   - Dirigen a \"Admin. Proyecto\" si se elige 3 o 4 (Aprobar IUI o Aprobar internamente y publicar).\n\n4. **Admin. Proyecto**: Recibe el documento para decisiones finales.\n   - Opciones:\n     - Rechazar\n     - ASC\n     - ACC\n     - No revisa cliente\n\n5. **Resp. Cuenta**: Posibilidad de terminar el flujo de trabajo o avanzar al final si ya ha sido aprobado.\n   - Acción: Terminar WORKFLOW y avanzar a **FIN**.\n\n6. **FIN**: Concluye el flujo de trabajo.\n\nEl diagrama muestra las relaciones y opciones en el proceso, indicando claramente los pasos y las decisiones posibles en cada etapa.]\n\nCircuito 2. Aprobación de las RMs (RM: REQUISICIÓN DE MATERIAL).\n\n[Descripción visual: Diagrama de flujo de proceso para la gestión de documentos técnicos:\n\n- **Creador del documento**: Inicia el proceso de encaminamiento del documento.\n- **Resp. Cuenta (Responsable de Cuenta)**: Recibe el documento del creador y lo envía al Admin. Proyecto.\n- **Admin. Proyecto**: Está encargado de enlazar RM y pasar el documento al Jefe de Proyecto o a los Ingenieros de Proyecto. Tienen opciones de rechazar, aprobar internamente sin cliente, o publicar.\n- **Jefe de Proyecto** y **Ingenieros de Proyecto**: Participan en la revisión del documento y lo dirigen de vuelta al Admin. Proyecto.\n- **Admin. Proyecto**: Recibe de nuevo el documento, el cual puede ser rechazado, aprobado sin cliente (ASC), aprobado por cliente (ACC), o no revisado por el cliente, y luego es enviado al Resp. Cuenta.\n- **Fin** del proceso: Una vez que el Resp. Cuenta recibe el documento finalizado.\n\nOpciones de decisión en el proceso: \n\n- Rechazar\n- Aprobar sin cliente\n- Aprobar IUI (internamente)\n- Aprobar internamente y publicar\n- No revisa cliente\n\nEl flujo indica interacciones entre los roles para la aprobación y publicación de documentos.]",
+      "chunk_id": "0a86b0b2-5b1c-44ed-8850-682fbf2fbe3e",
+      "texto": "[Descripción visual: **DIAGRAMA O ESQUEMA TÉCNICO**\n\nTipo de diagrama: Diagrama de flujo de procesos\n\nComponentes y nodos visibles:\n1. **Creador del documento**\n   - Encaminamiento hacia \"Resp. Cuenta\".\n   \n2. **Resp. Cuenta**\n   - Posibilidad de terminar el workflow que lleva a \"FIN\".\n   - Línea de proceso hacia \"Jefe de Proyecto\" e \"Ingenieros de Proyecto\".\n\n3. **Jefe de Proyecto** y **Ingenieros de Proyecto**\n   - Ambos tienen opciones de proceso hacia \"Admin. Proyecto\".\n\n4. **Admin. Proyecto**\n   - Pasa hacia \"FIN\".\n   - Opciones visibles:\n     - Rechazar\n     - ASC\n     - ACC\n     - No revisa cliente\n\nConexiones y flujos:\n- El documento sigue un flujo desde su creador hacia el responsable de la cuenta, quien puede dirigirlo hacia el jefe o ingenieros de proyecto.\n- Tras esta etapa, el flujo continúa hacia el administrador del proyecto, con caminos posibles de rechazo o aprobación en varias modalidades.\n- Existe una posibilidad de finalizar el proceso directamente desde el responsable de la cuenta hacia \"FIN\".\n\nTexto visible en el diagrama:\n- **Opciones para Jefe de Proyecto e Ingenieros de Proyecto:**\n  - Rechazar\n  - Aprobar sin cliente\n  - Aprobar IUI (internamente)\n  - Aprobar internamente y publicar\n\n- **Opciones para Admin. Proyecto:**\n  - Rechazar\n  - ASC\n  - ACC\n  - No revisa cliente\n\nEste diagrama ilustra un flujo de trabajo para la revisión y aprobación de un documento en el contexto de un proyecto de ingeniería.]\n\nCircuito 2. Aprobación de las RMs (RM: REQUISICIÓN DE MATERIAL).\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\n**Tipo de diagrama:** Diagrama de flujo de proceso de aprobación de documentos.\n\n**Componentes y nodos:**\n\n1. **Creador del documento:** Inicia el proceso.\n2. **Resp. Cuenta:** Recibe el documento para encaminamiento.\n3. **Admin. Proyecto:** Encargado de enlazar RM y opciones de decisión.\n4. **Jefe de Proyecto:** Revisa el documento.\n5. **Ingenieros de Proyecto:** Revisan el documento.\n6. **Flechas y conexiones:** Indican direccionamiento del documento entre las etapas.\n7. **Opciones de proceso (izquierda):** \n   - Rechazar\n   - Aprobar sin cliente\n   - Aprobar IUI (internamente)\n   - Aprobar internamente y publicar\n8. **Opciones de proceso (derecha):**\n   - Rechazar\n   - ASC (Aprobar Sin Cliente)\n   - ACC (Aprobar Con Cliente)\n   - No revisa cliente\n\n**Conexiones y flujo:**\n\n- El flujo inicia con el \"Creador del documento\" y se encamina al \"Resp. Cuenta.\"\n- De allí pasa al \"Admin. Proyecto\" para \"Enlazar RM.\"\n- Luego se dirige al \"Jefe de Proyecto\" y \"Ingenieros de Proyecto\" para revisión.\n- Finalmente, vuelve al \"Admin. Proyecto\" y \"Resp. Cuenta\" antes de llegar a \"FIN.\"\n\nEste diagrama proporciona el flujo y las opciones para la aprobación y publicación de documentos en un contexto de gestión de proyectos.]",
       "nivel": "parent",
       "parent_id": null,
       "pagina_inicio": 10,
@@ -375,10 +503,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "c4b79724-5c16-4793-bebc-da94c939d479",
-      "texto": "[Descripción visual: Diagrama de flujo de proceso de aprobación:\n\n1. **Creador del documento**: Inicia el proceso. \n   - Acción: Encaminamiento al siguiente paso.\n\n2. **Resp. Cuenta**: Recibe el documento del creador.\n   - Opciones:\n     - Rechazar\n     - Aprobar sin cliente\n     - Aprobar IUI (internamente)\n     - Aprobar internamente y publicar\n\n3. **Jefe de Proyecto** e **Ingenieros de Proyecto**: Revisan el documento.\n   - Dirigen a \"Admin. Proyecto\" si se elige 3 o 4 (Aprobar IUI o Aprobar internamente y publicar).\n\n4. **Admin. Proyecto**: Recibe el documento para decisiones finales.\n   - Opciones:\n     - Rechazar\n     - ASC\n     - ACC\n     - No revisa cliente\n\n5. **Resp. Cuenta**: Posibilidad de terminar el flujo de trabajo o avanzar al final si ya ha sido aprobado.",
+      "chunk_id": "47e3ba3f-c6b1-4321-bcaa-6f50c9d4a41c",
+      "texto": "[Descripción visual: **DIAGRAMA O ESQUEMA TÉCNICO**\n\nTipo de diagrama: Diagrama de flujo de procesos\n\nComponentes y nodos visibles:\n1. **Creador del documento**\n   - Encaminamiento hacia \"Resp. Cuenta\".\n   \n2. **Resp. Cuenta**\n   - Posibilidad de terminar el workflow que lleva a \"FIN\".\n   - Línea de proceso hacia \"Jefe de Proyecto\" e \"Ingenieros de Proyecto\".\n\n3.",
       "nivel": "child",
-      "parent_id": "cf171fbb-419c-4e9e-ae3d-46d0e8baebe4",
+      "parent_id": "0a86b0b2-5b1c-44ed-8850-682fbf2fbe3e",
       "pagina_inicio": 10,
       "pagina_fin": 10,
       "seccion": "Circuito 1. Aprobación general de documentos",
@@ -391,10 +519,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2ae48b62-0d7e-410d-a661-2fe1a7020961",
-      "texto": "- Acción: Terminar WORKFLOW y avanzar a **FIN**.\n\n6. **FIN**: Concluye el flujo de trabajo.\n\nEl diagrama muestra las relaciones y opciones en el proceso, indicando claramente los pasos y las decisiones posibles en cada etapa.]\n\nCircuito 2. Aprobación de las RMs (RM: REQUISICIÓN DE MATERIAL).\n\n[Descripción visual: Diagrama de flujo de proceso para la gestión de documentos técnicos:\n\n- **Creador del documento**: Inicia el proceso de encaminamiento del documento.\n- **Resp. Cuenta (Responsable de Cuenta)**: Recibe el documento del creador y lo envía al Admin. Proyecto.\n- **Admin. Proyecto**: Está encargado de enlazar RM y pasar el documento al Jefe de Proyecto o a los Ingenieros de Proyecto. Tienen opciones de rechazar, aprobar internamente sin cliente, o publicar.\n- **Jefe de Proyecto** y **Ingenieros de Proyecto**: Participan en la revisión del documento y lo dirigen de vuelta al Admin.",
+      "chunk_id": "39b72dd9-623a-49af-abb3-f8eadfff238e",
+      "texto": "3. **Jefe de Proyecto** y **Ingenieros de Proyecto**\n   - Ambos tienen opciones de proceso hacia \"Admin. Proyecto\".\n\n4. **Admin. Proyecto**\n   - Pasa hacia \"FIN\".\n   - Opciones visibles:\n     - Rechazar\n     - ASC\n     - ACC\n     - No revisa cliente\n\nConexiones y flujos:\n- El documento sigue un flujo desde su creador hacia el responsable de la cuenta, quien puede dirigirlo hacia el jefe o ingenieros de proyecto.",
       "nivel": "child",
-      "parent_id": "cf171fbb-419c-4e9e-ae3d-46d0e8baebe4",
+      "parent_id": "0a86b0b2-5b1c-44ed-8850-682fbf2fbe3e",
       "pagina_inicio": 10,
       "pagina_fin": 10,
       "seccion": "Circuito 1. Aprobación general de documentos",
@@ -407,10 +535,10 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2f9648d4-3676-49d9-86b8-56c3cdaa1c95",
-      "texto": "Proyecto.\n- **Admin. Proyecto**: Recibe de nuevo el documento, el cual puede ser rechazado, aprobado sin cliente (ASC), aprobado por cliente (ACC), o no revisado por el cliente, y luego es enviado al Resp. Cuenta.\n- **Fin** del proceso: Una vez que el Resp. Cuenta recibe el documento finalizado.\n\nOpciones de decisión en el proceso: \n\n- Rechazar\n- Aprobar sin cliente\n- Aprobar IUI (internamente)\n- Aprobar internamente y publicar\n- No revisa cliente\n\nEl flujo indica interacciones entre los roles para la aprobación y publicación de documentos.]",
+      "chunk_id": "bab18b1e-8637-491f-9b77-11e30087822f",
+      "texto": "- Tras esta etapa, el flujo continúa hacia el administrador del proyecto, con caminos posibles de rechazo o aprobación en varias modalidades.\n- Existe una posibilidad de finalizar el proceso directamente desde el responsable de la cuenta hacia \"FIN\".",
       "nivel": "child",
-      "parent_id": "cf171fbb-419c-4e9e-ae3d-46d0e8baebe4",
+      "parent_id": "0a86b0b2-5b1c-44ed-8850-682fbf2fbe3e",
       "pagina_inicio": 10,
       "pagina_fin": 10,
       "seccion": "Circuito 1. Aprobación general de documentos",
@@ -423,7 +551,103 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "8cc39729-87e0-4d48-9f94-b69fc067c483",
+      "chunk_id": "321d379b-086f-49c6-8d42-9cd3b753539d",
+      "texto": "Texto visible en el diagrama:\n- **Opciones para Jefe de Proyecto e Ingenieros de Proyecto:**\n  - Rechazar\n  - Aprobar sin cliente\n  - Aprobar IUI (internamente)\n  - Aprobar internamente y publicar\n\n- **Opciones para Admin. Proyecto:**\n  - Rechazar\n  - ASC\n  - ACC\n  - No revisa cliente\n\nEste diagrama ilustra un flujo de trabajo para la revisión y aprobación de un documento en el contexto de un proyecto de ingeniería.]",
+      "nivel": "child",
+      "parent_id": "0a86b0b2-5b1c-44ed-8850-682fbf2fbe3e",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Circuito 1. Aprobación general de documentos",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "64ea8173-ce0f-4f27-85d7-6a92777d672d",
+      "texto": "Circuito 2. Aprobación de las RMs (RM: REQUISICIÓN DE MATERIAL).\n\n[Descripción visual: ─── DIAGRAMA O ESQUEMA TÉCNICO ───\n\n**Tipo de diagrama:** Diagrama de flujo de proceso de aprobación de documentos.\n\n**Componentes y nodos:**\n\n1. **Creador del documento:** Inicia el proceso.\n2. **Resp. Cuenta:** Recibe el documento para encaminamiento.\n3. **Admin.",
+      "nivel": "child",
+      "parent_id": "0a86b0b2-5b1c-44ed-8850-682fbf2fbe3e",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Circuito 1. Aprobación general de documentos",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "2fe769b1-4871-47ae-8f82-18152505454f",
+      "texto": "Cuenta:** Recibe el documento para encaminamiento.\n3. **Admin. Proyecto:** Encargado de enlazar RM y opciones de decisión.\n4. **Jefe de Proyecto:** Revisa el documento.\n5. **Ingenieros de Proyecto:** Revisan el documento.\n6. **Flechas y conexiones:** Indican direccionamiento del documento entre las etapas.\n7.",
+      "nivel": "child",
+      "parent_id": "0a86b0b2-5b1c-44ed-8850-682fbf2fbe3e",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Circuito 1. Aprobación general de documentos",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "06a2e206-686b-4cfe-8db0-b9a7cd74d7d2",
+      "texto": "7. **Opciones de proceso (izquierda):** \n   - Rechazar\n   - Aprobar sin cliente\n   - Aprobar IUI (internamente)\n   - Aprobar internamente y publicar\n8.",
+      "nivel": "child",
+      "parent_id": "0a86b0b2-5b1c-44ed-8850-682fbf2fbe3e",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Circuito 1. Aprobación general de documentos",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "25fed7ce-be52-426d-a020-e75dcb27ae89",
+      "texto": "**Opciones de proceso (derecha):**\n   - Rechazar\n   - ASC (Aprobar Sin Cliente)\n   - ACC (Aprobar Con Cliente)\n   - No revisa cliente\n\n**Conexiones y flujo:**\n\n- El flujo inicia con el \"Creador del documento\" y se encamina al \"Resp. Cuenta.\"\n- De allí pasa al \"Admin. Proyecto\" para \"Enlazar RM.\"\n- Luego se dirige al \"Jefe de Proyecto\" y \"Ingenieros de Proyecto\" para revisión.",
+      "nivel": "child",
+      "parent_id": "0a86b0b2-5b1c-44ed-8850-682fbf2fbe3e",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Circuito 1. Aprobación general de documentos",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "95dae980-3c3e-4b3c-9275-75f783c9883b",
+      "texto": "- Finalmente, vuelve al \"Admin. Proyecto\" y \"Resp. Cuenta\" antes de llegar a \"FIN.\"\n\nEste diagrama proporciona el flujo y las opciones para la aprobación y publicación de documentos en un contexto de gestión de proyectos.]",
+      "nivel": "child",
+      "parent_id": "0a86b0b2-5b1c-44ed-8850-682fbf2fbe3e",
+      "pagina_inicio": 10,
+      "pagina_fin": 10,
+      "seccion": "Circuito 1. Aprobación general de documentos",
+      "tipos_elemento": [
+        "Image",
+        "NarrativeText"
+      ],
+      "es_imagen": true,
+      "dentro_de_anexo": true,
+      "tabla_degradada": false
+    },
+    {
+      "chunk_id": "e001555e-2597-4ada-a613-8b242edcdc13",
       "texto": "Atributos   o   propiedades   del   documento   a   rellenar   durante   la   importación.   También   al introducir una nueva edición del documento habrá que tener en cuenta las propiedades que han cambiado y hay que actualizar (SOMBREADAS).",
       "nivel": "parent",
       "parent_id": null,
@@ -438,7 +662,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "ab56c15408f547bfa7b3457571b5b379",
+      "chunk_id": "3d90167de93a4fe98a686f95d502c7e0",
       "texto": "| Propiedad                                                                    | Descripción                                                                                                              | Ejemplo                |\n|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|------------------------|\n| DOCUMENTO Máx 255 caracteres                                                 | Número del documento.                                                                                                    | REQ-102-EQ-F00-0       |\n| TITULO Máx 255 caracteres                                                    | Título que aparece en el documento físico.                                                                               | STORAGE SPHERES        |\n| EDICION Máx 3 caracteres                                                     | Número de la edición del documento.                                                                                      | 00                     |\n| FECHA Máx 32 caracteres                                                      | Fecha de la edición del documento físico. (Formato aconsejado: dd/mm/aaaa)                                               | 07/02/2003             |\n| EDITADO PARA Lista desplegable                                               | El objeto para el cual se edita el documento                                                                             | Petición de Oferta     |\n| AUTORES Máx 32 caracteres por autor, separados por comas                     | Nombre y apellidos del autor (en este orden), que puede ser distinto del usuario que introduce el documento en el portal | Sonia Cámara Cámara    |\n| OT Lista deplegable                                                          | Designación del Proyecto                                                                                                 | 16057-PARS Irán        |\n| DEPARTAMENTO Lista deplegable                                                | Departamento al que pertenece el documento.                                                                              | Mecánica               |\n| CLASE Lista deplegable                                                       | Clase de documento.                                                                                                      | RM / RC                |\n| ACTIVIDAD Lista deplegable                                                   | Actividad con la que está relacionada el documento                                                                       | 30 - EQUIPOS ESTÁTICOS |\n| IDIOMA Lista deplegable                                                      | idioma en el que está escrito el documento. (Por defecto español)                                                        | Inglés                 |\n| DESCRIPCION Máx 255 caracteres                                               | . Es una descripción del contenido del documento                                                                         | Requisición de Esferas |\n| PALABRAS CLAVE Máx 32 caracteres por palabra o concepto, separados por comas | Palabras que servirán para buscar y categorizar en el futuro el documento (palabras o conceptos separados por comas ',') | esferas                |",
       "nivel": "child",
       "parent_id": null,
@@ -453,8 +677,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "4cf147fd98d443b9b1323dd0f155bb42",
-      "texto": "| Actividad           | Clase           | ID documento           | Descripción                                                       | Rev | Editado para               | Fecha de Edición |\n|---------------------|-----------------|------------------------|-------------------------------------------------------------------|-----|----------------------------|------------------|\n| 00 - GENERAL        | Especificación  | 16057-IT-01            | PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán | 1   | Aprobación y/o comentarios | 03/12/2002       |\n| 00 - GENERAL        | Especificación  | 16057-IT-01 (I)        | PORTAL USE PROCEDURE - 16057 PARS Irán PROJECT                    | 1   | Aprobación y/o comentarios | 03/12/2002       |\n| 00 - GENERAL        | General         | NUMBERING & CODING SYSTEM |                                                               | 0   | Aprobación y/o comentarios | 18/12/2002       |\n| 32 - EQUIPOS ESTATICOS | Planos de Equipo | DWG-EQ-30-1001       | PROPYLENE SPHERE- 60-D-3040                                       | A   | Aprobación y/o comentarios | 05/02/2003       |\n| 32 - EQUIPOS ESTATICOS | Planos de Equipo | DWG-EQ-30-1002       | PROPYLENE SPHERE DETAILS - 60-D-3040                              | A   | Aprobación y/o comentarios | 05/02/2003       |\n| 32 - EQUIPOS ESTATICOS | Planos de Equipo | DWG-EQ-30-1005       | PROPANE SPHERE - 60-D-3030                                        | A   | Aprobación y/o comentarios | 05/02/2003       |\n| 32 - EQUIPOS ESTATICOS | Planos de Equipo | DWG-EQ-30-1006       | PROPANE SPHERE DETAILS - 60-D-3030                                | A   | Aprobación y/o comentarios | 05/02/2003       |\n| 40 - ELECTRICIDAD   | Especificación  | E-N-08                 | MOTORES ELÉCTRICOS DE INDUCCIÓN                                   | 2   |                            | 01/07/2000       |\n| 50 - INSTRUMENTACION | Especificación | EC-K-21                | ESPECIFICACIÓN GENERAL DE MONTAJE DE INSTRUMENTOS                 | 3   |                            | 01/11/1998       |",
+      "chunk_id": "a58b23fc323f4be2ad8b3908a3b4a840",
+      "texto": "| Actividad            | Clase             | ID documento         | Descripción                                               | Rev | Editado para               | Fecha de Edición |\n|----------------------|-------------------|----------------------|-----------------------------------------------------------|-----|-----------------------------|------------------|\n| 00 - GENERAL         | Especificación    | 16057-IT-01          | PROCEDIMIENTO DE USO DEL PORTAL EN EL PROYECTO 16057 - PARS Irán | 1   | Aprobación y/o comentarios | 03/12/2002       |\n| 00 - GENERAL         | Especificación    | 16057-IT-01 (I)      | PORTAL USE PROCEDURE - 16057 PARS Irán PROJECT            | 1   | Aprobación y/o comentarios | 03/12/2002       |\n| 00 - GENERAL         | General           | NUMBERING & CODING SYSTEM |                                                           | 0   | Aprobación y/o comentarios | 18/12/2002       |\n| 32 - EQUIPOS ESTATICOS   | Planos de Equipo  | DWG-EQ-30-1001      | PROPYLENE SPHERE- 60-D-3040                               | A   | Aprobación y/o comentarios | 05/02/2003       |\n| 32 - EQUIPOS ESTATICOS   | Planos de Equipo  | DWG-EQ-30-1002      | PROPYLENE SPHERE DETAILS - 60-D-3040                      | A   | Aprobación y/o comentarios | 05/02/2003       |\n| 32 - EQUIPOS ESTATICOS   | Planos de Equipo  | DWG-EQ-30-1005      | PROPANE SPHERE - 60-D-3030                                | A   | Aprobación y/o comentarios | 05/02/2003       |\n| 32 - EQUIPOS ESTATICOS   | Planos de Equipo  | DWG-EQ-30-1006      | PROPANE SPHERE DETAILS - 60-D-3030                        | A   | Aprobación y/o comentarios | 05/02/2003       |\n| 40 - ELECTRICIDAD    | Especificación    | E-N-08               | MOTORES ELÉCTRICOS DE INDUCCIÓN                           | 2   |                             | 01/07/2000       |\n| 50 - INSTRUMENTACION | Especificación    | EC-K-21              | ESPECIFICACIÓN GENERAL DE MONTAJE DE INSTRUMENTOS        | 3   |                             | 01/11/1998       |",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 12,

@@ -94,11 +94,28 @@ interface Props {
   onNewChat: () => void;
 }
 
+interface UserInfo {
+  full_name: string;
+  email: string;
+  role: string;
+}
+
+function initials(name: string): string {
+  return name
+    .split(" ")
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((w) => w[0].toUpperCase())
+    .join("");
+}
+
+
 export function Sidebar({ activeScope, onScopeChange, onNewChat }: Props) {
   const [scopes, setScopes] = useState<Scope[]>([]);
   const [loading, setLoading] = useState(true);
   const [q, setQ] = useState("");
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>({});
+  const [user, setUser] = useState<UserInfo | null>(null);
 
   useEffect(() => {
     fetchScopes()
@@ -107,6 +124,13 @@ export function Sidebar({ activeScope, onScopeChange, onNewChat }: Props) {
         setScopes([{ coleccion: "intecsa", proyecto_id: null, empresa: "intecsa", label: "Intecsa (Global)" }]);
       })
       .finally(() => setLoading(false));
+  }, []);
+
+  useEffect(() => {
+    fetch("/api/auth/me", { credentials: "same-origin" })
+      .then((r) => r.ok ? r.json() : null)
+      .then((data) => { if (data) setUser(data); })
+      .catch(() => {});
   }, []);
 
   /* Build groups */
@@ -313,20 +337,21 @@ export function Sidebar({ activeScope, onScopeChange, onNewChat }: Props) {
           display: "flex", alignItems: "center", justifyContent: "center",
           color: "#fff", fontSize: 10, fontWeight: 700, flexShrink: 0,
         }}>
-          MC
+          {user ? initials(user.full_name) : "·"}
         </div>
         <div style={{ flex: 1, minWidth: 0 }}>
           <div style={{
             fontSize: 12, color: "#EEF0F8", fontWeight: 600,
             overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
           }}>
-            María C.
+            {user?.full_name ?? "—"}
           </div>
           <div style={{
             fontSize: 10.5, color: "#7B82A0",
             fontFamily: "'JetBrains Mono', monospace",
+            overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
           }}>
-            TFG · ing. informática
+            {user?.role ?? ""}
           </div>
         </div>
         <button

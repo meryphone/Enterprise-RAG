@@ -27,6 +27,7 @@ from docling.datamodel.pipeline_options import (
     PictureDescriptionApiOptions,
 )
 
+from app.config import SETTINGS
 from app.ingestion.prompts import PROMPT_DESCRIPCION_IMAGEN
 
 
@@ -61,12 +62,14 @@ def _build_picture_desc_options() -> PictureDescriptionApiOptions:
 
 
 def _build_converter() -> DocumentConverter:
+    vision_on = SETTINGS.enable_vision
     pipeline_options = PdfPipelineOptions()
-    pipeline_options.generate_picture_images = True
-    pipeline_options.generate_page_images = True
-    pipeline_options.do_picture_description = True
-    pipeline_options.enable_remote_services = True
-    pipeline_options.picture_description_options = _build_picture_desc_options()
+    pipeline_options.generate_picture_images = vision_on
+    pipeline_options.generate_page_images = vision_on   # page images only needed for degraded-table fallback
+    pipeline_options.do_picture_description = vision_on
+    pipeline_options.enable_remote_services = vision_on
+    if vision_on:
+        pipeline_options.picture_description_options = _build_picture_desc_options()
     pipeline_options.images_scale = 3.0
     pipeline_options.do_ocr = True
     pipeline_options.do_table_structure = True

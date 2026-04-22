@@ -1,5 +1,5 @@
 {
-  "doc_id": "8fc8a6c9020c405b8adebffe16ac5b5d",
+  "doc_id": "1150ba7cf0d04f60aefa53aa6b9d5c2d",
   "nombre_fichero": "14090-IT-01-(ANEXO).pdf",
   "metadatos_admin": {
     "empresa": "interquisa",
@@ -13,11 +13,11 @@
     "edicion": null,
     "fecha_emision": null
   },
-  "fecha_ingesta": "2026-04-20T21:57:10+00:00",
+  "fecha_ingesta": "2026-04-22T17:27:06+00:00",
   "chunks": [
     {
-      "chunk_id": "97a812b5e30f4efe81a0aac989ca4517",
-      "texto": "```markdown\n| Formatos    | Acceso  |\n|-------------|---------|\n| Word o PDF  | Público |\n| PDF         | Público |\n| JPEG        | Público |\n| Word o PDF  | Público |\n| Word        | Petresa |\n|             |         |\n| Word o PDF  | Público |\n| Word o PDF  | Público |\n| Word o PDF  | Público |\n| XLS o PDF   | Público |\n| Word o PDF  | Público |\n| Word o PDF  | Público |\n|             |         |\n| Word o PDF  | Público |\n| XLS o PDF   | Público |\n| Word o PDF  | Público |\n| Word o PDF  | Público |\n| XLS o PDF   | Público |\n|             |         |\n| DWG o PDF   | Público |\n| DWG         | Público |\n| DWG o PDF   | Público |\n| DWG o PDF   | Público |\n| DWG o PDF   | Público |\n| DWG o PDF   | Público |\n```",
+      "chunk_id": "5700a502b2104bb59f127ffdaa13a887",
+      "texto": "```markdown\n| Formatos   | Acceso  |\n|------------|---------|\n| Word o PDF | Público |\n| PDF        | Público |\n| JPEG       | Público |\n| Word o PDF | Público |\n| Word       | Petresa |\n|            |         |\n| Word o PDF | Público |\n| Word o PDF | Público |\n| Word o PDF | Público |\n| XLS o PDF  | Público |\n| Word o PDF | Público |\n| Word o PDF | Público |\n|            |         |\n| Word o PDF | Público |\n| XLS o PDF  | Público |\n| Word o PDF | Público |\n| Word o PDF | Público |\n| XLS o PDF  | Público |\n|            |         |\n| DWG o PDF  | Público |\n| DWG        | Público |\n| DWG o PDF  | Público |\n| DWG o PDF  | Público |\n| DWG o PDF  | Público |\n| DWG o PDF  | Público |\n```",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 8,
@@ -31,7 +31,7 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "f41d8bf693d5482c917af2b3a9ddf286",
+      "chunk_id": "f0bf5251a7bf4424b0b3cd474db3b4c7",
       "texto": "```markdown\n| Formatos   | Acceso  |\n|------------|---------|\n| PDF        | Público |\n| PDF        | Público |\n| PDF        | Público |\n| PDF        | Público |\n|            |         |\n| Word       | Público |\n| Word       | Público |\n| XLS        | Público |\n| Word       | Público |\n| XLS        | Público |\n| XLS        | Público |\n|            |         |\n| Word       | Público |\n| Word       | Público |\n| Word       | Público |\n| Word       | Público |\n| DGN, PDF   | Público |\n|            |         |\n| XLS,PDF    | Público |\n| DOC,PDF    | Público |\n| DOC, PDF   | Público |\n```",
       "nivel": "child",
       "parent_id": null,
@@ -46,8 +46,8 @@
       "tabla_degradada": false
     },
     {
-      "chunk_id": "2359b7051a594650a7e9e8e919099b4f",
-      "texto": "```markdown\n| Formatos            | Acceso  |\n|---------------------|---------|\n| XLS,PDF             | Público |\n| DOC,XLS,DWG,PDF     | Público |\n| XLS,PDF             | Público |\n| DWG, PDF            | Público |\n| DWG, PDF            | Público |\n| DOC/PDF             | Público |\n| XLS                 | Público |\n| DWG, PDF            | Público |\n|                     |         |\n| Word                | Público |\n| BOQ o XLS           | Público |\n|                     |         |\n| DWG o PDF           | Público |\n| DWG o PDF           | Público |\n|                     |         |\n| xls                 | Público |\n| Word o PDF          | Público |\n| Word o PDF          | Público |\n| DWG, PDF, word, xls | Público |\n|                     |         |\n| EDIFICIOS y TAR     |         |\n|                     |         |\n| PDF                 | Público |\n```",
+      "chunk_id": "8ff5b02941a843e6be7f82721b2bb730",
+      "texto": "```markdown\n| Formatos            | Acceso  |\n|---------------------|---------|\n| XLS,PDF             | Público |\n| DOC,XLS,DWG,PDF     | Público |\n| XLS,PDF             | Público |\n| DWG, PDF            | Público |\n| DWG, PDF            | Público |\n| DOC/PDF             | Público |\n| XLS                 | Público |\n| DWG, PDF            | Público |\n| Word                | Público |\n| BOQ o XLS           | Público |\n| DWG o PDF           | Público |\n| DWG o PDF           | Público |\n| xls                 | Público |\n| Word o PDF          | Público |\n| Word o PDF          | Público |\n| DWG, PDF, word, xls | Público |\n|                     |         |\n| PDF                 | Público |\n```",
       "nivel": "child",
       "parent_id": null,
       "pagina_inicio": 10,
