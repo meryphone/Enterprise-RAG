@@ -103,7 +103,7 @@ export function ChatArea({ scope }: Props) {
   const handleSend = useCallback((text: string) => {
     if (!text.trim() || streaming) return;
     setInput("");
-    runQuery(text, false);
+    runQuery(text);
   }, [streaming, runQuery]);
 
   const handleSuggest = useCallback((q: string) => {

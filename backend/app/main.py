@@ -17,7 +17,7 @@ from app.rag.retrieval import invalidar_cache_bm25
 
 # Load .env.seed so seed passwords are available before the startup event.
 # override=False: env vars already set (e.g. by tests) are not overwritten.
-_seed_env = os.path.join(os.path.dirname(__file__), "..", "..", ".env.seed")
+_seed_env = os.path.join(os.path.dirname(__file__), "..", ".env.seed")
 load_dotenv(_seed_env, override=False)
 
 logger = logging.getLogger(__name__)

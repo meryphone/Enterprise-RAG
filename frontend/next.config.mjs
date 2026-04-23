@@ -5,7 +5,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  swcMinify: false,
   async rewrites() {
     // Proxy /api/* → FastAPI backend (localhost:8000).
     // Next.js API routes under app/api/ take precedence over these rewrites,
