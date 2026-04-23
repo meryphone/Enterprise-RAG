@@ -300,7 +300,7 @@ function LoginForm() {
           entorno: beta · corp
         </span>
         <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: 10.5, color: C.ink400 }}>
-          es · 22/04/2026
+          es · {new Date().toLocaleDateString("es-ES", { day: "2-digit", month: "2-digit", year: "numeric" })}
         </span>
       </div>
 
