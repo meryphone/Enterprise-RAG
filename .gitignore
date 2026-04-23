@@ -163,6 +163,7 @@ cython_debug/
 # Datos y outputs generados
 data/chroma_db/
 data/parsed/
+data/
 *.sqlite
 default.sqlite
 nohup.out
