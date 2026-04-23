@@ -166,6 +166,10 @@ data/parsed/
 *.sqlite
 default.sqlite
 nohup.out
+cloudflare/
+
+# IDE
+.vscode/
 
 # Secretos — nunca subir al repo
 .env.*
