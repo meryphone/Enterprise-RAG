@@ -207,6 +207,44 @@ data: {"type": "error",   "message": "..."}    ← solo si falla el LLM
 
 ---
 
+## Autenticación
+
+**Ficheros:** `app/auth/models.py` · `app/auth/dependencies.py` · `app/auth/router.py` · `app/auth/seed.py`
+
+### Base de datos — SQLite
+
+**Por qué SQLite y no Postgres/MySQL:** el sistema de autenticación es minimalista por diseño — beta con un número fijo y pequeño de usuarios (4). SQLite elimina cualquier dependencia externa: no hay servidor de BD que levantar, no hay que configurar credenciales de conexión, y el fichero `data/auth.sqlite` se crea automáticamente al arrancar. En Azure, si se necesita escalar, la migración a Postgres es trivial porque el acceso está encapsulado en `models.py`.
+
+**Esquema:** una única tabla `users`:
+
+```sql
+CREATE TABLE users (
+    id               INTEGER PRIMARY KEY AUTOINCREMENT,
+    email            TEXT    UNIQUE NOT NULL,
+    hashed_password  TEXT    NOT NULL,
+    full_name        TEXT    NOT NULL,
+    role             TEXT    NOT NULL DEFAULT 'user'
+)
+```
+
+`INSERT OR IGNORE` en el seed hace la operación idempotente — arrancar el servidor varias veces no duplica usuarios.
+
+**Hashing:** bcrypt con factor de coste 12 (`bcrypt.gensalt(12)`). Las contraseñas nunca se almacenan en texto plano. `verify_password` usa `bcrypt.checkpw` con tiempo constante para evitar timing attacks.
+
+### JWT
+
+**Por qué JWT y no sesiones con estado:** el backend es stateless (no mantiene sesión en memoria ni en BD), lo que simplifica el despliegue en Azure Container Apps donde puede haber múltiples réplicas. El token incluye `sub` (email) y `role` — suficiente para autorizar cualquier endpoint sin consultar la BD en cada request.
+
+**Dos duraciones:** 8 horas (sesión normal) o 7 días (`remember: true`). Firmados con HMAC-SHA256 usando `AUTH_SECRET` del `.env`.
+
+**Dos transportes:** `require_auth` en `dependencies.py` acepta Bearer token (clientes API/curl) y httpOnly cookie `auth_token` (browser via Next.js). Bearer tiene precedencia cuando ambos están presentes. La cookie la establece la ruta Next.js `/api/auth/login` (no el backend directamente), lo que permite que el frontend mantenga la sesión sin exponer el token al JavaScript de la página.
+
+### Seed de usuarios
+
+`seed.py` se ejecuta en el evento `startup` de FastAPI (saltado si `TESTING=1`). Lee todos los datos de usuario desde variables de entorno cargadas de `backend/.env.seed` (gitignoreado). El formato es `SEED_EMAIL_N`, `SEED_NAME_N`, `SEED_ROLE_N`, `SEED_PWD_N` para N = 1..4. Si alguna variable falta, el arranque falla con un `RuntimeError` explícito que indica qué variable añadir.
+
+---
+
 ## Pendiente de implementar
 
 **Query Router** — infiere automáticamente el scope (corpus global vs proyecto) a partir de la pregunta. Incluye extractor de entidades, clasificador con umbral de confianza, pregunta de clarificación cuando la confianza es baja, y topbar en el frontend mostrando el scope inferido con opción de corrección manual.

@@ -2,7 +2,7 @@
 
 > **A corporate Retrieval-Augmented Generation (RAG) system for querying engineering procedures and client methodologies.**
 > 
-> ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg) ![Next.js](https://img.shields.io/badge/Next.js-14-black.svg) ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg) ![ChromaDB](https://img.shields.io/badge/ChromaDB-Cloud-orange.svg) ![License](https://img.shields.io/badge/License-Proprietary-red.svg)
+> ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg) ![Next.js](https://img.shields.io/badge/Next.js-15-black.svg) ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg) ![ChromaDB](https://img.shields.io/badge/ChromaDB-Cloud-orange.svg) ![License](https://img.shields.io/badge/License-Proprietary-red.svg)
 
 ## Overview
 
@@ -86,6 +86,42 @@ npm run dev
 # Ingest the entire corpus
 python backend/scripts/ingest_beta.py
 ```
+
+## Usage Guide
+
+### Logging in
+
+Open `http://localhost:3000` in your browser. You will be redirected to the login page. Enter the email and password assigned to you by the administrator. Two session lengths are available: 8 hours (default) or 7 days ("remember me").
+
+### Selecting a scope
+
+The left sidebar lists the available document collections:
+
+- **General (Intecsa)** — the company-wide corpus of general procedures and work instructions.
+- **Project scopes** — one entry per client project, grouped by company name.
+
+Click any scope to load it. The chat history clears automatically when you switch.
+
+### Asking a question
+
+Type your question in the input box at the bottom and press **Enter** or the send button. The answer streams token-by-token. You can ask in Spanish or English — the system is multilingual.
+
+Tips:
+- Reference document codes explicitly when you know them (e.g. *"¿qué dice el PR-02 sobre…?"*) for the most precise retrieval.
+- For general questions, plain natural language works best.
+
+### Reading source chips
+
+Once the answer is complete, blue chips appear below it — one per source chunk used. Hover over a chip to see the document title, section, and page range. Amber chips indicate the source is from an annex.
+
+### Roles
+
+| Role | Capabilities |
+|------|-------------|
+| `user` | Query all scopes they have access to. |
+| `admin` | Same as user. Reserved for future admin endpoints (document upload, user management). |
+
+---
 
 ## Ingestion Pipeline
 
