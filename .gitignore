@@ -161,8 +161,8 @@ cython_debug/
 #.idea/
 
 # Datos y outputs generados
-data/chroma_db/
-data/parsed/
+data/*
+!data/.gitkeep
 *.sqlite
 default.sqlite
 nohup.out
