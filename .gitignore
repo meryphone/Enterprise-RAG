@@ -168,8 +168,9 @@ default.sqlite
 nohup.out
 cloudflare/
 
-# IDE
+# IDE y herramientas locales
 .vscode/
+.claude/
 
 # Secretos — nunca subir al repo
 .env.*
