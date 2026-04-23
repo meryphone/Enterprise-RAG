@@ -172,7 +172,7 @@ data: {"type": "error",   "message": "..."}    ← on LLM failure
 ```bash
 curl -s -X POST http://localhost:8000/auth/login \
   -H "Content-Type: application/json" \
-  -d '{"email":"admin@empresa.com","password":"<SEED_PWD_MARIA_CAPILLA>"}' \
+  -d '{"email":"admin@empresa.com","password":"<SEED_PWD>"}' \
   | jq .access_token
 ```
 ---
