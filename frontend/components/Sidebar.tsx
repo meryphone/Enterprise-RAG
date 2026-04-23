@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { fetchScopes } from "@/lib/api";
-import type { Scope } from "@/lib/types";
+import type { Scope, UserInfo } from "@/lib/types";
 
 /* ── Inline SVG icons ─────────────────────────────────────── */
 const ISearch = () => (
@@ -92,12 +92,7 @@ interface Props {
   activeScope: Scope;
   onScopeChange: (scope: Scope) => void;
   onNewChat: () => void;
-}
-
-interface UserInfo {
-  full_name: string;
-  email: string;
-  role: string;
+  user: UserInfo | null;
 }
 
 function initials(name: string): string {
@@ -110,12 +105,11 @@ function initials(name: string): string {
 }
 
 
-export function Sidebar({ activeScope, onScopeChange, onNewChat }: Props) {
+export function Sidebar({ activeScope, onScopeChange, onNewChat, user }: Props) {
   const [scopes, setScopes] = useState<Scope[]>([]);
   const [loading, setLoading] = useState(true);
   const [q, setQ] = useState("");
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>({});
-  const [user, setUser] = useState<UserInfo | null>(null);
 
   useEffect(() => {
     fetchScopes()
@@ -124,13 +118,6 @@ export function Sidebar({ activeScope, onScopeChange, onNewChat }: Props) {
         setScopes([{ coleccion: "intecsa", proyecto_id: null, empresa: "intecsa", label: "Intecsa (Global)" }]);
       })
       .finally(() => setLoading(false));
-  }, []);
-
-  useEffect(() => {
-    fetch("/api/auth/me", { credentials: "same-origin" })
-      .then((r) => r.ok ? r.json() : null)
-      .then((data) => { if (data) setUser(data); })
-      .catch(() => {});
   }, []);
 
   /* Build groups */

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from "react";
 import { streamQuery } from "@/lib/api";
-import type { Message, Scope, SourceRef } from "@/lib/types";
+import type { Message, Scope, SourceRef, UserInfo } from "@/lib/types";
 import { ChatMessage } from "./ChatMessage";
 import { Topbar, type SystemStatus } from "./Topbar";
 import { Composer } from "./Composer";
@@ -10,13 +10,14 @@ import { EmptyState } from "./EmptyState";
 
 interface Props {
   scope: Scope;
+  user: UserInfo | null;
 }
 
 function nowStr(): string {
   return new Date().toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" });
 }
 
-export function ChatArea({ scope }: Props) {
+export function ChatArea({ scope, user }: Props) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [streaming, setStreaming] = useState(false);
@@ -149,6 +150,7 @@ export function ChatArea({ scope }: Props) {
               <ChatMessage
                 key={msg.id}
                 message={msg}
+                user={user}
               />
             ))}
             <div ref={bottomRef} style={{ height: 4 }} />

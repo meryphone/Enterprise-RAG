@@ -1,6 +1,6 @@
 "use client";
 
-import type { Message, SourceRef } from "@/lib/types";
+import type { Message, SourceRef, UserInfo } from "@/lib/types";
 import { SourceChip } from "./SourceChip";
 
 function renderMarkdown(text: string): React.ReactNode[] {
@@ -58,6 +58,17 @@ function ActionBtn({
 
 interface Props {
   message: Message;
+  user: UserInfo | null;
+}
+
+function initials(name: string): string {
+  return name.split(" ").filter(Boolean).slice(0, 2).map((w) => w[0].toUpperCase()).join("");
+}
+
+function shortName(name: string): string {
+  const parts = name.split(" ").filter(Boolean);
+  if (parts.length < 2) return parts[0] ?? "";
+  return `${parts[0]} ${parts[1][0]}.`;
 }
 
 function limpiarMarcadores(texto: string): string {
@@ -70,7 +81,7 @@ function parsearRefsUsadas(texto: string): Set<number> {
   return refs;
 }
 
-export function ChatMessage({ message }: Props) {
+export function ChatMessage({ message, user }: Props) {
   const isUser = message.role === "user";
   const ts = message.timestamp ?? "";
 
@@ -105,14 +116,14 @@ export function ChatMessage({ message }: Props) {
             display: "flex", alignItems: "center", gap: 8, justifyContent: "flex-end",
             marginBottom: 4, fontSize: 10.5, color: "var(--ink-400)",
           }}>
-            <span>María C.</span>
+            <span>{user ? shortName(user.full_name) : "—"}</span>
             {ts && <span style={{ fontFamily: "'JetBrains Mono', monospace" }}>{ts}</span>}
             <div style={{
               width: 18, height: 18, borderRadius: 3,
               background: "linear-gradient(180deg,#24358A,#1B2A6B)",
               display: "inline-flex", alignItems: "center", justifyContent: "center",
               color: "#fff", fontSize: 9, fontWeight: 700,
-            }}>MC</div>
+            }}>{user ? initials(user.full_name) : "?"}</div>
           </div>
           <div style={{
             background: "var(--navy-700)", color: "#FFFFFF",
