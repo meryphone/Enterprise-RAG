@@ -109,6 +109,7 @@ Type your question in the input box at the bottom and press **Enter** or the sen
 Tips:
 - Reference document codes explicitly when you know them (e.g. *"¿qué dice el PR-02 sobre…?"*) for the most precise retrieval.
 - For general questions, plain natural language works best.
+- The more precise the question, the better the answer.
 
 ### Reading source chips
 
