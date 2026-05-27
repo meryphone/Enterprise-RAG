@@ -3,6 +3,9 @@
 Instrumenta el pipeline de query, ejecuta el banco de queries de prueba
 y lanza el dashboard TruLens en http://localhost:8501
 
+Las preguntas se cargan desde eval_questions.json (junto a este script)
+o desde la ruta indicada con --questions.
+
 Requisitos:
     pip install trulens trulens-providers-openai
 
@@ -19,6 +22,9 @@ Uso:
     # Filtrar por proyecto (None = corpus global Intecsa)
     python scripts/eval_trulens.py --proyecto 13187 --empresa repsol
 
+    # Usar un fichero de preguntas alternativo
+    python scripts/eval_trulens.py --questions /ruta/mis_preguntas.json
+
 Métricas evaluadas (tríada RAG):
     context_relevance  ¿es el contexto recuperado relevante para la pregunta?
     answer_relevance   ¿es la respuesta relevante para la pregunta?
@@ -34,6 +40,7 @@ import time
 from pathlib import Path
 
 BACKEND_DIR = Path(__file__).resolve().parent.parent
+QUESTIONS_FILE = Path(__file__).resolve().parent / "eval_questions.json"
 sys.path.insert(0, str(BACKEND_DIR))
 
 os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")
@@ -50,71 +57,26 @@ from app.rag.vector_store import nombre_coleccion  # noqa: E402
 
 # ── Banco de queries de prueba ────────────────────────────────────────────────
 
-QUERIES: list[dict] = [
-    # ── Corpus global Intecsa (7 queries) ────────────────────────────────────
-    # PR-01: organización matricial, Jefe de Proyecto
-    {
-        "pregunta": "¿Qué tipo de organización se usa para gestionar proyectos?",
-        "proyecto_id": None,
-        "empresa": "intecsa",
-    },
-    # PR-02: aprobación por Dirección General, distribución grupos A-J
-    {
-        "pregunta": "¿Quién aprueba los Procedimientos Generales?",
-        "proyecto_id": None,
-        "empresa": "intecsa",
-    },
-    # PR-05: umbral 5 millones de pesetas para firma de Dirección General
-    {
-        "pregunta": "¿A partir de qué coste de preparación de oferta se necesita la firma de Dirección General?",
-        "proyecto_id": None,
-        "empresa": "intecsa",
-    },
-    # PR-08: umbral 12.000 € / 1.200.000 € para aprobación, servidor DATOSPR
-    {
-        "pregunta": "¿Dónde se almacenan los ficheros de los proyectos en las oficinas locales?",
-        "proyecto_id": None,
-        "empresa": "intecsa",
-    },
-    # PR-08-ANEXO-III: permisos por rol
-    {
-        "pregunta": "¿Qué permisos tiene DRA en la disciplina de Mecánica?",
-        "proyecto_id": None,
-        "empresa": "intecsa",
-    },
-    # PR-09: residuos, fluorescentes máximo 6 meses, pilas hasta 30 kg
-    {
-        "pregunta": "¿Cuánto tiempo pueden almacenarse los fluorescentes antes de su retirada?",
-        "proyecto_id": None,
-        "empresa": "intecsa",
-    },
-    # PR-09: variación consumo eléctrico
-    {
-        "pregunta": "¿Qué variación en el consumo eléctrico obliga a investigar su causa?",
-        "proyecto_id": None,
-        "empresa": "intecsa",
-    },
+def _cargar_queries(ruta: Path = QUESTIONS_FILE) -> list[dict]:
+    """Carga las queries desde el fichero JSON. Cada entrada debe tener
+    'pregunta', 'proyecto_id' y 'empresa'. Los campos extra (fuente, nota)
+    se ignoran en la evaluación."""
+    if not ruta.exists():
+        print(
+            f"[ERROR] Fichero de preguntas no encontrado: {ruta}\n"
+            f"Crea el fichero o pasa --questions para indicar otra ruta.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    with ruta.open(encoding="utf-8") as fh:
+        datos = json.load(fh)
+    if not isinstance(datos, list):
+        print("[ERROR] El fichero de preguntas debe ser un array JSON.", file=sys.stderr)
+        sys.exit(1)
+    return datos
 
-    # ── Proyecto Repsol 13187 (3 queries) ────────────────────────────────────
-    # IT-01: acceso Intranet equipo / Internet proveedores, copia diaria
-    {
-        "pregunta": "¿Qué usuarios acceden al portal por Internet y cuáles por Intranet?",
-        "proyecto_id": "13187",
-        "empresa": "repsol",
-    },
-    # IT-02: estados ASC, ACC, No Aprobado
-    {
-        "pregunta": "¿Qué significa que un documento tiene el estado ACC?",
-        "proyecto_id": "13187",
-        "empresa": "repsol",
-    },
-    # IT-02: documentos Tipiel Colombia auto-aprobados
-    {
-        "pregunta": "¿Cuándo se auto-aprueba un documento sin necesidad de aprobación del cliente?",
-        "proyecto_id": "13187",
-        "empresa": "repsol",
-    },
-]
+
+QUERIES: list[dict] = _cargar_queries()
 
 
 # ── Pipeline instrumentable ───────────────────────────────────────────────────
@@ -324,10 +286,16 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--proyecto",      default=None)
     parser.add_argument("--empresa",       default="intecsa")
+    parser.add_argument("--questions",     default=None, metavar="RUTA",
+                        help="Ruta al fichero JSON de preguntas (por defecto: eval_questions.json junto a este script)")
     parser.add_argument("--reset",         action="store_true", help="Borrar evaluaciones previas")
     parser.add_argument("--no-dashboard",  action="store_true", help="No lanzar dashboard web")
     parser.add_argument("--debug",         action="store_true", help="Mostrar queries reescritas, chunks y contexto")
     args = parser.parse_args()
+
+    if args.questions:
+        global QUERIES
+        QUERIES = _cargar_queries(Path(args.questions))
 
     if args.debug:
         import logging as _logging

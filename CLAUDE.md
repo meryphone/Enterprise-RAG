@@ -1,23 +1,21 @@
 # CLAUDE.md — IntecsaRAG Beta
 
-Sistema RAG corporativo para Intecsa (ingeniería industrial). Permite a los empleados consultar en lenguaje natural los procedimientos generales de la empresa y documentos de proyectos con clientes. TFG de Ingeniería Informática — despliegue final en Azure (licencia Microsoft).
+Sistema RAG corporativo para Intecsa (ingeniería industrial). Permite a los empleados consultar en lenguaje natural los procedimientos generales de la empresa y documentos de proyectos con clientes. TFG de Ingeniería Informática.
 
 ---
 
 ## Stack
 
-| Componente | Dev local | Producción (Azure) |
-|---|---|---|
-| LLM | OpenAI GPT-4o (API directa) | Azure OpenAI Service |
-| Embeddings | `text-embedding-3-large` (3072 dims) | Azure OpenAI Embeddings |
-| Vector store | ChromaDB Cloud | Azure AI Search |
-| Parser | Docling (IBM, 2024) | Docling |
-| Reranker | Cohere `rerank-multilingual-v3.0` | Cohere (igual) |
-| BM25 | `rank-bm25` en memoria | `rank-bm25` o BM25 nativo Azure AI Search |
-| Backend | FastAPI + uvicorn | Azure Container Apps |
-| Frontend | Next.js 14 + shadcn/ui | Azure Static Web Apps |
-
-Mismo modelo de embeddings en dev y producción: los vectores son compatibles y no hay que reindexar al migrar.
+| Componente | Tecnología |
+|---|---|
+| LLM | OpenAI GPT-4o |
+| Embeddings | `text-embedding-3-large` (3072 dims) |
+| Vector store | ChromaDB Cloud |
+| Parser | Docling (IBM, 2024) |
+| Reranker | Cohere `rerank-multilingual-v3.0` |
+| BM25 | `rank-bm25` en memoria |
+| Backend | FastAPI + uvicorn |
+| Frontend | Next.js 14 + shadcn/ui |
 
 ---
 
@@ -35,7 +33,7 @@ PDF → DoclingDocument → [ElementoProcesado] → [Chunk] → ChromaDB
 
 **Cómo:** `parser.py` llama a `DocumentConverter` de Docling con `do_ocr=True`, `images_scale=2.0`, `TableFormerMode.ACCURATE`. Extrae el título del documento con regex sobre los primeros 35 items (primer `SectionHeaderItem` que supera filtros de longitud y charset) y la edición con el patrón `EDICION/EDITION`. Sin llamadas a API en esta fase.
 
-La GTX 960M (CUDA CC 5.0) no es compatible con PyTorch 2.6+. Se fuerza CPU con `os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")` antes de importar Docling. En Azure no hay esta restricción.
+La GTX 960M (CUDA CC 5.0) no es compatible con PyTorch 2.6+. Se fuerza CPU con `os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")` antes de importar Docling.
 
 ### Procesado de elementos
 
@@ -82,6 +80,34 @@ El texto almacenado en ChromaDB es solo `chunk.texto`. Esta separación es clave
 Requiere reingesta cuando se modifica este formato.
 
 ChromaDB Cloud limita `col.get()` a 300 items por llamada. La indexación y el índice BM25 paginan en bloques de 300 — sin paginación el índice solo cubría el 41% del corpus.
+
+### Metadatos de los chunks
+
+**Por qué:** ChromaDB solo admite valores escalares (`str`/`int`/`float`/`bool`) en metadatos, por eso `tipos_elemento` se serializa como CSV y los `None` se mapean a `""` o `-1`. Los metadatos viajan junto al chunk y alimentan el evento `sources` del SSE (chips de fuente en el frontend), el filtrado por scope y los logs de evaluación. El texto que se embebe lleva además los prefijos `tipo_doc · codigo_doc · titulo · seccion · texto`, pero eso es input del embedding, no metadato almacenado.
+
+**Fichero:** `rag/vector_store.py::_meta_chunk()`
+
+| Campo | Origen | Finalidad |
+|---|---|---|
+| `doc_id` | extraído (ingesta) | Identificador único del documento. Permite borrar/reindexar por fichero. |
+| `nombre_fichero` | extraído (ingesta) | Nombre del PDF original. Usado para mostrar la fuente y para el futuro filtro por código explícito. |
+| `titulo_documento` | extraído (parser Docling) | Título detectado en los primeros items del PDF. Se muestra en el tooltip del chip. |
+| `version` | extraído (parser, patrón `EDICION/EDITION`) | Edición del documento. Mostrado en el chip de fuente. |
+| `fecha_emision` | extraído (parser) | Fecha del documento. Informativa para el usuario. |
+| `fecha_ingesta` | extraído (ingesta) | Cuándo se indexó. Trazabilidad y auditoría. |
+| `empresa` | **administrador** | Define el scope del corpus. `intecsa` = global; otro valor = cliente. |
+| `proyecto_id` | **administrador** | Vacío para corpus global; identifica el proyecto en colecciones de cliente. |
+| `tipo_doc` | **administrador** | Procedimiento, instrucción, etc. Embebido como prefijo y mostrado al usuario. |
+| `idioma` | **administrador** | ISO del idioma. Reservado para filtrado multilingüe futuro. |
+| `anexo_de` | **administrador** | Código del documento padre si el fichero es un anexo separado. |
+| `nivel` | derivado (chunker) | `"child"` o `"parent"`. Distingue chunks indexados con embedding de los recuperados por ID. |
+| `parent_id` | derivado (chunker) | ID del parent al que pertenece el child. Vacío en tablas y parents huérfanos (no requieren expansión). |
+| `pagina_inicio` / `pagina_fin` | extraído (parser) | Rango de páginas del chunk. `-1` si desconocido. Mostrado en el chip. |
+| `seccion` | extraído (parser, `seccion_actual`) | Título de la sección activa al procesar el elemento. Embebido como prefijo. |
+| `tipos_elemento` | derivado (chunker) | CSV con los tipos agregados en el chunk (texto, tabla, imagen). Diagnóstico. |
+| `es_imagen` | derivado (elementos) | El chunk fusiona descripción de imagen con texto adyacente. |
+| `dentro_de_anexo` | derivado (elementos, flag `ANEXO/APPENDIX/ANNEX`) | El chunk está bajo una cabecera de anexo. Activa el chip ámbar en el frontend. |
+| `tabla_degradada` | derivado (elementos) | La tabla se procesó con GPT-4o vision por fallo de extracción de Docling. Diagnóstico de calidad. |
 
 ---
 
@@ -179,7 +205,7 @@ data: {"type": "error",   "message": "..."}    ← solo si falla el LLM
 
 ### Decisiones de implementación
 
-**Babel en lugar de SWC:** Node.js 18.19.1 en dev local es incompatible con el binario SWC de Next.js 14 (SIGBUS al cargar el `.node` nativo). Se usa Babel (`next/babel` en `.babelrc`) con `@babel/runtime` instalado localmente para evitar que webpack resuelva la versión del sistema en `/usr/share/nodejs/`. En producción (Azure, Node 20+) se puede eliminar `.babelrc`.
+**Babel en lugar de SWC:** Node.js 18.19.1 en dev local es incompatible con el binario SWC de Next.js 14 (SIGBUS al cargar el `.node` nativo). Se usa Babel (`next/babel` en `.babelrc`) con `@babel/runtime` instalado localmente para evitar que webpack resuelva la versión del sistema en `/usr/share/nodejs/`.
 
 **`fetch` en lugar de `EventSource`:** `EventSource` no admite POST con body. El streaming SSE se lee con `ReadableStreamDefaultReader` en `lib/api.ts::streamQuery()`, parseando líneas `data: {...}` del buffer.
 
@@ -213,7 +239,7 @@ data: {"type": "error",   "message": "..."}    ← solo si falla el LLM
 
 ### Base de datos — SQLite
 
-**Por qué SQLite y no Postgres/MySQL:** el sistema de autenticación es minimalista por diseño — beta con un número fijo y pequeño de usuarios (4). SQLite elimina cualquier dependencia externa: no hay servidor de BD que levantar, no hay que configurar credenciales de conexión, y el fichero `data/auth.sqlite` se crea automáticamente al arrancar. En Azure, si se necesita escalar, la migración a Postgres es trivial porque el acceso está encapsulado en `models.py`.
+**Por qué SQLite y no Postgres/MySQL:** el sistema de autenticación es minimalista por diseño — beta con un número fijo y pequeño de usuarios (4). SQLite elimina cualquier dependencia externa: no hay servidor de BD que levantar, no hay que configurar credenciales de conexión, y el fichero `data/auth.sqlite` se crea automáticamente al arrancar.
 
 **Esquema:** una única tabla `users`:
 
@@ -233,7 +259,7 @@ CREATE TABLE users (
 
 ### JWT
 
-**Por qué JWT y no sesiones con estado:** el backend es stateless (no mantiene sesión en memoria ni en BD), lo que simplifica el despliegue en Azure Container Apps donde puede haber múltiples réplicas. El token incluye `sub` (email) y `role` — suficiente para autorizar cualquier endpoint sin consultar la BD en cada request.
+**Por qué JWT y no sesiones con estado:** el backend es stateless (no mantiene sesión en memoria ni en BD). El token incluye `sub` (email) y `role` — suficiente para autorizar cualquier endpoint sin consultar la BD en cada request.
 
 **Dos duraciones:** 8 horas (sesión normal) o 7 días (`remember: true`). Firmados con HMAC-SHA256 usando `AUTH_SECRET` del `.env`.
 

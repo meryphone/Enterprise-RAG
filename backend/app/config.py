@@ -41,6 +41,7 @@ class Settings:
     retrieval_top_n: int            # Final results returned after rerank
     retrieval_peso_vector: float    # Weight for vector score in fusion (0–1)
     retrieval_peso_bm25: float      # Weight for BM25 score in fusion (0–1)
+    enable_query_rewriting: bool    # Whether to expand the user query via GPT-4o-mini before retrieval
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -64,6 +65,7 @@ class Settings:
             retrieval_top_n=int(os.getenv("RETRIEVAL_TOP_N", "5")),
             retrieval_peso_vector=float(os.getenv("RETRIEVAL_PESO_VECTOR", "0.5")),
             retrieval_peso_bm25=float(os.getenv("RETRIEVAL_PESO_BM25", "0.5")),
+            enable_query_rewriting=os.getenv("ENABLE_QUERY_REWRITING", "1") == "1",
         )
 
 

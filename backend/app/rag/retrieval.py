@@ -167,6 +167,9 @@ def _reescribir_query(query: str) -> tuple[str, str]:
     Returns:
         Tuple of (query_vector, query_bm25).
     """
+    if not SETTINGS.enable_query_rewriting:
+        logger.info("Query rewriting deshabilitado (ENABLE_QUERY_REWRITING=0)")
+        return query, query
     try:
         client = OpenAI(api_key=SETTINGS.openai_api_key)
         resp = client.chat.completions.create(
