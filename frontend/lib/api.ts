@@ -30,6 +30,7 @@ export async function streamQuery(
   onSources: (sources: SourceRef[]) => void,
   onDone: () => void,
   onError: (msg: string) => void,
+  signal?: AbortSignal,
 ): Promise<void> {
   let res: Response;
   try {
@@ -41,8 +42,10 @@ export async function streamQuery(
         proyecto_id: scope.proyecto_id,
         empresa: scope.empresa,
       }),
+      signal,
     });
-  } catch {
+  } catch (err) {
+    if ((err as Error)?.name === "AbortError") return;
     onError("Error de autenticación o conexión.");
     return;
   }
@@ -55,26 +58,50 @@ export async function streamQuery(
   const reader = res.body.getReader();
   const decoder = new TextDecoder();
   let buffer = "";
+  let doneEmitted = false;
 
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
+  const emitDone = () => {
+    if (!doneEmitted) {
+      doneEmitted = true;
+      onDone();
+    }
+  };
 
-    buffer += decoder.decode(value, { stream: true });
-    const lines = buffer.split("\n");
-    buffer = lines.pop() ?? "";
+  const onAbort = () => {
+    reader.cancel().catch(() => {});
+  };
+  signal?.addEventListener("abort", onAbort);
 
-    for (const line of lines) {
-      if (!line.startsWith("data: ")) continue;
-      try {
-        const evt = JSON.parse(line.slice(6));
-        if (evt.type === "token") onToken(evt.content);
-        else if (evt.type === "sources") onSources(evt.sources);
-        else if (evt.type === "done") onDone();
-        else if (evt.type === "error") onError(evt.message);
-      } catch {
-        // línea malformada, ignorar
+  try {
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split("\n");
+      buffer = lines.pop() ?? "";
+
+      for (const line of lines) {
+        if (!line.startsWith("data: ")) continue;
+        try {
+          const evt = JSON.parse(line.slice(6));
+          if (evt.type === "token") onToken(evt.content);
+          else if (evt.type === "sources") onSources(evt.sources);
+          else if (evt.type === "done") emitDone();
+          else if (evt.type === "error") onError(evt.message);
+        } catch {
+          // línea malformada, ignorar
+        }
       }
     }
+  } catch (err) {
+    if ((err as Error)?.name !== "AbortError") {
+      onError("Conexión interrumpida.");
+    }
+  } finally {
+    signal?.removeEventListener("abort", onAbort);
+    // Si el backend cerró sin emitir "done" (timeout, crash) garantizamos que
+    // la UI no se quede colgada en estado de carga.
+    if (!signal?.aborted) emitDone();
   }
 }

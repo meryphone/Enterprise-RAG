@@ -37,7 +37,7 @@ def test_expandir_parents_child_con_parent():
     mock_chroma = MagicMock()
     mock_chroma.get_collection.return_value = mock_col
 
-    with patch("app.rag.query.get_chroma", return_value=mock_chroma):
+    with patch("app.rag.context_builder.get_chroma", return_value=mock_chroma):
         resultado = _expandir_parents([chunk], coleccion="intecsa")
 
     assert len(resultado) == 1
@@ -48,7 +48,7 @@ def test_expandir_parents_tabla_pasa_directa():
     """Una tabla (parent_id=='') no se expande."""
     tabla = _chunk("tabla-1", "| col1 | col2 |", nivel="child", parent_id="")
 
-    with patch("app.rag.query.get_chroma"):
+    with patch("app.rag.context_builder.get_chroma"):
         resultado = _expandir_parents([tabla], coleccion="intecsa")
 
     assert len(resultado) == 1
@@ -69,7 +69,7 @@ def test_expandir_parents_deduplica_mismo_parent():
     mock_chroma = MagicMock()
     mock_chroma.get_collection.return_value = mock_col
 
-    with patch("app.rag.query.get_chroma", return_value=mock_chroma):
+    with patch("app.rag.context_builder.get_chroma", return_value=mock_chroma):
         resultado = _expandir_parents([c1, c2], coleccion="intecsa")
 
     assert len(resultado) == 1

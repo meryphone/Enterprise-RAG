@@ -1,22 +1,22 @@
-"""GPT-4o vision calls for elements that Docling cannot represent as text.
+"""Llamadas a GPT-4o vision para elementos que Docling no puede representar como texto.
 
-Used in two scenarios:
-- Degraded tables (merged cells detected by PATRON_TABLA_DEGRADADA): the table
-  image is sent to GPT-4o with PROMPT_TABLA_DEGRADADA for a faithful Markdown
-  transcription.
-- Standalone images (when ENABLE_VISION=1): described with PROMPT_DESCRIPCION_IMAGEN.
+Se usa en dos escenarios:
+- Tablas degradadas (celdas fusionadas detectadas por PATRON_TABLA_DEGRADADA):
+  la imagen de la tabla se envía a GPT-4o con PROMPT_TABLA_DEGRADADA para
+  obtener una transcripción fiel a Markdown.
+- Imágenes standalone (cuando ENABLE_VISION=1): se describen con PROMPT_DESCRIPCION_IMAGEN.
 
-Image retrieval priority for tables:
-    1. Docling crop (item.get_image) — best quality when available.
-    2. Manual crop using the bounding box from prov on the page image.
-    3. Full page image — last resort.
+Prioridad para obtener la imagen de una tabla:
+    1. Crop de Docling (item.get_image) — mejor calidad cuando está disponible.
+    2. Crop manual usando el bounding box de prov sobre la imagen de la página.
+    3. Imagen completa de la página — último recurso.
 """
 from __future__ import annotations
 
 import base64
 import io
+import logging
 import re
-import sys
 from typing import TYPE_CHECKING
 
 from docling_core.types.doc import DoclingDocument, TableItem
@@ -28,17 +28,87 @@ from app.ingestion.prompts import PROMPT_TABLA_DEGRADADA, PROMPT_TABLA_SIN_SECCI
 if TYPE_CHECKING:
     from PIL import Image as PILImage
 
-_CROP_PADDING_PX = 30  # extra pixels around the table crop
+logger = logging.getLogger(__name__)
+
+_CROP_PADDING_PX = 30  # píxeles extra alrededor del crop de la tabla
+
+
+# ---------------------------------------------------------------------------
+# Cliente OpenAI (singleton de módulo) y helpers de bajo nivel
+# ---------------------------------------------------------------------------
+
+
+_openai_client: OpenAI | None = None
+
+
+def _get_openai_client() -> OpenAI:
+    global _openai_client
+    if _openai_client is None:
+        if not SETTINGS.openai_api_key:
+            raise RuntimeError("OPENAI_API_KEY no configurada.")
+        _openai_client = OpenAI(api_key=SETTINGS.openai_api_key)
+    return _openai_client
+
+
+def _imagen_a_base64_png(imagen: "PILImage.Image") -> str:
+    """Codifica una imagen PIL como PNG en base64 (sin el prefijo data URI)."""
+    buf = io.BytesIO()
+    imagen.save(buf, format="PNG")
+    return base64.b64encode(buf.getvalue()).decode()
+
+
+def _limpiar_code_fences(texto: str) -> str:
+    """Elimina los ``` envolventes que a veces añade el LLM."""
+    if texto.startswith("```"):
+        texto = re.sub(r"^```[a-z]*\n?", "", texto)
+        texto = re.sub(r"\n?```$", "", texto)
+    return texto.strip()
+
+
+def _llamar_vision(
+    prompt: str,
+    imagen_b64: str,
+    *,
+    max_tokens: int = 1024,
+    contexto_error: str,
+) -> str | None:
+    """Envía prompt + imagen a GPT-4o vision y devuelve el texto bruto de respuesta.
+
+    Devuelve None si la llamada falla; loguea la excepción con `contexto_error`
+    como prefijo para identificar el caller.
+    """
+    try:
+        client = _get_openai_client()
+        resp = client.chat.completions.create(
+            model=SETTINGS.llm_model,
+            messages=[{
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": prompt},
+                    {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{imagen_b64}"}},
+                ],
+            }],
+            max_tokens=max_tokens,
+        )
+        return resp.choices[0].message.content.strip()
+    except Exception:
+        logger.exception("%s falló", contexto_error)
+        return None
+
+
+# ---------------------------------------------------------------------------
+# Selección de imagen de una tabla
+# ---------------------------------------------------------------------------
 
 
 def _obtener_imagen_tabla(item: TableItem, doc: DoclingDocument) -> "PILImage.Image | None":
-    """Return the most focused image available for the table, in priority order:
+    """Devuelve la imagen más enfocada disponible para la tabla, por orden de prioridad:
 
-    1. Docling automatic crop (item.get_image) — best when it works.
-    2. Manual crop using the prov bounding box on the page image.
-    3. Full page image — last resort.
+    1. Crop automático de Docling (item.get_image) — el mejor cuando funciona.
+    2. Crop manual usando el bounding box de prov sobre la imagen de página.
+    3. Imagen completa de la página — último recurso.
     """
-    # ── 1. Docling crop ───────────────────────────────────────────────────────
+    # ── 1. Crop de Docling ───────────────────────────────────────────────────
     imagen = item.get_image(doc, prov_index=0)
     if imagen is not None:
         return imagen
@@ -59,9 +129,9 @@ def _obtener_imagen_tabla(item: TableItem, doc: DoclingDocument) -> "PILImage.Im
     if imagen_pagina is None:
         return None
 
-    # ── 2. Manual crop with bounding box ─────────────────────────────────────
-    # Docling BoundingBox uses PDF coordinates: origin bottom-left, grows upward.
-    # PIL uses origin top-left, grows downward.
+    # ── 2. Crop manual con bounding box ──────────────────────────────────────
+    # El BoundingBox de Docling usa coordenadas PDF: origen abajo-izquierda,
+    # crece hacia arriba. PIL usa origen arriba-izquierda, crece hacia abajo.
     try:
         bbox = prov.bbox
         page_size = getattr(page, "size", None)
@@ -77,116 +147,88 @@ def _obtener_imagen_tabla(item: TableItem, doc: DoclingDocument) -> "PILImage.Im
 
             if right > left and bottom > top:
                 return imagen_pagina.crop((left, top, right, bottom))
-    except Exception as e:
-        print(f"[vision] manual crop failed: {e}", file=sys.stderr)
+    except Exception:
+        logger.exception("Recorte manual de tabla falló")
 
-    # ── 3. Full page ─────────────────────────────────────────────────────────
+    # ── 3. Página completa ───────────────────────────────────────────────────
     return imagen_pagina
 
 
-def describir_tabla(item: TableItem, doc: DoclingDocument) -> str | None:
-    """Describe a degraded table via GPT-4o vision.
+# ---------------------------------------------------------------------------
+# API pública
+# ---------------------------------------------------------------------------
 
-    Returns the Markdown transcription produced by the LLM, or None if no
-    image could be obtained or the API call fails.
+
+def describir_tabla(item: TableItem, doc: DoclingDocument) -> str | None:
+    """Describe una tabla degradada vía GPT-4o vision.
+
+    Devuelve la transcripción a Markdown producida por el LLM, o None si no se
+    pudo obtener imagen o la llamada a la API falló.
 
     Args:
-        item: Docling TableItem with prov metadata.
-        doc: Parent DoclingDocument (used to retrieve page images).
-        seccion: Current section heading, used to select the prompt variant.
+        item: TableItem de Docling con metadatos prov.
+        doc: DoclingDocument padre (se usa para recuperar imágenes de página).
     """
     imagen = _obtener_imagen_tabla(item, doc)
     if imagen is None:
-        print("[vision] describir_tabla: no image available", file=sys.stderr)
+        logger.warning("describir_tabla: no se obtuvo imagen para la tabla")
         return None
 
-    buf = io.BytesIO()
-    imagen.save(buf, format="PNG")
-    b64 = base64.b64encode(buf.getvalue()).decode()
-
-    try:
-        client = OpenAI(api_key=SETTINGS.openai_api_key)
-        resp = client.chat.completions.create(
-            model=SETTINGS.llm_model,
-            messages=[{
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": PROMPT_TABLA_DEGRADADA},
-                    {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{b64}"}},
-                ],
-            }],
-            max_tokens=1024,
-        )
-        texto = resp.choices[0].message.content.strip()
-        if texto.startswith("```"):
-            texto = re.sub(r"^```[a-z]*\n?", "", texto)
-            texto = re.sub(r"\n?```$", "", texto)
-            texto = texto.strip()
-        return texto or None
-    except Exception as e:
-        print(f"[vision] describir_tabla failed: {e}", file=sys.stderr)
+    texto = _llamar_vision(
+        PROMPT_TABLA_DEGRADADA,
+        _imagen_a_base64_png(imagen),
+        contexto_error="describir_tabla",
+    )
+    if texto is None:
         return None
+    return _limpiar_code_fences(texto) or None
 
 
 def describir_tabla_sin_seccion(
     item: TableItem, doc: DoclingDocument
 ) -> tuple[str | None, str | None]:
-    """Describe a table with no preceding section heading: extract its own title + content.
+    """Describe una tabla sin cabecera de sección previa: extrae su propio título + contenido.
 
-    Useful for tables that appear without a preceding SectionHeaderItem (e.g. documents
-    whose content is entirely tabular, such as role-permission lists).
+    Útil para tablas que aparecen sin SectionHeaderItem previa (p.ej. documentos
+    cuyo contenido es enteramente tabular, como listas de roles-permisos).
 
-    Returns (texto_tabla, titulo_tabla). Either may be None if it fails.
+    Devuelve (texto_tabla, titulo_tabla). Cualquiera puede ser None si falla.
     """
     imagen = _obtener_imagen_tabla(item, doc)
     if imagen is None:
-        print("[vision] describir_tabla_sin_seccion: no image available", file=sys.stderr)
+        logger.warning("describir_tabla_sin_seccion: no se obtuvo imagen para la tabla")
         return None, None
 
-    buf = io.BytesIO()
-    imagen.save(buf, format="PNG")
-    b64 = base64.b64encode(buf.getvalue()).decode()
-
-    try:
-        client = OpenAI(api_key=SETTINGS.openai_api_key)
-        resp = client.chat.completions.create(
-            model=SETTINGS.llm_model,
-            messages=[{
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": PROMPT_TABLA_SIN_SECCION},
-                    {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{b64}"}},
-                ],
-            }],
-            max_tokens=1024,
-        )
-        respuesta = resp.choices[0].message.content.strip()
-
-        titulo: str | None = None
-        tabla_lines: list[str] = []
-        in_tabla = False
-        for line in respuesta.splitlines():
-            if line.startswith("TITULO:"):
-                titulo = line[7:].strip() or None
-            elif line.startswith("TABLA:"):
-                in_tabla = True
-            elif in_tabla:
-                tabla_lines.append(line)
-
-        texto = "\n".join(tabla_lines).strip() or None
-        print(f"[vision] tabla_sin_seccion title={titulo!r}", file=sys.stderr)
-        return texto, titulo
-    except Exception as e:
-        print(f"[vision] describir_tabla_sin_seccion failed: {e}", file=sys.stderr)
+    respuesta = _llamar_vision(
+        PROMPT_TABLA_SIN_SECCION,
+        _imagen_a_base64_png(imagen),
+        contexto_error="describir_tabla_sin_seccion",
+    )
+    if respuesta is None:
         return None, None
+
+    titulo: str | None = None
+    tabla_lines: list[str] = []
+    in_tabla = False
+    for line in respuesta.splitlines():
+        if line.startswith("TITULO:"):
+            titulo = line[7:].strip() or None
+        elif line.startswith("TABLA:"):
+            in_tabla = True
+        elif in_tabla:
+            tabla_lines.append(line)
+
+    texto = "\n".join(tabla_lines).strip() or None
+    logger.info("tabla_sin_seccion title=%r", titulo)
+    return texto, titulo
 
 
 def extraer_titulo_cabecera(doc: DoclingDocument) -> str | None:
-    """Extract the document title from the first page header via GPT-4o.
+    """Extrae el título del documento desde la cabecera de la primera página vía GPT-4o.
 
-    Fallback when the regex could not detect a title (e.g. documents whose title
-    is in a header table rather than in a SectionHeaderItem).
-    Crops the top 22% of the first page to focus on the header area.
+    Fallback cuando la regex no pudo detectar el título (p.ej. documentos cuyo
+    título está en una tabla de cabecera en vez de en un SectionHeaderItem).
+    Recorta el 22% superior de la primera página para centrarse en la cabecera.
     """
     page = doc.pages.get(1)
     if page is None:
@@ -201,26 +243,13 @@ def extraer_titulo_cabecera(doc: DoclingDocument) -> str | None:
     w, h = imagen_pagina.size
     cabecera = imagen_pagina.crop((0, 0, w, int(h * 0.22)))
 
-    buf = io.BytesIO()
-    cabecera.save(buf, format="PNG")
-    b64 = base64.b64encode(buf.getvalue()).decode()
-
-    try:
-        client = OpenAI(api_key=SETTINGS.openai_api_key)
-        resp = client.chat.completions.create(
-            model=SETTINGS.llm_model,
-            messages=[{
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": PROMPT_TITULO_CABECERA},
-                    {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{b64}"}},
-                ],
-            }],
-            max_tokens=80,
-        )
-        titulo = resp.choices[0].message.content.strip()
-        print(f"[vision] title extracted: {titulo!r}", file=sys.stderr)
-        return titulo or None
-    except Exception as e:
-        print(f"[vision] extraer_titulo_cabecera failed: {e}", file=sys.stderr)
+    titulo = _llamar_vision(
+        PROMPT_TITULO_CABECERA,
+        _imagen_a_base64_png(cabecera),
+        max_tokens=80,
+        contexto_error="extraer_titulo_cabecera",
+    )
+    if titulo is None:
         return None
+    logger.info("Título extraído: %r", titulo)
+    return titulo or None

@@ -1,219 +1,36 @@
-"""Hybrid retrieval pipeline with Cohere reranking.
+"""Pipeline de retrieval híbrido con rerank de Cohere.
 
 Pipeline:
-    1. Dual query rewriting via GPT-4o-mini → VECTOR and BM25 variants.
-    2. Dense vector search (ChromaDB, cosine) using the VECTOR query.
-    3. Sparse BM25 search (rank-bm25, in-memory) using the BM25 query.
-    4. Weighted score fusion (normalised min-max).
-    5. Optional metadata filter on ``tipo_doc``.
-    6. Cohere rerank on the top-K fusion candidates → top-N final results.
+    1. Reescritura dual de la query (`query_rewriter`).
+    2. Búsqueda vectorial densa (ChromaDB, coseno).
+    3. Búsqueda BM25 dispersa (`bm25_index`, en memoria).
+    4. Fusión ponderada de scores normalizados (min-max).
+    5. Rerank con Cohere sobre los top-K → top-N final.
+    6. Recuperación de hermanos de tabla descartados por Cohere.
 
-BM25 index is built lazily on first query per collection and cached in memory.
-Invalidate with ``invalidar_cache_bm25(coleccion)`` after re-ingesting documents.
-
-Public API: ``recuperar(query, proyecto_id, empresa, ...)``
+API pública: `recuperar(query, proyecto_id, empresa, ...)`.
 """
 from __future__ import annotations
 
 import logging
-import re
 from dataclasses import dataclass, field
 from typing import Any
 
 import cohere
 from openai import OpenAI
-from rank_bm25 import BM25Okapi
 
 from app.config import SETTINGS
-from app.ingestion.prompts import PROMPT_REESCRITURA_QUERY
+from app.rag.bm25_index import (
+    get_indice_bm25,
+    invalidar_cache_bm25,  # re-export para main.py
+    tokenizar,
+)
+from app.rag.query_rewriter import reescribir_query
 from app.rag.vector_store import get_chroma, nombre_coleccion
 
+__all__ = ["ChunkRecuperado", "recuperar", "invalidar_cache_bm25"]
+
 logger = logging.getLogger(__name__)
-
-
-# ---------------------------------------------------------------------------
-# Cache BM25 por colección (in-memory, lazy)
-# ---------------------------------------------------------------------------
-
-
-@dataclass
-class _IndiceBM25:
-    ids: list[str]
-    textos: list[str]
-    metadatas: list[dict]
-    bm25: BM25Okapi
-
-
-_cache_bm25: dict[str, _IndiceBM25] = {}
-
-
-def _tokenizar(texto: str) -> list[str]:
-    """Tokenización multilingüe que preserva códigos técnicos con guión.
-
-    Primero captura patrones tipo PR-01, IT-02, JDAP (letras+guión+dígitos),
-    luego palabras normales. Esto evita que BM25 parta 'PR-01' en 'pr' y '01'.
-    """
-    return re.findall(r"[A-Za-z]{1,6}-\d+|[A-Za-z0-9_\u00C0-\u017E]+", texto.lower())
-
-
-def _get_indice_bm25(coleccion: str) -> _IndiceBM25:
-    """Devuelve el índice BM25 de la colección, construyéndolo la primera vez.
-
-    Se hace singleton por proceso. Si se indexan nuevos documentos en la
-    colección después de construir el índice, hay que invalidar con
-    `invalidar_cache_bm25(coleccion)`.
-
-    ChromaDB Cloud limita col.get() a 300 items por llamada. Se pagina
-    en bloques de 300 hasta cargar todos los chunks.
-    """
-    if coleccion in _cache_bm25:
-        return _cache_bm25[coleccion]
-
-    chroma = get_chroma()
-    col = chroma.get_collection(name=coleccion)
-
-    _PAGE = 300
-    ids: list[str] = []
-    textos: list[str] = []
-    metadatas: list[dict] = []
-    offset = 0
-    while True:
-        data = col.get(limit=_PAGE, offset=offset)
-        batch_ids = data.get("ids") or []
-        if not batch_ids:
-            break
-        ids.extend(batch_ids)
-        textos.extend(data.get("documents") or [])
-        metas = data.get("metadatas") or [{} for _ in batch_ids]
-        metadatas.extend(metas)
-        if len(batch_ids) < _PAGE:
-            break
-        offset += _PAGE
-
-    if not textos:
-        # Colección vacía — devolver índice trivial para evitar errores
-        bm25 = BM25Okapi([[""]])
-    else:
-        tokens = []
-        for texto, meta in zip(textos, metadatas):
-            partes = []
-            # Incluir nombre_fichero (sin extensión) para que queries con
-            # código explícito (PR-02, IT-05) hagan hit directo en BM25.
-            nombre = (meta or {}).get("nombre_fichero", "") or ""
-            if nombre:
-                partes.append(nombre.replace(".pdf", "").replace("_", " "))
-            titulo = (meta or {}).get("titulo_documento", "") or ""
-            seccion = (meta or {}).get("seccion", "") or ""
-            if titulo:
-                partes.append(titulo)
-            if seccion:
-                partes.append(seccion)
-            partes.append(texto or "")
-            tokens.append(_tokenizar(" ".join(partes)))
-        bm25 = BM25Okapi(tokens)
-
-    indice = _IndiceBM25(ids=ids, textos=textos, metadatas=metadatas, bm25=bm25)
-    _cache_bm25[coleccion] = indice
-    logger.info("Índice BM25 construido para '%s' (%d docs)", coleccion, len(ids))
-    return indice
-
-
-def invalidar_cache_bm25(coleccion: str | None = None) -> None:
-    """Invalidate the in-memory BM25 index cache.
-
-    Call after indexing new documents so the next query rebuilds the index.
-
-    Args:
-        coleccion: Collection name to invalidate, or None to clear all caches.
-    """
-    if coleccion is None:
-        _cache_bm25.clear()
-    else:
-        _cache_bm25.pop(coleccion, None)
-
-
-# ---------------------------------------------------------------------------
-# Embeddings de query
-# ---------------------------------------------------------------------------
-
-
-def _embedding_query(texto: str) -> list[float]:
-    if not SETTINGS.openai_api_key:
-        raise RuntimeError("OPENAI_API_KEY no configurada.")
-    client = OpenAI(api_key=SETTINGS.openai_api_key)
-    resp = client.embeddings.create(input=[texto], model=SETTINGS.embedding_model)
-    return resp.data[0].embedding
-
-
-# ---------------------------------------------------------------------------
-# Query rewriting
-# ---------------------------------------------------------------------------
-
-
-def _reescribir_query(query: str) -> tuple[str, str]:
-    """Produce two query variants via GPT-4o-mini for hybrid retrieval.
-
-    - **VECTOR**: bilingual semantic reformulation (Spanish + English key terms)
-      for dense embedding search. Always bilingual to support cross-lingual corpora.
-    - **BM25**: keyword bag with synonym expansion and English translations for
-      lexical search.
-
-    Cohere reranking always uses the original query for maximum fidelity.
-    Falls back to the original query on any API failure.
-
-    Args:
-        query: Original user question.
-
-    Returns:
-        Tuple of (query_vector, query_bm25).
-    """
-    if not SETTINGS.enable_query_rewriting:
-        logger.info("Query rewriting deshabilitado (ENABLE_QUERY_REWRITING=0)")
-        return query, query
-    try:
-        client = OpenAI(api_key=SETTINGS.openai_api_key)
-        resp = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": PROMPT_REESCRITURA_QUERY},
-                {"role": "user", "content": query},
-            ],
-            max_tokens=180,
-            temperature=0.0,
-        )
-        texto = resp.choices[0].message.content.strip()
-        q_vector = query
-        q_bm25 = query
-        for line in texto.splitlines():
-            if line.startswith("VECTOR:"):
-                q_vector = line[len("VECTOR:"):].strip() or query
-            elif line.startswith("BM25:"):
-                q_bm25 = line[len("BM25:"):].strip() or query
-        logger.info("Query vector: %r", q_vector)
-        logger.info("Query BM25:   %r", q_bm25)
-        return q_vector, q_bm25
-    except Exception as e:
-        logger.warning("Query rewriting falló, usando query original: %s", e)
-    return query, query
-
-
-# ---------------------------------------------------------------------------
-# Normalización de scores
-# ---------------------------------------------------------------------------
-
-
-def _minmax(scores: list[float]) -> list[float]:
-    if not scores:
-        return []
-    lo, hi = min(scores), max(scores)
-    if hi == lo:
-        return [1.0] * len(scores)
-    return [(s - lo) / (hi - lo) for s in scores]
-
-
-# ---------------------------------------------------------------------------
-# API pública
-# ---------------------------------------------------------------------------
 
 
 @dataclass
@@ -233,26 +50,15 @@ def recuperar(
     query: str,
     proyecto_id: str | None,
     empresa: str = "intecsa",
-    tipo_doc: str | None = None,
     top_k: int | None = None,
     top_n: int | None = None,
     peso_vector: float | None = None,
     peso_bm25: float | None = None,
 ) -> list[ChunkRecuperado]:
-    """Retrieve the most relevant chunks for a query within the given scope.
-
-    Args:
-        query: User question in natural language (any language).
-        proyecto_id: Project code, or None for the global corpus.
-        empresa: Company identifier; defaults to "intecsa".
-        tipo_doc: Optional metadata filter (e.g. "procedimiento").
-        top_k: Candidate pool size after fusion (default from settings).
-        top_n: Final results after rerank (default from settings).
-        peso_vector: Vector score weight in fusion (default from settings).
-        peso_bm25: BM25 score weight in fusion (default from settings).
+    """Recupera los chunks más relevantes para una query dentro del scope dado.
 
     Returns:
-        List of ChunkRecuperado ordered by descending Cohere relevance score.
+        Lista de ChunkRecuperado ordenada por relevancia descendente de Cohere.
     """
     top_k = top_k if top_k is not None else SETTINGS.retrieval_top_k
     top_n = top_n if top_n is not None else SETTINGS.retrieval_top_n
@@ -260,112 +66,105 @@ def recuperar(
     peso_bm25 = peso_bm25 if peso_bm25 is not None else SETTINGS.retrieval_peso_bm25
 
     coleccion = nombre_coleccion(empresa, proyecto_id)
-    where = {"tipo_doc": tipo_doc} if tipo_doc else None
+    query_vector, query_bm25 = reescribir_query(query)
 
-    # Vector usa la reformulación semántica; BM25 usa la bolsa de palabras.
-    # Rerank usa la query original para máxima fidelidad a la intención.
-    query_vector, query_bm25 = _reescribir_query(query)
+    # ── 1. Recuperación dual ────────────────────────────────────────────
+    cache_docs, scores_vec_por_id = _buscar_vectorial(coleccion, query_vector, top_k)
+    scores_bm25_por_id = _buscar_bm25(coleccion, query_bm25, top_k, cache_docs)
 
-    chroma = get_chroma()
-    col = chroma.get_collection(name=coleccion)
-
-    # ── 1. Búsqueda vectorial (reformulación semántica) ──────────────────
-    emb = _embedding_query(query_vector)
-    res_vec = col.query(
-        query_embeddings=[emb],
-        n_results=top_k,
-        where=where,
-    )
-    ids_vec: list[str] = res_vec["ids"][0] if res_vec["ids"] else []
-    docs_vec: list[str] = res_vec["documents"][0] if res_vec["documents"] else []
-    metas_vec: list[dict] = res_vec["metadatas"][0] if res_vec["metadatas"] else []
-    # Pasamos de distancia del coseno en [0, 2] → similitud en [-1, 1] con 1 = idéntico (por estándar)
-    scores_vec = [1.0 - d for d in (res_vec["distances"][0] if res_vec["distances"] else [])]
-
-    # ── 2. Búsqueda BM25 ─────────────────────────────────────────────────
-    indice = _get_indice_bm25(coleccion)
-
-    def _pasa_filtro(i: int) -> bool:
-    # Sin filtro → todos los chunks son válidos
-        if not where:
-            return True
-
-        # Metadatos del chunk i (diccionario vacío si no tiene)
-        metadatos = indice.metadatas[i] or {}
-
-        # El chunk pasa solo si TODOS los campos del filtro coinciden
-        for campo, valor_esperado in where.items():
-            if metadatos.get(campo) != valor_esperado:
-                return False
-
-        return True
-
-    if indice.ids:
-        puntuaciones_bm25 = indice.bm25.get_scores(_tokenizar(query_bm25))
-
-        chunks_con_puntuacion = [
-            (posicion, puntuaciones_bm25[posicion])
-            for posicion in range(len(indice.ids))
-            if _pasa_filtro(posicion)
-        ]
-        chunks_con_puntuacion.sort(key=lambda x: x[1], reverse=True)
-        candidatos_bm25 = chunks_con_puntuacion[:top_k]
-
-    else:
-        candidatos_bm25 = []
-
-    ids_bm25 = [indice.ids[i] for i, _ in candidatos_bm25]
-    scores_bm25 = [s for _, s in candidatos_bm25]
-
-    # ── 3. Fusión de scores normalizados ─────────────────────────────────
-    norm_vec = dict(zip(ids_vec, _minmax(scores_vec)))
-    norm_bm25 = dict(zip(ids_bm25, _minmax(scores_bm25)))
-
-    # Cacheamos (texto, meta) por id desde ambos retrievers para no re-consultar.
-    cache_docs: dict[str, tuple[str, dict]] = {}
-    for i, t, m in zip(ids_vec, docs_vec, metas_vec):
-        cache_docs[i] = (t, m or {})
-    for idx, _ in candidatos_bm25:
-        cid = indice.ids[idx]
-        if cid not in cache_docs:
-            cache_docs[cid] = (indice.textos[idx], indice.metadatas[idx] or {}) # cache_docs: dict[id] = (texto, metadatos)
-
-    fusion = []
-    for cid in set(norm_vec) | set(norm_bm25):
-        sv = norm_vec.get(cid)
-        sb = norm_bm25.get(cid)
-        score = peso_vector * (sv or 0.0) + peso_bm25 * (sb or 0.0)
-        fusion.append((cid, score, sv, sb))
-
-    fusion.sort(key=lambda x: -x[1])
-    fusion = fusion[:top_k] # fusion : list of (chunk_id, score_fusion, score_vector, score_bm25) de los top_k candidatos tras la fusión híbrida
-
+    # ── 2. Fusión de scores ─────────────────────────────────────────────
+    fusion = _fusionar_scores(scores_vec_por_id, scores_bm25_por_id, peso_vector, peso_bm25)[:top_k]
     if not fusion:
         return []
 
-    # ── 4. Rerank con Cohere ─────────────────────────────────────────────
+    # ── 3. Rerank con Cohere ────────────────────────────────────────────
+    resultados = _rerank_cohere(query, fusion, cache_docs, top_n)
+
+    # ── 4. Recuperar hermanos de tabla descartados por Cohere ───────────
+    resultados.extend(_recuperar_partes_tabla_huerfanas(resultados, fusion, cache_docs))
+
+    logger.info("recuperar(q=%r, scope=%s) → %d chunks", query[:60], coleccion, len(resultados))
+    return resultados
+
+
+# ---------------------------------------------------------------------------
+# Etapas internas
+# ---------------------------------------------------------------------------
+
+
+def _buscar_vectorial(
+    coleccion: str,
+    query_vector: str,
+    top_k: int,
+) -> tuple[dict[str, tuple[str, dict]], dict[str, float]]:
+    """Búsqueda densa. Devuelve (cache_docs, scores_normalizados_por_id)."""
+    col = get_chroma().get_collection(name=coleccion)
+    emb = _embedding_query(query_vector)
+    res = col.query(query_embeddings=[emb], n_results=top_k)
+
+    ids = res["ids"][0] if res["ids"] else []
+    docs = res["documents"][0] if res["documents"] else []
+    metas = res["metadatas"][0] if res["metadatas"] else []
+    # distancia coseno en [0, 2] → similitud en [-1, 1]
+    scores = [1.0 - d for d in (res["distances"][0] if res["distances"] else [])]
+
+    cache_docs = {cid: (doc, meta or {}) for cid, doc, meta in zip(ids, docs, metas)}
+    return cache_docs, dict(zip(ids, _minmax(scores)))
+
+
+def _buscar_bm25(
+    coleccion: str,
+    query_bm25: str,
+    top_k: int,
+    cache_docs: dict[str, tuple[str, dict]],
+) -> dict[str, float]:
+    """Búsqueda BM25. Añade documentos al cache si no estaban."""
+    indice = get_indice_bm25(coleccion)
+    if not indice.ids:
+        return {}
+
+    puntuaciones = indice.bm25.get_scores(tokenizar(query_bm25))
+    top = sorted(enumerate(puntuaciones), key=lambda x: x[1], reverse=True)[:top_k]
+
+    for pos, _ in top:
+        cid = indice.ids[pos]
+        if cid not in cache_docs:
+            cache_docs[cid] = (indice.textos[pos], indice.metadatas[pos] or {})
+
+    ids_top = [indice.ids[pos] for pos, _ in top]
+    scores_top = [s for _, s in top]
+    return dict(zip(ids_top, _minmax(scores_top)))
+
+
+def _fusionar_scores(
+    scores_vec: dict[str, float],
+    scores_bm25: dict[str, float],
+    peso_vector: float,
+    peso_bm25: float,
+) -> list[tuple[str, float, float | None, float | None]]:
+    """Combina scores normalizados; devuelve lista (cid, score_fusion, sv, sb) ordenada."""
+    fusion = []
+    for cid in set(scores_vec) | set(scores_bm25):
+        sv = scores_vec.get(cid)
+        sb = scores_bm25.get(cid)
+        score = peso_vector * (sv or 0.0) + peso_bm25 * (sb or 0.0)
+        fusion.append((cid, score, sv, sb))
+    fusion.sort(key=lambda x: -x[1])
+    return fusion
+
+
+def _rerank_cohere(
+    query: str,
+    fusion: list[tuple[str, float, float | None, float | None]],
+    cache_docs: dict[str, tuple[str, dict]],
+    top_n: int,
+) -> list[ChunkRecuperado]:
+    """Rerank con la query original. Prefija cada chunk con doc/sección para dar contexto."""
     if not SETTINGS.cohere_api_key:
         raise RuntimeError("COHERE_API_KEY no configurada.")
 
-    # Prefijamos cada chunk con su documento y sección para que Cohere entienda
-    # el contexto, especialmente crítico en tablas cuyo contenido bruto (pipes y
-    # nombres) no revela de qué tratan sin encabezado.
-    def _texto_para_rerank(cid: str) -> str:
-        texto, meta = cache_docs[cid]
-        doc = (meta or {}).get("nombre_fichero", "").removesuffix(".pdf")
-        seccion = (meta or {}).get("seccion", "") or ""
-        partes = []
-        if doc:
-            partes.append(doc)
-        if seccion:
-            partes.append(seccion)
-        prefix = f"[{' — '.join(partes)}]\n" if partes else ""
-        return f"{prefix}{texto}"
-
-    textos_rerank = [_texto_para_rerank(cid) for cid, *_ in fusion]
-
+    textos_rerank = [_texto_para_rerank(cid, cache_docs) for cid, *_ in fusion]
     co = cohere.Client(api_key=SETTINGS.cohere_api_key)
-    # Rerank usa la query original para máxima fidelidad a la intención del usuario
     resp = co.rerank(
         model=SETTINGS.cohere_rerank_model,
         query=query,
@@ -377,64 +176,84 @@ def recuperar(
     for r in resp.results:
         cid, score_fusion, sv, sb = fusion[r.index]
         texto, meta = cache_docs[cid]
-        resultados.append(
-            ChunkRecuperado(
-                chunk_id=cid,
-                texto=texto,
-                metadatos=meta,
-                score=r.relevance_score,
-                score_vector=sv,
-                score_bm25=sb,
-                score_fusion=score_fusion,
-            )
-        )
+        resultados.append(ChunkRecuperado(
+            chunk_id=cid, texto=texto, metadatos=meta,
+            score=r.relevance_score, score_vector=sv, score_bm25=sb, score_fusion=score_fusion,
+        ))
+    return resultados
 
-    # ── 5. Recuperar partes de tabla descartadas por Cohere ──────────────
-    # Si Cohere seleccionó un chunk de tabla, incluimos todos sus hermanos
-    # del mismo doc+sección aunque no llegaran al top_n. Así _fusionar_partes_tabla
-    # en query.py puede reconstruir la tabla completa.
+
+def _recuperar_partes_tabla_huerfanas(
+    resultados: list[ChunkRecuperado],
+    fusion: list[tuple[str, float, float | None, float | None]],
+    cache_docs: dict[str, tuple[str, dict]],
+) -> list[ChunkRecuperado]:
+    """Si Cohere seleccionó un chunk de tabla, recupera sus hermanos del mismo doc+sección.
+
+    El chunker parte tablas grandes en varias piezas. Cohere puede quedarse solo con una;
+    aquí recuperamos el resto para que `fusionar_partes_tabla` reconstruya la tabla completa.
+    """
     ids_seleccionados = {r.chunk_id for r in resultados}
     tablas_seleccionadas: set[str] = set()
     for r in resultados:
-        meta = r.metadatos or {}
         if r.texto.strip().startswith("|"):
-            nombre = meta.get("nombre_fichero", "")
-            seccion = meta.get("seccion", "")
+            nombre = (r.metadatos or {}).get("nombre_fichero", "")
+            seccion = (r.metadatos or {}).get("seccion", "")
             if nombre and seccion:
                 tablas_seleccionadas.add(f"{nombre}||{seccion}")
 
-    if tablas_seleccionadas:
-        for cid, score_fusion, sv, sb in fusion:
-            if cid in ids_seleccionados:
-                continue
-            texto, meta = cache_docs.get(cid, ("", {}))
-            if not texto.strip().startswith("|"):
-                continue
-            nombre = (meta or {}).get("nombre_fichero", "")
-            seccion = (meta or {}).get("seccion", "")
-            if f"{nombre}||{seccion}" in tablas_seleccionadas:
-                resultados.append(ChunkRecuperado(
-                    chunk_id=cid,
-                    texto=texto,
-                    metadatos=meta,
-                    score=0.0,
-                    score_vector=sv,
-                    score_bm25=sb,
-                    score_fusion=score_fusion,
-                ))
-                logger.debug("Parte de tabla añadida post-rerank: %s § %s", nombre, seccion)
+    if not tablas_seleccionadas:
+        return []
 
-    logger.info(
-        "recuperar(q=%r, scope=%s, tipo_doc=%s) → %d chunks",
-        query[:60], coleccion, tipo_doc, len(resultados),
-    )
-    for i, r in enumerate(resultados, 1):
-        logger.debug(
-            "  [%d] score=%.3f  doc=%s  sec=%s  texto=%r",
-            i,
-            r.score,
-            r.metadatos.get("nombre_fichero", "?"),
-            r.metadatos.get("seccion", "?")[:50],
-            r.texto[:80],
-        )
-    return resultados
+    huerfanas: list[ChunkRecuperado] = []
+    for cid, score_fusion, sv, sb in fusion:
+        if cid in ids_seleccionados:
+            continue
+        texto, meta = cache_docs.get(cid, ("", {}))
+        if not texto.strip().startswith("|"):
+            continue
+        nombre = (meta or {}).get("nombre_fichero", "")
+        seccion = (meta or {}).get("seccion", "")
+        if f"{nombre}||{seccion}" in tablas_seleccionadas:
+            huerfanas.append(ChunkRecuperado(
+                chunk_id=cid, texto=texto, metadatos=meta,
+                score=0.0, score_vector=sv, score_bm25=sb, score_fusion=score_fusion,
+            ))
+            logger.debug("Parte de tabla añadida post-rerank: %s § %s", nombre, seccion)
+    return huerfanas
+
+
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+
+
+def _embedding_query(texto: str) -> list[float]:
+    if not SETTINGS.openai_api_key:
+        raise RuntimeError("OPENAI_API_KEY no configurada.")
+    client = OpenAI(api_key=SETTINGS.openai_api_key)
+    resp = client.embeddings.create(input=[texto], model=SETTINGS.embedding_model)
+    return resp.data[0].embedding
+
+
+def _minmax(scores: list[float]) -> list[float]:
+    if not scores:
+        return []
+    lo, hi = min(scores), max(scores)
+    if hi == lo:
+        return [1.0] * len(scores)
+    return [(s - lo) / (hi - lo) for s in scores]
+
+
+def _texto_para_rerank(cid: str, cache_docs: dict[str, tuple[str, dict]]) -> str:
+    """Prefija cada chunk con [doc — sección] para dar contexto al reranker.
+
+    Crítico para tablas: su contenido bruto (pipes y nombres de columnas) no revela
+    de qué tratan sin encabezado.
+    """
+    texto, meta = cache_docs[cid]
+    doc = (meta or {}).get("nombre_fichero", "").removesuffix(".pdf")
+    seccion = (meta or {}).get("seccion", "") or ""
+    partes = [p for p in (doc, seccion) if p]
+    prefix = f"[{' — '.join(partes)}]\n" if partes else ""
+    return f"{prefix}{texto}"

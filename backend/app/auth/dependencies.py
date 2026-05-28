@@ -23,7 +23,12 @@ _LONG_EXPIRY_DAYS = 7
 
 
 def _secret() -> str:
-    return os.environ.get("AUTH_SECRET", "CHANGE_ME_IN_PRODUCTION")
+    secret = os.environ.get("AUTH_SECRET")
+    if not secret:
+        raise RuntimeError(
+            "AUTH_SECRET no está configurado. Definirlo en .env antes de arrancar el servidor."
+        )
+    return secret
 
 
 def create_token(email: str, role: str, remember: bool = False) -> str:

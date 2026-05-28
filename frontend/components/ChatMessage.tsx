@@ -222,7 +222,18 @@ export function ChatMessage({ message, user }: Props) {
             <ActionBtn
               icon={<ICopy />}
               label="Copiar"
-              onClick={() => navigator.clipboard.writeText(texto)}
+              onClick={() => {
+                if (navigator.clipboard) {
+                  navigator.clipboard.writeText(texto);
+                } else {
+                  const ta = document.createElement("textarea");
+                  ta.value = texto;
+                  document.body.appendChild(ta);
+                  ta.select();
+                  document.execCommand("copy");
+                  document.body.removeChild(ta);
+                }
+              }}
             />
           </div>
         )}

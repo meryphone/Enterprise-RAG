@@ -1,42 +1,47 @@
-"""Ingestion pipeline orchestrator.
+"""Orquestador del pipeline de ingesta.
 
-Coordinates the four steps described in CLAUDE.md:
-    1. Parse the PDF with Docling (parser.py).
-    2. Extract document-level metadata from the header (elements.py).
-    3. Process each element by type → list of ElementoProcesado (elements.py).
-    4. Hierarchical chunking → parents and children with metadata (chunker.py).
+Coordina los cuatro pasos descritos en CLAUDE.md:
+    1. Parseo del PDF con Docling (parser.py).
+    2. Extracción de metadatos de cabecera (elements.py).
+    3. Procesado por tipo de elemento → list[ElementoProcesado] (elements.py).
+    4. Chunking jerárquico → parents y children con metadatos (chunker.py).
 
-Public interface:
+Interfaz pública:
     ingestar_pdf(path, metadatos_admin) → DocumentoIngerido
-    documento_a_dict(documento)         → dict (JSON-serialisable)
+    documento_a_dict(documento)         → dict (serializable a JSON)
 """
 from __future__ import annotations
 
+import logging
+import time
 import uuid
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any, Callable
 
 from app.ingestion import elements as mod_elements
 from app.ingestion import parser as mod_parser
 from app.ingestion.chunker import Chunk, chunk_jerarquico
 from app.ingestion.elements import MetadatosDocumento
 
+logger = logging.getLogger(__name__)
+
 
 # ---------------------------------------------------------------------------
-# Pipeline inputs and outputs
+# Entradas y salidas del pipeline
 # ---------------------------------------------------------------------------
 
 
 @dataclass
 class MetadatosAdministrador:
-    """Metadata supplied by the administrator when uploading the document."""
+    """Metadatos que aporta el administrador al subir el documento."""
 
-    empresa: str                          # "intecsa" or client name
-    proyecto_id: str | None               # None → global corpus
+    empresa: str                          # "intecsa" o nombre del cliente
+    proyecto_id: str | None               # None → corpus global
     tipo_doc: str                         # procedimiento, especificacion, ..., anexo
     idioma: str                           # ISO 639-1: "es", "en", "fr"
-    anexo_de: str | None = None           # nombre_fichero of the parent doc when tipo_doc=="anexo"
+    anexo_de: str | None = None           # nombre_fichero del doc padre cuando tipo_doc=="anexo"
 
 
 @dataclass
@@ -50,41 +55,72 @@ class DocumentoIngerido:
 
 
 # ---------------------------------------------------------------------------
-# Public API
+# Helper de ejecución por paso (timing + manejo de errores uniforme)
+# ---------------------------------------------------------------------------
+
+
+def _ejecutar_paso(
+    num: int,
+    nombre_archivo: str,
+    label: str,
+    fn: Callable[..., Any],
+    *args: Any,
+) -> tuple[Any, float]:
+    """Ejecuta un paso del pipeline midiendo tiempo y propagando errores con log."""
+    t0 = time.perf_counter()
+    try:
+        resultado = fn(*args)
+    except Exception:
+        logger.exception("[%s] paso %d/4 %s: falló", nombre_archivo, num, label)
+        raise
+    return resultado, time.perf_counter() - t0
+
+
+# ---------------------------------------------------------------------------
+# API pública
 # ---------------------------------------------------------------------------
 
 
 def ingestar_pdf(path: Path, metadatos_admin: MetadatosAdministrador) -> DocumentoIngerido:
-    """Run the full ingestion pipeline on a PDF and return the result.
+    """Ejecuta el pipeline completo de ingesta sobre un PDF y devuelve el resultado.
 
     Args:
-        path: Path to the PDF file.
-        metadatos_admin: Administrator-supplied metadata (company, project, type, language).
+        path: Ruta al fichero PDF.
+        metadatos_admin: Metadatos aportados por el administrador (empresa, proyecto, tipo, idioma).
 
     Returns:
-        DocumentoIngerido with all chunks ready for indexing in the vector store.
+        DocumentoIngerido con todos los chunks listos para indexar en el vector store.
     """
     path = Path(path)
+    nombre = path.name
 
-    # 1. Parse with Docling.
-    doc = mod_parser.parse_pdf(path)
+    doc, dt = _ejecutar_paso(1, nombre, "parse", mod_parser.parse_pdf, path)
+    logger.info("[%s] paso 1/4 parse (%.1f s)", nombre, dt)
 
-    # 2. Metadata from the document header (free for digital text).
-    #    Extracts title and edition via regex over the first items.
-    metadatos_documento = mod_elements.extraer_metadatos_documento(doc)
+    metadatos_documento, dt = _ejecutar_paso(
+        2, nombre, "metadata", mod_elements.extraer_metadatos_documento, doc,
+    )
+    logger.info(
+        "[%s] paso 2/4 metadata (%.2f s) titulo=%r",
+        nombre, dt, metadatos_documento.titulo,
+    )
 
-    # doc_id: always a generated UUID — never extracted from the document.
-    doc_id = uuid.uuid4().hex
-
-    # 3. Per-element type processing.
     es_anexo = metadatos_admin.tipo_doc == "anexo"
-    elementos = mod_elements.procesar_documento(doc, es_anexo_documento=es_anexo)
+    elementos, dt = _ejecutar_paso(
+        3, nombre, "elements", mod_elements.procesar_documento, doc, es_anexo,
+    )
+    logger.info("[%s] paso 3/4 elements (%.2f s) %d elementos", nombre, dt, len(elementos))
 
-    # 4. Hierarchical chunking.
-    chunks = chunk_jerarquico(elementos)
+    chunks, dt = _ejecutar_paso(4, nombre, "chunks", chunk_jerarquico, elementos)
+    children = sum(1 for c in chunks if c.nivel == "child")
+    parents = sum(1 for c in chunks if c.nivel == "parent")
+    logger.info(
+        "[%s] paso 4/4 chunks (%.2f s) %d children %d parents",
+        nombre, dt, children, parents,
+    )
 
     return DocumentoIngerido(
-        doc_id=doc_id,
+        doc_id=uuid.uuid4().hex,
         nombre_fichero=path.name,
         metadatos_admin=metadatos_admin,
         metadatos_documento=metadatos_documento,
@@ -94,15 +130,5 @@ def ingestar_pdf(path: Path, metadatos_admin: MetadatosAdministrador) -> Documen
 
 
 def documento_a_dict(documento: DocumentoIngerido) -> dict:
-    """Serialise a DocumentoIngerido to a JSON-compatible dict.
-
-    Used by ingestion scripts to persist parsed output for inspection.
-    """
-    return {
-        "doc_id": documento.doc_id,
-        "nombre_fichero": documento.nombre_fichero,
-        "metadatos_admin": asdict(documento.metadatos_admin),
-        "metadatos_documento": asdict(documento.metadatos_documento),
-        "fecha_ingesta": documento.fecha_ingesta,
-        "chunks": [asdict(c) for c in documento.chunks],
-    }
+    """Serializa un DocumentoIngerido a dict compatible con JSON."""
+    return asdict(documento)

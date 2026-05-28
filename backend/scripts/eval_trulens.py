@@ -19,8 +19,8 @@ Uso:
     # Borrar evaluaciones anteriores y volver a evaluar
     python scripts/eval_trulens.py --reset
 
-    # Filtrar por proyecto (None = corpus global Intecsa)
-    python scripts/eval_trulens.py --proyecto 13187 --empresa repsol
+    # Seleccionar la colección a evaluar (por defecto: intecsa = corpus global)
+    python scripts/eval_trulens.py --coleccion 13187_repsol
 
     # Usar un fichero de preguntas alternativo
     python scripts/eval_trulens.py --questions /ruta/mis_preguntas.json
@@ -40,7 +40,7 @@ import time
 from pathlib import Path
 
 BACKEND_DIR = Path(__file__).resolve().parent.parent
-QUESTIONS_FILE = Path(__file__).resolve().parent / "eval_questions.json"
+QUESTIONS_FILE = Path(__file__).resolve().parent / "rag_evaluation_questions.json"
 sys.path.insert(0, str(BACKEND_DIR))
 
 os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")
@@ -50,17 +50,33 @@ os.environ["TRULENS_OTEL_TRACING"] = "0"
 from openai import OpenAI  # noqa: E402
 
 from app.config import SETTINGS  # noqa: E402
-from app.ingestion.prompts import SYSTEM_PROMPT_EVAL as SYSTEM_PROMPT  # noqa: E402
-from app.rag.query import _construir_contexto, _expandir_parents  # noqa: E402
+from app.ingestion.prompts import SYSTEM_PROMPT_EVAL as SYSTEM_PROMPT  # noqa: E402  — variante sin marcadores [N] para no penalizar Groundedness
+from app.rag.context_builder import (  # noqa: E402
+    construir_contexto,
+    expandir_parents,
+    fusionar_partes_tabla,
+)
 from app.rag.retrieval import recuperar  # noqa: E402
 from app.rag.vector_store import nombre_coleccion  # noqa: E402
+
+
+def _parsear_coleccion(coleccion: str) -> tuple[str | None, str]:
+    """Convierte un nombre de colección en (proyecto_id, empresa) para `recuperar()`.
+
+    - "intecsa" → (None, "intecsa")
+    - "13189_dow" → ("13189", "dow")
+    - "14112_cepsa_fcc" → ("14112", "cepsa_fcc")
+    """
+    if "_" not in coleccion:
+        return None, coleccion
+    proyecto_id, empresa = coleccion.split("_", 1)
+    return proyecto_id, empresa
 
 # ── Banco de queries de prueba ────────────────────────────────────────────────
 
 def _cargar_queries(ruta: Path = QUESTIONS_FILE) -> list[dict]:
     """Carga las queries desde el fichero JSON. Cada entrada debe tener
-    'pregunta', 'proyecto_id' y 'empresa'. Los campos extra (fuente, nota)
-    se ignoran en la evaluación."""
+    al menos 'query', o bien ser una simple string que se normalizará."""
     if not ruta.exists():
         print(
             f"[ERROR] Fichero de preguntas no encontrado: {ruta}\n"
@@ -73,7 +89,21 @@ def _cargar_queries(ruta: Path = QUESTIONS_FILE) -> list[dict]:
     if not isinstance(datos, list):
         print("[ERROR] El fichero de preguntas debe ser un array JSON.", file=sys.stderr)
         sys.exit(1)
-    return datos
+    
+    # Normalizamos a una lista de diccionarios con 'query'
+    rutas_normalizadas = []
+    for item in datos:
+        if isinstance(item, str):
+            rutas_normalizadas.append({"query": item})
+        elif isinstance(item, dict) and ("query" in item or "pregunta" in item):
+            if "pregunta" in item and "query" not in item:
+                item["query"] = item.pop("pregunta")
+            rutas_normalizadas.append(item)
+        else:
+            print("[ERROR] El formato de preguntas en el JSON no es válido. Debe contener la clave 'query' o ser cadenas simples.", file=sys.stderr)
+            sys.exit(1)
+
+    return rutas_normalizadas
 
 
 QUERIES: list[dict] = _cargar_queries()
@@ -92,41 +122,42 @@ except ImportError:
 
 
 class RAGPipeline:
-    """Pipeline RAG sincrónico instrumentable por TruLens."""
+    """Pipeline RAG sincrónico instrumentable por TruLens.
 
-    def __init__(self, proyecto_id: str | None, empresa: str) -> None:
-        self.proyecto_id = proyecto_id
-        self.empresa = empresa
+    Replica la fase de retrieval/contexto de `ejecutar_query` (recuperar →
+    expandir_parents → fusionar_partes_tabla → construir_contexto), pero usa
+    SYSTEM_PROMPT_EVAL para la generación: omite los marcadores [N] de cita
+    que TruLens penaliza como afirmaciones no verificables (Groundedness).
+    """
+
+    def __init__(self, coleccion: str) -> None:
+        self.coleccion = coleccion
+        self.proyecto_id, self.empresa = _parsear_coleccion(coleccion)
         self._openai = OpenAI(api_key=SETTINGS.openai_api_key)
 
     @instrument
     def recuperar_contexto(self, query: str) -> list[str]:
-        """Recupera y expande parents. Devuelve lista de textos de contexto."""
+        """Replica la fase de retrieval de ``ejecutar_query`` del backend:
+        recuperar → expandir_parents → fusionar_partes_tabla.
+        """
         chunks = recuperar(query, self.proyecto_id, self.empresa)
         if not chunks:
             self._last_chunks: list = []
             return []
         coleccion = nombre_coleccion(self.empresa, self.proyecto_id)
-        chunks_exp = _expandir_parents(chunks, coleccion)
-        self._last_chunks = chunks_exp  # conservar metadatos para generar_respuesta
-        return [c.texto for c in chunks_exp]
+        chunks = expandir_parents(chunks, coleccion)
+        chunks = fusionar_partes_tabla(chunks)
+        self._last_chunks = chunks  # conservar metadatos para generar_respuesta
+        return [c.texto for c in chunks]
 
     @instrument
     def generar_respuesta(self, query: str, contextos: list[str]) -> str:
-        """Llama al LLM con el contexto y devuelve la respuesta completa."""
-        if not contextos:
-            return "No he encontrado documentación relevante para esta consulta."
-
-        # Usar los chunks completos (con metadatos doc/sección/páginas) si están disponibles
+        """Llama al LLM con el contexto construido como en el backend."""
         chunks = getattr(self, "_last_chunks", None)
-        if chunks:
-            contexto_fmt = _construir_contexto(chunks)
+        if not chunks:
+            contexto_fmt = "(No se han encontrado fragmentos relevantes en la documentación indexada.)"
         else:
-            from app.rag.retrieval import ChunkRecuperado
-            contexto_fmt = _construir_contexto([
-                ChunkRecuperado(chunk_id=str(i), texto=t, score=1.0, metadatos={})
-                for i, t in enumerate(contextos)
-            ])
+            contexto_fmt = construir_contexto(chunks)
 
         resp = self._openai.chat.completions.create(
             model=SETTINGS.llm_model,
@@ -147,10 +178,11 @@ class RAGPipeline:
 
 # ── Rate limit helpers ────────────────────────────────────────────────────────
 
-# Con 30k TPM y ~15-20k tokens por query (respuesta + 3 feedbacks de TruLens),
-# solo cabe 1 query a la vez. El sleep deja que la ventana de 1 min se renueve.
+# Con juez gpt-4o-mini, la mayor parte del coste TPM la asume mini (200k TPM).
+# La generación principal sigue siendo gpt-4o (30k TPM) → ~3-5k por query, así que
+# 10s de gap da margen para que no se solapen dos generaciones en la ventana de 1 min.
 _N_WORKERS = 1
-_DELAY_ENTRE_QUERIES = 18  # segundos
+_DELAY_ENTRE_QUERIES = 10  # segundos
 
 
 def _ejecutar_con_retry(func, *args, max_reintentos: int = 5, **kwargs):
@@ -171,10 +203,10 @@ def _ejecutar_con_retry(func, *args, max_reintentos: int = 5, **kwargs):
 # ── Evaluación ────────────────────────────────────────────────────────────────
 
 def ejecutar_evaluacion(
-    proyecto_id: str | None,
-    empresa: str,
+    coleccion: str | None,
     reset: bool,
     dashboard: bool,
+    version: str = "beta",
 ) -> None:
     import warnings
     try:
@@ -202,7 +234,9 @@ def ejecutar_evaluacion(
         session.reset_database()
         print("[INFO] Base de datos de evaluaciones borrada.")
 
-    proveedor = TruOpenAI(api_key=SETTINGS.openai_api_key, model_engine=SETTINGS.llm_model)
+    # Juez = gpt-4o-mini: misma fiabilidad para feedbacks RAG, ~10× más TPM y ~15× más barato
+    # que gpt-4o. Evita 429s al solaparse con la siguiente query.
+    proveedor = TruOpenAI(api_key=SETTINGS.openai_api_key, model_engine="gpt-4o-mini")
 
     # Selector del contexto: salida de recuperar_contexto()
     contexto_selector = Select.RecordCalls.recuperar_contexto.rets[:]
@@ -227,67 +261,102 @@ def ejecutar_evaluacion(
             .aggregate(np.mean)
         )
 
-    pipeline = RAGPipeline(proyecto_id=proyecto_id, empresa=empresa)
-
-    scope_label = f"{empresa}" + (f"/{proyecto_id}" if proyecto_id else "")
-    app_name = f"IntecsaRAG-{scope_label}"
-
     try:
         from trulens.core.schema.feedback import FeedbackMode
         feedback_mode = FeedbackMode.WITH_APP_THREAD
     except ImportError:
         feedback_mode = "with_app_thread"
 
-    tru_app = TruCustomApp(
-        pipeline,
-        app_name=app_name,
-        app_version="beta",
-        feedbacks=[f_context_rel, f_answer_rel, f_groundedness],
-        feedback_mode=feedback_mode,
-    )
+    # Colecciones a evaluar: la indicada por CLI o todas las presentes en el JSON
+    if coleccion is not None:
+        colecciones = [coleccion]
+    else:
+        seen: set[str] = set()
+        colecciones = [
+            q["coleccion"] for q in QUERIES
+            if q.get("coleccion") and not (q["coleccion"] in seen or seen.add(q["coleccion"]))  # type: ignore[func-returns-value]
+        ]
 
-    queries_scope = [
-        q for q in QUERIES
-        if q["proyecto_id"] == proyecto_id and q["empresa"] == empresa
-    ]
+    app_ids: list[str] = []
 
-    if not queries_scope:
-        print(f"[WARN] No hay queries para scope {scope_label}.", file=sys.stderr)
-        return
+    for col in colecciones:
+        queries_scope = [q for q in QUERIES if q.get("coleccion") == col]
+        if not queries_scope:
+            print(f"[WARN] No hay queries en el JSON para la colección: {col}.", file=sys.stderr)
+            continue
 
-    print(f"\nEvaluando {len(queries_scope)} queries para scope '{scope_label}'...\n")
+        pipeline = RAGPipeline(coleccion=col)
+        tru_app = TruCustomApp(
+            pipeline,
+            app_name=f"IntecsaRAG-{col}",
+            app_version=version,
+            feedbacks=[f_context_rel, f_answer_rel, f_groundedness],
+            feedback_mode=feedback_mode,
+        )
+        app_ids.append(tru_app.app_id)
 
-    for idx, q in enumerate(queries_scope):
-        print(f"  [{idx+1}/{len(queries_scope)}] {q['pregunta'][:70]}...")
-        try:
-            with tru_app as recording:
-                _ejecutar_con_retry(pipeline.query, q["pregunta"])
-        except Exception as exc:
-            print(f"  [ERROR] '{q['pregunta'][:60]}': {exc}", file=sys.stderr)
-        if idx < len(queries_scope) - 1:
-            time.sleep(_DELAY_ENTRE_QUERIES)
+        print(f"\nEvaluando {len(queries_scope)} queries para la colección '{col}'...\n")
 
-    # Esperar a que todos los feedbacks en background terminen antes de leer resultados
-    if hasattr(session, "wait_for_evaluations"):
-        print("Esperando evaluaciones pendientes...")
-        session.wait_for_evaluations()
+        for idx, q in enumerate(queries_scope):
+            print(f"  [{idx+1}/{len(queries_scope)}] {q['query'][:70]}...")
+            try:
+                with tru_app as recording:
+                    _ejecutar_con_retry(pipeline.query, q["query"])
+            except Exception as exc:
+                print(f"  [ERROR] '{q['query'][:60]}': {exc}", file=sys.stderr)
+            if idx < len(queries_scope) - 1:
+                time.sleep(_DELAY_ENTRE_QUERIES)
 
-    # Resumen de resultados
-    leaderboard = session.get_leaderboard(app_ids=[tru_app.app_id])
-    print("\n── Resultados ──────────────────────────────────────────────────────")
-    print(leaderboard.to_string())
+        # Esperar a que todos los feedbacks en background terminen antes de leer resultados
+        if hasattr(session, "wait_for_evaluations"):
+            print("Esperando evaluaciones pendientes...")
+            session.wait_for_evaluations()
+
+        leaderboard = session.get_leaderboard(app_ids=[tru_app.app_id])
+        print(f"\n── Resultados {col} ──────────────────────────────────────────────")
+        print(leaderboard.to_string())
+
+        _persistir_resultados(session, tru_app.app_id, col)
 
     if dashboard:
         print("\nLanzando dashboard TruLens en http://localhost:8501 ...")
         session.run_dashboard()
 
 
+def _persistir_resultados(session, app_id: str, coleccion: str) -> None:
+    """Escribe leaderboard y per-query records en CSV listos para Jupyter/pandas.
+
+    - ``leaderboard_<coleccion>_<ts>.csv``: una fila con la media de cada métrica.
+    - ``records_<coleccion>_<ts>.csv``: una fila por query con prompt, respuesta y
+      scores de Context Relevance, Answer Relevance y Groundedness.
+    """
+    from datetime import datetime
+
+    out_dir = BACKEND_DIR / "eval_results"
+    out_dir.mkdir(exist_ok=True)
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    leaderboard = session.get_leaderboard(app_ids=[app_id])
+    lb_path = out_dir / f"leaderboard_{coleccion}_{ts}.csv"
+    leaderboard.to_csv(lb_path, index=True)
+
+    records_df, _ = session.get_records_and_feedback(app_ids=[app_id])
+    rec_path = out_dir / f"records_{coleccion}_{ts}.csv"
+    records_df.to_csv(rec_path, index=False)
+
+    print(f"\n[CSV] Leaderboard → {lb_path.relative_to(BACKEND_DIR)}")
+    print(f"[CSV] Records     → {rec_path.relative_to(BACKEND_DIR)}")
+    print(f"      Cárgalo en Jupyter con: pd.read_csv('{rec_path.name}')")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--proyecto",      default=None)
-    parser.add_argument("--empresa",       default="intecsa")
+    parser.add_argument("--coleccion",     default=None,
+                        help="Colección ChromaDB a evaluar (p.ej. 'intecsa', '13189_dow'). Sin valor: evalúa todas las colecciones del JSON.")
     parser.add_argument("--questions",     default=None, metavar="RUTA",
                         help="Ruta al fichero JSON de preguntas (por defecto: eval_questions.json junto a este script)")
+    parser.add_argument("--version",        default="beta", metavar="ETIQUETA",
+                        help="Etiqueta de versión para esta ejecución en el dashboard (p.ej. 'top_k18_top_n4')")
     parser.add_argument("--reset",         action="store_true", help="Borrar evaluaciones previas")
     parser.add_argument("--no-dashboard",  action="store_true", help="No lanzar dashboard web")
     parser.add_argument("--debug",         action="store_true", help="Mostrar queries reescritas, chunks y contexto")
@@ -309,10 +378,10 @@ def main() -> int:
             _logging.getLogger(_mod).setLevel(_logging.DEBUG)
 
     ejecutar_evaluacion(
-        proyecto_id=args.proyecto,
-        empresa=args.empresa,
+        coleccion=args.coleccion,
         reset=args.reset,
         dashboard=not args.no_dashboard,
+        version=args.version,
     )
     return 0
 

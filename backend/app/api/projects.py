@@ -1,4 +1,4 @@
-"""Projects endpoint — lists available document collections."""
+"""Endpoint de projects — lista las colecciones de documentos disponibles."""
 from fastapi import APIRouter, Depends
 
 from app.auth.dependencies import require_auth
@@ -9,13 +9,13 @@ router = APIRouter()
 
 @router.get("/projects", dependencies=[Depends(require_auth)])
 def projects() -> list[dict]:
-    """Return all indexed scopes (ChromaDB collections, excluding __parents).
+    """Devuelve todos los scopes indexados (colecciones de ChromaDB, excluyendo __parents).
 
-    Collections named ``"intecsa"`` represent the global corporate corpus.
-    Collections named ``"{proyecto_id}_{empresa}"`` represent client projects.
+    Las colecciones llamadas ``"intecsa"`` representan el corpus corporativo global.
+    Las colecciones llamadas ``"{proyecto_id}_{empresa}"`` representan proyectos de cliente.
 
     Returns:
-        List of scope dicts with keys: coleccion, proyecto_id, empresa, label.
+        Lista de dicts de scope con las claves: coleccion, proyecto_id, empresa, label.
     """
     scopes = []
     for nombre in colecciones_disponibles():

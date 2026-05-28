@@ -11,11 +11,12 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
-from dotenv import load_dotenv
 
-# Force CPU before importing torch/docling: the GTX 960M (CC 5.0) is not compatible.
-# Remove this line in Azure where a supported GPU is available.
-os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")
+# Forzar CPU si FORCE_CPU=1 (default: activado en dev por compatibilidad con
+# la GTX 960M, CC 5.0, no soportada por PyTorch 2.6+). En Azure o cualquier
+# entorno con GPU compatible, exportar FORCE_CPU=0 para habilitar CUDA.
+if os.environ.get("FORCE_CPU", "1") == "1":
+    os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")
 
 from docling.datamodel.base_models import InputFormat  # noqa: E402
 from docling.document_converter import DocumentConverter, PdfFormatOption  # noqa: E402
@@ -27,9 +28,15 @@ from docling.datamodel.pipeline_options import (
     PictureDescriptionApiOptions,
 )
 
+import logging
+import time
+
+logging.getLogger("RapidOCR").setLevel(logging.WARNING)
+
 from app.config import SETTINGS
 from app.ingestion.prompts import PROMPT_DESCRIPCION_IMAGEN
 
+logger = logging.getLogger(__name__)
 
 # Docling takes several seconds to initialise its models.
 # We cache a single converter to reuse across documents.
@@ -40,7 +47,10 @@ def get_converter() -> DocumentConverter:
     """Return the process-level Docling converter singleton, building it on first call."""
     global _CONVERTER
     if _CONVERTER is None:
+        logger.info("Inicializando Docling DocumentConverter (primera vez)…")
+        t0 = time.perf_counter()
         _CONVERTER = _build_converter()
+        logger.info("Converter listo en %.1f s", time.perf_counter() - t0)
     return _CONVERTER
 
 
@@ -62,6 +72,7 @@ def _build_picture_desc_options() -> PictureDescriptionApiOptions:
 
 
 def _build_converter() -> DocumentConverter:
+    """Construye el DocumentConverter de Docling con las opciones del pipeline activadas según SETTINGS."""
     vision_on = SETTINGS.enable_vision
     pipeline_options = PdfPipelineOptions()
     pipeline_options.generate_picture_images = vision_on
@@ -82,14 +93,16 @@ def _build_converter() -> DocumentConverter:
     )
 
 def parse_pdf(path: Path) -> DoclingDocument:
-    """Parse a PDF and return a DoclingDocument with images in memory.
+    """Parsea un PDF y devuelve un DoclingDocument con las imágenes en memoria.
+
+    El timing y el manejo de errores los hace el pipeline orquestador
+    (``pipeline._ejecutar_paso``); aquí no duplicamos esos logs.
 
     Args:
-        path: Absolute path to the PDF file.
+        path: Ruta absoluta al fichero PDF.
 
     Returns:
-        Parsed DoclingDocument ready for element extraction.
+        DoclingDocument parseado, listo para la extracción de elementos.
     """
     converter = get_converter()
-    result = converter.convert(str(path))
-    return result.document
+    return converter.convert(str(path)).document

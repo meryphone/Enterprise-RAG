@@ -23,6 +23,7 @@ export function ChatArea({ scope, user }: Props) {
   const [streaming, setStreaming] = useState(false);
   const [status, setStatus] = useState<SystemStatus>("connected");
   const bottomRef = useRef<HTMLDivElement>(null);
+  const abortRef = useRef<AbortController | null>(null);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -31,6 +32,12 @@ export function ChatArea({ scope, user }: Props) {
   useEffect(() => {
     setMessages([]);
   }, [scope.coleccion]);
+
+  useEffect(() => {
+    return () => {
+      abortRef.current?.abort();
+    };
+  }, []);
 
   const runQuery = useCallback(async (query: string) => {
     const effectiveScope: Scope = scope;
@@ -53,6 +60,10 @@ export function ChatArea({ scope, user }: Props) {
     setMessages((prev) => [...prev, userMsg, assistantMsg]);
     setStreaming(true);
     setStatus("processing");
+
+    abortRef.current?.abort();
+    const controller = new AbortController();
+    abortRef.current = controller;
 
     try {
       await streamQuery(
@@ -86,6 +97,7 @@ export function ChatArea({ scope, user }: Props) {
           setStreaming(false);
           setStatus("connected");
         },
+        controller.signal,
       );
     } catch {
       setMessages((prev) =>

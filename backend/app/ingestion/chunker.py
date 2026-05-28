@@ -1,24 +1,24 @@
-"""Hierarchical chunking of ElementoProcesado using LlamaIndex.
+"""Chunking jerárquico de ElementoProcesado usando LlamaIndex.
 
-Produces two chunk levels:
-- **child** (~128 tokens): indexed with embeddings. Precise retrieval unit.
-- **parent** (~1024 tokens): wider context retrieved by ID when a child is found,
-  passed to the LLM for generation.
+Produce dos niveles de chunk:
+- **child** (~128 tokens): indexado con embeddings. Unidad de retrieval precisa.
+- **parent** (~1024 tokens): contexto más amplio recuperado por ID cuando
+  se encuentra un child, pasado al LLM para la generación.
 
-Uses LlamaIndex HierarchicalNodeParser for prose segments. Tables (indivisible)
-are chunked manually as a single child with no parent, because splitting them
-by sentence would lose their structure.
+Usa HierarchicalNodeParser de LlamaIndex para los segmentos de prosa. Las tablas
+(indivisibles) se chunkean manualmente como un único child sin parent, porque
+partirlas por frases perdería su estructura.
 
-Pre-chunking filters applied in ``chunk_jerarquico()``:
-- Elements with ``seccion=None`` (cover page, before the first heading).
-- Prose elements shorter than ``_LONGITUD_MINIMA_CHARS`` (layout noise).
-  Tables are exempt — their length does not indicate irrelevance.
+Filtros previos al chunking aplicados en ``chunk_jerarquico()``:
+- Elementos con ``seccion=None`` (portada, antes de la primera cabecera).
+- Elementos de prosa más cortos que ``_LONGITUD_MINIMA_CHARS`` (ruido de layout).
+  Las tablas están exentas — su longitud no indica irrelevancia.
 """
 from __future__ import annotations
 
-import sys
+import logging
 import uuid
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 from llama_index.core.node_parser import HierarchicalNodeParser
 from llama_index.core.node_parser.relational.hierarchical import (
@@ -30,11 +30,16 @@ from llama_index.core.schema import Document, NodeRelationship, TextNode
 from app.config import SETTINGS
 from app.ingestion.elements import ElementoProcesado
 
-# Minimum text length (characters) for a prose element to enter the chunker.
-# Removes short noise fragments that escaped the filters in elements.py
-# (bare document codes, residual headings, etc.).
-# Tables are exempt: their length does not indicate irrelevance.
+logger = logging.getLogger(__name__)
+
+# Longitud mínima de texto (caracteres) para que un elemento de prosa entre al
+# chunker. Elimina fragmentos cortos de ruido que escaparon a los filtros de
+# elements.py (códigos de documento sueltos, cabeceras residuales, etc.).
+# Las tablas están exentas: su longitud no indica irrelevancia.
 _LONGITUD_MINIMA_CHARS = 20
+
+# Número máximo de saltos a recorrer por la cadena PARENT al buscar el root.
+_MAX_PROFUNDIDAD_PARENT = 10
 
 
 @dataclass
@@ -46,14 +51,12 @@ class Chunk:
     pagina_inicio: int | None
     pagina_fin: int | None
     seccion: str | None
-    tipos_elemento: list[str] = field(default_factory=list)
     es_imagen: bool = False
     dentro_de_anexo: bool = False
-    tabla_degradada: bool = False
 
 
 # ---------------------------------------------------------------------------
-# LlamaIndex parser singleton (expensive to initialise).
+# Singleton del parser de LlamaIndex (caro de inicializar).
 # ---------------------------------------------------------------------------
 
 _PARSER: HierarchicalNodeParser | None = None
@@ -70,15 +73,15 @@ def _get_parser() -> HierarchicalNodeParser:
 
 
 # ---------------------------------------------------------------------------
-# Building "segments" from processed elements.
+# Construcción de "segmentos" desde los elementos procesados.
 #
-# A segment is a contiguous block of elements chunked together:
-#  - "prosa": consecutive text elements (logical unit passed to
+# Un segmento es un bloque contiguo de elementos chunkeados juntos:
+#  - "prosa": elementos de texto consecutivos (unidad lógica que se pasa a
 #    HierarchicalNodeParser).
-#  - "tabla": a single indivisible element converted manually without going
-#    through the llama_index splitter.
-# Section boundaries are respected: a section change opens a new segment so
-# that parents do not mix content across sections.
+#  - "tabla": un único elemento indivisible convertido manualmente sin pasar
+#    por el splitter de llama_index.
+# Se respetan las fronteras de sección: un cambio de sección abre un segmento
+# nuevo para que los parents no mezclen contenido entre secciones.
 # ---------------------------------------------------------------------------
 
 
@@ -89,16 +92,16 @@ class _Segmento:
 
 
 def _segmentar(elementos: list[ElementoProcesado]) -> list[_Segmento]:
-    """Group elements into contiguous segments of the same type.
+    """Agrupa elementos en segmentos contiguos del mismo tipo.
 
-    A section change forces a new prose segment, preventing parents from
-    mixing content across section boundaries.
+    Un cambio de sección fuerza un nuevo segmento de prosa, evitando que los
+    parents mezclen contenido a través de las fronteras de sección.
 
     Args:
-        elementos: Pre-filtered list of ElementoProcesado.
+        elementos: Lista pre-filtrada de ElementoProcesado.
 
     Returns:
-        List of _Segmento, each typed as "prosa" or "tabla".
+        Lista de _Segmento, cada uno tipado como "prosa" o "tabla".
     """
     segmentos: list[_Segmento] = []
     buffer: list[ElementoProcesado] = []
@@ -126,27 +129,24 @@ def _segmentar(elementos: list[ElementoProcesado]) -> list[_Segmento]:
 
 
 # ---------------------------------------------------------------------------
-# Conversion to llama_index Document + aggregated metadata extraction.
+# Conversión a Document de llama_index + extracción de metadatos agregados.
 # ---------------------------------------------------------------------------
 
 
 def _metadata_segmento(elementos: list[ElementoProcesado]) -> dict:
-    """Metadata attached to each llama_index node.
+    """Metadatos que se adjuntan a cada nodo de llama_index.
 
-    These metadata are attached to the Document and inherited by all nodes
-    (parents and children) that the splitter produces.
+    Estos metadatos se adjuntan al Document y los heredan todos los nodos
+    (parents y children) que produzca el splitter.
     """
-    paginas = [e.pagina for e in elementos if e.pagina is not None] # Page numbers spanned by the elements.
-    seccion = next((e.seccion for e in elementos if e.seccion), None) # First non-empty section; all elements in a segment share the same section.
-    tipos = list(dict.fromkeys(e.tipo_elemento for e in elementos)) # Element types, deduplicated while preserving order.
+    paginas = [e.pagina for e in elementos if e.pagina is not None]
+    seccion = next((e.seccion for e in elementos if e.seccion), None)
     return {
         "pagina_inicio": min(paginas) if paginas else None,
         "pagina_fin": max(paginas) if paginas else None,
         "seccion": seccion,
-        "tipos_elemento": tipos,
         "es_imagen": any(e.es_imagen for e in elementos),
         "dentro_de_anexo": any(e.dentro_de_anexo for e in elementos),
-        "tabla_degradada": any(e.tabla_degradada for e in elementos),
     }
 
 
@@ -164,24 +164,50 @@ def _nodo_a_chunk(node: TextNode, nivel: str, parent_id: str | None) -> Chunk:
         pagina_inicio=meta.get("pagina_inicio"),
         pagina_fin=meta.get("pagina_fin"),
         seccion=meta.get("seccion"),
-        tipos_elemento=list(meta.get("tipos_elemento") or []),
         es_imagen=bool(meta.get("es_imagen")),
         dentro_de_anexo=bool(meta.get("dentro_de_anexo")),
-        tabla_degradada=bool(meta.get("tabla_degradada")),
     )
 
 
 # ---------------------------------------------------------------------------
-# Chunking each segment type.
+# Chunking por tipo de segmento.
 # ---------------------------------------------------------------------------
 
 
-def _chunkear_prosa(segmento: _Segmento) -> list[Chunk]:
-    """Chunk a prose segment using HierarchicalNodeParser.
+def _agrupar_leaves_por_root(
+    leaves: list[TextNode],
+    all_nodes: list[TextNode],
+    root_ids: set[str],
+) -> dict[str, list[TextNode]]:
+    """Devuelve {root_id: [leaves descendientes]} en una sola pasada por nodo.
 
-    Returns parent chunks followed by their children. If the text is too short
-    for LlamaIndex to produce a distinct child, only the parent is emitted
-    (with parent_id="" so it is indexed directly with embeddings).
+    Recorre la cadena PARENT de cada hoja hasta encontrar un root_id conocido
+    o agotar la profundidad máxima.
+    """
+    por_id = {n.node_id: n for n in all_nodes}
+    grupos: dict[str, list[TextNode]] = {rid: [] for rid in root_ids}
+    for leaf in leaves:
+        actual: TextNode | None = leaf
+        for _ in range(_MAX_PROFUNDIDAD_PARENT):
+            if actual is None:
+                break
+            rel = actual.relationships.get(NodeRelationship.PARENT)
+            if rel is None:
+                break
+            if rel.node_id in root_ids:
+                grupos[rel.node_id].append(leaf)
+                break
+            actual = por_id.get(rel.node_id)
+    return grupos
+
+
+def _chunkear_prosa(segmento: _Segmento) -> list[Chunk]:
+    """Chunkea un segmento de prosa con HierarchicalNodeParser.
+
+    Devuelve los chunks parent seguidos de sus children. Si el texto es
+    demasiado corto para que LlamaIndex produzca un child distinto, solo se
+    emite el parent (con parent_id="" para que se indexe directamente con
+    embeddings).
     """
     texto = _texto_segmento(segmento.elementos)
     if not texto.strip():
@@ -189,58 +215,38 @@ def _chunkear_prosa(segmento: _Segmento) -> list[Chunk]:
 
     metadata = _metadata_segmento(segmento.elementos)
     doc = Document(text=texto, metadata=metadata)
-    # Exclude metadata from size calculation: we manage it ourselves in
-    # the Chunk dataclass; LlamaIndex should not count it as text.
+    # Excluimos los metadatos del cálculo de tamaño: los gestionamos nosotros
+    # en el dataclass Chunk; LlamaIndex no debería contarlos como texto.
     doc.excluded_llm_metadata_keys = list(metadata.keys())
     doc.excluded_embed_metadata_keys = list(metadata.keys())
 
     parser = _get_parser()
     nodes = parser.get_nodes_from_documents([doc])
 
-    # Split by level: root nodes = parents; leaf nodes = children.
     root_nodes = get_root_nodes(nodes)
     leaf_nodes = get_leaf_nodes(nodes)
+    root_ids = {p.node_id for p in root_nodes}
+    leaves_por_root = _agrupar_leaves_por_root(leaf_nodes, nodes, root_ids)
 
     chunks: list[Chunk] = []
-
-    # Emit each parent followed by its children so the serialised JSON reads
-    # in narrative order.
+    # Emitimos cada parent seguido de sus children para que el JSON serializado
+    # se lea en orden narrativo.
     for parent in root_nodes:
         chunks.append(_nodo_a_chunk(parent, nivel="parent", parent_id=None))
-        # Children (actually grandchildren — the second level of HierarchicalNodeParser
-        # are the leaves). Filter those belonging to this parent by following the
-        # PARENT relationship up to the root.
-        for leaf in leaf_nodes:
-            if _es_descendiente(leaf, parent.node_id, nodes):
-                if leaf.get_content() != parent.get_content():  # Avoid emitting a child identical to the parent (can happen with very short texts).
-                    chunks.append(
-                        _nodo_a_chunk(leaf, nivel="child", parent_id=parent.node_id)
-                    )
+        # Evita emitir un child idéntico al parent (puede pasar con textos muy cortos).
+        contenido_parent = parent.get_content()
+        for leaf in leaves_por_root.get(parent.node_id, []):
+            if leaf.get_content() != contenido_parent:
+                chunks.append(_nodo_a_chunk(leaf, nivel="child", parent_id=parent.node_id))
 
     return chunks
 
 
-def _es_descendiente(leaf: TextNode, root_id: str, all_nodes: list[TextNode]) -> bool:
-    """Walk the PARENT chain up to root_id (or exhaust it)."""
-    id_por_node = {n.node_id: n for n in all_nodes}
-    actual: TextNode | None = leaf
-    visitados = 0
-    while actual is not None and visitados < 10:
-        rel = actual.relationships.get(NodeRelationship.PARENT)
-        if rel is None:
-            return False
-        if rel.node_id == root_id:
-            return True
-        actual = id_por_node.get(rel.node_id)
-        visitados += 1
-    return False
-
-
 def _chunkear_tabla(segmento: _Segmento) -> list[Chunk]:
-    """Emit a table as a single indivisible child chunk with no parent.
+    """Emite una tabla como un único child indivisible sin parent.
 
-    Tables are their own context — a parent containing only the table would be
-    redundant and would waste the parent slot with no extra information.
+    Las tablas son su propio contexto — un parent que solo contuviera la tabla
+    sería redundante y gastaría el slot de parent sin aportar información.
     """
     texto = _texto_segmento(segmento.elementos)
     if not texto.strip():
@@ -256,51 +262,56 @@ def _chunkear_tabla(segmento: _Segmento) -> list[Chunk]:
             pagina_inicio=metadata["pagina_inicio"],
             pagina_fin=metadata["pagina_fin"],
             seccion=metadata["seccion"],
-            tipos_elemento=metadata["tipos_elemento"],
             es_imagen=metadata["es_imagen"],
             dentro_de_anexo=metadata["dentro_de_anexo"],
-            tabla_degradada=metadata["tabla_degradada"],
         )
     ]
 
 
 # ---------------------------------------------------------------------------
-# Public API.
+# API pública.
 # ---------------------------------------------------------------------------
 
 
-def chunk_jerarquico(elementos: list[ElementoProcesado]) -> list[Chunk]:
-    """Orchestrate chunking: filter → segment → chunk by type → merge in order.
+def _filtrar_elementos(
+    elementos: list[ElementoProcesado],
+) -> tuple[list[ElementoProcesado], int, int]:
+    """Descarta elementos sin sección o de prosa demasiado corta.
 
-    Args:
-        elementos: Flat list from the element extraction step.
+    Las tablas (indivisibles) están exentas de ambos filtros.
 
     Returns:
-        Flat list of Chunk objects (parents before their children) in document order.
+        Tupla ``(elementos_validos, num_sin_seccion, num_demasiado_cortos)``.
     """
+    validos: list[ElementoProcesado] = []
+    sin_seccion = 0
+    demasiado_cortos = 0
+    for elem in elementos:
+        if not elem.indivisible and elem.seccion is None:
+            sin_seccion += 1
+            continue
+        if not elem.indivisible and len(elem.texto) < _LONGITUD_MINIMA_CHARS:
+            demasiado_cortos += 1
+            continue
+        validos.append(elem)
+    return validos, sin_seccion, demasiado_cortos
 
-    # discard cover-page content (before the first heading)
-    sin_seccion = [e for e in elementos if e.seccion is None and not e.indivisible]
 
-    # discard prose elements that are too short
-    demasiado_cortos = [
-        e for e in elementos
-        if not e.indivisible and e.seccion is not None and len(e.texto) < _LONGITUD_MINIMA_CHARS
-    ]
+def chunk_jerarquico(elementos: list[ElementoProcesado]) -> list[Chunk]:
+    """Orquesta el chunking: filtrar → segmentar → chunkear por tipo → unir en orden.
 
-    elementos = [
-        e for e in elementos
-        if (e.indivisible or e.seccion is not None)
-        and (e.indivisible or len(e.texto) >= _LONGITUD_MINIMA_CHARS)
-    ]
+    Args:
+        elementos: Lista plana del paso de extracción de elementos.
+
+    Returns:
+        Lista plana de Chunk (parents antes que sus children) en orden de documento.
+    """
+    elementos, sin_seccion, demasiado_cortos = _filtrar_elementos(elementos)
 
     if sin_seccion or demasiado_cortos:
-        print(
-            f"[chunker] descartados: sin_seccion={len(sin_seccion)} "
-            f"demasiado_cortos={len(demasiado_cortos)} "
-            f"(umbral={_LONGITUD_MINIMA_CHARS} chars) "
-            f"→ {len(elementos)} elementos pasan",
-            file=sys.stderr,
+        logger.info(
+            "chunk_jerarquico: descartados sin_seccion=%d demasiado_cortos=%d (umbral=%d chars) → %d pasan",
+            sin_seccion, demasiado_cortos, _LONGITUD_MINIMA_CHARS, len(elementos),
         )
 
     resultado: list[Chunk] = []

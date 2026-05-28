@@ -1,0 +1,644 @@
+[
+  {
+    "query": "¿Cuáles son los permisos de acceso disponibles y qué grupos de usuarios pueden leer o modificar los documentos?",
+    "coleccion": "13187_repsol",
+    "proyecto_id": "13187",
+    "empresa": "Repsol YPF La Pampilla"
+  },
+  {
+    "query": "¿Cómo accede el cliente al portal para consultar la documentación del proyecto?",
+    "coleccion": "13189_dow",
+    "proyecto_id": "13189",
+    "empresa": "DOW Tarragona"
+  },
+  {
+    "query": "¿Qué documentos generados deben incluirse en el portal del proyecto?",
+    "coleccion": "13189_dow",
+    "proyecto_id": "13189",
+    "empresa": "DOW Tarragona"
+  },
+  {
+    "query": "¿Cuál es la estructura de carpetas definida para el proyecto en el portal?",
+    "coleccion": "14090_interquisa",
+    "proyecto_id": "14090",
+    "empresa": "Interquisa"
+  },
+  {
+    "query": "¿Quién es responsable de la administración del portal en el proyecto y cuáles son sus funciones?",
+    "coleccion": "14093_petresa",
+    "proyecto_id": "14093",
+    "empresa": "Petresa"
+  },
+  {
+    "query": "¿Qué diferencia existe entre los permisos cte y cte2 en el proyecto?",
+    "coleccion": "14112_cepsa_fcc",
+    "proyecto_id": "14112",
+    "empresa": "CEPSA FCC"
+  },
+  {
+    "query": "¿Cuál es el proceso de aprobación de documentos en el proyecto y qué ocurre cuando el Jefe de Proyecto rechaza un documento?",
+    "coleccion": "14113_cepsa_hds_v",
+    "proyecto_id": "14113",
+    "empresa": "CEPSA HDS V"
+  },
+  {
+    "query": "¿Qué tipos de documentos de compras tienen acceso restringido en el proyecto?",
+    "coleccion": "14150_servicios_rnl",
+    "proyecto_id": "14150",
+    "empresa": "RNL"
+  },
+  {
+    "query": "¿Cómo se gestionan las altas y bajas de usuarios en el proyecto?",
+    "coleccion": "16055_enip",
+    "proyecto_id": "16055",
+    "empresa": "ENIP Argelia"
+  },
+  {
+    "query": "¿Qué permiso ACL debe asignarse a un documento confidencial y qué usuarios pueden leerlo?",
+    "coleccion": "16055_enip",
+    "proyecto_id": "16055",
+    "empresa": "ENIP Argelia"
+  },
+  {
+    "query": "¿Quién puede acceder a los documentos del proyecto a través de Internet?",
+    "coleccion": "16057_pars",
+    "proyecto_id": "16057",
+    "empresa": "PARS Irán"
+  },
+  {
+    "query": "¿Cuál es la estructura de acceso para socios y clientes en el proyecto?",
+    "coleccion": "28364_indorama",
+    "proyecto_id": "28364",
+    "empresa": "Indorama Singapore"
+  },
+  {
+    "query": "¿Cuáles son las funciones principales del Jefe de Proyecto?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR10",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cómo se identifica un plano o diagrama según el Plan de Calidad y Medio Ambiente?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR11",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué procedimiento regula las órdenes de cambio y cuál es el flujo para tramitar una orden de cambio reclamable al cliente?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR12",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Qué responsabilidades tiene el Servicio de RR.HH. y Organización en la gestión de residuos de oficina?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR09",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cómo se estructura la numeración de documentos escritos (especificaciones, relaciones de material) según el Plan de Calidad del proyecto?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR11",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué usuarios del proyecto tienen acceso a la documentación a través de Internet y desde qué organizaciones externas?",
+    "coleccion": "13187_repsol",
+    "proyecto_id": "13187",
+    "empresa": "Repsol YPF La Pampilla"
+  },
+  {
+    "query": "¿Cuál es la periodicidad de la copia de contenidos de la Intranet a Internet y qué usuarios se benefician de ello?",
+    "coleccion": "13189_dow",
+    "proyecto_id": "13189",
+    "empresa": "DOW Tarragona"
+  },
+  {
+    "query": "¿Qué documentos de construcción pueden ver los clientes en el proyecto y cuáles están restringidos?",
+    "coleccion": "14112_cepsa_fcc",
+    "proyecto_id": "14112",
+    "empresa": "CEPSA FCC"
+  },
+  {
+    "query": "¿Cuál es el ciclo de vida de un documento en el proyecto?",
+    "coleccion": "13187_repsol",
+    "proyecto_id": "13187",
+    "empresa": "Repsol YPF La Pampilla"
+  },
+  {
+    "query": "¿Qué ocurre con un documento en el portal del proyecto cuando el cliente lo rechaza? ¿En qué estado queda?",
+    "coleccion": "14112_cepsa_fcc",
+    "proyecto_id": "14112",
+    "empresa": "CEPSA FCC"
+  },
+  {
+    "query": "¿Por qué el proyecto emplea dos workflows distintos en lugar de uno, y en qué se diferencian?",
+    "coleccion": "16057_pars",
+    "proyecto_id": "16057",
+    "empresa": "PARS Irán"
+  },
+  {
+    "query": "¿Qué ventajas aporta la integración del personal del cliente en el circuito de aprobación electrónica del proyecto?",
+    "coleccion": "13189_dow",
+    "proyecto_id": "13189",
+    "empresa": "DOW Tarragona"
+  },
+  {
+    "query": "En el proyecto, ¿qué indica la expresión 'PTE DE FIRMA' en el número de documento y cómo se gestiona su resolución?",
+    "coleccion": "14090_interquisa",
+    "proyecto_id": "14090",
+    "empresa": "Interquisa"
+  },
+  {
+    "query": "¿Qué documentos técnicos generados por AutoCAD o Microstation requieren una rendición PDF adicional al introducirlos en el portal del proyecto?",
+    "coleccion": "13189_dow",
+    "proyecto_id": "13189",
+    "empresa": "DOW Tarragona"
+  },
+  {
+    "query": "¿Quién puede iniciar el workflow de aprobación en el proyecto y cuál es la consecuencia si el iniciador no es el Responsable de Cuenta?",
+    "coleccion": "14113_cepsa_hds_v",
+    "proyecto_id": "14113",
+    "empresa": "CEPSA HDS V"
+  },
+  {
+    "query": "¿Cómo se genera y envía el transmittal diario al cliente en el proyecto y qué documentos incluye?",
+    "coleccion": "14113_cepsa_hds_v",
+    "proyecto_id": "14113",
+    "empresa": "CEPSA HDS V"
+  },
+  {
+    "query": "¿Qué procedimiento regula la planificación de proyectos y cuáles son los niveles de planificación contemplados?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR14",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué información debe generarse durante la fase de oferta antes de la adjudicación del proyecto?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR14",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuál es el proceso de selección de proveedores para una Relación de Material (RM) según el Plan de Calidad y Medio Ambiente?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR11",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué condiciones específicas deben quedar concretadas en los subcontratos de construcción según el Plan de Calidad del proyecto?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR11",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Quién aprueba el Plan de Calidad y Medio Ambiente de un proyecto y quién es responsable de verificar su coherencia con el SIG?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR11",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuál es la política de copias de seguridad del sistema informático y qué sucede con proyectos de más de 2 años de antigüedad?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR08",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cómo se gestiona un documento original en papel cuando se modifica y se genera una nueva edición?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR08",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuál es el proceso de aprobación electrónica de documentos en el proyecto?",
+    "coleccion": "13189_dow",
+    "proyecto_id": "13189",
+    "empresa": "DOW Tarragona"
+  },
+  {
+    "query": "¿En qué momento puede el Administrador de Proyecto publicar o despublicar documentos para proveedores en el Centro de Negocios?",
+    "coleccion": "14112_cepsa_fcc",
+    "proyecto_id": "14112",
+    "empresa": "CEPSA FCC"
+  },
+  {
+    "query": "¿Qué garantía de integridad ofrece el portal sobre los documentos aprobados y cómo se gestiona la actualización de ediciones posteriores?",
+    "coleccion": "16057_pars",
+    "proyecto_id": "16057",
+    "empresa": "PARS Irán"
+  },
+  {
+    "query": "¿Cuál es el procedimiento que regula las órdenes de cambio y qué responsabilidad tiene el Especialista responsable de Cuenta ante un cambio en su especialidad?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR01",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cómo se estructura la constitución del Equipo de Proyecto y qué reuniones previas debe convocar el Jefe de Proyecto antes de iniciar los trabajos?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR10",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuáles son las fases del proceso de administración de contratos y qué actividades corresponden a cada fase?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR07",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Qué ocurre en la Reunión de Traspaso y quiénes deben asistir obligatoriamente?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR07",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Cuál es la relación jerárquica y funcional del Administrador de Contratos (ADC) durante la fase de proyecto?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR07",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Cuál es el umbral de coste a partir del cual una oferta de servicios en una Oficina local requiere aprobación previa de la Dirección General?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR08",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Quién es el responsable de la Calidad y Prevención de Riesgos laborales en las Oficinas locales?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR08",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cómo se estructura la unidad de almacenamiento DATOSPR en las Oficinas locales y qué especialidades tienen acceso de escritura?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR08",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuál es el proceso de modificación de archivos en el servidor DATOSPR y por qué no se deben editar directamente en el servidor?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR08",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué grupos de personal reciben todos los procedimientos generales y cuáles están excluidos de recibir ciertos procedimientos?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR02",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Quién custodia los originales del Manual de Calidad y los Procedimientos Generales?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR02",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué procedimientos debe recibir un Jefe de Proyecto según los grupos de distribución establecidos?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR02",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuándo no se considera una Orden de Cambio? ¿Qué tipos de situaciones son clasificadas como incidencias en su lugar?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR12",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Cuál es la estructura de numeración de una Orden de Cambio y qué significan cada uno de sus componentes?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR12",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Qué sucede cuando el cliente se niega a firmar la aceptación de una Orden de Cambio?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR12",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Qué documento debe mantener el Administrador de Contratos para registrar todas las Órdenes de Cambio del cliente?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR12",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Quién es responsable de la preparación de la Oferta Técnica y la Oferta Comercial y Económica?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR05",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué papel desempeña el Servicio Comercial en la preparación de una oferta de servicios de ingeniería?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR05",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuáles son las condiciones bajo las que el importe a ofertar aprobado por la Dirección General puede diferir del propuesto?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR05",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué información debe proporcionar el Departamento de Construcción al Servicio Comercial durante la preparación de una oferta?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR05",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué contenido debe incluir el Formato Oferta 105 (Informe de Cierre) en una oferta EPC/LSTK?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR06",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Cómo se coordinan los costes de la oferta con el Servicio de Planificación y Control de Gestión en el proceso EPC?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR06",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Qué es la Contract Awareness Session y cuál es su propósito tras la adjudicación del contrato?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR07",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Cuáles son las funciones del Responsable de Control de Documentos de un proyecto?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR13",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cómo se organiza el archivo final de documentos de un proyecto?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR13",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cómo se gestiona la documentación de proveedores y subcontratistas y qué controles deben aplicarse?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR13",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué información debe contener el informe mensual de progreso enviado al cliente según el Plan de Calidad?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR11",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuáles son los conceptos contemplados en el Control de Costes de la inversión según el Plan de Calidad?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR11",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cómo se numeran correlativamente las actas de reunión con el cliente y qué plazo tiene el cliente para aprobar o formular reparos?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR11",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuál es la obligación del Jefe de Proyecto al finalizar un encargo respecto al Libro Resumen del Proyecto?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR01",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué actividades comprende el Departamento de Construcción y qué procedimientos las desarrollan?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR01",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué sistemas informáticos se utilizan para la planificación y control de costes?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR02",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué funciones realiza el programa informático COST CONTROL?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR02",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuáles son las categorías de residuos de oficina que se gestionan y cómo se clasifican?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR09",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué procedimiento se sigue con los envases vacíos de tóner de fotocopiadoras?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR09",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué información debe recogerse en la auditoría de un documento según las instrucciones del proyecto?",
+    "coleccion": "14112_cepsa_fcc",
+    "proyecto_id": "14112",
+    "empresa": "CEPSA FCC"
+  },
+  {
+    "query": "¿Cuál es el objetivo de la aprobación electrónica de documentos en el proyecto en términos de integridad y disponibilidad de la información?",
+    "coleccion": "13189_dow",
+    "proyecto_id": "13189",
+    "empresa": "DOW Tarragona"
+  },
+  {
+    "query": "¿Por qué es un requisito de seguridad que cada usuario no comparta su contraseña en los sistemas de aprobación electrónica del portal?",
+    "coleccion": "16057_pars",
+    "proyecto_id": "16057",
+    "empresa": "PARS Irán"
+  },
+  {
+    "query": "¿Qué pasos debe seguir el creador de un documento antes de que el Project Department Leader inicie el workflow en el proyecto?",
+    "coleccion": "13189_dow",
+    "proyecto_id": "13189",
+    "empresa": "DOW Tarragona"
+  },
+  {
+    "query": "¿Cómo acceden los proveedores a los documentos de requisiciones de material en el proyecto a través del Centro de Negocios?",
+    "coleccion": "16055_enip",
+    "proyecto_id": "16055",
+    "empresa": "ENIP Argelia"
+  },
+  {
+    "query": "¿Cuál es la diferencia de permisos entre las carpetas proy_enip_lectura y proy_enip_restringido?",
+    "coleccion": "16055_enip",
+    "proyecto_id": "16055",
+    "empresa": "ENIP Argelia"
+  },
+  {
+    "query": "¿Qué información incluye la carpeta de Planificación y Control de Costes en la estructura del proyecto?",
+    "coleccion": "16055_enip",
+    "proyecto_id": "16055",
+    "empresa": "ENIP Argelia"
+  },
+  {
+    "query": "¿Qué documentos del proyecto se organizan bajo la carpeta 'Information from Client' y qué disciplinas incluye?",
+    "coleccion": "28364_indorama",
+    "proyecto_id": "28364",
+    "empresa": "Indorama Singapore"
+  },
+  {
+    "query": "¿Qué documentos de compras están restringidos en el proyecto y quiénes pueden acceder a tabulaciones económicas y pedidos?",
+    "coleccion": "14150_servicios_rnl",
+    "proyecto_id": "14150",
+    "empresa": "RNL"
+  },
+  {
+    "query": "¿En qué condiciones puede el personal de Madrid acceder a carpetas del servidor DATOSPR de una Oficina local?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR08",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuál es la responsabilidad del Jefe de Obra en la supervisión de construcción y montaje y quién lo designa?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR08",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cómo se tramitan las facturas de proveedores y subcontratistas cuando el pedido o subcontrato ha sido emitido desde una Oficina local?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR08",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué instrucciones de trabajo relacionadas con planificación y control de gestión están listadas en el Anexo de procedimientos generales?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR02",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué pasos se siguen mensualmente para analizar las Órdenes de Cambio producidas y su impacto económico?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR12",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Cuándo puede el Jefe de Proyecto proceder a ejecutar un cambio sin la aprobación escrita del cliente?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR12",
+    "empresa": "Intecsa Industrial / Initec Energía"
+  },
+  {
+    "query": "¿Cómo se gestiona la distribución de recursos compartidos entre varios proyectos?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR10",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué debe hacer el Jefe de Proyecto dentro del primer mes desde el inicio del trabajo en relación con el Plan de Calidad y Medio Ambiente?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR10",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué aspectos deben analizarse en la reunión del Jefe de Proyecto con los Jefes de Departamento al inicio de un nuevo encargo?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR10",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué ocurre con el personal de un proyecto en caso de suspensión del encargo y qué pasos son necesarios para retomarlo?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR10",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuál es el contenido mínimo que debe incluir siempre un Plan de Calidad y Medio Ambiente de proyecto en relación con la gestión ambiental?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR01",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuál es la diferencia entre un objetivo medioambiental y una meta medioambiental?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR01",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué actividades contempla el Servicio de Planificación y Control de Gestión?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR01",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cómo se estructura la Planificación General Básica entregada al cliente y qué información contiene?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR11",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué nivel de detalle tiene el Programa General del Proyecto en comparación con la Planificación General Básica?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR11",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuál es la diferencia entre los tipos de contenido del Plan de Calidad en su versión simplificada versus completa?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR11",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué funciones realiza el programa informático de COMPRAS y con qué otros sistemas internos se integra?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR03",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Qué estructura de directorios se emplea en las Oficinas locales para almacenar documentación de proyectos?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR08",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuáles son los grupos de permisos de acceso disponibles para el proyecto y qué disciplinas o roles corresponden a cada uno?",
+    "coleccion": "13189_dow",
+    "proyecto_id": "13189",
+    "empresa": "DOW Tarragona"
+  },
+  {
+    "query": "¿Qué pasos sigue el Administrador del Proyecto tras recibir un documento firmado para su aprobación?",
+    "coleccion": "14090_interquisa",
+    "proyecto_id": "14090",
+    "empresa": "Interquisa"
+  },
+  {
+    "query": "¿Cómo se notifica a los destinatarios de que una nueva edición de un documento está disponible en el portal?",
+    "coleccion": "14090_interquisa",
+    "proyecto_id": "14090",
+    "empresa": "Interquisa"
+  },
+  {
+    "query": "¿En qué se diferencia el circuito de aprobación de Requisiciones de Material (RM) respecto al circuito general de documentos en el proyecto?",
+    "coleccion": "16057_pars",
+    "proyecto_id": "16057",
+    "empresa": "PARS Irán"
+  },
+  {
+    "query": "¿Qué sucede con los documentos de proveedores en el proyecto si no han sido aprobados por el cliente?",
+    "coleccion": "13189_dow",
+    "proyecto_id": "13189",
+    "empresa": "DOW Tarragona"
+  },
+  {
+    "query": "¿Cómo se calcula el avance de la actividad de compras en el sistema informático?",
+    "coleccion": "intecsa",
+    "proyecto_id": "PR03",
+    "empresa": "Intecsa Industrial"
+  },
+  {
+    "query": "¿Cuál es la diferencia entre el acceso al registro de auditoría de un documento desde la Intranet versus el acceso desde el portal de colaboración del cliente?",
+    "coleccion": "14112_cepsa_fcc",
+    "proyecto_id": "14112",
+    "empresa": "CEPSA FCC"
+  }
+]

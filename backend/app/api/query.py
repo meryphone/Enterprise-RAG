@@ -1,4 +1,4 @@
-"""Query endpoint — streams RAG responses via Server-Sent Events."""
+"""Endpoint de query — emite respuestas RAG por Server-Sent Events."""
 from fastapi import APIRouter, Depends
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
@@ -10,33 +10,31 @@ router = APIRouter()
 
 
 class QueryRequest(BaseModel):
-    """Request body for POST /query."""
+    """Cuerpo de la petición para POST /query."""
     query: str
     proyecto_id: str | None = None
     empresa: str = "intecsa"
-    tipo_doc: str | None = None
 
 
 @router.post("/query", dependencies=[Depends(require_auth)])
 async def query(req: QueryRequest) -> StreamingResponse:
-    """Execute a RAG query and stream the response as SSE.
+    """Ejecuta una query RAG y emite la respuesta como SSE.
 
-    Event types emitted in order: ``token`` (incremental text, multiple),
-    ``sources`` (citations JSON array, after last token), ``done`` (stream end),
-    ``error`` (on failure, instead of done).
+    Tipos de evento emitidos en orden: ``token`` (texto incremental, varios),
+    ``sources`` (array JSON de citas, tras el último token), ``done`` (fin del stream),
+    ``error`` (en caso de fallo, en lugar de done).
 
     Args:
-        req: Query parameters including question text, scope, and optional type filter.
+        req: Parámetros de la query — texto de la pregunta y scope.
 
     Returns:
-        StreamingResponse with media_type ``text/event-stream``.
+        StreamingResponse con media_type ``text/event-stream``.
     """
     return StreamingResponse(
         ejecutar_query(
             query=req.query,
             proyecto_id=req.proyecto_id,
             empresa=req.empresa,
-            tipo_doc=req.tipo_doc,
         ),
         media_type="text/event-stream",
     )

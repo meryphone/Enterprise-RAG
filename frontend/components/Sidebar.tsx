@@ -37,6 +37,11 @@ const ISettings = () => (
     <path d="M8 1v2M8 13v2M1 8h2M13 8h2M3 3l1.5 1.5M11.5 11.5 13 13M13 3l-1.5 1.5M4.5 11.5 3 13"/>
   </svg>
 );
+const IShield = () => (
+  <svg width="11" height="11" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <path d="M8 2l5 2v4c0 3-2.5 5.5-5 6-2.5-.5-5-3-5-6V4z"/><path d="M6 8l1.5 1.5L10 7"/>
+  </svg>
+);
 const ILoader = () => (
   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
     style={{ animation: "spin 1s linear infinite" }}>
@@ -80,7 +85,7 @@ function Wordmark() {
           fontSize: 9, letterSpacing: 1.2,
           color: "rgba(255,255,255,.45)", textTransform: "uppercase",
         }}>
-          knowledge · v1.4
+          knowledge
         </div>
       </div>
     </div>
@@ -348,6 +353,25 @@ export function Sidebar({ activeScope, onScopeChange, onNewChat, user }: Props) 
           <ISettings />
         </button>
       </div>
+
+      {/* Admin link — only visible to admins */}
+      {user?.role === "admin" && (
+        <a href="/admin" style={{
+          borderTop: "1px solid rgba(255,255,255,.06)",
+          padding: "8px 12px",
+          display: "flex", alignItems: "center", gap: 8,
+          background: "transparent", color: "var(--gold-500)",
+          fontSize: 11, fontFamily: "'JetBrains Mono', monospace",
+          textDecoration: "none", flexShrink: 0,
+          transition: "background .12s",
+        }}
+          onMouseEnter={e => { e.currentTarget.style.background = "rgba(245,168,0,.06)"; }}
+          onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}
+        >
+          <IShield />
+          <span>Panel de administración</span>
+        </a>
+      )}
     </aside>
   );
 }

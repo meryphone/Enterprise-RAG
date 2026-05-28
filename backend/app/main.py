@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api.health import router as health_router
+from app.api.admin import router as admin_router
 from app.api.projects import router as projects_router
 from app.api.query import router as query_router
 from app.auth.router import router as auth_router
@@ -20,6 +20,8 @@ from app.rag.retrieval import invalidar_cache_bm25
 _seed_env = os.path.join(os.path.dirname(__file__), "..", ".env.seed")
 load_dotenv(_seed_env, override=False)
 
+logging.getLogger("app").setLevel(logging.INFO)
+
 logger = logging.getLogger(__name__)
 
 app = FastAPI(title="IntecsaRAG", version="0.1.0")
@@ -27,7 +29,6 @@ app = FastAPI(title="IntecsaRAG", version="0.1.0")
 
 @app.on_event("startup")
 async def _startup() -> None:
-    # TESTING=1 skips seeding so test fixtures can control the DB themselves.
     if os.environ.get("TESTING") != "1":
         seed_users()
     invalidar_cache_bm25()
@@ -48,6 +49,6 @@ app.add_middleware(
 )
 
 app.include_router(auth_router)
-app.include_router(health_router)
+app.include_router(admin_router)
 app.include_router(projects_router)
 app.include_router(query_router)

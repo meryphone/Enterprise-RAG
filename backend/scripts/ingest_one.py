@@ -100,12 +100,10 @@ def main() -> int:
     children = [c for c in chunks if c["nivel"] == "child"]
     con_imagen = sum(1 for c in chunks if c["es_imagen"])
     anexo      = sum(1 for c in chunks if c["dentro_de_anexo"])
-    tablas     = sum(1 for c in chunks if "Table" in c["tipos_elemento"])
-
     print(
         f"[OK  ] {pdf_path.name}  ({dt:.1f}s)  "
         f"parents={len(parents)} children={len(children)} "
-        f"tablas={tablas} con_imagen={con_imagen} anexo={anexo}"
+        f"con_imagen={con_imagen} anexo={anexo}"
     )
     print(f"       → {out_path}")
 

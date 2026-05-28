@@ -88,7 +88,7 @@ function Wordmark({ size = 20, dark = false }: { size?: number; dark?: boolean }
           color: dark ? "rgba(255,255,255,.55)" : C.ink400,
           textTransform: "uppercase",
         }}>
-          knowledge&nbsp;·&nbsp;v1.4
+          knowledge
         </div>
       </div>
     </div>
@@ -297,7 +297,7 @@ function LoginForm() {
           padding: "4px 8px", border: `1px solid ${C.ink200}`, borderRadius: 3,
         }}>
           <span style={{ color: C.gold500 }}><Icon.dot /></span>
-          entorno: beta · corp
+          entorno: corp
         </span>
         <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: 10.5, color: C.ink400 }}>
           es · {new Date().toLocaleDateString("es-ES", { day: "2-digit", month: "2-digit", year: "numeric" })}
