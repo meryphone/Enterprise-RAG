@@ -214,7 +214,7 @@ data: {"type": "error",   "message": "..."}    ← solo si falla el LLM
 
 ## API — FastAPI
 
-**Estructura:** routers separados en `app/api/` (health.py, projects.py, query.py, admin.py). `main.py` solo registra routers y configura CORS. Permite `localhost:3000–3009` en dev.
+**Estructura:** routers separados en `app/api/` (projects.py, query.py, admin.py). `main.py` solo registra routers y configura CORS. También se registra `app/auth/router.py` para autenticación. Permite `localhost:3000–3009` en dev.
 
 **`GET /projects`:** llama a `colecciones_disponibles()` de `vector_store.py` y parsea los nombres: `intecsa` → scope global; `{proyecto_id}_{empresa}` → scope de proyecto. Filtra colecciones `__parents`.
 
@@ -228,7 +228,7 @@ data: {"type": "error",   "message": "..."}    ← solo si falla el LLM
 
 ## Frontend — Next.js 14
 
-**Ficheros:** `app/page.tsx`, `app/admin/page.tsx`, `components/Sidebar.tsx`, `components/ChatArea.tsx`, `components/ChatMessage.tsx`, `components/SourceChip.tsx`, `lib/api.ts`
+**Ficheros:** `app/page.tsx` (chat), `app/login/page.tsx` (auth), `app/admin/page.tsx` (gestión), `components/Sidebar.tsx` (selección scope), `components/Topbar.tsx` (header), `components/ChatArea.tsx` (área de chat), `components/Composer.tsx` (entrada de usuario), `components/ChatMessage.tsx` (mensaje), `components/SourceChip.tsx` (fuente), `components/EmptyState.tsx` (chat vacío), `lib/api.ts` (cliente HTTP), `lib/auth.ts` (autenticación cliente), `lib/server-auth.ts` (autenticación servidor), `lib/types.ts` (tipos compartidos)
 
 ### Decisiones de implementación
 
@@ -243,6 +243,12 @@ data: {"type": "error",   "message": "..."}    ← solo si falla el LLM
 **Sidebar:** llama a `GET /projects` al montar. Agrupa scopes por empresa (sección "General" para el corpus global, sección `{Empresa}` para proyectos). Usa `Building2` y `FolderOpen` de lucide-react para diferenciar visualmente. El enlace al panel de administración solo es visible para usuarios con `role === "admin"`.
 
 **Panel de administración (`app/admin/page.tsx`):** protegido por comprobación de rol en cliente (redirige a `/` si no es admin). Permite subir PDFs (drag & drop o selector) con sus metadatos (`empresa`, `proyecto_id`, `tipo_doc`, `idioma`) y enviarlos al endpoint `POST /admin/ingest`. Los dropdowns de empresa y proyecto se cargan dinámicamente desde `GET /projects`. El botón "Indexar lote" está desactivado hasta que hay al menos un fichero y todos los metadatos obligatorios están cubiertos. Mientras procesa muestra spinner + "Procesando…"; al completarse muestra un toast y refresca el panel de estadísticas del índice (que consulta `GET /admin/stats` en tiempo real).
+
+### API routes Next.js
+
+**`app/api/admin/ingest/route.ts`:** proxy que reenvía `POST /admin/ingest` al backend FastAPI con autenticación. Valida el token JWT en `Authorization: Bearer` y lo propaga al backend.
+
+**`app/api/admin/stats/route.ts`:** proxy que reenvía `GET /admin/stats` al backend FastAPI, también requiere autenticación.
 
 ---
 
