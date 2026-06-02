@@ -640,5 +640,25 @@
     "coleccion": "14112_cepsa_fcc",
     "proyecto_id": "14112",
     "empresa": "CEPSA FCC"
+  },
+  {
+    "query": "¿Cuál es la nomenclatura del fichero de la librería de células para Diagramas de Ingeniería y qué tipos de diagramas cubre?",
+    "coleccion": "intecsa"
+  },
+  {
+    "query": "¿Qué espesor de línea y código WT se utilizan para las líneas de proceso en los Diagramas de Ingeniería según la librería TUBE101.CEL?",
+    "coleccion": "intecsa"
+  },
+  {
+    "query": "¿Cuál es el código de célula para representar una válvula de seguridad y en qué punto se sitúa el origen de esa célula?",
+    "coleccion": "intecsa"
+  },
+  {
+    "query": "¿Qué diferencia hay entre una célula de dimensiones fijas y una célula de dimensiones variables, y cómo se obtiene una representación proporcional al tamaño real del equipo en el caso de las variables?",
+    "coleccion": "intecsa"
+  },
+  {
+    "query": "¿Qué indica el código de célula FLEC en los Diagramas de Ingeniería y cómo debe usarse en un diagrama?",
+    "coleccion": "intecsa"
   }
 ]

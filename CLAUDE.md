@@ -59,6 +59,12 @@ La GTX 960M (CUDA CC 5.0) no es compatible con PyTorch 2.6+. Se fuerza CPU con `
 
 Se eligió 1024 tokens para el parent (probado con 512): con 512 el Context Relevance cayó significativamente — los fragmentos eran demasiado cortos para preguntas que requieren contexto de sección completa.
 
+### Configuración final — chunking fijo
+
+El corpus está completamente indexado con **child=128 tokens / parent=1024 tokens** (configuración final). Todos los documentos, incluidos los de proyectos cliente, usan esta configuración.
+
+Los experimentos de parámetros de retrieval en `scripts/run_eval_configs.sh` **no afectan al chunking** — solo varían `RETRIEVAL_TOP_K`, `RETRIEVAL_TOP_N`, `RETRIEVAL_PESO_VECTOR` y `RETRIEVAL_PESO_BM25`. Si en el futuro se decide cambiar el tamaño de chunk, se requiere reindexación completa del corpus desde cero.
+
 ### Indexación en ChromaDB
 
 **Por qué dos colecciones:** los parents más largos contaminarían el espacio vectorial y distorsionarían el ranking de similitud si se indexaran junto a los children.
@@ -111,7 +117,7 @@ ChromaDB Cloud limita `col.get()` a 300 items por llamada. La indexación y el �
 
 ## Pipeline de retrieval
 
-**Fichero:** `servicios/retrieval.py` — función pública `recuperar(query, proyecto_id, empresa, ...)`
+**Fichero:** `app/rag/retrieval.py` — función pública `recuperar(query, proyecto_id, empresa, ...)`
 
 ```
 query → rewriting dual → vector search + BM25 → fusión → rerank Cohere → [ChunkRecuperado]
@@ -136,35 +142,35 @@ Cohere rerank siempre usa la query **original** para máxima fidelidad a la inte
 **Cómo:**
 1. **Vector:** embedding de `query_vector` con `text-embedding-3-large`, `col.query(n_results=top_k)` sobre la colección del scope. Distancia coseno.
 2. **BM25:** índice `BM25Okapi` construido lazy la primera vez, cacheado en memoria por colección. Tokenización preserva códigos con guión (`PR-01`, `IT-02`). El índice tokeniza `titulo_documento + seccion + texto` por chunk. `_reescribir_query` produce `query_bm25` para este paso.
-3. **Fusión:** scores normalizados min-max [0,1], combinados con pesos `VECTOR=0.7 / BM25=0.3`. Top-K candidatos pasan al rerank.
+3. **Fusión:** scores normalizados min-max [0,1], combinados con pesos `RETRIEVAL_PESO_VECTOR` / `RETRIEVAL_PESO_BM25` (actualmente `0.5 / 0.5`). Top-K candidatos pasan al rerank.
 
-Pesos calibrados: el corpus técnico de Intecsa tiene terminología consistente — el vector domina. BM25 complementa para identificadores literales.
+Los pesos de fusión, junto con `RETRIEVAL_TOP_K` (actualmente 30) y `RETRIEVAL_TOP_N`, no están fijados todavía: se calibran experimentalmente con TruLens sobre un chunking fijo de child=128 / parent=1024 tokens, eligiendo la combinación que maximiza la tríada RAG.
 
 ### Rerank con Cohere
 
 **Por qué:** los scores de fusión híbrida no son comparables entre sí ni reflejan bien la relevancia real. Cohere reordena según relevancia semántica a la query original.
 
-**Cómo:** `co.rerank(model="rerank-multilingual-v3.0", query=query_original, documents=textos_top_k, top_n=3)`. Devuelve `ChunkRecuperado` con `score=relevance_score` de Cohere.
+**Cómo:** `co.rerank(model="rerank-multilingual-v3.0", query=query_original, documents=textos_top_k, top_n=RETRIEVAL_TOP_N)`. Devuelve `ChunkRecuperado` con `score=relevance_score` de Cohere.
 
-`RETRIEVAL_TOP_N=3` (reducido de 5): con 5 chunks el LLM veía contexto de documentos incorrectos y mezclaba respuestas.
+`RETRIEVAL_TOP_N` (actualmente 5) fija cuántos chunks llegan al LLM y es uno de los parámetros bajo evaluación: pocos chunks pierden contexto de sección, demasiados hacen que el LLM mezcle documentos incorrectos.
 
 ### Expansión a parents
 
 **Por qué:** el retrieval encuentra children precisos pero el LLM necesita más contexto para responder.
 
-**Cómo:** `query.py → _expandir_parents()` hace `col.get(ids=[parent_ids])` sobre la colección `__parents` y sustituye cada child por su parent. Tablas (`parent_id=""`) se pasan directamente sin expansión. La expansión ocurre en el orquestador, no en el módulo de retrieval.
+**Cómo:** `context_builder.py::expandir_parents()` hace `col.get(ids=[parent_ids])` sobre la colección `__parents` y sustituye cada child por su parent. Tablas (`parent_id=""`) se pasan directamente sin expansión. La expansión ocurre en el orquestador (`query.py`), no en el módulo de retrieval.
 
 ---
 
 ## Generación de respuesta
 
-**Fichero:** `servicios/query.py`
+**Fichero:** `app/rag/query.py` (contexto XML construido en `app/rag/context_builder.py`)
 
 ### Contexto XML
 
 **Por qué XML:** GPT-4o está entrenado masivamente con XML y lo reconoce como delimitador estructural, no como texto citable. El atributo `doc=` permite al LLM identificar la procedencia sin que los metadatos contaminen el texto recuperable.
 
-**Cómo:** `_construir_contexto()` envuelve cada chunk:
+**Cómo:** `context_builder.py::construir_contexto()` envuelve cada chunk:
 ```xml
 <fuente id="1" doc="PR-02" edicion="8" seccion="Procedimientos Generales" paginas="3">
 texto del chunk
@@ -244,13 +250,13 @@ data: {"type": "error",   "message": "..."}    ← solo si falla el LLM
 
 **Fichero:** `scripts/eval_trulens.py`
 
-**Por qué TruLens:** evalúa automáticamente la tríada RAG (Context Relevance, Answer Relevance, Groundedness) usando GPT-4o como juez, sin necesidad de ground truth manual.
+**Por qué TruLens:** evalúa automáticamente la tríada RAG (Context Relevance, Answer Relevance, Groundedness) usando GPT-4o-mini como juez, sin necesidad de ground truth manual.
 
 **Cómo:** `RAGPipeline` es una clase síncrona instrumentada por TruLens que envuelve el pipeline real. El endpoint SSE no se puede instrumentar directamente (TruLens requiere funciones síncronas y respuesta completa). `recuperar_contexto()` guarda los chunks completos en `self._last_chunks` antes de devolver `list[str]` a TruLens — `generar_respuesta()` los usa para construir el contexto XML con metadatos correctos.
 
-**Banco de 10 queries** basadas en datos concretos de los documentos (no secciones genéricas). 7 del corpus global Intecsa + 3 del proyecto Repsol. Queries sobre secciones homólogas (OBJETO, FUNCIONES) se excluyen porque deprimen AR artificialmente.
+**Banco de queries:** `scripts/rag_evaluation_questions.json` (~112 queries), basadas en datos concretos de los documentos (no secciones genéricas). Cubre 11 colecciones: 71 del corpus global Intecsa + 41 repartidas entre los proyectos cliente. Cada entrada lleva su campo `coleccion`; el script agrupa por colección y evalúa una app TruLens por scope. Se puede acotar con `--coleccion` o apuntar a otro fichero con `--questions`. Queries sobre secciones homólogas (OBJETO, FUNCIONES) se excluyen porque deprimen AR artificialmente.
 
-**Rate limit:** 30k TPM (tier 1 OpenAI). Cada query consume ~15-20k tokens (respuesta + 3 feedbacks) → 1 query cada 18s. `eval_trulens.py --reset` para borrar evaluaciones anteriores.
+**Rate limit:** el juez GPT-4o-mini (200k TPM) absorbe la mayor parte del coste de los feedbacks; la generación principal sigue en GPT-4o (30k TPM). El script deja un gap de 10s entre queries (`_DELAY_ENTRE_QUERIES`) más reintento exponencial ante un 429. `eval_trulens.py --reset` borra las evaluaciones anteriores.
 
 **GR cae con marcadores de cita:** TruLens penaliza `[1]`, `(PR-01)` como afirmaciones no verificables. El SYSTEM_PROMPT de producción no usa marcadores.
 
@@ -291,21 +297,3 @@ CREATE TABLE users (
 ### Seed de usuarios
 
 `seed.py` se ejecuta en el evento `startup` de FastAPI (saltado si `TESTING=1`). Lee todos los datos de usuario desde variables de entorno cargadas de `backend/.env.seed` (gitignoreado). El formato es `SEED_EMAIL_N`, `SEED_NAME_N`, `SEED_ROLE_N`, `SEED_PWD_N` para N = 1..4. Si alguna variable falta, el arranque falla con un `RuntimeError` explícito que indica qué variable añadir.
-
----
-
-## Pendiente de implementar
-
-**Query Router** — infiere automáticamente el scope (corpus global vs proyecto) a partir de la pregunta. Incluye extractor de entidades, clasificador con umbral de confianza, pregunta de clarificación cuando la confianza es baja, y topbar en el frontend mostrando el scope inferido con opción de corrección manual.
-
-**Filtro por documento para queries explícitas** — cuando la query menciona un código de documento (PR-01, IT-02), pre-filtrar ChromaDB por `nombre_fichero` antes del retrieval vectorial. Mitiga el problema de secciones homólogas para este tipo de queries.
-
-### Fuera del alcance de la beta
-
-- GPT-4o vision para todas las imágenes (actualmente solo tablas degradadas).
-- Búsqueda web externa (Tavily).
-- Normativas externas (ISO, EN, UNE, ASME).
-- Documentos escaneados con OCR.
-- Diagramas P&ID completos procesados como imagen.
-- Contratos con deduplicación semántica.
-- Historial conversacional

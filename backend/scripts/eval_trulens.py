@@ -176,6 +176,38 @@ class RAGPipeline:
         return self.generar_respuesta(pregunta, contextos)
 
 
+class RAGPipelineMulticoleccion:
+    """Pipeline que cambia dinámicamente la colección por pregunta (sin iterar por colección)."""
+
+    def __init__(self) -> None:
+        self._openai = OpenAI(api_key=SETTINGS.openai_api_key)
+        self._pipeline_actual: RAGPipeline | None = None
+        self._coleccion_actual: str | None = None
+
+    def _cambiar_coleccion(self, coleccion: str) -> None:
+        """Crea un nuevo pipeline si la colección cambió."""
+        if self._coleccion_actual != coleccion:
+            self._coleccion_actual = coleccion
+            self._pipeline_actual = RAGPipeline(coleccion=coleccion)
+
+    @instrument
+    def recuperar_contexto(self, query: str, coleccion: str) -> list[str]:
+        """Recupera contexto de la colección especificada."""
+        self._cambiar_coleccion(coleccion)
+        return self._pipeline_actual.recuperar_contexto(query)
+
+    @instrument
+    def generar_respuesta(self, query: str, contextos: list[str]) -> str:
+        """Genera respuesta usando el pipeline actual."""
+        return self._pipeline_actual.generar_respuesta(query, contextos)
+
+    @instrument
+    def query(self, pregunta: str, coleccion: str) -> str:
+        """Punto de entrada: evalúa pregunta de una colección específica."""
+        contextos = self.recuperar_contexto(pregunta, coleccion)
+        return self.generar_respuesta(pregunta, contextos)
+
+
 # ── Rate limit helpers ────────────────────────────────────────────────────────
 
 # Con juez gpt-4o-mini, la mayor parte del coste TPM la asume mini (200k TPM).
@@ -207,6 +239,7 @@ def ejecutar_evaluacion(
     reset: bool,
     dashboard: bool,
     version: str = "beta",
+    config_name: str | None = None,
 ) -> None:
     import warnings
     try:
@@ -267,56 +300,49 @@ def ejecutar_evaluacion(
     except ImportError:
         feedback_mode = "with_app_thread"
 
-    # Colecciones a evaluar: la indicada por CLI o todas las presentes en el JSON
+    # Filtrar queries según la colección especificada (o todas si no se especifica)
+    queries_a_evaluar = QUERIES
     if coleccion is not None:
-        colecciones = [coleccion]
-    else:
-        seen: set[str] = set()
-        colecciones = [
-            q["coleccion"] for q in QUERIES
-            if q.get("coleccion") and not (q["coleccion"] in seen or seen.add(q["coleccion"]))  # type: ignore[func-returns-value]
-        ]
+        queries_a_evaluar = [q for q in QUERIES if q.get("coleccion") == coleccion]
 
-    app_ids: list[str] = []
+    if not queries_a_evaluar:
+        print(f"[ERROR] No hay queries para evaluar.", file=sys.stderr)
+        return
 
-    for col in colecciones:
-        queries_scope = [q for q in QUERIES if q.get("coleccion") == col]
-        if not queries_scope:
-            print(f"[WARN] No hay queries en el JSON para la colección: {col}.", file=sys.stderr)
-            continue
+    # Crear un único pipeline multicolección
+    pipeline = RAGPipelineMulticoleccion()
+    app_name_prefix = config_name if config_name else "IntecsaRAG"
+    tru_app = TruCustomApp(
+        pipeline,
+        app_name=f"{app_name_prefix}-batch",
+        app_version=version,
+        feedbacks=[f_context_rel, f_answer_rel, f_groundedness],
+        feedback_mode=feedback_mode,
+    )
 
-        pipeline = RAGPipeline(coleccion=col)
-        tru_app = TruCustomApp(
-            pipeline,
-            app_name=f"IntecsaRAG-{col}",
-            app_version=version,
-            feedbacks=[f_context_rel, f_answer_rel, f_groundedness],
-            feedback_mode=feedback_mode,
-        )
-        app_ids.append(tru_app.app_id)
+    print(f"\nEvaluando {len(queries_a_evaluar)} queries en una sola pasada...\n")
 
-        print(f"\nEvaluando {len(queries_scope)} queries para la colección '{col}'...\n")
+    for idx, q in enumerate(queries_a_evaluar):
+        col = q.get("coleccion", "intecsa")
+        print(f"  [{idx+1}/{len(queries_a_evaluar)}] [{col}] {q['query'][:60]}...")
+        try:
+            with tru_app as recording:
+                _ejecutar_con_retry(pipeline.query, q["query"], col)
+        except Exception as exc:
+            print(f"  [ERROR] '{q['query'][:60]}': {exc}", file=sys.stderr)
+        if idx < len(queries_a_evaluar) - 1:
+            time.sleep(_DELAY_ENTRE_QUERIES)
 
-        for idx, q in enumerate(queries_scope):
-            print(f"  [{idx+1}/{len(queries_scope)}] {q['query'][:70]}...")
-            try:
-                with tru_app as recording:
-                    _ejecutar_con_retry(pipeline.query, q["query"])
-            except Exception as exc:
-                print(f"  [ERROR] '{q['query'][:60]}': {exc}", file=sys.stderr)
-            if idx < len(queries_scope) - 1:
-                time.sleep(_DELAY_ENTRE_QUERIES)
+    # Esperar a que todos los feedbacks en background terminen antes de leer resultados
+    if hasattr(session, "wait_for_evaluations"):
+        print("\nEsperando evaluaciones pendientes...")
+        session.wait_for_evaluations()
 
-        # Esperar a que todos los feedbacks en background terminen antes de leer resultados
-        if hasattr(session, "wait_for_evaluations"):
-            print("Esperando evaluaciones pendientes...")
-            session.wait_for_evaluations()
+    leaderboard = session.get_leaderboard(app_ids=[tru_app.app_id])
+    print(f"\n── Resultados consolidados ──────────────────────────────────────────")
+    print(leaderboard.to_string())
 
-        leaderboard = session.get_leaderboard(app_ids=[tru_app.app_id])
-        print(f"\n── Resultados {col} ──────────────────────────────────────────────")
-        print(leaderboard.to_string())
-
-        _persistir_resultados(session, tru_app.app_id, col)
+    _persistir_resultados(session, tru_app.app_id, "evaluacion_completa")
 
     if dashboard:
         print("\nLanzando dashboard TruLens en http://localhost:8501 ...")
@@ -357,6 +383,8 @@ def main() -> int:
                         help="Ruta al fichero JSON de preguntas (por defecto: eval_questions.json junto a este script)")
     parser.add_argument("--version",        default="beta", metavar="ETIQUETA",
                         help="Etiqueta de versión para esta ejecución en el dashboard (p.ej. 'top_k18_top_n4')")
+    parser.add_argument("--config-name",   default=None, metavar="NOMBRE",
+                        help="Nombre de la configuración (p.ej. CONF1). Sustituye 'IntecsaRAG' en el app_name de TruLens.")
     parser.add_argument("--reset",         action="store_true", help="Borrar evaluaciones previas")
     parser.add_argument("--no-dashboard",  action="store_true", help="No lanzar dashboard web")
     parser.add_argument("--debug",         action="store_true", help="Mostrar queries reescritas, chunks y contexto")
@@ -382,6 +410,7 @@ def main() -> int:
         reset=args.reset,
         dashboard=not args.no_dashboard,
         version=args.version,
+        config_name=args.config_name,
     )
     return 0
 
